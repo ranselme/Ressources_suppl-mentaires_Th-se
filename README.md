@@ -1,1 +1,1 @@
-# Ressources_suppl-mentaires_Th-se
+# Ressources_supplémentaires_Thèse
