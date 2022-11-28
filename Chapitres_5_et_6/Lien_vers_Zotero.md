@@ -6,4 +6,5 @@ Nous proposons un lien Zotero vers ces différents ouvrages de différentes natu
 
 Lien vers la *bibliographie partagée* sur Zotero : <https://www.zotero.org/groups/4872307/anselme_2022_corpus/library>
 
-(**Au 28 novembre 2022** : la moitié des références a déjà été ajouté, quelques problèmes avec les références en cyrilique qui seront corrigés.)
+(**Au 28 novembre 2022** : la moitié des références a déjà été ajouté, quelques problèmes avec les références en cyrilique qui seront corrigés.
+Lorsque toutes les références auront été aussi été ajoutées à Zotero, un fichier .bib sera aussi ajouté dans ce dossier.)
