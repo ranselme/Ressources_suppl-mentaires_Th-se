@@ -6,10 +6,10 @@ output:
   github_document:
     #df_print: default
     #highlight: kate
-    theme: readable
+    #theme: readable
     toc: true
     toc_depth: 6
-    toc_float: yes
+    #toc_float: yes
   #pdf_document: 
   #  keep_tex: yes
   #  toc: yes
