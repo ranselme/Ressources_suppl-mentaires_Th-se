@@ -3,7 +3,7 @@ title: "Ressources complémentaires - Chapitre 1"
 author: "Rémi Anselme"
 date: "`r Sys.time()`"
 output:
-  html_document: 
+  github_document:
     df_print: default
     highlight: kate
     theme: readable
