@@ -1,18 +1,18 @@
 Ressources complémentaires - Chapitre 1
 ================
 Rémi Anselme
-2022-11-28 21:12:56
+2022-11-28 21:14:52
 
   - [Chapitre 1](#chapitre-1)
-      - [Représentation et caractérisation des rhotiques et des sons «
-        simil-*r*
-        »](#représentation-et-caractérisation-des-rhotiques-et-des-sons--simil-r-)
-      - [Terminologie et historique du
-        tap/flap](#terminologie-et-historique-du-tapflap)
+      - [1.1 Représentation et caractérisation des rhotiques et des sons
+        « simil-*r*
+        »](#11-représentation-et-caractérisation-des-rhotiques-et-des-sons--simil-r-)
+      - [1.2.2.1 Terminologie et historique du
+        tap/flap](#1221-terminologie-et-historique-du-tapflap)
 
 # Chapitre 1
 
-## Représentation et caractérisation des rhotiques et des sons « simil-*r* »
+## 1.1 Représentation et caractérisation des rhotiques et des sons « simil-*r* »
 
 Problème avec le Package *ngramr*. Dernière utilisation en juillet 2022
 (avec vraisemblablement `ngramr v.1.7.5`), mais depuis plusieurs mise à
@@ -28,7 +28,7 @@ versions antérieures ont échoués.
 #              smoothing = 10)
 ```
 
-## Terminologie et historique du tap/flap
+## 1.2.2.1 Terminologie et historique du tap/flap
 
 ``` r
 #ngramr::ggram(c('alveolar trill','alveolar flap', 'alveolar tap'),
