@@ -21,6 +21,6 @@ Ceci est le dossier GitHub qui contient toutes les ressources pour la thèse de 
     ## │   └── Scripts
     ## ├── Chapitre 6
     ## │   └── Scripts
-    ## └──  Chapitre 5 et 6
+    ## └──  Chapitres 5 et 6
     ##     └── Bibliographie sur Zotero
     
