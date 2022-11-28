@@ -11,5 +11,5 @@ Ceci est le dossier GitHub qui contient toutes les ressources pour la thèse de 
     ## │   ├── TextGrids de la Première étude
     ## │   └── TextGrids de la deuxième étude
     ## └── Bibliographie - Chapitre 5 et 6
-    ##      └── Lien Zotero
+    ##     └── Lien Zotero
     
