@@ -7,6 +7,9 @@ Ceci est le dossier GitHub qui contient toutes les ressources pour la thèse de 
 ## Arboresence
 
     ## .
-    ## └── TextGrids - Chapitre 3
-    ##     ├── TextGrids de la Première étude
-    ##     └── TextGrids de la deuxième étude
+    ## ├── TextGrids - Chapitre 3
+    ## │   ├── TextGrids de la Première étude
+    ## │   └── TextGrids de la deuxième étude
+    ## └── Bibliographie - Chapitre 5 et 6
+    ##      └── Lien Zotero
+    
