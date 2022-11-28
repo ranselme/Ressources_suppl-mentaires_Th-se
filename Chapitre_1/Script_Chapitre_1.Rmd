@@ -4,16 +4,16 @@ author: "Rémi Anselme"
 date: "`r Sys.time()`"
 output:
   github_document:
-    df_print: default
-    highlight: kate
+    #df_print: default
+    #highlight: kate
     theme: readable
-    toc: yes
+    toc: true
     toc_depth: 6
     toc_float: yes
-  pdf_document: 
-    keep_tex: yes
-    toc: yes
-    toc_depth: 6
+  #pdf_document: 
+  #  keep_tex: yes
+  #  toc: yes
+  #  toc_depth: 6
 editor_options:
   chunk_output_type: console
 ---
