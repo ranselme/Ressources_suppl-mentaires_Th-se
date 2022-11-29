@@ -1,0 +1,156 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 76.00349206349206 
+tiers? <exists> 
+size = 2 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "rhotic" 
+        xmin = 0 
+        xmax = 76.00349206349206 
+        intervals: size = 17 
+        intervals [1]:
+            xmin = 0 
+            xmax = 10.72966314652211 
+            text = "" 
+        intervals [2]:
+            xmin = 10.72966314652211 
+            xmax = 10.78677908043623 
+            text = "t4" 
+        intervals [3]:
+            xmin = 10.78677908043623 
+            xmax = 17.69193368936838 
+            text = "" 
+        intervals [4]:
+            xmin = 17.69193368936838 
+            xmax = 17.7280309596021 
+            text = "t4" 
+        intervals [5]:
+            xmin = 17.7280309596021 
+            xmax = 17.917655860196977 
+            text = "" 
+        intervals [6]:
+            xmin = 17.917655860196977 
+            xmax = 17.951011565602823 
+            text = "t4" 
+        intervals [7]:
+            xmin = 17.951011565602823 
+            xmax = 25.944027131788367 
+            text = "" 
+        intervals [8]:
+            xmin = 25.944027131788367 
+            xmax = 25.98736784960475 
+            text = "t1" 
+        intervals [9]:
+            xmin = 25.98736784960475 
+            xmax = 38.163352724147195 
+            text = "" 
+        intervals [10]:
+            xmin = 38.163352724147195 
+            xmax = 38.20615805401836 
+            text = "t1" 
+        intervals [11]:
+            xmin = 38.20615805401836 
+            xmax = 55.08477738050623 
+            text = "" 
+        intervals [12]:
+            xmin = 55.08477738050623 
+            xmax = 55.1218204544332 
+            text = "t1" 
+        intervals [13]:
+            xmin = 55.1218204544332 
+            xmax = 62.63415642430563 
+            text = "" 
+        intervals [14]:
+            xmin = 62.63415642430563 
+            xmax = 62.69721241534682 
+            text = "t4" 
+        intervals [15]:
+            xmin = 62.69721241534682 
+            xmax = 65.89342320709402 
+            text = "" 
+        intervals [16]:
+            xmin = 65.89342320709402 
+            xmax = 65.93787489580637 
+            text = "t1" 
+        intervals [17]:
+            xmin = 65.93787489580637 
+            xmax = 76.00349206349206 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "label" 
+        xmin = 0 
+        xmax = 76.00349206349206 
+        intervals: size = 17 
+        intervals [1]:
+            xmin = 0 
+            xmax = 10.72966314652211 
+            text = "" 
+        intervals [2]:
+            xmin = 10.72966314652211 
+            xmax = 10.78677908043623 
+            text = "flap" 
+        intervals [3]:
+            xmin = 10.78677908043623 
+            xmax = 17.69193368936838 
+            text = "" 
+        intervals [4]:
+            xmin = 17.69193368936838 
+            xmax = 17.7280309596021 
+            text = "flap" 
+        intervals [5]:
+            xmin = 17.7280309596021 
+            xmax = 17.917655860196977 
+            text = "" 
+        intervals [6]:
+            xmin = 17.917655860196977 
+            xmax = 17.951011565602823 
+            text = "flap" 
+        intervals [7]:
+            xmin = 17.951011565602823 
+            xmax = 25.944027131788367 
+            text = "" 
+        intervals [8]:
+            xmin = 25.944027131788367 
+            xmax = 25.98736784960475 
+            text = "flap" 
+        intervals [9]:
+            xmin = 25.98736784960475 
+            xmax = 38.163352724147195 
+            text = "" 
+        intervals [10]:
+            xmin = 38.163352724147195 
+            xmax = 38.20615805401836 
+            text = "flap" 
+        intervals [11]:
+            xmin = 38.20615805401836 
+            xmax = 55.08477738050623 
+            text = "" 
+        intervals [12]:
+            xmin = 55.08477738050623 
+            xmax = 55.1218204544332 
+            text = "flap" 
+        intervals [13]:
+            xmin = 55.1218204544332 
+            xmax = 62.63415642430563 
+            text = "" 
+        intervals [14]:
+            xmin = 62.63415642430563 
+            xmax = 62.69721241534682 
+            text = "flap" 
+        intervals [15]:
+            xmin = 62.69721241534682 
+            xmax = 65.89342320709402 
+            text = "" 
+        intervals [16]:
+            xmin = 65.89342320709402 
+            xmax = 65.93787489580637 
+            text = "flap" 
+        intervals [17]:
+            xmin = 65.93787489580637 
+            xmax = 76.00349206349206 
+            text = "" 

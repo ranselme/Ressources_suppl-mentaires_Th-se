@@ -1,0 +1,252 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 66.89585000000001 
+tiers? <exists> 
+size = 2 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "rhotic" 
+        xmin = 0 
+        xmax = 66.89585000000001 
+        intervals: size = 29 
+        intervals [1]:
+            xmin = 0 
+            xmax = 2.3420566515719496 
+            text = "" 
+        intervals [2]:
+            xmin = 2.3420566515719496 
+            xmax = 2.371142324433125 
+            text = "t4" 
+        intervals [3]:
+            xmin = 2.371142324433125 
+            xmax = 5.52672249050865 
+            text = "" 
+        intervals [4]:
+            xmin = 5.52672249050865 
+            xmax = 5.565686316417017 
+            text = "t4" 
+        intervals [5]:
+            xmin = 5.565686316417017 
+            xmax = 14.388708887245839 
+            text = "" 
+        intervals [6]:
+            xmin = 14.388708887245839 
+            xmax = 14.4348069347994 
+            text = "t4" 
+        intervals [7]:
+            xmin = 14.4348069347994 
+            xmax = 18.005447673180356 
+            text = "" 
+        intervals [8]:
+            xmin = 18.005447673180356 
+            xmax = 18.048801789331918 
+            text = "t4" 
+        intervals [9]:
+            xmin = 18.048801789331918 
+            xmax = 23.76064687777177 
+            text = "" 
+        intervals [10]:
+            xmin = 23.76064687777177 
+            xmax = 23.802903421362533 
+            text = "t4" 
+        intervals [11]:
+            xmin = 23.802903421362533 
+            xmax = 32.40668678556456 
+            text = "" 
+        intervals [12]:
+            xmin = 32.40668678556456 
+            xmax = 32.435223672145334 
+            text = "t4" 
+        intervals [13]:
+            xmin = 32.435223672145334 
+            xmax = 33.904170107935734 
+            text = "" 
+        intervals [14]:
+            xmin = 33.904170107935734 
+            xmax = 33.98127458033186 
+            text = "t4" 
+        intervals [15]:
+            xmin = 33.98127458033186 
+            xmax = 35.629811040403204 
+            text = "" 
+        intervals [16]:
+            xmin = 35.629811040403204 
+            xmax = 35.67851582278866 
+            text = "t1" 
+        intervals [17]:
+            xmin = 35.67851582278866 
+            xmax = 40.68019515125096 
+            text = "" 
+        intervals [18]:
+            xmin = 40.68019515125096 
+            xmax = 40.71641504575733 
+            text = "t4" 
+        intervals [19]:
+            xmin = 40.71641504575733 
+            xmax = 50.40467514573281 
+            text = "" 
+        intervals [20]:
+            xmin = 50.40467514573281 
+            xmax = 50.44638290304318 
+            text = "t4" 
+        intervals [21]:
+            xmin = 50.44638290304318 
+            xmax = 52.84126324368134 
+            text = "" 
+        intervals [22]:
+            xmin = 52.84126324368134 
+            xmax = 52.89723944428209 
+            text = "t1" 
+        intervals [23]:
+            xmin = 52.89723944428209 
+            xmax = 53.21914288730106 
+            text = "" 
+        intervals [24]:
+            xmin = 53.21914288730106 
+            xmax = 53.26908243881742 
+            text = "t1" 
+        intervals [25]:
+            xmin = 53.26908243881742 
+            xmax = 62.41121903870654 
+            text = "" 
+        intervals [26]:
+            xmin = 62.41121903870654 
+            xmax = 62.47487824723289 
+            text = "t4" 
+        intervals [27]:
+            xmin = 62.47487824723289 
+            xmax = 64.02115558302883 
+            text = "" 
+        intervals [28]:
+            xmin = 64.02115558302883 
+            xmax = 64.07383906594718 
+            text = "t4" 
+        intervals [29]:
+            xmin = 64.07383906594718 
+            xmax = 66.89585000000001 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "label" 
+        xmin = 0 
+        xmax = 66.89585000000001 
+        intervals: size = 29 
+        intervals [1]:
+            xmin = 0 
+            xmax = 2.3420566515719496 
+            text = "" 
+        intervals [2]:
+            xmin = 2.3420566515719496 
+            xmax = 2.371142324433125 
+            text = "trill" 
+        intervals [3]:
+            xmin = 2.371142324433125 
+            xmax = 5.52672249050865 
+            text = "" 
+        intervals [4]:
+            xmin = 5.52672249050865 
+            xmax = 5.565686316417017 
+            text = "trill" 
+        intervals [5]:
+            xmin = 5.565686316417017 
+            xmax = 14.388708887245839 
+            text = "" 
+        intervals [6]:
+            xmin = 14.388708887245839 
+            xmax = 14.4348069347994 
+            text = "trill" 
+        intervals [7]:
+            xmin = 14.4348069347994 
+            xmax = 18.005447673180356 
+            text = "" 
+        intervals [8]:
+            xmin = 18.005447673180356 
+            xmax = 18.048801789331918 
+            text = "trill" 
+        intervals [9]:
+            xmin = 18.048801789331918 
+            xmax = 23.76064687777177 
+            text = "" 
+        intervals [10]:
+            xmin = 23.76064687777177 
+            xmax = 23.802903421362533 
+            text = "trill" 
+        intervals [11]:
+            xmin = 23.802903421362533 
+            xmax = 32.40668678556456 
+            text = "" 
+        intervals [12]:
+            xmin = 32.40668678556456 
+            xmax = 32.435223672145334 
+            text = "trill" 
+        intervals [13]:
+            xmin = 32.435223672145334 
+            xmax = 33.904170107935734 
+            text = "" 
+        intervals [14]:
+            xmin = 33.904170107935734 
+            xmax = 33.98127458033186 
+            text = "trill" 
+        intervals [15]:
+            xmin = 33.98127458033186 
+            xmax = 35.629811040403204 
+            text = "" 
+        intervals [16]:
+            xmin = 35.629811040403204 
+            xmax = 35.67851582278866 
+            text = "trill" 
+        intervals [17]:
+            xmin = 35.67851582278866 
+            xmax = 40.68019515125096 
+            text = "" 
+        intervals [18]:
+            xmin = 40.68019515125096 
+            xmax = 40.71641504575733 
+            text = "trill" 
+        intervals [19]:
+            xmin = 40.71641504575733 
+            xmax = 50.40467514573281 
+            text = "" 
+        intervals [20]:
+            xmin = 50.40467514573281 
+            xmax = 50.44638290304318 
+            text = "trill" 
+        intervals [21]:
+            xmin = 50.44638290304318 
+            xmax = 52.84126324368134 
+            text = "" 
+        intervals [22]:
+            xmin = 52.84126324368134 
+            xmax = 52.89723944428209 
+            text = "trill" 
+        intervals [23]:
+            xmin = 52.89723944428209 
+            xmax = 53.21914288730106 
+            text = "" 
+        intervals [24]:
+            xmin = 53.21914288730106 
+            xmax = 53.26908243881742 
+            text = "trill" 
+        intervals [25]:
+            xmin = 53.26908243881742 
+            xmax = 62.41121903870654 
+            text = "" 
+        intervals [26]:
+            xmin = 62.41121903870654 
+            xmax = 62.47487824723289 
+            text = "trill" 
+        intervals [27]:
+            xmin = 62.47487824723289 
+            xmax = 64.02115558302883 
+            text = "" 
+        intervals [28]:
+            xmin = 64.02115558302883 
+            xmax = 64.07383906594718 
+            text = "trill" 
+        intervals [29]:
+            xmin = 64.07383906594718 
+            xmax = 66.89585000000001 
+            text = "" 

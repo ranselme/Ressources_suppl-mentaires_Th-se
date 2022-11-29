@@ -1,0 +1,572 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 39.96015873015873 
+tiers? <exists> 
+size = 2 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "rhotic" 
+        xmin = 0 
+        xmax = 39.96015873015873 
+        intervals: size = 69 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.51904792131945 
+            text = "" 
+        intervals [2]:
+            xmin = 1.51904792131945 
+            xmax = 1.5710550824269232 
+            text = "t1" 
+        intervals [3]:
+            xmin = 1.5710550824269232 
+            xmax = 3.7041431132628317 
+            text = "" 
+        intervals [4]:
+            xmin = 3.7041431132628317 
+            xmax = 3.7358762963114596 
+            text = "t4" 
+        intervals [5]:
+            xmin = 3.7358762963114596 
+            xmax = 4.902658905382424 
+            text = "" 
+        intervals [6]:
+            xmin = 4.902658905382424 
+            xmax = 4.941939782582026 
+            text = "t1" 
+        intervals [7]:
+            xmin = 4.941939782582026 
+            xmax = 5.499357243100903 
+            text = "" 
+        intervals [8]:
+            xmin = 5.499357243100903 
+            xmax = 5.553904211310685 
+            text = "t1" 
+        intervals [9]:
+            xmin = 5.553904211310685 
+            xmax = 7.345461255511945 
+            text = "" 
+        intervals [10]:
+            xmin = 7.345461255511945 
+            xmax = 7.382782865339691 
+            text = "t1" 
+        intervals [11]:
+            xmin = 7.382782865339691 
+            xmax = 8.074381994330917 
+            text = "" 
+        intervals [12]:
+            xmin = 8.074381994330917 
+            xmax = 8.120316277887605 
+            text = "t1" 
+        intervals [13]:
+            xmin = 8.120316277887605 
+            xmax = 12.516471212809197 
+            text = "" 
+        intervals [14]:
+            xmin = 12.516471212809197 
+            xmax = 12.560491563397651 
+            text = "t1" 
+        intervals [15]:
+            xmin = 12.560491563397651 
+            xmax = 13.856606118050422 
+            text = "" 
+        intervals [16]:
+            xmin = 13.856606118050422 
+            xmax = 13.900626468638876 
+            text = "t1" 
+        intervals [17]:
+            xmin = 13.900626468638876 
+            xmax = 13.969527886951237 
+            text = "" 
+        intervals [18]:
+            xmin = 13.969527886951237 
+            xmax = 14.014505201682919 
+            text = "t1" 
+        intervals [19]:
+            xmin = 14.014505201682919 
+            xmax = 14.458301378268455 
+            text = "" 
+        intervals [20]:
+            xmin = 14.458301378268455 
+            xmax = 14.50232172885691 
+            text = "t1" 
+        intervals [21]:
+            xmin = 14.50232172885691 
+            xmax = 15.013737210440924 
+            text = "" 
+        intervals [22]:
+            xmin = 15.013737210440924 
+            xmax = 15.053929704456468 
+            text = "t1" 
+        intervals [23]:
+            xmin = 15.053929704456468 
+            xmax = 15.475155317867692 
+            text = "" 
+        intervals [24]:
+            xmin = 15.475155317867692 
+            xmax = 15.524917449934224 
+            text = "t1" 
+        intervals [25]:
+            xmin = 15.524917449934224 
+            xmax = 16.79239439482575 
+            text = "" 
+        intervals [26]:
+            xmin = 16.79239439482575 
+            xmax = 16.847827788674632 
+            text = "t1" 
+        intervals [27]:
+            xmin = 16.847827788674632 
+            xmax = 17.557217905672875 
+            text = "" 
+        intervals [28]:
+            xmin = 17.557217905672875 
+            xmax = 17.598345907560756 
+            text = "t4" 
+        intervals [29]:
+            xmin = 17.598345907560756 
+            xmax = 18.457600096556106 
+            text = "" 
+        intervals [30]:
+            xmin = 18.457600096556106 
+            xmax = 18.5031985334318 
+            text = "t1" 
+        intervals [31]:
+            xmin = 18.5031985334318 
+            xmax = 20.280507713391145 
+            text = "" 
+        intervals [32]:
+            xmin = 20.280507713391145 
+            xmax = 20.331470672252216 
+            text = "t1" 
+        intervals [33]:
+            xmin = 20.331470672252216 
+            xmax = 21.185358383088587 
+            text = "" 
+        intervals [34]:
+            xmin = 21.185358383088587 
+            xmax = 21.228061734747698 
+            text = "t4" 
+        intervals [35]:
+            xmin = 21.228061734747698 
+            xmax = 21.593657200027124 
+            text = "" 
+        intervals [36]:
+            xmin = 21.593657200027124 
+            xmax = 21.63082507316821 
+            text = "t1" 
+        intervals [37]:
+            xmin = 21.63082507316821 
+            xmax = 22.38665917468402 
+            text = "" 
+        intervals [38]:
+            xmin = 22.38665917468402 
+            xmax = 22.411676012375136 
+            text = "t1" 
+        intervals [39]:
+            xmin = 22.411676012375136 
+            xmax = 24.546346893574132 
+            text = "" 
+        intervals [40]:
+            xmin = 24.546346893574132 
+            xmax = 24.637122276053322 
+            text = "t2" 
+        intervals [41]:
+            xmin = 24.637122276053322 
+            xmax = 25.211269387297815 
+            text = "" 
+        intervals [42]:
+            xmin = 25.211269387297815 
+            xmax = 25.259873529097696 
+            text = "t1" 
+        intervals [43]:
+            xmin = 25.259873529097696 
+            xmax = 26.688256650710084 
+            text = "" 
+        intervals [44]:
+            xmin = 26.688256650710084 
+            xmax = 26.732572191762916 
+            text = "t1" 
+        intervals [45]:
+            xmin = 26.732572191762916 
+            xmax = 27.834756427595565 
+            text = "" 
+        intervals [46]:
+            xmin = 27.834756427595565 
+            xmax = 27.886219636560146 
+            text = "t1" 
+        intervals [47]:
+            xmin = 27.886219636560146 
+            xmax = 29.04007189616122 
+            text = "" 
+        intervals [48]:
+            xmin = 29.04007189616122 
+            xmax = 29.075810235719956 
+            text = "t1" 
+        intervals [49]:
+            xmin = 29.075810235719956 
+            xmax = 30.584756950170288 
+            text = "" 
+        intervals [50]:
+            xmin = 30.584756950170288 
+            xmax = 30.628357724431943 
+            text = "t1" 
+        intervals [51]:
+            xmin = 30.628357724431943 
+            xmax = 31.459645206548807 
+            text = "" 
+        intervals [52]:
+            xmin = 31.459645206548807 
+            xmax = 31.501816447228116 
+            text = "t1" 
+        intervals [53]:
+            xmin = 31.501816447228116 
+            xmax = 31.69623301442764 
+            text = "" 
+        intervals [54]:
+            xmin = 31.69623301442764 
+            xmax = 31.74769622339222 
+            text = "t1" 
+        intervals [55]:
+            xmin = 31.74769622339222 
+            xmax = 33.580036044579145 
+            text = "" 
+        intervals [56]:
+            xmin = 33.580036044579145 
+            xmax = 33.6279254119637 
+            text = "t1" 
+        intervals [57]:
+            xmin = 33.6279254119637 
+            xmax = 35.42296805521856 
+            text = "" 
+        intervals [58]:
+            xmin = 35.42296805521856 
+            xmax = 35.47085742260312 
+            text = "t1" 
+        intervals [59]:
+            xmin = 35.47085742260312 
+            xmax = 36.341510476758636 
+            text = "" 
+        intervals [60]:
+            xmin = 36.341510476758636 
+            xmax = 36.38654077743367 
+            text = "t1" 
+        intervals [61]:
+            xmin = 36.38654077743367 
+            xmax = 37.27913112087202 
+            text = "" 
+        intervals [62]:
+            xmin = 37.27913112087202 
+            xmax = 37.36061452209351 
+            text = "t2" 
+        intervals [63]:
+            xmin = 37.36061452209351 
+            xmax = 37.844556356783905 
+            text = "" 
+        intervals [64]:
+            xmin = 37.844556356783905 
+            xmax = 37.88172422400774 
+            text = "t1" 
+        intervals [65]:
+            xmin = 37.88172422400774 
+            xmax = 38.27584139830794 
+            text = "" 
+        intervals [66]:
+            xmin = 38.27584139830794 
+            xmax = 38.33445226585322 
+            text = "t1" 
+        intervals [67]:
+            xmin = 38.33445226585322 
+            xmax = 38.42409435877305 
+            text = "" 
+        intervals [68]:
+            xmin = 38.42409435877305 
+            xmax = 38.4684098927707 
+            text = "t1" 
+        intervals [69]:
+            xmin = 38.4684098927707 
+            xmax = 39.96015873015873 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "label" 
+        xmin = 0 
+        xmax = 39.96015873015873 
+        intervals: size = 69 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.51904792131945 
+            text = "" 
+        intervals [2]:
+            xmin = 1.51904792131945 
+            xmax = 1.5710550824269232 
+            text = "tap" 
+        intervals [3]:
+            xmin = 1.5710550824269232 
+            xmax = 3.7041431132628317 
+            text = "" 
+        intervals [4]:
+            xmin = 3.7041431132628317 
+            xmax = 3.7358762963114596 
+            text = "tap" 
+        intervals [5]:
+            xmin = 3.7358762963114596 
+            xmax = 4.902658905382424 
+            text = "" 
+        intervals [6]:
+            xmin = 4.902658905382424 
+            xmax = 4.941939782582026 
+            text = "tap" 
+        intervals [7]:
+            xmin = 4.941939782582026 
+            xmax = 5.499357243100903 
+            text = "" 
+        intervals [8]:
+            xmin = 5.499357243100903 
+            xmax = 5.553904211310685 
+            text = "tap" 
+        intervals [9]:
+            xmin = 5.553904211310685 
+            xmax = 7.345461255511945 
+            text = "" 
+        intervals [10]:
+            xmin = 7.345461255511945 
+            xmax = 7.382782865339691 
+            text = "tap" 
+        intervals [11]:
+            xmin = 7.382782865339691 
+            xmax = 8.074381994330917 
+            text = "" 
+        intervals [12]:
+            xmin = 8.074381994330917 
+            xmax = 8.120316277887605 
+            text = "tap" 
+        intervals [13]:
+            xmin = 8.120316277887605 
+            xmax = 12.516471212809197 
+            text = "" 
+        intervals [14]:
+            xmin = 12.516471212809197 
+            xmax = 12.560491563397651 
+            text = "tap" 
+        intervals [15]:
+            xmin = 12.560491563397651 
+            xmax = 13.856606118050422 
+            text = "" 
+        intervals [16]:
+            xmin = 13.856606118050422 
+            xmax = 13.900626468638876 
+            text = "tap" 
+        intervals [17]:
+            xmin = 13.900626468638876 
+            xmax = 13.969527886951237 
+            text = "" 
+        intervals [18]:
+            xmin = 13.969527886951237 
+            xmax = 14.014505201682919 
+            text = "tap" 
+        intervals [19]:
+            xmin = 14.014505201682919 
+            xmax = 14.458301378268455 
+            text = "" 
+        intervals [20]:
+            xmin = 14.458301378268455 
+            xmax = 14.50232172885691 
+            text = "tap" 
+        intervals [21]:
+            xmin = 14.50232172885691 
+            xmax = 15.013737210440924 
+            text = "" 
+        intervals [22]:
+            xmin = 15.013737210440924 
+            xmax = 15.053929704456468 
+            text = "tap" 
+        intervals [23]:
+            xmin = 15.053929704456468 
+            xmax = 15.475155317867692 
+            text = "" 
+        intervals [24]:
+            xmin = 15.475155317867692 
+            xmax = 15.524917449934224 
+            text = "tap" 
+        intervals [25]:
+            xmin = 15.524917449934224 
+            xmax = 16.79239439482575 
+            text = "" 
+        intervals [26]:
+            xmin = 16.79239439482575 
+            xmax = 16.847827788674632 
+            text = "tap" 
+        intervals [27]:
+            xmin = 16.847827788674632 
+            xmax = 17.557217905672875 
+            text = "" 
+        intervals [28]:
+            xmin = 17.557217905672875 
+            xmax = 17.598345907560756 
+            text = "tap" 
+        intervals [29]:
+            xmin = 17.598345907560756 
+            xmax = 18.457600096556106 
+            text = "" 
+        intervals [30]:
+            xmin = 18.457600096556106 
+            xmax = 18.5031985334318 
+            text = "tap" 
+        intervals [31]:
+            xmin = 18.5031985334318 
+            xmax = 20.280507713391145 
+            text = "" 
+        intervals [32]:
+            xmin = 20.280507713391145 
+            xmax = 20.331470672252216 
+            text = "tap" 
+        intervals [33]:
+            xmin = 20.331470672252216 
+            xmax = 21.185358383088587 
+            text = "" 
+        intervals [34]:
+            xmin = 21.185358383088587 
+            xmax = 21.228061734747698 
+            text = "trill" 
+        intervals [35]:
+            xmin = 21.228061734747698 
+            xmax = 21.593657200027124 
+            text = "" 
+        intervals [36]:
+            xmin = 21.593657200027124 
+            xmax = 21.63082507316821 
+            text = "tap" 
+        intervals [37]:
+            xmin = 21.63082507316821 
+            xmax = 22.38665917468402 
+            text = "" 
+        intervals [38]:
+            xmin = 22.38665917468402 
+            xmax = 22.411676012375136 
+            text = "tap" 
+        intervals [39]:
+            xmin = 22.411676012375136 
+            xmax = 24.546346893574132 
+            text = "" 
+        intervals [40]:
+            xmin = 24.546346893574132 
+            xmax = 24.637122276053322 
+            text = "trill" 
+        intervals [41]:
+            xmin = 24.637122276053322 
+            xmax = 25.211269387297815 
+            text = "" 
+        intervals [42]:
+            xmin = 25.211269387297815 
+            xmax = 25.259873529097696 
+            text = "tap" 
+        intervals [43]:
+            xmin = 25.259873529097696 
+            xmax = 26.688256650710084 
+            text = "" 
+        intervals [44]:
+            xmin = 26.688256650710084 
+            xmax = 26.732572191762916 
+            text = "tap" 
+        intervals [45]:
+            xmin = 26.732572191762916 
+            xmax = 27.834756427595565 
+            text = "" 
+        intervals [46]:
+            xmin = 27.834756427595565 
+            xmax = 27.886219636560146 
+            text = "tap" 
+        intervals [47]:
+            xmin = 27.886219636560146 
+            xmax = 29.04007189616122 
+            text = "" 
+        intervals [48]:
+            xmin = 29.04007189616122 
+            xmax = 29.075810235719956 
+            text = "tap" 
+        intervals [49]:
+            xmin = 29.075810235719956 
+            xmax = 30.584756950170288 
+            text = "" 
+        intervals [50]:
+            xmin = 30.584756950170288 
+            xmax = 30.628357724431943 
+            text = "tap" 
+        intervals [51]:
+            xmin = 30.628357724431943 
+            xmax = 31.459645206548807 
+            text = "" 
+        intervals [52]:
+            xmin = 31.459645206548807 
+            xmax = 31.501816447228116 
+            text = "tap" 
+        intervals [53]:
+            xmin = 31.501816447228116 
+            xmax = 31.69623301442764 
+            text = "" 
+        intervals [54]:
+            xmin = 31.69623301442764 
+            xmax = 31.74769622339222 
+            text = "tap" 
+        intervals [55]:
+            xmin = 31.74769622339222 
+            xmax = 33.580036044579145 
+            text = "" 
+        intervals [56]:
+            xmin = 33.580036044579145 
+            xmax = 33.6279254119637 
+            text = "tap" 
+        intervals [57]:
+            xmin = 33.6279254119637 
+            xmax = 35.42296805521856 
+            text = "" 
+        intervals [58]:
+            xmin = 35.42296805521856 
+            xmax = 35.47085742260312 
+            text = "tap" 
+        intervals [59]:
+            xmin = 35.47085742260312 
+            xmax = 36.341510476758636 
+            text = "" 
+        intervals [60]:
+            xmin = 36.341510476758636 
+            xmax = 36.38654077743367 
+            text = "tap" 
+        intervals [61]:
+            xmin = 36.38654077743367 
+            xmax = 37.27913112087202 
+            text = "" 
+        intervals [62]:
+            xmin = 37.27913112087202 
+            xmax = 37.36061452209351 
+            text = "trill" 
+        intervals [63]:
+            xmin = 37.36061452209351 
+            xmax = 37.844556356783905 
+            text = "" 
+        intervals [64]:
+            xmin = 37.844556356783905 
+            xmax = 37.88172422400774 
+            text = "tap" 
+        intervals [65]:
+            xmin = 37.88172422400774 
+            xmax = 38.27584139830794 
+            text = "" 
+        intervals [66]:
+            xmin = 38.27584139830794 
+            xmax = 38.33445226585322 
+            text = "tap" 
+        intervals [67]:
+            xmin = 38.33445226585322 
+            xmax = 38.42409435877305 
+            text = "" 
+        intervals [68]:
+            xmin = 38.42409435877305 
+            xmax = 38.4684098927707 
+            text = "tap" 
+        intervals [69]:
+            xmin = 38.4684098927707 
+            xmax = 39.96015873015873 
+            text = "" 

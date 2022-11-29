@@ -1,0 +1,44 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 57.97009070294784 
+tiers? <exists> 
+size = 2 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "rhotic" 
+        xmin = 0 
+        xmax = 57.97009070294784 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 19.842858820726114 
+            text = "" 
+        intervals [2]:
+            xmin = 19.842858820726114 
+            xmax = 19.969079665218008 
+            text = "t2" 
+        intervals [3]:
+            xmin = 19.969079665218008 
+            xmax = 57.97009070294784 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "label" 
+        xmin = 0 
+        xmax = 57.97009070294784 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 19.842858820726114 
+            text = "" 
+        intervals [2]:
+            xmin = 19.842858820726114 
+            xmax = 19.969079665218008 
+            text = "trill_retro" 
+        intervals [3]:
+            xmin = 19.969079665218008 
+            xmax = 57.97009070294784 
+            text = "" 

@@ -1,0 +1,124 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 38.690589569161 
+tiers? <exists> 
+size = 2 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "label" 
+        xmin = 0 
+        xmax = 38.690589569161 
+        intervals: size = 11 
+        intervals [1]:
+            xmin = 0 
+            xmax = 7.210815759637188 
+            text = "" 
+        intervals [2]:
+            xmin = 7.210815759637188 
+            xmax = 7.233632273530881 
+            text = "trill_tap" 
+        intervals [3]:
+            xmin = 7.233632273530881 
+            xmax = 16.48676486520534 
+            text = "" 
+        intervals [4]:
+            xmin = 16.48676486520534 
+            xmax = 16.499180473264577 
+            text = "trill_tap" 
+        intervals [5]:
+            xmin = 16.499180473264577 
+            xmax = 28.069892900750045 
+            text = "" 
+        intervals [6]:
+            xmin = 28.069892900750045 
+            xmax = 28.09302389123818 
+            text = "trill_tap" 
+        intervals [7]:
+            xmin = 28.09302389123818 
+            xmax = 32.58118450889127 
+            text = "" 
+        intervals [8]:
+            xmin = 32.58118450889127 
+            xmax = 32.621099463222784 
+            text = "trill_tap" 
+        intervals [9]:
+            xmin = 32.621099463222784 
+            xmax = 34.70090927685105 
+            text = "" 
+        intervals [10]:
+            xmin = 34.70090927685105 
+            xmax = 34.72358365146339 
+            text = "trill_tap" 
+        intervals [11]:
+            xmin = 34.72358365146339 
+            xmax = 38.690589569161 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "blecua" 
+        xmin = 0 
+        xmax = 38.690589569161 
+        intervals: size = 15 
+        intervals [1]:
+            xmin = 0 
+            xmax = 7.210815759637188 
+            text = "" 
+        intervals [2]:
+            xmin = 7.210815759637188 
+            xmax = 7.22610571212612 
+            text = "o" 
+        intervals [3]:
+            xmin = 7.22610571212612 
+            xmax = 7.233632273530881 
+            text = "b" 
+        intervals [4]:
+            xmin = 7.233632273530881 
+            xmax = 16.48676486520534 
+            text = "" 
+        intervals [5]:
+            xmin = 16.48676486520534 
+            xmax = 16.499180473264577 
+            text = "a" 
+        intervals [6]:
+            xmin = 16.499180473264577 
+            xmax = 28.069892900750045 
+            text = "" 
+        intervals [7]:
+            xmin = 28.069892900750045 
+            xmax = 28.084111111111113 
+            text = "o" 
+        intervals [8]:
+            xmin = 28.084111111111113 
+            xmax = 28.09302389123818 
+            text = "b" 
+        intervals [9]:
+            xmin = 28.09302389123818 
+            xmax = 32.58118450889127 
+            text = "" 
+        intervals [10]:
+            xmin = 32.58118450889127 
+            xmax = 32.598272562358275 
+            text = "c" 
+        intervals [11]:
+            xmin = 32.598272562358275 
+            xmax = 32.621099463222784 
+            text = "o" 
+        intervals [12]:
+            xmin = 32.621099463222784 
+            xmax = 34.70090927685105 
+            text = "" 
+        intervals [13]:
+            xmin = 34.70090927685105 
+            xmax = 34.715368727201025 
+            text = "o" 
+        intervals [14]:
+            xmin = 34.715368727201025 
+            xmax = 34.72358365146339 
+            text = "b" 
+        intervals [15]:
+            xmin = 34.72358365146339 
+            xmax = 38.690589569161 
+            text = "" 
