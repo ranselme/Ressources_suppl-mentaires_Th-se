@@ -160,7 +160,7 @@ Nous ne diffusons pas les audios qui sont disponibles sur la page : https://rich
 ```{r}
 draw_plot_praat <- function(table=df_segFull,ID_ELEMENTS,F0=TRUE,time=0.05,path_out="spectro/"){
   #Cette fonction est optimisée pour travailler avec le tableau que nous avons précédemment créé.
-  
+  #Cette fonction ne fonctionne pas sans les audios qu'il faudra télécharger, et les placer dans textgrids/
   path_in <- "full_audio/"
   FILE <- paste0(path_out,table[table$id_elements==ID_ELEMENTS,]$glottocode,
                  "_",ID_ELEMENTS,"_",table[table$id_elements==ID_ELEMENTS,]$id,".png")
@@ -554,7 +554,7 @@ Et nous avons adapté notre fonction pour l'obtention de spectrogramme sur la ba
 ```{r}
 draw_plot_praat <- function(table=table_burst,ID_ELEMENTS,F0=TRUE,time=0.05,path_out="spectro/"){
   
-  path_in <- "full_audio_2etude/"
+  path_in <- "full_audio_2etude/" #Cette fonction ne fonctionne pas sans les audios qu'il faudra télécharger, et les placer dans textgrids_2etude/
   FILE <- paste0(path_out,table[table$id_elements==ID_ELEMENTS,]$glottocode,
                  "_",ID_ELEMENTS,"_",table[table$id_elements==ID_ELEMENTS,]$context_full,".png")
   WAV <- paste0(path_in,table[table$id_elements==ID_ELEMENTS,]$glottocode,".wav")
