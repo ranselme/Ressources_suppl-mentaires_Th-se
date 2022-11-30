@@ -1,7 +1,7 @@
 Ressources complémentaires - Chapitre 3
 ================
 Rémi Anselme
-2022-11-29 22:01:25
+2022-11-30 17:20:30
 
   - [Chapitre 3](#chapitre-3)
       - [3.2 Première étude : classification des trills et taps dans des
@@ -16,6 +16,20 @@ Rémi Anselme
             d’occlusion](#331-le--o---élément-docclusion)
           - [3.3.2 Le « b » : élément de relâchement
             (burst)](#332-le--b---élément-de-relâchement-burst)
+          - [3.3.3 Le « a » : élément de constriction sans occlusion
+            complète
+            (approximante)](#333-le--a---élément-de-constriction-sans-occlusion-complète-approximante)
+          - [3.3.4 Le « c » : élément épenthétique vocalique (élément «
+            svarabhaktique
+            »)](#334-le--c---élément-épenthétique-vocalique-élément--svarabhaktique-)
+      - [3.4 Présentation des 18 langues segmentées et
+        annotées](#34-présentation-des-18-langues-segmentées-et-annotées)
+          - [3.4.1 Descriptions des différents motifs (combinaisons
+            d’éléments)
+            obtenus](#341-descriptions-des-différents-motifs-combinaisons-déléments-obtenus)
+          - [3.4.2 Les durées des motifs](#342-les-durées-des-motifs)
+          - [3.4.3 Les différents contextes
+            possibles](#343-les-différents-contextes-possibles)
 
 # Chapitre 3
 
@@ -101,18 +115,18 @@ knitr::kable(df_segFull %>%
              caption = "Échantillon de dix lignes du tableau utilisé pour la première analyse.")
 ```
 
-| id | time\_start | time\_end | source                 | total\_time |     durat | label      | glottocode | element | id\_elements |
-| -: | ----------: | --------: | :--------------------- | ----------: | --------: | :--------- | :--------- | :------ | -----------: |
-| 64 |    28.13159 |  28.18871 | astu1246.TextGrid      |    30.02732 | 0.0571145 | tap        | astu1246   | t1      |          214 |
-| 66 |    29.57559 |  29.65836 | astu1246.TextGrid      |    30.02732 | 0.0827716 | tap        | astu1246   | t3      |          215 |
-| 10 |    26.89951 |  27.00818 | maka1311.TextGrid      |   111.24000 | 0.1086711 | trill      | maka1311   | t4      |         1103 |
-| 48 |    20.28207 |  20.33157 | astu1246.TextGrid      |    30.02732 | 0.0494965 | tap        | astu1246   | t1      |          206 |
-| 26 |    45.61090 |  45.66739 | basa1284.TextGrid      |    52.36272 | 0.0564957 | tap        | basa1284   | t1      |          228 |
-| 16 |    20.68593 |  20.73020 | poli1260.TextGrid      |    40.90056 | 0.0442649 | trill      | poli1260   | t1      |         1481 |
-| 28 |    34.38063 |  34.42347 | indo1316.TextGrid      |    85.09497 | 0.0428370 | trill\_tap | indo1316   | t1      |          855 |
-| 12 |    12.69974 |  12.76257 | pont1253\_SP1.TextGrid |    65.13581 | 0.0628275 | tap        | pont1253   | t4      |         1492 |
-| 26 |    27.01328 |  27.10410 | malo1243.TextGrid      |    45.59855 | 0.0908144 | trill      | malo1243   | t2      |         1131 |
-| 10 |    22.54986 |  22.61240 | anuu1241.TextGrid      |    77.43048 | 0.0625420 | trill      | anuu1241   | t1      |          123 |
+| id | time\_start | time\_end | source                | total\_time |     durat | label        | glottocode | element | id\_elements |
+| -: | ----------: | --------: | :-------------------- | ----------: | --------: | :----------- | :--------- | :------ | -----------: |
+| 36 |   34.985028 | 35.090944 | fior1235\_SI.TextGrid |    76.73034 | 0.1059158 | trill        | fior1235   | t2      |          674 |
+| 10 |    9.363031 |  9.423462 | lamu1254.TextGrid     |    29.49537 | 0.0604302 | trill        | lamu1254   | t4      |         1052 |
+|  4 |    1.268552 |  1.311906 | croa1245.TextGrid     |    39.73900 | 0.0433541 | trill        | croa1245   | t1      |          388 |
+| 40 |   83.919877 | 83.974792 | bear1240.TextGrid     |    86.58383 | 0.0549147 | tap          | bear1240   | t4      |          277 |
+| 18 |   40.680195 | 40.716415 | thai1261.TextGrid     |    66.89585 | 0.0362199 | trill        | thai1261   | t4      |         1685 |
+| 18 |   13.204169 | 13.243836 | russ1263.TextGrid     |    37.31649 | 0.0396671 | trill        | russ1263   | t1      |         1516 |
+| 36 |   75.456980 | 75.512791 | bear1240.TextGrid     |    86.58383 | 0.0558104 | tap          | bear1240   | t1      |          275 |
+| 30 |   51.622580 | 51.659134 | west2452.TextGrid     |    68.62918 | 0.0365542 | trill        | west2452   | t4      |         1777 |
+|  8 |    8.173239 |  8.235801 | ital1282.TextGrid     |    45.00000 | 0.0625616 | trill\_trill | ital1282   | t2      |          887 |
+| 14 |   12.279246 | 12.328088 | fior1235\_SI.TextGrid |    76.73034 | 0.0488420 | trill        | fior1235   | t1      |          663 |
 
 Échantillon de dix lignes du tableau utilisé pour la première analyse.
 
@@ -215,7 +229,7 @@ même dossier.
 ``` r
 draw_plot_praat <- function(table=df_segFull,ID_ELEMENTS,F0=TRUE,time=0.05,path_out="spectro/"){
   #Cette fonction est optimisée pour travailler avec le tableau que nous avons précédemment créé.
-  
+  #Cette fonction ne fonctionne pas sans les audios qu'il faudra télécharger, et les placer dans textgrids/
   path_in <- "full_audio/"
   FILE <- paste0(path_out,table[table$id_elements==ID_ELEMENTS,]$glottocode,
                  "_",ID_ELEMENTS,"_",table[table$id_elements==ID_ELEMENTS,]$id,".png")
@@ -970,18 +984,18 @@ knitr::kable(table_burst %>%
              caption = "Échantillon de dix lignes du tableau utilisé pour la deuxième analyse.")
 ```
 
-| glottocode | id\_elements | elements\_full | id | time\_start | time\_end | source            | total\_time |     durat | label | id\_sound | word\_id     | word          | elements\_old | word\_2   | con\_left | con\_right | conCV\_left | conCV\_right | Left | Right | context | context\_full |
-| :--------- | -----------: | :------------- | -: | ----------: | --------: | :---------------- | ----------: | --------: | :---- | --------: | :----------- | :------------ | :------------ | :-------- | :-------- | :--------- | :---------- | :----------- | :--- | :---- | :------ | :------------ |
-| indo1317   |          794 | obc            | 72 |   88.624195 | 88.669236 | indo1317.TextGrid |    99.33229 | 0.0450410 | tap   |        36 | indo1317\_36 | iɾu           | oco           | iɾu       | i         | u          | V           | V            | Vo   | cV    | VrV     | iru           |
-| cast1244   |          406 | o              | 16 |    7.527818 |  7.550409 | cast1244.TextGrid |    38.90385 | 0.0225908 | tap   |         8 | cast1244\_8  | bjaˈxeɾo̯     | o             | bjaxeɾo   | e         | o          | V           | V            | Vo   | oV    | VrV     | ero           |
-| amer1254   |          151 | o              | 12 |    8.089299 |  8.109894 | amer1254.TextGrid |    39.96016 | 0.0205950 | tap   |         6 | amer1254\_6  | ’xeɾo̯em      | o             | xeɾoem    | e         | o          | V           | V            | Vo   | oV    | VrV     | ero           |
-| malo1243   |         1033 | obca           | 10 |   11.721409 | 11.807483 | malo1243.TextGrid |    45.59855 | 0.0860738 | trill |         5 | malo1243\_5  | nãˈsorˌa     | oca           | nasora    | o         | a          | V           | V            | Vo   | aV    | VrV     | ora           |
-| sout2604   |         1312 | a              | 40 |   35.703855 | 35.734450 | sout2604.TextGrid |    44.47490 | 0.0305951 | trill |        20 | sout2604\_20 | ˈt͡ʃɛrɛz      | a             | t͡ʃɛrɛz   | ɛ         | ɛ          | V           | V            | Va   | aV    | VrV     | ɛrɛ           |
-| mafe1237   |          995 | a              | 58 |   60.697280 | 60.775017 | mafe1237.TextGrid |    76.14404 | 0.0777361 | trill |        29 | mafe1237\_29 | || rm̩p̩m̩    | a             | rmpm      | $         | m          | B           | C            | Ba   | aC    | BrC     | $rm           |
-| sout2604   |         1267 | obc            |  6 |    3.128666 |  3.207905 | sout2604.TextGrid |    44.47490 | 0.0792394 | trill |         3 | sout2604\_3  | tɛr ˈs        | oc            | tɛrs      | ɛ         | s          | V           | C            | Vo   | cC    | VrC     | ɛrs           |
-| amer1254   |          175 | oca            | 28 |   17.575986 | 17.641115 | amer1254.TextGrid |    39.96016 | 0.0651288 | tap   |        14 | amer1254\_14 | ðe’ɾa         | oca           | ðeɾa      | e         | a          | V           | V            | Vo   | aV    | VrV     | era           |
-| amer1254   |          186 | co             | 34 |   21.180259 | 21.219571 | amer1254.TextGrid |    39.96016 | 0.0393115 | trill |        17 | amer1254\_17 | ɡram          | co            | ɡram      | ɡ         | a          | C           | V            | Cc   | oV    | CrV     | ɡra           |
-| basq1248   |          306 | obco           | 36 |   31.811833 | 31.867654 | basq1248.TextGrid |    50.93000 | 0.0558207 | trill |        18 | basq1248\_18 | ipàr ais̻ék | oco           | iparaisek | a         | a          | V           | V            | Vo   | oV    | VrV     | ara           |
+| glottocode | id\_elements | elements\_full | id | time\_start | time\_end | source            | total\_time |     durat | label | id\_sound | word\_id     | word        | elements\_old | word\_2    | con\_left | con\_right | conCV\_left | conCV\_right | Left | Right | context | context\_full |
+| :--------- | -----------: | :------------- | -: | ----------: | --------: | :---------------- | ----------: | --------: | :---- | --------: | :----------- | :---------- | :------------ | :--------- | :-------- | :--------- | :---------- | :----------- | :--- | :---- | :------ | :------------ |
+| sout2604   |         1289 | o              | 22 |   28.200105 | 28.224549 | sout2604.TextGrid |    44.47490 | 0.0244439 | trill |        11 | sout2604\_11 | u̯ˈrɛʃtʲi   | o             | urɛʃtʲi    | u         | ɛ          | V           | V            | Vo   | oV    | VrV     | urɛ           |
+| mafe1237   |         1007 | ococo          | 68 |   74.404028 | 74.487117 | mafe1237.TextGrid |    76.14404 | 0.0830888 | trill |        34 | mafe1237\_34 | naˈpar ko   | ococo         | naparko    | a         | k          | V           | C            | Vo   | oC    | VrC     | ark           |
+| afri1274   |           79 | ob             | 46 |   22.464054 | 22.499808 | afri1274.TextGrid |    39.59381 | 0.0357538 | trill |        23 | afri1274\_23 | ˈdəxtər ɦœl | oco           | dəxtərɦœl  | ə         | ɦ          | V           | C            | Vo   | bC    | VrC     | ərɦ           |
+| meri1242   |         1153 | o              | 18 |   16.244045 | 16.259500 | meri1242.TextGrid |    43.14825 | 0.0154555 | trill |         9 | meri1242\_9  | βru         | o             | βru        | β         | u          | C           | V            | Co   | oV    | CrV     | βru           |
+| indo1317   |          729 | oc             | 30 |   39.325668 | 39.378739 | indo1317.TextGrid |    99.33229 | 0.0530711 | tap   |        15 | indo1317\_15 | bəɾgɔjaŋ    | oc            | bəɾgɔjaŋ   | ə         | g          | V           | C            | Vo   | cC    | VrC     | ərg           |
+| meri1242   |         1178 | obc            | 32 |   24.265035 | 24.309837 | meri1242.TextGrid |    43.14825 | 0.0448015 | trill |        16 | meri1242\_16 | pru         | oc            | pru        | p         | u          | C           | V            | Co   | cV    | CrV     | pru           |
+| afri1274   |          121 | ob             | 68 |   34.965488 | 34.999622 | afri1274.TextGrid |    39.59381 | 0.0341338 | trill |        34 | afri1274\_34 | ˈnuərdəvənt | oc            | nuərdəvənt | ə         | d          | V           | C            | Vo   | bC    | VrC     | ərd           |
+| sanm1298   |         1238 | oba            | 10 |   39.491929 | 39.548887 | sanm1298.TextGrid |    56.07986 | 0.0569570 | tap   |         5 | sanm1298\_5  | nĩʔ3 ɾa43  | oa            | niʔɾa      | ʔ         | a          | C           | V            | Co   | aV    | CrV     | ʔra           |
+| nort2820   |         1217 | o              |  8 |   38.596564 | 38.634094 | nort2820.TextGrid |    52.86095 | 0.0375302 | app   |         4 | nort2820\_4  | ɟə̏ɾȁ      | o             | ɟəɾa       | ə         | a          | V           | V            | Vo   | oV    | VrV     | əra           |
+| cent1954   |          500 | oc             |  2 |    1.245845 |  1.300567 | cent1954.TextGrid |    36.34981 | 0.0547221 | trill |         1 | cent1954\_1  | ˈvʲetsʲer i | oc            | vʲetsʲeri  | e         | i          | V           | V            | Vo   | cV    | VrV     | eri           |
 
 Échantillon de dix lignes du tableau utilisé pour la deuxième analyse.
 
@@ -991,7 +1005,7 @@ sur la base du nouveau tableau.
 ``` r
 draw_plot_praat <- function(table=table_burst,ID_ELEMENTS,F0=TRUE,time=0.05,path_out="spectro/"){
   
-  path_in <- "full_audio_2etude/"
+  path_in <- "full_audio_2etude/" #Cette fonction ne fonctionne pas sans les audios qu'il faudra télécharger, et les placer dans textgrids_2etude/
   FILE <- paste0(path_out,table[table$id_elements==ID_ELEMENTS,]$glottocode,
                  "_",ID_ELEMENTS,"_",table[table$id_elements==ID_ELEMENTS,]$context_full,".png")
   WAV <- paste0(path_in,table[table$id_elements==ID_ELEMENTS,]$glottocode,".wav")
@@ -1036,8 +1050,8 @@ dplyr::filter(df_segElm_b,element=="o") %>%
 ```
 
 La durée moyenne tous contextes confondus de l’élément « o » est de
-21.3ms, sa médiane de 20.88ms (minimum de 8.59ms, maximum de 42.3ms, IQR
-\[écart interquartile\] de 7.38msms).
+21.16ms, sa médiane de 20.8ms (minimum de 8.59ms, maximum de 42.3ms, IQR
+\[écart interquartile\] de 7.5ms).
 
 ### 3.3.2 Le « b » : élément de relâchement (burst)
 
@@ -1072,5 +1086,399 @@ dplyr::filter(df_segElm_b,element=="b") %>%
 ```
 
 La durée moyenne tous contextes confondus de l’élément « b » est de
-14.46ms, sa médiane de 12.54ms (minimum de 4.85ms, maximum de 55.33ms,
-IQR \[écart interquartile\] de 6.81ms).
+14.64ms, sa médiane de 12.52ms (minimum de 4.85ms, maximum de 55.33ms,
+IQR \[écart interquartile\] de 7.21ms).
+
+### 3.3.3 Le « a » : élément de constriction sans occlusion complète (approximante)
+
+``` r
+#draw_plot_praat(ID_ELEMENTS = 1312)
+knitr::include_graphics("spectro/sout2604_1312_ɛrɛ.png")
+```
+
+<div class="figure">
+
+<img src="spectro/sout2604_1312_ɛrɛ.png" alt="Illustration de l’élément « a » dans le contexte [ɛrɛ] en ukrainien. De haut en bas, nous avons l’oscillogramme, le spectrogramme, la courbe d’intensité, un palier intervallique avec la catégorie segmentée, et un palier intervallique comprenant le label descriptif du segment d’intérêt." width="2720" />
+
+<p class="caption">
+
+Illustration de l’élément « a » dans le contexte \[ɛrɛ\] en ukrainien.
+De haut en bas, nous avons l’oscillogramme, le spectrogramme, la courbe
+d’intensité, un palier intervallique avec la catégorie segmentée, et un
+palier intervallique comprenant le label descriptif du segment
+d’intérêt.
+
+</p>
+
+</div>
+
+``` r
+dplyr::filter(df_segElm_b,element=="a") %>%
+  dplyr::summarise(moy = mean(durat),
+                   med = median(durat),
+                   min = min(durat),
+                   max = max(durat),
+                   IQR = IQR(durat)) -> stats_a
+```
+
+La durée moyenne tous contextes confondus de l’élément « a » est de
+31.15ms, sa médiane de 25.42ms (minimum de 10.71ms, maximum de 123.71ms,
+IQR \[écart interquartile\] de 14.61ms).
+
+### 3.3.4 Le « c » : élément épenthétique vocalique (élément « svarabhaktique »)
+
+``` r
+#draw_plot_praat(ID_ELEMENTS = 650)
+knitr::include_graphics("spectro/gayo1244_650_kra.png")
+```
+
+<div class="figure">
+
+<img src="spectro/gayo1244_650_kra.png" alt="Illustration de l’élément « c » dans le contexte [ˈkras] en gayo. De haut en bas, nous avons l’oscillogramme, le spectrogramme, la courbe d’intensité, un palier intervallique avec la catégorie segmentée, et un palier intervallique comprenant le label descriptif du segment d’intérêt." width="2720" />
+
+<p class="caption">
+
+Illustration de l’élément « c » dans le contexte \[ˈkras\] en gayo. De
+haut en bas, nous avons l’oscillogramme, le spectrogramme, la courbe
+d’intensité, un palier intervallique avec la catégorie segmentée, et
+un palier intervallique comprenant le label descriptif du segment
+d’intérêt.
+
+</p>
+
+</div>
+
+``` r
+dplyr::filter(df_segElm_b,element=="c") %>%
+  dplyr::summarise(moy = mean(durat),
+                   med = median(durat),
+                   min = min(durat),
+                   max = max(durat),
+                   IQR = IQR(durat)) -> stats_c
+```
+
+La durée moyenne tous contextes confondus de l’élément « c » est de
+21.21ms, sa médiane de 19ms (minimum de 5.78ms, maximum de 59.69ms, IQR
+\[écart interquartile\] de 9.52ms).
+
+## 3.4 Présentation des 18 langues segmentées et annotées
+
+``` r
+readr::read_csv("systematic_review_IPA.csv") %>% 
+  dplyr::filter(glottocode %in% unique(dplyr::select(df_segElm_b,glottocode))$glottocode) %>% 
+  dplyr::select(Title,glottocode,Country,Sexe) %>% 
+  knitr::kable(caption = "Description des 18 langues. Le seenku ne provient pas de l’échantillon des 73 langues car la rhotique n’est pas considérée comme phonémique dans la langue, la langue a été incluse grâce à la présence d’un [r] dans la transcription étroite fournie (McPherson 2019, p. 18). Les âges ont été directement été collectés manuellement à partir des Illustrations.")
+```
+
+    ## Rows: 213 Columns: 22
+    ## ── Column specification ────────────────────────────────────────────────────────
+    ## Delimiter: ","
+    ## chr (18): Version, Title, glottocode, ISO_6393, Macroarea, Country, region_s...
+    ## dbl  (2): Year, nb_speakers
+    ## 
+    ## ℹ Use `spec()` to retrieve the full column specification for this data.
+    ## ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+
+| Title                          | glottocode | Country             | Sexe |
+| :----------------------------- | :--------- | :------------------ | :--- |
+| Amarasi                        | koto1251   | timor               | F    |
+| Brunei Malay                   | brun1243   | brunei              | F    |
+| Castilian Spanish              | cast1244   | spain               | F    |
+| Central Arrernte               | east2379   | australia           | F    |
+| Gayo                           | gayo1244   | indonesia           | M    |
+| Goizueta Basque                | basq1248   | spain               | F    |
+| Itunyoso Trique                | sanm1298   | mexico              | M    |
+| Mavea                          | mafe1237   | vanuatu             | F    |
+| Tamambo                        | malo1243   | vanuatu             | F    |
+| Ukrainian                      | sout2604   | ukraine             | M    |
+| Argentine Spanish              | amer1254   | argentina           | M    |
+| Afrikaans                      | afri1274   | south africa        | F    |
+| Sasak\_ Meno-Mené dialect      | meno1251   | indonesia           | M    |
+| Indonesian Bajau (East Lombok) | indo1317   | indonesia           | F    |
+| Kazakh                         | kaza1248   | karakhstan          | F    |
+| Seenku                         | nort2820   | Mali Burkina Faso   | M    |
+| Cagliari Sardinian             | meri1242   | italy               | F    |
+| Belarusian                     | cent1954   | Republic of Belarus | M    |
+
+Description des 18 langues. Le seenku ne provient pas de l’échantillon
+des 73 langues car la rhotique n’est pas considérée comme phonémique
+dans la langue, la langue a été incluse grâce à la présence d’un \[r\]
+dans la transcription étroite fournie (McPherson 2019, p. 18). Les âges
+ont été directement été collectés manuellement à partir des
+Illustrations.
+
+``` r
+table_burst %>%
+  dplyr::group_by(label) %>% 
+  dplyr::select(label) %>% table() %>% as.data.frame() %>% 
+  knitr::kable(caption = "Fréquence des différents labels descriptifs dans l'échantillon de 18 langues.")
+```
+
+| .            | Freq |
+| :----------- | ---: |
+| app          |    5 |
+| tap          |  147 |
+| trill        |  217 |
+| trill\_pal   |    6 |
+| trill\_tap   |   23 |
+| trill\_trill |    2 |
+
+Fréquence des différents labels descriptifs dans l’échantillon de 18
+langues.
+
+``` r
+table_burst %>%
+  dplyr::group_by(elements_full) %>% 
+  dplyr::select(elements_full) %>% table() %>% as.data.frame() %>% 
+  dplyr::mutate(NbElements = stringr::str_count(`.`,".")) %>% 
+  knitr::kable(caption = "Fréquence des différents motifs segmentés et de leur longueur en éléments.")
+```
+
+| .       | Freq | NbElements |
+| :------ | ---: | ---------: |
+| a       |   30 |          1 |
+| aca     |    1 |          3 |
+| aco     |    1 |          3 |
+| ca      |    1 |          2 |
+| caca    |    1 |          4 |
+| co      |   23 |          2 |
+| cob     |   14 |          3 |
+| cobc    |    1 |          4 |
+| coca    |    1 |          4 |
+| cocaca  |    1 |          6 |
+| o       |   84 |          1 |
+| oa      |    2 |          2 |
+| ob      |   72 |          2 |
+| oba     |    2 |          3 |
+| obc     |   46 |          3 |
+| obca    |    5 |          4 |
+| obco    |    8 |          4 |
+| obcob   |    4 |          5 |
+| obcobc  |    2 |          6 |
+| obcobco |    1 |          7 |
+| obcoc   |    2 |          5 |
+| obo     |    1 |          3 |
+| obobob  |    1 |          6 |
+| oc      |   29 |          2 |
+| oca     |   29 |          3 |
+| ocac    |    1 |          4 |
+| ocaca   |    2 |          5 |
+| oco     |   17 |          3 |
+| ocoa    |    2 |          4 |
+| ococ    |    9 |          4 |
+| ococa   |    4 |          5 |
+| ococo   |    3 |          5 |
+
+Fréquence des différents motifs segmentés et de leur longueur en
+éléments.
+
+### 3.4.1 Descriptions des différents motifs (combinaisons d’éléments) obtenus
+
+Nous avons annoté 32 motifs avec les différents « éléments » que nous
+avions étudiés.
+
+``` r
+table_burst %>% 
+  dplyr::mutate(element_length = stringr::str_length(elements_full)) -> table_element
+
+table_element %>% 
+  ggplot2::ggplot(ggplot2::aes(x=element_length)) +
+  ggplot2::geom_bar(fill="#440154") +
+  ggplot2::theme_bw(base_size=20) +
+  ggplot2::labs(y  = "Compte des segments", x = "Nombre d'éléments" )
+```
+
+![Compte des segments en fonction du nombre
+d’éléments.](Script_Chapitre_3_files/figure-gfm/unnamed-chunk-56-1.png)
+
+Compte des segments en fonction du nombre d’éléments.
+
+De tous les motifs annotés, nous n’avons qu’1 occurrence de motif à sept
+élément alors que nous avons 114 occurrences de motifs à un élément.
+
+L’élément « b » apparaît dans 39.75% des cas.
+
+``` r
+#draw_plot_praat(ID_ELEMENTS = 275)
+knitr::include_graphics("spectro/basq1248_275_ure.png")
+```
+
+<div class="figure">
+
+<img src="spectro/basq1248_275_ure.png" alt="Illustration du motif « obcobco » en basque (Glotto : basq1248) dans la séquence [ʔau̯ réna] orthographié ’aurrena’. Il s’agit du seul mot dans la fable écrit avec un &lt;rr&gt;. De haut en bas, nous avons l’oscillogramme, le spectrogramme, la courbe d’intensité, un palier intervallique avec la catégorie segmentée, et un palier intervallique comprenant le label descriptif du segment d’intérêt." width="2720" />
+
+<p class="caption">
+
+Illustration du motif « obcobco » en basque (Glotto : basq1248) dans la
+séquence \[ʔau̯ réna\] orthographié ’aurrena’. Il s’agit du seul mot
+dans la fable écrit avec un <rr>. De haut en bas, nous avons
+l’oscillogramme, le spectrogramme, la courbe d’intensité, un palier
+intervallique avec la catégorie segmentée, et un palier intervallique
+comprenant le label descriptif du segment d’intérêt.
+
+</p>
+
+</div>
+
+Dans les motifs à trois occlusions, on retrouve aussi le motif « ococo »
+(n=3) ainsi que le motif « obobob » (n=1).
+
+``` r
+#draw_plot_praat(ID_ELEMENTS = 444)
+knitr::include_graphics("spectro/cast1244_444_are.png")
+```
+
+<div class="figure">
+
+<img src="spectro/cast1244_444_are.png" alt="Illustration du motif « ococo » dans le contexte [areβu’xaβa] &lt;arrebujaba&gt; en espagnol castillan (Glotto : cast1244). Nous avons choisi d’annoter le dernier élément « o » et pas « a » à cause de la diminution de l’intensité qui n’est pas aussi marquée que pour les autres éléments « o ». De haut en bas, nous avons l’oscillogramme, le spectrogramme, la courbe d’intensité, un palier intervallique avec la catégorie segmentée, et un palier intervallique comprenant le label descriptif du segment d’intérêt." width="2720" />
+
+<p class="caption">
+
+Illustration du motif « ococo » dans le contexte \[areβu’xaβa\]
+<arrebujaba> en espagnol castillan (Glotto : cast1244). Nous avons
+choisi d’annoter le dernier élément « o » et pas « a » à cause de la
+diminution de l’intensité qui n’est pas aussi marquée que pour les
+autres éléments « o ». De haut en bas, nous avons l’oscillogramme, le
+spectrogramme, la courbe d’intensité, un palier intervallique avec la
+catégorie segmentée, et un palier intervallique comprenant le label
+descriptif du segment d’intérêt.
+
+</p>
+
+</div>
+
+``` r
+#draw_plot_praat(ID_ELEMENTS = 1242)
+knitr::include_graphics("spectro/sanm1298_1242_arə.png")
+```
+
+<div class="figure">
+
+<img src="spectro/sanm1298_1242_arə.png" alt="Illustration du motif « obobo » dans le contexte [arə] &lt;arrebujaba&gt; en trique d’Intunyoso (Glotto : sanm1298). De haut en bas, nous avons l’oscillogramme, le spectrogramme, la courbe d’intensité, un palier intervallique avec la catégorie segmentée, et un palier intervallique comprenant le label descriptif du segment d’intérêt." width="2720" />
+
+<p class="caption">
+
+Illustration du motif « obobo » dans le contexte \[arə\] <arrebujaba> en
+trique d’Intunyoso (Glotto : sanm1298). De haut en bas, nous avons
+l’oscillogramme, le spectrogramme, la courbe d’intensité, un palier
+intervallique avec la catégorie segmentée, et un palier intervallique
+comprenant le label descriptif du segment d’intérêt.
+
+</p>
+
+</div>
+
+Sur les 400 motifs obtenus, 54 (13.5%) possèdent au minimum deux
+éléments « o ». En considérant la possibilité d’avoir aussi des
+éléments « a », 100 motifs sur 400 (25%) possèdent au moins deux
+éléments qui sont des « a » et/ou « o ». Si on considère uniquement
+les segments ayant un label descriptif « trill », ce chiffre est de 86
+(soit 39.63% des 217 trills). Pour les « taps », il existe 13 motifs sur
+147 (8.84%) avec au moins deux éléments qui sont des « a » et/ou « o ».
+
+### 3.4.2 Les durées des motifs
+
+``` r
+table_burst %>% 
+  ggplot2::ggplot(ggplot2::aes(x=reorder(elements_full,durat),y=durat))+
+  ggplot2::geom_boxplot() +
+  ggplot2::theme_minimal(base_size=20) +
+  ggplot2::theme(axis.text.x = ggplot2::element_text(angle = 45, hjust=1))  +
+  ggplot2::labs(y  = "Durée", x = "Motifs" ) 
+```
+
+![La durée des différents
+motifs.](Script_Chapitre_3_files/figure-gfm/unnamed-chunk-60-1.png) La
+durée des différents motifs.
+
+Toutes rhotiques confondues, la durée moyenne était de 48.1ms, la durée
+médiane était de 44.72ms. Le minimum, 12.42ms, a été obtenu pour le
+motif « a » et le maximum, 130.77ms, a été obtenu pour le motif « cocaca
+».
+
+``` r
+#draw_plot_praat(ID_ELEMENTS = 872)
+knitr::include_graphics("spectro/koto1251_872_ɛrɛ.png")
+```
+
+<div class="figure">
+
+<img src="spectro/koto1251_872_ɛrɛ.png" alt="Illustration du motif « a » en amarasi dans le contexte [nɛkmɛsɛɾɛʔ]. De haut en bas pour chaque illustration, nous avons l’oscillogramme, le spectrogramme, la courbe d’intensité, un palier intervallique avec la catégorie segmentée, et un palier intervallique comprenant le label descriptif du segment d’intérêt." width="2720" />
+
+<p class="caption">
+
+Illustration du motif « a » en amarasi dans le contexte \[nɛkmɛsɛɾɛʔ\].
+De haut en bas pour chaque illustration, nous avons l’oscillogramme, le
+spectrogramme, la courbe d’intensité, un palier intervallique avec la
+catégorie segmentée, et un palier intervallique comprenant le label
+descriptif du segment d’intérêt.
+
+</p>
+
+</div>
+
+``` r
+#draw_plot_praat(ID_ELEMENTS = 672)
+knitr::include_graphics("spectro/gayo1244_672_ə.png")
+```
+
+<div class="figure">
+
+<img src="spectro/gayo1244_672_ə.png" alt="Illustration du motif « cocaca » en gayo dans le contexte [|| rəˈɲəl̪]. De haut en bas pour chaque illustration, nous avons l’oscillogramme, le spectrogramme, la courbe d’intensité, un palier intervallique avec la catégorie segmentée, et un palier intervallique comprenant le label descriptif du segment d’intérêt." width="2720" />
+
+<p class="caption">
+
+Illustration du motif « cocaca » en gayo dans le contexte \[||
+rəˈɲəl̪\]. De haut en bas pour chaque illustration, nous avons
+l’oscillogramme, le spectrogramme, la courbe d’intensité, un palier
+intervallique avec la catégorie segmentée, et un palier intervallique
+comprenant le label descriptif du segment d’intérêt.
+
+</p>
+
+</div>
+
+L’écart-inter-quartile est de 31.08ms. Un test de Kruskal–Wallis permet
+de mettre en évidence que les différents motifs ont des durées
+différentes (H(31)=274.4427718, p=8.3410^{-41}). Un test post-hoc de
+Dunn montre cependant que les différences de durée entre les différents
+paires ne sont pas toutes significatives.
+
+``` r
+test_kruskal_duree <- table_burst %>% 
+  rstatix::kruskal_test(durat ~ elements_full)
+
+test_dunn_duree <- table_burst %>% 
+  rstatix::dunn_test(durat ~ elements_full) %>% 
+  dplyr::as.tbl()
+```
+
+    ## Warning: `as.tbl()` was deprecated in dplyr 1.0.0.
+    ## ℹ Please use `tibble::as_tibble()` instead.
+
+Nous nous intéressons à présent au dix motifs les plus fréquents. Le
+motif « o » a une durée moyenne de 25,53ms et une médiane de 24,82ms
+(maximum à 42,3ms, minimum à 15,03ms et IQR de 7,1ms). Sa durée moyenne
+est inférieure à celle de tous les autres motifs (p\<0.001 dans les neuf
+cas). Le motif « a » a une durée moyenne de 44,88ms et une médiane de
+34,94ms (maximum à 123,70ms, minimum à 12,41ms et IQR de 24,82ms). Le
+motif « a » n’est significativement différent que de « o », « oca » et «
+ococ » (p\<0.05 dans les trois cas). De plus, le test montre que « cob »
+et « obc », « obc » et « oco », et « oca » et « oco » ne sont pas
+significativement différents. « ob » reste différent de « obc »
+(p\<0.001) mais pas de « oc ».
+
+Dans la suite, nous allons uniquement nous intéresser aux éléments « o »
+dans les neuf motifs les plus fréquents.
+
+Un test de Kruskal–Wallis permet de mettre en évidence que les éléments
+« o » ont une durée différente en fonction du motif dans lequel ils
+sont inclus (H(8)=57.81661, p\<0.001). Le test post-hoc de Dunn montre
+que toutes les différences de durée entre un élément « o » dans un motif
+« o » et dans un autre motif (comme, par exemple, « oco » ou « obc »)
+sont significatives (p\<0.05) à l’exception de « oca » et de « co ».
+Autrement dit, les durées des « o » dans les motifs avec plus d’un
+élément ne sont pas significativement différentes (sauf pour « oca »
+et « co »).
+
+### 3.4.3 Les différents contextes possibles
