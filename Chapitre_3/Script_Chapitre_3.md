@@ -1,7 +1,7 @@
 Ressources complémentaires - Chapitre 3
 ================
 Rémi Anselme
-2022-11-30 17:20:30
+2022-12-01 15:59:34
 
   - [Chapitre 3](#chapitre-3)
       - [3.2 Première étude : classification des trills et taps dans des
@@ -30,6 +30,9 @@ Rémi Anselme
           - [3.4.2 Les durées des motifs](#342-les-durées-des-motifs)
           - [3.4.3 Les différents contextes
             possibles](#343-les-différents-contextes-possibles)
+  - [Références](#références)
+      - [Packages utilisés](#packages-utilisés)
+      - [Version de RStudio](#version-de-rstudio)
 
 # Chapitre 3
 
@@ -115,18 +118,18 @@ knitr::kable(df_segFull %>%
              caption = "Échantillon de dix lignes du tableau utilisé pour la première analyse.")
 ```
 
-| id | time\_start | time\_end | source                | total\_time |     durat | label        | glottocode | element | id\_elements |
-| -: | ----------: | --------: | :-------------------- | ----------: | --------: | :----------- | :--------- | :------ | -----------: |
-| 36 |   34.985028 | 35.090944 | fior1235\_SI.TextGrid |    76.73034 | 0.1059158 | trill        | fior1235   | t2      |          674 |
-| 10 |    9.363031 |  9.423462 | lamu1254.TextGrid     |    29.49537 | 0.0604302 | trill        | lamu1254   | t4      |         1052 |
-|  4 |    1.268552 |  1.311906 | croa1245.TextGrid     |    39.73900 | 0.0433541 | trill        | croa1245   | t1      |          388 |
-| 40 |   83.919877 | 83.974792 | bear1240.TextGrid     |    86.58383 | 0.0549147 | tap          | bear1240   | t4      |          277 |
-| 18 |   40.680195 | 40.716415 | thai1261.TextGrid     |    66.89585 | 0.0362199 | trill        | thai1261   | t4      |         1685 |
-| 18 |   13.204169 | 13.243836 | russ1263.TextGrid     |    37.31649 | 0.0396671 | trill        | russ1263   | t1      |         1516 |
-| 36 |   75.456980 | 75.512791 | bear1240.TextGrid     |    86.58383 | 0.0558104 | tap          | bear1240   | t1      |          275 |
-| 30 |   51.622580 | 51.659134 | west2452.TextGrid     |    68.62918 | 0.0365542 | trill        | west2452   | t4      |         1777 |
-|  8 |    8.173239 |  8.235801 | ital1282.TextGrid     |    45.00000 | 0.0625616 | trill\_trill | ital1282   | t2      |          887 |
-| 14 |   12.279246 | 12.328088 | fior1235\_SI.TextGrid |    76.73034 | 0.0488420 | trill        | fior1235   | t1      |          663 |
+| id | time\_start | time\_end | source                | total\_time |     durat | label | glottocode | element | id\_elements |
+| -: | ----------: | --------: | :-------------------- | ----------: | --------: | :---- | :--------- | :------ | -----------: |
+| 14 |   16.496741 | 16.540356 | basq1248.TextGrid     |    50.93000 | 0.0436154 | tap   | basq1248   | t1      |          236 |
+|  4 |    2.957778 |  3.006946 | cast1244.TextGrid     |    38.90385 | 0.0491680 | tap   | cast1244   | t1      |          323 |
+| 72 |   36.040602 | 36.090864 | ladi1251.TextGrid     |    38.03429 | 0.0502620 | trill | ladi1251   | t4      |         1046 |
+| 72 |   72.294942 | 72.351467 | fior1235\_SI.TextGrid |    76.73034 | 0.0565250 | trill | fior1235   | t1      |          692 |
+| 16 |   13.768951 | 13.813128 | fior1235\_AI.TextGrid |    64.41107 | 0.0441773 | trill | fior1235   | t1      |          526 |
+| 22 |   44.293360 | 44.380235 | bear1240.TextGrid     |    86.58383 | 0.0868756 | tap   | bear1240   | t4      |          268 |
+| 32 |   33.696448 | 33.738156 | fior1235\_SI.TextGrid |    76.73034 | 0.0417078 | trill | fior1235   | t1      |          672 |
+| 18 |   15.073676 | 15.112365 | bulg1262.TextGrid     |   108.56204 | 0.0386894 | trill | bulg1262   | t1      |          306 |
+| 34 |   52.513514 | 52.550437 | amha1245.TextGrid     |    56.37615 | 0.0369228 | tap   | amha1245   | t4      |           87 |
+| 30 |   28.362340 | 28.398560 | fior1235\_RI.TextGrid |    54.93188 | 0.0362199 | trill | fior1235   | t4      |          641 |
 
 Échantillon de dix lignes du tableau utilisé pour la première analyse.
 
@@ -984,18 +987,18 @@ knitr::kable(table_burst %>%
              caption = "Échantillon de dix lignes du tableau utilisé pour la deuxième analyse.")
 ```
 
-| glottocode | id\_elements | elements\_full | id | time\_start | time\_end | source            | total\_time |     durat | label | id\_sound | word\_id     | word        | elements\_old | word\_2    | con\_left | con\_right | conCV\_left | conCV\_right | Left | Right | context | context\_full |
-| :--------- | -----------: | :------------- | -: | ----------: | --------: | :---------------- | ----------: | --------: | :---- | --------: | :----------- | :---------- | :------------ | :--------- | :-------- | :--------- | :---------- | :----------- | :--- | :---- | :------ | :------------ |
-| sout2604   |         1289 | o              | 22 |   28.200105 | 28.224549 | sout2604.TextGrid |    44.47490 | 0.0244439 | trill |        11 | sout2604\_11 | u̯ˈrɛʃtʲi   | o             | urɛʃtʲi    | u         | ɛ          | V           | V            | Vo   | oV    | VrV     | urɛ           |
-| mafe1237   |         1007 | ococo          | 68 |   74.404028 | 74.487117 | mafe1237.TextGrid |    76.14404 | 0.0830888 | trill |        34 | mafe1237\_34 | naˈpar ko   | ococo         | naparko    | a         | k          | V           | C            | Vo   | oC    | VrC     | ark           |
-| afri1274   |           79 | ob             | 46 |   22.464054 | 22.499808 | afri1274.TextGrid |    39.59381 | 0.0357538 | trill |        23 | afri1274\_23 | ˈdəxtər ɦœl | oco           | dəxtərɦœl  | ə         | ɦ          | V           | C            | Vo   | bC    | VrC     | ərɦ           |
-| meri1242   |         1153 | o              | 18 |   16.244045 | 16.259500 | meri1242.TextGrid |    43.14825 | 0.0154555 | trill |         9 | meri1242\_9  | βru         | o             | βru        | β         | u          | C           | V            | Co   | oV    | CrV     | βru           |
-| indo1317   |          729 | oc             | 30 |   39.325668 | 39.378739 | indo1317.TextGrid |    99.33229 | 0.0530711 | tap   |        15 | indo1317\_15 | bəɾgɔjaŋ    | oc            | bəɾgɔjaŋ   | ə         | g          | V           | C            | Vo   | cC    | VrC     | ərg           |
-| meri1242   |         1178 | obc            | 32 |   24.265035 | 24.309837 | meri1242.TextGrid |    43.14825 | 0.0448015 | trill |        16 | meri1242\_16 | pru         | oc            | pru        | p         | u          | C           | V            | Co   | cV    | CrV     | pru           |
-| afri1274   |          121 | ob             | 68 |   34.965488 | 34.999622 | afri1274.TextGrid |    39.59381 | 0.0341338 | trill |        34 | afri1274\_34 | ˈnuərdəvənt | oc            | nuərdəvənt | ə         | d          | V           | C            | Vo   | bC    | VrC     | ərd           |
-| sanm1298   |         1238 | oba            | 10 |   39.491929 | 39.548887 | sanm1298.TextGrid |    56.07986 | 0.0569570 | tap   |         5 | sanm1298\_5  | nĩʔ3 ɾa43  | oa            | niʔɾa      | ʔ         | a          | C           | V            | Co   | aV    | CrV     | ʔra           |
-| nort2820   |         1217 | o              |  8 |   38.596564 | 38.634094 | nort2820.TextGrid |    52.86095 | 0.0375302 | app   |         4 | nort2820\_4  | ɟə̏ɾȁ      | o             | ɟəɾa       | ə         | a          | V           | V            | Vo   | oV    | VrV     | əra           |
-| cent1954   |          500 | oc             |  2 |    1.245845 |  1.300567 | cent1954.TextGrid |    36.34981 | 0.0547221 | trill |         1 | cent1954\_1  | ˈvʲetsʲer i | oc            | vʲetsʲeri  | e         | i          | V           | V            | Vo   | cV    | VrV     | eri           |
+| glottocode | id\_elements | elements\_full | id | time\_start |  time\_end | source            | total\_time |     durat | label | id\_sound | word\_id     | word        | elements\_old | word\_2   | con\_left | con\_right | conCV\_left | conCV\_right | Left | Right | context | context\_full |
+| :--------- | -----------: | :------------- | -: | ----------: | ---------: | :---------------- | ----------: | --------: | :---- | --------: | :----------- | :---------- | :------------ | :-------- | :-------- | :--------- | :---------- | :----------- | :--- | :---- | :------ | :------------ |
+| indo1317   |          685 | obc            |  2 |    0.792595 |  0.8308275 | indo1317.TextGrid |    99.33229 | 0.0382325 | tap   |         1 | indo1317\_1  | mataɦari    | oa            | mataɦari  | a         | i          | V           | V            | Vo   | cV    | VrV     | ari           |
+| mafe1237   |         1013 | ococ           | 70 |   75.182804 | 75.2574780 | mafe1237.TextGrid |    76.14404 | 0.0746738 | trill |        35 | mafe1237\_35 | p̼arˈp̼aː   | ococ          | parpa     | a         | p          | V           | C            | Vo   | cC    | VrC     | arp           |
+| gayo1244   |          622 | co             | 20 |   24.158770 | 24.2157310 | gayo1244.TextGrid |    60.34939 | 0.0569605 | trill |        10 | gayo1244\_10 | si rɔ̯ˈawaː | co            | sirɔawa   | i         | ɔ          | V           | V            | Vc   | oV    | VrV     | irɔ           |
+| cast1244   |          468 | obc            | 56 |   29.843670 | 29.9234127 | cast1244.TextGrid |    38.90385 | 0.0797424 | tap   |        28 | cast1244\_28 | aɾˈð        | oc            | aɾð       | a         | ð          | V           | C            | Vo   | cC    | VrC     | arð           |
+| mafe1237   |          985 | oco            | 52 |   52.277536 | 52.3395302 | mafe1237.TextGrid |    76.14404 | 0.0619942 | trill |        26 | mafe1237\_26 | ˈmeːv ro    | oco           | mevro     | v         | o          | C           | V            | Co   | oV    | CrV     | vro           |
+| meno1251   |         1109 | o              |  6 |    6.053036 |  6.0852755 | meno1251.TextGrid |    36.49143 | 0.0322392 | trill |         3 | meno1251\_3  | təɾus       | o             | təɾus     | ə         | u          | V           | V            | Vo   | oV    | VrV     | əru           |
+| gayo1244   |          661 | oca            | 44 |   43.863864 | 43.9238506 | gayo1244.TextGrid |    60.34939 | 0.0599861 | trill |        22 | gayo1244\_22 | pɔˈɾak      | oca           | pɔɾak     | ɔ         | a          | V           | V            | Vo   | aV    | VrV     | ɔra           |
+| amer1254   |          153 | o              | 14 |   12.529558 | 12.5492309 | amer1254.TextGrid |    39.96016 | 0.0196726 | tap   |         7 | amer1254\_7  | ’njeɾon     | o             | njeɾon    | e         | o          | V           | V            | Vo   | oV    | VrV     | ero           |
+| meri1242   |         1146 | oca            | 14 |   12.340447 | 12.3969653 | meri1242.TextGrid |    43.14825 | 0.0565188 | trill |         7 | meri1242\_7  | aRenˈneʃʃu  | oca           | aRenneʃʃu | a         | e          | V           | V            | Vo   | aV    | VrV     | are           |
+| mafe1237   |          937 | oca            | 26 |   33.515648 | 33.5747816 | mafe1237.TextGrid |    76.14404 | 0.0591331 | trill |        13 | mafe1237\_13 | a ro ka     | oca           | aroka     | a         | o          | V           | V            | Vo   | aV    | VrV     | aro           |
 
 Échantillon de dix lignes du tableau utilisé pour la deuxième analyse.
 
@@ -1456,12 +1459,26 @@ test_dunn_duree <- table_burst %>%
     ## Warning: `as.tbl()` was deprecated in dplyr 1.0.0.
     ## ℹ Please use `tibble::as_tibble()` instead.
 
+``` r
+table_Elements_freq10 <- table_burst %>% 
+  dplyr::select(elements_full) %>% table() %>% 
+  as.data.frame() %>% 
+  dplyr::filter(Freq >= 9) %>% 
+  dplyr::rename(Elements_freq10 = 1)
+```
+
+``` r
+test_dunn_duree10 <- test_dunn_duree %>% 
+  dplyr::filter(group1 %in% table_Elements_freq10$Elements_freq10 &
+                group2 %in% table_Elements_freq10$Elements_freq10)
+```
+
 Nous nous intéressons à présent au dix motifs les plus fréquents. Le
-motif « o » a une durée moyenne de 25,53ms et une médiane de 24,82ms
-(maximum à 42,3ms, minimum à 15,03ms et IQR de 7,1ms). Sa durée moyenne
+motif « o » a une durée moyenne de 25.53ms et une médiane de 24.82ms
+(maximum à 42.3ms, minimum à 15.04ms et IQR de 7.1ms). Sa durée moyenne
 est inférieure à celle de tous les autres motifs (p\<0.001 dans les neuf
-cas). Le motif « a » a une durée moyenne de 44,88ms et une médiane de
-34,94ms (maximum à 123,70ms, minimum à 12,41ms et IQR de 24,82ms). Le
+cas). Le motif « a » a une durée moyenne de 44.88ms et une médiane de
+34.94ms (maximum à 123.71ms, minimum à 12.42ms et IQR de 24.82ms). Le
 motif « a » n’est significativement différent que de « o », « oca » et «
 ococ » (p\<0.05 dans les trois cas). De plus, le test montre que « cob »
 et « obc », « obc » et « oco », et « oca » et « oco » ne sont pas
@@ -1471,14 +1488,176 @@ significativement différents. « ob » reste différent de « obc »
 Dans la suite, nous allons uniquement nous intéresser aux éléments « o »
 dans les neuf motifs les plus fréquents.
 
+``` r
+df_segElm_b[df_segElm_b$element == "o" & df_segElm_b$elements_full!="o",] %>% 
+  dplyr::select(elements_full, durat) %>% 
+  dplyr::bind_rows(table_burst[table_burst$elements_full=="o",] %>% 
+                     dplyr::select(elements_full,durat)) %>% 
+  dplyr::filter(elements_full %in% table_Elements_freq10$Elements_freq10) %>% 
+  ggplot2::ggplot(ggplot2::aes(x=reorder(elements_full,durat),y=durat))+
+  ggplot2::geom_boxplot() +
+  ggplot2::theme_minimal(base_size=20) +
+  ggplot2::theme(axis.text.x = ggplot2::element_text(angle = 45, hjust=1))  +
+  ggplot2::labs(y  = "Durée", x = "Motifs contenant « o »") 
+```
+
+![Durées moyennes des « o » en fonction des motifs les contenant. Aucune
+différence n’est faite entre le premier « o » d’un motif ou le deuxième
+« o », bien que la durée de l’élément « o » diminue lorsqu’il est placé
+plus à droite dans le
+motif.](Script_Chapitre_3_files/figure-gfm/unnamed-chunk-66-1.png)
+
+Durées moyennes des « o » en fonction des motifs les contenant. Aucune
+différence n’est faite entre le premier « o » d’un motif ou le deuxième
+« o », bien que la durée de l’élément « o » diminue lorsqu’il est placé
+plus à droite dans le motif.
+
+``` r
+test_kruskal_duree_o <- df_segElm_b[df_segElm_b$element == "o" & df_segElm_b$elements_full!="o",] %>% 
+  dplyr::select(elements_full, durat) %>% 
+  dplyr::bind_rows(table_burst[table_burst$elements_full=="o",] %>% 
+                     dplyr::select(elements_full,durat)) %>% 
+  dplyr::filter(elements_full %in% table_Elements_freq10$Elements_freq10)  %>% 
+  rstatix::kruskal_test(durat ~ elements_full)
+
+
+test_dunn_duree_o <- df_segElm_b[df_segElm_b$element == "o" & df_segElm_b$elements_full!="o",] %>% 
+  dplyr::select(elements_full, durat) %>% 
+  dplyr::bind_rows(table_burst[table_burst$elements_full=="o",] %>% 
+                     dplyr::select(elements_full,durat)) %>% 
+  dplyr::filter(elements_full %in% table_Elements_freq10$Elements_freq10)  %>% 
+  rstatix::dunn_test(durat ~ elements_full) %>% 
+  dplyr::as.tbl() 
+
+test_dunn_duree_only_o <- test_dunn_duree_o %>% 
+  dplyr::filter(group1 =="o" | group2 =="o" )
+```
+
 Un test de Kruskal–Wallis permet de mettre en évidence que les éléments
 « o » ont une durée différente en fonction du motif dans lequel ils
-sont inclus (H(8)=57.81661, p\<0.001). Le test post-hoc de Dunn montre
-que toutes les différences de durée entre un élément « o » dans un motif
-« o » et dans un autre motif (comme, par exemple, « oco » ou « obc »)
-sont significatives (p\<0.05) à l’exception de « oca » et de « co ».
-Autrement dit, les durées des « o » dans les motifs avec plus d’un
+sont inclus (H(8)=59.9273131, p=4.8210^{-10}). Le test post-hoc de Dunn
+montre que toutes les différences de durée entre un élément « o » dans
+un motif « o » et dans un autre motif (comme, par exemple, « oco » ou «
+obc ») sont significatives (p\<0.05) à l’exception de « oca » et de « co
+». Autrement dit, les durées des « o » dans les motifs avec plus d’un
 élément ne sont pas significativement différentes (sauf pour « oca »
 et « co »).
 
 ### 3.4.3 Les différents contextes possibles
+
+``` r
+table_only_10_o <- table_Elements_freq10 %>% dplyr::filter(Freq > 10) %>% 
+  dplyr::rename(elements_full = 1) %>% 
+  dplyr::mutate(elements_full = as.character(elements_full)) %>% 
+  dplyr::filter(stringr::str_detect(elements_full,"o"))
+```
+
+``` r
+table_burst %>% 
+  dplyr::filter(elements_full %in% table_only_10_o$elements_full) %>% 
+  dplyr::group_by(elements_full) %>%
+  dplyr::select(elements_full,context) %>%  table() %>% 
+  dplyr::as_tibble() %>% 
+  dplyr::group_by(elements_full) %>% 
+  dplyr::mutate(freq = n/sum(n)) %>% 
+  dplyr::ungroup() %>% 
+  ggplot2::ggplot(ggplot2::aes(y=elements_full,x=context,fill=freq)) +
+  ggplot2::geom_tile() +
+  ggplot2::theme_bw(base_size=20) +
+  ggplot2::labs(y  = "Motifs", x = "Contextes" ) +
+  ggplot2::scale_fill_viridis_c(name = "Fréquence") +
+  ggplot2::labs(caption = "(V = voyelle, C = consonne, B = frontière prosodique)") +
+  ggplot2::theme(plot.caption = ggplot2::element_text(hjust = 0.5))
+```
+
+![Fréquences des différents motifs en fonction des contextes. Les
+fréquences sont calculées par ligne. Une case jaune signifie qu’un
+motif est intégralement trouvé dans un seul contexte, une case violette
+signifie qu’un motif n’est pas présent dans ce
+contexte.](Script_Chapitre_3_files/figure-gfm/unnamed-chunk-69-1.png)
+
+Fréquences des différents motifs en fonction des contextes. Les
+fréquences sont calculées par ligne. Une case jaune signifie qu’un
+motif est intégralement trouvé dans un seul contexte, une case violette
+signifie qu’un motif n’est pas présent dans ce contexte.
+
+``` r
+context_VrV_left <- table_burst %>%   
+  dplyr::filter(elements_full %in% table_only_10_o$elements_full) %>% 
+  dplyr::filter(context == "VrV") %>% 
+  dplyr::select(con_left) %>% table() %>% 
+  as.data.frame() %>% 
+  dplyr::mutate(Freq_pc = (Freq / sum(Freq))*100)
+
+context_VrV_right <-table_burst %>%   
+  dplyr::filter(elements_full %in% table_only_10_o$elements_full) %>% 
+  dplyr::filter(context == "VrV") %>% 
+  dplyr::select(con_right) %>% table() %>% 
+  as.data.frame() %>% 
+  dplyr::mutate(Freq_pc = (Freq / sum(Freq))*100)
+```
+
+Pour le contexte intervocalique, indépendamment du motif, on retrouve
+une multitude de voyelles avant le motif. Le \[a\] représente 31.94% des
+occurrences, suivi du \[e\] (15.71%) du \[ə\] (11.52%) et du \[i\]
+(10.99%). Après les motifs, on retrouve le \[a\] qui représente 24.61%
+des occurrences, le \[i\] 17.28% des occurrences et le \[o\] et le \[u\]
+représentent chacun 13.1%.
+
+# Références
+
+## Packages utilisés
+
+``` r
+ins.pack <- installed.packages()[names(sessionInfo()$otherPkgs), "Version"] %>% 
+  as.data.frame() %>% tibble::rownames_to_column()
+names(ins.pack)[1] <- "Packages"
+names(ins.pack)[2] <- "Version"
+
+ins.pack %>% knitr::kable()
+```
+
+| Packages      | Version |
+| :------------ | :------ |
+| stringr       | 1.4.1   |
+| readr         | 2.1.2   |
+| ggplot2       | 3.4.0   |
+| dplyr         | 1.0.10  |
+| rstatix       | 0.7.0   |
+| phonfieldwork | 0.0.11  |
+| speakr        | 3.2.1   |
+| knitr         | 1.41    |
+
+## Version de RStudio
+
+``` r
+rstudioapi::versionInfo()
+```
+
+    ## $citation
+    ## 
+    ## To cite RStudio in publications use:
+    ## 
+    ##   RStudio Team (2020). RStudio: Integrated Development Environment for
+    ##   R. RStudio, PBC, Boston, MA URL http://www.rstudio.com/.
+    ## 
+    ## A BibTeX entry for LaTeX users is
+    ## 
+    ##   @Manual{,
+    ##     title = {RStudio: Integrated Development Environment for R},
+    ##     author = {{RStudio Team}},
+    ##     organization = {RStudio, PBC},
+    ##     address = {Boston, MA},
+    ##     year = {2020},
+    ##     url = {http://www.rstudio.com/},
+    ##   }
+    ## 
+    ## 
+    ## $mode
+    ## [1] "desktop"
+    ## 
+    ## $version
+    ## [1] '1.3.1073'
+    ## 
+    ## $release_name
+    ## [1] "Giant Goldenrod"

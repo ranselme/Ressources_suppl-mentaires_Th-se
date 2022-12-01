@@ -19,8 +19,13 @@ editor_options:
 `%>%` <- magrittr::`%>%`
 
 library(knitr)
+library(speakr)
 library(phonfieldwork)
 library(rstatix)
+library(dplyr)
+library(ggplot2)
+library(readr)
+library(stringr)
 
 # Figure and Table caption adapted from https://stackoverflow.com/questions/37116632/rmarkdown-html-number-figures: 
 outputFormat = opts_knit$get("rmarkdown.pandoc.to"); # determine the output format of the document
@@ -754,19 +759,132 @@ test_dunn_duree <- table_burst %>%
   dplyr::as.tbl()
 ```
 
+```{r}
+table_Elements_freq10 <- table_burst %>% 
+  dplyr::select(elements_full) %>% table() %>% 
+  as.data.frame() %>% 
+  dplyr::filter(Freq >= 9) %>% 
+  dplyr::rename(Elements_freq10 = 1)
+```
+
+```{r}
+test_dunn_duree10 <- test_dunn_duree %>% 
+  dplyr::filter(group1 %in% table_Elements_freq10$Elements_freq10 &
+                group2 %in% table_Elements_freq10$Elements_freq10)
+```
+
 Nous nous intéressons à présent au dix motifs les plus fréquents.
-Le motif « o » a une durée moyenne de 25,53ms et une médiane de 24,82ms (maximum à 42,3ms, minimum à 15,03ms et IQR de 7,1ms).
+Le motif « o » a une durée moyenne de `r round(mean(dplyr::filter(table_burst,elements_full=="o")$durat)*1000,2)`ms et une médiane de `r round(median(dplyr::filter(table_burst,elements_full=="o")$durat)*1000,2)`ms (maximum à `r round(max(dplyr::filter(table_burst,elements_full=="o")$durat)*1000,2)`ms, minimum à `r round(min(dplyr::filter(table_burst,elements_full=="o")$durat)*1000,2)`ms et IQR de `r round(IQR(dplyr::filter(table_burst,elements_full=="o")$durat)*1000,2)`ms).
 Sa durée moyenne est inférieure à celle de tous les autres motifs (p<0.001 dans les neuf cas).
-Le motif « a » a une durée moyenne de 44,88ms et une médiane de 34,94ms (maximum à 123,70ms, minimum à 12,41ms et IQR de 24,82ms).
+Le motif « a » a une durée moyenne de `r round(mean(dplyr::filter(table_burst,elements_full=="a")$durat)*1000,2)`ms et une médiane de `r round(median(dplyr::filter(table_burst,elements_full=="a")$durat)*1000,2)`ms (maximum à `r round(max(dplyr::filter(table_burst,elements_full=="a")$durat)*1000,2)`ms, minimum à `r round(min(dplyr::filter(table_burst,elements_full=="a")$durat)*1000,2)`ms et IQR de `r round(IQR(dplyr::filter(table_burst,elements_full=="a")$durat)*1000,2)`ms).
 Le motif « a » n’est significativement différent que de « o », « oca » et « ococ » (p<0.05 dans les trois cas).
 De plus, le test montre que « cob » et « obc », « obc » et « oco », et « oca » et « oco » ne sont pas significativement différents.
 « ob » reste différent de « obc » (p<0.001) mais pas de « oc ».
 
 Dans la suite, nous allons uniquement nous intéresser aux éléments « o » dans les neuf motifs les plus fréquents.
 
-Un test de Kruskal–Wallis permet de mettre en évidence que les éléments « o » ont une durée différente en fonction du motif dans lequel ils sont inclus (H(8)=57.81661, p<0.001).
+```{r fig.cap=capFig("Durées moyennes des « o » en fonction des motifs les contenant. Aucune différence n’est faite entre le premier « o » d’un motif ou le deuxième « o », bien que la durée de l’élément « o » diminue lorsqu’il est placé plus à droite dans le motif."), fig.width=12, fig.height=7}
+df_segElm_b[df_segElm_b$element == "o" & df_segElm_b$elements_full!="o",] %>% 
+  dplyr::select(elements_full, durat) %>% 
+  dplyr::bind_rows(table_burst[table_burst$elements_full=="o",] %>% 
+                     dplyr::select(elements_full,durat)) %>% 
+  dplyr::filter(elements_full %in% table_Elements_freq10$Elements_freq10) %>% 
+  ggplot2::ggplot(ggplot2::aes(x=reorder(elements_full,durat),y=durat))+
+  ggplot2::geom_boxplot() +
+  ggplot2::theme_minimal(base_size=20) +
+  ggplot2::theme(axis.text.x = ggplot2::element_text(angle = 45, hjust=1))  +
+  ggplot2::labs(y  = "Durée", x = "Motifs contenant « o »") 
+```
+
+Durées moyennes des « o » en fonction des motifs les contenant. Aucune différence n’est faite entre le premier « o » d’un motif ou le deuxième « o », bien que la durée de l’élément « o » diminue lorsqu’il est placé plus à droite dans le motif.
+
+```{r}
+test_kruskal_duree_o <- df_segElm_b[df_segElm_b$element == "o" & df_segElm_b$elements_full!="o",] %>% 
+  dplyr::select(elements_full, durat) %>% 
+  dplyr::bind_rows(table_burst[table_burst$elements_full=="o",] %>% 
+                     dplyr::select(elements_full,durat)) %>% 
+  dplyr::filter(elements_full %in% table_Elements_freq10$Elements_freq10)  %>% 
+  rstatix::kruskal_test(durat ~ elements_full)
+
+
+test_dunn_duree_o <- df_segElm_b[df_segElm_b$element == "o" & df_segElm_b$elements_full!="o",] %>% 
+  dplyr::select(elements_full, durat) %>% 
+  dplyr::bind_rows(table_burst[table_burst$elements_full=="o",] %>% 
+                     dplyr::select(elements_full,durat)) %>% 
+  dplyr::filter(elements_full %in% table_Elements_freq10$Elements_freq10)  %>% 
+  rstatix::dunn_test(durat ~ elements_full) %>% 
+  dplyr::as.tbl() 
+
+test_dunn_duree_only_o <- test_dunn_duree_o %>% 
+  dplyr::filter(group1 =="o" | group2 =="o" )
+```
+
+Un test de Kruskal–Wallis permet de mettre en évidence que les éléments « o » ont une durée différente en fonction du motif dans lequel ils sont inclus (H(`r test_kruskal_duree_o[[4]]`)=`r test_kruskal_duree_o[[3]]`, p=`r test_kruskal_duree_o[[5]]`).
 Le test post-hoc de Dunn montre que toutes les différences de durée entre un élément « o » dans un motif « o » et dans un autre motif (comme, par exemple, « oco » ou « obc ») sont significatives (p<0.05) à l’exception de « oca » et de « co ».
 Autrement dit, les durées des « o » dans les motifs avec plus d’un élément ne sont pas significativement différentes (sauf pour « oca » et « co »).
 
 ### 3.4.3 Les différents contextes possibles
 
+```{r}
+table_only_10_o <- table_Elements_freq10 %>% dplyr::filter(Freq > 10) %>% 
+  dplyr::rename(elements_full = 1) %>% 
+  dplyr::mutate(elements_full = as.character(elements_full)) %>% 
+  dplyr::filter(stringr::str_detect(elements_full,"o"))
+```
+
+```{r fig.cap=capFig("Fréquences des différents motifs en fonction des contextes. Les fréquences sont calculées par ligne. Une case jaune signifie qu’un motif est intégralement trouvé dans un seul contexte, une case violette signifie qu’un motif n’est pas présent dans ce contexte."), fig.width=8, fig.height=7}
+table_burst %>% 
+  dplyr::filter(elements_full %in% table_only_10_o$elements_full) %>% 
+  dplyr::group_by(elements_full) %>%
+  dplyr::select(elements_full,context) %>%  table() %>% 
+  dplyr::as_tibble() %>% 
+  dplyr::group_by(elements_full) %>% 
+  dplyr::mutate(freq = n/sum(n)) %>% 
+  dplyr::ungroup() %>% 
+  ggplot2::ggplot(ggplot2::aes(y=elements_full,x=context,fill=freq)) +
+  ggplot2::geom_tile() +
+  ggplot2::theme_bw(base_size=20) +
+  ggplot2::labs(y  = "Motifs", x = "Contextes" ) +
+  ggplot2::scale_fill_viridis_c(name = "Fréquence") +
+  ggplot2::labs(caption = "(V = voyelle, C = consonne, B = frontière prosodique)") +
+  ggplot2::theme(plot.caption = ggplot2::element_text(hjust = 0.5))
+```
+
+Fréquences des différents motifs en fonction des contextes. Les fréquences sont calculées par ligne. Une case jaune signifie qu’un motif est intégralement trouvé dans un seul contexte, une case violette signifie qu’un motif n’est pas présent dans ce contexte.
+
+```{r}
+context_VrV_left <- table_burst %>%   
+  dplyr::filter(elements_full %in% table_only_10_o$elements_full) %>% 
+  dplyr::filter(context == "VrV") %>% 
+  dplyr::select(con_left) %>% table() %>% 
+  as.data.frame() %>% 
+  dplyr::mutate(Freq_pc = (Freq / sum(Freq))*100)
+
+context_VrV_right <-table_burst %>%   
+  dplyr::filter(elements_full %in% table_only_10_o$elements_full) %>% 
+  dplyr::filter(context == "VrV") %>% 
+  dplyr::select(con_right) %>% table() %>% 
+  as.data.frame() %>% 
+  dplyr::mutate(Freq_pc = (Freq / sum(Freq))*100)
+```
+
+Pour le contexte intervocalique, indépendamment du motif, on retrouve une multitude de voyelles avant le motif.
+Le [a] représente `r round(context_VrV_left[context_VrV_left$.=="a",]$Freq_pc,2)`% des occurrences, suivi du [e] (`r round(context_VrV_left[context_VrV_left$.=="e",]$Freq_pc,2)`%) du [ə] (`r round(context_VrV_left[context_VrV_left$.=="ə",]$Freq_pc,2)`%) et du [i] (`r round(context_VrV_left[context_VrV_left$.=="i",]$Freq_pc,2)`%).
+Après les motifs, on retrouve le [a] qui représente `r round(context_VrV_right[context_VrV_right$.=="a",]$Freq_pc,2)`% des occurrences, le [i] `r round(context_VrV_right[context_VrV_right$.=="i",]$Freq_pc,2)`% des occurrences et le [o] et le [u] représentent chacun `r round(context_VrV_right[context_VrV_right$.=="o",]$Freq_pc,1)`%.
+
+# Références
+
+## Packages utilisés
+```{r}
+ins.pack <- installed.packages()[names(sessionInfo()$otherPkgs), "Version"] %>% 
+  as.data.frame() %>% tibble::rownames_to_column()
+names(ins.pack)[1] <- "Packages"
+names(ins.pack)[2] <- "Version"
+
+ins.pack %>% knitr::kable()
+```
+
+## Version de RStudio
+```{r}
+rstudioapi::versionInfo()
+```
