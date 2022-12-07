@@ -51,7 +51,101 @@ capFig = function(x){
 
 ## Préparation des données
 
-Les données ont été préparés dans le fichier `data_processing.R` (*pas totalement mis au propre*). Nous avons récupéré des fichiers `.csv`. De cette préparation des données, nous obtenons systématiquement des données  en `.RData` prête à être importées sur R.
+Les données ont été préparés dans le fichier `data_processing.R` (*pas totalement mis au propre*). Nous avons récupéré des fichiers `.csv` (présent dans le dossier `Data_SoundComparison`). De cette préparation des données, nous obtenons systématiquement des données  en `.RData` prête à être importées sur R.
+
+Nous avons les `.csv` suivants (utiles dans le script `data_processing.R`) :
+
+- `Customexport_2020-04-04 18_47.csv` (Pour le cognat 3 dans les langues d'Europe)
+- `Customexport_2020-04-09 19_59.csv` (Pour les langues romanes)
+- `Customexport_2020-04-09 19_48.csv` (Pour les rhotiques initiales dans les langues romanes)
+- `Customexport_2020-04-10 10_51.csv` (Pour les rhotiques intervocaliques dans les langues romanes)
+- `Customexport_2020-04-11 16_29.csv` (Pour les autres rhotiques initiales dans les langues romanes)
+- `languages_R20.csv` (Data de romance pour ~20 cognats)
+- `Customexport_2020-04-27 21_13.csv` (Data de romance pour ~30 cognats)
+- `Customexport_2020-04-09 22_18.csv` (Data pour le mapudungun)
+- `Customexport_2020-07-08 12 00.csv` (Pour les rhotiques dans le cognat 7 en mapudungun)
+- `Customexport_2020-07-08 14 26.csv` (Data pour le mapudungun v1)
+- `Customexport_2020-07-08 14 39.csv` (Data pour le mapudungun v2)
+- `Customexport_2021-08-11_12_32.csv` (Data pour les langues slaves)
+- `Customexport_2021-08-16_17_47.csv` (Data pour les langues germaniques)
+- `Customexport_2022-08-10 22 00.csv` (Data pour le Mapudungun avec une préparation des données différentes)
+
+Je rajoute aussi les données pour le Vanuatu Malakula North avant qu'elles soient déplacées sur `https://vanuatuvoices.clld.org/` dans le dossier `Vanuatu_Malakula_North` :
+
+- `Customexport_2020-07-09 10 06.csv`
+- `Customexport_2020-07-09 10 08.csv`
+- `Customexport_2020-07-09 10 10.csv`
+- `Customexport_2020-07-09 10 11.csv`
+- `Customexport_2020-07-09 10 12.csv`
+- `Customexport_2020-07-09 10 12(1).csv`
+- `Customexport_2020-07-09 10 14.csv`
+- `Customexport_2020-07-09 10 14(1).csv`
+- `Customexport_2020-07-09 10 15.csv`
+- `Customexport_2020-07-09 10 15(1).csv`
+- `Customexport_2020-07-09 10 16.csv`
+- `Customexport_2020-07-09 10 18.csv`
+- `Customexport_2020-07-09 10 19.csv`
+
+Avec une mini étude cas avec une étude préliminaire sur Praat (nous joignons des `.TextGrid` dans le dossier `Ambae_TG`) que nous n'aurons pas continuer pour manque de temps :
+
+- `East_Lolovoli.TextGrid`
+- `East_SanaSolokave.TextGrid`
+- `East_Vuindondo.TextGrid`
+- `Nth_HavaiLombaha.TextGrid`
+- `Nth_Leonda.TextGrid`
+- `Nth_LeoVandue.TextGrid`
+- `Sth_Biribiri.TextGrid`
+- `Sth_Lolovele.TextGrid`
+- `Sth_Sakao.TextGrid`
+- `West_Walaha.TextGrid`
+
+De même pour les langues de Papouasie-Nouvelle-Guinée (avant qu'elles soient déplacées sur `https://papuanvoices.clld.org/` dans le dossier `West_papua`) :
+
+- `Customexport_2020-07-09 11 18.csv`
+- `Customexport_2020-07-09 11 18(1).csv`
+- `Customexport_2020-07-09 11 19.csv`
+- `Customexport_2020-07-09 11 19(1).csv`
+- `Customexport_2020-07-09 11 19(2).csv`
+- `Customexport_2020-07-09 11 19(3).csv`
+- `Customexport_2020-07-09 11 19(4).csv`
+- `Customexport_2020-07-09 11 21.csv`
+- `Customexport_2020-07-09 11 21(1).csv`
+- `Customexport_2020-07-09 11 21(2).csv`
+- `Customexport_2020-07-09 11 21(3).csv`
+- `Customexport_2020-07-09 11 22.csv`
+
+Ansi que des données pour les langues quechua :
+
+- `Customexport_2020-04-09 22_14.csv` (Data pour le quechua pour les rhotiques initiales)
+- `Customexport_2020-07-08 17 54.csv` (Data pour le quechua)
+
+
+
+
+Qui nous permet d'obtenir les fichiers à analyser suivants : 
+
+- `df3EuAnal.RData`
+- `df3RoAnal.RData`
+- `dfroueRoAnal.RData`
+- `dfWaitRoAnal.RData`
+- `dffastRoAnal.RData`
+- `dfR25Anal.RData`
+- `dfR50Anal.RData`
+- `dfHouseMaAnal.RData`
+- `df7MaAnal.RData`
+- `dfMa23RAnal.RData`
+- `dfSlavicAnal.RData`
+- `dfGermanicAnal.RData`
+- `dfMaNewRAnal.RData`
+
+
+Et pour les langues non incluses dans la thèse les fichiers suivants :
+
+- `dfMaNoRAnal.RData`
+- `dfWPRAnal.RData`
+- `dfAmRAnal.RData`
+- `dfPersonQcAnal.RData`
+- `dfQc14RAnal.RData`
 
 # Références
 
