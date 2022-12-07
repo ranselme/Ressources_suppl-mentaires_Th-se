@@ -1,0 +1,110 @@
+﻿LanguageId,LanguageName,Latitude,Longitude,WordId,WordModernName1,WordModernName2,WordProtoName1,WordProtoName2,Phonetic,SpellingAltv1,SpellingAltv2,NotCognateWithMainWordInThisFamily
+12002000001,"Classical Latin",41.8922,12.4852,6840,wheel,,rotam,,ˈrɔtã,rotam,,0
+12121120229,"Galician: Foz",43.55,-7.3,6840,wheel,,rotam,,ˈrɔ̞ˑðɐ,roda,,0
+12121130129,Galician-Asturian,43.56667,-6.95,6840,wheel,,rotam,,ˈɹ̝ɔ̝ˑðɐ,,,0
+12121220008,"Asturian: Normative",43.36311,-5.84404,6840,wheel,,rotam,,ˈrwɛ̝ðɐ,,,0
+12121550009,Mirandese,41.49556,-6.27388,6840,wheel,,rotam,,ˈrwɘðɜ,ruôda,,0
+12111330008,"Port.: Std Lisbon acc.",38.71667,-9.16667,6840,wheel,,rotam,,ˈχɔːðɛ̈,roda,,0
+12111200008,"Port.: Portugal N. acc.",41.3,-7.75,6840,wheel,,rotam,,ˈrɔ̞ːðæ,,,0
+12131120508,"Spanish Std: Burgos",42.35,-3.7,6840,wheel,,rotam,,ˈrwe̠ð̞a,rueda,,0
+12141640507,"Catalan Std: Palma acc.",39.57139,2.65167,6840,wheel,,rotam,,ˈrɔ̞ːðɜ̠,roda,,0
+12141230509,"Catalan Trans: Morella",40.61917,0.10056,6840,wheel,,rotam,,ˈɾɔ̟ˑð̞a,,,0
+12141360509,"Catalan NW: Vall de Boí",42.50472,0.80361,6840,wheel,,rotam,,ˈrɔ̟ˑðɐ,,,0
+12141430509,"Catalan Ctl: Valls",41.28833,1.25194,6840,wheel,,rotam,,ˈrˠɔ̟ˑðɜ̟,,,0
+12141460509,"Catalan Ctl: Granollers",41.60833,2.28889,6840,wheel,,rotam,,ˈrɔ̞̟ˑðɜ,,,0
+12141380509,"Catalan NW: Andorra",42.55833,1.55528,6840,wheel,,rotam,,ˈkɹ̝ɔɐ̆ðɐ̠,,,0
+12141560509,"Catalan N: Perpignan",42.6986,2.8956,6840,wheel,,rotam,,ˈrˠɔˑðə̟,roda,,0
+12141640509,"Catalan Isl: Palma",39.57139,2.65167,6840,wheel,,rotam,,ˈrɔːðɐ,,,0
+12211500107,"French Std: Paris Acc.",48.8567,2.3508,6840,wheel,,rotam,,ʁuˑ,roue,,0
+12211222909,"Norman: St-Vaast",49.5886,-1.2661,6840,wheel,,rotam,,ʀuː,,,0
+12211223209,"Norman: Les Pieux",49.5139,-1.8067,6840,wheel,,rotam,,hɰøː,,,0
+12211224209,"Norman: Sénoville",49.4342,-1.7792,6840,wheel,,rotam,,ʁuː,,,0
+12211224609,"Norman: Orglandes",49.4225,-1.4481,6840,wheel,,rotam,,ʁuː,,,0
+12211225109,"Norman: Carteret",49.38111,-1.75278,6840,wheel,,rotam,,χoˑlˠ,,,0
+12211318309,"Picard: Montreuil",50.46482,1.76301,6840,wheel,,rotam,,ˈʁɔ̟lɘ̤,,,0
+12211436209,"Walloon: Clavier",50.383,5.33,6840,wheel,,rotam,,ʁɔ̝uˑ,rowe,,0
+12211107409,"Gallo: Janzé",47.96139,-1.49778,6840,wheel,,rotam,,hə̆ruˈβ̞eˑl,,,0
+12211787409,"Welche: Fréland",48.17058,7.19351,6840,wheel,,rotam,,ʁ̞yː,,,0
+12211788409,"Welche: Labaroche",48.11018,7.19253,6840,wheel,,rotam,,ʁyː,,,0
+12211500707,"French Std: Perpignan Acc.",42.6986,2.8956,6840,wheel,,rotam,,oˈ˳ʁʊˑ,,,0
+12231145509,"Gascon: Béarn",43.3,-0.3667,6840,wheel,,rotam,,a̝ˈrˠɔ̝ːdo̞,,,0
+12231155509,"Gascon: Val d’Aran",42.735,0.79528,6840,wheel,,rotam,,aˈr̝o̞ːð̞ʌ,arròda,,0
+12231336709,"Limousin: Hautefort",45.26028,1.14861,6840,wheel,,rotam,,ˈrˠoːdʌ,,,0
+12231420509,"Auvergne: Neschers",45.5911,3.1644,6840,wheel,,rotam,,ˈʁ̞oˑdʌ,,,0
+12231247709,"Languedoc: Montpellier",43.60576,3.86652,6840,wheel,,rotam,,ˈʁɔˑdɜ,ròda,,0
+12231615909,"Provençal: Lagnes",43.89417,5.11528,6840,wheel,,rotam,,ʁ̞ɑˑuˑ,,,0
+12231615909,"Provençal: Lagnes",43.89417,5.11528,6840,wheel,,rotam,,ˈvɔ̝ˑdɔ̈,,,1
+12271223309,"French: Quebec: Abitibi",48.56667,-78.11667,6840,wheel,,rotam,,ɾuˑ,,,0
+12311598609,"FrPrv: Valaisan",46.1551,7.49771,6840,wheel,,rotam,,χuːa̠,,,0
+12311614709,"FrPrv: Savoy: Chablaisien",46.24972,6.47333,6840,wheel,,rotam,,ˈʀa̝̠ˑuwə̆,,,0
+12311735609,"FrPrv: Aosta: Roisan",45.80583,7.31117,6840,wheel,,rotam,,ˈrˠaˑʊwɐ,,,0
+12311738609,"FrPrv: Aosta: Ayas",45.81334,7.69677,6840,wheel,,rotam,,rˠuˈɐ̠ˑ,,,0
+12321100008,"‘Rumansh Grischun’",46.85314,9.52693,6840,wheel,,rotam,,**,roda,,0
+12321113209,"Romansh: Tuatschin",46.68855,8.76492,6840,wheel,,rotam,,ˈɾˠoːdɜ,,,0
+12321120008,"Romansh: Sursilvan",46.76892,8.94799,6840,wheel,,rotam,,ˈʀɔːdɐ,,,0
+12321143509,"Romansh: Surmiran",46.60228,9.5965,6840,wheel,,rotam,,ˈɾ̝uˑʈʈə,,,0
+12321163609,"Romansh: Vallader",46.80946,10.07675,6840,wheel,,rotam,,ˈrɔ̝ːud˳ɐ,,,0
+12321210109,"Ladin: Dolomites",46.34,11.4,6840,wheel,,rotam,,ˈχɔˑdɐ,,,0
+12421001007,"Italian Std: Romagna acc.",44.17105,11.94742,6840,wheel,,rotam,,ˈɾwɔ̞ːta̝̰,ruota,,0
+12421002007,"Italian Std: Tuscany acc.",43.87988,11.09711,6840,wheel,,rotam,,ˈɹ̝wɔ̝ˑt̪θɐ,,,0
+12421004007,"Italian Std: Naples acc.",40.83585,14.2501,6840,wheel,,rotam,,ˈɾ̥wo̟ˑta̝̠,,,0
+12231572409,"Provençal Alpine: Valdese",44.88906,7.04986,6840,wheel,,rotam,,ˈɾuːɔ̝,,,0
+12411113409,"Piedmont: Pianezza",45.10394,7.54483,6840,wheel,,rotam,,ʔʰə̆ˈru̞ːa̠,"rova, roa",,0
+12411281409,"Lombardy: Bregaglia",46.46667,9.65,6840,wheel,,rotam,,ˈrˠoːda̝,,,0
+12411230409,"Lombardy: Barlassina",45.65,9.13333,6840,wheel,,rotam,,ˈrˠɵːta̝,,,0
+12411320209,"Lombardy: Gardone",45.68333,10.18333,6840,wheel,,rotam,,ˈɹ̝øˑdɜ,,,0
+12411320309,"Lombardy: Lumezzane",45.65,10.26667,6840,wheel,,rotam,,hɜ̆ˈʁ̞øːðɐ,,,0
+12411460509,"Venice (city)",45.4375,12.33583,6840,wheel,,rotam,,[na̝ˑ]ˈɾɔːda̝,,,0
+12411416409,"Trentino: Albiano",46.14487,11.19412,6840,wheel,,rotam,,ˈroːdɐ,,,0
+12411438209,"Veneto: Belluno",46.16565,12.39165,6840,wheel,,rotam,,ˈɾɔːðɐ,,,0
+12411565509,"Trieste (city)",45.65144,13.76756,6840,wheel,,rotam,,ˈroːda̟,,,0
+12411647509,"Liguria: Cicagna",44.40984,9.23808,6840,wheel,,rotam,,hə̆ˈɾe̞ːa̠,,,0
+12411773509,"Bologna (city)",44.50116,11.34264,6840,wheel,,rotam,,ˈrˠoːdɐ,,,0
+12441147309,"Abruzzi E.: Chieti",42.26667,14.3,6840,wheel,,rotam,,ˈɾoːtʰ,,,0
+12441252809,"Molise: Guglionesi",41.91667,14.91667,6840,wheel,,rotam,,ˈɾɔːtʰə,,,0
+12441332109,"Puglia: Canosa",41.21667,16.06667,6840,wheel,,rotam,,ˈrɔˑtʰə,,,0
+12451122209,"Salento C.: Squinzano",40.43333,18.05,6840,wheel,,rotam,,ˈɹɔ̞ːta̤,,,0
+12451134509,"Salento S.: Ruffano",39.98333,18.25,6840,wheel,,rotam,,ˈɾɔːtɐ,,,0
+12441424609,"Naples (city)",40.83333,14.25,6840,wheel,,rotam,,ˈɾɔ̝ːtə̠,,,0
+12441436309,"Campania: Montella",40.85,15.01667,6840,wheel,,rotam,,ˈɹɔ̞ːtɐ̠,,,0
+12441448509,"Campania: Santa Marina",40.1,15.55,6840,wheel,,rotam,,ˈɾɔ̞ːta̝̠,,,0
+12441533309,"Lucano: Castelmezzano",40.53333,16.05,6840,wheel,,rotam,,ˈɹ̝oˑt̪ɐ̤,,,0
+12441545709,"Calabria Lausb.: Oriolo",40.05,16.45,6840,wheel,,rotam,,ˈʰɾɔotʰə,,,0
+12441557109,"Calabria N.: Cetraro",39.5,15.95,6840,wheel,,rotam,,ˈrɔ̞ːta,,,0
+12451220809,"Calabria S.: Cropani",38.96667,16.78333,6840,wheel,,rotam,,ˈrɔːta̝,,,0
+12481603109,"Italy: N. in S.: Picerno",40.63333,15.63333,6840,wheel,,rotam,,ˈz̺ɔ̞ːtă̠̰,,,0
+12481604209,"Italy: N. in S.: Tito",40.58333,15.68333,6840,wheel,,rotam,,ˈɹ̝ˑɔːt̪ɐ,,,0
+12481608109,"Italy: N. in S.: Trecchina",40.03333,15.76667,6840,wheel,,rotam,,ˈrɔ̝ːtɐ,,,0
+12481609109,"Italy: N. in S.: Rivello",40.08333,15.76667,6840,wheel,,rotam,,ˈrɔːtʰə,,,0
+12481801609,"Italy: N. in S.: San Fratello",38.01667,14.6,6840,wheel,,rotam,,ˈrʊˑɜð̞ɐ,,,0
+12481801809,"Italy: N. in S.: Novara",38.01667,15.13333,6840,wheel,,rotam,,ˈɹ̝ʊ̟ˑdɜ,,,0
+12451311609,"Sicily: Palermo",38.11555,13.36139,6840,wheel,,rotam,,ˈrwɔ̟ˑtɐ,,,0
+12451322609,"Sicily C.: Mussomeli",37.58333,13.75,6840,wheel,,rotam,,ˈɾɔ̞ːtʰɐ,,,0
+12451316509,"Sicily W.: Sciacca",37.50917,13.08889,6840,wheel,,rotam,,ˈrɔ̝ːt̬ɐ̰,,,0
+12451345709,"Sicily E.: Catania",37.50267,15.08727,6840,wheel,,rotam,,ˈrɔːtɐ,,,0
+12461130159,"Corsica: Bastia",42.7008,9.4503,6840,wheel,,rotam,,[ɐ]ˈɾo̝ˑdɐ,,,0
+12461130159,"Corsica: Bastia",42.7008,9.4503,6840,wheel,,rotam,,ˈroːdʊlˠʌ,,,0
+12461131569,"Corsica: Corte",42.30556,9.14418,6840,wheel,,rotam,,ˈɾ̝oːdula̝,,,0
+12461150509,"Corsica: Bastelica",42.00339,9.04086,6840,wheel,,rotam,,ˈħoːdd̥a,,,0
+12461151709,"Corsica: Conca",41.7357,9.33579,6840,wheel,,rotam,,ˈχoˑtˑɐ̠,,,0
+12461170509,"North Sard.: Luogo Santo",41.04966,9.20626,6840,wheel,,rotam,,ˈr̝ˠoˑtˑɐ,,,0
+12461260509,"North Sard.: Sorso",40.79932,8.57557,6840,wheel,,rotam,,ˈrˠoˑddɐ,,,0
+12461410509,"Sardinian NW.: Nuoro",40.3202,9.32608,6840,wheel,,rotam,,ˈrˠɔːðɐ,,,0
+12461310859,"Sardinian N.: Monti",40.80489,9.32144,6840,wheel,,rotam,,ˈrˠɔːda,,,0
+12461321859,"Sardinian C.: Ghilarza",40.12425,8.83816,6840,wheel,,rotam,,ɔ̟rˈrˠɔːðɐ,,,0
+12461550509,"Sardinian CR: Selargius",39.25984,9.16194,6840,wheel,,rotam,,ɐ̟rˈrˠɔːðɜ,,,0
+12461570269,"Sardinian CS: Gonnesa",39.26729,8.47003,6840,wheel,,rotam,,a̟ˑrˈrˠɔːɾɐ̟,,,0
+12521405509,"Istro-Romanian:  Žejane",45.44056,14.19444,6840,wheel,,rotam,,ˈkʰoˑɤ̆ɫɐ,,,1
+12511162509,"Romanian: N.: Maramureș",47.67694,24.23444,6840,wheel,,rotam,,ˈroɐtʰə,roată,,0
+12511183209,"Romanian: N.: Moldovenesc",47.26444,25.76,6840,wheel,,rotam,,rʊˈaˑt̪ə,,,0
+12511212609,"Romanian: Itm: Hunedoara",45.33639,23.1525,6840,wheel,,rotam,,ˈɾwa̠ˑt̪ə,,,0
+12111838507,"Port.: Brazil: Pará",-1.71778,-48.88278,6840,wheel,,rotam,,ˈhɔ̞ːd˳ɐ,,,0
+12111824907,"Port.: Brazil: Natal",-5.78333,-35.2,6840,wheel,,rotam,,ˈɦɔːdɐ,,,0
+12111875507,"Port.: Brazil: Brasilia",-15.79913,-47.86597,6840,wheel,,rotam,,ˈhɔːdɐ,,,0
+12111865207,"Port.: Brazil: Goiânia",-16.66667,-49.25,6840,wheel,,rotam,,ˈhɔ̞ˑdɜ̰,,,0
+12111653507,"Port.: Mozambique acc.",-19.11667,33.45,6840,wheel,,rotam,,ˈɹ̝ɔːɖɐ,,,0
+12131784807,"Spanish: Buenos Aires",-34.59972,-58.38194,6840,wheel,,rotam,,ɾ̥ʊˈɛ̝ˑð̞ɐ,,,0
+12131782407,"Spanish: Stgo del Estero",-27.78333,-64.26667,6840,wheel,,rotam,,ˈɹ̝we̠ð̞ə,,,0
+12131915509,"Spanish: Creole: Chabacano",14.48328,120.89885,6840,wheel,,rotam,,r̥u̞ˈɛ̠ˑdɐ,,,0
+12421305509,"Florence (city)",43.78333,11.25,6840,wheel,,rotam,,ˈɾwɔˑtʰa,,,0
+12431213609,"Marche: Sassoferrato",43.42747,12.85652,6840,wheel,,rotam,,ˈrɔ̞ːta,,,0

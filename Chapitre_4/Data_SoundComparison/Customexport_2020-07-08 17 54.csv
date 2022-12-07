@@ -1,0 +1,572 @@
+﻿LanguageId,LanguageName,Latitude,Longitude,WordId,WordModernName1,WordModernName2,WordProtoName1,WordProtoName2,Phonetic,SpellingAltv1,SpellingAltv2,NotCognateWithMainWordInThisFamily
+21000000000,"Ancestral Quechua",-9,-83,7020,blanco,white,yuraq,anqu,juɾa̱q,yuraq,,0
+21000000000,"Ancestral Quechua",-9,-83,7880,lejos,far,karu,haya,kaɾu,karu,,0
+21000000000,"Ancestral Quechua",-9,-83,2130,oreja,ear,rinri,hinchu,ɾiŋɾi,rinri,,0
+21000000000,"Ancestral Quechua",-9,-83,2610,sangre,blood,yawar,wila,ʎawaɾ,yawar,,0
+21000000000,"Ancestral Quechua",-9,-83,2630,piel,skin,qara,hanchi_lipichi,qɑɾa,qara,,0
+21000000000,"Ancestral Quechua",-9,-83,2630,piel,skin,qara,hanchi_lipichi,uta,qara,,0
+21000000000,"Ancestral Quechua",-9,-83,4010,persona,person,runa,haqi,ɾuna,runa,,0
+21000000000,"Ancestral Quechua",-9,-83,4030,mujer,woman,warmi,warmi,waɾmi,warmi,,0
+21000000000,"Ancestral Quechua",-9,-83,5510,piedra,stone,rumi,qala,ɾumi,rumi,,0
+21000000000,"Ancestral Quechua",-9,-83,5850,viento,wind,wayra,thaya,wajɾa,wayra,,0
+21000000000,"Ancestral Quechua",-9,-83,6060,grasa,fat,wira,liki,wiɾa,wira,,0
+21000000000,"Ancestral Quechua",-9,-83,8030,caminar,walk,puri,sara,puɾi.,puri·,,0
+21000000000,"Ancestral Quechua",-9,-83,8510,ver,see,riku,ulla,ɾi.k(ʰ)u.,ri·ku·,,0
+21000000000,"Ancestral Quechua",-9,-83,8610,hacer,do,rura,lura,ɾuɾa.,rura·,,0
+21000000000,"Ancestral Quechua",-9,-83,8740,coser,sew,sira,truku,siɾa-,sira·,,0
+21222000000,"S. Quechua Spelling",-11,-82.5,7020,blanco,white,yuraq,anqu,,yuraq,,0
+21222000000,"S. Quechua Spelling",-11,-82.5,7880,lejos,far,karu,haya,,karu,,0
+21222000000,"S. Quechua Spelling",-11,-82.5,2130,oreja,ear,rinri,hinchu,,"rinri, etc.",,0
+21222000000,"S. Quechua Spelling",-11,-82.5,2610,sangre,blood,yawar,wila,,yawar,,0
+21222000000,"S. Quechua Spelling",-11,-82.5,2630,piel,skin,qara,hanchi_lipichi,,qara,,0
+21222000000,"S. Quechua Spelling",-11,-82.5,4010,persona,person,runa,haqi,,runa,,0
+21222000000,"S. Quechua Spelling",-11,-82.5,4030,mujer,woman,warmi,warmi,,warmi,,0
+21222000000,"S. Quechua Spelling",-11,-82.5,5510,piedra,stone,rumi,qala,,rumi,,0
+21222000000,"S. Quechua Spelling",-11,-82.5,5850,viento,wind,wayra,thaya,,wayra,,0
+21222000000,"S. Quechua Spelling",-11,-82.5,6060,grasa,fat,wira,liki,,wira,,0
+21222000000,"S. Quechua Spelling",-11,-82.5,8030,caminar,walk,puri,sara,,puri-,,0
+21222000000,"S. Quechua Spelling",-11,-82.5,8510,ver,see,riku,ulla,,rik(h)u-,,0
+21222000000,"S. Quechua Spelling",-11,-82.5,8610,hacer,do,rura,lura,,rura-,,0
+21222000000,"S. Quechua Spelling",-11,-82.5,8740,coser,sew,sira,truku,,sira-,,0
+21221616509,"North: Otavalo",0.28786,-78.31147,7020,blanco,white,yuraq,anqu,ju̟ɾah,,,0
+21221616509,"North: Otavalo",0.28786,-78.31147,7880,lejos,far,karu,haya,kɐru,,,0
+21221616509,"North: Otavalo",0.28786,-78.31147,2130,oreja,ear,rinri,hinchu,ɹ̝ɪnd͡ʑi,,,0
+21221616509,"North: Otavalo",0.28786,-78.31147,2610,sangre,blood,yawar,wila,jɐwɜɾ,,,0
+21221616509,"North: Otavalo",0.28786,-78.31147,2630,piel,skin,qara,hanchi_lipichi,kɐɾɐ,,,0
+21221616509,"North: Otavalo",0.28786,-78.31147,4010,persona,person,runa,haqi,ɹ̝una̝,,,0
+21221616509,"North: Otavalo",0.28786,-78.31147,4030,mujer,woman,warmi,warmi,wæ̠ɾmɪ,,,0
+21221616509,"North: Otavalo",0.28786,-78.31147,5510,piedra,stone,rumi,qala,ɹ̝ʊmi,,,0
+21221616509,"North: Otavalo",0.28786,-78.31147,5850,viento,wind,wayra,thaya,wɛjɾɐ,,,0
+21221616509,"North: Otavalo",0.28786,-78.31147,6060,grasa,fat,wira,liki,bɪɾɐ,,,0
+21221616509,"North: Otavalo",0.28786,-78.31147,8030,caminar,walk,puri,sara,pu̞ɾi-ŋ,,,0
+21221616509,"North: Otavalo",0.28786,-78.31147,8510,ver,see,riku,ulla,ɹ̝i-k̠u̞-ŋ̠,,,0
+21221616509,"North: Otavalo",0.28786,-78.31147,8610,hacer,do,rura,lura,ɾu̟ɾɐ-ŋ,,,0
+21221616509,"North: Otavalo",0.28786,-78.31147,8610,hacer,do,rura,lura,ɕin̪ɐ-ŋ̠,,,0
+21221616509,"North: Otavalo",0.28786,-78.31147,8740,coser,sew,sira,truku,s̪i̞ɾa-ŋ̠,,,0
+21221410231,"Centre: Chimborazo",-1.83572,-78.72638,7020,blanco,white,yuraq,anqu,jʊɾ̞ɛ̠x,,,0
+21221410231,"Centre: Chimborazo",-1.83572,-78.72638,7880,lejos,far,karu,haya,kɐ̠ɾu̞,,,0
+21221410231,"Centre: Chimborazo",-1.83572,-78.72638,2130,oreja,ear,rinri,hinchu,ɹ̝i̞ŋɹ̝i,,,0
+21221410231,"Centre: Chimborazo",-1.83572,-78.72638,2610,sangre,blood,yawar,wila,jɜ̝wɐɹ̝,,,0
+21221410231,"Centre: Chimborazo",-1.83572,-78.72638,2630,piel,skin,qara,hanchi_lipichi,kɐɾɐ,,,0
+21221410231,"Centre: Chimborazo",-1.83572,-78.72638,4010,persona,person,runa,haqi,ɹ̝u̟ɳɐ̟,,,0
+21221410231,"Centre: Chimborazo",-1.83572,-78.72638,4030,mujer,woman,warmi,warmi,wɐɾmi̠,,,0
+21221410231,"Centre: Chimborazo",-1.83572,-78.72638,5510,piedra,stone,rumi,qala,ɹ̝u̞mi,,,0
+21221410231,"Centre: Chimborazo",-1.83572,-78.72638,5850,viento,wind,wayra,thaya,we̞jɾɐ̟,,,0
+21221410231,"Centre: Chimborazo",-1.83572,-78.72638,6060,grasa,fat,wira,liki,wɪɾɘ,,,0
+21221410231,"Centre: Chimborazo",-1.83572,-78.72638,8030,caminar,walk,puri,sara,pʊɾi̞-n̪æ̠,,,0
+21221410231,"Centre: Chimborazo",-1.83572,-78.72638,8510,ver,see,riku,ulla,ɹ̝i̞-ku̞-ɳæ̠,,,0
+21221410231,"Centre: Chimborazo",-1.83572,-78.72638,8610,hacer,do,rura,lura,ɹ̝ʊ̆ɹ̝ɐ̟-nɐ̟,,,0
+21221410231,"Centre: Chimborazo",-1.83572,-78.72638,8740,coser,sew,sira,truku,s̠i̠ɾɐ̟-nɐ̟,,,0
+21221614309,"South: Saraguro",-3.74685,-79.26625,7020,blanco,white,yuraq,anqu,ju̟ɾɐχ,,,0
+21221614309,"South: Saraguro",-3.74685,-79.26625,7880,lejos,far,karu,haya,k̠aɾu̟,,,0
+21221614309,"South: Saraguro",-3.74685,-79.26625,2130,oreja,ear,rinri,hinchu,ɹ̝ɪŋɡɾɛ,,,0
+21221614309,"South: Saraguro",-3.74685,-79.26625,2610,sangre,blood,yawar,wila,ja̝wa̝ɾ,,,0
+21221614309,"South: Saraguro",-3.74685,-79.26625,2630,piel,skin,qara,hanchi_lipichi,k̠a̝ɾa̝,,,0
+21221614309,"South: Saraguro",-3.74685,-79.26625,2630,piel,skin,qara,hanchi_lipichi,k̠aɾa,,,0
+21221614309,"South: Saraguro",-3.74685,-79.26625,4010,persona,person,runa,haqi,ɹ̝una̝,,,0
+21221614309,"South: Saraguro",-3.74685,-79.26625,4010,persona,person,runa,haqi,mɐʃi̞,,,0
+21221614309,"South: Saraguro",-3.74685,-79.26625,4030,mujer,woman,warmi,warmi,wæɾmi̞,,,0
+21221614309,"South: Saraguro",-3.74685,-79.26625,5510,piedra,stone,rumi,qala,ɹ̝u̞mi,,,0
+21221614309,"South: Saraguro",-3.74685,-79.26625,5850,viento,wind,wayra,thaya,wajɾa̝,,,0
+21221614309,"South: Saraguro",-3.74685,-79.26625,6060,grasa,fat,wira,liki,ɡʷiɾa,,,0
+21221614309,"South: Saraguro",-3.74685,-79.26625,8030,caminar,walk,puri,sara,pu̟ɾi-ŋ̠,,,0
+21221614309,"South: Saraguro",-3.74685,-79.26625,8510,ver,see,riku,ulla,ɹ̝i-k̠u-ŋ̠,,,0
+21221614309,"South: Saraguro",-3.74685,-79.26625,8610,hacer,do,rura,lura,ɹ̝u̞ɾa-ŋ,,,0
+21221614309,"South: Saraguro",-3.74685,-79.26625,8740,coser,sew,sira,truku,s̪i̞ɾɐ-ŋ,,,0
+21221420201,"Lowlands: Tena",-1.09293,-77.92927,7020,blanco,white,yuraq,anqu,yʊɾɐx,,,0
+21221420201,"Lowlands: Tena",-1.09293,-77.92927,7880,lejos,far,karu,haya,kɐ̠ɾo̝,,,0
+21221420201,"Lowlands: Tena",-1.09293,-77.92927,2130,oreja,ear,rinri,hinchu,ɹ̝iŋɾi̠,,,0
+21221420201,"Lowlands: Tena",-1.09293,-77.92927,2610,sangre,blood,yawar,wila,jɐ̟wɐr,,,0
+21221420201,"Lowlands: Tena",-1.09293,-77.92927,2630,piel,skin,qara,hanchi_lipichi,kɐɾɐ̟,,,0
+21221420201,"Lowlands: Tena",-1.09293,-77.92927,4010,persona,person,runa,haqi,ɾo̝nɐ̟,,,0
+21221420201,"Lowlands: Tena",-1.09293,-77.92927,4030,mujer,woman,warmi,warmi,wɐ̠ɾmi̠,,,0
+21221420201,"Lowlands: Tena",-1.09293,-77.92927,5510,piedra,stone,rumi,qala,ro̝mi̠,,,0
+21221420201,"Lowlands: Tena",-1.09293,-77.92927,5850,viento,wind,wayra,thaya,wɐjɾɐ,,,0
+21221420201,"Lowlands: Tena",-1.09293,-77.92927,6060,grasa,fat,wira,liki,pe̝ɾɐ,,,0
+21221420201,"Lowlands: Tena",-1.09293,-77.92927,8030,caminar,walk,puri,sara,pʊɾi̠-nɪ,,,0
+21221420201,"Lowlands: Tena",-1.09293,-77.92927,8510,ver,see,riku,ulla,ɾi-ku̟-j,,,0
+21221420201,"Lowlands: Tena",-1.09293,-77.92927,8610,hacer,do,rura,lura,"ɾɐŋɡɐɾɐ̠ ɐ̠ɾɐ ɐː ɾɐŋɡɐɾɐŋe̞",,,0
+21221420201,"Lowlands: Tena",-1.09293,-77.92927,8740,coser,sew,sira,truku,s̪eɾɐ-nɐ̠,,,0
+21212120001,Inkawasi,-6.23573,-79.3168,7020,blanco,white,yuraq,anqu,jʊɾɜχ,,,0
+21212120001,Inkawasi,-6.23573,-79.3168,7880,lejos,far,karu,haya,kɐ̠ɾʊ̞,,,0
+21212120001,Inkawasi,-6.23573,-79.3168,2130,oreja,ear,rinri,hinchu,ɹ̝ɪŋɾi,,,0
+21212120001,Inkawasi,-6.23573,-79.3168,2610,sangre,blood,yawar,wila,jɜwɜɾ,,,0
+21212120001,Inkawasi,-6.23573,-79.3168,2630,piel,skin,qara,hanchi_lipichi,χɑ̟ɾɐ,,,0
+21212120001,Inkawasi,-6.23573,-79.3168,4010,persona,person,runa,haqi,ɹ̝ʊnɑ̟,,,0
+21212120001,Inkawasi,-6.23573,-79.3168,4030,mujer,woman,warmi,warmi,wɜɾmɪ,,,0
+21212120001,Inkawasi,-6.23573,-79.3168,5510,piedra,stone,rumi,qala,ɹ̝u̞mɪ,,,0
+21212120001,Inkawasi,-6.23573,-79.3168,5850,viento,wind,wayra,thaya,wɜjɾɐ̟,,,0
+21212120001,Inkawasi,-6.23573,-79.3168,6060,grasa,fat,wira,liki,wɪɾɜ,,,0
+21212120001,Inkawasi,-6.23573,-79.3168,8030,caminar,walk,puri,sara,pu̟ɾi̠-ŋ,,,0
+21212120001,Inkawasi,-6.23573,-79.3168,8510,ver,see,riku,ulla,ɹ̝i̠-kɜ-ni̠,,,0
+21212120001,Inkawasi,-6.23573,-79.3168,8610,hacer,do,rura,lura,ɹ̝ʊɾɜ-ŋ,,,0
+21212120001,Inkawasi,-6.23573,-79.3168,8740,coser,sew,sira,truku,s̪ɪɾɜ-k̠u̞-ŋ,,,0
+21212210001,Cajamarca,-7.15,-78.66666,7020,blanco,white,yuraq,anqu,jʊ̟ɾɐ̟x,,,0
+21212210001,Cajamarca,-7.15,-78.66666,7880,lejos,far,karu,haya,kɐ̟ɾo̝,,,0
+21212210001,Cajamarca,-7.15,-78.66666,2130,oreja,ear,rinri,hinchu,ɾi̞ŋɾɪ,,,0
+21212210001,Cajamarca,-7.15,-78.66666,2610,sangre,blood,yawar,wila,jɐ̟wɐ̟ɾ,,,0
+21212210001,Cajamarca,-7.15,-78.66666,2630,piel,skin,qara,hanchi_lipichi,qɐ̟ɾɜ,,,0
+21212210001,Cajamarca,-7.15,-78.66666,4010,persona,person,runa,haqi,..,,,0
+21212210001,Cajamarca,-7.15,-78.66666,4030,mujer,woman,warmi,warmi,wɐ̟ɾmɪ-n̪,,,0
+21212210001,Cajamarca,-7.15,-78.66666,5510,piedra,stone,rumi,qala,ɾomɪ,,,0
+21212210001,Cajamarca,-7.15,-78.66666,5850,viento,wind,wayra,thaya,wɜ̟jɾɐ̟,,,0
+21212210001,Cajamarca,-7.15,-78.66666,6060,grasa,fat,wira,liki,wiɾɐ̟,,,0
+21212210001,Cajamarca,-7.15,-78.66666,8030,caminar,walk,puri,sara,..,,,0
+21212210001,Cajamarca,-7.15,-78.66666,8510,ver,see,riku,ulla,ɾi̠-kɐ̟-n-ʈ͡ʂ,,,0
+21212210001,Cajamarca,-7.15,-78.66666,8610,hacer,do,rura,lura,ɾu̞ɾɜ-ŋ,,,0
+21212210001,Cajamarca,-7.15,-78.66666,8740,coser,sew,sira,truku,s̪ɪɾɜ̟-ku̞-ŋ,,,0
+21221155209,Colcamar,-6.29941,-77.9734,7020,blanco,white,yuraq,anqu,ju̟ɾɜχ,,,0
+21221155209,Colcamar,-6.29941,-77.9734,7880,lejos,far,karu,haya,k̠ɑ̟ɾo,,,0
+21221155209,Colcamar,-6.29941,-77.9734,2130,oreja,ear,rinri,hinchu,ɹ̝inɹ̝ɛ,,,0
+21221155209,Colcamar,-6.29941,-77.9734,2610,sangre,blood,yawar,wila,jɐwɐɹ̝̥,,,0
+21221155209,Colcamar,-6.29941,-77.9734,2630,piel,skin,qara,hanchi_lipichi,..,,,0
+21221155209,Colcamar,-6.29941,-77.9734,4010,persona,person,runa,haqi,ɹ̝u̞nɐ,,,0
+21221155209,Colcamar,-6.29941,-77.9734,4030,mujer,woman,warmi,warmi,wɐrmɛ,,,0
+21221155209,Colcamar,-6.29941,-77.9734,5510,piedra,stone,rumi,qala,ɹ̝u̞m,,,0
+21221155209,Colcamar,-6.29941,-77.9734,5850,viento,wind,wayra,thaya,wɐjɾɐ,,,0
+21221155209,Colcamar,-6.29941,-77.9734,6060,grasa,fat,wira,liki,w̞iɾɐ,,,0
+21221155209,Colcamar,-6.29941,-77.9734,8030,caminar,walk,puri,sara,puɾi-ŋ,,,0
+21221155209,Colcamar,-6.29941,-77.9734,8510,ver,see,riku,ulla,k̠ɐwʊ-ŋ,,,0
+21221155209,Colcamar,-6.29941,-77.9734,8610,hacer,do,rura,lura,ɹ̝u̟rɜ-ŋ,,,0
+21221155209,Colcamar,-6.29941,-77.9734,8740,coser,sew,sira,truku,s̪iɾɘ-ŋ,,,0
+21221157709,"La Jalca",-6.48281,-77.71662,7020,blanco,white,yuraq,anqu,jʊɾɛx,,,0
+21221157709,"La Jalca",-6.48281,-77.71662,7880,lejos,far,karu,haya,..,,,0
+21221157709,"La Jalca",-6.48281,-77.71662,2130,oreja,ear,rinri,hinchu,ɹ̝iŋɹ̝i,,,0
+21221157709,"La Jalca",-6.48281,-77.71662,2610,sangre,blood,yawar,wila,jawəɾi,,,0
+21221157709,"La Jalca",-6.48281,-77.71662,2630,piel,skin,qara,hanchi_lipichi,k̠aɾa,,,0
+21221157709,"La Jalca",-6.48281,-77.71662,4010,persona,person,runa,haqi,ɹ̝un̪a,,,0
+21221157709,"La Jalca",-6.48281,-77.71662,4030,mujer,woman,warmi,warmi,wæɾmi,,,0
+21221157709,"La Jalca",-6.48281,-77.71662,5510,piedra,stone,rumi,qala,ɹ̝u̞mi̠,,,0
+21221157709,"La Jalca",-6.48281,-77.71662,5850,viento,wind,wayra,thaya,wajɾa,,,0
+21221157709,"La Jalca",-6.48281,-77.71662,6060,grasa,fat,wira,liki,wiɾa,,,0
+21221157709,"La Jalca",-6.48281,-77.71662,8030,caminar,walk,puri,sara,pu̟ɾi̠-ŋ,,,0
+21221157709,"La Jalca",-6.48281,-77.71662,8510,ver,see,riku,ulla,kawa-n̪u,,,0
+21221157709,"La Jalca",-6.48281,-77.71662,8610,hacer,do,rura,lura,ɹ̝u̟ɹ̝a-ŋ,,,0
+21221157709,"La Jalca",-6.48281,-77.71662,8740,coser,sew,sira,truku,s̪i̞ɾa-ŋ,,,0
+21221157809,"La Jalca 2",-6.48281,-77.71662,7020,blanco,white,yuraq,anqu,jʊɾ̞ɐ̟χ,,,0
+21221157809,"La Jalca 2",-6.48281,-77.71662,7880,lejos,far,karu,haya,..,,,0
+21221157809,"La Jalca 2",-6.48281,-77.71662,2130,oreja,ear,rinri,hinchu,ɹ̝i̠ŋɹ̝ɪ,,,0
+21221157809,"La Jalca 2",-6.48281,-77.71662,2610,sangre,blood,yawar,wila,jɐwɐɾ,,,0
+21221157809,"La Jalca 2",-6.48281,-77.71662,2610,sangre,blood,yawar,wila,jæ̠wəɾi̞,,,0
+21221157809,"La Jalca 2",-6.48281,-77.71662,2630,piel,skin,qara,hanchi_lipichi,k̠ɑ̟ːɾɑ̟,,,0
+21221157809,"La Jalca 2",-6.48281,-77.71662,4010,persona,person,runa,haqi,ɹ̝u̟n̪ɐ̠,,,0
+21221157809,"La Jalca 2",-6.48281,-77.71662,4030,mujer,woman,warmi,warmi,wɐ̟ɾmi̞,,,0
+21221157809,"La Jalca 2",-6.48281,-77.71662,5510,piedra,stone,rumi,qala,ɹ̝u̟mi̠,,,0
+21221157809,"La Jalca 2",-6.48281,-77.71662,5850,viento,wind,wayra,thaya,wɐ̠jɾɐ̠,,,0
+21221157809,"La Jalca 2",-6.48281,-77.71662,6060,grasa,fat,wira,liki,wi̞ɾɐ,,,1
+21221157809,"La Jalca 2",-6.48281,-77.71662,6060,grasa,fat,wira,liki,s̪ɛːbu̞,,,1
+21221157809,"La Jalca 2",-6.48281,-77.71662,8030,caminar,walk,puri,sara,pu̟ɾi̞-ŋ,,,0
+21221157809,"La Jalca 2",-6.48281,-77.71662,8510,ver,see,riku,ulla,kɐ̠wɐ̠-ŋ,,,0
+21221157809,"La Jalca 2",-6.48281,-77.71662,8610,hacer,do,rura,lura,ɹ̝ʊ̟ɹ̝ɐ-ŋ,,,0
+21221157809,"La Jalca 2",-6.48281,-77.71662,8740,coser,sew,sira,truku,s̪i̞ɾɐ-ŋ,,,0
+21221250509,Lamas,-6.42353,-76.5221,7020,blanco,white,yuraq,anqu,ju̟ɾɐk,,,0
+21221250509,Lamas,-6.42353,-76.5221,7880,lejos,far,karu,haya,kɐɾu,,,0
+21221250509,Lamas,-6.42353,-76.5221,7880,lejos,far,karu,haya,s̪u̞n̪i,,,1
+21221250509,Lamas,-6.42353,-76.5221,2130,oreja,ear,rinri,hinchu,ɾiŋɾi,,,0
+21221250509,Lamas,-6.42353,-76.5221,2610,sangre,blood,yawar,wila,j̝ɐwɐɾ,,,0
+21221250509,Lamas,-6.42353,-76.5221,2630,piel,skin,qara,hanchi_lipichi,k̠ɐɾɐ̟,,,0
+21221250509,Lamas,-6.42353,-76.5221,4010,persona,person,runa,haqi,ɾu̞n̪ɐ,,,0
+21221250509,Lamas,-6.42353,-76.5221,4030,mujer,woman,warmi,warmi,wɐɾmi,,,0
+21221250509,Lamas,-6.42353,-76.5221,5510,piedra,stone,rumi,qala,ɾu̞mi,,,0
+21221250509,Lamas,-6.42353,-76.5221,5850,viento,wind,wayra,thaya,wɐjɾɐ,,,0
+21221250509,Lamas,-6.42353,-76.5221,6060,grasa,fat,wira,liki,wiɾɐ,,,0
+21221250509,Lamas,-6.42353,-76.5221,8030,caminar,walk,puri,sara,pu̞ɾi-ŋ,,,0
+21221250509,Lamas,-6.42353,-76.5221,8510,ver,see,riku,ulla,kɐwɐ̠-ŋ,,,0
+21221250509,Lamas,-6.42353,-76.5221,8610,hacer,do,rura,lura,ɾu̟ɾɐ-ŋ̠,,,0
+21221250509,Lamas,-6.42353,-76.5221,8740,coser,sew,sira,truku,s̪iɾɐ-ŋ̠,,,0
+21111110001,"Corongo:  Yánac",-8.61694,-77.86694,7020,blanco,white,yuraq,anqu,jʊ̟ɾo̞χ,,,0
+21111110001,"Corongo:  Yánac",-8.61694,-77.86694,7880,lejos,far,karu,haya,mɜɾu̞,,,0
+21111110001,"Corongo:  Yánac",-8.61694,-77.86694,2130,oreja,ear,rinri,hinchu,ɹ̝i̞ŋɾi̞,,,0
+21111110001,"Corongo:  Yánac",-8.61694,-77.86694,2610,sangre,blood,yawar,wila,jɜwɜɾ,,,0
+21111110001,"Corongo:  Yánac",-8.61694,-77.86694,2630,piel,skin,qara,hanchi_lipichi,qɐɾɐ,,,0
+21111110001,"Corongo:  Yánac",-8.61694,-77.86694,4010,persona,person,runa,haqi,ɹ̝u̞n̪ɐ,,,0
+21111110001,"Corongo:  Yánac",-8.61694,-77.86694,4030,mujer,woman,warmi,warmi,wɜ̠mi̠,,,0
+21111110001,"Corongo:  Yánac",-8.61694,-77.86694,5510,piedra,stone,rumi,qala,ɹ̝o̝mi̞,,,0
+21111110001,"Corongo:  Yánac",-8.61694,-77.86694,5850,viento,wind,wayra,thaya,we̞ːɾɐ,,,0
+21111110001,"Corongo:  Yánac",-8.61694,-77.86694,6060,grasa,fat,wira,liki,wi̞ɾɐ,,,0
+21111110001,"Corongo:  Yánac",-8.61694,-77.86694,8030,caminar,walk,puri,sara,pu̞ɾɪ-ɾ,,,0
+21111110001,"Corongo:  Yánac",-8.61694,-77.86694,8510,ver,see,riku,ulla,ɹ̝i̠-ka-ɾ,,,0
+21111110001,"Corongo:  Yánac",-8.61694,-77.86694,8610,hacer,do,rura,lura,ɹ̝u̞ɾæ̠,,,0
+21111110001,"Corongo:  Yánac",-8.61694,-77.86694,8740,coser,sew,sira,truku,hi̞ɾɐ,,,0
+21111230001,Conchucos,-9.57662,-77.21415,7020,blanco,white,yuraq,anqu,ju̟ɾɐ̠χ,,,0
+21111230001,Conchucos,-9.57662,-77.21415,7880,lejos,far,karu,haya,kɐɾu,,,0
+21111230001,Conchucos,-9.57662,-77.21415,2130,oreja,ear,rinri,hinchu,ɹ̝i̠ŋɾɪ,,,0
+21111230001,Conchucos,-9.57662,-77.21415,2610,sangre,blood,yawar,wila,jɘwɐ̠ɾ,,,0
+21111230001,Conchucos,-9.57662,-77.21415,2630,piel,skin,qara,hanchi_lipichi,qɐ̟ɾɐ̟,,,0
+21111230001,Conchucos,-9.57662,-77.21415,4010,persona,person,runa,haqi,ɹʊn̪ɜ,,,0
+21111230001,Conchucos,-9.57662,-77.21415,4030,mujer,woman,warmi,warmi,wɐɾmɪ-x,,,0
+21111230001,Conchucos,-9.57662,-77.21415,5510,piedra,stone,rumi,qala,ɹ̝u̟mɪ̝,,,0
+21111230001,Conchucos,-9.57662,-77.21415,5850,viento,wind,wayra,thaya,..,,,0
+21111230001,Conchucos,-9.57662,-77.21415,6060,grasa,fat,wira,liki,wi̠ɾɐ̟,,,0
+21111230001,Conchucos,-9.57662,-77.21415,8030,caminar,walk,puri,sara,pu̞ɾi̠,,,0
+21111230001,Conchucos,-9.57662,-77.21415,8030,caminar,walk,puri,sara,ɐjwe,,,0
+21111230001,Conchucos,-9.57662,-77.21415,8030,caminar,walk,puri,sara,hɐpɜ-j,,,0
+21111230001,Conchucos,-9.57662,-77.21415,8510,ver,see,riku,ulla,ɹ̝i̠-ke̞,,,0
+21111230001,Conchucos,-9.57662,-77.21415,8610,hacer,do,rura,lura,ɹ̝u̟ɾe̞-j,,,0
+21111230001,Conchucos,-9.57662,-77.21415,8740,coser,sew,sira,truku,hɪɾɘ-ki̞,,,0
+21111130301,"Huailas:  Wata",-9.04833,-77.81084,7020,blanco,white,yuraq,anqu,yʉɾɐq,,,0
+21111130301,"Huailas:  Wata",-9.04833,-77.81084,7880,lejos,far,karu,haya,kɐːɾu̟,,,0
+21111130301,"Huailas:  Wata",-9.04833,-77.81084,2130,oreja,ear,rinri,hinchu,ɹ̝ɪ̞ŋɾi̠,,,0
+21111130301,"Huailas:  Wata",-9.04833,-77.81084,2610,sangre,blood,yawar,wila,jɐ̟wɐɾ,,,0
+21111130301,"Huailas:  Wata",-9.04833,-77.81084,2630,piel,skin,qara,hanchi_lipichi,qɐ̠ɾɐ̠,,,0
+21111130301,"Huailas:  Wata",-9.04833,-77.81084,4010,persona,person,runa,haqi,nu̞nɑ̟,,,0
+21111130301,"Huailas:  Wata",-9.04833,-77.81084,4030,mujer,woman,warmi,warmi,wɐ̠ɾmi̠,,,0
+21111130301,"Huailas:  Wata",-9.04833,-77.81084,5510,piedra,stone,rumi,qala,ru̞mi,,,0
+21111130301,"Huailas:  Wata",-9.04833,-77.81084,5850,viento,wind,wayra,thaya,wɑ̟jɾɐ,,,0
+21111130301,"Huailas:  Wata",-9.04833,-77.81084,6060,grasa,fat,wira,liki,wi̠ɾɐ,,,0
+21111130301,"Huailas:  Wata",-9.04833,-77.81084,8030,caminar,walk,puri,sara,pu̟ɾi,,,0
+21111130301,"Huailas:  Wata",-9.04833,-77.81084,8510,ver,see,riku,ulla,ɹ̝i̠-kɐ̟,,,0
+21111130301,"Huailas:  Wata",-9.04833,-77.81084,8610,hacer,do,rura,lura,ɹ̝u̟ɾɐ,,,0
+21111130301,"Huailas:  Wata",-9.04833,-77.81084,8740,coser,sew,sira,truku,iɾɐ̠,,,0
+21111130701,"Huailas:  Pamparomas",-9.07278,-77.98154,7020,blanco,white,yuraq,anqu,ju̟ɾɐq,,,0
+21111130701,"Huailas:  Pamparomas",-9.07278,-77.98154,7880,lejos,far,karu,haya,kɐɾu̞,,,0
+21111130701,"Huailas:  Pamparomas",-9.07278,-77.98154,2130,oreja,ear,rinri,hinchu,ɹ̝i̞ŋɾi̠,,,0
+21111130701,"Huailas:  Pamparomas",-9.07278,-77.98154,2610,sangre,blood,yawar,wila,jɐ̟wɐ̟ɾ,,,0
+21111130701,"Huailas:  Pamparomas",-9.07278,-77.98154,2630,piel,skin,qara,hanchi_lipichi,qɐɾɐ,,,0
+21111130701,"Huailas:  Pamparomas",-9.07278,-77.98154,4010,persona,person,runa,haqi,n̪ʊ̞n̪ɐ̟,,,0
+21111130701,"Huailas:  Pamparomas",-9.07278,-77.98154,4030,mujer,woman,warmi,warmi,wɐ̟ɾmɪ̟,,,0
+21111130701,"Huailas:  Pamparomas",-9.07278,-77.98154,5510,piedra,stone,rumi,qala,ɹ̝u̞mi,,,0
+21111130701,"Huailas:  Pamparomas",-9.07278,-77.98154,5850,viento,wind,wayra,thaya,bie̞n̪t̪o,,,0
+21111130701,"Huailas:  Pamparomas",-9.07278,-77.98154,6060,grasa,fat,wira,liki,wi̞ɾɐ,,,0
+21111130701,"Huailas:  Pamparomas",-9.07278,-77.98154,8030,caminar,walk,puri,sara,pʊɾɪ-n̪,,,0
+21111130701,"Huailas:  Pamparomas",-9.07278,-77.98154,8510,ver,see,riku,ulla,ɹ̝i̠-kɐ̟-n,,,0
+21111130701,"Huailas:  Pamparomas",-9.07278,-77.98154,8610,hacer,do,rura,lura,ɹ̝u̞ɾɐ-ŋ,,,0
+21111130701,"Huailas:  Pamparomas",-9.07278,-77.98154,8740,coser,sew,sira,truku,i̞ɾɐ̟-ŋ,,,0
+21111165509,"Huaraz (city)",-9.52993,-77.52881,7020,blanco,white,yuraq,anqu,jʊɭɐ̠q,,,0
+21111165509,"Huaraz (city)",-9.52993,-77.52881,7880,lejos,far,karu,haya,kɐɾu̞,,,0
+21111165509,"Huaraz (city)",-9.52993,-77.52881,2130,oreja,ear,rinri,hinchu,ɹ̝ɪŋɹ̝e̝,,,0
+21111165509,"Huaraz (city)",-9.52993,-77.52881,2610,sangre,blood,yawar,wila,jɐwɐɹ̝̥,,,0
+21111165509,"Huaraz (city)",-9.52993,-77.52881,2630,piel,skin,qara,hanchi_lipichi,qɐɾɐ,,,0
+21111165509,"Huaraz (city)",-9.52993,-77.52881,4010,persona,person,runa,haqi,n̪u̟n̪ɐ,,,0
+21111165509,"Huaraz (city)",-9.52993,-77.52881,4030,mujer,woman,warmi,warmi,wɐɾmɪ,,,0
+21111165509,"Huaraz (city)",-9.52993,-77.52881,5510,piedra,stone,rumi,qala,ɹ̝u̟mɪ,,,0
+21111165509,"Huaraz (city)",-9.52993,-77.52881,5850,viento,wind,wayra,thaya,bi̠e̠n̪t̪o,,,0
+21111165509,"Huaraz (city)",-9.52993,-77.52881,6060,grasa,fat,wira,liki,wi̠ɾɐ,,,0
+21111165509,"Huaraz (city)",-9.52993,-77.52881,8030,caminar,walk,puri,sara,pu̟ɾi̠-ŋ,,,0
+21111165509,"Huaraz (city)",-9.52993,-77.52881,8510,ver,see,riku,ulla,ɹ̝i̠-kɐ-ŋ,,,0
+21111165509,"Huaraz (city)",-9.52993,-77.52881,8610,hacer,do,rura,lura,ɹu̟ɹɐ-ŋ,,,0
+21111165509,"Huaraz (city)",-9.52993,-77.52881,8740,coser,sew,sira,truku,hi̠ɾɐ-ŋ,,,0
+21111193709,Chiquián,-10.21987,-77.18153,7020,blanco,white,yuraq,anqu,jʉɾɐ̟χ,,,0
+21111193709,Chiquián,-10.21987,-77.18153,7880,lejos,far,karu,haya,kɐ̟ru,,,0
+21111193709,Chiquián,-10.21987,-77.18153,2130,oreja,ear,rinri,hinchu,ɹ̝i̠ŋɹ̝i̠,,,0
+21111193709,Chiquián,-10.21987,-77.18153,2610,sangre,blood,yawar,wila,jɐwɐɹ̝̥,,,0
+21111193709,Chiquián,-10.21987,-77.18153,2630,piel,skin,qara,hanchi_lipichi,ɢɐ̟ɾæ̠,,,0
+21111193709,Chiquián,-10.21987,-77.18153,4010,persona,person,runa,haqi,ɹ̝u̟n̪æ̠,,,0
+21111193709,Chiquián,-10.21987,-77.18153,4010,persona,person,runa,haqi,n̪u̟n̪ɐ̠,,,0
+21111193709,Chiquián,-10.21987,-77.18153,4030,mujer,woman,warmi,warmi,wɐ̟ɾmi̞,,,0
+21111193709,Chiquián,-10.21987,-77.18153,5510,piedra,stone,rumi,qala,ɹ̝ʉmi,,,0
+21111193709,Chiquián,-10.21987,-77.18153,5850,viento,wind,wayra,thaya,..,,,0
+21111193709,Chiquián,-10.21987,-77.18153,6060,grasa,fat,wira,liki,wiɾɐ,,,0
+21111193709,Chiquián,-10.21987,-77.18153,8030,caminar,walk,puri,sara,pu̟ɾi̠-ŋ,,,0
+21111193709,Chiquián,-10.21987,-77.18153,8510,ver,see,riku,ulla,ɹ̝i̠-kɐ-ŋ,,,0
+21111193709,Chiquián,-10.21987,-77.18153,8610,hacer,do,rura,lura,ɹ̝u̟ɹ̝ɐ-ŋ,,,0
+21111193709,Chiquián,-10.21987,-77.18153,8740,coser,sew,sira,truku,hi̞ɾɐ̟-ŋ,,,0
+21112355509,"Huánuco Pampa",-9.83333,-76.75,7020,blanco,white,yuraq,anqu,ju̟ɾɐχ,,,0
+21112355509,"Huánuco Pampa",-9.83333,-76.75,7880,lejos,far,karu,haya,k̠ɐɾu,,,0
+21112355509,"Huánuco Pampa",-9.83333,-76.75,2130,oreja,ear,rinri,hinchu,ɹ̝iŋɡɾi,,,0
+21112355509,"Huánuco Pampa",-9.83333,-76.75,2130,oreja,ear,rinri,hinchu,ɹ̝iŋɡɾɨ,,,0
+21112355509,"Huánuco Pampa",-9.83333,-76.75,2610,sangre,blood,yawar,wila,jɐwɐɹ̝̥,,,0
+21112355509,"Huánuco Pampa",-9.83333,-76.75,2630,piel,skin,qara,hanchi_lipichi,qaɾɛ-ŋ̠,,,0
+21112355509,"Huánuco Pampa",-9.83333,-76.75,4010,persona,person,runa,haqi,ɹ̝u̟n̪ɐ,,,0
+21112355509,"Huánuco Pampa",-9.83333,-76.75,4030,mujer,woman,warmi,warmi,wæ̞ɾmi̠,,,0
+21112355509,"Huánuco Pampa",-9.83333,-76.75,5510,piedra,stone,rumi,qala,ɹ̝u̟mi̠,,,0
+21112355509,"Huánuco Pampa",-9.83333,-76.75,5850,viento,wind,wayra,thaya,wɐjɾɐ,,,0
+21112355509,"Huánuco Pampa",-9.83333,-76.75,6060,grasa,fat,wira,liki,wiɾɐ,,,0
+21112355509,"Huánuco Pampa",-9.83333,-76.75,8030,caminar,walk,puri,sara,pu̟ɾi-ŋ,,,0
+21112355509,"Huánuco Pampa",-9.83333,-76.75,8510,ver,see,riku,ulla,ɹ̝i-kʊ-ŋ,,,0
+21112355509,"Huánuco Pampa",-9.83333,-76.75,8610,hacer,do,rura,lura,ɹ̝u̟ɾɜ-ŋ,,,0
+21112355509,"Huánuco Pampa",-9.83333,-76.75,8740,coser,sew,sira,truku,ki̠ɾɐ-ŋ,,,0
+21113220111,Huancayo,-12.06667,-75.21667,7020,blanco,white,yuraq,anqu,ju̟ɭɐ̠ˑ,,,0
+21113220111,Huancayo,-12.06667,-75.21667,7880,lejos,far,karu,haya,kɐɭu̞,,,0
+21113220111,Huancayo,-12.06667,-75.21667,2130,oreja,ear,rinri,hinchu,ɭiŋɭi̞,,,0
+21113220111,Huancayo,-12.06667,-75.21667,2610,sangre,blood,yawar,wila,jɐwɐr,,,0
+21113220111,Huancayo,-12.06667,-75.21667,2630,piel,skin,qara,hanchi_lipichi,u̞t̪ɑ̟,,,0
+21113220111,Huancayo,-12.06667,-75.21667,4010,persona,person,runa,haqi,nunɐ̞,,,0
+21113220111,Huancayo,-12.06667,-75.21667,4030,mujer,woman,warmi,warmi,wɐ̠ɭmi,,,0
+21113220111,Huancayo,-12.06667,-75.21667,5510,piedra,stone,rumi,qala,ɭumi,,,0
+21113220111,Huancayo,-12.06667,-75.21667,5850,viento,wind,wayra,thaya,wɐ̠jɾɐ̠,,,0
+21113220111,Huancayo,-12.06667,-75.21667,6060,grasa,fat,wira,liki,wiɭɐ̠,,,0
+21113220111,Huancayo,-12.06667,-75.21667,8030,caminar,walk,puri,sara,pu̟ɭi,,,0
+21113220111,Huancayo,-12.06667,-75.21667,8510,ver,see,riku,ulla,ɭi-kɐ̟-j,,,0
+21113220111,Huancayo,-12.06667,-75.21667,8610,hacer,do,rura,lura,ɭu̟ɭɐ̠-j,,,0
+21113220111,Huancayo,-12.06667,-75.21667,8740,coser,sew,sira,truku,hiɭæ̠-j,,,0
+21351733309,Cacra,-12.81277,-75.7831,7020,blanco,white,yuraq,anqu,ju̟ɾa̝χ,,,0
+21351733309,Cacra,-12.81277,-75.7831,7880,lejos,far,karu,haya,k̠aɭu̞,,,0
+21351733309,Cacra,-12.81277,-75.7831,2130,oreja,ear,rinri,hinchu,ɭiŋɭi,,,0
+21351733309,Cacra,-12.81277,-75.7831,2610,sangre,blood,yawar,wila,jawar̥,,,0
+21351733309,Cacra,-12.81277,-75.7831,2630,piel,skin,qara,hanchi_lipichi,qaɭa,,,0
+21351733309,Cacra,-12.81277,-75.7831,4010,persona,person,runa,haqi,ɭu̞nʲa,,,0
+21351733309,Cacra,-12.81277,-75.7831,4030,mujer,woman,warmi,warmi,waɾmi,,,0
+21351733309,Cacra,-12.81277,-75.7831,5510,piedra,stone,rumi,qala,ɭumi,,,0
+21351733309,Cacra,-12.81277,-75.7831,5850,viento,wind,wayra,thaya,wajɾa,,,0
+21351733309,Cacra,-12.81277,-75.7831,6060,grasa,fat,wira,liki,wiɭa,,,0
+21351733309,Cacra,-12.81277,-75.7831,8030,caminar,walk,puri,sara,pu̞ɭi-ŋ,,,0
+21351733309,Cacra,-12.81277,-75.7831,8510,ver,see,riku,ulla,ɾi-k̠u̞-ŋ,,,0
+21351733309,Cacra,-12.81277,-75.7831,8610,hacer,do,rura,lura,ɭu̟ɭɐ-ŋ,,,0
+21351733309,Cacra,-12.81277,-75.7831,8740,coser,sew,sira,truku,x̟iɭa-ŋ,,,0
+21351733709,Hongos,-12.81048,-75.7652,7020,blanco,white,yuraq,anqu,ju̟ɾɐχ,,,0
+21351733709,Hongos,-12.81048,-75.7652,7880,lejos,far,karu,haya,kaɾu̞,,,0
+21351733709,Hongos,-12.81048,-75.7652,2130,oreja,ear,rinri,hinchu,ɭi̞ŋɭe,,,0
+21351733709,Hongos,-12.81048,-75.7652,2610,sangre,blood,yawar,wila,jawɐɹ̝,,,0
+21351733709,Hongos,-12.81048,-75.7652,2630,piel,skin,qara,hanchi_lipichi,qaɭa,,,0
+21351733709,Hongos,-12.81048,-75.7652,4010,persona,person,runa,haqi,ɭu̞n̪a,,,0
+21351733709,Hongos,-12.81048,-75.7652,4030,mujer,woman,warmi,warmi,waɭmi̞,,,0
+21351733709,Hongos,-12.81048,-75.7652,5510,piedra,stone,rumi,qala,ɭu̟mi̞,,,0
+21351733709,Hongos,-12.81048,-75.7652,5850,viento,wind,wayra,thaya,wɐjɾa,,,0
+21351733709,Hongos,-12.81048,-75.7652,6060,grasa,fat,wira,liki,wiɾa,,,0
+21351733709,Hongos,-12.81048,-75.7652,8030,caminar,walk,puri,sara,pu̟ɭi-ŋ,,,0
+21351733709,Hongos,-12.81048,-75.7652,8510,ver,see,riku,ulla,ɭi̠-kɐ-ŋ,,,0
+21351733709,Hongos,-12.81048,-75.7652,8610,hacer,do,rura,lura,ɭo̝wɜ-ŋ,,,0
+21351733709,Hongos,-12.81048,-75.7652,8610,hacer,do,rura,lura,ɭu̞ɭɐ-ŋ,,,0
+21351733709,Hongos,-12.81048,-75.7652,8740,coser,sew,sira,truku,hi̞ɭɜ-ŋ,,,0
+21351737309,Lincha,-12.79984,-75.66666,7020,blanco,white,yuraq,anqu,ju̞ɾɐχ,,,0
+21351737309,Lincha,-12.79984,-75.66666,7880,lejos,far,karu,haya,kaɾu̞,,,0
+21351737309,Lincha,-12.79984,-75.66666,2130,oreja,ear,rinri,hinchu,liŋɾi,,,0
+21351737309,Lincha,-12.79984,-75.66666,2610,sangre,blood,yawar,wila,jɐwɜr̝,,,0
+21351737309,Lincha,-12.79984,-75.66666,2630,piel,skin,qara,hanchi_lipichi,qaɾa,,,0
+21351737309,Lincha,-12.79984,-75.66666,2630,piel,skin,qara,hanchi_lipichi,qɐɾɐ-ŋ,,,0
+21351737309,Lincha,-12.79984,-75.66666,2630,piel,skin,qara,hanchi_lipichi,χaɾɐ-ŋ,,,0
+21351737309,Lincha,-12.79984,-75.66666,4010,persona,person,runa,haqi,ɾuna,,,0
+21351737309,Lincha,-12.79984,-75.66666,4030,mujer,woman,warmi,warmi,waɾmi,,,0
+21351737309,Lincha,-12.79984,-75.66666,5510,piedra,stone,rumi,qala,ɾu̞mi,,,0
+21351737309,Lincha,-12.79984,-75.66666,5850,viento,wind,wayra,thaya,wɐjɾɐ,,,0
+21351737309,Lincha,-12.79984,-75.66666,6060,grasa,fat,wira,liki,wiɾɐ,,,0
+21351737309,Lincha,-12.79984,-75.66666,8030,caminar,walk,puri,sara,pʊɾi-ŋ,,,0
+21351737309,Lincha,-12.79984,-75.66666,8510,ver,see,riku,ulla,kawɐ-ŋ,,,0
+21351737309,Lincha,-12.79984,-75.66666,8610,hacer,do,rura,lura,ɾuwɐ-ŋ,,,0
+21351737309,Lincha,-12.79984,-75.66666,8740,coser,sew,sira,truku,s̪eɾɐ-ŋ,,,0
+21351737709,Tana,-12.83299,-75.75231,7020,blanco,white,yuraq,anqu,jʊɾɐχ,,,0
+21351737709,Tana,-12.83299,-75.75231,7880,lejos,far,karu,haya,kaɾu̞,,,0
+21351737709,Tana,-12.83299,-75.75231,2130,oreja,ear,rinri,hinchu,liŋɾe,,,0
+21351737709,Tana,-12.83299,-75.75231,2610,sangre,blood,yawar,wila,jawɐɹ̝,,,0
+21351737709,Tana,-12.83299,-75.75231,2630,piel,skin,qara,hanchi_lipichi,qaɾa,,,0
+21351737709,Tana,-12.83299,-75.75231,4010,persona,person,runa,haqi,ɾun̪a,,,0
+21351737709,Tana,-12.83299,-75.75231,4030,mujer,woman,warmi,warmi,wɐɾmi̠,,,0
+21351737709,Tana,-12.83299,-75.75231,5510,piedra,stone,rumi,qala,ɾumɪ,,,0
+21351737709,Tana,-12.83299,-75.75231,5850,viento,wind,wayra,thaya,wɐjɾa,,,0
+21351737709,Tana,-12.83299,-75.75231,6060,grasa,fat,wira,liki,wiɾa,,,0
+21351737709,Tana,-12.83299,-75.75231,8030,caminar,walk,puri,sara,pu̟ɾi-ŋ,,,0
+21351737709,Tana,-12.83299,-75.75231,8510,ver,see,riku,ulla,kawɐ-ŋ,,,0
+21351737709,Tana,-12.83299,-75.75231,8610,hacer,do,rura,lura,ɾu̞wɐ-ŋ,,,0
+21351737709,Tana,-12.83299,-75.75231,8740,coser,sew,sira,truku,s̪i̠ɾɐ-ŋ,,,0
+21351773309,Víñac,-12.93084,-75.78008,7020,blanco,white,yuraq,anqu,ju̞ɾɐχ,,,0
+21351773309,Víñac,-12.93084,-75.78008,7880,lejos,far,karu,haya,kaɾu̞,,,0
+21351773309,Víñac,-12.93084,-75.78008,2130,oreja,ear,rinri,hinchu,ɾɪnɾi,,,0
+21351773309,Víñac,-12.93084,-75.78008,2610,sangre,blood,yawar,wila,jawaɹ̝,,,0
+21351773309,Víñac,-12.93084,-75.78008,2630,piel,skin,qara,hanchi_lipichi,qaɾa,,,0
+21351773309,Víñac,-12.93084,-75.78008,4010,persona,person,runa,haqi,ɾu̞nɐ,,,0
+21351773309,Víñac,-12.93084,-75.78008,4030,mujer,woman,warmi,warmi,wa̝ɾmi,,,0
+21351773309,Víñac,-12.93084,-75.78008,5510,piedra,stone,rumi,qala,ɾu̞mi,,,0
+21351773309,Víñac,-12.93084,-75.78008,5850,viento,wind,wayra,thaya,wɐjɾa,,,0
+21351773309,Víñac,-12.93084,-75.78008,6060,grasa,fat,wira,liki,wiɾɐ,,,0
+21351773309,Víñac,-12.93084,-75.78008,8030,caminar,walk,puri,sara,pu̞ɾi-ŋ,,,0
+21351773309,Víñac,-12.93084,-75.78008,8510,ver,see,riku,ulla,qɐwɐ-ŋ,,,0
+21351773309,Víñac,-12.93084,-75.78008,8610,hacer,do,rura,lura,ɾu̞wɐ-ŋ,,,0
+21351773309,Víñac,-12.93084,-75.78008,8610,hacer,do,rura,lura,ɾu̞ɾɜ-ŋ,,,0
+21351773309,Víñac,-12.93084,-75.78008,8740,coser,sew,sira,truku,s̪eɾɐ-ŋ,,,0
+21351773409,"Víñac 2",-12.93084,-75.78008,7020,blanco,white,yuraq,anqu,jʉ̠ɾɐχ,,,0
+21351773409,"Víñac 2",-12.93084,-75.78008,7880,lejos,far,karu,haya,k̟ɐɾu̞,,,0
+21351773409,"Víñac 2",-12.93084,-75.78008,2130,oreja,ear,rinri,hinchu,ɾiŋɾi,,,0
+21351773409,"Víñac 2",-12.93084,-75.78008,2610,sangre,blood,yawar,wila,jɐwɐɹ̝̥,,,0
+21351773409,"Víñac 2",-12.93084,-75.78008,2630,piel,skin,qara,hanchi_lipichi,χɐɾɐ,,,0
+21351773409,"Víñac 2",-12.93084,-75.78008,4010,persona,person,runa,haqi,ɾu̟n̪ɐ,,,0
+21351773409,"Víñac 2",-12.93084,-75.78008,4030,mujer,woman,warmi,warmi,wɐɾmi,,,0
+21351773409,"Víñac 2",-12.93084,-75.78008,5510,piedra,stone,rumi,qala,ɾu̞mi,,,0
+21351773409,"Víñac 2",-12.93084,-75.78008,5850,viento,wind,wayra,thaya,wɐjɾɐ,,,0
+21351773409,"Víñac 2",-12.93084,-75.78008,6060,grasa,fat,wira,liki,wiɾɐ,,,0
+21351773409,"Víñac 2",-12.93084,-75.78008,8030,caminar,walk,puri,sara,pu̟ɾi-ŋ,,,0
+21351773409,"Víñac 2",-12.93084,-75.78008,8510,ver,see,riku,ulla,qʰɐwɐ-ɴ,,,0
+21351773409,"Víñac 2",-12.93084,-75.78008,8610,hacer,do,rura,lura,ɾʊɾɐ-ŋ,,,0
+21351773409,"Víñac 2",-12.93084,-75.78008,8740,coser,sew,sira,truku,s̪i̞ɾɐ-ŋ,,,0
+21351776509,Huangáscar,-12.89936,-75.83138,7020,blanco,white,yuraq,anqu,ju̟ɾaχ,,,0
+21351776509,Huangáscar,-12.89936,-75.83138,7880,lejos,far,karu,haya,kaɾu̞,,,0
+21351776509,Huangáscar,-12.89936,-75.83138,2130,oreja,ear,rinri,hinchu,ɾiŋɾɪ,,,0
+21351776509,Huangáscar,-12.89936,-75.83138,2610,sangre,blood,yawar,wila,jɐwɐɾ,,,0
+21351776509,Huangáscar,-12.89936,-75.83138,2630,piel,skin,qara,hanchi_lipichi,χɐɾɐ,,,0
+21351776509,Huangáscar,-12.89936,-75.83138,4010,persona,person,runa,haqi,ɾu̟n̪a,,,0
+21351776509,Huangáscar,-12.89936,-75.83138,4030,mujer,woman,warmi,warmi,wɐɾmi,,,0
+21351776509,Huangáscar,-12.89936,-75.83138,5510,piedra,stone,rumi,qala,ɾu̟mi̞,,,0
+21351776509,Huangáscar,-12.89936,-75.83138,5850,viento,wind,wayra,thaya,wɐjɾa,,,0
+21351776509,Huangáscar,-12.89936,-75.83138,6060,grasa,fat,wira,liki,wiɾa,,,0
+21351776509,Huangáscar,-12.89936,-75.83138,8030,caminar,walk,puri,sara,pu̞ɾi-ŋ,,,0
+21351776509,Huangáscar,-12.89936,-75.83138,8510,ver,see,riku,ulla,hawɐ-ŋ,,,0
+21351776509,Huangáscar,-12.89936,-75.83138,8610,hacer,do,rura,lura,ɾuwɐ-ŋ,,,0
+21351776509,Huangáscar,-12.89936,-75.83138,8740,coser,sew,sira,truku,s̪eɾa-ŋ,,,0
+21351778509,"San Pedro",-13.04891,-75.6479,7020,blanco,white,yuraq,anqu,ju̟ɾɐχ,,,0
+21351778509,"San Pedro",-13.04891,-75.6479,7880,lejos,far,karu,haya,kaɾu̞,,,0
+21351778509,"San Pedro",-13.04891,-75.6479,2130,oreja,ear,rinri,hinchu,ɾiŋɾi,,,0
+21351778509,"San Pedro",-13.04891,-75.6479,2610,sangre,blood,yawar,wila,jɐwɐɹ̝,,,0
+21351778509,"San Pedro",-13.04891,-75.6479,2630,piel,skin,qara,hanchi_lipichi,qɐɾɐ,,,0
+21351778509,"San Pedro",-13.04891,-75.6479,4010,persona,person,runa,haqi,ɾʊn̪a,,,0
+21351778509,"San Pedro",-13.04891,-75.6479,4030,mujer,woman,warmi,warmi,wæɾmi,,,0
+21351778509,"San Pedro",-13.04891,-75.6479,5510,piedra,stone,rumi,qala,ɾu̞mi,,,0
+21351778509,"San Pedro",-13.04891,-75.6479,5850,viento,wind,wayra,thaya,wɛjɾɐ,,,0
+21351778509,"San Pedro",-13.04891,-75.6479,6060,grasa,fat,wira,liki,wiɾa,,,0
+21351778509,"San Pedro",-13.04891,-75.6479,8030,caminar,walk,puri,sara,pu̟ɾi,,,0
+21351778509,"San Pedro",-13.04891,-75.6479,8510,ver,see,riku,ulla,hæwa,,,0
+21351778509,"San Pedro",-13.04891,-75.6479,8610,hacer,do,rura,lura,ɾuwɐ,,,0
+21351778509,"San Pedro",-13.04891,-75.6479,8740,coser,sew,sira,truku,siɾa,,,0
+21222110001,Huancavelica,-12.76048,-74.90383,7020,blanco,white,yuraq,anqu,ɾʉjɐχ,,,0
+21222110001,Huancavelica,-12.76048,-74.90383,7880,lejos,far,karu,haya,kɐɾo,,,0
+21222110001,Huancavelica,-12.76048,-74.90383,2130,oreja,ear,rinri,hinchu,ɭi̠ŋɭi-jki,,,0
+21222110001,Huancavelica,-12.76048,-74.90383,2630,piel,skin,qara,hanchi_lipichi,χɐɾɐ,,,0
+21222110001,Huancavelica,-12.76048,-74.90383,4010,persona,person,runa,haqi,ɾu̟n̪ɐ,,,0
+21222110001,Huancavelica,-12.76048,-74.90383,4030,mujer,woman,warmi,warmi,wɐ̟ɾmi,,,0
+21222110001,Huancavelica,-12.76048,-74.90383,4030,mujer,woman,warmi,warmi,wɐɾmi,,,0
+21222110001,Huancavelica,-12.76048,-74.90383,5850,viento,wind,wayra,thaya,weːɾɐ,,,0
+21222110001,Huancavelica,-12.76048,-74.90383,6060,grasa,fat,wira,liki,weɾɐ,,,0
+21222110001,Huancavelica,-12.76048,-74.90383,8030,caminar,walk,puri,sara,pʊɾi-s̪ɐχ,,,0
+21222110001,Huancavelica,-12.76048,-74.90383,8510,ver,see,riku,ulla,ɾɪ-ku̞-mʊ-s̪ũ̞,,,0
+21222110001,Huancavelica,-12.76048,-74.90383,8610,hacer,do,rura,lura,ɾʊwɐ̟-j,,,0
+21222110001,Huancavelica,-12.76048,-74.90383,8740,coser,sew,sira,truku,s̪ɛ̝ɾɐ-kʊ-j,,,0
+21222112709,Huaytará,-13.60449,-75.35319,7020,blanco,white,yuraq,anqu,jʊɾɐχ,,,0
+21222112709,Huaytará,-13.60449,-75.35319,7880,lejos,far,karu,haya,kɐɾo̟,,,0
+21222112709,Huaytará,-13.60449,-75.35319,2130,oreja,ear,rinri,hinchu,ɾi̠ŋɾi̠,,,0
+21222112709,Huaytará,-13.60449,-75.35319,2610,sangre,blood,yawar,wila,jɐwɐɾ,,,0
+21222112709,Huaytará,-13.60449,-75.35319,2630,piel,skin,qara,hanchi_lipichi,χɐɾɐ,,,0
+21222112709,Huaytará,-13.60449,-75.35319,4010,persona,person,runa,haqi,ɾu̟n̪ɐ̠,,,0
+21222112709,Huaytará,-13.60449,-75.35319,4030,mujer,woman,warmi,warmi,wɐɾmi̠,,,0
+21222112709,Huaytará,-13.60449,-75.35319,5510,piedra,stone,rumi,qala,ɾu̟me̝,,,0
+21222112709,Huaytará,-13.60449,-75.35319,5850,viento,wind,wayra,thaya,wɜjɾɐ,,,0
+21222112709,Huaytará,-13.60449,-75.35319,6060,grasa,fat,wira,liki,wi̠ɾɐ,,,0
+21222112709,Huaytará,-13.60449,-75.35319,8030,caminar,walk,puri,sara,pu̟ɾɪ-ŋ,,,0
+21222112709,Huaytará,-13.60449,-75.35319,8510,ver,see,riku,ulla,ɹ̝i̠-ko̟-ŋ,,,0
+21222112709,Huaytará,-13.60449,-75.35319,8610,hacer,do,rura,lura,ɾu̟ɾɐ-ŋ,,,0
+21222112709,Huaytará,-13.60449,-75.35319,8740,coser,sew,sira,truku,sɪɾɐ-ŋ,,,0
+21222123709,"Ayacucho:  Tambo",-12.94821,-74.02041,7020,blanco,white,yuraq,anqu,ju̟ɾɐχ,,,0
+21222123709,"Ayacucho:  Tambo",-12.94821,-74.02041,7880,lejos,far,karu,haya,kɐɾu̞,,,0
+21222123709,"Ayacucho:  Tambo",-12.94821,-74.02041,2130,oreja,ear,rinri,hinchu,ɾiŋɾi,,,0
+21222123709,"Ayacucho:  Tambo",-12.94821,-74.02041,2610,sangre,blood,yawar,wila,jɐwɐɾ,,,0
+21222123709,"Ayacucho:  Tambo",-12.94821,-74.02041,2630,piel,skin,qara,hanchi_lipichi,χɐɾɐ,,,0
+21222123709,"Ayacucho:  Tambo",-12.94821,-74.02041,4010,persona,person,runa,haqi,ɾu̞n̪ɐ,,,0
+21222123709,"Ayacucho:  Tambo",-12.94821,-74.02041,4030,mujer,woman,warmi,warmi,wɐɾmi,,,0
+21222123709,"Ayacucho:  Tambo",-12.94821,-74.02041,5510,piedra,stone,rumi,qala,ɾu̞mi,,,0
+21222123709,"Ayacucho:  Tambo",-12.94821,-74.02041,5850,viento,wind,wayra,thaya,wɐjɾɐ̟,,,0
+21222123709,"Ayacucho:  Tambo",-12.94821,-74.02041,6060,grasa,fat,wira,liki,wi̠ɾɐ,,,0
+21222123709,"Ayacucho:  Tambo",-12.94821,-74.02041,8030,caminar,walk,puri,sara,pu̞ɾi-ŋ,,,0
+21222123709,"Ayacucho:  Tambo",-12.94821,-74.02041,8510,ver,see,riku,ulla,ɾi-k̠u̞-ŋ,,,0
+21222123709,"Ayacucho:  Tambo",-12.94821,-74.02041,8610,hacer,do,rura,lura,ɾʊɾɐ-ŋ,,,0
+21222123709,"Ayacucho:  Tambo",-12.94821,-74.02041,8740,coser,sew,sira,truku,siɾɐ-ŋ,,,0
+21222125509,Ayacucho,-13.16036,-74.2258,7020,blanco,white,yuraq,anqu,ju̟ɾɐ̟χ,,,0
+21222125509,Ayacucho,-13.16036,-74.2258,7880,lejos,far,karu,haya,kɐɾu̞,,,0
+21222125509,Ayacucho,-13.16036,-74.2258,2130,oreja,ear,rinri,hinchu,ɾi̞ŋɾi̞,,,0
+21222125509,Ayacucho,-13.16036,-74.2258,2610,sangre,blood,yawar,wila,jɐ̟wɐr,,,0
+21222125509,Ayacucho,-13.16036,-74.2258,2630,piel,skin,qara,hanchi_lipichi,χɐɾɐ,,,0
+21222125509,Ayacucho,-13.16036,-74.2258,4010,persona,person,runa,haqi,ɾu̟n̪ɐ,,,0
+21222125509,Ayacucho,-13.16036,-74.2258,4030,mujer,woman,warmi,warmi,wɐɾmi,,,0
+21222125509,Ayacucho,-13.16036,-74.2258,5510,piedra,stone,rumi,qala,ɾu̟mi̞,,,0
+21222125509,Ayacucho,-13.16036,-74.2258,5850,viento,wind,wayra,thaya,wɐjɾɐ,,,0
+21222125509,Ayacucho,-13.16036,-74.2258,6060,grasa,fat,wira,liki,wi̠ɾɐ,,,0
+21222125509,Ayacucho,-13.16036,-74.2258,8030,caminar,walk,puri,sara,pu̟ɾi̠-ŋ,,,0
+21222125509,Ayacucho,-13.16036,-74.2258,8510,ver,see,riku,ulla,ɾi̠-k̠u̞-ŋ,,,0
+21222125509,Ayacucho,-13.16036,-74.2258,8610,hacer,do,rura,lura,ɾu̟ɾɐ-ŋ,,,0
+21222125509,Ayacucho,-13.16036,-74.2258,8740,coser,sew,sira,truku,si̠ɾɐ-ŋ,,,0
+21222134309,Abancay,-13.95967,-73.1851,7020,blanco,white,yuraq,anqu,ju̟ɾɐχ,,,0
+21222134309,Abancay,-13.95967,-73.1851,7880,lejos,far,karu,haya,k̠ɐɾu̞,,,0
+21222134309,Abancay,-13.95967,-73.1851,2130,oreja,ear,rinri,hinchu,neŋɾi̞,,,0
+21222134309,Abancay,-13.95967,-73.1851,2610,sangre,blood,yawar,wila,jɐwɐɾ,,,0
+21222134309,Abancay,-13.95967,-73.1851,2630,piel,skin,qara,hanchi_lipichi,qɐɾɐ,,,0
+21222134309,Abancay,-13.95967,-73.1851,4010,persona,person,runa,haqi,ɹ̝unɐ,,,0
+21222134309,Abancay,-13.95967,-73.1851,4030,mujer,woman,warmi,warmi,wɐɾmi,,,0
+21222134309,Abancay,-13.95967,-73.1851,5510,piedra,stone,rumi,qala,ɾumi,,,0
+21222134309,Abancay,-13.95967,-73.1851,5850,viento,wind,wayra,thaya,wɐjɾɐ̃,,,0
+21222134309,Abancay,-13.95967,-73.1851,6060,grasa,fat,wira,liki,wi̞ɾɐ,,,0
+21222134309,Abancay,-13.95967,-73.1851,8030,caminar,walk,puri,sara,pu̟ɾi̠-ŋ,,,0
+21222134309,Abancay,-13.95967,-73.1851,8510,ver,see,riku,ulla,ɾi-k̠u̞-ŋ,,,0
+21222134309,Abancay,-13.95967,-73.1851,8610,hacer,do,rura,lura,ɹ̝u̞-ŋ,,,0
+21222134309,Abancay,-13.95967,-73.1851,8740,coser,sew,sira,truku,s̠eɾɐ-ŋ,,,0
+21222210001,Cuzco,-13.51667,-71.98333,7020,blanco,white,yuraq,anqu,ju̟ɾɐχ,,,0
+21222210001,Cuzco,-13.51667,-71.98333,7880,lejos,far,karu,haya,kʰɐɾu̞,,,0
+21222210001,Cuzco,-13.51667,-71.98333,2130,oreja,ear,rinri,hinchu,nɪŋɾi,,,0
+21222210001,Cuzco,-13.51667,-71.98333,2610,sangre,blood,yawar,wila,jɐwɐr̥,,,0
+21222210001,Cuzco,-13.51667,-71.98333,2630,piel,skin,qara,hanchi_lipichi,qɐ̟ɾɐ,,,0
+21222210001,Cuzco,-13.51667,-71.98333,4010,persona,person,runa,haqi,ɾʊnɐ̟,,,0
+21222210001,Cuzco,-13.51667,-71.98333,4030,mujer,woman,warmi,warmi,wɐɾmi̠,,,0
+21222210001,Cuzco,-13.51667,-71.98333,4030,mujer,woman,warmi,warmi,wɐɾmi,,,0
+21222210001,Cuzco,-13.51667,-71.98333,5510,piedra,stone,rumi,qala,ɾu̞mi,,,0
+21222210001,Cuzco,-13.51667,-71.98333,5850,viento,wind,wayra,thaya,wɘjɾɐ̞,,,0
+21222210001,Cuzco,-13.51667,-71.98333,6060,grasa,fat,wira,liki,wi̞ɾɐ,,,0
+21222210001,Cuzco,-13.51667,-71.98333,8030,caminar,walk,puri,sara,pu̞ɾi̠,,,0
+21222210001,Cuzco,-13.51667,-71.98333,8510,ver,see,riku,ulla,ɾi̠-ku̟-ʎ,,,0
+21222210001,Cuzco,-13.51667,-71.98333,8610,hacer,do,rura,lura,ɾu̞wɘ̠-j,,,0
+21222210001,Cuzco,-13.51667,-71.98333,8740,coser,sew,sira,truku,sɪɾɜ-j,,,0
+21222220101,Puno,-15.91667,-70.05,7020,blanco,white,yuraq,anqu,ju̟ɾɐχ,,,0
+21222220101,Puno,-15.91667,-70.05,7880,lejos,far,karu,haya,kɐɾu,,,0
+21222220101,Puno,-15.91667,-70.05,2130,oreja,ear,rinri,hinchu,ɾiŋɾi̠,,,0
+21222220101,Puno,-15.91667,-70.05,2610,sangre,blood,yawar,wila,jɐ̟wɐ̟ɹ̝,,,0
+21222220101,Puno,-15.91667,-70.05,2630,piel,skin,qara,hanchi_lipichi,qɐɾɐ̟,,,0
+21222220101,Puno,-15.91667,-70.05,4010,persona,person,runa,haqi,ɹ̝u̟n̪æ̠,,,0
+21222220101,Puno,-15.91667,-70.05,4030,mujer,woman,warmi,warmi,wɐ̟ɹ̝m,,,0
+21222220101,Puno,-15.91667,-70.05,5510,piedra,stone,rumi,qala,ɹ̝u̟mi,,,0
+21222220101,Puno,-15.91667,-70.05,5850,viento,wind,wayra,thaya,wɐjɾɐ̟,,,0
+21222220101,Puno,-15.91667,-70.05,6060,grasa,fat,wira,liki,wiɾɐ̟,,,0
+21222220101,Puno,-15.91667,-70.05,8030,caminar,walk,puri,sara,pu̟ɾi,,,0
+21222220101,Puno,-15.91667,-70.05,8510,ver,see,riku,ulla,ɹ̝i̠-ku̟-j,,,0
+21222220101,Puno,-15.91667,-70.05,8610,hacer,do,rura,lura,ɹ̝u̟ɹ̝ɘ-j,,,0
+21222220101,Puno,-15.91667,-70.05,8740,coser,sew,sira,truku,s̪iɾɘ-j,,,0
+21222220201,"Lago Titicaca",-15.83333,-69.71667,7020,blanco,white,yuraq,anqu,jʊ̟ɾɐχ,,,0
+21222220201,"Lago Titicaca",-15.83333,-69.71667,7880,lejos,far,karu,haya,"mɐɳs̪ɪ̞nt͡ʃɘ̥ kɐɾʉ̞-t͡ʃu̟̥",,,0
+21222220201,"Lago Titicaca",-15.83333,-69.71667,2130,oreja,ear,rinri,hinchu,ni̠ŋɾɪ,,,0
+21222220201,"Lago Titicaca",-15.83333,-69.71667,2610,sangre,blood,yawar,wila,jɐ̟wɐ̟r,,,0
+21222220201,"Lago Titicaca",-15.83333,-69.71667,2630,piel,skin,qara,hanchi_lipichi,qɐ̟ɾɐ̟,,,0
+21222220201,"Lago Titicaca",-15.83333,-69.71667,4010,persona,person,runa,haqi,ɾo̝nɐ̟,,,0
+21222220201,"Lago Titicaca",-15.83333,-69.71667,4030,mujer,woman,warmi,warmi,wæ̠ɾmi̠,,,0
+21222220201,"Lago Titicaca",-15.83333,-69.71667,5510,piedra,stone,rumi,qala,ɹ̝omi̠,,,0
+21222220201,"Lago Titicaca",-15.83333,-69.71667,5850,viento,wind,wayra,thaya,wɐjɾæ̠,,,0
+21222220201,"Lago Titicaca",-15.83333,-69.71667,8510,ver,see,riku,ulla,ɾɪ-kʊ-s̪n̪i̠,,,0
+21222220201,"Lago Titicaca",-15.83333,-69.71667,8610,hacer,do,rura,lura,æ̠s̪ɪ-ku̟-s̪ɐ̟,,,0
+21222220201,"Lago Titicaca",-15.83333,-69.71667,8740,coser,sew,sira,truku,s̪e̞ɾɐ̟-s̪ɐ̟χ,,,0
+21222230101,Apolobamba,-15.13007,-68.99987,7020,blanco,white,yuraq,anqu,jʊɾɜχ,,,0
+21222230101,Apolobamba,-15.13007,-68.99987,7880,lejos,far,karu,haya,kɐɾu̞,,,0
+21222230101,Apolobamba,-15.13007,-68.99987,2130,oreja,ear,rinri,hinchu,niŋɾi̠,,,0
+21222230101,Apolobamba,-15.13007,-68.99987,2610,sangre,blood,yawar,wila,jɐwɐɾ,,,0
+21222230101,Apolobamba,-15.13007,-68.99987,2630,piel,skin,qara,hanchi_lipichi,qɐɾɐ,,,0
+21222230101,Apolobamba,-15.13007,-68.99987,4010,persona,person,runa,haqi,ɾu̟n̪ɐ,,,0
+21222230101,Apolobamba,-15.13007,-68.99987,4030,mujer,woman,warmi,warmi,wɐɾmi̠,,,0
+21222230101,Apolobamba,-15.13007,-68.99987,5510,piedra,stone,rumi,qala,ɹ̝u̞mɪ,,,0
+21222230101,Apolobamba,-15.13007,-68.99987,5850,viento,wind,wayra,thaya,wɘjɾɐ,,,0
+21222230101,Apolobamba,-15.13007,-68.99987,6060,grasa,fat,wira,liki,wiɾɐ,,,0
+21222230101,Apolobamba,-15.13007,-68.99987,8030,caminar,walk,puri,sara,pʊ̝ɾi̠-n̪ɐ,,,0
+21222230101,Apolobamba,-15.13007,-68.99987,8610,hacer,do,rura,lura,ɾu̞wɜ̠-n̪ɜ,,,0
+21222230101,Apolobamba,-15.13007,-68.99987,8740,coser,sew,sira,truku,s̪i̠ɾɐ̟-nɐ,,,0
+21222230211,Cochabamba,-17.58333,-65.5,7020,blanco,white,yuraq,anqu,jɨɾɐχ,,,0
+21222230211,Cochabamba,-17.58333,-65.5,2130,oreja,ear,rinri,hinchu,ni̠ŋɾi,,,0
+21222230211,Cochabamba,-17.58333,-65.5,2610,sangre,blood,yawar,wila,jɐ̠wɐɾ,,,0
+21222230211,Cochabamba,-17.58333,-65.5,2630,piel,skin,qara,hanchi_lipichi,ɢɐɾɐ,,,0
+21222230211,Cochabamba,-17.58333,-65.5,4010,persona,person,runa,haqi,ɭu̟n̪ɐ̟,,,0
+21222230211,Cochabamba,-17.58333,-65.5,4030,mujer,woman,warmi,warmi,wɐɾmɪ,,,0
+21222230211,Cochabamba,-17.58333,-65.5,5510,piedra,stone,rumi,qala,ɹ̝omi,,,0
+21222230211,Cochabamba,-17.58333,-65.5,5850,viento,wind,wayra,thaya,wɘjɾɐ̟,,,0
+21222230211,Cochabamba,-17.58333,-65.5,6060,grasa,fat,wira,liki,wi̞ɾɐ,,,0
+21222230211,Cochabamba,-17.58333,-65.5,8510,ver,see,riku,ulla,ɹ̝ɪ-ku̟-j,,,0
+21222230211,Cochabamba,-17.58333,-65.5,8610,hacer,do,rura,lura,ɹ̝ʊwɜ-j,,,0
+21222230211,Cochabamba,-17.58333,-65.5,8740,coser,sew,sira,truku,s̪ɪɾɛ̠-j,,,0
+21222230231,Sucre,-19.08333,-65.83333,7020,blanco,white,yuraq,anqu,ju̟ɾɐχ,,,0
+21222230231,Sucre,-19.08333,-65.83333,7880,lejos,far,karu,haya,"mɐ kɜ̟ɾʊ̟-t͡ʃu̟kɐ̟ʃɐ̟n",,,0
+21222230231,Sucre,-19.08333,-65.83333,2130,oreja,ear,rinri,hinchu,nejɡɾɪ̞,,,0
+21222230231,Sucre,-19.08333,-65.83333,2610,sangre,blood,yawar,wila,jɐwɐr,,,0
+21222230231,Sucre,-19.08333,-65.83333,2630,piel,skin,qara,hanchi_lipichi,qɐɾɐ,,,0
+21222230231,Sucre,-19.08333,-65.83333,4010,persona,person,runa,haqi,ɹ̝u̞n̪ɐ̟,,,0
+21222230231,Sucre,-19.08333,-65.83333,4030,mujer,woman,warmi,warmi,wɐ̟ɾmɪ,,,0
+21222230231,Sucre,-19.08333,-65.83333,5510,piedra,stone,rumi,qala,ɹ̝o̝mi,,,0
+21222230231,Sucre,-19.08333,-65.83333,5850,viento,wind,wayra,thaya,wɐjɾɐ̟,,,0
+21222230231,Sucre,-19.08333,-65.83333,6060,grasa,fat,wira,liki,wiɾɐ̟,,,0
+21222230231,Sucre,-19.08333,-65.83333,8030,caminar,walk,puri,sara,po̝ɾi̠-s̪ɐχ,,,0
+21222230231,Sucre,-19.08333,-65.83333,8510,ver,see,riku,ulla,ɹ̝ɪ-kʊ̟-j,,,0
+21222230231,Sucre,-19.08333,-65.83333,8610,hacer,do,rura,lura,ɾʊwɜ̝-j,,,0
+21222354501,Argentina,-28.47972,-63.06694,7020,blanco,white,yuraq,anqu,ju̟ɾɐ̟χ,,,0
+21222354501,Argentina,-28.47972,-63.06694,7880,lejos,far,karu,haya,kɐ̟ɾu̞,,,0
+21222354501,Argentina,-28.47972,-63.06694,2130,oreja,ear,rinri,hinchu,niɰɾi,,,0
+21222354501,Argentina,-28.47972,-63.06694,2610,sangre,blood,yawar,wila,jɐ̟ːr,,,0
+21222354501,Argentina,-28.47972,-63.06694,2630,piel,skin,qara,hanchi_lipichi,qɐ̟ɾɐ̟,,,0
+21222354501,Argentina,-28.47972,-63.06694,4010,persona,person,runa,haqi,ru̞nɜ,,,0
+21222354501,Argentina,-28.47972,-63.06694,4030,mujer,woman,warmi,warmi,wɐ̟rmi,,,0
+21222354501,Argentina,-28.47972,-63.06694,4030,mujer,woman,warmi,warmi,wɐ̟ɾmi̠,,,0
+21222354501,Argentina,-28.47972,-63.06694,5510,piedra,stone,rumi,qala,ru̞mi̞,,,0
+21222354501,Argentina,-28.47972,-63.06694,5850,viento,wind,wayra,thaya,wɐjɾɐ̟,,,0
+21222354501,Argentina,-28.47972,-63.06694,6060,grasa,fat,wira,liki,wiɾɐ̟,,,0
+21222354501,Argentina,-28.47972,-63.06694,8030,caminar,walk,puri,sara,pu̟ɾi̠-n̪,,,0
+21222354501,Argentina,-28.47972,-63.06694,8510,ver,see,riku,ulla,qɐː-n,,,0
+21222354501,Argentina,-28.47972,-63.06694,8610,hacer,do,rura,lura,ɾu̞wɐ̟-n,,,0
+21222354501,Argentina,-28.47972,-63.06694,8740,coser,sew,sira,truku,se̝ɾɐ̟-n,,,0
+21222354501,Argentina,-28.47972,-63.06694,8740,coser,sew,sira,truku,siɾæ̠-n,,,0

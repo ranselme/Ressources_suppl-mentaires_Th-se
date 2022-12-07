@@ -1,0 +1,82 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 9.17204081632653 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "rhotic" 
+        xmin = 0 
+        xmax = 9.17204081632653 
+        intervals: size = 17 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.29724593072044986 
+            text = "" 
+        intervals [2]:
+            xmin = 0.29724593072044986 
+            xmax = 0.35801482350471064 
+            text = "trill_2" 
+        intervals [3]:
+            xmin = 0.35801482350471064 
+            xmax = 1.6316872244530463 
+            text = "" 
+        intervals [4]:
+            xmin = 1.6316872244530463 
+            xmax = 1.6777877638066234 
+            text = "tap" 
+        intervals [5]:
+            xmin = 1.6777877638066234 
+            xmax = 2.806362854396356 
+            text = "" 
+        intervals [6]:
+            xmin = 2.806362854396356 
+            xmax = 2.899262426124019 
+            text = "trill_2" 
+        intervals [7]:
+            xmin = 2.899262426124019 
+            xmax = 3.654725850072284 
+            text = "" 
+        intervals [8]:
+            xmin = 3.654725850072284 
+            xmax = 3.7790576077228413 
+            text = "trill_3" 
+        intervals [9]:
+            xmin = 3.7790576077228413 
+            xmax = 5.510155314632734 
+            text = "" 
+        intervals [10]:
+            xmin = 5.510155314632734 
+            xmax = 5.610039816565485 
+            text = "trill_3" 
+        intervals [11]:
+            xmin = 5.610039816565485 
+            xmax = 6.4847709564860505 
+            text = "" 
+        intervals [12]:
+            xmin = 6.4847709564860505 
+            xmax = 6.512012184285892 
+            text = "tap" 
+        intervals [13]:
+            xmin = 6.512012184285892 
+            xmax = 7.8334730948533124 
+            text = "" 
+        intervals [14]:
+            xmin = 7.8334730948533124 
+            xmax = 7.881669113268416 
+            text = "tap" 
+        intervals [15]:
+            xmin = 7.881669113268416 
+            xmax = 8.791033919989928 
+            text = "" 
+        intervals [16]:
+            xmin = 8.791033919989928 
+            xmax = 8.851802812774189 
+            text = "trill_2" 
+        intervals [17]:
+            xmin = 8.851802812774189 
+            xmax = 9.17204081632653 
+            text = "" 

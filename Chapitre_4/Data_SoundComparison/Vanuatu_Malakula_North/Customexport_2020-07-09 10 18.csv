@@ -1,0 +1,925 @@
+﻿LanguageId,LanguageName,Latitude,Longitude,WordId,WordModernName1,WordModernName2,WordProtoName1,WordProtoName2,Phonetic,SpellingAltv1,SpellingAltv2,NotCognateWithMainWordInThisFamily
+48741151109,"V’ënen Taute: Alpalak",-15.99722,167.1825,1010,I,mi,mi,,kana,,,0
+48741151109,"V’ënen Taute: Alpalak",-15.99722,167.1825,1023,we_incl,yumi,yumi,,naknd,,,0
+48741151109,"V’ënen Taute: Alpalak",-15.99722,167.1825,1020,we_pl_excl,mifala,mifala,,kamɛm,,,0
+48741151109,"V’ënen Taute: Alpalak",-15.99722,167.1825,1021,we_dual_incl,yumitu,yumitu,,"kamɛm uⁿdʳani",,,0
+48741151109,"V’ënen Taute: Alpalak",-15.99722,167.1825,1022,we_dual_excl,mitufala,mitufala,,..,,,0
+48741151109,"V’ënen Taute: Alpalak",-15.99722,167.1825,1040,you,yu,yu,,nakm,,,0
+48741151109,"V’ënen Taute: Alpalak",-15.99722,167.1825,1050,you_dual,yutufala,yutufala,,..,,,0
+48741151109,"V’ënen Taute: Alpalak",-15.99722,167.1825,1052,you_pl,yufala,yufala,,..,,,0
+48741151109,"V’ënen Taute: Alpalak",-15.99722,167.1825,1060,he,hem,hem,,xin,,,0
+48741151109,"V’ënen Taute: Alpalak",-15.99722,167.1825,1070,they,olgeta,olgeta,,xir,,,0
+48741151109,"V’ënen Taute: Alpalak",-15.99722,167.1825,1072,they_dual,tufala,tufala,,"xir aru",,,0
+48741151109,"V’ënen Taute: Alpalak",-15.99722,167.1825,1120,no,no,no,,i-kaɣe,,,0
+48741151109,"V’ënen Taute: Alpalak",-15.99722,167.1825,1210,what,wanem,wanem,,ð̼ata,,,0
+48741151109,"V’ënen Taute: Alpalak",-15.99722,167.1825,1220,who,hu,hu,,xinak,,,0
+48741151109,"V’ënen Taute: Alpalak",-15.99722,167.1825,1230,where,wea,wea,,ipi,,,0
+48741151109,"V’ënen Taute: Alpalak",-15.99722,167.1825,1240,when,wanem,wanem,,..,,,0
+48741151109,"V’ënen Taute: Alpalak",-15.99722,167.1825,1250,how,hao,hao,,inapi,,,0
+48741151109,"V’ënen Taute: Alpalak",-15.99722,167.1825,1310,this,hemia_ia,hemia_ia,,..,,,0
+48741151109,"V’ënen Taute: Alpalak",-15.99722,167.1825,1320,that,hemia_longwei,hemia_longwei,,..,,,0
+48741151109,"V’ënen Taute: Alpalak",-15.99722,167.1825,1380,above,antap,antap,,..,,,0
+48741151109,"V’ënen Taute: Alpalak",-15.99722,167.1825,1390,below,andanit,andanit,,..,,,0
+48741151109,"V’ënen Taute: Alpalak",-15.99722,167.1825,1410,in,insaed,insaed,,..,,,0
+48741153209,"V’ënen Taute: Benenavet",-16.02038,167.17671,1010,I,mi,mi,,kana,,,0
+48741153209,"V’ënen Taute: Benenavet",-16.02038,167.17671,1023,we_incl,yumi,yumi,,..,,,0
+48741153209,"V’ënen Taute: Benenavet",-16.02038,167.17671,1020,we_pl_excl,mifala,mifala,,kan̼ɛm,,,0
+48741153209,"V’ënen Taute: Benenavet",-16.02038,167.17671,1021,we_dual_incl,yumitu,yumitu,,..,,,0
+48741153209,"V’ënen Taute: Benenavet",-16.02038,167.17671,1022,we_dual_excl,mitufala,mitufala,,..,,,0
+48741153209,"V’ënen Taute: Benenavet",-16.02038,167.17671,1040,you,yu,yu,,nakm,,,0
+48741153209,"V’ënen Taute: Benenavet",-16.02038,167.17671,1050,you_dual,yutufala,yutufala,,..,,,0
+48741153209,"V’ënen Taute: Benenavet",-16.02038,167.17671,1052,you_pl,yufala,yufala,,kan̼i,,,0
+48741153209,"V’ënen Taute: Benenavet",-16.02038,167.17671,1060,he,hem,hem,,xin,,,0
+48741153209,"V’ënen Taute: Benenavet",-16.02038,167.17671,1070,they,olgeta,olgeta,,xir,,,0
+48741153209,"V’ënen Taute: Benenavet",-16.02038,167.17671,1072,they_dual,tufala,tufala,,..,,,0
+48741153209,"V’ënen Taute: Benenavet",-16.02038,167.17671,1120,no,no,no,,..,,,0
+48741153209,"V’ënen Taute: Benenavet",-16.02038,167.17671,1210,what,wanem,wanem,,"vata ð̼ata",,,0
+48741153209,"V’ënen Taute: Benenavet",-16.02038,167.17671,1220,who,hu,hu,,xinak,,,0
+48741153209,"V’ënen Taute: Benenavet",-16.02038,167.17671,1230,where,wea,wea,,..,,,0
+48741153209,"V’ënen Taute: Benenavet",-16.02038,167.17671,1240,when,wanem,wanem,,..,,,0
+48741153209,"V’ënen Taute: Benenavet",-16.02038,167.17671,1250,how,hao,hao,,..,,,0
+48741153209,"V’ënen Taute: Benenavet",-16.02038,167.17671,1310,this,hemia_ia,hemia_ia,,..,,,0
+48741153209,"V’ënen Taute: Benenavet",-16.02038,167.17671,1320,that,hemia_longwei,hemia_longwei,,..,,,0
+48741153209,"V’ënen Taute: Benenavet",-16.02038,167.17671,1380,above,antap,antap,,ea,,,0
+48741153209,"V’ënen Taute: Benenavet",-16.02038,167.17671,1390,below,andanit,andanit,,..,,,0
+48741153209,"V’ënen Taute: Benenavet",-16.02038,167.17671,1410,in,insaed,insaed,,..,,,0
+48741155209,"V’ënen Taute: Benmara",-16.05552,167.23261,1010,I,mi,mi,,kana,,,0
+48741155209,"V’ënen Taute: Benmara",-16.05552,167.23261,1023,we_incl,yumi,yumi,,"naknd ⁿdʳani",,,0
+48741155209,"V’ënen Taute: Benmara",-16.05552,167.23261,1020,we_pl_excl,mifala,mifala,,kan̼ɛm,,,0
+48741155209,"V’ënen Taute: Benmara",-16.05552,167.23261,1021,we_dual_incl,yumitu,yumitu,,..,,,0
+48741155209,"V’ënen Taute: Benmara",-16.05552,167.23261,1022,we_dual_excl,mitufala,mitufala,,"kan̼ɛm iru",,,0
+48741155209,"V’ënen Taute: Benmara",-16.05552,167.23261,1040,you,yu,yu,,nakm,,,0
+48741155209,"V’ënen Taute: Benmara",-16.05552,167.23261,1050,you_dual,yutufala,yutufala,,..,,,0
+48741155209,"V’ënen Taute: Benmara",-16.05552,167.23261,1052,you_pl,yufala,yufala,,kami,,,0
+48741155209,"V’ënen Taute: Benmara",-16.05552,167.23261,1060,he,hem,hem,,xain,,,0
+48741155209,"V’ënen Taute: Benmara",-16.05552,167.23261,1070,they,olgeta,olgeta,,xair,,,0
+48741155209,"V’ënen Taute: Benmara",-16.05552,167.23261,1072,they_dual,tufala,tufala,,"xair aru",,,0
+48741155209,"V’ënen Taute: Benmara",-16.05552,167.23261,1120,no,no,no,,na-arni,,,0
+48741155209,"V’ënen Taute: Benmara",-16.05552,167.23261,1210,what,wanem,wanem,,fata,,,0
+48741155209,"V’ënen Taute: Benmara",-16.05552,167.23261,1220,who,hu,hu,,xainank,,,0
+48741155209,"V’ënen Taute: Benmara",-16.05552,167.23261,1230,where,wea,wea,,hipi,,,0
+48741155209,"V’ënen Taute: Benmara",-16.05552,167.23261,1240,when,wanem,wanem,,farɛn,,,0
+48741155209,"V’ënen Taute: Benmara",-16.05552,167.23261,1250,how,hao,hao,,hi-næpi,,,0
+48741155209,"V’ënen Taute: Benmara",-16.05552,167.23261,1310,this,hemia_ia,hemia_ia,,hai-laɣa,,,0
+48741155209,"V’ënen Taute: Benmara",-16.05552,167.23261,1320,that,hemia_longwei,hemia_longwei,,hai-laxatu,,,0
+48741155209,"V’ënen Taute: Benmara",-16.05552,167.23261,1380,above,antap,antap,,aia,,,0
+48741155209,"V’ënen Taute: Benmara",-16.05552,167.23261,1390,below,andanit,andanit,,hanɪvɪn,,,0
+48741155209,"V’ënen Taute: Benmara",-16.05552,167.23261,1410,in,insaed,insaed,,..,,,0
+48741157409,"V’ënen Taute: Unmet",-16.15371,167.26022,1010,I,mi,mi,,kana,,,0
+48741157409,"V’ënen Taute: Unmet",-16.15371,167.26022,1023,we_incl,yumi,yumi,,naknd,,,0
+48741157409,"V’ënen Taute: Unmet",-16.15371,167.26022,1020,we_pl_excl,mifala,mifala,,..,,,0
+48741157409,"V’ënen Taute: Unmet",-16.15371,167.26022,1021,we_dual_incl,yumitu,yumitu,,"naknd uⁿdʳani",,,0
+48741157409,"V’ënen Taute: Unmet",-16.15371,167.26022,1022,we_dual_excl,mitufala,mitufala,,..,,,0
+48741157409,"V’ënen Taute: Unmet",-16.15371,167.26022,1040,you,yu,yu,,nakm,,,0
+48741157409,"V’ënen Taute: Unmet",-16.15371,167.26022,1050,you_dual,yutufala,yutufala,,"kami iru",,,0
+48741157409,"V’ënen Taute: Unmet",-16.15371,167.26022,1052,you_pl,yufala,yufala,,kami,,,0
+48741157409,"V’ënen Taute: Unmet",-16.15371,167.26022,1060,he,hem,hem,,ɣin,,,0
+48741157409,"V’ënen Taute: Unmet",-16.15371,167.26022,1070,they,olgeta,olgeta,,xir,,,0
+48741157409,"V’ënen Taute: Unmet",-16.15371,167.26022,1072,they_dual,tufala,tufala,,"xir aru",,,0
+48741157409,"V’ënen Taute: Unmet",-16.15371,167.26022,1120,no,no,no,,i-ɣe,,,0
+48741157409,"V’ënen Taute: Unmet",-16.15371,167.26022,1210,what,wanem,wanem,,vata,,,0
+48741157409,"V’ënen Taute: Unmet",-16.15371,167.26022,1220,who,hu,hu,,hanak,,,0
+48741157409,"V’ënen Taute: Unmet",-16.15371,167.26022,1230,where,wea,wea,,ipi,,,0
+48741157409,"V’ënen Taute: Unmet",-16.15371,167.26022,1240,when,wanem,wanem,,varɛn,,,0
+48741157409,"V’ënen Taute: Unmet",-16.15371,167.26022,1250,how,hao,hao,,hinapi,,,0
+48741157409,"V’ënen Taute: Unmet",-16.15371,167.26022,1310,this,hemia_ia,hemia_ia,,..,,,0
+48741157409,"V’ënen Taute: Unmet",-16.15371,167.26022,1320,that,hemia_longwei,hemia_longwei,,..,,,0
+48741157409,"V’ënen Taute: Unmet",-16.15371,167.26022,1380,above,antap,antap,,aia,,,0
+48741157409,"V’ënen Taute: Unmet",-16.15371,167.26022,1390,below,andanit,andanit,,xilaɣa,,,0
+48741157409,"V’ënen Taute: Unmet",-16.15371,167.26022,1410,in,insaed,insaed,,..,,,0
+48741158409,"V’ënen Taute: Hamax",-16.111,167.249,1010,I,mi,mi,,kana,,,0
+48741158409,"V’ënen Taute: Hamax",-16.111,167.249,1023,we_incl,yumi,yumi,,..,,,0
+48741158409,"V’ënen Taute: Hamax",-16.111,167.249,1020,we_pl_excl,mifala,mifala,,kan̼ɛm,,,0
+48741158409,"V’ënen Taute: Hamax",-16.111,167.249,1021,we_dual_incl,yumitu,yumitu,,..,,,0
+48741158409,"V’ënen Taute: Hamax",-16.111,167.249,1022,we_dual_excl,mitufala,mitufala,,..,,,0
+48741158409,"V’ënen Taute: Hamax",-16.111,167.249,1040,you,yu,yu,,nakm,,,0
+48741158409,"V’ënen Taute: Hamax",-16.111,167.249,1050,you_dual,yutufala,yutufala,,..,,,0
+48741158409,"V’ënen Taute: Hamax",-16.111,167.249,1052,you_pl,yufala,yufala,,kan̼i,,,0
+48741158409,"V’ënen Taute: Hamax",-16.111,167.249,1060,he,hem,hem,,xin,,,0
+48741158409,"V’ënen Taute: Hamax",-16.111,167.249,1070,they,olgeta,olgeta,,xir,,,0
+48741158409,"V’ënen Taute: Hamax",-16.111,167.249,1072,they_dual,tufala,tufala,,..,,,0
+48741158409,"V’ënen Taute: Hamax",-16.111,167.249,1120,no,no,no,,..,,,0
+48741158409,"V’ënen Taute: Hamax",-16.111,167.249,1210,what,wanem,wanem,,"vata ð̼ata",,,0
+48741158409,"V’ënen Taute: Hamax",-16.111,167.249,1220,who,hu,hu,,xinak,,,0
+48741158409,"V’ënen Taute: Hamax",-16.111,167.249,1230,where,wea,wea,,..,,,0
+48741158409,"V’ënen Taute: Hamax",-16.111,167.249,1240,when,wanem,wanem,,..,,,0
+48741158409,"V’ënen Taute: Hamax",-16.111,167.249,1250,how,hao,hao,,..,,,0
+48741158409,"V’ënen Taute: Hamax",-16.111,167.249,1310,this,hemia_ia,hemia_ia,,..,,,0
+48741158409,"V’ënen Taute: Hamax",-16.111,167.249,1320,that,hemia_longwei,hemia_longwei,,..,,,0
+48741158409,"V’ënen Taute: Hamax",-16.111,167.249,1380,above,antap,antap,,ea,,,0
+48741158409,"V’ënen Taute: Hamax",-16.111,167.249,1390,below,andanit,andanit,,..,,,0
+48741158409,"V’ënen Taute: Hamax",-16.111,167.249,1410,in,insaed,insaed,,..,,,0
+48741322109,"Espiegel’s Bay: Solwota",-15.979,167.192,1010,I,mi,mi,,hunu,,,0
+48741322109,"Espiegel’s Bay: Solwota",-15.979,167.192,1023,we_incl,yumi,yumi,,nakr,,,0
+48741322109,"Espiegel’s Bay: Solwota",-15.979,167.192,1020,we_pl_excl,mifala,mifala,,kənam,,,0
+48741322109,"Espiegel’s Bay: Solwota",-15.979,167.192,1021,we_dual_incl,yumitu,yumitu,,..,,,0
+48741322109,"Espiegel’s Bay: Solwota",-15.979,167.192,1022,we_dual_excl,mitufala,mitufala,,..,,,0
+48741322109,"Espiegel’s Bay: Solwota",-15.979,167.192,1040,you,yu,yu,,nox,,,0
+48741322109,"Espiegel’s Bay: Solwota",-15.979,167.192,1050,you_dual,yutufala,yutufala,,..,,,0
+48741322109,"Espiegel’s Bay: Solwota",-15.979,167.192,1052,you_pl,yufala,yufala,,kɪm,,,0
+48741322109,"Espiegel’s Bay: Solwota",-15.979,167.192,1060,he,hem,hem,,ɣain,,,0
+48741322109,"Espiegel’s Bay: Solwota",-15.979,167.192,1070,they,olgeta,olgeta,,xar,,,0
+48741322109,"Espiegel’s Bay: Solwota",-15.979,167.192,1072,they_dual,tufala,tufala,,"xar iru",,,0
+48741322109,"Espiegel’s Bay: Solwota",-15.979,167.192,1120,no,no,no,,-səɣe,,,0
+48741322109,"Espiegel’s Bay: Solwota",-15.979,167.192,1210,what,wanem,wanem,,ⁿʒɪt,,,0
+48741322109,"Espiegel’s Bay: Solwota",-15.979,167.192,1220,who,hu,hu,,isɪne,,,0
+48741322109,"Espiegel’s Bay: Solwota",-15.979,167.192,1230,where,wea,wea,,imbɛ,,,0
+48741322109,"Espiegel’s Bay: Solwota",-15.979,167.192,1240,when,wanem,wanem,,sɪvɛlɪŋ,,,0
+48741322109,"Espiegel’s Bay: Solwota",-15.979,167.192,1250,how,hao,hao,,-plɛkɛnʒit,,,0
+48741322109,"Espiegel’s Bay: Solwota",-15.979,167.192,1310,this,hemia_ia,hemia_ia,,..,,,0
+48741322109,"Espiegel’s Bay: Solwota",-15.979,167.192,1320,that,hemia_longwei,hemia_longwei,,ɣaɣe,,,0
+48741322109,"Espiegel’s Bay: Solwota",-15.979,167.192,1380,above,antap,antap,,-lalɛn,,,0
+48741322109,"Espiegel’s Bay: Solwota",-15.979,167.192,1390,below,andanit,andanit,,mɛləvɛn,,,0
+48741322109,"Espiegel’s Bay: Solwota",-15.979,167.192,1410,in,insaed,insaed,,-lalɛn,,,0
+48741324209,"Espiegel’s Bay: Litebral",-15.974,167.193,1010,I,mi,mi,,ɣono,,,0
+48741324209,"Espiegel’s Bay: Litebral",-15.974,167.193,1023,we_incl,yumi,yumi,,nakr,,,0
+48741324209,"Espiegel’s Bay: Litebral",-15.974,167.193,1020,we_pl_excl,mifala,mifala,,kənam,,,0
+48741324209,"Espiegel’s Bay: Litebral",-15.974,167.193,1021,we_dual_incl,yumitu,yumitu,,..,,,0
+48741324209,"Espiegel’s Bay: Litebral",-15.974,167.193,1022,we_dual_excl,mitufala,mitufala,,..,,,0
+48741324209,"Espiegel’s Bay: Litebral",-15.974,167.193,1040,you,yu,yu,,nox,,,0
+48741324209,"Espiegel’s Bay: Litebral",-15.974,167.193,1050,you_dual,yutufala,yutufala,,"kim aru",,,0
+48741324209,"Espiegel’s Bay: Litebral",-15.974,167.193,1052,you_pl,yufala,yufala,,kɪm,,,0
+48741324209,"Espiegel’s Bay: Litebral",-15.974,167.193,1060,he,hem,hem,,ɣain,,,0
+48741324209,"Espiegel’s Bay: Litebral",-15.974,167.193,1070,they,olgeta,olgeta,,ɣaɣə,,,0
+48741324209,"Espiegel’s Bay: Litebral",-15.974,167.193,1072,they_dual,tufala,tufala,,..,,,0
+48741324209,"Espiegel’s Bay: Litebral",-15.974,167.193,1120,no,no,no,,-səɣe,,,0
+48741324209,"Espiegel’s Bay: Litebral",-15.974,167.193,1210,what,wanem,wanem,,ⁿʒit,,,0
+48741324209,"Espiegel’s Bay: Litebral",-15.974,167.193,1220,who,hu,hu,,ize,,,0
+48741324209,"Espiegel’s Bay: Litebral",-15.974,167.193,1230,where,wea,wea,,ɪmbɛ,,,0
+48741324209,"Espiegel’s Bay: Litebral",-15.974,167.193,1240,when,wanem,wanem,,sɪvɛlɛŋ,,,0
+48741324209,"Espiegel’s Bay: Litebral",-15.974,167.193,1250,how,hao,hao,,-blagɛnʒɪt,,,0
+48741324209,"Espiegel’s Bay: Litebral",-15.974,167.193,1310,this,hemia_ia,hemia_ia,,ɣori,,,0
+48741324209,"Espiegel’s Bay: Litebral",-15.974,167.193,1320,that,hemia_longwei,hemia_longwei,,ɣaɣe,,,0
+48741324209,"Espiegel’s Bay: Litebral",-15.974,167.193,1380,above,antap,antap,,-lɛmsah,,,0
+48741324209,"Espiegel’s Bay: Litebral",-15.974,167.193,1390,below,andanit,andanit,,-mɛləvɛn,,,0
+48741324209,"Espiegel’s Bay: Litebral",-15.974,167.193,1410,in,insaed,insaed,,-lalɛn,,,0
+48741324309,"Espiegel’s Bay: Unspecified",-15.98228,167.19103,1010,I,mi,mi,,ɣono,,,0
+48741324309,"Espiegel’s Bay: Unspecified",-15.98228,167.19103,1020,we_pl_excl,mifala,mifala,,kɪnam,,,0
+48741324309,"Espiegel’s Bay: Unspecified",-15.98228,167.19103,1022,we_dual_excl,mitufala,mitufala,,"kɪnam iru",,,0
+48741324309,"Espiegel’s Bay: Unspecified",-15.98228,167.19103,1040,you,yu,yu,,nox,,,0
+48741324309,"Espiegel’s Bay: Unspecified",-15.98228,167.19103,1050,you_dual,yutufala,yutufala,,"kim ᵐbɔ",,,0
+48741324309,"Espiegel’s Bay: Unspecified",-15.98228,167.19103,1052,you_pl,yufala,yufala,,"kim aru pʷɔ",,,0
+48741324309,"Espiegel’s Bay: Unspecified",-15.98228,167.19103,1060,he,hem,hem,,xain,,,0
+48741324309,"Espiegel’s Bay: Unspecified",-15.98228,167.19103,1070,they,olgeta,olgeta,,"xaru pɔ",,,0
+48741324309,"Espiegel’s Bay: Unspecified",-15.98228,167.19103,1210,what,wanem,wanem,,ⁿʒit,,,0
+48741324309,"Espiegel’s Bay: Unspecified",-15.98228,167.19103,1220,who,hu,hu,,isinɛ,,,0
+48741324309,"Espiegel’s Bay: Unspecified",-15.98228,167.19103,1230,where,wea,wea,,himbe,,,0
+48741324309,"Espiegel’s Bay: Unspecified",-15.98228,167.19103,1240,when,wanem,wanem,,sɛvnəran,,,0
+48741324309,"Espiegel’s Bay: Unspecified",-15.98228,167.19103,1250,how,hao,hao,,-pɪlɛkʒɪt,,,0
+48741324309,"Espiegel’s Bay: Unspecified",-15.98228,167.19103,1310,this,hemia_ia,hemia_ia,,"xain ᵑgeni",,,0
+48741324309,"Espiegel’s Bay: Unspecified",-15.98228,167.19103,1320,that,hemia_longwei,hemia_longwei,,"xain xare",,,0
+48741324309,"Espiegel’s Bay: Unspecified",-15.98228,167.19103,1380,above,antap,antap,,lɛmsaɣɛn,,,0
+48741324309,"Espiegel’s Bay: Unspecified",-15.98228,167.19103,1390,below,andanit,andanit,,-melɪvɛn,,,0
+48741324309,"Espiegel’s Bay: Unspecified",-15.98228,167.19103,1410,in,insaed,insaed,,-lalɛn,,,0
+48741326309,"Malua Bay: Coast",-15.98334,167.18798,1010,I,mi,mi,,xonu,,,0
+48741326309,"Malua Bay: Coast",-15.98334,167.18798,1023,we_incl,yumi,yumi,,nɛkr,,,0
+48741326309,"Malua Bay: Coast",-15.98334,167.18798,1020,we_pl_excl,mifala,mifala,,kɪnɛm,,,0
+48741326309,"Malua Bay: Coast",-15.98334,167.18798,1021,we_dual_incl,yumitu,yumitu,,"nɛkr iru",,,0
+48741326309,"Malua Bay: Coast",-15.98334,167.18798,1022,we_dual_excl,mitufala,mitufala,,"kɪnɛm iru",,,0
+48741326309,"Malua Bay: Coast",-15.98334,167.18798,1040,you,yu,yu,,nox,,,0
+48741326309,"Malua Bay: Coast",-15.98334,167.18798,1050,you_dual,yutufala,yutufala,,"kɛm po",,,0
+48741326309,"Malua Bay: Coast",-15.98334,167.18798,1052,you_pl,yufala,yufala,,..,,,0
+48741326309,"Malua Bay: Coast",-15.98334,167.18798,1060,he,hem,hem,,xain,,,0
+48741326309,"Malua Bay: Coast",-15.98334,167.18798,1070,they,olgeta,olgeta,,"xar pɔ",,,0
+48741326309,"Malua Bay: Coast",-15.98334,167.18798,1072,they_dual,tufala,tufala,,"xar i-ru",,,0
+48741326309,"Malua Bay: Coast",-15.98334,167.18798,1120,no,no,no,,..,,,0
+48741326309,"Malua Bay: Coast",-15.98334,167.18798,1210,what,wanem,wanem,,ⁿzaɣa,,,0
+48741326309,"Malua Bay: Coast",-15.98334,167.18798,1220,who,hu,hu,,sɪne,,,0
+48741326309,"Malua Bay: Coast",-15.98334,167.18798,1230,where,wea,wea,,hambɛ,,,0
+48741326309,"Malua Bay: Coast",-15.98334,167.18798,1240,when,wanem,wanem,,sɪvɛlɪŋ,,,0
+48741326309,"Malua Bay: Coast",-15.98334,167.18798,1250,how,hao,hao,,i-plɛkɪnzaɣa,,,0
+48741326309,"Malua Bay: Coast",-15.98334,167.18798,1310,this,hemia_ia,hemia_ia,,..,,,0
+48741326309,"Malua Bay: Coast",-15.98334,167.18798,1320,that,hemia_longwei,hemia_longwei,,..,,,0
+48741326309,"Malua Bay: Coast",-15.98334,167.18798,1380,above,antap,antap,,-lɛmsax,,,0
+48741326309,"Malua Bay: Coast",-15.98334,167.18798,1390,below,andanit,andanit,,-mɛlɪvɛn,,,0
+48741326309,"Malua Bay: Coast",-15.98334,167.18798,1410,in,insaed,insaed,,-lalɛn,,,0
+48741327409,"Malua Bay: Petarmul",-16.00022,167.22137,1010,I,mi,mi,,xonu,,,0
+48741327409,"Malua Bay: Petarmul",-16.00022,167.22137,1023,we_incl,yumi,yumi,,nekr,,,0
+48741327409,"Malua Bay: Petarmul",-16.00022,167.22137,1020,we_pl_excl,mifala,mifala,,..,,,0
+48741327409,"Malua Bay: Petarmul",-16.00022,167.22137,1021,we_dual_incl,yumitu,yumitu,,"nɛkr saru",,,0
+48741327409,"Malua Bay: Petarmul",-16.00022,167.22137,1022,we_dual_excl,mitufala,mitufala,,..,,,0
+48741327409,"Malua Bay: Petarmul",-16.00022,167.22137,1040,you,yu,yu,,nox,,,0
+48741327409,"Malua Bay: Petarmul",-16.00022,167.22137,1050,you_dual,yutufala,yutufala,,"kɪm saɾu",,,0
+48741327409,"Malua Bay: Petarmul",-16.00022,167.22137,1052,you_pl,yufala,yufala,,kɪm,,,0
+48741327409,"Malua Bay: Petarmul",-16.00022,167.22137,1060,he,hem,hem,,xain,,,0
+48741327409,"Malua Bay: Petarmul",-16.00022,167.22137,1070,they,olgeta,olgeta,,xar,,,0
+48741327409,"Malua Bay: Petarmul",-16.00022,167.22137,1072,they_dual,tufala,tufala,,"xar saru",,,0
+48741327409,"Malua Bay: Petarmul",-16.00022,167.22137,1120,no,no,no,,i-seɣi,,,0
+48741327409,"Malua Bay: Petarmul",-16.00022,167.22137,1210,what,wanem,wanem,,ⁿzaɣa,,,0
+48741327409,"Malua Bay: Petarmul",-16.00022,167.22137,1220,who,hu,hu,,sɪnɛ,,,0
+48741327409,"Malua Bay: Petarmul",-16.00022,167.22137,1230,where,wea,wea,,xambe,,,0
+48741327409,"Malua Bay: Petarmul",-16.00022,167.22137,1240,when,wanem,wanem,,sɪvɛlɪŋ,,,0
+48741327409,"Malua Bay: Petarmul",-16.00022,167.22137,1250,how,hao,hao,,i-plɛkɛnzaɣa,,,0
+48741327409,"Malua Bay: Petarmul",-16.00022,167.22137,1310,this,hemia_ia,hemia_ia,,xanɛn,,,0
+48741327409,"Malua Bay: Petarmul",-16.00022,167.22137,1320,that,hemia_longwei,hemia_longwei,,ɣɛɣe,,,0
+48741327409,"Malua Bay: Petarmul",-16.00022,167.22137,1380,above,antap,antap,,-lɛmsax,,,0
+48741327409,"Malua Bay: Petarmul",-16.00022,167.22137,1390,below,andanit,andanit,,-mɛləvɛn,,,0
+48741327409,"Malua Bay: Petarmul",-16.00022,167.22137,1410,in,insaed,insaed,,-lalɛn,,,0
+48741328309,"Malua Bay: Tiptir",-15.9905,167.21991,1010,I,mi,mi,,xonu,,,0
+48741328309,"Malua Bay: Tiptir",-15.9905,167.21991,1023,we_incl,yumi,yumi,,nakr,,,0
+48741328309,"Malua Bay: Tiptir",-15.9905,167.21991,1020,we_pl_excl,mifala,mifala,,..,,,0
+48741328309,"Malua Bay: Tiptir",-15.9905,167.21991,1021,we_dual_incl,yumitu,yumitu,,"nakr iru",,,0
+48741328309,"Malua Bay: Tiptir",-15.9905,167.21991,1022,we_dual_excl,mitufala,mitufala,,..,,,0
+48741328309,"Malua Bay: Tiptir",-15.9905,167.21991,1040,you,yu,yu,,nox,,,0
+48741328309,"Malua Bay: Tiptir",-15.9905,167.21991,1050,you_dual,yutufala,yutufala,,"kɪm pʷɔ ru",,,0
+48741328309,"Malua Bay: Tiptir",-15.9905,167.21991,1052,you_pl,yufala,yufala,,kim,,,0
+48741328309,"Malua Bay: Tiptir",-15.9905,167.21991,1060,he,hem,hem,,xain,,,0
+48741328309,"Malua Bay: Tiptir",-15.9905,167.21991,1070,they,olgeta,olgeta,,"xar pʷɔ",,,0
+48741328309,"Malua Bay: Tiptir",-15.9905,167.21991,1072,they_dual,tufala,tufala,,"xar pʷɔ ru",,,0
+48741328309,"Malua Bay: Tiptir",-15.9905,167.21991,1120,no,no,no,,i-seɣi,,,0
+48741328309,"Malua Bay: Tiptir",-15.9905,167.21991,1210,what,wanem,wanem,,ⁿʒivit,,,0
+48741328309,"Malua Bay: Tiptir",-15.9905,167.21991,1220,who,hu,hu,,..,,,0
+48741328309,"Malua Bay: Tiptir",-15.9905,167.21991,1230,where,wea,wea,,ɪmbɛ,,,0
+48741328309,"Malua Bay: Tiptir",-15.9905,167.21991,1240,when,wanem,wanem,,sɪvalɪŋ,,,0
+48741328309,"Malua Bay: Tiptir",-15.9905,167.21991,1250,how,hao,hao,,i-plɛkɛnzavit,,,0
+48741328309,"Malua Bay: Tiptir",-15.9905,167.21991,1310,this,hemia_ia,hemia_ia,,..,,,0
+48741328309,"Malua Bay: Tiptir",-15.9905,167.21991,1320,that,hemia_longwei,hemia_longwei,,..,,,0
+48741328309,"Malua Bay: Tiptir",-15.9905,167.21991,1380,above,antap,antap,,-lɛmsax,,,0
+48741328309,"Malua Bay: Tiptir",-15.9905,167.21991,1390,below,andanit,andanit,,-mɛləvɛn,,,0
+48741328309,"Malua Bay: Tiptir",-15.9905,167.21991,1410,in,insaed,insaed,,-lalɛn,,,0
+48741328409,"Malua Bay: Marasup",-15.99098,167.2198,1010,I,mi,mi,,nu,,,0
+48741328409,"Malua Bay: Marasup",-15.99098,167.2198,1023,we_incl,yumi,yumi,,nekir,,,0
+48741328409,"Malua Bay: Marasup",-15.99098,167.2198,1020,we_pl_excl,mifala,mifala,,kenam,,,0
+48741328409,"Malua Bay: Marasup",-15.99098,167.2198,1021,we_dual_incl,yumitu,yumitu,,"nekiɾ iru",,,0
+48741328409,"Malua Bay: Marasup",-15.99098,167.2198,1022,we_dual_excl,mitufala,mitufala,,..,,,0
+48741328409,"Malua Bay: Marasup",-15.99098,167.2198,1040,you,yu,yu,,nox,,,0
+48741328409,"Malua Bay: Marasup",-15.99098,167.2198,1050,you_dual,yutufala,yutufala,,"kemi iru",,,0
+48741328409,"Malua Bay: Marasup",-15.99098,167.2198,1052,you_pl,yufala,yufala,,kemi,,,0
+48741328409,"Malua Bay: Marasup",-15.99098,167.2198,1060,he,hem,hem,,xain,,,0
+48741328409,"Malua Bay: Marasup",-15.99098,167.2198,1070,they,olgeta,olgeta,,xaiɾ,,,0
+48741328409,"Malua Bay: Marasup",-15.99098,167.2198,1072,they_dual,tufala,tufala,,"xaiɾ iru",,,0
+48741328409,"Malua Bay: Marasup",-15.99098,167.2198,1120,no,no,no,,i-sege,,,0
+48741328409,"Malua Bay: Marasup",-15.99098,167.2198,1210,what,wanem,wanem,,ⁿzaɣa,,,0
+48741328409,"Malua Bay: Marasup",-15.99098,167.2198,1220,who,hu,hu,,sena,,,0
+48741328409,"Malua Bay: Marasup",-15.99098,167.2198,1230,where,wea,wea,,xambe,,,0
+48741328409,"Malua Bay: Marasup",-15.99098,167.2198,1240,when,wanem,wanem,,sɪvɛlɪŋ,,,0
+48741328409,"Malua Bay: Marasup",-15.99098,167.2198,1250,how,hao,hao,,plakɛnzaɣa,,,0
+48741328409,"Malua Bay: Marasup",-15.99098,167.2198,1310,this,hemia_ia,hemia_ia,,-mɛləvɛna,,,0
+48741328409,"Malua Bay: Marasup",-15.99098,167.2198,1320,that,hemia_longwei,hemia_longwei,,ɛnɛn,,,0
+48741328409,"Malua Bay: Marasup",-15.99098,167.2198,1380,above,antap,antap,,-limsax,,,0
+48741328409,"Malua Bay: Marasup",-15.99098,167.2198,1390,below,andanit,andanit,,-mɛləvɛn,,,0
+48741328409,"Malua Bay: Marasup",-15.99098,167.2198,1410,in,insaed,insaed,,-laim,,,0
+48741345109,"Najit: Tanmial",-15.94786,167.18226,1010,I,mi,mi,,ɣonu,,,0
+48741345109,"Najit: Tanmial",-15.94786,167.18226,1023,we_incl,yumi,yumi,,nakɛr,,,0
+48741345109,"Najit: Tanmial",-15.94786,167.18226,1020,we_pl_excl,mifala,mifala,,..,,,0
+48741345109,"Najit: Tanmial",-15.94786,167.18226,1021,we_dual_incl,yumitu,yumitu,,..,,,0
+48741345109,"Najit: Tanmial",-15.94786,167.18226,1022,we_dual_excl,mitufala,mitufala,,..,,,0
+48741345109,"Najit: Tanmial",-15.94786,167.18226,1040,you,yu,yu,,nox,,,0
+48741345109,"Najit: Tanmial",-15.94786,167.18226,1050,you_dual,yutufala,yutufala,,"kɛm iru",,,0
+48741345109,"Najit: Tanmial",-15.94786,167.18226,1052,you_pl,yufala,yufala,,kɛm,,,0
+48741345109,"Najit: Tanmial",-15.94786,167.18226,1060,he,hem,hem,,xain,,,0
+48741345109,"Najit: Tanmial",-15.94786,167.18226,1070,they,olgeta,olgeta,,xar,,,0
+48741345109,"Najit: Tanmial",-15.94786,167.18226,1072,they_dual,tufala,tufala,,"xar eru",,,0
+48741345109,"Najit: Tanmial",-15.94786,167.18226,1120,no,no,no,,i-seɣe,,,0
+48741345109,"Najit: Tanmial",-15.94786,167.18226,1210,what,wanem,wanem,,nat͡sʰɪt,,,0
+48741345109,"Najit: Tanmial",-15.94786,167.18226,1220,who,hu,hu,,ise,,,0
+48741345109,"Najit: Tanmial",-15.94786,167.18226,1230,where,wea,wea,,xɛmbɛ,,,0
+48741345109,"Najit: Tanmial",-15.94786,167.18226,1240,when,wanem,wanem,,sɪvɛlɪŋ,,,0
+48741345109,"Najit: Tanmial",-15.94786,167.18226,1250,how,hao,hao,,-plaknʧit,,,0
+48741345109,"Najit: Tanmial",-15.94786,167.18226,1310,this,hemia_ia,hemia_ia,,hɔŋən,,,0
+48741345109,"Najit: Tanmial",-15.94786,167.18226,1320,that,hemia_longwei,hemia_longwei,,ɣaɣe,,,0
+48741345109,"Najit: Tanmial",-15.94786,167.18226,1380,above,antap,antap,,-lɛmsax,,,0
+48741345109,"Najit: Tanmial",-15.94786,167.18226,1390,below,andanit,andanit,,-mɛlvɛn,,,0
+48741345109,"Najit: Tanmial",-15.94786,167.18226,1410,in,insaed,insaed,,-lalɛn,,,0
+48741365109,"Nese: Tanmial",-15.9305,167.17653,1010,I,mi,mi,,xena,,,0
+48741365109,"Nese: Tanmial",-15.9305,167.17653,1023,we_incl,yumi,yumi,,nɛkre,,,0
+48741365109,"Nese: Tanmial",-15.9305,167.17653,1020,we_pl_excl,mifala,mifala,,kanan,,,0
+48741365109,"Nese: Tanmial",-15.9305,167.17653,1021,we_dual_incl,yumitu,yumitu,,"nakr ɪru",,,0
+48741365109,"Nese: Tanmial",-15.9305,167.17653,1022,we_dual_excl,mitufala,mitufala,,kananru,,,0
+48741365109,"Nese: Tanmial",-15.9305,167.17653,1040,you,yu,yu,,ɣunox,,,0
+48741365109,"Nese: Tanmial",-15.9305,167.17653,1050,you_dual,yutufala,yutufala,,"kani ru",,,0
+48741365109,"Nese: Tanmial",-15.9305,167.17653,1052,you_pl,yufala,yufala,,kani,,,0
+48741365109,"Nese: Tanmial",-15.9305,167.17653,1060,he,hem,hem,,ɣai,,,0
+48741365109,"Nese: Tanmial",-15.9305,167.17653,1070,they,olgeta,olgeta,,xar,,,0
+48741365109,"Nese: Tanmial",-15.9305,167.17653,1072,they_dual,tufala,tufala,,"xar iru",,,0
+48741365109,"Nese: Tanmial",-15.9305,167.17653,1120,no,no,no,,siɣa,,,0
+48741365109,"Nese: Tanmial",-15.9305,167.17653,1210,what,wanem,wanem,,nɛse,,,0
+48741365109,"Nese: Tanmial",-15.9305,167.17653,1220,who,hu,hu,,ise,,,0
+48741365109,"Nese: Tanmial",-15.9305,167.17653,1230,where,wea,wea,,ande,,,0
+48741365109,"Nese: Tanmial",-15.9305,167.17653,1240,when,wanem,wanem,,sɛvɛl,,,0
+48741365109,"Nese: Tanmial",-15.9305,167.17653,1250,how,hao,hao,,-vɛrse,,,0
+48741365109,"Nese: Tanmial",-15.9305,167.17653,1310,this,hemia_ia,hemia_ia,,ɛɣeɣe,,,0
+48741365109,"Nese: Tanmial",-15.9305,167.17653,1320,that,hemia_longwei,hemia_longwei,,ɣaɣe,,,0
+48741365109,"Nese: Tanmial",-15.9305,167.17653,1380,above,antap,antap,,-maro,,,0
+48741365109,"Nese: Tanmial",-15.9305,167.17653,1390,below,andanit,andanit,,ieɣe,,,0
+48741365109,"Nese: Tanmial",-15.9305,167.17653,1410,in,insaed,insaed,,-lalon,,,0
+48741367209,"Nese: Sanboise",-15.91461,167.17833,1010,I,mi,mi,,hina,,,0
+48741367209,"Nese: Sanboise",-15.91461,167.17833,1023,we_incl,yumi,yumi,,..,,,0
+48741367209,"Nese: Sanboise",-15.91461,167.17833,1020,we_pl_excl,mifala,mifala,,kanan,,,0
+48741367209,"Nese: Sanboise",-15.91461,167.17833,1021,we_dual_incl,yumitu,yumitu,,..,,,0
+48741367209,"Nese: Sanboise",-15.91461,167.17833,1022,we_dual_excl,mitufala,mitufala,,..,,,0
+48741367209,"Nese: Sanboise",-15.91461,167.17833,1040,you,yu,yu,,unox,,,0
+48741367209,"Nese: Sanboise",-15.91461,167.17833,1050,you_dual,yutufala,yutufala,,..,,,0
+48741367209,"Nese: Sanboise",-15.91461,167.17833,1052,you_pl,yufala,yufala,,kani,,,0
+48741367209,"Nese: Sanboise",-15.91461,167.17833,1060,he,hem,hem,,xai,,,0
+48741367209,"Nese: Sanboise",-15.91461,167.17833,1070,they,olgeta,olgeta,,xar,,,0
+48741367209,"Nese: Sanboise",-15.91461,167.17833,1072,they_dual,tufala,tufala,,..,,,0
+48741367209,"Nese: Sanboise",-15.91461,167.17833,1120,no,no,no,,..,,,0
+48741367209,"Nese: Sanboise",-15.91461,167.17833,1210,what,wanem,wanem,,nɛse,,,0
+48741367209,"Nese: Sanboise",-15.91461,167.17833,1220,who,hu,hu,,unox,,,0
+48741367209,"Nese: Sanboise",-15.91461,167.17833,1230,where,wea,wea,,ande,,,0
+48741367209,"Nese: Sanboise",-15.91461,167.17833,1240,when,wanem,wanem,,..,,,0
+48741367209,"Nese: Sanboise",-15.91461,167.17833,1250,how,hao,hao,,..,,,0
+48741367209,"Nese: Sanboise",-15.91461,167.17833,1310,this,hemia_ia,hemia_ia,,ieɣe,,,0
+48741367209,"Nese: Sanboise",-15.91461,167.17833,1320,that,hemia_longwei,hemia_longwei,,..,,,0
+48741367209,"Nese: Sanboise",-15.91461,167.17833,1380,above,antap,antap,,-maːɾo,,,0
+48741367209,"Nese: Sanboise",-15.91461,167.17833,1390,below,andanit,andanit,,-tanlatan,,,0
+48741367209,"Nese: Sanboise",-15.91461,167.17833,1410,in,insaed,insaed,,-lalon,,,0
+48741556509,"Vao: Beetehul",-15.89728,167.30443,1010,I,mi,mi,,ɣina,,,0
+48741556509,"Vao: Beetehul",-15.89728,167.30443,1023,we_incl,yumi,yumi,,..,,,0
+48741556509,"Vao: Beetehul",-15.89728,167.30443,1020,we_pl_excl,mifala,mifala,,..,,,0
+48741556509,"Vao: Beetehul",-15.89728,167.30443,1021,we_dual_incl,yumitu,yumitu,,..,,,0
+48741556509,"Vao: Beetehul",-15.89728,167.30443,1022,we_dual_excl,mitufala,mitufala,,..,,,0
+48741556509,"Vao: Beetehul",-15.89728,167.30443,1040,you,yu,yu,,ɣiniɣo,,,0
+48741556509,"Vao: Beetehul",-15.89728,167.30443,1050,you_dual,yutufala,yutufala,,..,,,0
+48741556509,"Vao: Beetehul",-15.89728,167.30443,1052,you_pl,yufala,yufala,,kami,,,0
+48741556509,"Vao: Beetehul",-15.89728,167.30443,1060,he,hem,hem,,..,,,0
+48741556509,"Vao: Beetehul",-15.89728,167.30443,1070,they,olgeta,olgeta,,inirɛ,,,0
+48741556509,"Vao: Beetehul",-15.89728,167.30443,1072,they_dual,tufala,tufala,,..,,,0
+48741556509,"Vao: Beetehul",-15.89728,167.30443,1120,no,no,no,,..,,,0
+48741556509,"Vao: Beetehul",-15.89728,167.30443,1210,what,wanem,wanem,,naha,,,0
+48741556509,"Vao: Beetehul",-15.89728,167.30443,1220,who,hu,hu,,ihɛ,,,0
+48741556509,"Vao: Beetehul",-15.89728,167.30443,1230,where,wea,wea,,n̼ambɛ,,,0
+48741556509,"Vao: Beetehul",-15.89728,167.30443,1240,when,wanem,wanem,,..,,,0
+48741556509,"Vao: Beetehul",-15.89728,167.30443,1250,how,hao,hao,,a-ð̼̼arako,,,0
+48741556509,"Vao: Beetehul",-15.89728,167.30443,1310,this,hemia_ia,hemia_ia,,..,,,0
+48741556509,"Vao: Beetehul",-15.89728,167.30443,1320,that,hemia_longwei,hemia_longwei,,..,,,0
+48741556509,"Vao: Beetehul",-15.89728,167.30443,1380,above,antap,antap,,-aul,,,0
+48741556509,"Vao: Beetehul",-15.89728,167.30443,1390,below,andanit,andanit,,-woturan,,,0
+48741556509,"Vao: Beetehul",-15.89728,167.30443,1410,in,insaed,insaed,,-lolon,,,0
+48741557509,"Vao: Canada",-15.89978,167.30731,1010,I,mi,mi,,ina,,,0
+48741557509,"Vao: Canada",-15.89978,167.30731,1023,we_incl,yumi,yumi,,iɣe,,,0
+48741557509,"Vao: Canada",-15.89978,167.30731,1020,we_pl_excl,mifala,mifala,,inɪɣe,,,0
+48741557509,"Vao: Canada",-15.89978,167.30731,1021,we_dual_incl,yumitu,yumitu,,"iɣe riru",,,0
+48741557509,"Vao: Canada",-15.89978,167.30731,1022,we_dual_excl,mitufala,mitufala,,"kanam rɪru",,,0
+48741557509,"Vao: Canada",-15.89978,167.30731,1040,you,yu,yu,,inɪɣɔ,,,0
+48741557509,"Vao: Canada",-15.89978,167.30731,1050,you_dual,yutufala,yutufala,,kami,,,0
+48741557509,"Vao: Canada",-15.89978,167.30731,1052,you_pl,yufala,yufala,,"kami iru",,,0
+48741557509,"Vao: Canada",-15.89978,167.30731,1060,he,hem,hem,,χini,,,0
+48741557509,"Vao: Canada",-15.89978,167.30731,1070,they,olgeta,olgeta,,inirɛ,,,0
+48741557509,"Vao: Canada",-15.89978,167.30731,1072,they_dual,tufala,tufala,,..,,,0
+48741557509,"Vao: Canada",-15.89978,167.30731,1120,no,no,no,,mutige,,,0
+48741557509,"Vao: Canada",-15.89978,167.30731,1210,what,wanem,wanem,,naxa,,,0
+48741557509,"Vao: Canada",-15.89978,167.30731,1220,who,hu,hu,,iʃɪ,,,0
+48741557509,"Vao: Canada",-15.89978,167.30731,1230,where,wea,wea,,ambe,,,0
+48741557509,"Vao: Canada",-15.89978,167.30731,1240,when,wanem,wanem,,haravan,,,0
+48741557509,"Vao: Canada",-15.89978,167.30731,1250,how,hao,hao,,ið̼að̼iha,,,0
+48741557509,"Vao: Canada",-15.89978,167.30731,1310,this,hemia_ia,hemia_ia,,hine,,,0
+48741557509,"Vao: Canada",-15.89978,167.30731,1320,that,hemia_longwei,hemia_longwei,,ilak,,,0
+48741557509,"Vao: Canada",-15.89978,167.30731,1380,above,antap,antap,,-a͡ul,,,0
+48741557509,"Vao: Canada",-15.89978,167.30731,1390,below,andanit,andanit,,-n̼ɛloloð̼inɛ,,,0
+48741557509,"Vao: Canada",-15.89978,167.30731,1410,in,insaed,insaed,,-lolon,,,0
+48741557609,"Vao: Peteri",-15.89887,167.3051,1010,I,mi,mi,,hina,,,0
+48741557609,"Vao: Peteri",-15.89887,167.3051,1023,we_incl,yumi,yumi,,ire,,,0
+48741557609,"Vao: Peteri",-15.89887,167.3051,1020,we_pl_excl,mifala,mifala,,kan̼am,,,0
+48741557609,"Vao: Peteri",-15.89887,167.3051,1021,we_dual_incl,yumitu,yumitu,,..,,,0
+48741557609,"Vao: Peteri",-15.89887,167.3051,1022,we_dual_excl,mitufala,mitufala,,..,,,0
+48741557609,"Vao: Peteri",-15.89887,167.3051,1040,you,yu,yu,,hinɪɣɔ,,,0
+48741557609,"Vao: Peteri",-15.89887,167.3051,1050,you_dual,yutufala,yutufala,,"kami ɣɛru",,,0
+48741557609,"Vao: Peteri",-15.89887,167.3051,1052,you_pl,yufala,yufala,,kami,,,0
+48741557609,"Vao: Peteri",-15.89887,167.3051,1060,he,hem,hem,,ɣini,,,0
+48741557609,"Vao: Peteri",-15.89887,167.3051,1070,they,olgeta,olgeta,,inire,,,0
+48741557609,"Vao: Peteri",-15.89887,167.3051,1072,they_dual,tufala,tufala,,..,,,0
+48741557609,"Vao: Peteri",-15.89887,167.3051,1120,no,no,no,,..,,,0
+48741557609,"Vao: Peteri",-15.89887,167.3051,1210,what,wanem,wanem,,naha,,,0
+48741557609,"Vao: Peteri",-15.89887,167.3051,1220,who,hu,hu,,ihi,,,0
+48741557609,"Vao: Peteri",-15.89887,167.3051,1230,where,wea,wea,,nɛnde,,,0
+48741557609,"Vao: Peteri",-15.89887,167.3051,1240,when,wanem,wanem,,..,,,0
+48741557609,"Vao: Peteri",-15.89887,167.3051,1250,how,hao,hao,,i-ð̼̼aviha,,,0
+48741557609,"Vao: Peteri",-15.89887,167.3051,1310,this,hemia_ia,hemia_ia,,..,,,0
+48741557609,"Vao: Peteri",-15.89887,167.3051,1320,that,hemia_longwei,hemia_longwei,,..,,,0
+48741557609,"Vao: Peteri",-15.89887,167.3051,1380,above,antap,antap,,-a͡ul,,,0
+48741557609,"Vao: Peteri",-15.89887,167.3051,1390,below,andanit,andanit,,..,,,0
+48741557609,"Vao: Peteri",-15.89887,167.3051,1410,in,insaed,insaed,,-lolon,,,0
+48741557709,"Vao: Torono",-15.89986,167.30819,1010,I,mi,mi,,hina,,,0
+48741557709,"Vao: Torono",-15.89986,167.30819,1023,we_incl,yumi,yumi,,..,,,0
+48741557709,"Vao: Torono",-15.89986,167.30819,1020,we_pl_excl,mifala,mifala,,..,,,0
+48741557709,"Vao: Torono",-15.89986,167.30819,1021,we_dual_incl,yumitu,yumitu,,..,,,0
+48741557709,"Vao: Torono",-15.89986,167.30819,1022,we_dual_excl,mitufala,mitufala,,..,,,0
+48741557709,"Vao: Torono",-15.89986,167.30819,1040,you,yu,yu,,hiniɣo,,,0
+48741557709,"Vao: Torono",-15.89986,167.30819,1050,you_dual,yutufala,yutufala,,"kami ɣɛru",,,0
+48741557709,"Vao: Torono",-15.89986,167.30819,1052,you_pl,yufala,yufala,,kami,,,0
+48741557709,"Vao: Torono",-15.89986,167.30819,1060,he,hem,hem,,ɣini,,,0
+48741557709,"Vao: Torono",-15.89986,167.30819,1070,they,olgeta,olgeta,,inirɛ,,,0
+48741557709,"Vao: Torono",-15.89986,167.30819,1072,they_dual,tufala,tufala,,..,,,0
+48741557709,"Vao: Torono",-15.89986,167.30819,1120,no,no,no,,..,,,0
+48741557709,"Vao: Torono",-15.89986,167.30819,1210,what,wanem,wanem,,naha,,,0
+48741557709,"Vao: Torono",-15.89986,167.30819,1220,who,hu,hu,,ihi,,,0
+48741557709,"Vao: Torono",-15.89986,167.30819,1230,where,wea,wea,,..,,,0
+48741557709,"Vao: Torono",-15.89986,167.30819,1240,when,wanem,wanem,,harβan,,,0
+48741557709,"Vao: Torono",-15.89986,167.30819,1250,how,hao,hao,,mʷo-ð̼̼aviha,,,0
+48741557709,"Vao: Torono",-15.89986,167.30819,1310,this,hemia_ia,hemia_ia,,hini,,,0
+48741557709,"Vao: Torono",-15.89986,167.30819,1320,that,hemia_longwei,hemia_longwei,,..,,,0
+48741557709,"Vao: Torono",-15.89986,167.30819,1380,above,antap,antap,,-a͡ul,,,0
+48741557709,"Vao: Torono",-15.89986,167.30819,1390,below,andanit,andanit,,-lan̼ɛloloð̼̼inɛ,,,0
+48741557709,"Vao: Torono",-15.89986,167.30819,1410,in,insaed,insaed,,-lolon,,,0
+48741733509,"Tirax: Botmelesnial",-16.0583,167.369,1010,I,mi,mi,,xono,,,0
+48741733509,"Tirax: Botmelesnial",-16.0583,167.369,1023,we_incl,yumi,yumi,,..,,,0
+48741733509,"Tirax: Botmelesnial",-16.0583,167.369,1020,we_pl_excl,mifala,mifala,,knɛn,,,0
+48741733509,"Tirax: Botmelesnial",-16.0583,167.369,1021,we_dual_incl,yumitu,yumitu,,..,,,0
+48741733509,"Tirax: Botmelesnial",-16.0583,167.369,1022,we_dual_excl,mitufala,mitufala,,"knɛn aru",,,0
+48741733509,"Tirax: Botmelesnial",-16.0583,167.369,1040,you,yu,yu,,nox,,,0
+48741733509,"Tirax: Botmelesnial",-16.0583,167.369,1050,you_dual,yutufala,yutufala,,..,,,0
+48741733509,"Tirax: Botmelesnial",-16.0583,167.369,1052,you_pl,yufala,yufala,,kɛni,,,0
+48741733509,"Tirax: Botmelesnial",-16.0583,167.369,1060,he,hem,hem,,xain,,,0
+48741733509,"Tirax: Botmelesnial",-16.0583,167.369,1070,they,olgeta,olgeta,,xair,,,0
+48741733509,"Tirax: Botmelesnial",-16.0583,167.369,1072,they_dual,tufala,tufala,,"xair iru",,,0
+48741733509,"Tirax: Botmelesnial",-16.0583,167.369,1120,no,no,no,,i-hiŋe,,,0
+48741733509,"Tirax: Botmelesnial",-16.0583,167.369,1210,what,wanem,wanem,,haxa,,,0
+48741733509,"Tirax: Botmelesnial",-16.0583,167.369,1220,who,hu,hu,,hena,,,0
+48741733509,"Tirax: Botmelesnial",-16.0583,167.369,1230,where,wea,wea,,hande,,,0
+48741733509,"Tirax: Botmelesnial",-16.0583,167.369,1240,when,wanem,wanem,,..,,,0
+48741733509,"Tirax: Botmelesnial",-16.0583,167.369,1250,how,hao,hao,,hɪ-ⁿdlahaɣa,,,0
+48741733509,"Tirax: Botmelesnial",-16.0583,167.369,1310,this,hemia_ia,hemia_ia,,..,,,0
+48741733509,"Tirax: Botmelesnial",-16.0583,167.369,1320,that,hemia_longwei,hemia_longwei,,xuwe,,,0
+48741733509,"Tirax: Botmelesnial",-16.0583,167.369,1380,above,antap,antap,,-linha,,,0
+48741733509,"Tirax: Botmelesnial",-16.0583,167.369,1390,below,andanit,andanit,,-nɛlvɛnan,,,0
+48741733509,"Tirax: Botmelesnial",-16.0583,167.369,1410,in,insaed,insaed,,-lalɛn,,,0
+48741733609,"Tirax: Mae",-16.05839,167.36953,1010,I,mi,mi,,xono,,,0
+48741733609,"Tirax: Mae",-16.05839,167.36953,1023,we_incl,yumi,yumi,,nekir,,,0
+48741733609,"Tirax: Mae",-16.05839,167.36953,1020,we_pl_excl,mifala,mifala,,knɛn,,,0
+48741733609,"Tirax: Mae",-16.05839,167.36953,1021,we_dual_incl,yumitu,yumitu,,"nekir aru",,,0
+48741733609,"Tirax: Mae",-16.05839,167.36953,1022,we_dual_excl,mitufala,mitufala,,"knɛn aru",,,0
+48741733609,"Tirax: Mae",-16.05839,167.36953,1040,you,yu,yu,,nox,,,0
+48741733609,"Tirax: Mae",-16.05839,167.36953,1050,you_dual,yutufala,yutufala,,"kɛni raru",,,0
+48741733609,"Tirax: Mae",-16.05839,167.36953,1052,you_pl,yufala,yufala,,kɛni,,,0
+48741733609,"Tirax: Mae",-16.05839,167.36953,1060,he,hem,hem,,xain,,,0
+48741733609,"Tirax: Mae",-16.05839,167.36953,1070,they,olgeta,olgeta,,xair,,,0
+48741733609,"Tirax: Mae",-16.05839,167.36953,1072,they_dual,tufala,tufala,,..,,,0
+48741733609,"Tirax: Mae",-16.05839,167.36953,1120,no,no,no,,..,,,0
+48741733609,"Tirax: Mae",-16.05839,167.36953,1210,what,wanem,wanem,,haɣa,,,0
+48741733609,"Tirax: Mae",-16.05839,167.36953,1220,who,hu,hu,,hena,,,0
+48741733609,"Tirax: Mae",-16.05839,167.36953,1230,where,wea,wea,,ande,,,0
+48741733609,"Tirax: Mae",-16.05839,167.36953,1240,when,wanem,wanem,,hɛvɛliŋ,,,0
+48741733609,"Tirax: Mae",-16.05839,167.36953,1250,how,hao,hao,,-ⁿdlahaɣa,,,0
+48741733609,"Tirax: Mae",-16.05839,167.36953,1310,this,hemia_ia,hemia_ia,,..,,,0
+48741733609,"Tirax: Mae",-16.05839,167.36953,1320,that,hemia_longwei,hemia_longwei,,xuwe,,,0
+48741733609,"Tirax: Mae",-16.05839,167.36953,1380,above,antap,antap,,-lihina,,,0
+48741733609,"Tirax: Mae",-16.05839,167.36953,1390,below,andanit,andanit,,-nɛlvɛn,,,0
+48741733609,"Tirax: Mae",-16.05839,167.36953,1410,in,insaed,insaed,,-lalɛn,,,0
+48741735809,"Tirax: Bethel",-16.03923,167.40186,1010,I,mi,mi,,xono,,,0
+48741735809,"Tirax: Bethel",-16.03923,167.40186,1023,we_incl,yumi,yumi,,..,,,0
+48741735809,"Tirax: Bethel",-16.03923,167.40186,1020,we_pl_excl,mifala,mifala,,..,,,0
+48741735809,"Tirax: Bethel",-16.03923,167.40186,1021,we_dual_incl,yumitu,yumitu,,..,,,0
+48741735809,"Tirax: Bethel",-16.03923,167.40186,1022,we_dual_excl,mitufala,mitufala,,..,,,0
+48741735809,"Tirax: Bethel",-16.03923,167.40186,1040,you,yu,yu,,nox,,,0
+48741735809,"Tirax: Bethel",-16.03923,167.40186,1050,you_dual,yutufala,yutufala,,..,,,0
+48741735809,"Tirax: Bethel",-16.03923,167.40186,1052,you_pl,yufala,yufala,,..,,,0
+48741735809,"Tirax: Bethel",-16.03923,167.40186,1060,he,hem,hem,,xain,,,0
+48741735809,"Tirax: Bethel",-16.03923,167.40186,1070,they,olgeta,olgeta,,xairᵐbʷɔ,,,0
+48741735809,"Tirax: Bethel",-16.03923,167.40186,1072,they_dual,tufala,tufala,,"xairᵐbwɔ ruru",,,0
+48741735809,"Tirax: Bethel",-16.03923,167.40186,1120,no,no,no,,..,,,0
+48741735809,"Tirax: Bethel",-16.03923,167.40186,1210,what,wanem,wanem,,haɣa,,,0
+48741735809,"Tirax: Bethel",-16.03923,167.40186,1220,who,hu,hu,,hena,,,0
+48741735809,"Tirax: Bethel",-16.03923,167.40186,1230,where,wea,wea,,hande,,,0
+48741735809,"Tirax: Bethel",-16.03923,167.40186,1240,when,wanem,wanem,,..,,,0
+48741735809,"Tirax: Bethel",-16.03923,167.40186,1250,how,hao,hao,,i-ⁿdəlahaɣa,,,0
+48741735809,"Tirax: Bethel",-16.03923,167.40186,1310,this,hemia_ia,hemia_ia,,..,,,0
+48741735809,"Tirax: Bethel",-16.03923,167.40186,1320,that,hemia_longwei,hemia_longwei,,..,,,0
+48741735809,"Tirax: Bethel",-16.03923,167.40186,1380,above,antap,antap,,-linha,,,0
+48741735809,"Tirax: Bethel",-16.03923,167.40186,1390,below,andanit,andanit,,..,,,0
+48741735809,"Tirax: Bethel",-16.03923,167.40186,1410,in,insaed,insaed,,..,,,0
+48741736409,"Tirax: Olamb",-15.98701,167.26154,1010,I,mi,mi,,xono,,,0
+48741736409,"Tirax: Olamb",-15.98701,167.26154,1023,we_incl,yumi,yumi,,nekir,,,0
+48741736409,"Tirax: Olamb",-15.98701,167.26154,1020,we_pl_excl,mifala,mifala,,..,,,0
+48741736409,"Tirax: Olamb",-15.98701,167.26154,1021,we_dual_incl,yumitu,yumitu,,"nekir  ⁿderu",,,0
+48741736409,"Tirax: Olamb",-15.98701,167.26154,1022,we_dual_excl,mitufala,mitufala,,..,,,0
+48741736409,"Tirax: Olamb",-15.98701,167.26154,1040,you,yu,yu,,nox,,,0
+48741736409,"Tirax: Olamb",-15.98701,167.26154,1050,you_dual,yutufala,yutufala,,..,,,0
+48741736409,"Tirax: Olamb",-15.98701,167.26154,1052,you_pl,yufala,yufala,,kɛni,,,0
+48741736409,"Tirax: Olamb",-15.98701,167.26154,1060,he,hem,hem,,xain,,,0
+48741736409,"Tirax: Olamb",-15.98701,167.26154,1070,they,olgeta,olgeta,,xair,,,0
+48741736409,"Tirax: Olamb",-15.98701,167.26154,1072,they_dual,tufala,tufala,,..,,,0
+48741736409,"Tirax: Olamb",-15.98701,167.26154,1120,no,no,no,,i-hiŋe,,,0
+48741736409,"Tirax: Olamb",-15.98701,167.26154,1210,what,wanem,wanem,,..,,,0
+48741736409,"Tirax: Olamb",-15.98701,167.26154,1220,who,hu,hu,,hena,,,0
+48741736409,"Tirax: Olamb",-15.98701,167.26154,1230,where,wea,wea,,xande,,,0
+48741736409,"Tirax: Olamb",-15.98701,167.26154,1240,when,wanem,wanem,,..,,,0
+48741736409,"Tirax: Olamb",-15.98701,167.26154,1250,how,hao,hao,,..,,,0
+48741736409,"Tirax: Olamb",-15.98701,167.26154,1310,this,hemia_ia,hemia_ia,,xori,,,0
+48741736409,"Tirax: Olamb",-15.98701,167.26154,1320,that,hemia_longwei,hemia_longwei,,xuwe,,,0
+48741736409,"Tirax: Olamb",-15.98701,167.26154,1380,above,antap,antap,,-linha,,,0
+48741736409,"Tirax: Olamb",-15.98701,167.26154,1390,below,andanit,andanit,,-nɛlvɛnan,,,0
+48741736409,"Tirax: Olamb",-15.98701,167.26154,1410,in,insaed,insaed,,-lalɛn,,,0
+48741736509,"Tirax: Bakru",-16.00354,167.29696,1010,I,mi,mi,,xono,,,0
+48741736509,"Tirax: Bakru",-16.00354,167.29696,1023,we_incl,yumi,yumi,,nekir,,,0
+48741736509,"Tirax: Bakru",-16.00354,167.29696,1020,we_pl_excl,mifala,mifala,,knɛn,,,0
+48741736509,"Tirax: Bakru",-16.00354,167.29696,1021,we_dual_incl,yumitu,yumitu,,"nekir ⁿderu",,,0
+48741736509,"Tirax: Bakru",-16.00354,167.29696,1022,we_dual_excl,mitufala,mitufala,,"knɛn iru",,,0
+48741736509,"Tirax: Bakru",-16.00354,167.29696,1040,you,yu,yu,,nox,,,0
+48741736509,"Tirax: Bakru",-16.00354,167.29696,1050,you_dual,yutufala,yutufala,,..,,,0
+48741736509,"Tirax: Bakru",-16.00354,167.29696,1052,you_pl,yufala,yufala,,kɛni,,,0
+48741736509,"Tirax: Bakru",-16.00354,167.29696,1060,he,hem,hem,,xain,,,0
+48741736509,"Tirax: Bakru",-16.00354,167.29696,1070,they,olgeta,olgeta,,xair,,,0
+48741736509,"Tirax: Bakru",-16.00354,167.29696,1072,they_dual,tufala,tufala,,..,,,0
+48741736509,"Tirax: Bakru",-16.00354,167.29696,1120,no,no,no,,..,,,0
+48741736509,"Tirax: Bakru",-16.00354,167.29696,1210,what,wanem,wanem,,haɣa,,,0
+48741736509,"Tirax: Bakru",-16.00354,167.29696,1220,who,hu,hu,,hena,,,0
+48741736509,"Tirax: Bakru",-16.00354,167.29696,1230,where,wea,wea,,xande,,,0
+48741736509,"Tirax: Bakru",-16.00354,167.29696,1240,when,wanem,wanem,,hɛvɛliŋ,,,0
+48741736509,"Tirax: Bakru",-16.00354,167.29696,1250,how,hao,hao,,-hɪⁿdlaxa,,,0
+48741736509,"Tirax: Bakru",-16.00354,167.29696,1310,this,hemia_ia,hemia_ia,,xori,,,0
+48741736509,"Tirax: Bakru",-16.00354,167.29696,1320,that,hemia_longwei,hemia_longwei,,huwe,,,0
+48741736509,"Tirax: Bakru",-16.00354,167.29696,1380,above,antap,antap,,-linha,,,0
+48741736509,"Tirax: Bakru",-16.00354,167.29696,1390,below,andanit,andanit,,-nɛlvɛn,,,0
+48741736509,"Tirax: Bakru",-16.00354,167.29696,1410,in,insaed,insaed,,-lalɛn,,,0
+48741737809,"Tirax: Orap",-15.97,167.34464,1010,I,mi,mi,,xono,,,0
+48741737809,"Tirax: Orap",-15.97,167.34464,1023,we_incl,yumi,yumi,,nekir,,,0
+48741737809,"Tirax: Orap",-15.97,167.34464,1020,we_pl_excl,mifala,mifala,,..,,,0
+48741737809,"Tirax: Orap",-15.97,167.34464,1021,we_dual_incl,yumitu,yumitu,,..,,,0
+48741737809,"Tirax: Orap",-15.97,167.34464,1022,we_dual_excl,mitufala,mitufala,,..,,,0
+48741737809,"Tirax: Orap",-15.97,167.34464,1040,you,yu,yu,,nox,,,0
+48741737809,"Tirax: Orap",-15.97,167.34464,1050,you_dual,yutufala,yutufala,,"kɛni raru",,,0
+48741737809,"Tirax: Orap",-15.97,167.34464,1052,you_pl,yufala,yufala,,kɛni,,,0
+48741737809,"Tirax: Orap",-15.97,167.34464,1060,he,hem,hem,,xaɪn,,,0
+48741737809,"Tirax: Orap",-15.97,167.34464,1070,they,olgeta,olgeta,,xair,,,0
+48741737809,"Tirax: Orap",-15.97,167.34464,1072,they_dual,tufala,tufala,,"xair iru",,,0
+48741737809,"Tirax: Orap",-15.97,167.34464,1120,no,no,no,,ɪ-hɪŋe,,,0
+48741737809,"Tirax: Orap",-15.97,167.34464,1210,what,wanem,wanem,,haɣa,,,0
+48741737809,"Tirax: Orap",-15.97,167.34464,1220,who,hu,hu,,hena,,,0
+48741737809,"Tirax: Orap",-15.97,167.34464,1230,where,wea,wea,,anɣaⁿde,,,0
+48741737809,"Tirax: Orap",-15.97,167.34464,1240,when,wanem,wanem,,"ⁿtanial levhi",,,0
+48741737809,"Tirax: Orap",-15.97,167.34464,1250,how,hao,hao,,ɪ-ⁿdlaɣa,,,0
+48741737809,"Tirax: Orap",-15.97,167.34464,1310,this,hemia_ia,hemia_ia,,..,,,0
+48741737809,"Tirax: Orap",-15.97,167.34464,1320,that,hemia_longwei,hemia_longwei,,..,,,0
+48741737809,"Tirax: Orap",-15.97,167.34464,1380,above,antap,antap,,-linha,,,0
+48741737809,"Tirax: Orap",-15.97,167.34464,1390,below,andanit,andanit,,-nɛlvɛna,,,0
+48741737809,"Tirax: Orap",-15.97,167.34464,1410,in,insaed,insaed,,-lalɛn,,,0
+48741752709,"Atchin: Orap",-15.9156,167.30641,1010,I,mi,mi,,ina,,,0
+48741752709,"Atchin: Orap",-15.9156,167.30641,1023,we_incl,yumi,yumi,,lekir,,,0
+48741752709,"Atchin: Orap",-15.9156,167.30641,1020,we_pl_excl,mifala,mifala,,keam,,,0
+48741752709,"Atchin: Orap",-15.9156,167.30641,1021,we_dual_incl,yumitu,yumitu,,"lekir eru",,,0
+48741752709,"Atchin: Orap",-15.9156,167.30641,1022,we_dual_excl,mitufala,mitufala,,..,,,0
+48741752709,"Atchin: Orap",-15.9156,167.30641,1040,you,yu,yu,,inik,,,0
+48741752709,"Atchin: Orap",-15.9156,167.30641,1050,you_dual,yutufala,yutufala,,"kami eruɔ",,,0
+48741752709,"Atchin: Orap",-15.9156,167.30641,1052,you_pl,yufala,yufala,,kami,,,0
+48741752709,"Atchin: Orap",-15.9156,167.30641,1060,he,hem,hem,,ini,,,0
+48741752709,"Atchin: Orap",-15.9156,167.30641,1070,they,olgeta,olgeta,,..,,,0
+48741752709,"Atchin: Orap",-15.9156,167.30641,1072,they_dual,tufala,tufala,,..,,,0
+48741752709,"Atchin: Orap",-15.9156,167.30641,1120,no,no,no,,mʷi-ʧiga,,,0
+48741752709,"Atchin: Orap",-15.9156,167.30641,1210,what,wanem,wanem,,ⁿt͡se,,,0
+48741752709,"Atchin: Orap",-15.9156,167.30641,1210,what,wanem,wanem,,"ⁿt͡se gɔ",,,0
+48741752709,"Atchin: Orap",-15.9156,167.30641,1220,who,hu,hu,,ise,,,0
+48741752709,"Atchin: Orap",-15.9156,167.30641,1230,where,wea,wea,,nɛmbe,,,0
+48741752709,"Atchin: Orap",-15.9156,167.30641,1240,when,wanem,wanem,,..,,,0
+48741752709,"Atchin: Orap",-15.9156,167.30641,1250,how,hao,hao,,ɛ-pɛnse,,,0
+48741752709,"Atchin: Orap",-15.9156,167.30641,1310,this,hemia_ia,hemia_ia,,..,,,0
+48741752709,"Atchin: Orap",-15.9156,167.30641,1320,that,hemia_longwei,hemia_longwei,,..,,,0
+48741752709,"Atchin: Orap",-15.9156,167.30641,1380,above,antap,antap,,e-mare,,,0
+48741752709,"Atchin: Orap",-15.9156,167.30641,1390,below,andanit,andanit,,mɛlɛlovin,,,0
+48741752709,"Atchin: Orap",-15.9156,167.30641,1410,in,insaed,insaed,,-lolon,,,0
+48741752809,"Atchin: Small Island",-15.9439,167.33993,1010,I,mi,mi,,ina,,,0
+48741752809,"Atchin: Small Island",-15.9439,167.33993,1023,we_incl,yumi,yumi,,lekir,,,0
+48741752809,"Atchin: Small Island",-15.9439,167.33993,1020,we_pl_excl,mifala,mifala,,kiam,,,0
+48741752809,"Atchin: Small Island",-15.9439,167.33993,1021,we_dual_incl,yumitu,yumitu,,"lekir peru",,,0
+48741752809,"Atchin: Small Island",-15.9439,167.33993,1022,we_dual_excl,mitufala,mitufala,,..,,,0
+48741752809,"Atchin: Small Island",-15.9439,167.33993,1040,you,yu,yu,,inik,,,0
+48741752809,"Atchin: Small Island",-15.9439,167.33993,1050,you_dual,yutufala,yutufala,,"kami eruɔ",,,0
+48741752809,"Atchin: Small Island",-15.9439,167.33993,1052,you_pl,yufala,yufala,,kami,,,0
+48741752809,"Atchin: Small Island",-15.9439,167.33993,1060,he,hem,hem,,ini,,,0
+48741752809,"Atchin: Small Island",-15.9439,167.33993,1070,they,olgeta,olgeta,,iniɾi,,,0
+48741752809,"Atchin: Small Island",-15.9439,167.33993,1072,they_dual,tufala,tufala,,..,,,0
+48741752809,"Atchin: Small Island",-15.9439,167.33993,1120,no,no,no,,mʷi-t͡sa,,,0
+48741752809,"Atchin: Small Island",-15.9439,167.33993,1210,what,wanem,wanem,,nse,,,0
+48741752809,"Atchin: Small Island",-15.9439,167.33993,1220,who,hu,hu,,iseɪ,,,0
+48741752809,"Atchin: Small Island",-15.9439,167.33993,1230,where,wea,wea,,ŋambe,,,0
+48741752809,"Atchin: Small Island",-15.9439,167.33993,1240,when,wanem,wanem,,sʉeliŋ,,,0
+48741752809,"Atchin: Small Island",-15.9439,167.33993,1250,how,hao,hao,,hɛ-pɛnze,,,0
+48741752809,"Atchin: Small Island",-15.9439,167.33993,1310,this,hemia_ia,hemia_ia,,..,,,0
+48741752809,"Atchin: Small Island",-15.9439,167.33993,1320,that,hemia_longwei,hemia_longwei,,..,,,0
+48741752809,"Atchin: Small Island",-15.9439,167.33993,1380,above,antap,antap,,-maɾe,,,0
+48741752809,"Atchin: Small Island",-15.9439,167.33993,1390,below,andanit,andanit,,-mɛlɛlovin,,,0
+48741752809,"Atchin: Small Island",-15.9439,167.33993,1410,in,insaed,insaed,,-lolon,,,0
+48741754509,"Wala: Botku",-15.96841,167.29246,1010,I,mi,mi,,niɔ,,,0
+48741754509,"Wala: Botku",-15.96841,167.29246,1023,we_incl,yumi,yumi,,kier,,,0
+48741754509,"Wala: Botku",-15.96841,167.29246,1020,we_pl_excl,mifala,mifala,,kierʧile,,,0
+48741754509,"Wala: Botku",-15.96841,167.29246,1021,we_dual_incl,yumitu,yumitu,,..,,,0
+48741754509,"Wala: Botku",-15.96841,167.29246,1022,we_dual_excl,mitufala,mitufala,,..,,,0
+48741754509,"Wala: Botku",-15.96841,167.29246,1040,you,yu,yu,,nik,,,0
+48741754509,"Wala: Botku",-15.96841,167.29246,1050,you_dual,yutufala,yutufala,,"kiami ɔru",,,0
+48741754509,"Wala: Botku",-15.96841,167.29246,1052,you_pl,yufala,yufala,,kiami,,,0
+48741754509,"Wala: Botku",-15.96841,167.29246,1060,he,hem,hem,,ni,,,0
+48741754509,"Wala: Botku",-15.96841,167.29246,1070,they,olgeta,olgeta,,nir,,,0
+48741754509,"Wala: Botku",-15.96841,167.29246,1072,they_dual,tufala,tufala,,..,,,0
+48741754509,"Wala: Botku",-15.96841,167.29246,1120,no,no,no,,mi-ʧige,,,0
+48741754509,"Wala: Botku",-15.96841,167.29246,1210,what,wanem,wanem,,ⁿt͡se,,,0
+48741754509,"Wala: Botku",-15.96841,167.29246,1220,who,hu,hu,,sie,,,0
+48741754509,"Wala: Botku",-15.96841,167.29246,1230,where,wea,wea,,..,,,0
+48741754509,"Wala: Botku",-15.96841,167.29246,1240,when,wanem,wanem,,sʉeliŋ,,,0
+48741754509,"Wala: Botku",-15.96841,167.29246,1250,how,hao,hao,,ɛ-rpɛse,,,0
+48741754509,"Wala: Botku",-15.96841,167.29246,1310,this,hemia_ia,hemia_ia,,..,,,0
+48741754509,"Wala: Botku",-15.96841,167.29246,1320,that,hemia_longwei,hemia_longwei,,..,,,0
+48741754509,"Wala: Botku",-15.96841,167.29246,1380,above,antap,antap,,-mare,,,0
+48741754509,"Wala: Botku",-15.96841,167.29246,1390,below,andanit,andanit,,-mɛlvɛn,,,0
+48741754509,"Wala: Botku",-15.96841,167.29246,1410,in,insaed,insaed,,-olon,,,0
+48741754709,"Wala: Worprev",-15.97775,167.37656,1010,I,mi,mi,,inaŋk,,,0
+48741754709,"Wala: Worprev",-15.97775,167.37656,1023,we_incl,yumi,yumi,,ⁿdætʉl,,,0
+48741754709,"Wala: Worprev",-15.97775,167.37656,1020,we_pl_excl,mifala,mifala,,kirʧile,,,0
+48741754709,"Wala: Worprev",-15.97775,167.37656,1021,we_dual_incl,yumitu,yumitu,,ⁿdaru,,,0
+48741754709,"Wala: Worprev",-15.97775,167.37656,1022,we_dual_excl,mitufala,mitufala,,ⁿdaru,,,0
+48741754709,"Wala: Worprev",-15.97775,167.37656,1040,you,yu,yu,,aiuŋ,,,0
+48741754709,"Wala: Worprev",-15.97775,167.37656,1050,you_dual,yutufala,yutufala,,næmut,,,0
+48741754709,"Wala: Worprev",-15.97775,167.37656,1052,you_pl,yufala,yufala,,namur,,,0
+48741754709,"Wala: Worprev",-15.97775,167.37656,1060,he,hem,hem,,ni,,,0
+48741754709,"Wala: Worprev",-15.97775,167.37656,1070,they,olgeta,olgeta,,arat,,,0
+48741754709,"Wala: Worprev",-15.97775,167.37656,1072,they_dual,tufala,tufala,,arar,,,0
+48741754709,"Wala: Worprev",-15.97775,167.37656,1120,no,no,no,,awa,,,0
+48741754709,"Wala: Worprev",-15.97775,167.37656,1210,what,wanem,wanem,,nawiɛn,,,0
+48741754709,"Wala: Worprev",-15.97775,167.37656,1220,who,hu,hu,,azɪmax,,,0
+48741754709,"Wala: Worprev",-15.97775,167.37656,1230,where,wea,wea,,ⁿdeɣan,,,0
+48741754709,"Wala: Worprev",-15.97775,167.37656,1240,when,wanem,wanem,,"nɪsav mɪtanial",,,0
+48741754709,"Wala: Worprev",-15.97775,167.37656,1250,how,hao,hao,,i-ⁿdəman,,,0
+48741754709,"Wala: Worprev",-15.97775,167.37656,1310,this,hemia_ia,hemia_ia,,avoɣan,,,0
+48741754709,"Wala: Worprev",-15.97775,167.37656,1320,that,hemia_longwei,hemia_longwei,,asao,,,0
+48741754709,"Wala: Worprev",-15.97775,167.37656,1380,above,antap,antap,,"livɣan mesap",,,0
+48741754709,"Wala: Worprev",-15.97775,167.37656,1390,below,andanit,andanit,,sælvun,,,0
+48741754709,"Wala: Worprev",-15.97775,167.37656,1410,in,insaed,insaed,,i-musun,,,0
+48741754809,"Wala: Petreros",-15.97544,167.37627,1010,I,mi,mi,,nio,,,0
+48741754809,"Wala: Petreros",-15.97544,167.37627,1023,we_incl,yumi,yumi,,kir,,,0
+48741754809,"Wala: Petreros",-15.97544,167.37627,1020,we_pl_excl,mifala,mifala,,..,,,0
+48741754809,"Wala: Petreros",-15.97544,167.37627,1021,we_dual_incl,yumitu,yumitu,,..,,,0
+48741754809,"Wala: Petreros",-15.97544,167.37627,1022,we_dual_excl,mitufala,mitufala,,..,,,0
+48741754809,"Wala: Petreros",-15.97544,167.37627,1040,you,yu,yu,,nik,,,0
+48741754809,"Wala: Petreros",-15.97544,167.37627,1050,you_dual,yutufala,yutufala,,..,,,0
+48741754809,"Wala: Petreros",-15.97544,167.37627,1052,you_pl,yufala,yufala,,kiami,,,0
+48741754809,"Wala: Petreros",-15.97544,167.37627,1060,he,hem,hem,,ni,,,0
+48741754809,"Wala: Petreros",-15.97544,167.37627,1070,they,olgeta,olgeta,,..,,,0
+48741754809,"Wala: Petreros",-15.97544,167.37627,1072,they_dual,tufala,tufala,,..,,,0
+48741754809,"Wala: Petreros",-15.97544,167.37627,1120,no,no,no,,mi-t͡sige,,,0
+48741754809,"Wala: Petreros",-15.97544,167.37627,1210,what,wanem,wanem,,nɪsɛ,,,0
+48741754809,"Wala: Petreros",-15.97544,167.37627,1210,what,wanem,wanem,,nɪsɛgo,,,0
+48741754809,"Wala: Petreros",-15.97544,167.37627,1220,who,hu,hu,,sie,,,0
+48741754809,"Wala: Petreros",-15.97544,167.37627,1230,where,wea,wea,,ahape,,,0
+48741754809,"Wala: Petreros",-15.97544,167.37627,1240,when,wanem,wanem,,sʉeliŋ,,,0
+48741754809,"Wala: Petreros",-15.97544,167.37627,1250,how,hao,hao,,ɛ-rvase,,,0
+48741754809,"Wala: Petreros",-15.97544,167.37627,1310,this,hemia_ia,hemia_ia,,..,,,0
+48741754809,"Wala: Petreros",-15.97544,167.37627,1320,that,hemia_longwei,hemia_longwei,,..,,,0
+48741754809,"Wala: Petreros",-15.97544,167.37627,1380,above,antap,antap,,-mare,,,0
+48741754809,"Wala: Petreros",-15.97544,167.37627,1390,below,andanit,andanit,,-atan,,,0
+48741754809,"Wala: Petreros",-15.97544,167.37627,1410,in,insaed,insaed,,-olon,,,0
+48741754909,"Wala: Preng",-15.97342,167.37627,1010,I,mi,mi,,niɔ,,,0
+48741754909,"Wala: Preng",-15.97342,167.37627,1023,we_incl,yumi,yumi,,kier,,,0
+48741754909,"Wala: Preng",-15.97342,167.37627,1020,we_pl_excl,mifala,mifala,,kierʧile,,,0
+48741754909,"Wala: Preng",-15.97342,167.37627,1021,we_dual_incl,yumitu,yumitu,,..,,,0
+48741754909,"Wala: Preng",-15.97342,167.37627,1022,we_dual_excl,mitufala,mitufala,,..,,,0
+48741754909,"Wala: Preng",-15.97342,167.37627,1040,you,yu,yu,,nik,,,0
+48741754909,"Wala: Preng",-15.97342,167.37627,1050,you_dual,yutufala,yutufala,,..,,,0
+48741754909,"Wala: Preng",-15.97342,167.37627,1052,you_pl,yufala,yufala,,kiami,,,0
+48741754909,"Wala: Preng",-15.97342,167.37627,1060,he,hem,hem,,ni,,,0
+48741754909,"Wala: Preng",-15.97342,167.37627,1070,they,olgeta,olgeta,,niri,,,0
+48741754909,"Wala: Preng",-15.97342,167.37627,1072,they_dual,tufala,tufala,,..,,,0
+48741754909,"Wala: Preng",-15.97342,167.37627,1120,no,no,no,,mi-ʧige,,,0
+48741754909,"Wala: Preng",-15.97342,167.37627,1210,what,wanem,wanem,,ⁿt͡se,,,0
+48741754909,"Wala: Preng",-15.97342,167.37627,1210,what,wanem,wanem,,ⁿt͡segɔ,,,0
+48741754909,"Wala: Preng",-15.97342,167.37627,1220,who,hu,hu,,sie,,,0
+48741754909,"Wala: Preng",-15.97342,167.37627,1230,where,wea,wea,,nimbe,,,0
+48741754909,"Wala: Preng",-15.97342,167.37627,1240,when,wanem,wanem,,..,,,0
+48741754909,"Wala: Preng",-15.97342,167.37627,1250,how,hao,hao,,ɛ-rpɛsi,,,0
+48741754909,"Wala: Preng",-15.97342,167.37627,1310,this,hemia_ia,hemia_ia,,ŋok,,,0
+48741754909,"Wala: Preng",-15.97342,167.37627,1320,that,hemia_longwei,hemia_longwei,,ŋoxwano,,,0
+48741754909,"Wala: Preng",-15.97342,167.37627,1380,above,antap,antap,,-mare,,,0
+48741754909,"Wala: Preng",-15.97342,167.37627,1390,below,andanit,andanit,,-mɛlvɛn,,,0
+48741754909,"Wala: Preng",-15.97342,167.37627,1410,in,insaed,insaed,,-olon,,,0
+48741756709,"Rano: Twalung",-15.98389,167.38444,1010,I,mi,mi,,niɔ,,,0
+48741756709,"Rano: Twalung",-15.98389,167.38444,1023,we_incl,yumi,yumi,,kir,,,0
+48741756709,"Rano: Twalung",-15.98389,167.38444,1020,we_pl_excl,mifala,mifala,,..,,,0
+48741756709,"Rano: Twalung",-15.98389,167.38444,1021,we_dual_incl,yumitu,yumitu,,..,,,0
+48741756709,"Rano: Twalung",-15.98389,167.38444,1022,we_dual_excl,mitufala,mitufala,,..,,,0
+48741756709,"Rano: Twalung",-15.98389,167.38444,1040,you,yu,yu,,nik,,,0
+48741756709,"Rano: Twalung",-15.98389,167.38444,1050,you_dual,yutufala,yutufala,,..,,,0
+48741756709,"Rano: Twalung",-15.98389,167.38444,1052,you_pl,yufala,yufala,,kiami,,,0
+48741756709,"Rano: Twalung",-15.98389,167.38444,1060,he,hem,hem,,ni,,,0
+48741756709,"Rano: Twalung",-15.98389,167.38444,1070,they,olgeta,olgeta,,nir,,,0
+48741756709,"Rano: Twalung",-15.98389,167.38444,1072,they_dual,tufala,tufala,,..,,,0
+48741756709,"Rano: Twalung",-15.98389,167.38444,1120,no,no,no,,mi-t͡sige,,,0
+48741756709,"Rano: Twalung",-15.98389,167.38444,1210,what,wanem,wanem,,ⁿt͡sɛɸ,,,0
+48741756709,"Rano: Twalung",-15.98389,167.38444,1220,who,hu,hu,,si,,,0
+48741756709,"Rano: Twalung",-15.98389,167.38444,1230,where,wea,wea,,..,,,0
+48741756709,"Rano: Twalung",-15.98389,167.38444,1240,when,wanem,wanem,,sʉeliŋ,,,0
+48741756709,"Rano: Twalung",-15.98389,167.38444,1250,how,hao,hao,,sɛrɛnt͡sɛv,,,0
+48741756709,"Rano: Twalung",-15.98389,167.38444,1310,this,hemia_ia,hemia_ia,,ŋɛl,,,0
+48741756709,"Rano: Twalung",-15.98389,167.38444,1320,that,hemia_longwei,hemia_longwei,,ŋoko,,,0
+48741756709,"Rano: Twalung",-15.98389,167.38444,1380,above,antap,antap,,-mare,,,0
+48741756709,"Rano: Twalung",-15.98389,167.38444,1390,below,andanit,andanit,,..,,,0
+48741756709,"Rano: Twalung",-15.98389,167.38444,1410,in,insaed,insaed,,-olon,,,0
+48741756809,"Rano: Potora",-15.98472,167.3866,1010,I,mi,mi,,niɔ,,,0
+48741756809,"Rano: Potora",-15.98472,167.3866,1023,we_incl,yumi,yumi,,kir,,,0
+48741756809,"Rano: Potora",-15.98472,167.3866,1020,we_pl_excl,mifala,mifala,,kierʧeli,,,0
+48741756809,"Rano: Potora",-15.98472,167.3866,1021,we_dual_incl,yumitu,yumitu,,..,,,0
+48741756809,"Rano: Potora",-15.98472,167.3866,1022,we_dual_excl,mitufala,mitufala,,"kier oru",,,0
+48741756809,"Rano: Potora",-15.98472,167.3866,1040,you,yu,yu,,nik,,,0
+48741756809,"Rano: Potora",-15.98472,167.3866,1050,you_dual,yutufala,yutufala,,"kiami ɔru",,,0
+48741756809,"Rano: Potora",-15.98472,167.3866,1052,you_pl,yufala,yufala,,kiami,,,0
+48741756809,"Rano: Potora",-15.98472,167.3866,1060,he,hem,hem,,ni,,,0
+48741756809,"Rano: Potora",-15.98472,167.3866,1070,they,olgeta,olgeta,,..,,,0
+48741756809,"Rano: Potora",-15.98472,167.3866,1072,they_dual,tufala,tufala,,..,,,0
+48741756809,"Rano: Potora",-15.98472,167.3866,1120,no,no,no,,mi-t͡sige,,,0
+48741756809,"Rano: Potora",-15.98472,167.3866,1210,what,wanem,wanem,,nise,,,0
+48741756809,"Rano: Potora",-15.98472,167.3866,1220,who,hu,hu,,si,,,0
+48741756809,"Rano: Potora",-15.98472,167.3866,1230,where,wea,wea,,nimbe,,,0
+48741756809,"Rano: Potora",-15.98472,167.3866,1240,when,wanem,wanem,,..,,,0
+48741756809,"Rano: Potora",-15.98472,167.3866,1250,how,hao,hao,,pɛrpesi,,,0
+48741756809,"Rano: Potora",-15.98472,167.3866,1310,this,hemia_ia,hemia_ia,,aŋok,,,0
+48741756809,"Rano: Potora",-15.98472,167.3866,1320,that,hemia_longwei,hemia_longwei,,ŋokwan,,,0
+48741756809,"Rano: Potora",-15.98472,167.3866,1380,above,antap,antap,,-mare,,,0
+48741756809,"Rano: Potora",-15.98472,167.3866,1390,below,andanit,andanit,,..,,,0
+48741756809,"Rano: Potora",-15.98472,167.3866,1410,in,insaed,insaed,,-loleu,,,0
+48741756909,"Rano: Chinambong",-15.99049,167.39063,1010,I,mi,mi,,niɔ,,,0
+48741756909,"Rano: Chinambong",-15.99049,167.39063,1023,we_incl,yumi,yumi,,kier,,,0
+48741756909,"Rano: Chinambong",-15.99049,167.39063,1020,we_pl_excl,mifala,mifala,,kiɛm,,,0
+48741756909,"Rano: Chinambong",-15.99049,167.39063,1021,we_dual_incl,yumitu,yumitu,,..,,,0
+48741756909,"Rano: Chinambong",-15.99049,167.39063,1022,we_dual_excl,mitufala,mitufala,,"kiɛm oru",,,0
+48741756909,"Rano: Chinambong",-15.99049,167.39063,1040,you,yu,yu,,nik,,,0
+48741756909,"Rano: Chinambong",-15.99049,167.39063,1050,you_dual,yutufala,yutufala,,"kiami ɔru",,,0
+48741756909,"Rano: Chinambong",-15.99049,167.39063,1052,you_pl,yufala,yufala,,kiami,,,0
+48741756909,"Rano: Chinambong",-15.99049,167.39063,1060,he,hem,hem,,ni,,,0
+48741756909,"Rano: Chinambong",-15.99049,167.39063,1070,they,olgeta,olgeta,,niɾi,,,0
+48741756909,"Rano: Chinambong",-15.99049,167.39063,1072,they_dual,tufala,tufala,,"nir oru",,,0
+48741756909,"Rano: Chinambong",-15.99049,167.39063,1120,no,no,no,,mi-t͡sige,,,0
+48741756909,"Rano: Chinambong",-15.99049,167.39063,1210,what,wanem,wanem,,..,,,0
+48741756909,"Rano: Chinambong",-15.99049,167.39063,1220,who,hu,hu,,..,,,0
+48741756909,"Rano: Chinambong",-15.99049,167.39063,1230,where,wea,wea,,..,,,0
+48741756909,"Rano: Chinambong",-15.99049,167.39063,1240,when,wanem,wanem,,..,,,0
+48741756909,"Rano: Chinambong",-15.99049,167.39063,1250,how,hao,hao,,ɛrpɛse,,,0
+48741756909,"Rano: Chinambong",-15.99049,167.39063,1310,this,hemia_ia,hemia_ia,,ŋok,,,0
+48741756909,"Rano: Chinambong",-15.99049,167.39063,1320,that,hemia_longwei,hemia_longwei,,ŋukwan,,,0
+48741756909,"Rano: Chinambong",-15.99049,167.39063,1380,above,antap,antap,,..,,,0
+48741756909,"Rano: Chinambong",-15.99049,167.39063,1390,below,andanit,andanit,,-mɛlvɛn,,,0
+48741756909,"Rano: Chinambong",-15.99049,167.39063,1410,in,insaed,insaed,,-loloim,,,0
+48741757609,"Uripiv: Tautu Village",-16.06661,167.3975,1010,I,mi,mi,,nɔ,,,0
+48741757609,"Uripiv: Tautu Village",-16.06661,167.3975,1023,we_incl,yumi,yumi,,kɛr,,,0
+48741757609,"Uripiv: Tautu Village",-16.06661,167.3975,1020,we_pl_excl,mifala,mifala,,"kɛm kabʷɔ",,,0
+48741757609,"Uripiv: Tautu Village",-16.06661,167.3975,1021,we_dual_incl,yumitu,yumitu,,kɛru,,,0
+48741757609,"Uripiv: Tautu Village",-16.06661,167.3975,1022,we_dual_excl,mitufala,mitufala,,"kɛmru kopɔ",,,0
+48741757609,"Uripiv: Tautu Village",-16.06661,167.3975,1040,you,yu,yu,,nik,,,0
+48741757609,"Uripiv: Tautu Village",-16.06661,167.3975,1050,you_dual,yutufala,yutufala,,"kami kopɔ",,,0
+48741757609,"Uripiv: Tautu Village",-16.06661,167.3975,1052,you_pl,yufala,yufala,,"kamru oru",,,0
+48741757609,"Uripiv: Tautu Village",-16.06661,167.3975,1060,he,hem,hem,,nir,,,0
+48741757609,"Uripiv: Tautu Village",-16.06661,167.3975,1070,they,olgeta,olgeta,,"nir kopɔ",,,0
+48741757609,"Uripiv: Tautu Village",-16.06661,167.3975,1072,they_dual,tufala,tufala,,noru,,,0
+48741757609,"Uripiv: Tautu Village",-16.06661,167.3975,1120,no,no,no,,ɛ-ʧige,,,0
+48741757609,"Uripiv: Tautu Village",-16.06661,167.3975,1210,what,wanem,wanem,,ⁿʧe,,,0
+48741757609,"Uripiv: Tautu Village",-16.06661,167.3975,1220,who,hu,hu,,se,,,0
+48741757609,"Uripiv: Tautu Village",-16.06661,167.3975,1230,where,wea,wea,,ambɛ,,,0
+48741757609,"Uripiv: Tautu Village",-16.06661,167.3975,1240,when,wanem,wanem,,sueliŋ,,,0
+48741757609,"Uripiv: Tautu Village",-16.06661,167.3975,1250,how,hao,hao,,hɛrpese,,,0
+48741757609,"Uripiv: Tautu Village",-16.06661,167.3975,1310,this,hemia_ia,hemia_ia,,niel,,,0
+48741757609,"Uripiv: Tautu Village",-16.06661,167.3975,1320,that,hemia_longwei,hemia_longwei,,nokwan,,,0
+48741757609,"Uripiv: Tautu Village",-16.06661,167.3975,1380,above,antap,antap,,-mare,,,0
+48741757609,"Uripiv: Tautu Village",-16.06661,167.3975,1390,below,andanit,andanit,,-meluɛn,,,0
+48741757609,"Uripiv: Tautu Village",-16.06661,167.3975,1410,in,insaed,insaed,,-loloim,,,0
+48741758709,"Uripiv: Tautu",-16.06778,167.40111,1010,I,mi,mi,,nɔ,,,0
+48741758709,"Uripiv: Tautu",-16.06778,167.40111,1023,we_incl,yumi,yumi,,kɛr,,,0
+48741758709,"Uripiv: Tautu",-16.06778,167.40111,1020,we_pl_excl,mifala,mifala,,"kɛm kabʷɔ",,,0
+48741758709,"Uripiv: Tautu",-16.06778,167.40111,1021,we_dual_incl,yumitu,yumitu,,kɛru,,,0
+48741758709,"Uripiv: Tautu",-16.06778,167.40111,1022,we_dual_excl,mitufala,mitufala,,"kɛmru kopɔ",,,0
+48741758709,"Uripiv: Tautu",-16.06778,167.40111,1040,you,yu,yu,,nik,,,0
+48741758709,"Uripiv: Tautu",-16.06778,167.40111,1050,you_dual,yutufala,yutufala,,"kamro oru",,,0
+48741758709,"Uripiv: Tautu",-16.06778,167.40111,1052,you_pl,yufala,yufala,,"kami kopɔ",,,0
+48741758709,"Uripiv: Tautu",-16.06778,167.40111,1060,he,hem,hem,,nir,,,0
+48741758709,"Uripiv: Tautu",-16.06778,167.40111,1070,they,olgeta,olgeta,,"nir kopɔ",,,0
+48741758709,"Uripiv: Tautu",-16.06778,167.40111,1072,they_dual,tufala,tufala,,..,,,0
+48741758709,"Uripiv: Tautu",-16.06778,167.40111,1120,no,no,no,,ɛ-ʧige,,,0
+48741758709,"Uripiv: Tautu",-16.06778,167.40111,1210,what,wanem,wanem,,ⁿʧe,,,0
+48741758709,"Uripiv: Tautu",-16.06778,167.40111,1220,who,hu,hu,,se,,,0
+48741758709,"Uripiv: Tautu",-16.06778,167.40111,1230,where,wea,wea,,ambɛ,,,0
+48741758709,"Uripiv: Tautu",-16.06778,167.40111,1240,when,wanem,wanem,,sueliŋ,,,0
+48741758709,"Uripiv: Tautu",-16.06778,167.40111,1250,how,hao,hao,,hɛrpese,,,0
+48741758709,"Uripiv: Tautu",-16.06778,167.40111,1310,this,hemia_ia,hemia_ia,,ŋel,,,0
+48741758709,"Uripiv: Tautu",-16.06778,167.40111,1320,that,hemia_longwei,hemia_longwei,,ŋokwan,,,0
+48741758709,"Uripiv: Tautu",-16.06778,167.40111,1380,above,antap,antap,,-mare,,,0
+48741758709,"Uripiv: Tautu",-16.06778,167.40111,1390,below,andanit,andanit,,-mɛluɛn,,,0
+48741758709,"Uripiv: Tautu",-16.06778,167.40111,1410,in,insaed,insaed,,-loloim,,,0
+48741758809,"Uripiv: Durpif",-16.07265,167.447,1010,I,mi,mi,,inu,,,0
+48741758809,"Uripiv: Durpif",-16.07265,167.447,1023,we_incl,yumi,yumi,,ger,,,0
+48741758809,"Uripiv: Durpif",-16.07265,167.447,1020,we_pl_excl,mifala,mifala,,kɪm,,,0
+48741758809,"Uripiv: Durpif",-16.07265,167.447,1021,we_dual_incl,yumitu,yumitu,,kɛru,,,0
+48741758809,"Uripiv: Durpif",-16.07265,167.447,1022,we_dual_excl,mitufala,mitufala,,komru,,,0
+48741758809,"Uripiv: Durpif",-16.07265,167.447,1040,you,yu,yu,,nik,,,0
+48741758809,"Uripiv: Durpif",-16.07265,167.447,1050,you_dual,yutufala,yutufala,,kamru,,,0
+48741758809,"Uripiv: Durpif",-16.07265,167.447,1052,you_pl,yufala,yufala,,kami,,,0
+48741758809,"Uripiv: Durpif",-16.07265,167.447,1060,he,hem,hem,,ni,,,0
+48741758809,"Uripiv: Durpif",-16.07265,167.447,1070,they,olgeta,olgeta,,niɾ,,,0
+48741758809,"Uripiv: Durpif",-16.07265,167.447,1072,they_dual,tufala,tufala,,..,,,0
+48741758809,"Uripiv: Durpif",-16.07265,167.447,1120,no,no,no,,..,,,0
+48741758809,"Uripiv: Durpif",-16.07265,167.447,1210,what,wanem,wanem,,..,,,0
+48741758809,"Uripiv: Durpif",-16.07265,167.447,1220,who,hu,hu,,si,,,0
+48741758809,"Uripiv: Durpif",-16.07265,167.447,1230,where,wea,wea,,nimbe,,,0
+48741758809,"Uripiv: Durpif",-16.07265,167.447,1240,when,wanem,wanem,,siveliŋ,,,0
+48741758809,"Uripiv: Durpif",-16.07265,167.447,1250,how,hao,hao,,pirpe,,,0
+48741758809,"Uripiv: Durpif",-16.07265,167.447,1310,this,hemia_ia,hemia_ia,,ŋɛl,,,0
+48741758809,"Uripiv: Durpif",-16.07265,167.447,1320,that,hemia_longwei,hemia_longwei,,ŋokwan,,,0
+48741758809,"Uripiv: Durpif",-16.07265,167.447,1380,above,antap,antap,,-mare,,,0
+48741758809,"Uripiv: Durpif",-16.07265,167.447,1390,below,andanit,andanit,,-mɛlvɛn,,,0
+48741758809,"Uripiv: Durpif",-16.07265,167.447,1410,in,insaed,insaed,,-loloim,,,0
+48741758909,"Uripiv: Potnambe",-16.07391,167.45203,1010,I,mi,mi,,inu,,,0
+48741758909,"Uripiv: Potnambe",-16.07391,167.45203,1023,we_incl,yumi,yumi,,gɛr,,,0
+48741758909,"Uripiv: Potnambe",-16.07391,167.45203,1020,we_pl_excl,mifala,mifala,,kɪm,,,0
+48741758909,"Uripiv: Potnambe",-16.07391,167.45203,1021,we_dual_incl,yumitu,yumitu,,kɛru,,,0
+48741758909,"Uripiv: Potnambe",-16.07391,167.45203,1022,we_dual_excl,mitufala,mitufala,,komɾu,,,0
+48741758909,"Uripiv: Potnambe",-16.07391,167.45203,1040,you,yu,yu,,nik,,,0
+48741758909,"Uripiv: Potnambe",-16.07391,167.45203,1050,you_dual,yutufala,yutufala,,kamɾu,,,0
+48741758909,"Uripiv: Potnambe",-16.07391,167.45203,1052,you_pl,yufala,yufala,,kami,,,0
+48741758909,"Uripiv: Potnambe",-16.07391,167.45203,1060,he,hem,hem,,ni,,,0
+48741758909,"Uripiv: Potnambe",-16.07391,167.45203,1070,they,olgeta,olgeta,,niɾ,,,0
+48741758909,"Uripiv: Potnambe",-16.07391,167.45203,1072,they_dual,tufala,tufala,,..,,,0
+48741758909,"Uripiv: Potnambe",-16.07391,167.45203,1120,no,no,no,,ɛ-t͡ski,,,0
+48741758909,"Uripiv: Potnambe",-16.07391,167.45203,1210,what,wanem,wanem,,..,,,0
+48741758909,"Uripiv: Potnambe",-16.07391,167.45203,1220,who,hu,hu,,esi,,,0
+48741758909,"Uripiv: Potnambe",-16.07391,167.45203,1230,where,wea,wea,,ŋambe,,,0
+48741758909,"Uripiv: Potnambe",-16.07391,167.45203,1240,when,wanem,wanem,,..,,,0
+48741758909,"Uripiv: Potnambe",-16.07391,167.45203,1250,how,hao,hao,,ɛrpese,,,0
+48741758909,"Uripiv: Potnambe",-16.07391,167.45203,1310,this,hemia_ia,hemia_ia,,..,,,0
+48741758909,"Uripiv: Potnambe",-16.07391,167.45203,1320,that,hemia_longwei,hemia_longwei,,ŋokwan,,,0
+48741758909,"Uripiv: Potnambe",-16.07391,167.45203,1380,above,antap,antap,,-mare,,,0
+48741758909,"Uripiv: Potnambe",-16.07391,167.45203,1390,below,andanit,andanit,,-mɛlvɛn,,,0
+48741758909,"Uripiv: Potnambe",-16.07391,167.45203,1410,in,insaed,insaed,,-lolon,,,0
+48741953109,"Wowo: Lesarmalas",-15.90733,167.17927,1010,I,mi,mi,,ɣina,,,0
+48741953109,"Wowo: Lesarmalas",-15.90733,167.17927,1023,we_incl,yumi,yumi,,lɛkɛre,,,0
+48741953109,"Wowo: Lesarmalas",-15.90733,167.17927,1020,we_pl_excl,mifala,mifala,,kanal,,,0
+48741953109,"Wowo: Lesarmalas",-15.90733,167.17927,1021,we_dual_incl,yumitu,yumitu,,..,,,0
+48741953109,"Wowo: Lesarmalas",-15.90733,167.17927,1022,we_dual_excl,mitufala,mitufala,,kanalrue,,,0
+48741953109,"Wowo: Lesarmalas",-15.90733,167.17927,1040,you,yu,yu,,wunox,,,0
+48741953109,"Wowo: Lesarmalas",-15.90733,167.17927,1050,you_dual,yutufala,yutufala,,..,,,0
+48741953109,"Wowo: Lesarmalas",-15.90733,167.17927,1052,you_pl,yufala,yufala,,..,,,0
+48741953109,"Wowo: Lesarmalas",-15.90733,167.17927,1060,he,hem,hem,,ɣe,,,0
+48741953109,"Wowo: Lesarmalas",-15.90733,167.17927,1070,they,olgeta,olgeta,,xar,,,0
+48741953109,"Wowo: Lesarmalas",-15.90733,167.17927,1072,they_dual,tufala,tufala,,xarrue,,,0
+48741953109,"Wowo: Lesarmalas",-15.90733,167.17927,1120,no,no,no,,..,,,0
+48741953109,"Wowo: Lesarmalas",-15.90733,167.17927,1210,what,wanem,wanem,,naha,,,0
+48741953109,"Wowo: Lesarmalas",-15.90733,167.17927,1220,who,hu,hu,,ihi,,,0
+48741953109,"Wowo: Lesarmalas",-15.90733,167.17927,1230,where,wea,wea,,ambe,,,0
+48741953109,"Wowo: Lesarmalas",-15.90733,167.17927,1240,when,wanem,wanem,,..,,,0
+48741953109,"Wowo: Lesarmalas",-15.90733,167.17927,1250,how,hao,hao,,se-vahaɾa,,,0
+48741953109,"Wowo: Lesarmalas",-15.90733,167.17927,1310,this,hemia_ia,hemia_ia,,..,,,0
+48741953109,"Wowo: Lesarmalas",-15.90733,167.17927,1320,that,hemia_longwei,hemia_longwei,,..,,,0
+48741953109,"Wowo: Lesarmalas",-15.90733,167.17927,1380,above,antap,antap,,-maɾo,,,0
+48741953109,"Wowo: Lesarmalas",-15.90733,167.17927,1390,below,andanit,andanit,,-lagalɣavɛn,,,0
+48741953109,"Wowo: Lesarmalas",-15.90733,167.17927,1410,in,insaed,insaed,,-lalalon,,,0
+48741954109,"Wowo: Wowo",-15.90224,167.18459,1010,I,mi,mi,,ɣina,,,0
+48741954109,"Wowo: Wowo",-15.90224,167.18459,1023,we_incl,yumi,yumi,,lɛkɛre,,,0
+48741954109,"Wowo: Wowo",-15.90224,167.18459,1020,we_pl_excl,mifala,mifala,,..,,,0
+48741954109,"Wowo: Wowo",-15.90224,167.18459,1021,we_dual_incl,yumitu,yumitu,,"lɛkɛre rue",,,0
+48741954109,"Wowo: Wowo",-15.90224,167.18459,1022,we_dual_excl,mitufala,mitufala,,..,,,0
+48741954109,"Wowo: Wowo",-15.90224,167.18459,1040,you,yu,yu,,wunox,,,0
+48741954109,"Wowo: Wowo",-15.90224,167.18459,1050,you_dual,yutufala,yutufala,,kanbarue,,,0
+48741954109,"Wowo: Wowo",-15.90224,167.18459,1052,you_pl,yufala,yufala,,kan,,,0
+48741954109,"Wowo: Wowo",-15.90224,167.18459,1060,he,hem,hem,,ɣi,,,0
+48741954109,"Wowo: Wowo",-15.90224,167.18459,1070,they,olgeta,olgeta,,ɣaɾ,,,0
+48741954109,"Wowo: Wowo",-15.90224,167.18459,1072,they_dual,tufala,tufala,,..,,,0
+48741954109,"Wowo: Wowo",-15.90224,167.18459,1120,no,no,no,,bihiɣa,,,0
+48741954109,"Wowo: Wowo",-15.90224,167.18459,1210,what,wanem,wanem,,naha,,,0
+48741954109,"Wowo: Wowo",-15.90224,167.18459,1220,who,hu,hu,,ihi,,,0
+48741954109,"Wowo: Wowo",-15.90224,167.18459,1230,where,wea,wea,,hande,,,0
+48741954109,"Wowo: Wowo",-15.90224,167.18459,1240,when,wanem,wanem,,tahaðe,,,0
+48741954109,"Wowo: Wowo",-15.90224,167.18459,1250,how,hao,hao,,vahara,,,0
+48741954109,"Wowo: Wowo",-15.90224,167.18459,1310,this,hemia_ia,hemia_ia,,hiŋis,,,0
+48741954109,"Wowo: Wowo",-15.90224,167.18459,1320,that,hemia_longwei,hemia_longwei,,..,,,0
+48741954109,"Wowo: Wowo",-15.90224,167.18459,1380,above,antap,antap,,-maro,,,0
+48741954109,"Wowo: Wowo",-15.90224,167.18459,1390,below,andanit,andanit,,-laloŋaðɛn,,,0
+48741954109,"Wowo: Wowo",-15.90224,167.18459,1410,in,insaed,insaed,,-lalalon,,,0
+48741956109,"Alavas: Wowo",-15.90293,167.18499,1010,I,mi,mi,,ɣina,,,0
+48741956109,"Alavas: Wowo",-15.90293,167.18499,1023,we_incl,yumi,yumi,,lɛkɛre,,,0
+48741956109,"Alavas: Wowo",-15.90293,167.18499,1020,we_pl_excl,mifala,mifala,,kanan,,,0
+48741956109,"Alavas: Wowo",-15.90293,167.18499,1021,we_dual_incl,yumitu,yumitu,,..,,,0
+48741956109,"Alavas: Wowo",-15.90293,167.18499,1022,we_dual_excl,mitufala,mitufala,,..,,,0
+48741956109,"Alavas: Wowo",-15.90293,167.18499,1040,you,yu,yu,,unox,,,0
+48741956109,"Alavas: Wowo",-15.90293,167.18499,1050,you_dual,yutufala,yutufala,,kanrue,,,0
+48741956109,"Alavas: Wowo",-15.90293,167.18499,1052,you_pl,yufala,yufala,,kan,,,0
+48741956109,"Alavas: Wowo",-15.90293,167.18499,1060,he,hem,hem,,ɣe,,,0
+48741956109,"Alavas: Wowo",-15.90293,167.18499,1070,they,olgeta,olgeta,,ɣara,,,0
+48741956109,"Alavas: Wowo",-15.90293,167.18499,1072,they_dual,tufala,tufala,,..,,,0
+48741956109,"Alavas: Wowo",-15.90293,167.18499,1120,no,no,no,,..,,,0
+48741956109,"Alavas: Wowo",-15.90293,167.18499,1210,what,wanem,wanem,,naha,,,0
+48741956109,"Alavas: Wowo",-15.90293,167.18499,1220,who,hu,hu,,ihi,,,0
+48741956109,"Alavas: Wowo",-15.90293,167.18499,1230,where,wea,wea,,ande,,,0
+48741956109,"Alavas: Wowo",-15.90293,167.18499,1240,when,wanem,wanem,,tahaðe,,,0
+48741956109,"Alavas: Wowo",-15.90293,167.18499,1250,how,hao,hao,,sa-vahaɾa,,,0
+48741956109,"Alavas: Wowo",-15.90293,167.18499,1310,this,hemia_ia,hemia_ia,,hiŋis,,,0
+48741956109,"Alavas: Wowo",-15.90293,167.18499,1320,that,hemia_longwei,hemia_longwei,,..,,,0
+48741956109,"Alavas: Wowo",-15.90293,167.18499,1380,above,antap,antap,,-marɔ,,,0
+48741956109,"Alavas: Wowo",-15.90293,167.18499,1390,below,andanit,andanit,,-laŋalaðɛn,,,0
+48741956109,"Alavas: Wowo",-15.90293,167.18499,1410,in,insaed,insaed,,-lalalon,,,0
+48741957109,"Alavas: Alavas",-15.89046,167.24151,1010,I,mi,mi,,ɣina,,,0
+48741957109,"Alavas: Alavas",-15.89046,167.24151,1023,we_incl,yumi,yumi,,lekɛre,,,0
+48741957109,"Alavas: Alavas",-15.89046,167.24151,1020,we_pl_excl,mifala,mifala,,kanan,,,0
+48741957109,"Alavas: Alavas",-15.89046,167.24151,1021,we_dual_incl,yumitu,yumitu,,..,,,0
+48741957109,"Alavas: Alavas",-15.89046,167.24151,1022,we_dual_excl,mitufala,mitufala,,kananrue,,,0
+48741957109,"Alavas: Alavas",-15.89046,167.24151,1040,you,yu,yu,,wunox,,,0
+48741957109,"Alavas: Alavas",-15.89046,167.24151,1050,you_dual,yutufala,yutufala,,kanrue,,,0
+48741957109,"Alavas: Alavas",-15.89046,167.24151,1052,you_pl,yufala,yufala,,kan,,,0
+48741957109,"Alavas: Alavas",-15.89046,167.24151,1060,he,hem,hem,,ɣi,,,0
+48741957109,"Alavas: Alavas",-15.89046,167.24151,1070,they,olgeta,olgeta,,ɣar,,,0
+48741957109,"Alavas: Alavas",-15.89046,167.24151,1072,they_dual,tufala,tufala,,..,,,0
+48741957109,"Alavas: Alavas",-15.89046,167.24151,1120,no,no,no,,tihiɣa,,,0
+48741957109,"Alavas: Alavas",-15.89046,167.24151,1120,no,no,no,,bihiɣa,,,0
+48741957109,"Alavas: Alavas",-15.89046,167.24151,1210,what,wanem,wanem,,naha,,,0
+48741957109,"Alavas: Alavas",-15.89046,167.24151,1220,who,hu,hu,,ihi,,,0
+48741957109,"Alavas: Alavas",-15.89046,167.24151,1230,where,wea,wea,,ɣande,,,0
+48741957109,"Alavas: Alavas",-15.89046,167.24151,1240,when,wanem,wanem,,taxaðe,,,0
+48741957109,"Alavas: Alavas",-15.89046,167.24151,1250,how,hao,hao,,ha-vahara,,,0
+48741957109,"Alavas: Alavas",-15.89046,167.24151,1310,this,hemia_ia,hemia_ia,,hiŋe,,,0
+48741957109,"Alavas: Alavas",-15.89046,167.24151,1320,that,hemia_longwei,hemia_longwei,,..,,,0
+48741957109,"Alavas: Alavas",-15.89046,167.24151,1380,above,antap,antap,,-maɾo,,,0
+48741957109,"Alavas: Alavas",-15.89046,167.24151,1390,below,andanit,andanit,,-laŋalgaðɛn,,,0
+48741957109,"Alavas: Alavas",-15.89046,167.24151,1410,in,insaed,insaed,,-lalalon,,,0

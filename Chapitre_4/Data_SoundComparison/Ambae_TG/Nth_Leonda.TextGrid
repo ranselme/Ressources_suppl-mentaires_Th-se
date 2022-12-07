@@ -1,0 +1,90 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 6.9255102040816325 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "rhotic" 
+        xmin = 0 
+        xmax = 6.9255102040816325 
+        intervals: size = 19 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.12203949914298313 
+            text = "" 
+        intervals [2]:
+            xmin = 0.12203949914298313 
+            xmax = 0.16465577228601605 
+            text = "tap" 
+        intervals [3]:
+            xmin = 0.16465577228601605 
+            xmax = 1.3309662336834613 
+            text = "" 
+        intervals [4]:
+            xmin = 1.3309662336834613 
+            xmax = 1.4316288099006254 
+            text = "trill_3" 
+        intervals [5]:
+            xmin = 1.4316288099006254 
+            xmax = 2.3404483589018423 
+            text = "" 
+        intervals [6]:
+            xmin = 2.3404483589018423 
+            xmax = 2.376451762074405 
+            text = "tap" 
+        intervals [7]:
+            xmin = 2.376451762074405 
+            xmax = 3.080201245234244 
+            text = "" 
+        intervals [8]:
+            xmin = 3.080201245234244 
+            xmax = 3.1544123415695258 
+            text = "trill_2" 
+        intervals [9]:
+            xmin = 3.1544123415695258 
+            xmax = 3.5984504495255694 
+            text = "" 
+        intervals [10]:
+            xmin = 3.5984504495255694 
+            xmax = 3.6866220491318438 
+            text = "trill_2" 
+        intervals [11]:
+            xmin = 3.6866220491318438 
+            xmax = 4.439691147722958 
+            text = "" 
+        intervals [12]:
+            xmin = 4.439691147722958 
+            xmax = 4.516106534048397 
+            text = "trill_2" 
+        intervals [13]:
+            xmin = 4.516106534048397 
+            xmax = 4.987805216380985 
+            text = "" 
+        intervals [14]:
+            xmin = 4.987805216380985 
+            xmax = 5.073037762667051 
+            text = "trill_2" 
+        intervals [15]:
+            xmin = 5.073037762667051 
+            xmax = 5.7902953875090235 
+            text = "" 
+        intervals [16]:
+            xmin = 5.7902953875090235 
+            xmax = 5.851280743903364 
+            text = "trill_2" 
+        intervals [17]:
+            xmin = 5.851280743903364 
+            xmax = 6.348356223092447 
+            text = "" 
+        intervals [18]:
+            xmin = 6.348356223092447 
+            xmax = 6.419628266107519 
+            text = "trill_2" 
+        intervals [19]:
+            xmin = 6.419628266107519 
+            xmax = 6.9255102040816325 
+            text = "" 

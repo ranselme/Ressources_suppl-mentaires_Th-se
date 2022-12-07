@@ -1,0 +1,114 @@
+﻿LanguageId,LanguageName,Latitude,Longitude,WordId,WordModernName1,WordModernName2,WordProtoName1,WordProtoName2,Phonetic,SpellingAltv1,SpellingAltv2,NotCognateWithMainWordInThisFamily
+12002000001,"Classical Latin",41.8922,12.4852,7330,fast,,rapidum,,ˈrapɪdʊ̃,rapidum,,0
+12111200008,"Port.: Portugal N. acc.",41.3,-7.75,7330,fast,,rapidum,,ˈʁaːpiðʊ,,,0
+12111330008,"Port.: Std Lisbon acc.",38.71667,-9.16667,7330,fast,,rapidum,,ˈχaˑpĭdu,rápido,,0
+12111653507,"Port.: Mozambique acc.",-19.11667,33.45,7330,fast,,rapidum,,ˈraˑpĭd˳u̟,,,0
+12111824907,"Port.: Brazil: Natal",-5.78333,-35.2,7330,fast,,rapidum,,ˈɦaˑpĭdʊ,,,0
+12111838507,"Port.: Brazil: Pará",-1.71778,-48.88278,7330,fast,,rapidum,,ˈhaːpɪ̆dʊ,,,0
+12111865207,"Port.: Brazil: Goiânia",-16.66667,-49.25,7330,fast,,rapidum,,ˈha̝̠pɨ̆dʊ̆,,,0
+12111875507,"Port.: Brazil: Brasilia",-15.79913,-47.86597,7330,fast,,rapidum,,ˈha̠ːpɪ̆du̟,,,0
+12121120229,"Galician: Foz",43.55,-7.3,7330,fast,,rapidum,,ˈraˑpĭðo̟,rápido,,0
+12121130129,Galician-Asturian,43.56667,-6.95,7330,fast,,rapidum,,ˈɹapiðo̟,,,0
+12121220008,"Asturian: Normative",43.36311,-5.84404,7330,fast,,rapidum,,ˈrɐpiðʊ,,,0
+12121550009,Mirandese,41.49556,-6.27388,7330,fast,,rapidum,,ˈr̝ɑ̝ˑpɪ̠̆ðŏ,"rápido (*)",,0
+12131120508,"Spanish Std: Burgos",42.35,-3.7,7330,fast,,rapidum,,ˈrˠɐpĭð̞ɔ̝,rápido,,0
+12131782407,"Spanish: Stgo del Estero",-27.78333,-64.26667,7330,fast,,rapidum,,ˈz̺ɐˑpɪ̆ð̞ö̆,,,0
+12131784807,"Spanish: Buenos Aires",-34.59972,-58.38194,7330,fast,,rapidum,,ˈɹ̥ɐˑpi̠ð̞ɔ̟,,,0
+12131915509,"Spanish: Creole: Chabacano",14.48328,120.89885,7330,fast,,rapidum,,ˈra̝pɪ̠dʊ̆,,,0
+12141230509,"Catalan Trans: Morella",40.61917,0.10056,7330,fast,,rapidum,,ˈ˳ɾaˑpiˑtʰ,,,0
+12141360509,"Catalan NW: Vall de Boí",42.50472,0.80361,7330,fast,,rapidum,,ˈra̟ˑpit,,,0
+12141380509,"Catalan NW: Andorra",42.55833,1.55528,7330,fast,,rapidum,,ˈɹ̝̥aˑpiˑt,,,0
+12141430509,"Catalan Ctl: Valls",41.28833,1.25194,7330,fast,,rapidum,,ˈrˠɐˑpitʰ,,,0
+12141460509,"Catalan Ctl: Granollers",41.60833,2.28889,7330,fast,,rapidum,,ˈrɐpɪt˺,,,0
+12141560509,"Catalan N: Perpignan",42.6986,2.8956,7330,fast,,rapidum,,ˈrˠapĭtʰ,ràpid,,0
+12141640507,"Catalan Std: Palma acc.",39.57139,2.65167,7330,fast,,rapidum,,ˈra̝ːpiˑt̪ʰ,ràpid,,0
+12141640509,"Catalan Isl: Palma",39.57139,2.65167,7330,fast,,rapidum,,ˈraːpiˑt̪ʰ,,,0
+12211107409,"Gallo: Janzé",47.96139,-1.49778,7330,fast,,rapidum,,ˈʁɐpid,,,0
+12211107409,"Gallo: Janzé",47.96139,-1.49778,7330,fast,,rapidum,,ɘ̆ˌtsʉɹɨ̆ɣʊˈtɕjoˑ,,,1
+12211222909,"Norman: St-Vaast",49.5886,-1.2661,7330,fast,,rapidum,,ʕa̠ˈpʰidɘ̆,,,0
+12211223209,"Norman: Les Pieux",49.5139,-1.8067,7330,fast,,rapidum,,ˈχɐpʰĭd˳,,,0
+12211224209,"Norman: Sénoville",49.4342,-1.7792,7330,fast,,rapidum,,χɑˈpɪd,,,0
+12211224609,"Norman: Orglandes",49.4225,-1.4481,7330,fast,,rapidum,,ˈχapɪd,,,0
+12211225109,"Norman: Carteret",49.38111,-1.75278,7330,fast,,rapidum,,χəˈpʰiˑdɘ,,,0
+12211318309,"Picard: Montreuil",50.46482,1.76301,7330,fast,,rapidum,,ʁaˑt̪θ,,,1
+12211436209,"Walloon: Clavier",50.383,5.33,7330,fast,,rapidum,,vi̠tʰ,"** vite",,1
+12211500107,"French Std: Paris Acc.",48.8567,2.3508,7330,fast,,rapidum,,χɜˈpidɘ̆,rapide,,0
+12211500707,"French Std: Perpignan Acc.",42.6986,2.8956,7330,fast,,rapidum,,χa̝ˈpiˑdɘ,,,0
+12211787409,"Welche: Fréland",48.17058,7.19351,7330,fast,,rapidum,,lɜ̆ˈpiˑtʰ,,,0
+12211788409,"Welche: Labaroche",48.11018,7.19253,7330,fast,,rapidum,,χɐˈpʰiːtʰ,,,0
+12211788409,"Welche: Labaroche",48.11018,7.19253,7330,fast,,rapidum,,leˑst̪ʰ,,,1
+12231145509,"Gascon: Béarn",43.3,-0.3667,7330,fast,,rapidum,,..,,,0
+12231155509,"Gascon: Val d’Aran",42.735,0.79528,7330,fast,,rapidum,,ˈr̝a̝ˑpitʰ,rapid,,0
+12231247709,"Languedoc: Montpellier",43.60576,3.86652,7330,fast,,rapidum,,ˈʁɑpido̞,ràpid,,0
+12231336709,"Limousin: Hautefort",45.26028,1.14861,7330,fast,,rapidum,,ˈrˠɒpiˑðɛ,,,0
+12231420509,"Auvergne: Neschers",45.5911,3.1644,7330,fast,,rapidum,,ˈpʁɔ̃ntə̆,,,1
+12231572409,"Provençal Alpine: Valdese",44.88906,7.04986,7330,fast,,rapidum,,ɾɜ̆ˈpiddë,,,0
+12231615909,"Provençal: Lagnes",43.89417,5.11528,7330,fast,,rapidum,,ˈʁa̝piˑdo̟,,,0
+12271223309,"French: Quebec: Abitibi",48.56667,-78.11667,7330,fast,,rapidum,,ˈhɾæpɪdɘ̆,,,0
+12311598609,"FrPrv: Valaisan",46.1551,7.49771,7330,fast,,rapidum,,akˈkwettʰ,,,1
+12311614709,"FrPrv: Savoy: Chablaisien",46.24972,6.47333,7330,fast,,rapidum,,ʁɜ̆ˈpiːdo̟,,,0
+12311614709,"FrPrv: Savoy: Chablaisien",46.24972,6.47333,7330,fast,,rapidum,,ˈlɛ̝ˑstʰo̟,,,1
+12311735609,"FrPrv: Aosta: Roisan",45.80583,7.31117,7330,fast,,rapidum,,ˈɾaːpʰidɔ,,,1
+12311735609,"FrPrv: Aosta: Roisan",45.80583,7.31117,7330,fast,,rapidum,,v̥ɪ̆ˈɾo̞ːtʃɛ̝,,,0
+12311738609,"FrPrv: Aosta: Ayas",45.81334,7.69677,7330,fast,,rapidum,,lɛʃtʰ,,,1
+12321100008,"‘Rumansh Grischun’",46.85314,9.52693,7330,fast,,rapidum,,**,rapid,,0
+12321113209,"Romansh: Tuatschin",46.68855,8.76492,7330,fast,,rapidum,,ɾˠə̆ˈpi̠ˑt̪ʰ,,,0
+12321120008,"Romansh: Sursilvan",46.76892,8.94799,7330,fast,,rapidum,,ʀə̆ˈpi̠ːt̪ʰ,,,0
+12321120008,"Romansh: Sursilvan",46.76892,8.94799,7330,fast,,rapidum,,ʃpɛˑχt̪ʰ,,,1
+12321143509,"Romansh: Surmiran",46.60228,9.5965,7330,fast,,rapidum,,ʃpeˑr̝̥tʰ,,,1
+12321163609,"Romansh: Vallader",46.80946,10.07675,7330,fast,,rapidum,,ʒve̞ˑlɬtʰ,,,1
+12321210109,"Ladin: Dolomites",46.34,11.4,7330,fast,,rapidum,,dɘ̆ˈbɔˑttɐ̝,,,1
+12411113409,"Piedmont: Pianezza",45.10394,7.54483,7330,fast,,rapidum,,ˈɹ̝aˑpi̞dɘ̆,ràpid,,0
+12411113409,"Piedmont: Pianezza",45.10394,7.54483,7330,fast,,rapidum,,ˈlɛ̝ɪ̆stə̞,ràpid,,1
+12411230409,"Lombardy: Barlassina",45.65,9.13333,7330,fast,,rapidum,,zv˳e̞ːɬt̪ʰ,,,1
+12411281409,"Lombardy: Bregaglia",46.46667,9.65,7330,fast,,rapidum,,ʃvɛˑlt̪ʰ,,,1
+12411320209,"Lombardy: Gardone",45.68333,10.18333,7330,fast,,rapidum,,ˈɾaˑpiˑd̪̥ʰɘ̆,,,0
+12411320309,"Lombardy: Lumezzane",45.65,10.26667,7330,fast,,rapidum,,ˈʁ̞a̝̠pĭ̠ð̞ö,,,0
+12411416409,"Trentino: Albiano",46.14487,11.19412,7330,fast,,rapidum,,ˈɾa̠ːpiˑtʰ,,,0
+12411438209,"Veneto: Belluno",46.16565,12.39165,7330,fast,,rapidum,,zvɛ̞ˑlt̪ʰ,,,1
+12411460509,"Venice (city)",45.4375,12.33583,7330,fast,,rapidum,,ˈɹaːpʰɪd˳o̟,,,0
+12411460509,"Venice (city)",45.4375,12.33583,7330,fast,,rapidum,,ˈzvɛˑltʰö̆,,,1
+12411565509,"Trieste (city)",45.65144,13.76756,7330,fast,,rapidum,,ˈzveˑlɬtʰɔ̝̟,,,1
+12411773509,"Bologna (city)",44.50116,11.34264,7330,fast,,rapidum,,ˈʁaːpidə,,,0
+12421001007,"Italian Std: Romagna acc.",44.17105,11.94742,7330,fast,,rapidum,,ˈɾa̟ˑpĭdö̰,rapido,,0
+12421002007,"Italian Std: Tuscany acc.",43.87988,11.09711,7330,fast,,rapidum,,[ə]ˈɾa̝ˑφɪðö,,,0
+12421004007,"Italian Std: Naples acc.",40.83585,14.2501,7330,fast,,rapidum,,ˈraˑpĭ̠do,,,0
+12421305509,"Florence (city)",43.78333,11.25,7330,fast,,rapidum,,ˈɾaːpʰĭdo̟,,,0
+12431213609,"Marche: Sassoferrato",43.42747,12.85652,7330,fast,,rapidum,,ˈɾaːpiðɔ̝,,,0
+12441147309,"Abruzzi E.: Chieti",42.26667,14.3,7330,fast,,rapidum,,..,,,0
+12441252809,"Molise: Guglionesi",41.91667,14.91667,7330,fast,,rapidum,,ˈɾa̟ːpədə,,,0
+12441332109,"Puglia: Canosa",41.21667,16.06667,7330,fast,,rapidum,,ˈleˑstsə,,,1
+12441424609,"Naples (city)",40.83333,14.25,7330,fast,,rapidum,,vɘ̆ˈloːʃə,,,1
+12441436309,"Campania: Montella",40.85,15.01667,7330,fast,,rapidum,,ˈrɹa̠ˑpɪdo̞,,,0
+12441448509,"Campania: Santa Marina",40.1,15.55,7330,fast,,rapidum,,ˈvjeˑt̪t̪ʰɐ̠,,,1
+12441533309,"Lucano: Castelmezzano",40.53333,16.05,7330,fast,,rapidum,,və̆ˈlˠoˑtʃ,,,1
+12441545709,"Calabria Lausb.: Oriolo",40.05,16.45,7330,fast,,rapidum,,ˈʰɾaˑpə̆ðə̤,,,0
+12441545709,"Calabria Lausb.: Oriolo",40.05,16.45,7330,fast,,rapidum,,ˌpɾɪ̆st̪ɘ̆ˈ,,,1
+12441557109,"Calabria N.: Cetraro",39.5,15.95,7330,fast,,rapidum,,ˈzvɛ̞ˑlt̪ʰo̞,,,1
+12451122209,"Salento C.: Squinzano",40.43333,18.05,7330,fast,,rapidum,,ˈɹ̝a̝ˑpidö,,,0
+12451134509,"Salento S.: Ruffano",39.98333,18.25,7330,fast,,rapidum,,fŭ̟ˈʃĕɛ̞nnʊ,,,1
+12451220809,"Calabria S.: Cropani",38.96667,16.78333,7330,fast,,rapidum,,ˈlˠestʰʊ̆,,,1
+12451220809,"Calabria S.: Cropani",38.96667,16.78333,7330,fast,,rapidum,,ʔˈlˠestʰʊ̆,,,1
+12451311609,"Sicily: Palermo",38.11555,13.36139,7330,fast,,rapidum,,ˈzvje̞ˑtto,,,1
+12451316509,"Sicily W.: Sciacca",37.50917,13.08889,7330,fast,,rapidum,,ˈʒvɛ̝ˑlt̪ʰʊ̆,,,1
+12451322609,"Sicily C.: Mussomeli",37.58333,13.75,7330,fast,,rapidum,,ˈlɛ̞ˑstʰo̟,,,1
+12451345709,"Sicily E.: Catania",37.50267,15.08727,7330,fast,,rapidum,,ˈlˠeˑstʊ̆,,,1
+12461130159,"Corsica: Bastia",42.7008,9.4503,7330,fast,,rapidum,,ˈrɐːβĭ̠du,,,0
+12461131569,"Corsica: Corte",42.30556,9.14418,7330,fast,,rapidum,,ˈlɪˑɕtʰʊ̆,,,1
+12461150509,"Corsica: Bastelica",42.00339,9.04086,7330,fast,,rapidum,,ˈʕaˑppidʊ,,,0
+12461151709,"Corsica: Conca",41.7357,9.33579,7330,fast,,rapidum,,ˈlɛ̝stχʊ̆,,,1
+12461170509,"North Sard.: Luogo Santo",41.04966,9.20626,7330,fast,,rapidum,,ˈlɛ̝stʰɾo,,,1
+12461260509,"North Sard.: Sorso",40.79932,8.57557,7330,fast,,rapidum,,vɛ̝ˈlɔːtʃe,,,1
+12461310859,"Sardinian N.: Monti",40.80489,9.32144,7330,fast,,rapidum,,ˈlɪˑst̪ʰɾˠʊ,,,1
+12461321859,"Sardinian C.: Ghilarza",40.12425,8.83816,7330,fast,,rapidum,,ˈlˠe̠ˑstʰɾˠʊ,,,1
+12461410509,"Sardinian NW.: Nuoro",40.3202,9.32608,7330,fast,,rapidum,,ˈleˑs̠tʰʊ̟̆ɾʊ,,,1
+12461550509,"Sardinian CR: Selargius",39.25984,9.16194,7330,fast,,rapidum,,ˈlɪˑst,,,1
+12461570269,"Sardinian CS: Gonnesa",39.26729,8.47003,7330,fast,,rapidum,,ˈlestʊ̆,,,1
+12481603109,"Italy: N. in S.: Picerno",40.63333,15.63333,7330,fast,,rapidum,,ˈʒβeˑɬt̪ʰɘ̆,,,1
+12481604209,"Italy: N. in S.: Tito",40.58333,15.68333,7330,fast,,rapidum,,ˈʒveˑɬtʊ̟̆,,,1
+12481609109,"Italy: N. in S.: Rivello",40.08333,15.76667,7330,fast,,rapidum,,ˈpɾjestʰə,,,1
+12481801609,"Italy: N. in S.: San Fratello",38.01667,14.6,7330,fast,,rapidum,,ˈʒveɐ̟lˠtʰ,,,1
+12511162509,"Romanian: N.: Maramureș",47.67694,24.23444,7330,fast,,rapidum,,ɹ̰ɜˑˈpɪːdɘ̆,rapid,,0
+12511183209,"Romanian: N.: Moldovenesc",47.26444,25.76,7330,fast,,rapidum,,ˈɹa̝ˑpɪ̆dɪ,,,0
+12511212609,"Romanian: Itm: Hunedoara",45.33639,23.1525,7330,fast,,rapidum,,ɹa̝ˑˈpiːd̪̥,,,0
+12521405509,"Istro-Romanian:  Žejane",45.44056,14.19444,7330,fast,,rapidum,,ˈnʌːɣɘ̠ɫ,,,1

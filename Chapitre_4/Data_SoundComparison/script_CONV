@@ -1,0 +1,5 @@
+#!/bin/bash
+for file in *.ogg; do
+   ffmpeg -i "${file}" "${file%.ogg}".wav
+done
+

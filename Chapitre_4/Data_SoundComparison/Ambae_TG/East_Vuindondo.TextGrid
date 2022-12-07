@@ -1,0 +1,90 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 7.656938775510204 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "rhotic" 
+        xmin = 0 
+        xmax = 7.656938775510204 
+        intervals: size = 19 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.24706358912527102 
+            text = "" 
+        intervals [2]:
+            xmin = 0.24706358912527102 
+            xmax = 0.28496580696498786 
+            text = "tap" 
+        intervals [3]:
+            xmin = 0.28496580696498786 
+            xmax = 1.2992021458971263 
+            text = "" 
+        intervals [4]:
+            xmin = 1.2992021458971263 
+            xmax = 1.3563470281785457 
+            text = "tap" 
+        intervals [5]:
+            xmin = 1.3563470281785457 
+            xmax = 2.4084852571651014 
+            text = "" 
+        intervals [6]:
+            xmin = 2.4084852571651014 
+            xmax = 2.4650470284028327 
+            text = "tap" 
+        intervals [7]:
+            xmin = 2.4650470284028327 
+            xmax = 3.251311186363013 
+            text = "" 
+        intervals [8]:
+            xmin = 3.251311186363013 
+            xmax = 3.297376958814361 
+            text = "tap" 
+        intervals [9]:
+            xmin = 3.297376958814361 
+            xmax = 4.0166318209704865 
+            text = "" 
+        intervals [10]:
+            xmin = 4.0166318209704865 
+            xmax = 4.064446926552899 
+            text = "tap" 
+        intervals [11]:
+            xmin = 4.064446926552899 
+            xmax = 5.07332587131141 
+            text = "" 
+        intervals [12]:
+            xmin = 5.07332587131141 
+            xmax = 5.146797862816092 
+            text = "tap" 
+        intervals [13]:
+            xmin = 5.146797862816092 
+            xmax = 5.824736998540778 
+            text = "" 
+        intervals [14]:
+            xmin = 5.824736998540778 
+            xmax = 5.871385882035814 
+            text = "app" 
+        intervals [15]:
+            xmin = 5.871385882035814 
+            xmax = 6.802443684941131 
+            text = "" 
+        intervals [16]:
+            xmin = 6.802443684941131 
+            xmax = 6.83976279173716 
+            text = "tap" 
+        intervals [17]:
+            xmin = 6.83976279173716 
+            xmax = 7.195873433351454 
+            text = "" 
+        intervals [18]:
+            xmin = 7.195873433351454 
+            xmax = 7.258266315026066 
+            text = "tap" 
+        intervals [19]:
+            xmin = 7.258266315026066 
+            xmax = 7.656938775510204 
+            text = "" 

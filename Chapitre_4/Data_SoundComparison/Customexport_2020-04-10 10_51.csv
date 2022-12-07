@@ -1,0 +1,115 @@
+﻿LanguageId,LanguageName,Latitude,Longitude,WordId,WordModernName1,WordModernName2,WordProtoName1,WordProtoName2,Phonetic,SpellingAltv1,SpellingAltv2,NotCognateWithMainWordInThisFamily
+12002000001,"Classical Latin",41.8922,12.4852,8490,let_us_hope,,speramus,,speːˈraːmʊs,spērāmus,,0
+12121120229,"Galician: Foz",43.55,-7.3,8490,let_us_hope,,speramus,,ʃpë̆ˈɾa̠mo̞s̺,esperamos,,0
+12121130129,Galician-Asturian,43.56667,-6.95,8490,let_us_hope,,speramus,,ʔĕs̺pɛ̆ˈɾaˑmo̞s̺,,,0
+12121220008,"Asturian: Normative",43.36311,-5.84404,8490,let_us_hope,,speramus,,hĕ̞spɛ̆ˈɾa̝ˑmɔˑs̺,,,0
+12121550009,Mirandese,41.49556,-6.27388,8490,let_us_hope,,speramus,,s̺pə̆ˈɾɐˑmʊs̺,spramos,,0
+12111330008,"Port.: Std Lisbon acc.",38.71667,-9.16667,8490,let_us_hope,,speramus,,ʃpɘ̆ˈɾ̠ɛˑmuʃ,esperamos,,0
+12111200008,"Port.: Portugal N. acc.",41.3,-7.75,8490,let_us_hope,,speramus,,ʃ̩ˈpɾɛ̞ˑmũs̺,,,0
+12131120508,"Spanish Std: Burgos",42.35,-3.7,8490,let_us_hope,,speramus,,ĕspĕˈɾaˑmo̞s̺,esperamos,,0
+12141640507,"Catalan Std: Palma acc.",39.57139,2.65167,8490,let_us_hope,,speramus,,ɛ̠̆spɜˈɾɜːm,"esperem (Bal. -am)",,0
+12141640507,"Catalan Std: Palma acc.",39.57139,2.65167,8490,let_us_hope,,speramus,,ə̆spɜˈɾa̝ːm,"esperem (Bal. -am)",,0
+12141230509,"Catalan Trans: Morella",40.61917,0.10056,8490,let_us_hope,,speramus,,ĕspĕ̠ˈɾeˑm,,,0
+12141360509,"Catalan NW: Vall de Boí",42.50472,0.80361,8490,let_us_hope,,speramus,,ĕ̝spe̠ˈɾeˑm,,,0
+12141430509,"Catalan Ctl: Valls",41.28833,1.25194,8490,let_us_hope,,speramus,,ɛ̠̆spəˈɾe̞ˑm,,,0
+12141460509,"Catalan Ctl: Granollers",41.60833,2.28889,8490,let_us_hope,,speramus,,ɛ̠̆spɜ̆ˈɾɛm,,,0
+12141380509,"Catalan NW: Andorra",42.55833,1.55528,8490,let_us_hope,,speramus,,ɘ̆spɘˈɾe̠̞m,,,0
+12141560509,"Catalan N: Perpignan",42.6986,2.8956,8490,let_us_hope,,speramus,,ɘ̆spə̟ˈɾe̠ˑm,esperem,,0
+12141640509,"Catalan Isl: Palma",39.57139,2.65167,8490,let_us_hope,,speramus,,ɛ̠spɜˈɾaːm,,,0
+12211500107,"French Std: Paris Acc.",48.8567,2.3508,8490,let_us_hope,,speramus,,ḛ̆speˈʁ̃õ,espérons,,0
+12211222909,"Norman: St-Vaast",49.5886,-1.2661,8490,let_us_hope,,speramus,,e̠speˈχʊ̃ː,,,0
+12211223209,"Norman: Les Pieux",49.5139,-1.8067,8490,let_us_hope,,speramus,,hë̆spʰə̆ˈʁ̞õː,,,0
+12211224209,"Norman: Sénoville",49.4342,-1.7792,8490,let_us_hope,,speramus,,ʔɛ̈spɛ̠ˈɰɐːʊ̆,,,0
+12211224209,"Norman: Sénoville",49.4342,-1.7792,8490,let_us_hope,,speramus,,ʔəspɛ̠ˈɐː,,,0
+12211224609,"Norman: Orglandes",49.4225,-1.4481,8490,let_us_hope,,speramus,,ĕ̞spɜ̆ˈɦã̠,,,0
+12211225109,"Norman: Carteret",49.38111,-1.75278,8490,let_us_hope,,speramus,,ʔɘ̆spe̠ˈʁ̞õˑ,,,0
+12211318309,"Picard: Montreuil",50.46482,1.76301,8490,let_us_hope,,speramus,,ʔe̠spe̠ˈʁ̞ɔ̃ː,,,0
+12211436209,"Walloon: Clavier",50.383,5.33,8490,let_us_hope,,speramus,,ʔë̆spëˈʁ̞õː,èspèrons,,0
+12211107409,"Gallo: Janzé",47.96139,-1.49778,8490,let_us_hope,,speramus,,ɘ̆spʰɘ̆ˈɾõː,,,0
+12211787409,"Welche: Fréland",48.17058,7.19351,8490,let_us_hope,,speramus,,ʔespe̠ˈʁ̞ɔː,,,0
+12211788409,"Welche: Labaroche",48.11018,7.19253,8490,let_us_hope,,speramus,,ʔe̞speˈʁoˑ,,,0
+12211500707,"French Std: Perpignan Acc.",42.6986,2.8956,8490,let_us_hope,,speramus,,ĕspeˈʁo̞ˑ˜,,,0
+12231145509,"Gascon: Béarn",43.3,-0.3667,8490,let_us_hope,,speramus,,ĕspeˈɾeˑm,,,0
+12231145509,"Gascon: Béarn",43.3,-0.3667,8490,let_us_hope,,speramus,,ĕspeˈɾa̝m,,,0
+12231155509,"Gascon: Val d’Aran",42.735,0.79528,8490,let_us_hope,,speramus,,e̠spe̠ˈɾaˑm,esperam,,0
+12231336709,"Limousin: Hautefort",45.26028,1.14861,8490,let_us_hope,,speramus,,ʔespe̠ˈɾɔˑm,,,0
+12231420509,"Auvergne: Neschers",45.5911,3.1644,8490,let_us_hope,,speramus,,swʌ̆ˈtɛ̞̃ˑ,,,0
+12231247709,"Languedoc: Montpellier",43.60576,3.86652,8490,let_us_hope,,speramus,,ĕspeˈʁʊŋ,esperem,,0
+12231615909,"Provençal: Lagnes",43.89417,5.11528,8490,let_us_hope,,speramus,,ĕ̠speˈʁɛ̞ˑŋ,,,0
+12271223309,"French: Quebec: Abitibi",48.56667,-78.11667,8490,let_us_hope,,speramus,,ʔɛspëˈɾɔ,,,0
+12311598609,"FrPrv: Valaisan",46.1551,7.49771,8490,let_us_hope,,speramus,,ɛ̆spɛ̈ˈɾɛ̝ˑŋ,,,0
+12311614709,"FrPrv: Savoy: Chablaisien",46.24972,6.47333,8490,let_us_hope,,speramus,,ʔĕspeˈɾɐ̟ˑ,,,0
+12311735609,"FrPrv: Aosta: Roisan",45.80583,7.31117,8490,let_us_hope,,speramus,,ˈspeːɜ̆̃ŋ,,,0
+12311738609,"FrPrv: Aosta: Ayas",45.81334,7.69677,8490,let_us_hope,,speramus,,ĕ̠ʃpe̠ˈɾɛˑŋ,,,0
+12321100008,"‘Rumansh Grischun’",46.85314,9.52693,8490,let_us_hope,,speramus,,**,sperain,,0
+12321113209,"Romansh: Tuatschin",46.68855,8.76492,8490,let_us_hope,,speramus,,ʃpe̠ˈɾˠaˑɪn,,,0
+12321120008,"Romansh: Sursilvan",46.76892,8.94799,8490,let_us_hope,,speramus,,ʃpə̟ˈʀa̠ˑɪn,,,0
+12321143509,"Romansh: Surmiran",46.60228,9.5965,8490,let_us_hope,,speramus,,ʃpe̠ˈɾaˑɲ,,,0
+12321163609,"Romansh: Vallader",46.80946,10.07675,8490,let_us_hope,,speramus,,ɕpe̠ˈɾa̠ˑɪn,,,0
+12321210109,"Ladin: Dolomites",46.34,11.4,8490,let_us_hope,,speramus,,ʃpəˈʁʊˑn,,,0
+12421001007,"Italian Std: Romagna acc.",44.17105,11.94742,8490,let_us_hope,,speramus,,spe̞ˈɾja̰ːm̰ö̰,speriamo,,0
+12421002007,"Italian Std: Tuscany acc.",43.87988,11.09711,8490,let_us_hope,,speramus,,speˈɾja̝̤ˑm̤ŏ̤,,,0
+12421004007,"Italian Std: Naples acc.",40.83585,14.2501,8490,let_us_hope,,speramus,,spĕˈɾjaːmo,,,0
+12231572409,"Provençal Alpine: Valdese",44.88906,7.04986,8490,let_us_hope,,speramus,,ˈs̠pɾʊˑmmɐ,,,0
+12411113409,"Piedmont: Pianezza",45.10394,7.54483,8490,let_us_hope,,speramus,,spɛ̠ˈɹʊːma,speroma,,0
+12411281409,"Lombardy: Bregaglia",46.46667,9.65,8490,let_us_hope,,speramus,,spɐˈɾeˑm,,,0
+12411230409,"Lombardy: Barlassina",45.65,9.13333,8490,let_us_hope,,speramus,,ʔesˈpeːə̆ɾa̝,,,0
+12411320209,"Lombardy: Gardone",45.68333,10.18333,8490,let_us_hope,,speramus,,hpe̞ˈɾoˑm,,,0
+12411320309,"Lombardy: Lumezzane",45.65,10.26667,8490,let_us_hope,,speramus,,pɛˈʁ̞oˑm,,,0
+12411460509,"Venice (city)",45.4375,12.33583,8490,let_us_hope,,speramus,,spe̞ˈɾeːmo,,,0
+12411416409,"Trentino: Albiano",46.14487,11.19412,8490,let_us_hope,,speramus,,spɘ̝ˈɾeːnte̠,,,0
+12411416409,"Trentino: Albiano",46.14487,11.19412,8490,let_us_hope,,speramus,,spe̠ˈɾe̝ːnnə,,,0
+12411438209,"Veneto: Belluno",46.16565,12.39165,8490,let_us_hope,,speramus,,spɘ̟ˈɾõˑŋ,,,0
+12411565509,"Trieste (city)",45.65144,13.76756,8490,let_us_hope,,speramus,,spɛ̝ˈɾe̝ːmɔ̟̃,,,0
+12411647509,"Liguria: Cicagna",44.40984,9.23808,8490,let_us_hope,,speramus,,speˈɾɛ̞ˑmmo,,,0
+12411773509,"Bologna (city)",44.50116,11.34264,8490,let_us_hope,,speramus,,spe̠ˈʁ̞ɛ̝̃ˑŋ,,,0
+12441147309,"Abruzzi E.: Chieti",42.26667,14.3,8490,let_us_hope,,speramus,,spĕ̠ɾi̠ˈa̝ˑmə̥̆,,,0
+12441252809,"Molise: Guglionesi",41.91667,14.91667,8490,let_us_hope,,speramus,,spɛ̝ˈɾjæˑmə̥,,,0
+12441332109,"Puglia: Canosa",41.21667,16.06667,8490,let_us_hope,,speramus,,spɾĭˈe̞ːmə,,,0
+12451122209,"Salento C.: Squinzano",40.43333,18.05,8490,let_us_hope,,speramus,,speˑˈɹ̝jãˑmö,,,0
+12451134509,"Salento S.: Ruffano",39.98333,18.25,8490,let_us_hope,,speramus,,speˈɾjaˑmo,,,0
+12441424609,"Naples (city)",40.83333,14.25,8490,let_us_hope,,speramus,,ʃpə̆ˈɾa̠ˑmmɜ,,,0
+12441436309,"Campania: Montella",40.85,15.01667,8490,let_us_hope,,speramus,,ɕpɪ̆ɾiˈja̝̠ːmo̝,,,0
+12441448509,"Campania: Santa Marina",40.1,15.55,8490,let_us_hope,,speramus,,ʃpɪ̆ˈɾa̠ːmo,,,0
+12441533309,"Lucano: Castelmezzano",40.53333,16.05,8490,let_us_hope,,speramus,,spɛ̝ˈɹ̝ja̟ˑmö̥̆,,,0
+12441545709,"Calabria Lausb.: Oriolo",40.05,16.45,8490,let_us_hope,,speramus,,spɛˈɾjæˑm̥,,,0
+12441557109,"Calabria N.: Cetraro",39.5,15.95,8490,let_us_hope,,speramus,,spɛ̠ˈɾa̠ːmo,,,0
+12451220809,"Calabria S.: Cropani",38.96667,16.78333,8490,let_us_hope,,speramus,,ʃpɛˈɾa̠ːmŏ,,,0
+12481603109,"Italy: N. in S.: Picerno",40.63333,15.63333,8490,let_us_hope,,speramus,,ʃpʰə̆ˈɾe̞ˑmmə̆,,,0
+12481604209,"Italy: N. in S.: Tito",40.58333,15.68333,8490,let_us_hope,,speramus,,ʃpə̆ɹɪˈa̟ˑmö̤,,,0
+12481608109,"Italy: N. in S.: Trecchina",40.03333,15.76667,8490,let_us_hope,,speramus,,spëˈɾaːmo,,,0
+12481609109,"Italy: N. in S.: Rivello",40.08333,15.76667,8490,let_us_hope,,speramus,,ʃpə̆ˈɾaˑmmə̰̆,,,0
+12481801609,"Italy: N. in S.: San Fratello",38.01667,14.6,8490,let_us_hope,,speramus,,ɕpɘ̆ˈɾwɔ̟ˑmɜ,,,0
+12481801809,"Italy: N. in S.: Novara",38.01667,15.13333,8490,let_us_hope,,speramus,,spə̆ˈɹ̠ɐˑmʊ̤̆,,,0
+12451311609,"Sicily: Palermo",38.11555,13.36139,8490,let_us_hope,,speramus,,spiˈɾa̝̠ːmʊ,,,0
+12451322609,"Sicily C.: Mussomeli",37.58333,13.75,8490,let_us_hope,,speramus,,spe̠ˈɾja̠ˑmo,,,0
+12451316509,"Sicily W.: Sciacca",37.50917,13.08889,8490,let_us_hope,,speramus,,ʃpĭˈɹa̟ˑmʊ̆,,,0
+12451345709,"Sicily E.: Catania",37.50267,15.08727,8490,let_us_hope,,speramus,,spə̆ˈɾaːm̥ʊ̥̆,,,0
+12461130159,"Corsica: Bastia",42.7008,9.4503,8490,let_us_hope,,speramus,,spɛˈɾɛ̝ˑmʊ,,,0
+12461131569,"Corsica: Corte",42.30556,9.14418,8490,let_us_hope,,speramus,,speˈɹ̝eːmˑŭ,,,0
+12461150509,"Corsica: Bastelica",42.00339,9.04086,8490,let_us_hope,,speramus,,spʰɪˈɣe̞ːmʊ,,,0
+12461150509,"Corsica: Bastelica",42.00339,9.04086,8490,let_us_hope,,speramus,,bχaˈmeːmʊ,,,1
+12461151709,"Corsica: Conca",41.7357,9.33579,8490,let_us_hope,,speramus,,spʰɪ̆ˈʁɛ̝ˑmʊ,,,0
+12461170509,"North Sard.: Luogo Santo",41.04966,9.20626,8490,let_us_hope,,speramus,,spiˑˈɾe̞ːmo̞,,,0
+12461260509,"North Sard.: Sorso",40.79932,8.57557,8490,let_us_hope,,speramus,,speˈɾjaːmŏ̤,,,0
+12461260509,"North Sard.: Sorso",40.79932,8.57557,8490,let_us_hope,,speramus,,ippɪˈɾe̞ːmˑʊ̆,,,0
+12461410509,"Sardinian NW.: Nuoro",40.3202,9.32608,8490,let_us_hope,,speramus,,ispe̠ˈɾeːmʊ̞s̠,,,0
+12461310859,"Sardinian N.: Monti",40.80489,9.32144,8490,let_us_hope,,speramus,,s̟pɛˑˈɾaːmʊzʊ,,,0
+12461321859,"Sardinian C.: Ghilarza",40.12425,8.83816,8490,let_us_hope,,speramus,,ɪ̠̆spɛ̆ˈɾa̟ˑmmoz̺ə̠̆,,,0
+12461321859,"Sardinian C.: Ghilarza",40.12425,8.83816,8490,let_us_hope,,speramus,,ɪ̆spĕ̠ˈɾeˑmmoz̺ʊ,,,0
+12461550509,"Sardinian CR: Selargius",39.25984,9.16194,8490,let_us_hope,,speramus,,speˈɾɪˑɘ̠ˑzɘ,,,0
+12461570269,"Sardinian CS: Gonnesa",39.26729,8.47003,8490,let_us_hope,,speramus,,spɛˈɾaːozʊ,,,0
+12521405509,"Istro-Romanian:  Žejane",45.44056,14.19444,8490,let_us_hope,,speramus,,nɐ̟nɐ̟dˈdɛ̞ˑɪ̆mə̆,,,1
+12511162509,"Romanian: N.: Maramureș",47.67694,24.23444,8490,let_us_hope,,speramus,,spëˑˈɾə̟ːm,sperăm,,0
+12511183209,"Romanian: N.: Moldovenesc",47.26444,25.76,8490,let_us_hope,,speramus,,speɾɨˈa̝ˑm,,,0
+12511212609,"Romanian: Itm: Hunedoara",45.33639,23.1525,8490,let_us_hope,,speramus,,spɛ̝ˑˈɾɜːm,,,0
+12111838507,"Port.: Brazil: Pará",-1.71778,-48.88278,8490,let_us_hope,,speramus,,ĕʃpʰe̞ˑˈɾɜ̃ːmʊʃ,,,0
+12111824907,"Port.: Brazil: Natal",-5.78333,-35.2,8490,let_us_hope,,speramus,,˷espɛˑˈɾɐ̃ːmʊs,,,0
+12111875507,"Port.: Brazil: Brasilia",-15.79913,-47.86597,8490,let_us_hope,,speramus,,ɨ̆speˑˈɾãːmu̟s,,,0
+12111865207,"Port.: Brazil: Goiânia",-16.66667,-49.25,8490,let_us_hope,,speramus,,ʔe̠spe̠ˈɾɜˑmʊ̰̆s,,,0
+12111653507,"Port.: Mozambique acc.",-19.11667,33.45,8490,let_us_hope,,speramus,,ɪʃpe̠ˈɽeˑmʊs̺,,,0
+12131784807,"Spanish: Buenos Aires",-34.59972,-58.38194,8490,let_us_hope,,speramus,,espe̠ˈɾaˑmos,,,0
+12131782407,"Spanish: Stgo del Estero",-27.78333,-64.26667,8490,let_us_hope,,speramus,,ɪ̆hpĕ̠ˈɾɐˑmŏ̤,,,0
+12131915509,"Spanish: Creole: Chabacano",14.48328,120.89885,8490,let_us_hope,,speramus,,ɪ̠̆s̪pɘˈɾaˑnɪ̆s̪ɔ,,,0
+12421305509,"Florence (city)",43.78333,11.25,8490,let_us_hope,,speramus,,t̪θpĕɾjãˑmo,,,0
+12431213609,"Marche: Sassoferrato",43.42747,12.85652,8490,let_us_hope,,speramus,,spe̞ˈɾa̟ːmɔ̃,,,0

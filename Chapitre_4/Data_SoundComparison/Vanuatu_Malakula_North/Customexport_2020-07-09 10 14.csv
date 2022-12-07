@@ -1,0 +1,849 @@
+﻿LanguageId,LanguageName,Latitude,Longitude,WordId,WordModernName1,WordModernName2,WordProtoName1,WordProtoName2,Phonetic,SpellingAltv1,SpellingAltv2,NotCognateWithMainWordInThisFamily
+48741151109,"V’ënen Taute: Alpalak",-15.99722,167.1825,5120,moon,mun,mun,,n-al,,,0
+48741151109,"V’ënen Taute: Alpalak",-15.99722,167.1825,5130,star,sta,sta,,mʷəsi,,,0
+48741151109,"V’ënen Taute: Alpalak",-15.99722,167.1825,5150,sky,skae,skae,,pɛknaran,,,0
+48741151109,"V’ënen Taute: Alpalak",-15.99722,167.1825,5210,water,wota,wota,,na-we,,,0
+48741151109,"V’ënen Taute: Alpalak",-15.99722,167.1825,6220,woods,dak_bus,dak_bus,,lilimt,,,0
+48741151109,"V’ënen Taute: Alpalak",-15.99722,167.1825,5230,lake,lek_lagun,lek_lagun,,na-lɪp,,,0
+48741151109,"V’ënen Taute: Alpalak",-15.99722,167.1825,5240,sea,solwota,solwota,,na-taʰ,,,0
+48741151109,"V’ënen Taute: Alpalak",-15.99722,167.1825,6240,root,rus,rus,,warn,,,0
+48741151109,"V’ënen Taute: Alpalak",-15.99722,167.1825,6250,branch,branj,branj,,ran̼ɛ-n,,,0
+48741151109,"V’ënen Taute: Alpalak",-15.99722,167.1825,6260,leaf,lif,lif,,naro,,,0
+48741151109,"V’ënen Taute: Alpalak",-15.99722,167.1825,6280,wood,wud,wud,,nai,,,0
+48741151109,"V’ënen Taute: Alpalak",-15.99722,167.1825,6310,grass,kras,kras,,ni-na,,,0
+48741151109,"V’ënen Taute: Alpalak",-15.99722,167.1825,6320,flower,flowa,flowa,,laklak,,,0
+48741151109,"V’ënen Taute: Alpalak",-15.99722,167.1825,5410,fire,faea,faea,,na-ap̼,,,0
+48741151109,"V’ënen Taute: Alpalak",-15.99722,167.1825,5420,smoke,smok,smok,,iɛn,,,0
+48741151109,"V’ënen Taute: Alpalak",-15.99722,167.1825,5430,ash,asis,asis,,farn,,,0
+48741151109,"V’ënen Taute: Alpalak",-15.99722,167.1825,5510,stone,ston,ston,,na-vɛt,,,0
+48741151109,"V’ënen Taute: Alpalak",-15.99722,167.1825,5520,earth,kraon,kraon,,na-ⁿdɛð̼,,,0
+48741151109,"V’ënen Taute: Alpalak",-15.99722,167.1825,5530,dust,tas,tas,,neɛf,,,0
+48741151109,"V’ënen Taute: Alpalak",-15.99722,167.1825,5540,sand,sanbij,sanbij,,n-un,,,0
+48741153209,"V’ënen Taute: Benenavet",-16.02038,167.17671,5120,moon,mun,mun,,naal,,,0
+48741153209,"V’ënen Taute: Benenavet",-16.02038,167.17671,5130,star,sta,sta,,mʷuʃi,,,0
+48741153209,"V’ënen Taute: Benenavet",-16.02038,167.17671,5150,sky,skae,skae,,narn,,,0
+48741153209,"V’ënen Taute: Benenavet",-16.02038,167.17671,5210,water,wota,wota,,nawe,,,0
+48741153209,"V’ënen Taute: Benenavet",-16.02038,167.17671,6220,woods,dak_bus,dak_bus,,lilimt,,,0
+48741153209,"V’ënen Taute: Benenavet",-16.02038,167.17671,5230,lake,lek_lagun,lek_lagun,,..,,,0
+48741153209,"V’ënen Taute: Benenavet",-16.02038,167.17671,5240,sea,solwota,solwota,,nataʰ,,,0
+48741153209,"V’ënen Taute: Benenavet",-16.02038,167.17671,6240,root,rus,rus,,warn,,,0
+48741153209,"V’ënen Taute: Benenavet",-16.02038,167.17671,6250,branch,branj,branj,,"rane nai",,,0
+48741153209,"V’ënen Taute: Benenavet",-16.02038,167.17671,6260,leaf,lif,lif,,"ru nai",,,0
+48741153209,"V’ënen Taute: Benenavet",-16.02038,167.17671,6280,wood,wud,wud,,nai,,,0
+48741153209,"V’ënen Taute: Benenavet",-16.02038,167.17671,6310,grass,kras,kras,,..,,,0
+48741153209,"V’ënen Taute: Benenavet",-16.02038,167.17671,6320,flower,flowa,flowa,,..,,,0
+48741153209,"V’ënen Taute: Benenavet",-16.02038,167.17671,5410,fire,faea,faea,,naap̼,,,0
+48741153209,"V’ënen Taute: Benenavet",-16.02038,167.17671,5420,smoke,smok,smok,,iennaap̼,,,0
+48741153209,"V’ënen Taute: Benenavet",-16.02038,167.17671,5430,ash,asis,asis,,..,,,0
+48741153209,"V’ënen Taute: Benenavet",-16.02038,167.17671,5510,stone,ston,ston,,navɛt,,,0
+48741153209,"V’ënen Taute: Benenavet",-16.02038,167.17671,5520,earth,kraon,kraon,,naⁿdɛð̼,,,0
+48741153209,"V’ënen Taute: Benenavet",-16.02038,167.17671,5530,dust,tas,tas,,..,,,0
+48741153209,"V’ënen Taute: Benenavet",-16.02038,167.17671,5540,sand,sanbij,sanbij,,nun,,,0
+48741155209,"V’ënen Taute: Benmara",-16.05552,167.23261,5120,moon,mun,mun,,n-al,,,0
+48741155209,"V’ënen Taute: Benmara",-16.05552,167.23261,5130,star,sta,sta,,məsi,,,0
+48741155209,"V’ënen Taute: Benmara",-16.05552,167.23261,5150,sky,skae,skae,,pɛknarɛn,,,0
+48741155209,"V’ënen Taute: Benmara",-16.05552,167.23261,5210,water,wota,wota,,na-we,,,0
+48741155209,"V’ënen Taute: Benmara",-16.05552,167.23261,6220,woods,dak_bus,dak_bus,,lilimɪð̼,,,0
+48741155209,"V’ënen Taute: Benmara",-16.05552,167.23261,5230,lake,lek_lagun,lek_lagun,,na-lɪp̼,,,0
+48741155209,"V’ënen Taute: Benmara",-16.05552,167.23261,5240,sea,solwota,solwota,,na-tã,,,0
+48741155209,"V’ënen Taute: Benmara",-16.05552,167.23261,6240,root,rus,rus,,war-n,,,0
+48741155209,"V’ënen Taute: Benmara",-16.05552,167.23261,6250,branch,branj,branj,,ranɛ-n,,,0
+48741155209,"V’ënen Taute: Benmara",-16.05552,167.23261,6260,leaf,lif,lif,,rawʊ-n,,,0
+48741155209,"V’ënen Taute: Benmara",-16.05552,167.23261,6280,wood,wud,wud,,n-ai,,,0
+48741155209,"V’ënen Taute: Benmara",-16.05552,167.23261,6310,grass,kras,kras,,..,,,0
+48741155209,"V’ënen Taute: Benmara",-16.05552,167.23261,6320,flower,flowa,flowa,,..,,,0
+48741155209,"V’ënen Taute: Benmara",-16.05552,167.23261,5410,fire,faea,faea,,n-ap̼,,,0
+48741155209,"V’ënen Taute: Benmara",-16.05552,167.23261,5420,smoke,smok,smok,,jɛn,,,0
+48741155209,"V’ënen Taute: Benmara",-16.05552,167.23261,5430,ash,asis,asis,,"tiɣa nap",,,0
+48741155209,"V’ënen Taute: Benmara",-16.05552,167.23261,5510,stone,ston,ston,,na-vɛð̼t,,,0
+48741155209,"V’ënen Taute: Benmara",-16.05552,167.23261,5520,earth,kraon,kraon,,na-ⁿdɛp,,,0
+48741155209,"V’ënen Taute: Benmara",-16.05552,167.23261,5530,dust,tas,tas,,..,,,0
+48741155209,"V’ënen Taute: Benmara",-16.05552,167.23261,5540,sand,sanbij,sanbij,,n-un,,,0
+48741157409,"V’ënen Taute: Unmet",-16.15371,167.26022,5120,moon,mun,mun,,na-al,,,0
+48741157409,"V’ënen Taute: Unmet",-16.15371,167.26022,5130,star,sta,sta,,mʷəsi,,,0
+48741157409,"V’ënen Taute: Unmet",-16.15371,167.26022,5150,sky,skae,skae,,pɛkmarɛn,,,0
+48741157409,"V’ënen Taute: Unmet",-16.15371,167.26022,5210,water,wota,wota,,na-we,,,0
+48741157409,"V’ënen Taute: Unmet",-16.15371,167.26022,6220,woods,dak_bus,dak_bus,,lilimt,,,0
+48741157409,"V’ënen Taute: Unmet",-16.15371,167.26022,5230,lake,lek_lagun,lek_lagun,,na-lɪp,,,0
+48741157409,"V’ënen Taute: Unmet",-16.15371,167.26022,5240,sea,solwota,solwota,,na-ta,,,0
+48741157409,"V’ënen Taute: Unmet",-16.15371,167.26022,6240,root,rus,rus,,warn,,,0
+48741157409,"V’ënen Taute: Unmet",-16.15371,167.26022,6250,branch,branj,branj,,"ranɛ nai",,,0
+48741157409,"V’ënen Taute: Unmet",-16.15371,167.26022,6260,leaf,lif,lif,,raun,,,0
+48741157409,"V’ënen Taute: Unmet",-16.15371,167.26022,6280,wood,wud,wud,,nai,,,0
+48741157409,"V’ënen Taute: Unmet",-16.15371,167.26022,6310,grass,kras,kras,,..,,,0
+48741157409,"V’ënen Taute: Unmet",-16.15371,167.26022,6320,flower,flowa,flowa,,..,,,0
+48741157409,"V’ënen Taute: Unmet",-16.15371,167.26022,5410,fire,faea,faea,,na-ap,,,0
+48741157409,"V’ënen Taute: Unmet",-16.15371,167.26022,5420,smoke,smok,smok,,iɛnnaap,,,0
+48741157409,"V’ënen Taute: Unmet",-16.15371,167.26022,5430,ash,asis,asis,,vɛrnnaap,,,0
+48741157409,"V’ënen Taute: Unmet",-16.15371,167.26022,5510,stone,ston,ston,,na-vɛt,,,0
+48741157409,"V’ënen Taute: Unmet",-16.15371,167.26022,5520,earth,kraon,kraon,,na-ⁿdep,,,0
+48741157409,"V’ënen Taute: Unmet",-16.15371,167.26022,5530,dust,tas,tas,,neɛv,,,0
+48741157409,"V’ënen Taute: Unmet",-16.15371,167.26022,5540,sand,sanbij,sanbij,,n-un,,,0
+48741158409,"V’ënen Taute: Hamax",-16.111,167.249,5120,moon,mun,mun,,na-al,,,0
+48741158409,"V’ënen Taute: Hamax",-16.111,167.249,5130,star,sta,sta,,mʷuʃi,,,0
+48741158409,"V’ënen Taute: Hamax",-16.111,167.249,5150,sky,skae,skae,,narn,,,0
+48741158409,"V’ënen Taute: Hamax",-16.111,167.249,5210,water,wota,wota,,na-we,,,0
+48741158409,"V’ënen Taute: Hamax",-16.111,167.249,6220,woods,dak_bus,dak_bus,,lilimt,,,0
+48741158409,"V’ënen Taute: Hamax",-16.111,167.249,5230,lake,lek_lagun,lek_lagun,,..,,,0
+48741158409,"V’ënen Taute: Hamax",-16.111,167.249,5240,sea,solwota,solwota,,na-taʰ,,,0
+48741158409,"V’ënen Taute: Hamax",-16.111,167.249,6240,root,rus,rus,,warn,,,0
+48741158409,"V’ënen Taute: Hamax",-16.111,167.249,6250,branch,branj,branj,,"rane nai",,,0
+48741158409,"V’ënen Taute: Hamax",-16.111,167.249,6260,leaf,lif,lif,,"ru nai",,,0
+48741158409,"V’ënen Taute: Hamax",-16.111,167.249,6280,wood,wud,wud,,nai,,,0
+48741158409,"V’ënen Taute: Hamax",-16.111,167.249,6310,grass,kras,kras,,..,,,0
+48741158409,"V’ënen Taute: Hamax",-16.111,167.249,6320,flower,flowa,flowa,,..,,,0
+48741158409,"V’ënen Taute: Hamax",-16.111,167.249,5410,fire,faea,faea,,na-ap̼,,,0
+48741158409,"V’ënen Taute: Hamax",-16.111,167.249,5420,smoke,smok,smok,,iennaap̼,,,0
+48741158409,"V’ënen Taute: Hamax",-16.111,167.249,5430,ash,asis,asis,,..,,,0
+48741158409,"V’ënen Taute: Hamax",-16.111,167.249,5510,stone,ston,ston,,na-vɛt,,,0
+48741158409,"V’ënen Taute: Hamax",-16.111,167.249,5520,earth,kraon,kraon,,na-ⁿdɛð̼,,,0
+48741158409,"V’ënen Taute: Hamax",-16.111,167.249,5530,dust,tas,tas,,..,,,0
+48741158409,"V’ënen Taute: Hamax",-16.111,167.249,5540,sand,sanbij,sanbij,,n-un,,,0
+48741322109,"Espiegel’s Bay: Solwota",-15.979,167.192,5120,moon,mun,mun,,nɛ-vʊl,,,0
+48741322109,"Espiegel’s Bay: Solwota",-15.979,167.192,5130,star,sta,sta,,nu-vovoɾ,,,0
+48741322109,"Espiegel’s Bay: Solwota",-15.979,167.192,5150,sky,skae,skae,,nɪ-msusu,,,0
+48741322109,"Espiegel’s Bay: Solwota",-15.979,167.192,5210,water,wota,wota,,nu-aʰ,,,0
+48741322109,"Espiegel’s Bay: Solwota",-15.979,167.192,6220,woods,dak_bus,dak_bus,,nu-wɛrɣa,,,0
+48741322109,"Espiegel’s Bay: Solwota",-15.979,167.192,5230,lake,lek_lagun,lek_lagun,,nalɪp,,,0
+48741322109,"Espiegel’s Bay: Solwota",-15.979,167.192,5240,sea,solwota,solwota,,ⁿdas,,,0
+48741322109,"Espiegel’s Bay: Solwota",-15.979,167.192,6240,root,rus,rus,,no-xoron,,,0
+48741322109,"Espiegel’s Bay: Solwota",-15.979,167.192,6250,branch,branj,branj,,nɛ-ŋrɛ-n,,,0
+48741322109,"Espiegel’s Bay: Solwota",-15.979,167.192,6260,leaf,lif,lif,,rogo,,,0
+48741322109,"Espiegel’s Bay: Solwota",-15.979,167.192,6280,wood,wud,wud,,na-ɣa,,,0
+48741322109,"Espiegel’s Bay: Solwota",-15.979,167.192,6310,grass,kras,kras,,..,,,0
+48741322109,"Espiegel’s Bay: Solwota",-15.979,167.192,6320,flower,flowa,flowa,,..,,,0
+48741322109,"Espiegel’s Bay: Solwota",-15.979,167.192,5410,fire,faea,faea,,na-ɣap,,,0
+48741322109,"Espiegel’s Bay: Solwota",-15.979,167.192,5420,smoke,smok,smok,,"ni-s na-ɣap",,,0
+48741322109,"Espiegel’s Bay: Solwota",-15.979,167.192,5430,ash,asis,asis,,nɪ-vɪlas,,,0
+48741322109,"Espiegel’s Bay: Solwota",-15.979,167.192,5510,stone,ston,ston,,nɪ-βat,,,0
+48741322109,"Espiegel’s Bay: Solwota",-15.979,167.192,5520,earth,kraon,kraon,,ⁿdɛn,,,0
+48741322109,"Espiegel’s Bay: Solwota",-15.979,167.192,5530,dust,tas,tas,,nɪ-maɣaɸ,,,0
+48741322109,"Espiegel’s Bay: Solwota",-15.979,167.192,5540,sand,sanbij,sanbij,,nɪ-vuwon,,,0
+48741324209,"Espiegel’s Bay: Litebral",-15.974,167.193,5120,moon,mun,mun,,nɛ-vʊl,,,0
+48741324209,"Espiegel’s Bay: Litebral",-15.974,167.193,5130,star,sta,sta,,nu-vuvoɾ,,,0
+48741324209,"Espiegel’s Bay: Litebral",-15.974,167.193,5150,sky,skae,skae,,nɪ-msusu,,,0
+48741324209,"Espiegel’s Bay: Litebral",-15.974,167.193,5210,water,wota,wota,,nu-aʰ,,,0
+48741324209,"Espiegel’s Bay: Litebral",-15.974,167.193,6220,woods,dak_bus,dak_bus,,nɪ-vorɣa,,,0
+48741324209,"Espiegel’s Bay: Litebral",-15.974,167.193,5230,lake,lek_lagun,lek_lagun,,nilɛp,,,0
+48741324209,"Espiegel’s Bay: Litebral",-15.974,167.193,5240,sea,solwota,solwota,,ⁿdas,,,0
+48741324209,"Espiegel’s Bay: Litebral",-15.974,167.193,6240,root,rus,rus,,no-ɣoɾon,,,0
+48741324209,"Espiegel’s Bay: Litebral",-15.974,167.193,6250,branch,branj,branj,,nɛ-ŋrɛ-nɛ,,,0
+48741324209,"Espiegel’s Bay: Litebral",-15.974,167.193,6260,leaf,lif,lif,,roɣ̞o,,,0
+48741324209,"Espiegel’s Bay: Litebral",-15.974,167.193,6280,wood,wud,wud,,na-ɣa,,,0
+48741324209,"Espiegel’s Bay: Litebral",-15.974,167.193,6310,grass,kras,kras,,..,,,0
+48741324209,"Espiegel’s Bay: Litebral",-15.974,167.193,6320,flower,flowa,flowa,,..,,,0
+48741324209,"Espiegel’s Bay: Litebral",-15.974,167.193,5410,fire,faea,faea,,na-ɣap,,,0
+48741324209,"Espiegel’s Bay: Litebral",-15.974,167.193,5420,smoke,smok,smok,,"ni-s na-ɣap",,,0
+48741324209,"Espiegel’s Bay: Litebral",-15.974,167.193,5430,ash,asis,asis,,..,,,0
+48741324209,"Espiegel’s Bay: Litebral",-15.974,167.193,5510,stone,ston,ston,,nɪ-vat,,,0
+48741324209,"Espiegel’s Bay: Litebral",-15.974,167.193,5520,earth,kraon,kraon,,ⁿdɛn,,,0
+48741324209,"Espiegel’s Bay: Litebral",-15.974,167.193,5530,dust,tas,tas,,nə-maɣaɸ,,,0
+48741324209,"Espiegel’s Bay: Litebral",-15.974,167.193,5540,sand,sanbij,sanbij,,nɪ-vuwon,,,0
+48741324309,"Espiegel’s Bay: Unspecified",-15.98228,167.19103,5120,moon,mun,mun,,ne-vʊr,,,0
+48741324309,"Espiegel’s Bay: Unspecified",-15.98228,167.19103,5130,star,sta,sta,,nu-wowor,,,0
+48741324309,"Espiegel’s Bay: Unspecified",-15.98228,167.19103,5150,sky,skae,skae,,ᵐbekanaran,,,0
+48741324309,"Espiegel’s Bay: Unspecified",-15.98228,167.19103,5210,water,wota,wota,,nu-a,,,0
+48741324309,"Espiegel’s Bay: Unspecified",-15.98228,167.19103,6220,woods,dak_bus,dak_bus,,lamis,,,0
+48741324309,"Espiegel’s Bay: Unspecified",-15.98228,167.19103,5240,sea,solwota,solwota,,ⁿdas,,,0
+48741324309,"Espiegel’s Bay: Unspecified",-15.98228,167.19103,6240,root,rus,rus,,no-xoro-n,,,0
+48741324309,"Espiegel’s Bay: Unspecified",-15.98228,167.19103,6250,branch,branj,branj,,nɛ-ŋərɛ-n,,,0
+48741324309,"Espiegel’s Bay: Unspecified",-15.98228,167.19103,6260,leaf,lif,lif,,roho-ne,,,0
+48741324309,"Espiegel’s Bay: Unspecified",-15.98228,167.19103,6280,wood,wud,wud,,na-ɣa,,,0
+48741324309,"Espiegel’s Bay: Unspecified",-15.98228,167.19103,6310,grass,kras,kras,,na-mis,,,0
+48741324309,"Espiegel’s Bay: Unspecified",-15.98228,167.19103,6320,flower,flowa,flowa,,nɛ-xawɛⁿdʳa,,,0
+48741324309,"Espiegel’s Bay: Unspecified",-15.98228,167.19103,5410,fire,faea,faea,,na-rap,,,0
+48741324309,"Espiegel’s Bay: Unspecified",-15.98228,167.19103,5420,smoke,smok,smok,,"ni-s na-rap",,,0
+48741324309,"Espiegel’s Bay: Unspecified",-15.98228,167.19103,5430,ash,asis,asis,,"ⁿɡev nɣap",,,0
+48741324309,"Espiegel’s Bay: Unspecified",-15.98228,167.19103,5510,stone,ston,ston,,nɪ-vat,,,0
+48741324309,"Espiegel’s Bay: Unspecified",-15.98228,167.19103,5520,earth,kraon,kraon,,ⁿdɛn,,,0
+48741324309,"Espiegel’s Bay: Unspecified",-15.98228,167.19103,5530,dust,tas,tas,,naf,,,0
+48741324309,"Espiegel’s Bay: Unspecified",-15.98228,167.19103,5540,sand,sanbij,sanbij,,nu-wowon,,,0
+48741326309,"Malua Bay: Coast",-15.98334,167.18798,5120,moon,mun,mun,,na-vɪl,,,0
+48741326309,"Malua Bay: Coast",-15.98334,167.18798,5130,star,sta,sta,,nu-vovor,,,0
+48741326309,"Malua Bay: Coast",-15.98334,167.18798,5150,sky,skae,skae,,ᵐbɛkɪnlʊn,,,0
+48741326309,"Malua Bay: Coast",-15.98334,167.18798,5210,water,wota,wota,,nu-we,,,0
+48741326309,"Malua Bay: Coast",-15.98334,167.18798,6220,woods,dak_bus,dak_bus,,na-ᵐbɪs,,,0
+48741326309,"Malua Bay: Coast",-15.98334,167.18798,5230,lake,lek_lagun,lek_lagun,,nalɛp,,,0
+48741326309,"Malua Bay: Coast",-15.98334,167.18798,5240,sea,solwota,solwota,,ⁿdɛs,,,0
+48741326309,"Malua Bay: Coast",-15.98334,167.18798,6240,root,rus,rus,,no-xoron,,,0
+48741326309,"Malua Bay: Coast",-15.98334,167.18798,6250,branch,branj,branj,,na-oɾɛ-n,,,0
+48741326309,"Malua Bay: Coast",-15.98334,167.18798,6260,leaf,lif,lif,,roχɔ,,,0
+48741326309,"Malua Bay: Coast",-15.98334,167.18798,6280,wood,wud,wud,,na-ɣa,,,0
+48741326309,"Malua Bay: Coast",-15.98334,167.18798,6310,grass,kras,kras,,na-mɪs,,,0
+48741326309,"Malua Bay: Coast",-15.98334,167.18798,6320,flower,flowa,flowa,,..,,,0
+48741326309,"Malua Bay: Coast",-15.98334,167.18798,5410,fire,faea,faea,,na-ɣamp,,,0
+48741326309,"Malua Bay: Coast",-15.98334,167.18798,5420,smoke,smok,smok,,jɪs,,,0
+48741326309,"Malua Bay: Coast",-15.98334,167.18798,5430,ash,asis,asis,,..,,,0
+48741326309,"Malua Bay: Coast",-15.98334,167.18798,5510,stone,ston,ston,,nɪ-vɛt,,,0
+48741326309,"Malua Bay: Coast",-15.98334,167.18798,5520,earth,kraon,kraon,,ⁿdan,,,0
+48741326309,"Malua Bay: Coast",-15.98334,167.18798,5530,dust,tas,tas,,ni-ɛɸ,,,0
+48741326309,"Malua Bay: Coast",-15.98334,167.18798,5540,sand,sanbij,sanbij,,nu-vuvʷon,,,0
+48741327409,"Malua Bay: Petarmul",-16.00022,167.22137,5120,moon,mun,mun,,na-vɪl,,,0
+48741327409,"Malua Bay: Petarmul",-16.00022,167.22137,5130,star,sta,sta,,nɪ-vuvoɾɔ,,,0
+48741327409,"Malua Bay: Petarmul",-16.00022,167.22137,5150,sky,skae,skae,,ᵐbɛknɛlɛn,,,0
+48741327409,"Malua Bay: Petarmul",-16.00022,167.22137,5210,water,wota,wota,,nu-wẽ,,,0
+48741327409,"Malua Bay: Petarmul",-16.00022,167.22137,6220,woods,dak_bus,dak_bus,,nɪ-vorɣa,,,0
+48741327409,"Malua Bay: Petarmul",-16.00022,167.22137,5230,lake,lek_lagun,lek_lagun,,nalɛp,,,0
+48741327409,"Malua Bay: Petarmul",-16.00022,167.22137,5240,sea,solwota,solwota,,ⁿtɛs,,,0
+48741327409,"Malua Bay: Petarmul",-16.00022,167.22137,6240,root,rus,rus,,no-xoron,,,0
+48741327409,"Malua Bay: Petarmul",-16.00022,167.22137,6250,branch,branj,branj,,"rɛŋ na-ɣa",,,0
+48741327409,"Malua Bay: Petarmul",-16.00022,167.22137,6260,leaf,lif,lif,,ruxu-ne,,,0
+48741327409,"Malua Bay: Petarmul",-16.00022,167.22137,6280,wood,wud,wud,,na-ɣa,,,0
+48741327409,"Malua Bay: Petarmul",-16.00022,167.22137,6310,grass,kras,kras,,na-məs,,,0
+48741327409,"Malua Bay: Petarmul",-16.00022,167.22137,6320,flower,flowa,flowa,,..,,,0
+48741327409,"Malua Bay: Petarmul",-16.00022,167.22137,5410,fire,faea,faea,,na-ɣamp,,,0
+48741327409,"Malua Bay: Petarmul",-16.00022,167.22137,5420,smoke,smok,smok,,iis,,,0
+48741327409,"Malua Bay: Petarmul",-16.00022,167.22137,5430,ash,asis,asis,,nɪ-vɪlas,,,0
+48741327409,"Malua Bay: Petarmul",-16.00022,167.22137,5510,stone,ston,ston,,nɪ-vɛt,,,0
+48741327409,"Malua Bay: Petarmul",-16.00022,167.22137,5520,earth,kraon,kraon,,ⁿdan,,,0
+48741327409,"Malua Bay: Petarmul",-16.00022,167.22137,5530,dust,tas,tas,,ni-ɛɸ,,,0
+48741327409,"Malua Bay: Petarmul",-16.00022,167.22137,5540,sand,sanbij,sanbij,,nɪ-vuvon,,,0
+48741328309,"Malua Bay: Tiptir",-15.9905,167.21991,5120,moon,mun,mun,,nɛ-vʊl,,,0
+48741328309,"Malua Bay: Tiptir",-15.9905,167.21991,5130,star,sta,sta,,nu-vuvoɾɔ,,,0
+48741328309,"Malua Bay: Tiptir",-15.9905,167.21991,5150,sky,skae,skae,,ᵐbɛkneɾan,,,0
+48741328309,"Malua Bay: Tiptir",-15.9905,167.21991,5210,water,wota,wota,,nu-ã,,,0
+48741328309,"Malua Bay: Tiptir",-15.9905,167.21991,6220,woods,dak_bus,dak_bus,,nu-vorɣa,,,0
+48741328309,"Malua Bay: Tiptir",-15.9905,167.21991,5230,lake,lek_lagun,lek_lagun,,nalɪp,,,0
+48741328309,"Malua Bay: Tiptir",-15.9905,167.21991,5240,sea,solwota,solwota,,ⁿdas,,,0
+48741328309,"Malua Bay: Tiptir",-15.9905,167.21991,6240,root,rus,rus,,no-xorone,,,0
+48741328309,"Malua Bay: Tiptir",-15.9905,167.21991,6250,branch,branj,branj,,nɛ-ŋrɛ-n,,,0
+48741328309,"Malua Bay: Tiptir",-15.9905,167.21991,6260,leaf,lif,lif,,roxo,,,0
+48741328309,"Malua Bay: Tiptir",-15.9905,167.21991,6280,wood,wud,wud,,na-ɣa,,,0
+48741328309,"Malua Bay: Tiptir",-15.9905,167.21991,6310,grass,kras,kras,,na-mʉs,,,0
+48741328309,"Malua Bay: Tiptir",-15.9905,167.21991,6320,flower,flowa,flowa,,..,,,0
+48741328309,"Malua Bay: Tiptir",-15.9905,167.21991,5410,fire,faea,faea,,na-ɣap,,,0
+48741328309,"Malua Bay: Tiptir",-15.9905,167.21991,5420,smoke,smok,smok,,"ni-s na-ɣap",,,0
+48741328309,"Malua Bay: Tiptir",-15.9905,167.21991,5430,ash,asis,asis,,nɪ-vɪlas,,,0
+48741328309,"Malua Bay: Tiptir",-15.9905,167.21991,5510,stone,ston,ston,,nɪ-vat,,,0
+48741328309,"Malua Bay: Tiptir",-15.9905,167.21991,5520,earth,kraon,kraon,,ⁿdɛn,,,0
+48741328309,"Malua Bay: Tiptir",-15.9905,167.21991,5530,dust,tas,tas,,na-ɸ,,,0
+48741328309,"Malua Bay: Tiptir",-15.9905,167.21991,5540,sand,sanbij,sanbij,,nɪ-vuwon,,,0
+48741328409,"Malua Bay: Marasup",-15.99098,167.2198,5120,moon,mun,mun,,na-viɬ,,,0
+48741328409,"Malua Bay: Marasup",-15.99098,167.2198,5130,star,sta,sta,,huwoɾ,,,0
+48741328409,"Malua Bay: Marasup",-15.99098,167.2198,5150,sky,skae,skae,,na-ran,,,0
+48741328409,"Malua Bay: Marasup",-15.99098,167.2198,5210,water,wota,wota,,nu-ã,,,0
+48741328409,"Malua Bay: Marasup",-15.99098,167.2198,6220,woods,dak_bus,dak_bus,,no-worɣa,,,0
+48741328409,"Malua Bay: Marasup",-15.99098,167.2198,5230,lake,lek_lagun,lek_lagun,,nalɛp,,,0
+48741328409,"Malua Bay: Marasup",-15.99098,167.2198,5240,sea,solwota,solwota,,ⁿdas,,,0
+48741328409,"Malua Bay: Marasup",-15.99098,167.2198,6240,root,rus,rus,,lɘpana,,,0
+48741328409,"Malua Bay: Marasup",-15.99098,167.2198,6250,branch,branj,branj,,..,,,0
+48741328409,"Malua Bay: Marasup",-15.99098,167.2198,6260,leaf,lif,lif,,roɣo-na,,,0
+48741328409,"Malua Bay: Marasup",-15.99098,167.2198,6280,wood,wud,wud,,na-ɣa,,,0
+48741328409,"Malua Bay: Marasup",-15.99098,167.2198,6310,grass,kras,kras,,na-mis,,,0
+48741328409,"Malua Bay: Marasup",-15.99098,167.2198,6320,flower,flowa,flowa,,..,,,0
+48741328409,"Malua Bay: Marasup",-15.99098,167.2198,5410,fire,faea,faea,,na-ɣamp,,,0
+48741328409,"Malua Bay: Marasup",-15.99098,167.2198,5420,smoke,smok,smok,,ne-sna,,,0
+48741328409,"Malua Bay: Marasup",-15.99098,167.2198,5430,ash,asis,asis,,nɪ-vɪlas,,,0
+48741328409,"Malua Bay: Marasup",-15.99098,167.2198,5510,stone,ston,ston,,nɪ-vat,,,0
+48741328409,"Malua Bay: Marasup",-15.99098,167.2198,5520,earth,kraon,kraon,,ⁿdan,,,0
+48741328409,"Malua Bay: Marasup",-15.99098,167.2198,5530,dust,tas,tas,,betnaɣaɸ,,,0
+48741328409,"Malua Bay: Marasup",-15.99098,167.2198,5540,sand,sanbij,sanbij,,nɪ-vuwon,,,0
+48741345109,"Najit: Tanmial",-15.94786,167.18226,5120,moon,mun,mun,,nɛ-vl̩,,,0
+48741345109,"Najit: Tanmial",-15.94786,167.18226,5130,star,sta,sta,,no-vovʷor,,,0
+48741345109,"Najit: Tanmial",-15.94786,167.18226,5150,sky,skae,skae,,ᵐbeknaran,,,0
+48741345109,"Najit: Tanmial",-15.94786,167.18226,5210,water,wota,wota,,nu-a,,,0
+48741345109,"Najit: Tanmial",-15.94786,167.18226,6220,woods,dak_bus,dak_bus,,nɪ-vʷɛɾɣa,,,0
+48741345109,"Najit: Tanmial",-15.94786,167.18226,5230,lake,lek_lagun,lek_lagun,,nɛ-lɛp,,,0
+48741345109,"Najit: Tanmial",-15.94786,167.18226,5240,sea,solwota,solwota,,ⁿdas,,,0
+48741345109,"Najit: Tanmial",-15.94786,167.18226,6240,root,rus,rus,,no-xoro-n,,,0
+48741345109,"Najit: Tanmial",-15.94786,167.18226,6250,branch,branj,branj,,nɛ-ŋrɛ-n,,,0
+48741345109,"Najit: Tanmial",-15.94786,167.18226,6260,leaf,lif,lif,,rowo,,,0
+48741345109,"Najit: Tanmial",-15.94786,167.18226,6280,wood,wud,wud,,na-ɣa,,,0
+48741345109,"Najit: Tanmial",-15.94786,167.18226,6310,grass,kras,kras,,..,,,0
+48741345109,"Najit: Tanmial",-15.94786,167.18226,6320,flower,flowa,flowa,,..,,,0
+48741345109,"Najit: Tanmial",-15.94786,167.18226,5410,fire,faea,faea,,na-ɣap,,,0
+48741345109,"Najit: Tanmial",-15.94786,167.18226,5420,smoke,smok,smok,,"n-ɛs na-ɣap",,,0
+48741345109,"Najit: Tanmial",-15.94786,167.18226,5430,ash,asis,asis,,"ⁿdev na-ɣap",,,0
+48741345109,"Najit: Tanmial",-15.94786,167.18226,5510,stone,ston,ston,,nɪ-vat,,,0
+48741345109,"Najit: Tanmial",-15.94786,167.18226,5520,earth,kraon,kraon,,ⁿdɛn,,,0
+48741345109,"Najit: Tanmial",-15.94786,167.18226,5530,dust,tas,tas,,naf,,,0
+48741345109,"Najit: Tanmial",-15.94786,167.18226,5540,sand,sanbij,sanbij,,nɪ-vovon,,,0
+48741365109,"Nese: Tanmial",-15.9305,167.17653,5120,moon,mun,mun,,na-βle,,,0
+48741365109,"Nese: Tanmial",-15.9305,167.17653,5130,star,sta,sta,,no-vovor,,,0
+48741365109,"Nese: Tanmial",-15.9305,167.17653,5150,sky,skae,skae,,ᵐbeknaran,,,0
+48741365109,"Nese: Tanmial",-15.9305,167.17653,5210,water,wota,wota,,nu-a,,,0
+48741365109,"Nese: Tanmial",-15.9305,167.17653,6220,woods,dak_bus,dak_bus,,na-vorɣa,,,0
+48741365109,"Nese: Tanmial",-15.9305,167.17653,5230,lake,lek_lagun,lek_lagun,,na-leᵐb,,,0
+48741365109,"Nese: Tanmial",-15.9305,167.17653,5240,sea,solwota,solwota,,na-tas,,,0
+48741365109,"Nese: Tanmial",-15.9305,167.17653,6240,root,rus,rus,,naxaron,,,0
+48741365109,"Nese: Tanmial",-15.9305,167.17653,6250,branch,branj,branj,,na-raŋa-n,,,0
+48741365109,"Nese: Tanmial",-15.9305,167.17653,6260,leaf,lif,lif,,no-roɣa,,,0
+48741365109,"Nese: Tanmial",-15.9305,167.17653,6280,wood,wud,wud,,na-ɣa,,,0
+48741365109,"Nese: Tanmial",-15.9305,167.17653,6310,grass,kras,kras,,na-tan,,,0
+48741365109,"Nese: Tanmial",-15.9305,167.17653,6320,flower,flowa,flowa,,..,,,0
+48741365109,"Nese: Tanmial",-15.9305,167.17653,5410,fire,faea,faea,,na-ɣan,,,0
+48741365109,"Nese: Tanmial",-15.9305,167.17653,5420,smoke,smok,smok,,ni-ɛsias,,,0
+48741365109,"Nese: Tanmial",-15.9305,167.17653,5430,ash,asis,asis,,"ⁿdev na-ɣan",,,0
+48741365109,"Nese: Tanmial",-15.9305,167.17653,5510,stone,ston,ston,,na-ðat,,,0
+48741365109,"Nese: Tanmial",-15.9305,167.17653,5520,earth,kraon,kraon,,na-tan,,,0
+48741365109,"Nese: Tanmial",-15.9305,167.17653,5530,dust,tas,tas,,naf,,,0
+48741365109,"Nese: Tanmial",-15.9305,167.17653,5540,sand,sanbij,sanbij,,na-hon,,,0
+48741367209,"Nese: Sanboise",-15.91461,167.17833,5120,moon,mun,mun,,..,,,0
+48741367209,"Nese: Sanboise",-15.91461,167.17833,5130,star,sta,sta,,no-vovor,,,0
+48741367209,"Nese: Sanboise",-15.91461,167.17833,5150,sky,skae,skae,,..,,,0
+48741367209,"Nese: Sanboise",-15.91461,167.17833,5210,water,wota,wota,,nu-a,,,0
+48741367209,"Nese: Sanboise",-15.91461,167.17833,6220,woods,dak_bus,dak_bus,,..,,,0
+48741367209,"Nese: Sanboise",-15.91461,167.17833,5230,lake,lek_lagun,lek_lagun,,..,,,0
+48741367209,"Nese: Sanboise",-15.91461,167.17833,5240,sea,solwota,solwota,,na-tas,,,0
+48741367209,"Nese: Sanboise",-15.91461,167.17833,6240,root,rus,rus,,no-xoro-n,,,0
+48741367209,"Nese: Sanboise",-15.91461,167.17833,6250,branch,branj,branj,,"nɛ-rɛŋe na-ɣa",,,0
+48741367209,"Nese: Sanboise",-15.91461,167.17833,6260,leaf,lif,lif,,"no-loɣo na-ɣa",,,0
+48741367209,"Nese: Sanboise",-15.91461,167.17833,6280,wood,wud,wud,,na-ɣa,,,0
+48741367209,"Nese: Sanboise",-15.91461,167.17833,6310,grass,kras,kras,,..,,,0
+48741367209,"Nese: Sanboise",-15.91461,167.17833,6320,flower,flowa,flowa,,..,,,0
+48741367209,"Nese: Sanboise",-15.91461,167.17833,5410,fire,faea,faea,,na-ɣand,,,0
+48741367209,"Nese: Sanboise",-15.91461,167.17833,5420,smoke,smok,smok,,"ne-s na-ɣand",,,0
+48741367209,"Nese: Sanboise",-15.91461,167.17833,5430,ash,asis,asis,,..,,,0
+48741367209,"Nese: Sanboise",-15.91461,167.17833,5510,stone,ston,ston,,na-ðat,,,0
+48741367209,"Nese: Sanboise",-15.91461,167.17833,5520,earth,kraon,kraon,,na-tan,,,0
+48741367209,"Nese: Sanboise",-15.91461,167.17833,5530,dust,tas,tas,,nɛ-ᵐbɛtnaɣap,,,0
+48741367209,"Nese: Sanboise",-15.91461,167.17833,5540,sand,sanbij,sanbij,,na-on,,,0
+48741556509,"Vao: Beetehul",-15.89728,167.30443,5120,moon,mun,mun,,..,,,0
+48741556509,"Vao: Beetehul",-15.89728,167.30443,5130,star,sta,sta,,..,,,0
+48741556509,"Vao: Beetehul",-15.89728,167.30443,5150,sky,skae,skae,,..,,,0
+48741556509,"Vao: Beetehul",-15.89728,167.30443,5210,water,wota,wota,,..,,,0
+48741556509,"Vao: Beetehul",-15.89728,167.30443,6220,woods,dak_bus,dak_bus,,..,,,0
+48741556509,"Vao: Beetehul",-15.89728,167.30443,5230,lake,lek_lagun,lek_lagun,,..,,,0
+48741556509,"Vao: Beetehul",-15.89728,167.30443,5240,sea,solwota,solwota,,..,,,0
+48741556509,"Vao: Beetehul",-15.89728,167.30443,6240,root,rus,rus,,..,,,0
+48741556509,"Vao: Beetehul",-15.89728,167.30443,6250,branch,branj,branj,,..,,,0
+48741556509,"Vao: Beetehul",-15.89728,167.30443,6260,leaf,lif,lif,,..,,,0
+48741556509,"Vao: Beetehul",-15.89728,167.30443,6280,wood,wud,wud,,nɛ-ɣe,,,0
+48741556509,"Vao: Beetehul",-15.89728,167.30443,6310,grass,kras,kras,,..,,,0
+48741556509,"Vao: Beetehul",-15.89728,167.30443,6320,flower,flowa,flowa,,..,,,0
+48741556509,"Vao: Beetehul",-15.89728,167.30443,5410,fire,faea,faea,,..,,,0
+48741556509,"Vao: Beetehul",-15.89728,167.30443,5420,smoke,smok,smok,,..,,,0
+48741556509,"Vao: Beetehul",-15.89728,167.30443,5430,ash,asis,asis,,..,,,0
+48741556509,"Vao: Beetehul",-15.89728,167.30443,5510,stone,ston,ston,,..,,,0
+48741556509,"Vao: Beetehul",-15.89728,167.30443,5520,earth,kraon,kraon,,..,,,0
+48741556509,"Vao: Beetehul",-15.89728,167.30443,5530,dust,tas,tas,,potmaɣaβ,,,0
+48741556509,"Vao: Beetehul",-15.89728,167.30443,5540,sand,sanbij,sanbij,,..,,,0
+48741557509,"Vao: Canada",-15.89978,167.30731,5120,moon,mun,mun,,na-vule,,,0
+48741557509,"Vao: Canada",-15.89978,167.30731,5130,star,sta,sta,,na-vʉt,,,0
+48741557509,"Vao: Canada",-15.89978,167.30731,5150,sky,skae,skae,,ⁿdakaran,,,0
+48741557509,"Vao: Canada",-15.89978,167.30731,5210,water,wota,wota,,nu-ɛ,,,0
+48741557509,"Vao: Canada",-15.89978,167.30731,6220,woods,dak_bus,dak_bus,,..,,,0
+48741557509,"Vao: Canada",-15.89978,167.30731,5230,lake,lek_lagun,lek_lagun,,..,,,0
+48741557509,"Vao: Canada",-15.89978,167.30731,5240,sea,solwota,solwota,,nɛ-teh,,,0
+48741557509,"Vao: Canada",-15.89978,167.30731,6240,root,rus,rus,,xɔari-nɛ,,,0
+48741557509,"Vao: Canada",-15.89978,167.30731,6250,branch,branj,branj,,raŋa-n,,,0
+48741557509,"Vao: Canada",-15.89978,167.30731,6260,leaf,lif,lif,,roxii-nɛ,,,0
+48741557509,"Vao: Canada",-15.89978,167.30731,6280,wood,wud,wud,,nɛ-χe,,,0
+48741557509,"Vao: Canada",-15.89978,167.30731,6310,grass,kras,kras,,na-n̼ux,,,0
+48741557509,"Vao: Canada",-15.89978,167.30731,6320,flower,flowa,flowa,,ð̼ɪhira-n,,,0
+48741557509,"Vao: Canada",-15.89978,167.30731,5410,fire,faea,faea,,na-xamb,,,0
+48741557509,"Vao: Canada",-15.89978,167.30731,5420,smoke,smok,smok,,"nehe na-xamb",,,0
+48741557509,"Vao: Canada",-15.89978,167.30731,5430,ash,asis,asis,,..,,,0
+48741557509,"Vao: Canada",-15.89978,167.30731,5510,stone,ston,ston,,na-ð̼at,,,0
+48741557509,"Vao: Canada",-15.89978,167.30731,5520,earth,kraon,kraon,,na-tan,,,0
+48741557509,"Vao: Canada",-15.89978,167.30731,5530,dust,tas,tas,,ᵐbetnaɣaɸ,,,0
+48741557509,"Vao: Canada",-15.89978,167.30731,5540,sand,sanbij,sanbij,,"ta-ᵐbaŋ na-on",,,0
+48741557609,"Vao: Peteri",-15.89887,167.3051,5120,moon,mun,mun,,na-vulɛ,,,0
+48741557609,"Vao: Peteri",-15.89887,167.3051,5130,star,sta,sta,,na-ð̼ʉt,,,0
+48741557609,"Vao: Peteri",-15.89887,167.3051,5150,sky,skae,skae,,ⁿdakaran,,,0
+48741557609,"Vao: Peteri",-15.89887,167.3051,5210,water,wota,wota,,nu-e,,,0
+48741557609,"Vao: Peteri",-15.89887,167.3051,6220,woods,dak_bus,dak_bus,,"nan̼ʊh moɣonɣon",,,0
+48741557609,"Vao: Peteri",-15.89887,167.3051,5230,lake,lek_lagun,lek_lagun,,na-lɛmb,,,0
+48741557609,"Vao: Peteri",-15.89887,167.3051,5240,sea,solwota,solwota,,nɛ-teh,,,0
+48741557609,"Vao: Peteri",-15.89887,167.3051,6240,root,rus,rus,,hoari-ne,,,0
+48741557609,"Vao: Peteri",-15.89887,167.3051,6250,branch,branj,branj,,raŋa-n,,,0
+48741557609,"Vao: Peteri",-15.89887,167.3051,6260,leaf,lif,lif,,roxoi-ne,,,0
+48741557609,"Vao: Peteri",-15.89887,167.3051,6280,wood,wud,wud,,nɛ-ɣe,,,0
+48741557609,"Vao: Peteri",-15.89887,167.3051,6310,grass,kras,kras,,n̼a-n̼uh,,,0
+48741557609,"Vao: Peteri",-15.89887,167.3051,6320,flower,flowa,flowa,,..,,,0
+48741557609,"Vao: Peteri",-15.89887,167.3051,5410,fire,faea,faea,,na-ɣamb,,,0
+48741557609,"Vao: Peteri",-15.89887,167.3051,5420,smoke,smok,smok,,neahu-ne,,,0
+48741557609,"Vao: Peteri",-15.89887,167.3051,5430,ash,asis,asis,,na-av,,,0
+48741557609,"Vao: Peteri",-15.89887,167.3051,5430,ash,asis,asis,,"na-av na-ɣam",,,0
+48741557609,"Vao: Peteri",-15.89887,167.3051,5510,stone,ston,ston,,na-ð̼̼at,,,0
+48741557609,"Vao: Peteri",-15.89887,167.3051,5520,earth,kraon,kraon,,na-tan,,,0
+48741557609,"Vao: Peteri",-15.89887,167.3051,5530,dust,tas,tas,,ᵐbitmaɣaɸ,,,0
+48741557609,"Vao: Peteri",-15.89887,167.3051,5540,sand,sanbij,sanbij,,"na-ᵐbaŋ na-on",,,0
+48741557709,"Vao: Torono",-15.89986,167.30819,5120,moon,mun,mun,,na-vulɛ,,,0
+48741557709,"Vao: Torono",-15.89986,167.30819,5130,star,sta,sta,,na-vʉt,,,0
+48741557709,"Vao: Torono",-15.89986,167.30819,5150,sky,skae,skae,,ⁿdakaran,,,0
+48741557709,"Vao: Torono",-15.89986,167.30819,5210,water,wota,wota,,nu-ɛ,,,0
+48741557709,"Vao: Torono",-15.89986,167.30819,6220,woods,dak_bus,dak_bus,,"lan̼ʊh wonwon",,,0
+48741557709,"Vao: Torono",-15.89986,167.30819,5230,lake,lek_lagun,lek_lagun,,na-lɛmb,,,0
+48741557709,"Vao: Torono",-15.89986,167.30819,5240,sea,solwota,solwota,,nɛ-teh,,,0
+48741557709,"Vao: Torono",-15.89986,167.30819,6240,root,rus,rus,,xoari-nɛ,,,0
+48741557709,"Vao: Torono",-15.89986,167.30819,6250,branch,branj,branj,,raŋ,,,0
+48741557709,"Vao: Torono",-15.89986,167.30819,6260,leaf,lif,lif,,roxe-nɛ,,,0
+48741557709,"Vao: Torono",-15.89986,167.30819,6280,wood,wud,wud,,nɛ-ɣe,,,0
+48741557709,"Vao: Torono",-15.89986,167.30819,6310,grass,kras,kras,,..,,,0
+48741557709,"Vao: Torono",-15.89986,167.30819,6320,flower,flowa,flowa,,..,,,0
+48741557709,"Vao: Torono",-15.89986,167.30819,5410,fire,faea,faea,,na-xamb,,,0
+48741557709,"Vao: Torono",-15.89986,167.30819,5420,smoke,smok,smok,,mʷo-ah,,,0
+48741557709,"Vao: Torono",-15.89986,167.30819,5430,ash,asis,asis,,ᵐbɪtmaɣaɸ,,,0
+48741557709,"Vao: Torono",-15.89986,167.30819,5510,stone,ston,ston,,na-ð̼̼at,,,0
+48741557709,"Vao: Torono",-15.89986,167.30819,5520,earth,kraon,kraon,,na-tan,,,0
+48741557709,"Vao: Torono",-15.89986,167.30819,5530,dust,tas,tas,,ᵐbetmaɣaɸ,,,0
+48741557709,"Vao: Torono",-15.89986,167.30819,5540,sand,sanbij,sanbij,,na-on,,,0
+48741733509,"Tirax: Botmelesnial",-16.0583,167.369,5120,moon,mun,mun,,na-vil,,,0
+48741733509,"Tirax: Botmelesnial",-16.0583,167.369,5130,star,sta,sta,,vivor,,,0
+48741733509,"Tirax: Botmelesnial",-16.0583,167.369,5150,sky,skae,skae,,ⁿdakran,,,0
+48741733509,"Tirax: Botmelesnial",-16.0583,167.369,5210,water,wota,wota,,nu-ã,,,0
+48741733509,"Tirax: Botmelesnial",-16.0583,167.369,6220,woods,dak_bus,dak_bus,,ⁿdʳoxotɛra,,,0
+48741733509,"Tirax: Botmelesnial",-16.0583,167.369,5230,lake,lek_lagun,lek_lagun,,nanɪⁿd,,,0
+48741733509,"Tirax: Botmelesnial",-16.0583,167.369,5240,sea,solwota,solwota,,ⁿtah,,,0
+48741733509,"Tirax: Botmelesnial",-16.0583,167.369,6240,root,rus,rus,,lɪᵐba-na-n,,,0
+48741733509,"Tirax: Botmelesnial",-16.0583,167.369,6250,branch,branj,branj,,..,,,0
+48741733509,"Tirax: Botmelesnial",-16.0583,167.369,6260,leaf,lif,lif,,roxa-na-n,,,0
+48741733509,"Tirax: Botmelesnial",-16.0583,167.369,6280,wood,wud,wud,,na-ɣa,,,0
+48741733509,"Tirax: Botmelesnial",-16.0583,167.369,6310,grass,kras,kras,,na-nih,,,0
+48741733509,"Tirax: Botmelesnial",-16.0583,167.369,6320,flower,flowa,flowa,,loklok,,,0
+48741733509,"Tirax: Botmelesnial",-16.0583,167.369,5410,fire,faea,faea,,ha-ⁿd,,,0
+48741733509,"Tirax: Botmelesnial",-16.0583,167.369,5410,fire,faea,faea,,"ha-ⁿd ɣan",,,0
+48741733509,"Tirax: Botmelesnial",-16.0583,167.369,5420,smoke,smok,smok,,..,,,0
+48741733509,"Tirax: Botmelesnial",-16.0583,167.369,5430,ash,asis,asis,,ᵐbɪtɪv,,,0
+48741733509,"Tirax: Botmelesnial",-16.0583,167.369,5510,stone,ston,ston,,nə-vat,,,0
+48741733509,"Tirax: Botmelesnial",-16.0583,167.369,5520,earth,kraon,kraon,,ⁿtan,,,0
+48741733509,"Tirax: Botmelesnial",-16.0583,167.369,5530,dust,tas,tas,,bitiɸ,,,0
+48741733509,"Tirax: Botmelesnial",-16.0583,167.369,5540,sand,sanbij,sanbij,,na-wɛn,,,0
+48741733609,"Tirax: Mae",-16.05839,167.36953,5120,moon,mun,mun,,na-vil,,,0
+48741733609,"Tirax: Mae",-16.05839,167.36953,5130,star,sta,sta,,fivor,,,0
+48741733609,"Tirax: Mae",-16.05839,167.36953,5150,sky,skae,skae,,ⁿdakran,,,0
+48741733609,"Tirax: Mae",-16.05839,167.36953,5210,water,wota,wota,,nu-ã,,,0
+48741733609,"Tirax: Mae",-16.05839,167.36953,6220,woods,dak_bus,dak_bus,,ⁿdʳohotɛra,,,0
+48741733609,"Tirax: Mae",-16.05839,167.36953,5230,lake,lek_lagun,lek_lagun,,na-nɛnd,,,0
+48741733609,"Tirax: Mae",-16.05839,167.36953,5240,sea,solwota,solwota,,ⁿtah,,,0
+48741733609,"Tirax: Mae",-16.05839,167.36953,6240,root,rus,rus,,lɪᵐba,,,0
+48741733609,"Tirax: Mae",-16.05839,167.36953,6250,branch,branj,branj,,raŋ,,,0
+48741733609,"Tirax: Mae",-16.05839,167.36953,6260,leaf,lif,lif,,ro,,,0
+48741733609,"Tirax: Mae",-16.05839,167.36953,6280,wood,wud,wud,,na-ɣa,,,0
+48741733609,"Tirax: Mae",-16.05839,167.36953,6310,grass,kras,kras,,nɪ-nih,,,0
+48741733609,"Tirax: Mae",-16.05839,167.36953,6320,flower,flowa,flowa,,nɪᵐbrax,,,0
+48741733609,"Tirax: Mae",-16.05839,167.36953,5410,fire,faea,faea,,..,,,0
+48741733609,"Tirax: Mae",-16.05839,167.36953,5420,smoke,smok,smok,,n-eh,,,0
+48741733609,"Tirax: Mae",-16.05839,167.36953,5430,ash,asis,asis,,"ᵐbɪtɪɸ navi",,,0
+48741733609,"Tirax: Mae",-16.05839,167.36953,5510,stone,ston,ston,,nə-vat,,,0
+48741733609,"Tirax: Mae",-16.05839,167.36953,5520,earth,kraon,kraon,,ⁿtan,,,0
+48741733609,"Tirax: Mae",-16.05839,167.36953,5530,dust,tas,tas,,ᵐbɛtkuʰ,,,0
+48741733609,"Tirax: Mae",-16.05839,167.36953,5540,sand,sanbij,sanbij,,na-wɛn,,,0
+48741735809,"Tirax: Bethel",-16.03923,167.40186,5120,moon,mun,mun,,na-vil,,,0
+48741735809,"Tirax: Bethel",-16.03923,167.40186,5130,star,sta,sta,,vivoro,,,0
+48741735809,"Tirax: Bethel",-16.03923,167.40186,5150,sky,skae,skae,,..,,,0
+48741735809,"Tirax: Bethel",-16.03923,167.40186,5210,water,wota,wota,,nu-a,,,0
+48741735809,"Tirax: Bethel",-16.03923,167.40186,6220,woods,dak_bus,dak_bus,,nɛ-nihɪtɛra,,,0
+48741735809,"Tirax: Bethel",-16.03923,167.40186,5230,lake,lek_lagun,lek_lagun,,..,,,0
+48741735809,"Tirax: Bethel",-16.03923,167.40186,5240,sea,solwota,solwota,,ⁿtah,,,0
+48741735809,"Tirax: Bethel",-16.03923,167.40186,6240,root,rus,rus,,lɪᵐba,,,0
+48741735809,"Tirax: Bethel",-16.03923,167.40186,6250,branch,branj,branj,,a-raŋə,,,0
+48741735809,"Tirax: Bethel",-16.03923,167.40186,6260,leaf,lif,lif,,roxa,,,0
+48741735809,"Tirax: Bethel",-16.03923,167.40186,6280,wood,wud,wud,,na-ɣa,,,0
+48741735809,"Tirax: Bethel",-16.03923,167.40186,6310,grass,kras,kras,,na-nih,,,0
+48741735809,"Tirax: Bethel",-16.03923,167.40186,6320,flower,flowa,flowa,,..,,,0
+48741735809,"Tirax: Bethel",-16.03923,167.40186,5410,fire,faea,faea,,na-ⁿdə,,,0
+48741735809,"Tirax: Bethel",-16.03923,167.40186,5410,fire,faea,faea,,"na-ⁿdə ɣan",,,0
+48741735809,"Tirax: Bethel",-16.03923,167.40186,5420,smoke,smok,smok,,..,,,0
+48741735809,"Tirax: Bethel",-16.03923,167.40186,5430,ash,asis,asis,,..,,,0
+48741735809,"Tirax: Bethel",-16.03923,167.40186,5510,stone,ston,ston,,nə-vat,,,0
+48741735809,"Tirax: Bethel",-16.03923,167.40186,5520,earth,kraon,kraon,,ⁿtan,,,0
+48741735809,"Tirax: Bethel",-16.03923,167.40186,5530,dust,tas,tas,,ᵐbɛtɪɸ,,,0
+48741735809,"Tirax: Bethel",-16.03923,167.40186,5540,sand,sanbij,sanbij,,na-wɛn,,,0
+48741736409,"Tirax: Olamb",-15.98701,167.26154,5120,moon,mun,mun,,na-vil,,,0
+48741736409,"Tirax: Olamb",-15.98701,167.26154,5130,star,sta,sta,,vivor,,,0
+48741736409,"Tirax: Olamb",-15.98701,167.26154,5150,sky,skae,skae,,ⁿdakⁿdran,,,0
+48741736409,"Tirax: Olamb",-15.98701,167.26154,5210,water,wota,wota,,nu-ã,,,0
+48741736409,"Tirax: Olamb",-15.98701,167.26154,6220,woods,dak_bus,dak_bus,,ⁿdʳoxtəra,,,0
+48741736409,"Tirax: Olamb",-15.98701,167.26154,5230,lake,lek_lagun,lek_lagun,,ma-lɛn,,,0
+48741736409,"Tirax: Olamb",-15.98701,167.26154,5240,sea,solwota,solwota,,ⁿtah,,,0
+48741736409,"Tirax: Olamb",-15.98701,167.26154,6240,root,rus,rus,,lɪᵐba-na-n,,,0
+48741736409,"Tirax: Olamb",-15.98701,167.26154,6250,branch,branj,branj,,raŋ-na-n,,,0
+48741736409,"Tirax: Olamb",-15.98701,167.26154,6260,leaf,lif,lif,,roxa-na-n,,,0
+48741736409,"Tirax: Olamb",-15.98701,167.26154,6280,wood,wud,wud,,na-ɣa,,,0
+48741736409,"Tirax: Olamb",-15.98701,167.26154,6310,grass,kras,kras,,na-nih,,,0
+48741736409,"Tirax: Olamb",-15.98701,167.26154,6320,flower,flowa,flowa,,..,,,0
+48741736409,"Tirax: Olamb",-15.98701,167.26154,5410,fire,faea,faea,,..,,,0
+48741736409,"Tirax: Olamb",-15.98701,167.26154,5420,smoke,smok,smok,,tijɛ,,,0
+48741736409,"Tirax: Olamb",-15.98701,167.26154,5430,ash,asis,asis,,ᵐbɪtɪɸ,,,0
+48741736409,"Tirax: Olamb",-15.98701,167.26154,5510,stone,ston,ston,,nə-vat,,,0
+48741736409,"Tirax: Olamb",-15.98701,167.26154,5520,earth,kraon,kraon,,ⁿtan,,,0
+48741736409,"Tirax: Olamb",-15.98701,167.26154,5530,dust,tas,tas,,ᵐbɛtkuhʰ,,,0
+48741736409,"Tirax: Olamb",-15.98701,167.26154,5540,sand,sanbij,sanbij,,na-wɛn,,,0
+48741736509,"Tirax: Bakru",-16.00354,167.29696,5120,moon,mun,mun,,na-vʉɬ,,,0
+48741736509,"Tirax: Bakru",-16.00354,167.29696,5130,star,sta,sta,,fivor,,,0
+48741736509,"Tirax: Bakru",-16.00354,167.29696,5150,sky,skae,skae,,ⁿdakran,,,0
+48741736509,"Tirax: Bakru",-16.00354,167.29696,5210,water,wota,wota,,nu-ã,,,0
+48741736509,"Tirax: Bakru",-16.00354,167.29696,6220,woods,dak_bus,dak_bus,,nɛ-nihtəra,,,0
+48741736509,"Tirax: Bakru",-16.00354,167.29696,5230,lake,lek_lagun,lek_lagun,,na-lɛnd,,,0
+48741736509,"Tirax: Bakru",-16.00354,167.29696,5240,sea,solwota,solwota,,ⁿtah,,,0
+48741736509,"Tirax: Bakru",-16.00354,167.29696,6240,root,rus,rus,,lɪᵐba-na,,,0
+48741736509,"Tirax: Bakru",-16.00354,167.29696,6250,branch,branj,branj,,"ⁿdʳaŋ na-xa",,,0
+48741736509,"Tirax: Bakru",-16.00354,167.29696,6260,leaf,lif,lif,,roɣa,,,0
+48741736509,"Tirax: Bakru",-16.00354,167.29696,6280,wood,wud,wud,,na-ɣa,,,0
+48741736509,"Tirax: Bakru",-16.00354,167.29696,6310,grass,kras,kras,,na-nix,,,0
+48741736509,"Tirax: Bakru",-16.00354,167.29696,6320,flower,flowa,flowa,,..,,,0
+48741736509,"Tirax: Bakru",-16.00354,167.29696,5410,fire,faea,faea,,..,,,0
+48741736509,"Tirax: Bakru",-16.00354,167.29696,5420,smoke,smok,smok,,ies,,,0
+48741736509,"Tirax: Bakru",-16.00354,167.29696,5430,ash,asis,asis,,ᵐbɪtɪɸ,,,0
+48741736509,"Tirax: Bakru",-16.00354,167.29696,5510,stone,ston,ston,,nə-vat,,,0
+48741736509,"Tirax: Bakru",-16.00354,167.29696,5520,earth,kraon,kraon,,ⁿtan,,,0
+48741736509,"Tirax: Bakru",-16.00354,167.29696,5530,dust,tas,tas,,bɛtɪɸ,,,0
+48741736509,"Tirax: Bakru",-16.00354,167.29696,5540,sand,sanbij,sanbij,,na-wɛn,,,0
+48741737809,"Tirax: Orap",-15.97,167.34464,5120,moon,mun,mun,,na-vil,,,0
+48741737809,"Tirax: Orap",-15.97,167.34464,5130,star,sta,sta,,vivor,,,0
+48741737809,"Tirax: Orap",-15.97,167.34464,5150,sky,skae,skae,,ⁿdakran,,,0
+48741737809,"Tirax: Orap",-15.97,167.34464,5210,water,wota,wota,,nu-ã,,,0
+48741737809,"Tirax: Orap",-15.97,167.34464,6220,woods,dak_bus,dak_bus,,..,,,0
+48741737809,"Tirax: Orap",-15.97,167.34464,5230,lake,lek_lagun,lek_lagun,,..,,,0
+48741737809,"Tirax: Orap",-15.97,167.34464,5240,sea,solwota,solwota,,ⁿtah,,,0
+48741737809,"Tirax: Orap",-15.97,167.34464,6240,root,rus,rus,,lɪᵐba-na,,,0
+48741737809,"Tirax: Orap",-15.97,167.34464,6250,branch,branj,branj,,ha-raŋ-na-n,,,0
+48741737809,"Tirax: Orap",-15.97,167.34464,6260,leaf,lif,lif,,..,,,0
+48741737809,"Tirax: Orap",-15.97,167.34464,6280,wood,wud,wud,,na-ɣa,,,0
+48741737809,"Tirax: Orap",-15.97,167.34464,6310,grass,kras,kras,,..,,,0
+48741737809,"Tirax: Orap",-15.97,167.34464,6320,flower,flowa,flowa,,..,,,0
+48741737809,"Tirax: Orap",-15.97,167.34464,5410,fire,faea,faea,,na-ⁿdə,,,0
+48741737809,"Tirax: Orap",-15.97,167.34464,5410,fire,faea,faea,,"na-ⁿdə ɣan",,,0
+48741737809,"Tirax: Orap",-15.97,167.34464,5420,smoke,smok,smok,,nɪ-hɪna,,,0
+48741737809,"Tirax: Orap",-15.97,167.34464,5430,ash,asis,asis,,ᵐbɛtɪv,,,0
+48741737809,"Tirax: Orap",-15.97,167.34464,5510,stone,ston,ston,,n-vat,,,0
+48741737809,"Tirax: Orap",-15.97,167.34464,5520,earth,kraon,kraon,,ⁿtan,,,0
+48741737809,"Tirax: Orap",-15.97,167.34464,5530,dust,tas,tas,,ᵐbɛtkuʰ,,,0
+48741737809,"Tirax: Orap",-15.97,167.34464,5540,sand,sanbij,sanbij,,na-wɛn,,,0
+48741752709,"Atchin: Orap",-15.9156,167.30641,5120,moon,mun,mun,,na-vʉl,,,0
+48741752709,"Atchin: Orap",-15.9156,167.30641,5130,star,sta,sta,,muʧo,,,0
+48741752709,"Atchin: Orap",-15.9156,167.30641,5150,sky,skae,skae,,bakran,,,0
+48741752709,"Atchin: Orap",-15.9156,167.30641,5210,water,wota,wota,,nu-a,,,0
+48741752709,"Atchin: Orap",-15.9156,167.30641,6220,woods,dak_bus,dak_bus,,ni-tarax,,,0
+48741752709,"Atchin: Orap",-15.9156,167.30641,5230,lake,lek_lagun,lek_lagun,,nalɛp˺,,,0
+48741752709,"Atchin: Orap",-15.9156,167.30641,5240,sea,solwota,solwota,,ⁿtas,,,0
+48741752709,"Atchin: Orap",-15.9156,167.30641,6240,root,rus,rus,,lapʷɛ-n,,,0
+48741752709,"Atchin: Orap",-15.9156,167.30641,6250,branch,branj,branj,,rɛŋrɛŋɛ-n,,,0
+48741752709,"Atchin: Orap",-15.9156,167.30641,6260,leaf,lif,lif,,rou-n,,,0
+48741752709,"Atchin: Orap",-15.9156,167.30641,6280,wood,wud,wud,,ne-i,,,0
+48741752709,"Atchin: Orap",-15.9156,167.30641,6310,grass,kras,kras,,na-mʉs,,,0
+48741752709,"Atchin: Orap",-15.9156,167.30641,6320,flower,flowa,flowa,,..,,,0
+48741752709,"Atchin: Orap",-15.9156,167.30641,5410,fire,faea,faea,,na-mb,,,0
+48741752709,"Atchin: Orap",-15.9156,167.30641,5420,smoke,smok,smok,,ni-s,,,0
+48741752709,"Atchin: Orap",-15.9156,167.30641,5420,smoke,smok,smok,,"ni-s na-mb",,,0
+48741752709,"Atchin: Orap",-15.9156,167.30641,5430,ash,asis,asis,,..,,,0
+48741752709,"Atchin: Orap",-15.9156,167.30641,5510,stone,ston,ston,,ni-vat,,,0
+48741752709,"Atchin: Orap",-15.9156,167.30641,5520,earth,kraon,kraon,,ⁿtan,,,0
+48741752709,"Atchin: Orap",-15.9156,167.30641,5530,dust,tas,tas,,putmau,,,0
+48741752709,"Atchin: Orap",-15.9156,167.30641,5540,sand,sanbij,sanbij,,tipnan,,,0
+48741752809,"Atchin: Small Island",-15.9439,167.33993,5120,moon,mun,mun,,na-vʉl,,,0
+48741752809,"Atchin: Small Island",-15.9439,167.33993,5130,star,sta,sta,,muʧo,,,0
+48741752809,"Atchin: Small Island",-15.9439,167.33993,5150,sky,skae,skae,,bakran,,,0
+48741752809,"Atchin: Small Island",-15.9439,167.33993,5210,water,wota,wota,,nu-a,,,0
+48741752809,"Atchin: Small Island",-15.9439,167.33993,6220,woods,dak_bus,dak_bus,,"lamʊs rum",,,0
+48741752809,"Atchin: Small Island",-15.9439,167.33993,5230,lake,lek_lagun,lek_lagun,,nalɛp,,,0
+48741752809,"Atchin: Small Island",-15.9439,167.33993,5240,sea,solwota,solwota,,ⁿdas,,,0
+48741752809,"Atchin: Small Island",-15.9439,167.33993,6240,root,rus,rus,,lapʷɛ-n,,,0
+48741752809,"Atchin: Small Island",-15.9439,167.33993,6250,branch,branj,branj,,rɛrɛŋɛ-n,,,0
+48741752809,"Atchin: Small Island",-15.9439,167.33993,6260,leaf,lif,lif,,rou-n,,,0
+48741752809,"Atchin: Small Island",-15.9439,167.33993,6280,wood,wud,wud,,ne-i,,,0
+48741752809,"Atchin: Small Island",-15.9439,167.33993,6310,grass,kras,kras,,na-mʊs,,,0
+48741752809,"Atchin: Small Island",-15.9439,167.33993,6320,flower,flowa,flowa,,loplop,,,0
+48741752809,"Atchin: Small Island",-15.9439,167.33993,5410,fire,faea,faea,,na-mb,,,0
+48741752809,"Atchin: Small Island",-15.9439,167.33993,5420,smoke,smok,smok,,nɪ-s,,,0
+48741752809,"Atchin: Small Island",-15.9439,167.33993,5420,smoke,smok,smok,,"nɪ-s na-mb",,,0
+48741752809,"Atchin: Small Island",-15.9439,167.33993,5430,ash,asis,asis,,na-ßɪn,,,0
+48741752809,"Atchin: Small Island",-15.9439,167.33993,5510,stone,ston,ston,,ni-βat,,,0
+48741752809,"Atchin: Small Island",-15.9439,167.33993,5520,earth,kraon,kraon,,ⁿdan,,,0
+48741752809,"Atchin: Small Island",-15.9439,167.33993,5530,dust,tas,tas,,potmau,,,0
+48741752809,"Atchin: Small Island",-15.9439,167.33993,5540,sand,sanbij,sanbij,,ⁿdɪpnan,,,0
+48741754509,"Wala: Botku",-15.96841,167.29246,5120,moon,mun,mun,,na-vʉl,,,0
+48741754509,"Wala: Botku",-15.96841,167.29246,5130,star,sta,sta,,nɛ-mʧʉ,,,0
+48741754509,"Wala: Botku",-15.96841,167.29246,5150,sky,skae,skae,,bakren,,,0
+48741754509,"Wala: Botku",-15.96841,167.29246,5210,water,wota,wota,,nu-ɔ,,,0
+48741754509,"Wala: Botku",-15.96841,167.29246,6220,woods,dak_bus,dak_bus,,nɛ-təra,,,0
+48741754509,"Wala: Botku",-15.96841,167.29246,5230,lake,lek_lagun,lek_lagun,,..,,,0
+48741754509,"Wala: Botku",-15.96841,167.29246,5240,sea,solwota,solwota,,ⁿdes,,,0
+48741754509,"Wala: Botku",-15.96841,167.29246,6240,root,rus,rus,,lapɛ-n,,,0
+48741754509,"Wala: Botku",-15.96841,167.29246,6250,branch,branj,branj,,rɛŋsi-n,,,0
+48741754509,"Wala: Botku",-15.96841,167.29246,6260,leaf,lif,lif,,roin,,,0
+48741754509,"Wala: Botku",-15.96841,167.29246,6280,wood,wud,wud,,na-i,,,0
+48741754509,"Wala: Botku",-15.96841,167.29246,6310,grass,kras,kras,,na-mʉs,,,0
+48741754509,"Wala: Botku",-15.96841,167.29246,6320,flower,flowa,flowa,,loklok,,,0
+48741754509,"Wala: Botku",-15.96841,167.29246,5410,fire,faea,faea,,na-mp,,,0
+48741754509,"Wala: Botku",-15.96841,167.29246,5420,smoke,smok,smok,,mʷos,,,0
+48741754509,"Wala: Botku",-15.96841,167.29246,5430,ash,asis,asis,,..,,,0
+48741754509,"Wala: Botku",-15.96841,167.29246,5510,stone,ston,ston,,nɪ-βɪt,,,0
+48741754509,"Wala: Botku",-15.96841,167.29246,5520,earth,kraon,kraon,,ⁿdan,,,0
+48741754509,"Wala: Botku",-15.96841,167.29246,5530,dust,tas,tas,,ᵐbetimau,,,0
+48741754509,"Wala: Botku",-15.96841,167.29246,5540,sand,sanbij,sanbij,,ⁿdɪpenan,,,0
+48741754709,"Wala: Worprev",-15.97775,167.37656,5120,moon,mun,mun,,na-ɣanbasi,,,0
+48741754709,"Wala: Worprev",-15.97775,167.37656,5130,star,sta,sta,,nu-mʷosi,,,0
+48741754709,"Wala: Worprev",-15.97775,167.37656,5150,sky,skae,skae,,nɪ-mav,,,0
+48741754709,"Wala: Worprev",-15.97775,167.37656,5210,water,wota,wota,,ni-le,,,0
+48741754709,"Wala: Worprev",-15.97775,167.37656,6220,woods,dak_bus,dak_bus,,"nɪ-ᵐʙɪɣai iⁿdu",,,0
+48741754709,"Wala: Worprev",-15.97775,167.37656,5230,lake,lek_lagun,lek_lagun,,"nɪ-ᵐbulɪs ⁿduⁿdun",,,0
+48741754709,"Wala: Worprev",-15.97775,167.37656,5240,sea,solwota,solwota,,nɛ-tas,,,0
+48741754709,"Wala: Worprev",-15.97775,167.37656,6240,root,rus,rus,,na-xara-n,,,0
+48741754709,"Wala: Worprev",-15.97775,167.37656,6250,branch,branj,branj,,nɪ-pʷisɛra-n,,,0
+48741754709,"Wala: Worprev",-15.97775,167.37656,6260,leaf,lif,lif,,nɛ-raxu-n,,,0
+48741754709,"Wala: Worprev",-15.97775,167.37656,6280,wood,wud,wud,,na-xai,,,0
+48741754709,"Wala: Worprev",-15.97775,167.37656,6310,grass,kras,kras,,nɪ-mune,,,0
+48741754709,"Wala: Worprev",-15.97775,167.37656,6320,flower,flowa,flowa,,nɪ-tavsɛ-n,,,0
+48741754709,"Wala: Worprev",-15.97775,167.37656,5410,fire,faea,faea,,na-xamʙ,,,0
+48741754709,"Wala: Worprev",-15.97775,167.37656,5420,smoke,smok,smok,,i-ⁿduŋk,,,0
+48741754709,"Wala: Worprev",-15.97775,167.37656,5430,ash,asis,asis,,masuanɣamb,,,0
+48741754709,"Wala: Worprev",-15.97775,167.37656,5510,stone,ston,ston,,nɪ-vat,,,0
+48741754709,"Wala: Worprev",-15.97775,167.37656,5520,earth,kraon,kraon,,nɪ-tan,,,0
+48741754709,"Wala: Worprev",-15.97775,167.37656,5530,dust,tas,tas,,ni-ap,,,0
+48741754709,"Wala: Worprev",-15.97775,167.37656,5540,sand,sanbij,sanbij,,nɪ-ᵐbinon,,,0
+48741754809,"Wala: Petreros",-15.97544,167.37627,5120,moon,mun,mun,,na-vʉð,,,0
+48741754809,"Wala: Petreros",-15.97544,167.37627,5130,star,sta,sta,,nɪ-mɪt͡sʉ,,,0
+48741754809,"Wala: Petreros",-15.97544,167.37627,5150,sky,skae,skae,,ᵐbagrin,,,0
+48741754809,"Wala: Petreros",-15.97544,167.37627,5210,water,wota,wota,,nu-ɔ,,,0
+48741754809,"Wala: Petreros",-15.97544,167.37627,6220,woods,dak_bus,dak_bus,,ne-tara,,,0
+48741754809,"Wala: Petreros",-15.97544,167.37627,5230,lake,lek_lagun,lek_lagun,,..,,,0
+48741754809,"Wala: Petreros",-15.97544,167.37627,5240,sea,solwota,solwota,,ⁿdes,,,0
+48741754809,"Wala: Petreros",-15.97544,167.37627,6240,root,rus,rus,,lapʷɛ-n,,,0
+48741754809,"Wala: Petreros",-15.97544,167.37627,6250,branch,branj,branj,,reŋsin,,,0
+48741754809,"Wala: Petreros",-15.97544,167.37627,6260,leaf,lif,lif,,roin,,,0
+48741754809,"Wala: Petreros",-15.97544,167.37627,6280,wood,wud,wud,,na-i,,,0
+48741754809,"Wala: Petreros",-15.97544,167.37627,6310,grass,kras,kras,,na-mus,,,0
+48741754809,"Wala: Petreros",-15.97544,167.37627,6320,flower,flowa,flowa,,..,,,0
+48741754809,"Wala: Petreros",-15.97544,167.37627,5410,fire,faea,faea,,na-mbə,,,0
+48741754809,"Wala: Petreros",-15.97544,167.37627,5420,smoke,smok,smok,,ne-sɪnin,,,0
+48741754809,"Wala: Petreros",-15.97544,167.37627,5430,ash,asis,asis,,na-vun,,,0
+48741754809,"Wala: Petreros",-15.97544,167.37627,5510,stone,ston,ston,,nɪ-vɪd,,,0
+48741754809,"Wala: Petreros",-15.97544,167.37627,5520,earth,kraon,kraon,,ⁿdan,,,0
+48741754809,"Wala: Petreros",-15.97544,167.37627,5530,dust,tas,tas,,ᵐbʷetimau,,,0
+48741754809,"Wala: Petreros",-15.97544,167.37627,5540,sand,sanbij,sanbij,,no-wanan,,,0
+48741754909,"Wala: Preng",-15.97342,167.37627,5120,moon,mun,mun,,na-vʉl,,,0
+48741754909,"Wala: Preng",-15.97342,167.37627,5130,star,sta,sta,,nə-mt͡sʉ,,,0
+48741754909,"Wala: Preng",-15.97342,167.37627,5150,sky,skae,skae,,baxrɛnɛ,,,0
+48741754909,"Wala: Preng",-15.97342,167.37627,5210,water,wota,wota,,nu-ɔ,,,0
+48741754909,"Wala: Preng",-15.97342,167.37627,6220,woods,dak_bus,dak_bus,,nɛ-təra,,,0
+48741754909,"Wala: Preng",-15.97342,167.37627,5230,lake,lek_lagun,lek_lagun,,lanəmb,,,0
+48741754909,"Wala: Preng",-15.97342,167.37627,5240,sea,solwota,solwota,,ⁿdes,,,0
+48741754909,"Wala: Preng",-15.97342,167.37627,6240,root,rus,rus,,lapɛ-n,,,0
+48741754909,"Wala: Preng",-15.97342,167.37627,6250,branch,branj,branj,,rɛŋsi-n,,,0
+48741754909,"Wala: Preng",-15.97342,167.37627,6260,leaf,lif,lif,,roin,,,0
+48741754909,"Wala: Preng",-15.97342,167.37627,6280,wood,wud,wud,,na-i,,,0
+48741754909,"Wala: Preng",-15.97342,167.37627,6310,grass,kras,kras,,na-mʉs,,,0
+48741754909,"Wala: Preng",-15.97342,167.37627,6320,flower,flowa,flowa,,..,,,0
+48741754909,"Wala: Preng",-15.97342,167.37627,5410,fire,faea,faea,,na-mbə,,,0
+48741754909,"Wala: Preng",-15.97342,167.37627,5420,smoke,smok,smok,,no-ʃunin,,,0
+48741754909,"Wala: Preng",-15.97342,167.37627,5430,ash,asis,asis,,mɛʃjʉ,,,0
+48741754909,"Wala: Preng",-15.97342,167.37627,5510,stone,ston,ston,,nɪ-βɪt,,,0
+48741754909,"Wala: Preng",-15.97342,167.37627,5520,earth,kraon,kraon,,ⁿdan,,,0
+48741754909,"Wala: Preng",-15.97342,167.37627,5530,dust,tas,tas,,ᵐbetimau,,,0
+48741754909,"Wala: Preng",-15.97342,167.37627,5540,sand,sanbij,sanbij,,no-wanan,,,0
+48741756709,"Rano: Twalung",-15.98389,167.38444,5120,moon,mun,mun,,na-vʉl,,,0
+48741756709,"Rano: Twalung",-15.98389,167.38444,5130,star,sta,sta,,nɪ-mʧʉ,,,0
+48741756709,"Rano: Twalung",-15.98389,167.38444,5150,sky,skae,skae,,bakrɛn,,,0
+48741756709,"Rano: Twalung",-15.98389,167.38444,5210,water,wota,wota,,i-nan,,,0
+48741756709,"Rano: Twalung",-15.98389,167.38444,6220,woods,dak_bus,dak_bus,,nɛ-tɘra,,,0
+48741756709,"Rano: Twalung",-15.98389,167.38444,5230,lake,lek_lagun,lek_lagun,,lɛp,,,0
+48741756709,"Rano: Twalung",-15.98389,167.38444,5240,sea,solwota,solwota,,ⁿdes,,,0
+48741756709,"Rano: Twalung",-15.98389,167.38444,6240,root,rus,rus,,lapɛ-n,,,0
+48741756709,"Rano: Twalung",-15.98389,167.38444,6250,branch,branj,branj,,rɛŋsi-n,,,0
+48741756709,"Rano: Twalung",-15.98389,167.38444,6260,leaf,lif,lif,,ro͡in,,,0
+48741756709,"Rano: Twalung",-15.98389,167.38444,6280,wood,wud,wud,,na-i,,,0
+48741756709,"Rano: Twalung",-15.98389,167.38444,6310,grass,kras,kras,,na-mus,,,0
+48741756709,"Rano: Twalung",-15.98389,167.38444,6320,flower,flowa,flowa,,loklok,,,0
+48741756709,"Rano: Twalung",-15.98389,167.38444,5410,fire,faea,faea,,na-mb,,,0
+48741756709,"Rano: Twalung",-15.98389,167.38444,5420,smoke,smok,smok,,mʷos,,,0
+48741756709,"Rano: Twalung",-15.98389,167.38444,5430,ash,asis,asis,,mʷɪsjʉ,,,0
+48741756709,"Rano: Twalung",-15.98389,167.38444,5510,stone,ston,ston,,nɪ-βɪt,,,0
+48741756709,"Rano: Twalung",-15.98389,167.38444,5520,earth,kraon,kraon,,ⁿdan,,,0
+48741756709,"Rano: Twalung",-15.98389,167.38444,5530,dust,tas,tas,,ᵐbɛtimau,,,0
+48741756709,"Rano: Twalung",-15.98389,167.38444,5540,sand,sanbij,sanbij,,no-wanan,,,0
+48741756809,"Rano: Potora",-15.98472,167.3866,5120,moon,mun,mun,,na-vʉl,,,0
+48741756809,"Rano: Potora",-15.98472,167.3866,5130,star,sta,sta,,nə-mʧu,,,0
+48741756809,"Rano: Potora",-15.98472,167.3866,5150,sky,skae,skae,,ᵐbaxarin,,,0
+48741756809,"Rano: Potora",-15.98472,167.3866,5210,water,wota,wota,,nuɔ,,,0
+48741756809,"Rano: Potora",-15.98472,167.3866,6220,woods,dak_bus,dak_bus,,ne-tɘɾa,,,0
+48741756809,"Rano: Potora",-15.98472,167.3866,5230,lake,lek_lagun,lek_lagun,,lalɛp,,,0
+48741756809,"Rano: Potora",-15.98472,167.3866,5240,sea,solwota,solwota,,ⁿdes,,,0
+48741756809,"Rano: Potora",-15.98472,167.3866,6240,root,rus,rus,,lapʷɛn,,,0
+48741756809,"Rano: Potora",-15.98472,167.3866,6250,branch,branj,branj,,rɛŋsi-n,,,0
+48741756809,"Rano: Potora",-15.98472,167.3866,6260,leaf,lif,lif,,ro,,,0
+48741756809,"Rano: Potora",-15.98472,167.3866,6280,wood,wud,wud,,na-i,,,0
+48741756809,"Rano: Potora",-15.98472,167.3866,6310,grass,kras,kras,,na-mus,,,0
+48741756809,"Rano: Potora",-15.98472,167.3866,6320,flower,flowa,flowa,,..,,,0
+48741756809,"Rano: Potora",-15.98472,167.3866,5410,fire,faea,faea,,na-mb,,,0
+48741756809,"Rano: Potora",-15.98472,167.3866,5420,smoke,smok,smok,,mʷus,,,0
+48741756809,"Rano: Potora",-15.98472,167.3866,5430,ash,asis,asis,,mʷisjʉ,,,0
+48741756809,"Rano: Potora",-15.98472,167.3866,5510,stone,ston,ston,,nɪ-βɪt,,,0
+48741756809,"Rano: Potora",-15.98472,167.3866,5520,earth,kraon,kraon,,ⁿdan,,,0
+48741756809,"Rano: Potora",-15.98472,167.3866,5530,dust,tas,tas,,ᵐbʷetimau,,,0
+48741756809,"Rano: Potora",-15.98472,167.3866,5540,sand,sanbij,sanbij,,ⁿdɪbʷinan,,,0
+48741756909,"Rano: Chinambong",-15.99049,167.39063,5120,moon,mun,mun,,na-vʉl,,,0
+48741756909,"Rano: Chinambong",-15.99049,167.39063,5130,star,sta,sta,,nə-mʧu,,,0
+48741756909,"Rano: Chinambong",-15.99049,167.39063,5150,sky,skae,skae,,ᵐbakrin,,,0
+48741756909,"Rano: Chinambong",-15.99049,167.39063,5210,water,wota,wota,,nuɔ,,,0
+48741756909,"Rano: Chinambong",-15.99049,167.39063,6220,woods,dak_bus,dak_bus,,nɛ-tɘɾa,,,0
+48741756909,"Rano: Chinambong",-15.99049,167.39063,5230,lake,lek_lagun,lek_lagun,,lalɛp,,,0
+48741756909,"Rano: Chinambong",-15.99049,167.39063,5240,sea,solwota,solwota,,ⁿdes,,,0
+48741756909,"Rano: Chinambong",-15.99049,167.39063,6240,root,rus,rus,,lapʷɛ-n,,,0
+48741756909,"Rano: Chinambong",-15.99049,167.39063,6250,branch,branj,branj,,rɛŋsi-n,,,0
+48741756909,"Rano: Chinambong",-15.99049,167.39063,6260,leaf,lif,lif,,roin,,,0
+48741756909,"Rano: Chinambong",-15.99049,167.39063,6280,wood,wud,wud,,na-i,,,0
+48741756909,"Rano: Chinambong",-15.99049,167.39063,6310,grass,kras,kras,,na-mus,,,0
+48741756909,"Rano: Chinambong",-15.99049,167.39063,6320,flower,flowa,flowa,,..,,,0
+48741756909,"Rano: Chinambong",-15.99049,167.39063,5410,fire,faea,faea,,na-mbə,,,0
+48741756909,"Rano: Chinambong",-15.99049,167.39063,5420,smoke,smok,smok,,nosnin,,,0
+48741756909,"Rano: Chinambong",-15.99049,167.39063,5430,ash,asis,asis,,mɛsjʉ,,,0
+48741756909,"Rano: Chinambong",-15.99049,167.39063,5510,stone,ston,ston,,nɪ-βɪt,,,0
+48741756909,"Rano: Chinambong",-15.99049,167.39063,5520,earth,kraon,kraon,,ⁿdan,,,0
+48741756909,"Rano: Chinambong",-15.99049,167.39063,5530,dust,tas,tas,,ᵐbʷetimau,,,0
+48741756909,"Rano: Chinambong",-15.99049,167.39063,5540,sand,sanbij,sanbij,,ⁿdɪpʷenan,,,0
+48741757609,"Uripiv: Tautu Village",-16.06661,167.3975,5120,moon,mun,mun,,na-ul,,,0
+48741757609,"Uripiv: Tautu Village",-16.06661,167.3975,5130,star,sta,sta,,muʧo,,,0
+48741757609,"Uripiv: Tautu Village",-16.06661,167.3975,5150,sky,skae,skae,,mesa,,,0
+48741757609,"Uripiv: Tautu Village",-16.06661,167.3975,5210,water,wota,wota,,nu-wɔ,,,0
+48741757609,"Uripiv: Tautu Village",-16.06661,167.3975,6220,woods,dak_bus,dak_bus,,lɛlmarul,,,0
+48741757609,"Uripiv: Tautu Village",-16.06661,167.3975,5230,lake,lek_lagun,lek_lagun,,..,,,0
+48741757609,"Uripiv: Tautu Village",-16.06661,167.3975,5240,sea,solwota,solwota,,ⁿdes,,,0
+48741757609,"Uripiv: Tautu Village",-16.06661,167.3975,6240,root,rus,rus,,lapɛ-n,,,0
+48741757609,"Uripiv: Tautu Village",-16.06661,167.3975,6250,branch,branj,branj,,rɛŋsi-n,,,0
+48741757609,"Uripiv: Tautu Village",-16.06661,167.3975,6260,leaf,lif,lif,,roin,,,0
+48741757609,"Uripiv: Tautu Village",-16.06661,167.3975,6280,wood,wud,wud,,na-i,,,0
+48741757609,"Uripiv: Tautu Village",-16.06661,167.3975,6310,grass,kras,kras,,na-mus,,,0
+48741757609,"Uripiv: Tautu Village",-16.06661,167.3975,6320,flower,flowa,flowa,,..,,,0
+48741757609,"Uripiv: Tautu Village",-16.06661,167.3975,5410,fire,faea,faea,,namb,,,0
+48741757609,"Uripiv: Tautu Village",-16.06661,167.3975,5420,smoke,smok,smok,,os,,,0
+48741757609,"Uripiv: Tautu Village",-16.06661,167.3975,5430,ash,asis,asis,,mesio,,,0
+48741757609,"Uripiv: Tautu Village",-16.06661,167.3975,5510,stone,ston,ston,,ni-wɛt,,,0
+48741757609,"Uripiv: Tautu Village",-16.06661,167.3975,5520,earth,kraon,kraon,,ⁿdan,,,0
+48741757609,"Uripiv: Tautu Village",-16.06661,167.3975,5530,dust,tas,tas,,ᵐbetimao,,,0
+48741757609,"Uripiv: Tautu Village",-16.06661,167.3975,5540,sand,sanbij,sanbij,,ⁿdepenan,,,0
+48741758709,"Uripiv: Tautu",-16.06778,167.40111,5120,moon,mun,mun,,na-ul,,,0
+48741758709,"Uripiv: Tautu",-16.06778,167.40111,5130,star,sta,sta,,muʧo,,,0
+48741758709,"Uripiv: Tautu",-16.06778,167.40111,5150,sky,skae,skae,,mesa,,,0
+48741758709,"Uripiv: Tautu",-16.06778,167.40111,5210,water,wota,wota,,nu-wɔ,,,0
+48741758709,"Uripiv: Tautu",-16.06778,167.40111,6220,woods,dak_bus,dak_bus,,lɛlmarul,,,0
+48741758709,"Uripiv: Tautu",-16.06778,167.40111,5230,lake,lek_lagun,lek_lagun,,..,,,0
+48741758709,"Uripiv: Tautu",-16.06778,167.40111,5240,sea,solwota,solwota,,ⁿdes,,,0
+48741758709,"Uripiv: Tautu",-16.06778,167.40111,6240,root,rus,rus,,tlapɛ-n,,,0
+48741758709,"Uripiv: Tautu",-16.06778,167.40111,6250,branch,branj,branj,,rɛŋsi-n,,,0
+48741758709,"Uripiv: Tautu",-16.06778,167.40111,6260,leaf,lif,lif,,roin,,,0
+48741758709,"Uripiv: Tautu",-16.06778,167.40111,6280,wood,wud,wud,,na-i,,,0
+48741758709,"Uripiv: Tautu",-16.06778,167.40111,6310,grass,kras,kras,,na-mus,,,0
+48741758709,"Uripiv: Tautu",-16.06778,167.40111,6320,flower,flowa,flowa,,..,,,0
+48741758709,"Uripiv: Tautu",-16.06778,167.40111,5410,fire,faea,faea,,na-mb,,,0
+48741758709,"Uripiv: Tautu",-16.06778,167.40111,5420,smoke,smok,smok,,os,,,0
+48741758709,"Uripiv: Tautu",-16.06778,167.40111,5430,ash,asis,asis,,..,,,0
+48741758709,"Uripiv: Tautu",-16.06778,167.40111,5510,stone,ston,ston,,ni-vɛt,,,0
+48741758709,"Uripiv: Tautu",-16.06778,167.40111,5520,earth,kraon,kraon,,ⁿdan,,,0
+48741758709,"Uripiv: Tautu",-16.06778,167.40111,5530,dust,tas,tas,,ᵐbetimao,,,0
+48741758709,"Uripiv: Tautu",-16.06778,167.40111,5540,sand,sanbij,sanbij,,ⁿdepɪnan,,,0
+48741758809,"Uripiv: Durpif",-16.07265,167.447,5120,moon,mun,mun,,na-vʉl,,,0
+48741758809,"Uripiv: Durpif",-16.07265,167.447,5130,star,sta,sta,,mʷɔʧu,,,0
+48741758809,"Uripiv: Durpif",-16.07265,167.447,5150,sky,skae,skae,,..,,,0
+48741758809,"Uripiv: Durpif",-16.07265,167.447,5210,water,wota,wota,,no-wi,,,0
+48741758809,"Uripiv: Durpif",-16.07265,167.447,6220,woods,dak_bus,dak_bus,,lolmarul,,,0
+48741758809,"Uripiv: Durpif",-16.07265,167.447,5230,lake,lek_lagun,lek_lagun,,..,,,0
+48741758809,"Uripiv: Durpif",-16.07265,167.447,5240,sea,solwota,solwota,,ⁿdis,,,0
+48741758809,"Uripiv: Durpif",-16.07265,167.447,6240,root,rus,rus,,lapɛ-n,,,0
+48741758809,"Uripiv: Durpif",-16.07265,167.447,6250,branch,branj,branj,,rɛŋsi-n,,,0
+48741758809,"Uripiv: Durpif",-16.07265,167.447,6260,leaf,lif,lif,,raun,,,0
+48741758809,"Uripiv: Durpif",-16.07265,167.447,6280,wood,wud,wud,,na-i,,,0
+48741758809,"Uripiv: Durpif",-16.07265,167.447,6310,grass,kras,kras,,mʊsmʊs,,,0
+48741758809,"Uripiv: Durpif",-16.07265,167.447,6320,flower,flowa,flowa,,ne-vuŋʊn,,,0
+48741758809,"Uripiv: Durpif",-16.07265,167.447,5410,fire,faea,faea,,na-mp,,,0
+48741758809,"Uripiv: Durpif",-16.07265,167.447,5420,smoke,smok,smok,,no-snin,,,0
+48741758809,"Uripiv: Durpif",-16.07265,167.447,5430,ash,asis,asis,,niaβin,,,0
+48741758809,"Uripiv: Durpif",-16.07265,167.447,5510,stone,ston,ston,,ne-vʉt,,,0
+48741758809,"Uripiv: Durpif",-16.07265,167.447,5520,earth,kraon,kraon,,ⁿdan,,,0
+48741758809,"Uripiv: Durpif",-16.07265,167.447,5530,dust,tas,tas,,mao,,,0
+48741758809,"Uripiv: Durpif",-16.07265,167.447,5540,sand,sanbij,sanbij,,ⁿdepinan,,,0
+48741758909,"Uripiv: Potnambe",-16.07391,167.45203,5120,moon,mun,mun,,na-vʉl,,,0
+48741758909,"Uripiv: Potnambe",-16.07391,167.45203,5130,star,sta,sta,,mʷot͡su,,,0
+48741758909,"Uripiv: Potnambe",-16.07391,167.45203,5150,sky,skae,skae,,nesa,,,0
+48741758909,"Uripiv: Potnambe",-16.07391,167.45203,5210,water,wota,wota,,no-wi,,,0
+48741758909,"Uripiv: Potnambe",-16.07391,167.45203,6220,woods,dak_bus,dak_bus,,lolnai,,,0
+48741758909,"Uripiv: Potnambe",-16.07391,167.45203,5230,lake,lek_lagun,lek_lagun,,..,,,0
+48741758909,"Uripiv: Potnambe",-16.07391,167.45203,5240,sea,solwota,solwota,,ⁿdis,,,0
+48741758909,"Uripiv: Potnambe",-16.07391,167.45203,6240,root,rus,rus,,laɸɛ-n,,,0
+48741758909,"Uripiv: Potnambe",-16.07391,167.45203,6250,branch,branj,branj,,rɛŋsi-n,,,0
+48741758909,"Uripiv: Potnambe",-16.07391,167.45203,6260,leaf,lif,lif,,raon,,,0
+48741758909,"Uripiv: Potnambe",-16.07391,167.45203,6280,wood,wud,wud,,na-i,,,0
+48741758909,"Uripiv: Potnambe",-16.07391,167.45203,6310,grass,kras,kras,,mʉsmʉs,,,0
+48741758909,"Uripiv: Potnambe",-16.07391,167.45203,6320,flower,flowa,flowa,,ne-vuŋʊn,,,0
+48741758909,"Uripiv: Potnambe",-16.07391,167.45203,5410,fire,faea,faea,,na-mb,,,0
+48741758909,"Uripiv: Potnambe",-16.07391,167.45203,5420,smoke,smok,smok,,no-snɪn,,,0
+48741758909,"Uripiv: Potnambe",-16.07391,167.45203,5430,ash,asis,asis,,niaβin,,,0
+48741758909,"Uripiv: Potnambe",-16.07391,167.45203,5510,stone,ston,ston,,ne-vʉt,,,0
+48741758909,"Uripiv: Potnambe",-16.07391,167.45203,5520,earth,kraon,kraon,,ⁿdan,,,0
+48741758909,"Uripiv: Potnambe",-16.07391,167.45203,5530,dust,tas,tas,,mʷao,,,0
+48741758909,"Uripiv: Potnambe",-16.07391,167.45203,5540,sand,sanbij,sanbij,,ⁿdebʷinan,,,0
+48741953109,"Wowo: Lesarmalas",-15.90733,167.17927,5120,moon,mun,mun,,na-βule,,,0
+48741953109,"Wowo: Lesarmalas",-15.90733,167.17927,5130,star,sta,sta,,no-vovoɾ,,,0
+48741953109,"Wowo: Lesarmalas",-15.90733,167.17927,5150,sky,skae,skae,,nɪ-ⁿdeknaran,,,0
+48741953109,"Wowo: Lesarmalas",-15.90733,167.17927,5210,water,wota,wota,,no-a,,,0
+48741953109,"Wowo: Lesarmalas",-15.90733,167.17927,6220,woods,dak_bus,dak_bus,,no-voroa,,,0
+48741953109,"Wowo: Lesarmalas",-15.90733,167.17927,5230,lake,lek_lagun,lek_lagun,,na-lɛmp,,,0
+48741953109,"Wowo: Lesarmalas",-15.90733,167.17927,5240,sea,solwota,solwota,,na-tah,,,0
+48741953109,"Wowo: Lesarmalas",-15.90733,167.17927,6240,root,rus,rus,,na-laᵐbɛ-n,,,0
+48741953109,"Wowo: Lesarmalas",-15.90733,167.17927,6250,branch,branj,branj,,na-ɾaŋa-n,,,0
+48741953109,"Wowo: Lesarmalas",-15.90733,167.17927,6260,leaf,lif,lif,,na-raune,,,0
+48741953109,"Wowo: Lesarmalas",-15.90733,167.17927,6280,wood,wud,wud,,na-i,,,0
+48741953109,"Wowo: Lesarmalas",-15.90733,167.17927,6310,grass,kras,kras,,na-nuh,,,0
+48741953109,"Wowo: Lesarmalas",-15.90733,167.17927,6320,flower,flowa,flowa,,..,,,0
+48741953109,"Wowo: Lesarmalas",-15.90733,167.17927,5410,fire,faea,faea,,na-and,,,0
+48741953109,"Wowo: Lesarmalas",-15.90733,167.17927,5420,smoke,smok,smok,,..,,,0
+48741953109,"Wowo: Lesarmalas",-15.90733,167.17927,5430,ash,asis,asis,,nɪ-ᵐbɪtmaɸ,,,0
+48741953109,"Wowo: Lesarmalas",-15.90733,167.17927,5510,stone,ston,ston,,na-ðat,,,0
+48741953109,"Wowo: Lesarmalas",-15.90733,167.17927,5520,earth,kraon,kraon,,na-tan,,,0
+48741953109,"Wowo: Lesarmalas",-15.90733,167.17927,5530,dust,tas,tas,,nɪ-ᵐbitmaɸ,,,0
+48741953109,"Wowo: Lesarmalas",-15.90733,167.17927,5540,sand,sanbij,sanbij,,na-on,,,0
+48741954109,"Wowo: Wowo",-15.90224,167.18459,5120,moon,mun,mun,,na-vɪle,,,0
+48741954109,"Wowo: Wowo",-15.90224,167.18459,5130,star,sta,sta,,no-wowoɾo,,,0
+48741954109,"Wowo: Wowo",-15.90224,167.18459,5150,sky,skae,skae,,nɛ-ⁿdɛknaran,,,0
+48741954109,"Wowo: Wowo",-15.90224,167.18459,5210,water,wota,wota,,no-a,,,0
+48741954109,"Wowo: Wowo",-15.90224,167.18459,6220,woods,dak_bus,dak_bus,,no-voroa,,,0
+48741954109,"Wowo: Wowo",-15.90224,167.18459,5230,lake,lek_lagun,lek_lagun,,na-lɛnd,,,0
+48741954109,"Wowo: Wowo",-15.90224,167.18459,5240,sea,solwota,solwota,,na-tah,,,0
+48741954109,"Wowo: Wowo",-15.90224,167.18459,6240,root,rus,rus,,na-laᵐbai-ne,,,0
+48741954109,"Wowo: Wowo",-15.90224,167.18459,6250,branch,branj,branj,,na-raŋa-n,,,0
+48741954109,"Wowo: Wowo",-15.90224,167.18459,6260,leaf,lif,lif,,no-ra,,,0
+48741954109,"Wowo: Wowo",-15.90224,167.18459,6280,wood,wud,wud,,na-i,,,0
+48741954109,"Wowo: Wowo",-15.90224,167.18459,6310,grass,kras,kras,,na-nuh,,,0
+48741954109,"Wowo: Wowo",-15.90224,167.18459,6320,flower,flowa,flowa,,..,,,0
+48741954109,"Wowo: Wowo",-15.90224,167.18459,5410,fire,faea,faea,,na-and,,,0
+48741954109,"Wowo: Wowo",-15.90224,167.18459,5420,smoke,smok,smok,,nɛ-hɛ,,,0
+48741954109,"Wowo: Wowo",-15.90224,167.18459,5420,smoke,smok,smok,,"nɛ-hɛ na-nd",,,0
+48741954109,"Wowo: Wowo",-15.90224,167.18459,5430,ash,asis,asis,,nɛ-ᵐbɛtmaɸ,,,0
+48741954109,"Wowo: Wowo",-15.90224,167.18459,5510,stone,ston,ston,,na-ðat,,,0
+48741954109,"Wowo: Wowo",-15.90224,167.18459,5520,earth,kraon,kraon,,na-tan,,,0
+48741954109,"Wowo: Wowo",-15.90224,167.18459,5530,dust,tas,tas,,nɛ-ᵐbɛtmaɸ,,,0
+48741954109,"Wowo: Wowo",-15.90224,167.18459,5540,sand,sanbij,sanbij,,na-un,,,0
+48741956109,"Alavas: Wowo",-15.90293,167.18499,5120,moon,mun,mun,,na-βule,,,0
+48741956109,"Alavas: Wowo",-15.90293,167.18499,5130,star,sta,sta,,no-vovoɾ,,,0
+48741956109,"Alavas: Wowo",-15.90293,167.18499,5150,sky,skae,skae,,na-ⁿdaknaran,,,0
+48741956109,"Alavas: Wowo",-15.90293,167.18499,5210,water,wota,wota,,no-a,,,0
+48741956109,"Alavas: Wowo",-15.90293,167.18499,6220,woods,dak_bus,dak_bus,,no-voroa,,,0
+48741956109,"Alavas: Wowo",-15.90293,167.18499,5230,lake,lek_lagun,lek_lagun,,na-lɛnd,,,0
+48741956109,"Alavas: Wowo",-15.90293,167.18499,5240,sea,solwota,solwota,,na-tah,,,0
+48741956109,"Alavas: Wowo",-15.90293,167.18499,6240,root,rus,rus,,na-laᵐbɛ-n,,,0
+48741956109,"Alavas: Wowo",-15.90293,167.18499,6250,branch,branj,branj,,na-raŋa-n,,,0
+48741956109,"Alavas: Wowo",-15.90293,167.18499,6260,leaf,lif,lif,,na-raune,,,0
+48741956109,"Alavas: Wowo",-15.90293,167.18499,6280,wood,wud,wud,,na-i,,,0
+48741956109,"Alavas: Wowo",-15.90293,167.18499,6310,grass,kras,kras,,na-nuh,,,0
+48741956109,"Alavas: Wowo",-15.90293,167.18499,6320,flower,flowa,flowa,,..,,,0
+48741956109,"Alavas: Wowo",-15.90293,167.18499,5410,fire,faea,faea,,na-hand,,,0
+48741956109,"Alavas: Wowo",-15.90293,167.18499,5420,smoke,smok,smok,,nɪ-hɪ,,,0
+48741956109,"Alavas: Wowo",-15.90293,167.18499,5420,smoke,smok,smok,,"nɪ-hɪ na-nd",,,0
+48741956109,"Alavas: Wowo",-15.90293,167.18499,5430,ash,asis,asis,,nɪ-ᵐbɪtmaɸ,,,0
+48741956109,"Alavas: Wowo",-15.90293,167.18499,5510,stone,ston,ston,,na-ðat,,,0
+48741956109,"Alavas: Wowo",-15.90293,167.18499,5520,earth,kraon,kraon,,na-tan,,,0
+48741956109,"Alavas: Wowo",-15.90293,167.18499,5530,dust,tas,tas,,nɪ-ᵐbɪtmaɸ,,,0
+48741956109,"Alavas: Wowo",-15.90293,167.18499,5540,sand,sanbij,sanbij,,na-on,,,0
+48741957109,"Alavas: Alavas",-15.89046,167.24151,5120,moon,mun,mun,,na-βule,,,0
+48741957109,"Alavas: Alavas",-15.89046,167.24151,5130,star,sta,sta,,no-vovoɾ,,,0
+48741957109,"Alavas: Alavas",-15.89046,167.24151,5150,sky,skae,skae,,nɛ-ⁿdegnaran,,,0
+48741957109,"Alavas: Alavas",-15.89046,167.24151,5210,water,wota,wota,,no-a,,,0
+48741957109,"Alavas: Alavas",-15.89046,167.24151,6220,woods,dak_bus,dak_bus,,no-voroa,,,0
+48741957109,"Alavas: Alavas",-15.89046,167.24151,5230,lake,lek_lagun,lek_lagun,,na-lɛnd,,,0
+48741957109,"Alavas: Alavas",-15.89046,167.24151,5240,sea,solwota,solwota,,na-tah,,,0
+48741957109,"Alavas: Alavas",-15.89046,167.24151,6240,root,rus,rus,,na-laᵐbai-ne,,,0
+48741957109,"Alavas: Alavas",-15.89046,167.24151,6250,branch,branj,branj,,na-raŋa-n,,,0
+48741957109,"Alavas: Alavas",-15.89046,167.24151,6260,leaf,lif,lif,,na-raune,,,0
+48741957109,"Alavas: Alavas",-15.89046,167.24151,6280,wood,wud,wud,,na-i,,,0
+48741957109,"Alavas: Alavas",-15.89046,167.24151,6310,grass,kras,kras,,na-nuh,,,0
+48741957109,"Alavas: Alavas",-15.89046,167.24151,6320,flower,flowa,flowa,,..,,,0
+48741957109,"Alavas: Alavas",-15.89046,167.24151,5410,fire,faea,faea,,na-and,,,0
+48741957109,"Alavas: Alavas",-15.89046,167.24151,5420,smoke,smok,smok,,nɪ-hɪ,,,0
+48741957109,"Alavas: Alavas",-15.89046,167.24151,5420,smoke,smok,smok,,"nɪ-hɪ na-nd",,,0
+48741957109,"Alavas: Alavas",-15.89046,167.24151,5430,ash,asis,asis,,nɪ-ᵐbɪtmaɸ,,,0
+48741957109,"Alavas: Alavas",-15.89046,167.24151,5510,stone,ston,ston,,na-ðat,,,0
+48741957109,"Alavas: Alavas",-15.89046,167.24151,5520,earth,kraon,kraon,,na-tan,,,0
+48741957109,"Alavas: Alavas",-15.89046,167.24151,5530,dust,tas,tas,,nɪ-ᵐbɪtmaɸ,,,0
+48741957109,"Alavas: Alavas",-15.89046,167.24151,5540,sand,sanbij,sanbij,,..,,,0

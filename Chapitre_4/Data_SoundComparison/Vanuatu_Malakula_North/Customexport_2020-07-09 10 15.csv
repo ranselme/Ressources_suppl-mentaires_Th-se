@@ -1,0 +1,85 @@
+﻿LanguageId,LanguageName,Latitude,Longitude,WordId,WordModernName1,WordModernName2,WordProtoName1,WordProtoName2,Phonetic,SpellingAltv1,SpellingAltv2,NotCognateWithMainWordInThisFamily
+48741151109,"V’ënen Taute: Alpalak",-15.99722,167.1825,6030,meat,mit,mit,,niəx,,,0
+48741151109,"V’ënen Taute: Alpalak",-15.99722,167.1825,6090,fruit,frut,frut,,nafa-n,,,0
+48741153209,"V’ënen Taute: Benenavet",-16.02038,167.17671,6030,meat,mit,mit,,..,,,0
+48741153209,"V’ënen Taute: Benenavet",-16.02038,167.17671,6090,fruit,frut,frut,,..,,,0
+48741155209,"V’ënen Taute: Benmara",-16.05552,167.23261,6030,meat,mit,mit,,ni-xn,,,0
+48741155209,"V’ënen Taute: Benmara",-16.05552,167.23261,6090,fruit,frut,frut,,na-va-n,,,0
+48741157409,"V’ënen Taute: Unmet",-16.15371,167.26022,6030,meat,mit,mit,,niɣ-n,,,0
+48741157409,"V’ënen Taute: Unmet",-16.15371,167.26022,6090,fruit,frut,frut,,..,,,0
+48741158409,"V’ënen Taute: Hamax",-16.111,167.249,6030,meat,mit,mit,,..,,,0
+48741158409,"V’ënen Taute: Hamax",-16.111,167.249,6090,fruit,frut,frut,,..,,,0
+48741322109,"Espiegel’s Bay: Solwota",-15.979,167.192,6030,meat,mit,mit,,mɪsɣovɪ-n,,,0
+48741322109,"Espiegel’s Bay: Solwota",-15.979,167.192,6090,fruit,frut,frut,,nɛ-vʷuŋɛn,,,0
+48741324209,"Espiegel’s Bay: Litebral",-15.974,167.193,6030,meat,mit,mit,,nɛ-mɛsɣov,,,0
+48741324209,"Espiegel’s Bay: Litebral",-15.974,167.193,6090,fruit,frut,frut,,nɛ-vuŋɛn,,,0
+48741326309,"Malua Bay: Coast",-15.98334,167.18798,6030,meat,mit,mit,,ni-ᵐbix,,,0
+48741326309,"Malua Bay: Coast",-15.98334,167.18798,6090,fruit,frut,frut,,na-vorɛn,,,0
+48741327409,"Malua Bay: Petarmul",-16.00022,167.22137,6030,meat,mit,mit,,nɪ-mɪsɣovə-n,,,0
+48741327409,"Malua Bay: Petarmul",-16.00022,167.22137,6090,fruit,frut,frut,,nɛ-vʊŋɛne,,,0
+48741328309,"Malua Bay: Tiptir",-15.9905,167.21991,6030,meat,mit,mit,,nɪ-mbix,,,0
+48741328309,"Malua Bay: Tiptir",-15.9905,167.21991,6090,fruit,frut,frut,,nɛ-vʊŋəne,,,0
+48741328409,"Malua Bay: Marasup",-15.99098,167.2198,6030,meat,mit,mit,,ᵐbisɣohi-na,,,0
+48741328409,"Malua Bay: Marasup",-15.99098,167.2198,6090,fruit,frut,frut,,na-woŋana,,,0
+48741345109,"Najit: Tanmial",-15.94786,167.18226,6030,meat,mit,mit,,nə-ᵐbrɛ-n,,,0
+48741345109,"Najit: Tanmial",-15.94786,167.18226,6090,fruit,frut,frut,,nɛ-vuŋɛ-n,,,0
+48741365109,"Nese: Tanmial",-15.9305,167.17653,6030,meat,mit,mit,,tɪᵐbʊnbʊ-n,,,0
+48741365109,"Nese: Tanmial",-15.9305,167.17653,6090,fruit,frut,frut,,nɪvoɣa,,,0
+48741367209,"Nese: Sanboise",-15.91461,167.17833,6030,meat,mit,mit,,..,,,0
+48741367209,"Nese: Sanboise",-15.91461,167.17833,6090,fruit,frut,frut,,..,,,0
+48741556509,"Vao: Beetehul",-15.89728,167.30443,6030,meat,mit,mit,,ð̼̼ihiɣo-n,,,0
+48741556509,"Vao: Beetehul",-15.89728,167.30443,6090,fruit,frut,frut,,..,,,0
+48741557509,"Vao: Canada",-15.89978,167.30731,6030,meat,mit,mit,,ð̼ihiɣo-n,,,0
+48741557509,"Vao: Canada",-15.89978,167.30731,6090,fruit,frut,frut,,vuan,,,0
+48741557609,"Vao: Peteri",-15.89887,167.3051,6030,meat,mit,mit,,ð̼̼ihiɣo-n,,,0
+48741557609,"Vao: Peteri",-15.89887,167.3051,6090,fruit,frut,frut,,huan,,,0
+48741557709,"Vao: Torono",-15.89986,167.30819,6030,meat,mit,mit,,ð̼̼ihiɣo-n,,,0
+48741557709,"Vao: Torono",-15.89986,167.30819,6090,fruit,frut,frut,,huan,,,0
+48741733509,"Tirax: Botmelesnial",-16.0583,167.369,6030,meat,mit,mit,,nɛ-ɣoɸ,,,0
+48741733509,"Tirax: Botmelesnial",-16.0583,167.369,6090,fruit,frut,frut,,na-voŋa,,,0
+48741733509,"Tirax: Botmelesnial",-16.0583,167.369,6090,fruit,frut,frut,,"na-voŋa na-ɣa",,,0
+48741733609,"Tirax: Mae",-16.05839,167.36953,6030,meat,mit,mit,,nɪ-ŋor,,,0
+48741733609,"Tirax: Mae",-16.05839,167.36953,6090,fruit,frut,frut,,na-vəŋa,,,0
+48741735809,"Tirax: Bethel",-16.03923,167.40186,6030,meat,mit,mit,,..,,,0
+48741735809,"Tirax: Bethel",-16.03923,167.40186,6090,fruit,frut,frut,,na-vuŋa,,,0
+48741735809,"Tirax: Bethel",-16.03923,167.40186,6090,fruit,frut,frut,,"na-vuŋa na-ɣa",,,0
+48741736409,"Tirax: Olamb",-15.98701,167.26154,6030,meat,mit,mit,,nɪ-hoɣovɛ-na-n,,,0
+48741736409,"Tirax: Olamb",-15.98701,167.26154,6090,fruit,frut,frut,,na-vəŋa-na-n,,,0
+48741736509,"Tirax: Bakru",-16.00354,167.29696,6030,meat,mit,mit,,..,,,0
+48741736509,"Tirax: Bakru",-16.00354,167.29696,6090,fruit,frut,frut,,nɛ-vʊna,,,0
+48741737809,"Tirax: Orap",-15.97,167.34464,6030,meat,mit,mit,,nɪ-hovɛ-na-n,,,0
+48741737809,"Tirax: Orap",-15.97,167.34464,6090,fruit,frut,frut,,..,,,0
+48741752709,"Atchin: Orap",-15.9156,167.30641,6030,meat,mit,mit,,"ʃ ʰovi-n",,,0
+48741752709,"Atchin: Orap",-15.9156,167.30641,6090,fruit,frut,frut,,wɛnɛ-n,,,0
+48741752809,"Atchin: Small Island",-15.9439,167.33993,6030,meat,mit,mit,,wisovi-n,,,0
+48741752809,"Atchin: Small Island",-15.9439,167.33993,6090,fruit,frut,frut,,wɛna,,,0
+48741754509,"Wala: Botku",-15.96841,167.29246,6030,meat,mit,mit,,nɪ-viso-k,,,0
+48741754509,"Wala: Botku",-15.96841,167.29246,6090,fruit,frut,frut,,no-wɛnai,,,0
+48741754709,"Wala: Worprev",-15.97775,167.37656,6030,meat,mit,mit,,nɪ-vusox,,,0
+48741754709,"Wala: Worprev",-15.97775,167.37656,6090,fruit,frut,frut,,nɪ-vʷa-n,,,0
+48741754809,"Wala: Petreros",-15.97544,167.37627,6030,meat,mit,mit,,nɪ-viso-n,,,0
+48741754809,"Wala: Petreros",-15.97544,167.37627,6090,fruit,frut,frut,,no-wain,,,0
+48741754909,"Wala: Preng",-15.97342,167.37627,6030,meat,mit,mit,,nɪ-viso-n,,,0
+48741754909,"Wala: Preng",-15.97342,167.37627,6090,fruit,frut,frut,,no-wain,,,0
+48741756709,"Rano: Twalung",-15.98389,167.38444,6030,meat,mit,mit,,nɪ-viso-n,,,0
+48741756709,"Rano: Twalung",-15.98389,167.38444,6090,fruit,frut,frut,,no-wain,,,0
+48741756809,"Rano: Potora",-15.98472,167.3866,6030,meat,mit,mit,,nɪ-viso-n,,,0
+48741756809,"Rano: Potora",-15.98472,167.3866,6090,fruit,frut,frut,,no-wɛn,,,0
+48741756909,"Rano: Chinambong",-15.99049,167.39063,6030,meat,mit,mit,,ni-viso-n,,,0
+48741756909,"Rano: Chinambong",-15.99049,167.39063,6090,fruit,frut,frut,,no-wain,,,0
+48741757609,"Uripiv: Tautu Village",-16.06661,167.3975,6030,meat,mit,mit,,wiso-n,,,0
+48741757609,"Uripiv: Tautu Village",-16.06661,167.3975,6090,fruit,frut,frut,,nonɛn,,,0
+48741758709,"Uripiv: Tautu",-16.06778,167.40111,6030,meat,mit,mit,,wiso-n,,,0
+48741758709,"Uripiv: Tautu",-16.06778,167.40111,6090,fruit,frut,frut,,nonɛn,,,0
+48741758809,"Uripiv: Durpif",-16.07265,167.447,6030,meat,mit,mit,,βiso-n,,,0
+48741758809,"Uripiv: Durpif",-16.07265,167.447,6090,fruit,frut,frut,,wɛnɛn,,,0
+48741758909,"Uripiv: Potnambe",-16.07391,167.45203,6030,meat,mit,mit,,wiso-n,,,0
+48741758909,"Uripiv: Potnambe",-16.07391,167.45203,6090,fruit,frut,frut,,wɛnɛn,,,0
+48741953109,"Wowo: Lesarmalas",-15.90733,167.17927,6030,meat,mit,mit,,nɪ-vuhugutɪ-ne,,,0
+48741953109,"Wowo: Lesarmalas",-15.90733,167.17927,6090,fruit,frut,frut,,nɪ-vuan,,,0
+48741954109,"Wowo: Wowo",-15.90224,167.18459,6030,meat,mit,mit,,no-vʷowotɪ-ne,,,0
+48741954109,"Wowo: Wowo",-15.90224,167.18459,6090,fruit,frut,frut,,nɪ-wuax,,,0
+48741956109,"Alavas: Wowo",-15.90293,167.18499,6030,meat,mit,mit,,nu-ɣoðɣoðɛ-ne,,,0
+48741956109,"Alavas: Wowo",-15.90293,167.18499,6090,fruit,frut,frut,,nu-vuan,,,0
+48741957109,"Alavas: Alavas",-15.89046,167.24151,6030,meat,mit,mit,,no-vohowʊθ,,,0
+48741957109,"Alavas: Alavas",-15.89046,167.24151,6090,fruit,frut,frut,,..,,,0

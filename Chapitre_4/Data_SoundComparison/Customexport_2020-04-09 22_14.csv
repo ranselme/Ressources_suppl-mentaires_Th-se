@@ -1,0 +1,91 @@
+﻿LanguageId,LanguageName,Latitude,Longitude,WordId,WordModernName1,WordModernName2,WordProtoName1,WordProtoName2,Phonetic,SpellingAltv1,SpellingAltv2,NotCognateWithMainWordInThisFamily
+21000000000,"Ancestral Quechua",-9,-83,4010,persona,person,runa,haqi,ɾuna,runa,,0
+21111110001,"Corongo:  Yánac",-8.61694,-77.86694,4010,persona,person,runa,haqi,ɹ̝u̞n̪ɐ,,,0
+21111130301,"Huailas:  Wata",-9.04833,-77.81084,4010,persona,person,runa,haqi,nu̞nɑ̟,,,0
+21111130701,"Huailas:  Pamparomas",-9.07278,-77.98154,4010,persona,person,runa,haqi,n̪ʊ̞n̪ɐ̟,,,0
+21111165509,"Huaraz (city)",-9.52993,-77.52881,4010,persona,person,runa,haqi,n̪u̟n̪ɐ,,,0
+21111193709,Chiquián,-10.21987,-77.18153,4010,persona,person,runa,haqi,ɹ̝u̟n̪æ̠,,,0
+21111193709,Chiquián,-10.21987,-77.18153,4010,persona,person,runa,haqi,n̪u̟n̪ɐ̠,,,0
+21111230001,Conchucos,-9.57662,-77.21415,4010,persona,person,runa,haqi,ɹʊn̪ɜ,,,0
+21112355509,"Huánuco Pampa",-9.83333,-76.75,4010,persona,person,runa,haqi,ɹ̝u̟n̪ɐ,,,0
+21113220111,Huancayo,-12.06667,-75.21667,4010,persona,person,runa,haqi,nunɐ̞,,,0
+21212120001,Inkawasi,-6.23573,-79.3168,4010,persona,person,runa,haqi,ɹ̝ʊnɑ̟,,,0
+21212210001,Cajamarca,-7.15,-78.66666,4010,persona,person,runa,haqi,..,,,0
+21221155209,Colcamar,-6.29941,-77.9734,4010,persona,person,runa,haqi,ɹ̝u̞nɐ,,,0
+21221157709,"La Jalca",-6.48281,-77.71662,4010,persona,person,runa,haqi,ɹ̝un̪a,,,0
+21221157809,"La Jalca 2",-6.48281,-77.71662,4010,persona,person,runa,haqi,ɹ̝u̟n̪ɐ̠,,,0
+21221250509,Lamas,-6.42353,-76.5221,4010,persona,person,runa,haqi,ɾu̞n̪ɐ,,,0
+21221410231,"Centre: Chimborazo",-1.83572,-78.72638,4010,persona,person,runa,haqi,ɹ̝u̟ɳɐ̟,,,0
+21221420201,"Lowlands: Tena",-1.09293,-77.92927,4010,persona,person,runa,haqi,ɾo̝nɐ̟,,,0
+21221614309,"South: Saraguro",-3.74685,-79.26625,4010,persona,person,runa,haqi,ɹ̝una̝,,,0
+21221614309,"South: Saraguro",-3.74685,-79.26625,4010,persona,person,runa,haqi,mɐʃi̞,,,0
+21221616509,"North: Otavalo",0.28786,-78.31147,4010,persona,person,runa,haqi,ɹ̝una̝,,,0
+21222000000,"S. Quechua Spelling",-11,-82.5,4010,persona,person,runa,haqi,,runa,,0
+21222110001,Huancavelica,-12.76048,-74.90383,4010,persona,person,runa,haqi,ɾu̟n̪ɐ,,,0
+21222112709,Huaytará,-13.60449,-75.35319,4010,persona,person,runa,haqi,ɾu̟n̪ɐ̠,,,0
+21222123709,"Ayacucho:  Tambo",-12.94821,-74.02041,4010,persona,person,runa,haqi,ɾu̞n̪ɐ,,,0
+21222125509,Ayacucho,-13.16036,-74.2258,4010,persona,person,runa,haqi,ɾu̟n̪ɐ,,,0
+21222134309,Abancay,-13.95967,-73.1851,4010,persona,person,runa,haqi,ɹ̝unɐ,,,0
+21222210001,Cuzco,-13.51667,-71.98333,4010,persona,person,runa,haqi,ɾʊnɐ̟,,,0
+21222220101,Puno,-15.91667,-70.05,4010,persona,person,runa,haqi,ɹ̝u̟n̪æ̠,,,0
+21222220201,"Lago Titicaca",-15.83333,-69.71667,4010,persona,person,runa,haqi,ɾo̝nɐ̟,,,0
+21222230101,Apolobamba,-15.13007,-68.99987,4010,persona,person,runa,haqi,ɾu̟n̪ɐ,,,0
+21222230211,Cochabamba,-17.58333,-65.5,4010,persona,person,runa,haqi,ɭu̟n̪ɐ̟,,,0
+21222230231,Sucre,-19.08333,-65.83333,4010,persona,person,runa,haqi,ɹ̝u̞n̪ɐ̟,,,0
+21222354501,Argentina,-28.47972,-63.06694,4010,persona,person,runa,haqi,ru̞nɜ,,,0
+21351733309,Cacra,-12.81277,-75.7831,4010,persona,person,runa,haqi,ɭu̞nʲa,,,0
+21351733709,Hongos,-12.81048,-75.7652,4010,persona,person,runa,haqi,ɭu̞n̪a,,,0
+21351737309,Lincha,-12.79984,-75.66666,4010,persona,person,runa,haqi,ɾuna,,,0
+21351737709,Tana,-12.83299,-75.75231,4010,persona,person,runa,haqi,ɾun̪a,,,0
+21351773309,Víñac,-12.93084,-75.78008,4010,persona,person,runa,haqi,ɾu̞nɐ,,,0
+21351773409,"Víñac 2",-12.93084,-75.78008,4010,persona,person,runa,haqi,ɾu̟n̪ɐ,,,0
+21351776509,Huangáscar,-12.89936,-75.83138,4010,persona,person,runa,haqi,ɾu̟n̪a,,,0
+21351778509,"San Pedro",-13.04891,-75.6479,4010,persona,person,runa,haqi,ɾʊn̪a,,,0
+22000000000,"Ancestral Aymara",-17,-78.5,4010,persona,person,runa,haqi,haqe̞,haqi,,0
+22110000001,"Kawki  (Cachuy)",-12.77995,-75.91843,4010,persona,person,runa,haqi,hɐqe̠,,,0
+22120000001,"Jaqaru  (Tupe)",-12.74136,-75.80939,4010,persona,person,runa,haqi,hɐ̠qe̠,,,0
+22211000001,"Nth: Huancané (Peru)",-15.25,-69.71667,4010,persona,person,runa,haqi,hɐqe̞,,,0
+22212000001,"Nth: Tiwanaku (Bol.)",-16.66667,-68.66667,4010,persona,person,runa,haqi,hɐ̟qe̞,,,0
+22221003209,"Itm.: Quebaya (Peru)",-16.7495,-70.67859,4010,persona,person,runa,haqi,hɐqe,,,0
+22222004309,"Itm.: Putre (Chile)",-18.19575,-69.55968,4010,persona,person,runa,haqi,hɐqe̞,,,0
+22231000001,"Sth: Oruro (Bol.)",-19.5,-67.83333,4010,persona,person,runa,haqi,hɐ̠qe̠,,,0
+23131005509,"Uru: Irohito",-16.84078,-68.87739,4010,persona,person,runa,haqi,ʂu̞ɲi̞,,,0
+23221005009,Chipaya,-19.05,-68.08334,4010,persona,person,runa,haqi,ʂo̟ɲi,,,0
+28001000000,"Ref. Spelling",-40,-75.5,4010,persona,person,runa,haqi,tʃë,che,,0
+28131006609,"Santa Bárbara",-37.67405,-71.80186,4010,persona,person,runa,haqi,ʃë,,,0
+28131007109,Cañete,-37.96722,-73.39282,4010,persona,person,runa,haqi,t͡ʃë,,,0
+28131009109,Tirúa,-38.3699,-73.49067,4010,persona,person,runa,haqi,t͡ʃë,,,0
+28131009809,"Alto Bío Bío",-38.04457,-71.36344,4010,persona,person,runa,haqi,t͡ʃë,,,0
+28141000309,Angol,-37.86289,-72.68304,4010,persona,person,runa,haqi,t͡ʃë,,,0
+28141001209,Lumaco,-38.17584,-72.89947,4010,persona,person,runa,haqi,ʃë,,,0
+28141001409,Ercilla,-38.04926,-72.44544,4010,persona,person,runa,haqi,ʃë,,,0
+28141002309,Galvarino,-38.40865,-72.78342,4010,persona,person,runa,haqi,ʃë,,,0
+28141002509,Victoria,-38.35303,-72.19395,4010,persona,person,runa,haqi,t͡ʃë,,,0
+28141002809,Lonquimay,-38.42587,-71.37014,4010,persona,person,runa,haqi,t͡ʃë,,,0
+28141003209,"Chol Chol",-38.51661,-72.97454,4010,persona,person,runa,haqi,t͡ʃë,,,0
+28141004309,Dollinco,-38.67157,-72.82837,4010,persona,person,runa,haqi,t͡ʃë,,,0
+28141004509,Vilcún,-38.59695,-72.31239,4010,persona,person,runa,haqi,ʃ̟ë,,,0
+28141005109,"Puerto Saavedra",-38.78431,-73.39912,4010,persona,person,runa,haqi,t͡së,,,0
+28141005409,"Truf Truf",-38.75576,-72.43983,4010,persona,person,runa,haqi,t͡ʃë,,,0
+28141005909,Icalma,-38.72338,-71.1847,4010,persona,person,runa,haqi,t͡ʃë,,,0
+28141006309,Freire,-38.99144,-72.8833,4010,persona,person,runa,haqi,t͡ʃë,,,0
+28141006609,Cunco,-38.97601,-72.01425,4010,persona,person,runa,haqi,ʃë,,,0
+28141007209,"Nueva Toltén",-39.20931,-73.1312,4010,persona,person,runa,haqi,ʃë,,,0
+28141008509,Villarrica,-39.48612,-72.3038,4010,persona,person,runa,haqi,ʃë,,,0
+28141008909,Curarrehue,-39.46788,-71.55193,4010,persona,person,runa,haqi,ʃë,,,0
+28151000109,Mariquina,-39.45147,-73.26457,4010,persona,person,runa,haqi,ʃë,,,0
+28151000409,Lanco,-39.5046,-72.44441,4010,persona,person,runa,haqi,ʃë,,,0
+28151000709,Panguipulli,-39.54399,-72.12614,4010,persona,person,runa,haqi,ʃë,,,0
+28151002309,Valdivia,-39.81291,-72.95438,4010,persona,person,runa,haqi,ʃë,,,0
+28161000309,"San Pablo",-40.38308,-73.34988,4010,persona,person,runa,haqi,θë,,,0
+28161001209,"S. Juan de la Costa",-40.51004,-73.52129,4010,persona,person,runa,haqi,t͡së,,,0
+28221005509,Chalileo,-36.42252,-66.47321,4010,persona,person,runa,haqi,t͡ʃë,,,0
+28261005309,Picunches,-38.78279,-70.22884,4010,persona,person,runa,haqi,ʃë,,,0
+28261005509,Zapala,-38.85047,-69.74997,4010,persona,person,runa,haqi,ʃë,,,0
+28261006109,Aluminé,-39.19681,-71.05406,4010,persona,person,runa,haqi,t͡ʃë,,,0
+28261007109,"Junín de los Andes",-39.82386,-71.28742,4010,persona,person,runa,haqi,ʃë,,,0
+28261007209,Huiliches,-39.63992,-71.18686,4010,persona,person,runa,haqi,ʃë,,,0
+28271006509,Jacobacci,-41.28813,-69.55719,4010,persona,person,runa,haqi,t͡ʃë,,,0
+28281000209,Cushamen,-42.23392,-71.34994,4010,persona,person,runa,haqi,ʃë,,,0
+28281002209,Futaleufú,-42.95052,-71.18351,4010,persona,person,runa,haqi,ʃë,,,0
+28281003209,"Lago Rosario",-43.24408,-71.32581,4010,persona,person,runa,haqi,ʃë,,,0

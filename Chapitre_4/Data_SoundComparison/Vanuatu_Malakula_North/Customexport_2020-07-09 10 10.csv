@@ -1,0 +1,921 @@
+﻿LanguageId,LanguageName,Latitude,Longitude,WordId,WordModernName1,WordModernName2,WordProtoName1,WordProtoName2,Phonetic,SpellingAltv1,SpellingAltv2,NotCognateWithMainWordInThisFamily
+48741151109,"V’ënen Taute: Alpalak",-15.99722,167.1825,810,right,raet,raet,,mɛlɛⁿdao,,,0
+48741151109,"V’ënen Taute: Alpalak",-15.99722,167.1825,820,left,lef,lef,,mir,,,0
+48741151109,"V’ënen Taute: Alpalak",-15.99722,167.1825,7110,big,big,big,,-lil,,,0
+48741151109,"V’ënen Taute: Alpalak",-15.99722,167.1825,7170,small,smol,smol,,-sipa,,,0
+48741151109,"V’ënen Taute: Alpalak",-15.99722,167.1825,7410,sharp,shap,shap,,-xan,,,0
+48741151109,"V’ënen Taute: Alpalak",-15.99722,167.1825,7420,blunt,no_shap,no_shap,,-pana,,,0
+48741151109,"V’ënen Taute: Alpalak",-15.99722,167.1825,7490,shy,shem,shem,,-məmʷixiɛn,,,0
+48741151109,"V’ënen Taute: Alpalak",-15.99722,167.1825,7520,old,olfala,olfala,,-tarɛp̼,,,0
+48741151109,"V’ënen Taute: Alpalak",-15.99722,167.1825,7630,painful,sik,sik,,-metiɛn,,,0
+48741151109,"V’ënen Taute: Alpalak",-15.99722,167.1825,7710,good,gud,gud,,-pas,,,0
+48741151109,"V’ënen Taute: Alpalak",-15.99722,167.1825,7720,bad,bad,bad,,-stu,,,0
+48741151109,"V’ënen Taute: Alpalak",-15.99722,167.1825,7730,correct,strait,strait,,-vrⁿdawi,,,0
+48741151109,"V’ënen Taute: Alpalak",-15.99722,167.1825,7770,dirty,toti,toti,,-vlaɣmɪt,,,0
+48741151109,"V’ënen Taute: Alpalak",-15.99722,167.1825,7800,rotten,roten,roten,,-mumu,,,0
+48741151109,"V’ënen Taute: Alpalak",-15.99722,167.1825,7860,heavy,hevi,hevi,,-ⁿdv,,,0
+48741151109,"V’ënen Taute: Alpalak",-15.99722,167.1825,7880,far,longwei,longwei,,fið̼a,,,0
+48741151109,"V’ënen Taute: Alpalak",-15.99722,167.1825,7890,near,kolosap,kolosap,,mima,,,0
+48741151109,"V’ënen Taute: Alpalak",-15.99722,167.1825,7920,cold,kolkol,kolkol,,-mɪla,,,0
+48741151109,"V’ënen Taute: Alpalak",-15.99722,167.1825,7930,dry,drae,drae,,-n̼an̼a,,,0
+48741151109,"V’ënen Taute: Alpalak",-15.99722,167.1825,7940,wet,wetwet,wetwet,,-wir,,,0
+48741151109,"V’ënen Taute: Alpalak",-15.99722,167.1825,7980,new,niu,niu,,-m’ⁿdax,,,0
+48741151109,"V’ënen Taute: Alpalak",-15.99722,167.1825,7990,other,narafala,narafala,,..,,,0
+48741153209,"V’ënen Taute: Benenavet",-16.02038,167.17671,810,right,raet,raet,,mɛlɛndao,,,0
+48741153209,"V’ënen Taute: Benenavet",-16.02038,167.17671,820,left,lef,lef,,mir,,,0
+48741153209,"V’ënen Taute: Benenavet",-16.02038,167.17671,7110,big,big,big,,ilil,,,0
+48741153209,"V’ënen Taute: Benenavet",-16.02038,167.17671,7170,small,smol,smol,,isusupa,,,0
+48741153209,"V’ënen Taute: Benenavet",-16.02038,167.17671,7410,sharp,shap,shap,,..,,,0
+48741153209,"V’ënen Taute: Benenavet",-16.02038,167.17671,7420,blunt,no_shap,no_shap,,..,,,0
+48741153209,"V’ënen Taute: Benenavet",-16.02038,167.17671,7490,shy,shem,shem,,..,,,0
+48741153209,"V’ënen Taute: Benenavet",-16.02038,167.17671,7520,old,olfala,olfala,,nɛtarɪp̼,,,0
+48741153209,"V’ënen Taute: Benenavet",-16.02038,167.17671,7630,painful,sik,sik,,..,,,0
+48741153209,"V’ënen Taute: Benenavet",-16.02038,167.17671,7710,good,gud,gud,,ipas,,,0
+48741153209,"V’ënen Taute: Benenavet",-16.02038,167.17671,7720,bad,bad,bad,,iʃtu,,,0
+48741153209,"V’ënen Taute: Benenavet",-16.02038,167.17671,7730,correct,strait,strait,,..,,,0
+48741153209,"V’ënen Taute: Benenavet",-16.02038,167.17671,7770,dirty,toti,toti,,..,,,0
+48741153209,"V’ënen Taute: Benenavet",-16.02038,167.17671,7800,rotten,roten,roten,,..,,,0
+48741153209,"V’ënen Taute: Benenavet",-16.02038,167.17671,7860,heavy,hevi,hevi,,..,,,0
+48741153209,"V’ënen Taute: Benenavet",-16.02038,167.17671,7880,far,longwei,longwei,,iviva,,,0
+48741153209,"V’ënen Taute: Benenavet",-16.02038,167.17671,7890,near,kolosap,kolosap,,mima,,,0
+48741153209,"V’ënen Taute: Benenavet",-16.02038,167.17671,7920,cold,kolkol,kolkol,,mɛla,,,0
+48741153209,"V’ënen Taute: Benenavet",-16.02038,167.17671,7940,wet,wetwet,wetwet,,wir,,,0
+48741153209,"V’ënen Taute: Benenavet",-16.02038,167.17671,7980,new,niu,niu,,..,,,0
+48741153209,"V’ënen Taute: Benenavet",-16.02038,167.17671,7990,other,narafala,narafala,,..,,,0
+48741155209,"V’ënen Taute: Benmara",-16.05552,167.23261,810,right,raet,raet,,mɛlɪⁿdao,,,0
+48741155209,"V’ënen Taute: Benmara",-16.05552,167.23261,820,left,lef,lef,,mir,,,0
+48741155209,"V’ënen Taute: Benmara",-16.05552,167.23261,7110,big,big,big,,i-lið̼,,,0
+48741155209,"V’ënen Taute: Benmara",-16.05552,167.23261,7170,small,smol,smol,,-susupa,,,0
+48741155209,"V’ënen Taute: Benmara",-16.05552,167.23261,7410,sharp,shap,shap,,i-ɣan,,,0
+48741155209,"V’ënen Taute: Benmara",-16.05552,167.23261,7420,blunt,no_shap,no_shap,,..,,,0
+48741155209,"V’ënen Taute: Benmara",-16.05552,167.23261,7490,shy,shem,shem,,..,,,0
+48741155209,"V’ënen Taute: Benmara",-16.05552,167.23261,7520,old,olfala,olfala,,-mɛrtarɛp̼,,,0
+48741155209,"V’ënen Taute: Benmara",-16.05552,167.23261,7630,painful,sik,sik,,..,,,0
+48741155209,"V’ënen Taute: Benmara",-16.05552,167.23261,7710,good,gud,gud,,i-pæz,,,0
+48741155209,"V’ënen Taute: Benmara",-16.05552,167.23261,7720,bad,bad,bad,,i-stu,,,0
+48741155209,"V’ënen Taute: Benmara",-16.05552,167.23261,7730,correct,strait,strait,,i-vrⁿdawi,,,0
+48741155209,"V’ënen Taute: Benmara",-16.05552,167.23261,7770,dirty,toti,toti,,-pləx,,,0
+48741155209,"V’ënen Taute: Benmara",-16.05552,167.23261,7800,rotten,roten,roten,,-mumu,,,0
+48741155209,"V’ënen Taute: Benmara",-16.05552,167.23261,7860,heavy,hevi,hevi,,i-ⁿdəf,,,0
+48741155209,"V’ënen Taute: Benmara",-16.05552,167.23261,7890,near,kolosap,kolosap,,hi-mima,,,0
+48741155209,"V’ënen Taute: Benmara",-16.05552,167.23261,7920,cold,kolkol,kolkol,,-mɪla,,,0
+48741155209,"V’ënen Taute: Benmara",-16.05552,167.23261,7930,dry,drae,drae,,n̼an̼a,,,0
+48741155209,"V’ënen Taute: Benmara",-16.05552,167.23261,7940,wet,wetwet,wetwet,,i-wir,,,0
+48741155209,"V’ënen Taute: Benmara",-16.05552,167.23261,7980,new,niu,niu,,-mɪlakɛl,,,0
+48741155209,"V’ënen Taute: Benmara",-16.05552,167.23261,7990,other,narafala,narafala,,..,,,0
+48741157409,"V’ënen Taute: Unmet",-16.15371,167.26022,810,right,raet,raet,,mɛlɪⁿdao,,,0
+48741157409,"V’ënen Taute: Unmet",-16.15371,167.26022,820,left,lef,lef,,mir,,,0
+48741157409,"V’ënen Taute: Unmet",-16.15371,167.26022,7110,big,big,big,,i-lil,,,0
+48741157409,"V’ënen Taute: Unmet",-16.15371,167.26022,7170,small,smol,smol,,i-supa,,,0
+48741157409,"V’ënen Taute: Unmet",-16.15371,167.26022,7410,sharp,shap,shap,,i-ɣan,,,0
+48741157409,"V’ënen Taute: Unmet",-16.15371,167.26022,7420,blunt,no_shap,no_shap,,..,,,0
+48741157409,"V’ënen Taute: Unmet",-16.15371,167.26022,7490,shy,shem,shem,,ni-momiɣ,,,0
+48741157409,"V’ënen Taute: Unmet",-16.15371,167.26022,7520,old,olfala,olfala,,-tarɛp,,,0
+48741157409,"V’ënen Taute: Unmet",-16.15371,167.26022,7630,painful,sik,sik,,ni-mat,,,0
+48741157409,"V’ënen Taute: Unmet",-16.15371,167.26022,7710,good,gud,gud,,i-pas,,,0
+48741157409,"V’ënen Taute: Unmet",-16.15371,167.26022,7720,bad,bad,bad,,i-stu,,,0
+48741157409,"V’ënen Taute: Unmet",-16.15371,167.26022,7730,correct,strait,strait,,i-vərəndaui,,,0
+48741157409,"V’ënen Taute: Unmet",-16.15371,167.26022,7770,dirty,toti,toti,,..,,,0
+48741157409,"V’ënen Taute: Unmet",-16.15371,167.26022,7800,rotten,roten,roten,,i-mumu,,,0
+48741157409,"V’ënen Taute: Unmet",-16.15371,167.26022,7860,heavy,hevi,hevi,,i-ⁿdv,,,0
+48741157409,"V’ënen Taute: Unmet",-16.15371,167.26022,7880,far,longwei,longwei,,i-viva,,,0
+48741157409,"V’ënen Taute: Unmet",-16.15371,167.26022,7890,near,kolosap,kolosap,,i-mima,,,0
+48741157409,"V’ënen Taute: Unmet",-16.15371,167.26022,7920,cold,kolkol,kolkol,,mɪla,,,0
+48741157409,"V’ënen Taute: Unmet",-16.15371,167.26022,7930,dry,drae,drae,,i-mama,,,0
+48741157409,"V’ënen Taute: Unmet",-16.15371,167.26022,7940,wet,wetwet,wetwet,,i-wir,,,0
+48741157409,"V’ënen Taute: Unmet",-16.15371,167.26022,7980,new,niu,niu,,i-mⁿdax,,,0
+48741157409,"V’ënen Taute: Unmet",-16.15371,167.26022,7990,other,narafala,narafala,,..,,,0
+48741158409,"V’ënen Taute: Hamax",-16.111,167.249,810,right,raet,raet,,mɛlɛndao,,,0
+48741158409,"V’ënen Taute: Hamax",-16.111,167.249,820,left,lef,lef,,mir,,,0
+48741158409,"V’ënen Taute: Hamax",-16.111,167.249,7110,big,big,big,,i-lil,,,0
+48741158409,"V’ënen Taute: Hamax",-16.111,167.249,7170,small,smol,smol,,i-susupa,,,0
+48741158409,"V’ënen Taute: Hamax",-16.111,167.249,7410,sharp,shap,shap,,..,,,0
+48741158409,"V’ënen Taute: Hamax",-16.111,167.249,7420,blunt,no_shap,no_shap,,..,,,0
+48741158409,"V’ënen Taute: Hamax",-16.111,167.249,7490,shy,shem,shem,,..,,,0
+48741158409,"V’ënen Taute: Hamax",-16.111,167.249,7520,old,olfala,olfala,,nɛ-tarɪp̼,,,0
+48741158409,"V’ënen Taute: Hamax",-16.111,167.249,7630,painful,sik,sik,,..,,,0
+48741158409,"V’ënen Taute: Hamax",-16.111,167.249,7710,good,gud,gud,,i-pas,,,0
+48741158409,"V’ënen Taute: Hamax",-16.111,167.249,7720,bad,bad,bad,,i-ʃtu,,,0
+48741158409,"V’ënen Taute: Hamax",-16.111,167.249,7730,correct,strait,strait,,..,,,0
+48741158409,"V’ënen Taute: Hamax",-16.111,167.249,7770,dirty,toti,toti,,..,,,0
+48741158409,"V’ënen Taute: Hamax",-16.111,167.249,7800,rotten,roten,roten,,..,,,0
+48741158409,"V’ënen Taute: Hamax",-16.111,167.249,7860,heavy,hevi,hevi,,..,,,0
+48741158409,"V’ënen Taute: Hamax",-16.111,167.249,7880,far,longwei,longwei,,i-viva,,,0
+48741158409,"V’ënen Taute: Hamax",-16.111,167.249,7890,near,kolosap,kolosap,,-mima,,,0
+48741158409,"V’ënen Taute: Hamax",-16.111,167.249,7920,cold,kolkol,kolkol,,mɛla,,,0
+48741158409,"V’ënen Taute: Hamax",-16.111,167.249,7930,dry,drae,drae,,-n̼an̼a,,,0
+48741158409,"V’ënen Taute: Hamax",-16.111,167.249,7940,wet,wetwet,wetwet,,-wir,,,0
+48741158409,"V’ënen Taute: Hamax",-16.111,167.249,7980,new,niu,niu,,..,,,0
+48741158409,"V’ënen Taute: Hamax",-16.111,167.249,7990,other,narafala,narafala,,..,,,0
+48741322109,"Espiegel’s Bay: Solwota",-15.979,167.192,810,right,raet,raet,,nɪ-mɛtu,,,0
+48741322109,"Espiegel’s Bay: Solwota",-15.979,167.192,820,left,lef,lef,,nɪ-mʷiɾi,,,0
+48741322109,"Espiegel’s Bay: Solwota",-15.979,167.192,7110,big,big,big,,-lɛplɛp,,,0
+48741322109,"Espiegel’s Bay: Solwota",-15.979,167.192,7170,small,smol,smol,,-wɪlwɪle,,,0
+48741322109,"Espiegel’s Bay: Solwota",-15.979,167.192,7410,sharp,shap,shap,,-mon,,,0
+48741322109,"Espiegel’s Bay: Solwota",-15.979,167.192,7420,blunt,no_shap,no_shap,,-monte,,,0
+48741322109,"Espiegel’s Bay: Solwota",-15.979,167.192,7490,shy,shem,shem,,-moɣonɣon,,,0
+48741322109,"Espiegel’s Bay: Solwota",-15.979,167.192,7520,old,olfala,olfala,,-taɾa,,,0
+48741322109,"Espiegel’s Bay: Solwota",-15.979,167.192,7630,painful,sik,sik,,-rot͡s,,,0
+48741322109,"Espiegel’s Bay: Solwota",-15.979,167.192,7710,good,gud,gud,,-nɛm,,,0
+48741322109,"Espiegel’s Bay: Solwota",-15.979,167.192,7720,bad,bad,bad,,-sat,,,0
+48741322109,"Espiegel’s Bay: Solwota",-15.979,167.192,7730,correct,strait,strait,,-wəratɪn,,,0
+48741322109,"Espiegel’s Bay: Solwota",-15.979,167.192,7770,dirty,toti,toti,,-loŋ,,,0
+48741322109,"Espiegel’s Bay: Solwota",-15.979,167.192,7800,rotten,roten,roten,,-mərivriv,,,0
+48741322109,"Espiegel’s Bay: Solwota",-15.979,167.192,7860,heavy,hevi,hevi,,-roɸ,,,0
+48741322109,"Espiegel’s Bay: Solwota",-15.979,167.192,7880,far,longwei,longwei,,e-luxse,,,0
+48741322109,"Espiegel’s Bay: Solwota",-15.979,167.192,7890,near,kolosap,kolosap,,ma-ɣariɸ,,,0
+48741322109,"Espiegel’s Bay: Solwota",-15.979,167.192,7920,cold,kolkol,kolkol,,nɪ-mɛlɣas,,,0
+48741322109,"Espiegel’s Bay: Solwota",-15.979,167.192,7930,dry,drae,drae,,-mɪmɛs,,,0
+48741322109,"Espiegel’s Bay: Solwota",-15.979,167.192,7940,wet,wetwet,wetwet,,-mim,,,0
+48741322109,"Espiegel’s Bay: Solwota",-15.979,167.192,7980,new,niu,niu,,-mərax,,,0
+48741322109,"Espiegel’s Bay: Solwota",-15.979,167.192,7990,other,narafala,narafala,,..,,,0
+48741324209,"Espiegel’s Bay: Litebral",-15.974,167.193,810,right,raet,raet,,nə-mɛto,,,0
+48741324209,"Espiegel’s Bay: Litebral",-15.974,167.193,820,left,lef,lef,,nə-mʷaiɾ,,,0
+48741324209,"Espiegel’s Bay: Litebral",-15.974,167.193,7110,big,big,big,,lɛplɛp,,,0
+48741324209,"Espiegel’s Bay: Litebral",-15.974,167.193,7170,small,smol,smol,,-wɪlwɪle,,,0
+48741324209,"Espiegel’s Bay: Litebral",-15.974,167.193,7410,sharp,shap,shap,,-mon,,,0
+48741324209,"Espiegel’s Bay: Litebral",-15.974,167.193,7420,blunt,no_shap,no_shap,,pu-monte,,,0
+48741324209,"Espiegel’s Bay: Litebral",-15.974,167.193,7490,shy,shem,shem,,-moɣonɣon,,,0
+48741324209,"Espiegel’s Bay: Litebral",-15.974,167.193,7520,old,olfala,olfala,,-tɛrtɪɾa,,,0
+48741324209,"Espiegel’s Bay: Litebral",-15.974,167.193,7630,painful,sik,sik,,-ɾoʧ,,,0
+48741324209,"Espiegel’s Bay: Litebral",-15.974,167.193,7710,good,gud,gud,,-nɛm,,,0
+48741324209,"Espiegel’s Bay: Litebral",-15.974,167.193,7720,bad,bad,bad,,-sat,,,0
+48741324209,"Espiegel’s Bay: Litebral",-15.974,167.193,7730,correct,strait,strait,,-vəratɪn,,,0
+48741324209,"Espiegel’s Bay: Litebral",-15.974,167.193,7770,dirty,toti,toti,,..,,,0
+48741324209,"Espiegel’s Bay: Litebral",-15.974,167.193,7800,rotten,roten,roten,,-mərivriv,,,0
+48741324209,"Espiegel’s Bay: Litebral",-15.974,167.193,7860,heavy,hevi,hevi,,-roɸ,,,0
+48741324209,"Espiegel’s Bay: Litebral",-15.974,167.193,7880,far,longwei,longwei,,-luɣsi,,,0
+48741324209,"Espiegel’s Bay: Litebral",-15.974,167.193,7890,near,kolosap,kolosap,,-ɣəriv,,,0
+48741324209,"Espiegel’s Bay: Litebral",-15.974,167.193,7920,cold,kolkol,kolkol,,nɪ-mɛlɣas,,,0
+48741324209,"Espiegel’s Bay: Litebral",-15.974,167.193,7930,dry,drae,drae,,-mɪmɛs,,,0
+48741324209,"Espiegel’s Bay: Litebral",-15.974,167.193,7940,wet,wetwet,wetwet,,-mim,,,0
+48741324209,"Espiegel’s Bay: Litebral",-15.974,167.193,7980,new,niu,niu,,-mərax,,,0
+48741324209,"Espiegel’s Bay: Litebral",-15.974,167.193,7990,other,narafala,narafala,,..,,,0
+48741324309,"Espiegel’s Bay: Unspecified",-15.98228,167.19103,810,right,raet,raet,,nɪ-mɛtu,,,0
+48741324309,"Espiegel’s Bay: Unspecified",-15.98228,167.19103,820,left,lef,lef,,nɪ-mʷir,,,0
+48741324309,"Espiegel’s Bay: Unspecified",-15.98228,167.19103,7110,big,big,big,,-lɛplɛp,,,0
+48741324309,"Espiegel’s Bay: Unspecified",-15.98228,167.19103,7170,small,smol,smol,,-wilwili,,,0
+48741324309,"Espiegel’s Bay: Unspecified",-15.98228,167.19103,7410,sharp,shap,shap,,-mon,,,0
+48741324309,"Espiegel’s Bay: Unspecified",-15.98228,167.19103,7420,blunt,no_shap,no_shap,,-pomonte,,,0
+48741324309,"Espiegel’s Bay: Unspecified",-15.98228,167.19103,7490,shy,shem,shem,,-moɣonɣon,,,0
+48741324309,"Espiegel’s Bay: Unspecified",-15.98228,167.19103,7520,old,olfala,olfala,,-tɛra,,,0
+48741324309,"Espiegel’s Bay: Unspecified",-15.98228,167.19103,7630,painful,sik,sik,,-rot͡s,,,0
+48741324309,"Espiegel’s Bay: Unspecified",-15.98228,167.19103,7710,good,gud,gud,,-nɪm,,,0
+48741324309,"Espiegel’s Bay: Unspecified",-15.98228,167.19103,7720,bad,bad,bad,,-sat,,,0
+48741324309,"Espiegel’s Bay: Unspecified",-15.98228,167.19103,7730,correct,strait,strait,,-waratɪn,,,0
+48741324309,"Espiegel’s Bay: Unspecified",-15.98228,167.19103,7770,dirty,toti,toti,,-loŋ,,,0
+48741324309,"Espiegel’s Bay: Unspecified",-15.98228,167.19103,7800,rotten,roten,roten,,-mərɛvɪriv,,,0
+48741324309,"Espiegel’s Bay: Unspecified",-15.98228,167.19103,7860,heavy,hevi,hevi,,-rof,,,0
+48741324309,"Espiegel’s Bay: Unspecified",-15.98228,167.19103,7880,far,longwei,longwei,,-luvsi,,,0
+48741324309,"Espiegel’s Bay: Unspecified",-15.98228,167.19103,7920,cold,kolkol,kolkol,,nɪ-mɛlɣas,,,0
+48741324309,"Espiegel’s Bay: Unspecified",-15.98228,167.19103,7930,dry,drae,drae,,-mɪmɪs,,,0
+48741324309,"Espiegel’s Bay: Unspecified",-15.98228,167.19103,7940,wet,wetwet,wetwet,,-mim,,,0
+48741324309,"Espiegel’s Bay: Unspecified",-15.98228,167.19103,7980,new,niu,niu,,-mɪrax,,,0
+48741326309,"Malua Bay: Coast",-15.98334,167.18798,810,right,raet,raet,,nɪ-mato,,,0
+48741326309,"Malua Bay: Coast",-15.98334,167.18798,820,left,lef,lef,,nɪ-mʷir,,,0
+48741326309,"Malua Bay: Coast",-15.98334,167.18798,7110,big,big,big,,-lalamp,,,0
+48741326309,"Malua Bay: Coast",-15.98334,167.18798,7170,small,smol,smol,,-kutkut,,,0
+48741326309,"Malua Bay: Coast",-15.98334,167.18798,7410,sharp,shap,shap,,-mʷon,,,0
+48741326309,"Malua Bay: Coast",-15.98334,167.18798,7420,blunt,no_shap,no_shap,,-patot,,,0
+48741326309,"Malua Bay: Coast",-15.98334,167.18798,7490,shy,shem,shem,,-moɣonɣon,,,0
+48741326309,"Malua Bay: Coast",-15.98334,167.18798,7520,old,olfala,olfala,,hi-tɛɾa,,,0
+48741326309,"Malua Bay: Coast",-15.98334,167.18798,7630,painful,sik,sik,,-rot͡ʃ,,,0
+48741326309,"Malua Bay: Coast",-15.98334,167.18798,7710,good,gud,gud,,..,,,0
+48741326309,"Malua Bay: Coast",-15.98334,167.18798,7720,bad,bad,bad,,..,,,0
+48741326309,"Malua Bay: Coast",-15.98334,167.18798,7730,correct,strait,strait,,-voratɪn,,,0
+48741326309,"Malua Bay: Coast",-15.98334,167.18798,7770,dirty,toti,toti,,-loŋ,,,0
+48741326309,"Malua Bay: Coast",-15.98334,167.18798,7800,rotten,roten,roten,,-mərɛvrɪv,,,0
+48741326309,"Malua Bay: Coast",-15.98334,167.18798,7860,heavy,hevi,hevi,,i-roɸ,,,0
+48741326309,"Malua Bay: Coast",-15.98334,167.18798,7880,far,longwei,longwei,,-loɣʃi,,,0
+48741326309,"Malua Bay: Coast",-15.98334,167.18798,7890,near,kolosap,kolosap,,-xəriv,,,0
+48741326309,"Malua Bay: Coast",-15.98334,167.18798,7920,cold,kolkol,kolkol,,i-mɛlɣas,,,0
+48741326309,"Malua Bay: Coast",-15.98334,167.18798,7930,dry,drae,drae,,i-mɪmas,,,0
+48741326309,"Malua Bay: Coast",-15.98334,167.18798,7940,wet,wetwet,wetwet,,i-mim,,,0
+48741326309,"Malua Bay: Coast",-15.98334,167.18798,7980,new,niu,niu,,i-mɪrax,,,0
+48741326309,"Malua Bay: Coast",-15.98334,167.18798,7990,other,narafala,narafala,,..,,,0
+48741327409,"Malua Bay: Petarmul",-16.00022,167.22137,810,right,raet,raet,,nɪ-matu,,,0
+48741327409,"Malua Bay: Petarmul",-16.00022,167.22137,820,left,lef,lef,,nɪ-maiɾi,,,0
+48741327409,"Malua Bay: Petarmul",-16.00022,167.22137,7110,big,big,big,,i-lalamp,,,0
+48741327409,"Malua Bay: Petarmul",-16.00022,167.22137,7170,small,smol,smol,,-kutkut,,,0
+48741327409,"Malua Bay: Petarmul",-16.00022,167.22137,7410,sharp,shap,shap,,i-mʷon,,,0
+48741327409,"Malua Bay: Petarmul",-16.00022,167.22137,7420,blunt,no_shap,no_shap,,..,,,0
+48741327409,"Malua Bay: Petarmul",-16.00022,167.22137,7490,shy,shem,shem,,i-məɣunɣun,,,0
+48741327409,"Malua Bay: Petarmul",-16.00022,167.22137,7520,old,olfala,olfala,,i-tɛrtɛɾa,,,0
+48741327409,"Malua Bay: Petarmul",-16.00022,167.22137,7630,painful,sik,sik,,i-rot͡s,,,0
+48741327409,"Malua Bay: Petarmul",-16.00022,167.22137,7710,good,gud,gud,,..,,,0
+48741327409,"Malua Bay: Petarmul",-16.00022,167.22137,7720,bad,bad,bad,,..,,,0
+48741327409,"Malua Bay: Petarmul",-16.00022,167.22137,7730,correct,strait,strait,,-horatɪn,,,0
+48741327409,"Malua Bay: Petarmul",-16.00022,167.22137,7770,dirty,toti,toti,,i-lon,,,0
+48741327409,"Malua Bay: Petarmul",-16.00022,167.22137,7800,rotten,roten,roten,,i-mərɛvriv,,,0
+48741327409,"Malua Bay: Petarmul",-16.00022,167.22137,7860,heavy,hevi,hevi,,i-roɸ,,,0
+48741327409,"Malua Bay: Petarmul",-16.00022,167.22137,7880,far,longwei,longwei,,-luvsi,,,0
+48741327409,"Malua Bay: Petarmul",-16.00022,167.22137,7890,near,kolosap,kolosap,,-xəriɸ,,,0
+48741327409,"Malua Bay: Petarmul",-16.00022,167.22137,7920,cold,kolkol,kolkol,,i-mɛlɣas,,,0
+48741327409,"Malua Bay: Petarmul",-16.00022,167.22137,7930,dry,drae,drae,,i-mɪmas,,,0
+48741327409,"Malua Bay: Petarmul",-16.00022,167.22137,7940,wet,wetwet,wetwet,,i-mim,,,0
+48741327409,"Malua Bay: Petarmul",-16.00022,167.22137,7980,new,niu,niu,,i-mɪlakɛl,,,0
+48741327409,"Malua Bay: Petarmul",-16.00022,167.22137,7990,other,narafala,narafala,,..,,,0
+48741328309,"Malua Bay: Tiptir",-15.9905,167.21991,810,right,raet,raet,,nɪ-mɛto,,,0
+48741328309,"Malua Bay: Tiptir",-15.9905,167.21991,820,left,lef,lef,,nɪ-mʷaiɾ,,,0
+48741328309,"Malua Bay: Tiptir",-15.9905,167.21991,7110,big,big,big,,i-lɛplɛp,,,0
+48741328309,"Malua Bay: Tiptir",-15.9905,167.21991,7170,small,smol,smol,,i-kutkut,,,0
+48741328309,"Malua Bay: Tiptir",-15.9905,167.21991,7410,sharp,shap,shap,,i-mʷon,,,0
+48741328309,"Malua Bay: Tiptir",-15.9905,167.21991,7420,blunt,no_shap,no_shap,,i-patot,,,0
+48741328309,"Malua Bay: Tiptir",-15.9905,167.21991,7490,shy,shem,shem,,nɪ-moɣunɣun,,,0
+48741328309,"Malua Bay: Tiptir",-15.9905,167.21991,7520,old,olfala,olfala,,-tɛɾa,,,0
+48741328309,"Malua Bay: Tiptir",-15.9905,167.21991,7630,painful,sik,sik,,..,,,0
+48741328309,"Malua Bay: Tiptir",-15.9905,167.21991,7710,good,gud,gud,,i-nɛm,,,0
+48741328309,"Malua Bay: Tiptir",-15.9905,167.21991,7720,bad,bad,bad,,i-sat,,,0
+48741328309,"Malua Bay: Tiptir",-15.9905,167.21991,7730,correct,strait,strait,,-vuratɪn,,,0
+48741328309,"Malua Bay: Tiptir",-15.9905,167.21991,7770,dirty,toti,toti,,i-lalo,,,0
+48741328309,"Malua Bay: Tiptir",-15.9905,167.21991,7800,rotten,roten,roten,,i-mərɛvrɪv,,,0
+48741328309,"Malua Bay: Tiptir",-15.9905,167.21991,7860,heavy,hevi,hevi,,i-roɸ,,,0
+48741328309,"Malua Bay: Tiptir",-15.9905,167.21991,7880,far,longwei,longwei,,-luɣsi,,,0
+48741328309,"Malua Bay: Tiptir",-15.9905,167.21991,7890,near,kolosap,kolosap,,-xəriv,,,0
+48741328309,"Malua Bay: Tiptir",-15.9905,167.21991,7920,cold,kolkol,kolkol,,nɪ-mɛlɣas,,,0
+48741328309,"Malua Bay: Tiptir",-15.9905,167.21991,7930,dry,drae,drae,,i-mɪmɪs,,,0
+48741328309,"Malua Bay: Tiptir",-15.9905,167.21991,7940,wet,wetwet,wetwet,,i-mim,,,0
+48741328309,"Malua Bay: Tiptir",-15.9905,167.21991,7980,new,niu,niu,,-mərax,,,0
+48741328309,"Malua Bay: Tiptir",-15.9905,167.21991,7990,other,narafala,narafala,,..,,,0
+48741328409,"Malua Bay: Marasup",-15.99098,167.2198,810,right,raet,raet,,matu,,,0
+48741328409,"Malua Bay: Marasup",-15.99098,167.2198,820,left,lef,lef,,maiɾ,,,0
+48741328409,"Malua Bay: Marasup",-15.99098,167.2198,7110,big,big,big,,i-lalamp,,,0
+48741328409,"Malua Bay: Marasup",-15.99098,167.2198,7170,small,smol,smol,,i-tɪᵐbis,,,0
+48741328409,"Malua Bay: Marasup",-15.99098,167.2198,7410,sharp,shap,shap,,i-mʷon,,,0
+48741328409,"Malua Bay: Marasup",-15.99098,167.2198,7420,blunt,no_shap,no_shap,,i-patot,,,0
+48741328409,"Malua Bay: Marasup",-15.99098,167.2198,7490,shy,shem,shem,,-imɣonɣon,,,0
+48741328409,"Malua Bay: Marasup",-15.99098,167.2198,7520,old,olfala,olfala,,i-tɛrtɛɾa,,,0
+48741328409,"Malua Bay: Marasup",-15.99098,167.2198,7630,painful,sik,sik,,i-rot͡s,,,0
+48741328409,"Malua Bay: Marasup",-15.99098,167.2198,7710,good,gud,gud,,i-nam,,,0
+48741328409,"Malua Bay: Marasup",-15.99098,167.2198,7720,bad,bad,bad,,i-sat,,,0
+48741328409,"Malua Bay: Marasup",-15.99098,167.2198,7730,correct,strait,strait,,-horatin,,,0
+48741328409,"Malua Bay: Marasup",-15.99098,167.2198,7770,dirty,toti,toti,,-lalo,,,0
+48741328409,"Malua Bay: Marasup",-15.99098,167.2198,7800,rotten,roten,roten,,-mərɪvrɪv,,,0
+48741328409,"Malua Bay: Marasup",-15.99098,167.2198,7860,heavy,hevi,hevi,,i-roɸ,,,0
+48741328409,"Malua Bay: Marasup",-15.99098,167.2198,7880,far,longwei,longwei,,-luɣsi,,,0
+48741328409,"Malua Bay: Marasup",-15.99098,167.2198,7890,near,kolosap,kolosap,,ɡəriv,,,0
+48741328409,"Malua Bay: Marasup",-15.99098,167.2198,7920,cold,kolkol,kolkol,,i-malɣas,,,0
+48741328409,"Malua Bay: Marasup",-15.99098,167.2198,7930,dry,drae,drae,,i-mimas,,,0
+48741328409,"Malua Bay: Marasup",-15.99098,167.2198,7940,wet,wetwet,wetwet,,i-rom,,,0
+48741328409,"Malua Bay: Marasup",-15.99098,167.2198,7980,new,niu,niu,,i-mɪlakɛl,,,0
+48741328409,"Malua Bay: Marasup",-15.99098,167.2198,7990,other,narafala,narafala,,..,,,0
+48741345109,"Najit: Tanmial",-15.94786,167.18226,810,right,raet,raet,,nə-mɛtu,,,0
+48741345109,"Najit: Tanmial",-15.94786,167.18226,820,left,lef,lef,,nə-miɾ,,,0
+48741345109,"Najit: Tanmial",-15.94786,167.18226,7110,big,big,big,,i-lɛplɛp,,,0
+48741345109,"Najit: Tanmial",-15.94786,167.18226,7170,small,smol,smol,,-kotkot,,,0
+48741345109,"Najit: Tanmial",-15.94786,167.18226,7410,sharp,shap,shap,,-mʷon,,,0
+48741345109,"Najit: Tanmial",-15.94786,167.18226,7420,blunt,no_shap,no_shap,,-patot,,,0
+48741345109,"Najit: Tanmial",-15.94786,167.18226,7490,shy,shem,shem,,i-maɣʊnɣʊn,,,0
+48741345109,"Najit: Tanmial",-15.94786,167.18226,7520,old,olfala,olfala,,i-təɾa,,,0
+48741345109,"Najit: Tanmial",-15.94786,167.18226,7630,painful,sik,sik,,i-roʧ,,,0
+48741345109,"Najit: Tanmial",-15.94786,167.18226,7710,good,gud,gud,,i-nɛm,,,0
+48741345109,"Najit: Tanmial",-15.94786,167.18226,7720,bad,bad,bad,,i-sat,,,0
+48741345109,"Najit: Tanmial",-15.94786,167.18226,7730,correct,strait,strait,,i-faratn̩,,,0
+48741345109,"Najit: Tanmial",-15.94786,167.18226,7770,dirty,toti,toti,,i-loŋ,,,0
+48741345109,"Najit: Tanmial",-15.94786,167.18226,7800,rotten,roten,roten,,-mərɛvrɛf,,,0
+48741345109,"Najit: Tanmial",-15.94786,167.18226,7860,heavy,hevi,hevi,,i-rof,,,0
+48741345109,"Najit: Tanmial",-15.94786,167.18226,7880,far,longwei,longwei,,luɣsi,,,0
+48741345109,"Najit: Tanmial",-15.94786,167.18226,7890,near,kolosap,kolosap,,xɛɾif,,,0
+48741345109,"Najit: Tanmial",-15.94786,167.18226,7920,cold,kolkol,kolkol,,-mɛlɣas,,,0
+48741345109,"Najit: Tanmial",-15.94786,167.18226,7930,dry,drae,drae,,..,,,0
+48741345109,"Najit: Tanmial",-15.94786,167.18226,7940,wet,wetwet,wetwet,,i-rom,,,0
+48741345109,"Najit: Tanmial",-15.94786,167.18226,7980,new,niu,niu,,i-mərax,,,0
+48741345109,"Najit: Tanmial",-15.94786,167.18226,7990,other,narafala,narafala,,..,,,0
+48741365109,"Nese: Tanmial",-15.9305,167.17653,810,right,raet,raet,,nɛ-tuam,,,0
+48741365109,"Nese: Tanmial",-15.9305,167.17653,820,left,lef,lef,,na-maer,,,0
+48741365109,"Nese: Tanmial",-15.9305,167.17653,7110,big,big,big,,-laⁿdlan,,,0
+48741365109,"Nese: Tanmial",-15.9305,167.17653,7170,small,smol,smol,,-vɪlvɪle,,,0
+48741365109,"Nese: Tanmial",-15.9305,167.17653,7410,sharp,shap,shap,,-mon,,,0
+48741365109,"Nese: Tanmial",-15.9305,167.17653,7420,blunt,no_shap,no_shap,,-ᵐbatot,,,0
+48741365109,"Nese: Tanmial",-15.9305,167.17653,7490,shy,shem,shem,,-nuɣonɣan,,,0
+48741365109,"Nese: Tanmial",-15.9305,167.17653,7520,old,olfala,olfala,,-mɛrʧe,,,0
+48741365109,"Nese: Tanmial",-15.9305,167.17653,7630,painful,sik,sik,,-roʧ,,,0
+48741365109,"Nese: Tanmial",-15.9305,167.17653,7710,good,gud,gud,,-nakis,,,0
+48741365109,"Nese: Tanmial",-15.9305,167.17653,7720,bad,bad,bad,,-sat,,,0
+48741365109,"Nese: Tanmial",-15.9305,167.17653,7730,correct,strait,strait,,-varatɪne,,,0
+48741365109,"Nese: Tanmial",-15.9305,167.17653,7770,dirty,toti,toti,,-loŋ,,,0
+48741365109,"Nese: Tanmial",-15.9305,167.17653,7800,rotten,roten,roten,,-momo,,,0
+48741365109,"Nese: Tanmial",-15.9305,167.17653,7860,heavy,hevi,hevi,,-roɸ,,,0
+48741365109,"Nese: Tanmial",-15.9305,167.17653,7880,far,longwei,longwei,,-luɣsa,,,0
+48741365109,"Nese: Tanmial",-15.9305,167.17653,7890,near,kolosap,kolosap,,-ʒɪsɛri,,,0
+48741365109,"Nese: Tanmial",-15.9305,167.17653,7920,cold,kolkol,kolkol,,nɛ-mɛlɣas,,,0
+48741365109,"Nese: Tanmial",-15.9305,167.17653,7930,dry,drae,drae,,na-raŋ,,,0
+48741365109,"Nese: Tanmial",-15.9305,167.17653,7940,wet,wetwet,wetwet,,-ninin,,,0
+48741365109,"Nese: Tanmial",-15.9305,167.17653,7980,new,niu,niu,,-ᵐbar,,,0
+48741365109,"Nese: Tanmial",-15.9305,167.17653,7990,other,narafala,narafala,,..,,,0
+48741367209,"Nese: Sanboise",-15.91461,167.17833,810,right,raet,raet,,na-natu,,,0
+48741367209,"Nese: Sanboise",-15.91461,167.17833,820,left,lef,lef,,na-maɪɾ,,,0
+48741367209,"Nese: Sanboise",-15.91461,167.17833,7110,big,big,big,,-laⁿdlaⁿd,,,0
+48741367209,"Nese: Sanboise",-15.91461,167.17833,7170,small,smol,smol,,-vɪlvɪle,,,0
+48741367209,"Nese: Sanboise",-15.91461,167.17833,7410,sharp,shap,shap,,..,,,0
+48741367209,"Nese: Sanboise",-15.91461,167.17833,7420,blunt,no_shap,no_shap,,..,,,0
+48741367209,"Nese: Sanboise",-15.91461,167.17833,7490,shy,shem,shem,,..,,,0
+48741367209,"Nese: Sanboise",-15.91461,167.17833,7520,old,olfala,olfala,,nɪ-mʷɛrʧean,,,0
+48741367209,"Nese: Sanboise",-15.91461,167.17833,7630,painful,sik,sik,,..,,,0
+48741367209,"Nese: Sanboise",-15.91461,167.17833,7710,good,gud,gud,,-nakis,,,0
+48741367209,"Nese: Sanboise",-15.91461,167.17833,7720,bad,bad,bad,,-sat,,,0
+48741367209,"Nese: Sanboise",-15.91461,167.17833,7730,correct,strait,strait,,..,,,0
+48741367209,"Nese: Sanboise",-15.91461,167.17833,7770,dirty,toti,toti,,-loŋ,,,0
+48741367209,"Nese: Sanboise",-15.91461,167.17833,7800,rotten,roten,roten,,..,,,0
+48741367209,"Nese: Sanboise",-15.91461,167.17833,7860,heavy,hevi,hevi,,..,,,0
+48741367209,"Nese: Sanboise",-15.91461,167.17833,7880,far,longwei,longwei,,luɣsa,,,0
+48741367209,"Nese: Sanboise",-15.91461,167.17833,7890,near,kolosap,kolosap,,ʒɪsɛri,,,0
+48741367209,"Nese: Sanboise",-15.91461,167.17833,7920,cold,kolkol,kolkol,,na-nalɣas,,,0
+48741367209,"Nese: Sanboise",-15.91461,167.17833,7930,dry,drae,drae,,..,,,0
+48741367209,"Nese: Sanboise",-15.91461,167.17833,7940,wet,wetwet,wetwet,,-ninin,,,0
+48741367209,"Nese: Sanboise",-15.91461,167.17833,7980,new,niu,niu,,no-voli,,,0
+48741367209,"Nese: Sanboise",-15.91461,167.17833,7990,other,narafala,narafala,,..,,,0
+48741556509,"Vao: Beetehul",-15.89728,167.30443,810,right,raet,raet,,..,,,0
+48741556509,"Vao: Beetehul",-15.89728,167.30443,820,left,lef,lef,,maɛɾ,,,0
+48741556509,"Vao: Beetehul",-15.89728,167.30443,7110,big,big,big,,..,,,0
+48741556509,"Vao: Beetehul",-15.89728,167.30443,7170,small,smol,smol,,..,,,0
+48741556509,"Vao: Beetehul",-15.89728,167.30443,7410,sharp,shap,shap,,mʷo-βor,,,0
+48741556509,"Vao: Beetehul",-15.89728,167.30443,7420,blunt,no_shap,no_shap,,mʷo-ᵐbatox,,,0
+48741556509,"Vao: Beetehul",-15.89728,167.30443,7490,shy,shem,shem,,..,,,0
+48741556509,"Vao: Beetehul",-15.89728,167.30443,7520,old,olfala,olfala,,..,,,0
+48741556509,"Vao: Beetehul",-15.89728,167.30443,7630,painful,sik,sik,,..,,,0
+48741556509,"Vao: Beetehul",-15.89728,167.30443,7710,good,gud,gud,,..,,,0
+48741556509,"Vao: Beetehul",-15.89728,167.30443,7720,bad,bad,bad,,..,,,0
+48741556509,"Vao: Beetehul",-15.89728,167.30443,7730,correct,strait,strait,,..,,,0
+48741556509,"Vao: Beetehul",-15.89728,167.30443,7770,dirty,toti,toti,,mʷo-lalo,,,0
+48741556509,"Vao: Beetehul",-15.89728,167.30443,7800,rotten,roten,roten,,..,,,0
+48741556509,"Vao: Beetehul",-15.89728,167.30443,7860,heavy,hevi,hevi,,..,,,0
+48741556509,"Vao: Beetehul",-15.89728,167.30443,7880,far,longwei,longwei,,..,,,0
+48741556509,"Vao: Beetehul",-15.89728,167.30443,7890,near,kolosap,kolosap,,-n̼ergit,,,0
+48741556509,"Vao: Beetehul",-15.89728,167.30443,7920,cold,kolkol,kolkol,,..,,,0
+48741556509,"Vao: Beetehul",-15.89728,167.30443,7930,dry,drae,drae,,..,,,0
+48741556509,"Vao: Beetehul",-15.89728,167.30443,7940,wet,wetwet,wetwet,,..,,,0
+48741556509,"Vao: Beetehul",-15.89728,167.30443,7980,new,niu,niu,,..,,,0
+48741556509,"Vao: Beetehul",-15.89728,167.30443,7990,other,narafala,narafala,,..,,,0
+48741557509,"Vao: Canada",-15.89978,167.30731,810,right,raet,raet,,matu,,,0
+48741557509,"Vao: Canada",-15.89978,167.30731,820,left,lef,lef,,maɛr,,,0
+48741557509,"Vao: Canada",-15.89978,167.30731,7110,big,big,big,,-seax,,,0
+48741557509,"Vao: Canada",-15.89978,167.30731,7170,small,smol,smol,,-vilele,,,0
+48741557509,"Vao: Canada",-15.89978,167.30731,7410,sharp,shap,shap,,..,,,0
+48741557509,"Vao: Canada",-15.89978,167.30731,7420,blunt,no_shap,no_shap,,-ᵐbasis,,,0
+48741557509,"Vao: Canada",-15.89978,167.30731,7490,shy,shem,shem,,-noɣonɣan,,,0
+48741557509,"Vao: Canada",-15.89978,167.30731,7520,old,olfala,olfala,,-mɛrsean,,,0
+48741557509,"Vao: Canada",-15.89978,167.30731,7630,painful,sik,sik,,-ros,,,0
+48741557509,"Vao: Canada",-15.89978,167.30731,7710,good,gud,gud,,-rux,,,0
+48741557509,"Vao: Canada",-15.89978,167.30731,7720,bad,bad,bad,,-hat,,,0
+48741557509,"Vao: Canada",-15.89978,167.30731,7730,correct,strait,strait,,-vararux,,,0
+48741557509,"Vao: Canada",-15.89978,167.30731,7770,dirty,toti,toti,,-lalo,,,0
+48741557509,"Vao: Canada",-15.89978,167.30731,7800,rotten,roten,roten,,-momo,,,0
+48741557509,"Vao: Canada",-15.89978,167.30731,7860,heavy,hevi,hevi,,-rov,,,0
+48741557509,"Vao: Canada",-15.89978,167.30731,7880,far,longwei,longwei,,axa,,,0
+48741557509,"Vao: Canada",-15.89978,167.30731,7890,near,kolosap,kolosap,,-n̼erit,,,0
+48741557509,"Vao: Canada",-15.89978,167.30731,7920,cold,kolkol,kolkol,,..,,,0
+48741557509,"Vao: Canada",-15.89978,167.30731,7930,dry,drae,drae,,-n̼anah,,,0
+48741557509,"Vao: Canada",-15.89978,167.30731,7940,wet,wetwet,wetwet,,-ramɪn,,,0
+48741557509,"Vao: Canada",-15.89978,167.30731,7980,new,niu,niu,,-ᵐbar,,,0
+48741557509,"Vao: Canada",-15.89978,167.30731,7990,other,narafala,narafala,,..,,,0
+48741557609,"Vao: Peteri",-15.89887,167.3051,810,right,raet,raet,,matu,,,0
+48741557609,"Vao: Peteri",-15.89887,167.3051,820,left,lef,lef,,maɛɾ,,,0
+48741557609,"Vao: Peteri",-15.89887,167.3051,7110,big,big,big,,mo-seax,,,0
+48741557609,"Vao: Peteri",-15.89887,167.3051,7170,small,smol,smol,,..,,,0
+48741557609,"Vao: Peteri",-15.89887,167.3051,7410,sharp,shap,shap,,mo-βor,,,0
+48741557609,"Vao: Peteri",-15.89887,167.3051,7420,blunt,no_shap,no_shap,,mʷo-ᵐbazis,,,0
+48741557609,"Vao: Peteri",-15.89887,167.3051,7490,shy,shem,shem,,..,,,0
+48741557609,"Vao: Peteri",-15.89887,167.3051,7520,old,olfala,olfala,,..,,,0
+48741557609,"Vao: Peteri",-15.89887,167.3051,7630,painful,sik,sik,,..,,,0
+48741557609,"Vao: Peteri",-15.89887,167.3051,7710,good,gud,gud,,mo-rux,,,0
+48741557609,"Vao: Peteri",-15.89887,167.3051,7720,bad,bad,bad,,mo-hat,,,0
+48741557609,"Vao: Peteri",-15.89887,167.3051,7730,correct,strait,strait,,-ᵐbararuh,,,0
+48741557609,"Vao: Peteri",-15.89887,167.3051,7770,dirty,toti,toti,,hum-lalo,,,0
+48741557609,"Vao: Peteri",-15.89887,167.3051,7800,rotten,roten,roten,,..,,,0
+48741557609,"Vao: Peteri",-15.89887,167.3051,7860,heavy,hevi,hevi,,mo-roɸ,,,0
+48741557609,"Vao: Peteri",-15.89887,167.3051,7880,far,longwei,longwei,,-neha,,,0
+48741557609,"Vao: Peteri",-15.89887,167.3051,7890,near,kolosap,kolosap,,-n̼erit,,,0
+48741557609,"Vao: Peteri",-15.89887,167.3051,7920,cold,kolkol,kolkol,,-nɪlege,,,0
+48741557609,"Vao: Peteri",-15.89887,167.3051,7930,dry,drae,drae,,hoo-n̼an̼ah,,,0
+48741557609,"Vao: Peteri",-15.89887,167.3051,7940,wet,wetwet,wetwet,,..,,,0
+48741557609,"Vao: Peteri",-15.89887,167.3051,7980,new,niu,niu,,..,,,0
+48741557609,"Vao: Peteri",-15.89887,167.3051,7990,other,narafala,narafala,,..,,,0
+48741557709,"Vao: Torono",-15.89986,167.30819,810,right,raet,raet,,matu,,,0
+48741557709,"Vao: Torono",-15.89986,167.30819,820,left,lef,lef,,maɛr,,,0
+48741557709,"Vao: Torono",-15.89986,167.30819,7110,big,big,big,,mʷo-seax,,,0
+48741557709,"Vao: Torono",-15.89986,167.30819,7170,small,smol,smol,,mʷo-vɛlɛlɛ,,,0
+48741557709,"Vao: Torono",-15.89986,167.30819,7410,sharp,shap,shap,,mo-βor,,,0
+48741557709,"Vao: Torono",-15.89986,167.30819,7420,blunt,no_shap,no_shap,,mo-ᵐbasis,,,0
+48741557709,"Vao: Torono",-15.89986,167.30819,7490,shy,shem,shem,,-n̼eɣonɣan,,,0
+48741557709,"Vao: Torono",-15.89986,167.30819,7520,old,olfala,olfala,,-mɛrsean,,,0
+48741557709,"Vao: Torono",-15.89986,167.30819,7630,painful,sik,sik,,mʷo-ros,,,0
+48741557709,"Vao: Torono",-15.89986,167.30819,7710,good,gud,gud,,mʷɔ-rux,,,0
+48741557709,"Vao: Torono",-15.89986,167.30819,7720,bad,bad,bad,,mʷo-hat,,,0
+48741557709,"Vao: Torono",-15.89986,167.30819,7730,correct,strait,strait,,mʷo-βararuh,,,0
+48741557709,"Vao: Torono",-15.89986,167.30819,7770,dirty,toti,toti,,mʷo-lalo,,,0
+48741557709,"Vao: Torono",-15.89986,167.30819,7800,rotten,roten,roten,,mʷo-momo,,,0
+48741557709,"Vao: Torono",-15.89986,167.30819,7860,heavy,hevi,hevi,,mʷo-roɸ,,,0
+48741557709,"Vao: Torono",-15.89986,167.30819,7880,far,longwei,longwei,,-neha,,,0
+48741557709,"Vao: Torono",-15.89986,167.30819,7890,near,kolosap,kolosap,,-n̼ergit,,,0
+48741557709,"Vao: Torono",-15.89986,167.30819,7920,cold,kolkol,kolkol,,mʷo-ron̼ɛlɛgeh ,,,0
+48741557709,"Vao: Torono",-15.89986,167.30819,7930,dry,drae,drae,,mʷo-n̼an̼ah,,,0
+48741557709,"Vao: Torono",-15.89986,167.30819,7940,wet,wetwet,wetwet,,mʷo-ranim,,,0
+48741557709,"Vao: Torono",-15.89986,167.30819,7980,new,niu,niu,,mʷo-ᵐbar,,,0
+48741557709,"Vao: Torono",-15.89986,167.30819,7990,other,narafala,narafala,,..,,,0
+48741733509,"Tirax: Botmelesnial",-16.0583,167.369,810,right,raet,raet,,matu,,,0
+48741733509,"Tirax: Botmelesnial",-16.0583,167.369,820,left,lef,lef,,majɾe,,,0
+48741733509,"Tirax: Botmelesnial",-16.0583,167.369,7110,big,big,big,,i-laⁿdlaⁿd,,,0
+48741733509,"Tirax: Botmelesnial",-16.0583,167.369,7170,small,smol,smol,,i-ᵐbiʰ,,,0
+48741733509,"Tirax: Botmelesnial",-16.0583,167.369,7410,sharp,shap,shap,,i-mon,,,0
+48741733509,"Tirax: Botmelesnial",-16.0583,167.369,7420,blunt,no_shap,no_shap,,i-ᵐbatot,,,0
+48741733509,"Tirax: Botmelesnial",-16.0583,167.369,7490,shy,shem,shem,,i-naɣan,,,0
+48741733509,"Tirax: Botmelesnial",-16.0583,167.369,7520,old,olfala,olfala,,i-tərtəra,,,0
+48741733509,"Tirax: Botmelesnial",-16.0583,167.369,7630,painful,sik,sik,,i-ros,,,0
+48741733509,"Tirax: Botmelesnial",-16.0583,167.369,7710,good,gud,gud,,i-nam,,,0
+48741733509,"Tirax: Botmelesnial",-16.0583,167.369,7720,bad,bad,bad,,i-hat,,,0
+48741733509,"Tirax: Botmelesnial",-16.0583,167.369,7730,correct,strait,strait,,ho-voratin,,,0
+48741733509,"Tirax: Botmelesnial",-16.0583,167.369,7770,dirty,toti,toti,,..,,,0
+48741733509,"Tirax: Botmelesnial",-16.0583,167.369,7800,rotten,roten,roten,,-ⁿdʳɪvⁿdʳɪv,,,0
+48741733509,"Tirax: Botmelesnial",-16.0583,167.369,7860,heavy,hevi,hevi,,i-ⁿdʳoɸ,,,0
+48741733509,"Tirax: Botmelesnial",-16.0583,167.369,7880,far,longwei,longwei,,hawe,,,0
+48741733509,"Tirax: Botmelesnial",-16.0583,167.369,7890,near,kolosap,kolosap,,-xəriɸ,,,0
+48741733509,"Tirax: Botmelesnial",-16.0583,167.369,7920,cold,kolkol,kolkol,,-nalɣa,,,0
+48741733509,"Tirax: Botmelesnial",-16.0583,167.369,7930,dry,drae,drae,,i-nena,,,0
+48741733509,"Tirax: Botmelesnial",-16.0583,167.369,7940,wet,wetwet,wetwet,,i-wair,,,0
+48741733509,"Tirax: Botmelesnial",-16.0583,167.369,7980,new,niu,niu,,mɪⁿdʳax,,,0
+48741733509,"Tirax: Botmelesnial",-16.0583,167.369,7990,other,narafala,narafala,,..,,,0
+48741733609,"Tirax: Mae",-16.05839,167.36953,810,right,raet,raet,,matu,,,0
+48741733609,"Tirax: Mae",-16.05839,167.36953,820,left,lef,lef,,mair,,,0
+48741733609,"Tirax: Mae",-16.05839,167.36953,7110,big,big,big,,-laⁿdlaⁿd,,,0
+48741733609,"Tirax: Mae",-16.05839,167.36953,7170,small,smol,smol,,-ᵐbiʰ,,,0
+48741733609,"Tirax: Mae",-16.05839,167.36953,7410,sharp,shap,shap,,-mon,,,0
+48741733609,"Tirax: Mae",-16.05839,167.36953,7420,blunt,no_shap,no_shap,,-ᵐbatot,,,0
+48741733609,"Tirax: Mae",-16.05839,167.36953,7490,shy,shem,shem,,-nɣan,,,0
+48741733609,"Tirax: Mae",-16.05839,167.36953,7520,old,olfala,olfala,,-trtəra,,,0
+48741733609,"Tirax: Mae",-16.05839,167.36953,7630,painful,sik,sik,,-ros,,,0
+48741733609,"Tirax: Mae",-16.05839,167.36953,7710,good,gud,gud,,-nam,,,0
+48741733609,"Tirax: Mae",-16.05839,167.36953,7720,bad,bad,bad,,-hat,,,0
+48741733609,"Tirax: Mae",-16.05839,167.36953,7730,correct,strait,strait,,-vratin,,,0
+48741733609,"Tirax: Mae",-16.05839,167.36953,7770,dirty,toti,toti,,-lalo,,,0
+48741733609,"Tirax: Mae",-16.05839,167.36953,7800,rotten,roten,roten,,-ⁿdʳivⁿdʳiɸ,,,0
+48741733609,"Tirax: Mae",-16.05839,167.36953,7860,heavy,hevi,hevi,,-ⁿdʳoɸ,,,0
+48741733609,"Tirax: Mae",-16.05839,167.36953,7880,far,longwei,longwei,,awe,,,0
+48741733609,"Tirax: Mae",-16.05839,167.36953,7890,near,kolosap,kolosap,,-xəriɸ,,,0
+48741733609,"Tirax: Mae",-16.05839,167.36953,7920,cold,kolkol,kolkol,,-nalɣa,,,0
+48741733609,"Tirax: Mae",-16.05839,167.36953,7930,dry,drae,drae,,-nɪnah,,,0
+48741733609,"Tirax: Mae",-16.05839,167.36953,7940,wet,wetwet,wetwet,,-wair,,,0
+48741733609,"Tirax: Mae",-16.05839,167.36953,7980,new,niu,niu,,-məⁿdʳax,,,0
+48741733609,"Tirax: Mae",-16.05839,167.36953,7990,other,narafala,narafala,,..,,,0
+48741735809,"Tirax: Bethel",-16.03923,167.40186,810,right,raet,raet,,matu,,,0
+48741735809,"Tirax: Bethel",-16.03923,167.40186,820,left,lef,lef,,mairɛ,,,0
+48741735809,"Tirax: Bethel",-16.03923,167.40186,7110,big,big,big,,i-laⁿdlaⁿdə,,,0
+48741735809,"Tirax: Bethel",-16.03923,167.40186,7170,small,smol,smol,,i-ᵐbih,,,0
+48741735809,"Tirax: Bethel",-16.03923,167.40186,7410,sharp,shap,shap,,i-mon,,,0
+48741735809,"Tirax: Bethel",-16.03923,167.40186,7420,blunt,no_shap,no_shap,,i-ᵐbatot,,,0
+48741735809,"Tirax: Bethel",-16.03923,167.40186,7490,shy,shem,shem,,i-nɣanə,,,0
+48741735809,"Tirax: Bethel",-16.03923,167.40186,7520,old,olfala,olfala,,i-trtəra,,,0
+48741735809,"Tirax: Bethel",-16.03923,167.40186,7630,painful,sik,sik,,i-ros,,,0
+48741735809,"Tirax: Bethel",-16.03923,167.40186,7710,good,gud,gud,,i-nam,,,0
+48741735809,"Tirax: Bethel",-16.03923,167.40186,7720,bad,bad,bad,,i-hat,,,0
+48741735809,"Tirax: Bethel",-16.03923,167.40186,7730,correct,strait,strait,,i-vratin,,,0
+48741735809,"Tirax: Bethel",-16.03923,167.40186,7770,dirty,toti,toti,,..,,,0
+48741735809,"Tirax: Bethel",-16.03923,167.40186,7800,rotten,roten,roten,,..,,,0
+48741735809,"Tirax: Bethel",-16.03923,167.40186,7860,heavy,hevi,hevi,,i-ⁿdʳoɸ,,,0
+48741735809,"Tirax: Bethel",-16.03923,167.40186,7880,far,longwei,longwei,,..,,,0
+48741735809,"Tirax: Bethel",-16.03923,167.40186,7890,near,kolosap,kolosap,,..,,,0
+48741735809,"Tirax: Bethel",-16.03923,167.40186,7920,cold,kolkol,kolkol,,-nalɣa,,,0
+48741735809,"Tirax: Bethel",-16.03923,167.40186,7930,dry,drae,drae,,i-nɪnah,,,0
+48741735809,"Tirax: Bethel",-16.03923,167.40186,7940,wet,wetwet,wetwet,,i-wair,,,0
+48741735809,"Tirax: Bethel",-16.03923,167.40186,7980,new,niu,niu,,i-məⁿdʳax,,,0
+48741735809,"Tirax: Bethel",-16.03923,167.40186,7990,other,narafala,narafala,,..,,,0
+48741736409,"Tirax: Olamb",-15.98701,167.26154,810,right,raet,raet,,matu,,,0
+48741736409,"Tirax: Olamb",-15.98701,167.26154,820,left,lef,lef,,mair,,,0
+48741736409,"Tirax: Olamb",-15.98701,167.26154,7110,big,big,big,,i-lalandʳ,,,0
+48741736409,"Tirax: Olamb",-15.98701,167.26154,7170,small,smol,smol,,i-ᵐbiʰ,,,0
+48741736409,"Tirax: Olamb",-15.98701,167.26154,7410,sharp,shap,shap,,i-mon,,,0
+48741736409,"Tirax: Olamb",-15.98701,167.26154,7420,blunt,no_shap,no_shap,,i-patot,,,0
+48741736409,"Tirax: Olamb",-15.98701,167.26154,7490,shy,shem,shem,,..,,,0
+48741736409,"Tirax: Olamb",-15.98701,167.26154,7520,old,olfala,olfala,,i-təra,,,0
+48741736409,"Tirax: Olamb",-15.98701,167.26154,7630,painful,sik,sik,,-ros,,,0
+48741736409,"Tirax: Olamb",-15.98701,167.26154,7710,good,gud,gud,,i-nam,,,0
+48741736409,"Tirax: Olamb",-15.98701,167.26154,7720,bad,bad,bad,,i-hat,,,0
+48741736409,"Tirax: Olamb",-15.98701,167.26154,7730,correct,strait,strait,,-vratin,,,0
+48741736409,"Tirax: Olamb",-15.98701,167.26154,7770,dirty,toti,toti,,..,,,0
+48741736409,"Tirax: Olamb",-15.98701,167.26154,7800,rotten,roten,roten,,-ⁿdʳɪvⁿdʳɪv,,,0
+48741736409,"Tirax: Olamb",-15.98701,167.26154,7860,heavy,hevi,hevi,,-ⁿdʳov,,,0
+48741736409,"Tirax: Olamb",-15.98701,167.26154,7880,far,longwei,longwei,,xawɛ,,,0
+48741736409,"Tirax: Olamb",-15.98701,167.26154,7890,near,kolosap,kolosap,,-xariv,,,0
+48741736409,"Tirax: Olamb",-15.98701,167.26154,7920,cold,kolkol,kolkol,,-nalɣa,,,0
+48741736409,"Tirax: Olamb",-15.98701,167.26154,7930,dry,drae,drae,,i-ninah,,,0
+48741736409,"Tirax: Olamb",-15.98701,167.26154,7940,wet,wetwet,wetwet,,i-wɛr,,,0
+48741736409,"Tirax: Olamb",-15.98701,167.26154,7980,new,niu,niu,,-mɪlakɛl,,,0
+48741736409,"Tirax: Olamb",-15.98701,167.26154,7990,other,narafala,narafala,,..,,,0
+48741736509,"Tirax: Bakru",-16.00354,167.29696,810,right,raet,raet,,matu,,,0
+48741736509,"Tirax: Bakru",-16.00354,167.29696,820,left,lef,lef,,maiɾe,,,0
+48741736509,"Tirax: Bakru",-16.00354,167.29696,7110,big,big,big,,i-lalaⁿd,,,0
+48741736509,"Tirax: Bakru",-16.00354,167.29696,7170,small,smol,smol,,i-ᵐbiʰ,,,0
+48741736509,"Tirax: Bakru",-16.00354,167.29696,7410,sharp,shap,shap,,i-mʷon,,,0
+48741736509,"Tirax: Bakru",-16.00354,167.29696,7420,blunt,no_shap,no_shap,,i-ᵐbatot,,,0
+48741736509,"Tirax: Bakru",-16.00354,167.29696,7490,shy,shem,shem,,..,,,0
+48741736509,"Tirax: Bakru",-16.00354,167.29696,7520,old,olfala,olfala,,i-trtəra,,,0
+48741736509,"Tirax: Bakru",-16.00354,167.29696,7630,painful,sik,sik,,i-ros,,,0
+48741736509,"Tirax: Bakru",-16.00354,167.29696,7710,good,gud,gud,,i-nam,,,0
+48741736509,"Tirax: Bakru",-16.00354,167.29696,7720,bad,bad,bad,,i-hat,,,0
+48741736509,"Tirax: Bakru",-16.00354,167.29696,7730,correct,strait,strait,,i-vratin,,,0
+48741736509,"Tirax: Bakru",-16.00354,167.29696,7770,dirty,toti,toti,,i-lalo,,,0
+48741736509,"Tirax: Bakru",-16.00354,167.29696,7800,rotten,roten,roten,,..,,,0
+48741736509,"Tirax: Bakru",-16.00354,167.29696,7860,heavy,hevi,hevi,,i-ⁿdʳoɸ,,,0
+48741736509,"Tirax: Bakru",-16.00354,167.29696,7880,far,longwei,longwei,,awe,,,0
+48741736509,"Tirax: Bakru",-16.00354,167.29696,7890,near,kolosap,kolosap,,-xeriɸ,,,0
+48741736509,"Tirax: Bakru",-16.00354,167.29696,7920,cold,kolkol,kolkol,,-nalɣa,,,0
+48741736509,"Tirax: Bakru",-16.00354,167.29696,7930,dry,drae,drae,,..,,,0
+48741736509,"Tirax: Bakru",-16.00354,167.29696,7940,wet,wetwet,wetwet,,i-waiɾ,,,0
+48741736509,"Tirax: Bakru",-16.00354,167.29696,7980,new,niu,niu,,i-mɪlakɛl,,,0
+48741736509,"Tirax: Bakru",-16.00354,167.29696,7990,other,narafala,narafala,,..,,,0
+48741737809,"Tirax: Orap",-15.97,167.34464,810,right,raet,raet,,matu,,,0
+48741737809,"Tirax: Orap",-15.97,167.34464,820,left,lef,lef,,ɣaur,,,0
+48741737809,"Tirax: Orap",-15.97,167.34464,7110,big,big,big,,i-laⁿdlaⁿd,,,0
+48741737809,"Tirax: Orap",-15.97,167.34464,7170,small,smol,smol,,ɪ-ᵐbih,,,0
+48741737809,"Tirax: Orap",-15.97,167.34464,7410,sharp,shap,shap,,-mon,,,0
+48741737809,"Tirax: Orap",-15.97,167.34464,7420,blunt,no_shap,no_shap,,-ᵐbatot,,,0
+48741737809,"Tirax: Orap",-15.97,167.34464,7490,shy,shem,shem,,i-nɣan,,,0
+48741737809,"Tirax: Orap",-15.97,167.34464,7520,old,olfala,olfala,,-trtəra,,,0
+48741737809,"Tirax: Orap",-15.97,167.34464,7630,painful,sik,sik,,i-ros,,,0
+48741737809,"Tirax: Orap",-15.97,167.34464,7710,good,gud,gud,,i-nam,,,0
+48741737809,"Tirax: Orap",-15.97,167.34464,7720,bad,bad,bad,,ɪ-hat,,,0
+48741737809,"Tirax: Orap",-15.97,167.34464,7730,correct,strait,strait,,..,,,0
+48741737809,"Tirax: Orap",-15.97,167.34464,7770,dirty,toti,toti,,i-lalo,,,0
+48741737809,"Tirax: Orap",-15.97,167.34464,7800,rotten,roten,roten,,..,,,0
+48741737809,"Tirax: Orap",-15.97,167.34464,7860,heavy,hevi,hevi,,..,,,0
+48741737809,"Tirax: Orap",-15.97,167.34464,7880,far,longwei,longwei,,aweh,,,0
+48741737809,"Tirax: Orap",-15.97,167.34464,7890,near,kolosap,kolosap,,-xariv,,,0
+48741737809,"Tirax: Orap",-15.97,167.34464,7920,cold,kolkol,kolkol,,-nalɣa,,,0
+48741737809,"Tirax: Orap",-15.97,167.34464,7930,dry,drae,drae,,-nanah,,,0
+48741737809,"Tirax: Orap",-15.97,167.34464,7940,wet,wetwet,wetwet,,-waɛr,,,0
+48741737809,"Tirax: Orap",-15.97,167.34464,7980,new,niu,niu,,-mərah,,,0
+48741737809,"Tirax: Orap",-15.97,167.34464,7990,other,narafala,narafala,,..,,,0
+48741752709,"Atchin: Orap",-15.9156,167.30641,810,right,raet,raet,,matu,,,0
+48741752709,"Atchin: Orap",-15.9156,167.30641,820,left,lef,lef,,mʷir,,,0
+48741752709,"Atchin: Orap",-15.9156,167.30641,7110,big,big,big,,mʷɪ-lɛplɛp,,,0
+48741752709,"Atchin: Orap",-15.9156,167.30641,7170,small,smol,smol,,-wɪlwɪle,,,0
+48741752709,"Atchin: Orap",-15.9156,167.30641,7410,sharp,shap,shap,,mu-so,,,0
+48741752709,"Atchin: Orap",-15.9156,167.30641,7420,blunt,no_shap,no_shap,,-ᵐbato,,,0
+48741752709,"Atchin: Orap",-15.9156,167.30641,7490,shy,shem,shem,,..,,,0
+48741752709,"Atchin: Orap",-15.9156,167.30641,7520,old,olfala,olfala,,..,,,0
+48741752709,"Atchin: Orap",-15.9156,167.30641,7630,painful,sik,sik,,..,,,0
+48741752709,"Atchin: Orap",-15.9156,167.30641,7710,good,gud,gud,,mʷi-rɛs,,,0
+48741752709,"Atchin: Orap",-15.9156,167.30641,7720,bad,bad,bad,,mʷit͡sat͡s,,,0
+48741752709,"Atchin: Orap",-15.9156,167.30641,7730,correct,strait,strait,,-worotun,,,0
+48741752709,"Atchin: Orap",-15.9156,167.30641,7770,dirty,toti,toti,,mi-lalo,,,0
+48741752709,"Atchin: Orap",-15.9156,167.30641,7800,rotten,roten,roten,,-mʊtmʊt,,,0
+48741752709,"Atchin: Orap",-15.9156,167.30641,7860,heavy,hevi,hevi,,mu-roʷ,,,0
+48741752709,"Atchin: Orap",-15.9156,167.30641,7880,far,longwei,longwei,,-soβi,,,0
+48741752709,"Atchin: Orap",-15.9156,167.30641,7890,near,kolosap,kolosap,,-mori,,,0
+48741752709,"Atchin: Orap",-15.9156,167.30641,7920,cold,kolkol,kolkol,,-malas,,,0
+48741752709,"Atchin: Orap",-15.9156,167.30641,7930,dry,drae,drae,,-mɛmɛs,,,0
+48741752709,"Atchin: Orap",-15.9156,167.30641,7940,wet,wetwet,wetwet,,mʷɛ-ramim,,,0
+48741752709,"Atchin: Orap",-15.9156,167.30641,7980,new,niu,niu,,..,,,0
+48741752709,"Atchin: Orap",-15.9156,167.30641,7990,other,narafala,narafala,,..,,,0
+48741752809,"Atchin: Small Island",-15.9439,167.33993,810,right,raet,raet,,matu,,,0
+48741752809,"Atchin: Small Island",-15.9439,167.33993,820,left,lef,lef,,mʷiɾ,,,0
+48741752809,"Atchin: Small Island",-15.9439,167.33993,7110,big,big,big,,..,,,0
+48741752809,"Atchin: Small Island",-15.9439,167.33993,7170,small,smol,smol,,-wɪlwɪle,,,0
+48741752809,"Atchin: Small Island",-15.9439,167.33993,7410,sharp,shap,shap,,-sɔ,,,0
+48741752809,"Atchin: Small Island",-15.9439,167.33993,7420,blunt,no_shap,no_shap,,-patɔ,,,0
+48741752809,"Atchin: Small Island",-15.9439,167.33993,7490,shy,shem,shem,,mʉnan-ɛn,,,0
+48741752809,"Atchin: Small Island",-15.9439,167.33993,7520,old,olfala,olfala,,taɾa-ɛn,,,0
+48741752809,"Atchin: Small Island",-15.9439,167.33993,7630,painful,sik,sik,,masa-ɛn,,,0
+48741752809,"Atchin: Small Island",-15.9439,167.33993,7710,good,gud,gud,,mɛ-rɛs,,,0
+48741752809,"Atchin: Small Island",-15.9439,167.33993,7720,bad,bad,bad,,mɛ-t͡sat͡s,,,0
+48741752809,"Atchin: Small Island",-15.9439,167.33993,7730,correct,strait,strait,,..,,,0
+48741752809,"Atchin: Small Island",-15.9439,167.33993,7770,dirty,toti,toti,,-lalo,,,0
+48741752809,"Atchin: Small Island",-15.9439,167.33993,7800,rotten,roten,roten,,-motmot,,,0
+48741752809,"Atchin: Small Island",-15.9439,167.33993,7860,heavy,hevi,hevi,,-roʰ,,,0
+48741752809,"Atchin: Small Island",-15.9439,167.33993,7880,far,longwei,longwei,,-soβi,,,0
+48741752809,"Atchin: Small Island",-15.9439,167.33993,7890,near,kolosap,kolosap,,..,,,0
+48741752809,"Atchin: Small Island",-15.9439,167.33993,7920,cold,kolkol,kolkol,,malas,,,0
+48741752809,"Atchin: Small Island",-15.9439,167.33993,7930,dry,drae,drae,,-mɛmɛs,,,0
+48741752809,"Atchin: Small Island",-15.9439,167.33993,7940,wet,wetwet,wetwet,,-ramim,,,0
+48741752809,"Atchin: Small Island",-15.9439,167.33993,7980,new,niu,niu,,-ᵐbar,,,0
+48741752809,"Atchin: Small Island",-15.9439,167.33993,7990,other,narafala,narafala,,..,,,0
+48741754509,"Wala: Botku",-15.96841,167.29246,810,right,raet,raet,,..,,,0
+48741754509,"Wala: Botku",-15.96841,167.29246,820,left,lef,lef,,..,,,0
+48741754509,"Wala: Botku",-15.96841,167.29246,7110,big,big,big,,mi-lɛp,,,0
+48741754509,"Wala: Botku",-15.96841,167.29246,7170,small,smol,smol,,mu-wɛlele,,,0
+48741754509,"Wala: Botku",-15.96841,167.29246,7410,sharp,shap,shap,,mu-sɔ,,,0
+48741754509,"Wala: Botku",-15.96841,167.29246,7420,blunt,no_shap,no_shap,,-muŋol,,,0
+48741754509,"Wala: Botku",-15.96841,167.29246,7490,shy,shem,shem,,nɪma-manun,,,0
+48741754509,"Wala: Botku",-15.96841,167.29246,7520,old,olfala,olfala,,nama-tara,,,0
+48741754509,"Wala: Botku",-15.96841,167.29246,7630,painful,sik,sik,,nɪ-mɪmsɛ,,,0
+48741754509,"Wala: Botku",-15.96841,167.29246,7710,good,gud,gud,,mi-rɛs,,,0
+48741754509,"Wala: Botku",-15.96841,167.29246,7720,bad,bad,bad,,mi-siʧ,,,0
+48741754509,"Wala: Botku",-15.96841,167.29246,7730,correct,strait,strait,,-lɛvorotun,,,0
+48741754509,"Wala: Botku",-15.96841,167.29246,7770,dirty,toti,toti,,mo-poroporo,,,0
+48741754509,"Wala: Botku",-15.96841,167.29246,7800,rotten,roten,roten,,mu-mʊtmʊt,,,0
+48741754509,"Wala: Botku",-15.96841,167.29246,7860,heavy,hevi,hevi,,mu-roβ,,,0
+48741754509,"Wala: Botku",-15.96841,167.29246,7880,far,longwei,longwei,,-asɔ,,,0
+48741754509,"Wala: Botku",-15.96841,167.29246,7890,near,kolosap,kolosap,,-mori,,,0
+48741754509,"Wala: Botku",-15.96841,167.29246,7920,cold,kolkol,kolkol,,-namlas,,,0
+48741754509,"Wala: Botku",-15.96841,167.29246,7930,dry,drae,drae,,..,,,0
+48741754509,"Wala: Botku",-15.96841,167.29246,7940,wet,wetwet,wetwet,,-mimim,,,0
+48741754509,"Wala: Botku",-15.96841,167.29246,7980,new,niu,niu,,nɪmɛ-mɛr,,,0
+48741754509,"Wala: Botku",-15.96841,167.29246,7990,other,narafala,narafala,,..,,,0
+48741754709,"Wala: Worprev",-15.97775,167.37656,810,right,raet,raet,,ti-ᵐbʷariŋin,,,0
+48741754709,"Wala: Worprev",-15.97775,167.37656,820,left,lef,lef,,tɪ-ⁿdal-mʷir,,,0
+48741754709,"Wala: Worprev",-15.97775,167.37656,7110,big,big,big,,i-lamb,,,0
+48741754709,"Wala: Worprev",-15.97775,167.37656,7170,small,smol,smol,,i-mɪlaalax,,,0
+48741754709,"Wala: Worprev",-15.97775,167.37656,7410,sharp,shap,shap,,i-kan,,,0
+48741754709,"Wala: Worprev",-15.97775,167.37656,7420,blunt,no_shap,no_shap,,isɪ-kanval,,,0
+48741754709,"Wala: Worprev",-15.97775,167.37656,7490,shy,shem,shem,,i-mɛmɣan,,,0
+48741754709,"Wala: Worprev",-15.97775,167.37656,7520,old,olfala,olfala,,i-ᵐbiɣaiwut,,,0
+48741754709,"Wala: Worprev",-15.97775,167.37656,7630,painful,sik,sik,,i-misiɛx,,,0
+48741754709,"Wala: Worprev",-15.97775,167.37656,7710,good,gud,gud,,mi-rɛs,,,0
+48741754709,"Wala: Worprev",-15.97775,167.37656,7720,bad,bad,bad,,i-sat,,,0
+48741754709,"Wala: Worprev",-15.97775,167.37656,7730,correct,strait,strait,,ᵐbariŋin,,,0
+48741754709,"Wala: Worprev",-15.97775,167.37656,7770,dirty,toti,toti,,i-ᵐboŋol,,,0
+48741754709,"Wala: Worprev",-15.97775,167.37656,7800,rotten,roten,roten,,i-mom,,,0
+48741754709,"Wala: Worprev",-15.97775,167.37656,7860,heavy,hevi,hevi,,i-ⁿdoɸ,,,0
+48741754709,"Wala: Worprev",-15.97775,167.37656,7880,far,longwei,longwei,,silɛʰ,,,0
+48741754709,"Wala: Worprev",-15.97775,167.37656,7890,near,kolosap,kolosap,,mʷosaŋ,,,0
+48741754709,"Wala: Worprev",-15.97775,167.37656,7920,cold,kolkol,kolkol,,i-mælɣos,,,0
+48741754709,"Wala: Worprev",-15.97775,167.37656,7930,dry,drae,drae,,i-memas,,,0
+48741754709,"Wala: Worprev",-15.97775,167.37656,7940,wet,wetwet,wetwet,,iⁿdoᵐbⁿdoᵐb,,,0
+48741754709,"Wala: Worprev",-15.97775,167.37656,7980,new,niu,niu,,-ᵐbɪvao,,,0
+48741754709,"Wala: Worprev",-15.97775,167.37656,7990,other,narafala,narafala,,..,,,0
+48741754809,"Wala: Petreros",-15.97544,167.37627,810,right,raet,raet,,nɪ-matu,,,0
+48741754809,"Wala: Petreros",-15.97544,167.37627,820,left,lef,lef,,nɪ-mair,,,0
+48741754809,"Wala: Petreros",-15.97544,167.37627,7110,big,big,big,,mi-lɛp,,,0
+48741754809,"Wala: Petreros",-15.97544,167.37627,7170,small,smol,smol,,mu-wɛlɛli,,,0
+48741754809,"Wala: Petreros",-15.97544,167.37627,7410,sharp,shap,shap,,mu-so,,,0
+48741754809,"Wala: Petreros",-15.97544,167.37627,7420,blunt,no_shap,no_shap,,mi-pato,,,0
+48741754809,"Wala: Petreros",-15.97544,167.37627,7490,shy,shem,shem,,mɪ-manun,,,0
+48741754809,"Wala: Petreros",-15.97544,167.37627,7520,old,olfala,olfala,,mʷi-tara,,,0
+48741754809,"Wala: Petreros",-15.97544,167.37627,7630,painful,sik,sik,,mi-məse,,,0
+48741754809,"Wala: Petreros",-15.97544,167.37627,7710,good,gud,gud,,mʷi-rɛs,,,0
+48741754809,"Wala: Petreros",-15.97544,167.37627,7720,bad,bad,bad,,mʷi-zɪʧ,,,0
+48741754809,"Wala: Petreros",-15.97544,167.37627,7730,correct,strait,strait,,lavorotun,,,0
+48741754809,"Wala: Petreros",-15.97544,167.37627,7770,dirty,toti,toti,,mɔ-porɔporo,,,0
+48741754809,"Wala: Petreros",-15.97544,167.37627,7800,rotten,roten,roten,,..,,,0
+48741754809,"Wala: Petreros",-15.97544,167.37627,7860,heavy,hevi,hevi,,mo-ro,,,0
+48741754809,"Wala: Petreros",-15.97544,167.37627,7880,far,longwei,longwei,,-aso,,,0
+48741754809,"Wala: Petreros",-15.97544,167.37627,7890,near,kolosap,kolosap,,-mori,,,0
+48741754809,"Wala: Petreros",-15.97544,167.37627,7920,cold,kolkol,kolkol,,-naməlas,,,0
+48741754809,"Wala: Petreros",-15.97544,167.37627,7930,dry,drae,drae,,-mimɛs,,,0
+48741754809,"Wala: Petreros",-15.97544,167.37627,7940,wet,wetwet,wetwet,,-mimim,,,0
+48741754809,"Wala: Petreros",-15.97544,167.37627,7980,new,niu,niu,,mi-mɛr,,,0
+48741754809,"Wala: Petreros",-15.97544,167.37627,7990,other,narafala,narafala,,..,,,0
+48741754909,"Wala: Preng",-15.97342,167.37627,810,right,raet,raet,,ne-matu,,,0
+48741754909,"Wala: Preng",-15.97342,167.37627,820,left,lef,lef,,ne-maiɾi,,,0
+48741754909,"Wala: Preng",-15.97342,167.37627,7110,big,big,big,,mi-lɛp,,,0
+48741754909,"Wala: Preng",-15.97342,167.37627,7170,small,smol,smol,,mu-wɛlele,,,0
+48741754909,"Wala: Preng",-15.97342,167.37627,7410,sharp,shap,shap,,mu-ʃo,,,0
+48741754909,"Wala: Preng",-15.97342,167.37627,7420,blunt,no_shap,no_shap,,-muŋol,,,0
+48741754909,"Wala: Preng",-15.97342,167.37627,7490,shy,shem,shem,,mi-manun,,,0
+48741754909,"Wala: Preng",-15.97342,167.37627,7520,old,olfala,olfala,,mi-tara,,,0
+48741754909,"Wala: Preng",-15.97342,167.37627,7630,painful,sik,sik,,..,,,0
+48741754909,"Wala: Preng",-15.97342,167.37627,7710,good,gud,gud,,mi-rɛs,,,0
+48741754909,"Wala: Preng",-15.97342,167.37627,7720,bad,bad,bad,,mi-ziʧ,,,0
+48741754909,"Wala: Preng",-15.97342,167.37627,7730,correct,strait,strait,,he-laβurutun,,,0
+48741754909,"Wala: Preng",-15.97342,167.37627,7770,dirty,toti,toti,,mu-poroporo,,,0
+48741754909,"Wala: Preng",-15.97342,167.37627,7800,rotten,roten,roten,,mu-mʊtmʊt,,,0
+48741754909,"Wala: Preng",-15.97342,167.37627,7860,heavy,hevi,hevi,,-roβ,,,0
+48741754909,"Wala: Preng",-15.97342,167.37627,7880,far,longwei,longwei,,..,,,0
+48741754909,"Wala: Preng",-15.97342,167.37627,7890,near,kolosap,kolosap,,-mori,,,0
+48741754909,"Wala: Preng",-15.97342,167.37627,7920,cold,kolkol,kolkol,,-namlas,,,0
+48741754909,"Wala: Preng",-15.97342,167.37627,7930,dry,drae,drae,,-mimɛs,,,0
+48741754909,"Wala: Preng",-15.97342,167.37627,7940,wet,wetwet,wetwet,,-mimim,,,0
+48741754909,"Wala: Preng",-15.97342,167.37627,7980,new,niu,niu,,mi-mɛr,,,0
+48741754909,"Wala: Preng",-15.97342,167.37627,7990,other,narafala,narafala,,..,,,0
+48741756709,"Rano: Twalung",-15.98389,167.38444,810,right,raet,raet,,nɪ-matu,,,0
+48741756709,"Rano: Twalung",-15.98389,167.38444,820,left,lef,lef,,nɪ-majr,,,0
+48741756709,"Rano: Twalung",-15.98389,167.38444,7110,big,big,big,,-lɛp,,,0
+48741756709,"Rano: Twalung",-15.98389,167.38444,7170,small,smol,smol,,-wɛlele,,,0
+48741756709,"Rano: Twalung",-15.98389,167.38444,7410,sharp,shap,shap,,mu-so,,,0
+48741756709,"Rano: Twalung",-15.98389,167.38444,7420,blunt,no_shap,no_shap,,po-tloŋ,,,0
+48741756709,"Rano: Twalung",-15.98389,167.38444,7490,shy,shem,shem,,-manun,,,0
+48741756709,"Rano: Twalung",-15.98389,167.38444,7520,old,olfala,olfala,,mʷi-taɾa,,,0
+48741756709,"Rano: Twalung",-15.98389,167.38444,7630,painful,sik,sik,,mi-msɛ,,,0
+48741756709,"Rano: Twalung",-15.98389,167.38444,7710,good,gud,gud,,mʷɪ-rɛs,,,0
+48741756709,"Rano: Twalung",-15.98389,167.38444,7720,bad,bad,bad,,mʷi-siʧ,,,0
+48741756709,"Rano: Twalung",-15.98389,167.38444,7730,correct,strait,strait,,levorutun,,,0
+48741756709,"Rano: Twalung",-15.98389,167.38444,7770,dirty,toti,toti,,mu-poroporo,,,0
+48741756709,"Rano: Twalung",-15.98389,167.38444,7800,rotten,roten,roten,,-mʊtmʊt,,,0
+48741756709,"Rano: Twalung",-15.98389,167.38444,7860,heavy,hevi,hevi,,-roʷ,,,0
+48741756709,"Rano: Twalung",-15.98389,167.38444,7880,far,longwei,longwei,,-aso,,,0
+48741756709,"Rano: Twalung",-15.98389,167.38444,7890,near,kolosap,kolosap,,-mori,,,0
+48741756709,"Rano: Twalung",-15.98389,167.38444,7920,cold,kolkol,kolkol,,-namlas,,,0
+48741756709,"Rano: Twalung",-15.98389,167.38444,7930,dry,drae,drae,,-mimɛs,,,0
+48741756709,"Rano: Twalung",-15.98389,167.38444,7940,wet,wetwet,wetwet,,-mimim,,,0
+48741756709,"Rano: Twalung",-15.98389,167.38444,7980,new,niu,niu,,-mɛr,,,0
+48741756709,"Rano: Twalung",-15.98389,167.38444,7990,other,narafala,narafala,,..,,,0
+48741756809,"Rano: Potora",-15.98472,167.3866,810,right,raet,raet,,nɪ-mʷatu,,,0
+48741756809,"Rano: Potora",-15.98472,167.3866,820,left,lef,lef,,nɪ-mʷoiɾi,,,0
+48741756809,"Rano: Potora",-15.98472,167.3866,7110,big,big,big,,-lɛp,,,0
+48741756809,"Rano: Potora",-15.98472,167.3866,7170,small,smol,smol,,-wɛlele,,,0
+48741756809,"Rano: Potora",-15.98472,167.3866,7410,sharp,shap,shap,,-so,,,0
+48741756809,"Rano: Potora",-15.98472,167.3866,7420,blunt,no_shap,no_shap,,-muɲol,,,0
+48741756809,"Rano: Potora",-15.98472,167.3866,7490,shy,shem,shem,,-manun,,,0
+48741756809,"Rano: Potora",-15.98472,167.3866,7520,old,olfala,olfala,,-taɾa,,,0
+48741756809,"Rano: Potora",-15.98472,167.3866,7630,painful,sik,sik,,-mse,,,0
+48741756809,"Rano: Potora",-15.98472,167.3866,7710,good,gud,gud,,-rɛs,,,0
+48741756809,"Rano: Potora",-15.98472,167.3866,7720,bad,bad,bad,,-siʧ,,,0
+48741756809,"Rano: Potora",-15.98472,167.3866,7730,correct,strait,strait,,-vorutun,,,0
+48741756809,"Rano: Potora",-15.98472,167.3866,7770,dirty,toti,toti,,mu-poporo,,,0
+48741756809,"Rano: Potora",-15.98472,167.3866,7800,rotten,roten,roten,,-mʊtmʊt,,,0
+48741756809,"Rano: Potora",-15.98472,167.3866,7860,heavy,hevi,hevi,,-roʷ,,,0
+48741756809,"Rano: Potora",-15.98472,167.3866,7880,far,longwei,longwei,,-aso,,,0
+48741756809,"Rano: Potora",-15.98472,167.3866,7890,near,kolosap,kolosap,,-mori,,,0
+48741756809,"Rano: Potora",-15.98472,167.3866,7920,cold,kolkol,kolkol,,-namlas,,,0
+48741756809,"Rano: Potora",-15.98472,167.3866,7930,dry,drae,drae,,-mimɪs,,,0
+48741756809,"Rano: Potora",-15.98472,167.3866,7940,wet,wetwet,wetwet,,-mimim,,,0
+48741756809,"Rano: Potora",-15.98472,167.3866,7980,new,niu,niu,,-mɛr,,,0
+48741756809,"Rano: Potora",-15.98472,167.3866,7990,other,narafala,narafala,,..,,,0
+48741756909,"Rano: Chinambong",-15.99049,167.39063,810,right,raet,raet,,ne-mʷatu,,,0
+48741756909,"Rano: Chinambong",-15.99049,167.39063,820,left,lef,lef,,ne-mʷaiɾi,,,0
+48741756909,"Rano: Chinambong",-15.99049,167.39063,7110,big,big,big,,-lɛɸ,,,0
+48741756909,"Rano: Chinambong",-15.99049,167.39063,7170,small,smol,smol,,-wɛlele,,,0
+48741756909,"Rano: Chinambong",-15.99049,167.39063,7410,sharp,shap,shap,,mu-so,,,0
+48741756909,"Rano: Chinambong",-15.99049,167.39063,7420,blunt,no_shap,no_shap,,-muŋol,,,0
+48741756909,"Rano: Chinambong",-15.99049,167.39063,7490,shy,shem,shem,,mu-manun,,,0
+48741756909,"Rano: Chinambong",-15.99049,167.39063,7520,old,olfala,olfala,,mʷi-taɾa,,,0
+48741756909,"Rano: Chinambong",-15.99049,167.39063,7630,painful,sik,sik,,mi-mse,,,0
+48741756909,"Rano: Chinambong",-15.99049,167.39063,7710,good,gud,gud,,mʷi-rɛs,,,0
+48741756909,"Rano: Chinambong",-15.99049,167.39063,7720,bad,bad,bad,,mʷi-siʧ,,,0
+48741756909,"Rano: Chinambong",-15.99049,167.39063,7730,correct,strait,strait,,mu-vorotun,,,0
+48741756909,"Rano: Chinambong",-15.99049,167.39063,7770,dirty,toti,toti,,mu-poroporo,,,0
+48741756909,"Rano: Chinambong",-15.99049,167.39063,7800,rotten,roten,roten,,mi-motmot,,,0
+48741756909,"Rano: Chinambong",-15.99049,167.39063,7860,heavy,hevi,hevi,,mu-roʷ,,,0
+48741756909,"Rano: Chinambong",-15.99049,167.39063,7880,far,longwei,longwei,,-aso,,,0
+48741756909,"Rano: Chinambong",-15.99049,167.39063,7890,near,kolosap,kolosap,,-mori,,,0
+48741756909,"Rano: Chinambong",-15.99049,167.39063,7920,cold,kolkol,kolkol,,-namlas,,,0
+48741756909,"Rano: Chinambong",-15.99049,167.39063,7930,dry,drae,drae,,-mimɛs,,,0
+48741756909,"Rano: Chinambong",-15.99049,167.39063,7940,wet,wetwet,wetwet,,-mimim,,,0
+48741756909,"Rano: Chinambong",-15.99049,167.39063,7980,new,niu,niu,,mi-mɛre,,,0
+48741756909,"Rano: Chinambong",-15.99049,167.39063,7990,other,narafala,narafala,,..,,,0
+48741757609,"Uripiv: Tautu Village",-16.06661,167.3975,810,right,raet,raet,,ni-matur,,,0
+48741757609,"Uripiv: Tautu Village",-16.06661,167.3975,820,left,lef,lef,,ni-mair,,,0
+48741757609,"Uripiv: Tautu Village",-16.06661,167.3975,7110,big,big,big,,..,,,0
+48741757609,"Uripiv: Tautu Village",-16.06661,167.3975,7170,small,smol,smol,,..,,,0
+48741757609,"Uripiv: Tautu Village",-16.06661,167.3975,7410,sharp,shap,shap,,-sɔ,,,0
+48741757609,"Uripiv: Tautu Village",-16.06661,167.3975,7420,blunt,no_shap,no_shap,,-pat,,,0
+48741757609,"Uripiv: Tautu Village",-16.06661,167.3975,7490,shy,shem,shem,,..,,,0
+48741757609,"Uripiv: Tautu Village",-16.06661,167.3975,7520,old,olfala,olfala,,..,,,0
+48741757609,"Uripiv: Tautu Village",-16.06661,167.3975,7630,painful,sik,sik,,..,,,0
+48741757609,"Uripiv: Tautu Village",-16.06661,167.3975,7710,good,gud,gud,,..,,,0
+48741757609,"Uripiv: Tautu Village",-16.06661,167.3975,7720,bad,bad,bad,,-sɪʧ,,,0
+48741757609,"Uripiv: Tautu Village",-16.06661,167.3975,7730,correct,strait,strait,,-wɛretun,,,0
+48741757609,"Uripiv: Tautu Village",-16.06661,167.3975,7770,dirty,toti,toti,,-poroporo,,,0
+48741757609,"Uripiv: Tautu Village",-16.06661,167.3975,7800,rotten,roten,roten,,-motmot,,,0
+48741757609,"Uripiv: Tautu Village",-16.06661,167.3975,7860,heavy,hevi,hevi,,-rɔ,,,0
+48741757609,"Uripiv: Tautu Village",-16.06661,167.3975,7880,far,longwei,longwei,,oto-aso,,,0
+48741757609,"Uripiv: Tautu Village",-16.06661,167.3975,7890,near,kolosap,kolosap,,oto-mʷori,,,0
+48741757609,"Uripiv: Tautu Village",-16.06661,167.3975,7920,cold,kolkol,kolkol,,na-mlas ,,,0
+48741757609,"Uripiv: Tautu Village",-16.06661,167.3975,7930,dry,drae,drae,,-mɛs,,,0
+48741757609,"Uripiv: Tautu Village",-16.06661,167.3975,7940,wet,wetwet,wetwet,,-mim,,,0
+48741757609,"Uripiv: Tautu Village",-16.06661,167.3975,7980,new,niu,niu,,..,,,0
+48741757609,"Uripiv: Tautu Village",-16.06661,167.3975,7990,other,narafala,narafala,,..,,,0
+48741758709,"Uripiv: Tautu",-16.06778,167.40111,810,right,raet,raet,,nɪ-matuɾu,,,0
+48741758709,"Uripiv: Tautu",-16.06778,167.40111,820,left,lef,lef,,nɪ-mair,,,0
+48741758709,"Uripiv: Tautu",-16.06778,167.40111,7110,big,big,big,,ɛ-lɛp,,,0
+48741758709,"Uripiv: Tautu",-16.06778,167.40111,7170,small,smol,smol,,ɛ-ᵐbit,,,0
+48741758709,"Uripiv: Tautu",-16.06778,167.40111,7410,sharp,shap,shap,,ɔ-so,,,0
+48741758709,"Uripiv: Tautu",-16.06778,167.40111,7420,blunt,no_shap,no_shap,,a-pat,,,0
+48741758709,"Uripiv: Tautu",-16.06778,167.40111,7490,shy,shem,shem,,ɛ-mtɔ,,,0
+48741758709,"Uripiv: Tautu",-16.06778,167.40111,7520,old,olfala,olfala,,a-taɾa,,,0
+48741758709,"Uripiv: Tautu",-16.06778,167.40111,7630,painful,sik,sik,,ɛ-mse,,,0
+48741758709,"Uripiv: Tautu",-16.06778,167.40111,7710,good,gud,gud,,ɛ-rɛs,,,0
+48741758709,"Uripiv: Tautu",-16.06778,167.40111,7720,bad,bad,bad,,ɛ-sɪʧ,,,0
+48741758709,"Uripiv: Tautu",-16.06778,167.40111,7730,correct,strait,strait,,ɛ-wuretun,,,0
+48741758709,"Uripiv: Tautu",-16.06778,167.40111,7770,dirty,toti,toti,,..,,,0
+48741758709,"Uripiv: Tautu",-16.06778,167.40111,7800,rotten,roten,roten,,o-motmot,,,0
+48741758709,"Uripiv: Tautu",-16.06778,167.40111,7860,heavy,hevi,hevi,,o-ro,,,0
+48741758709,"Uripiv: Tautu",-16.06778,167.40111,7880,far,longwei,longwei,,oto-asu,,,0
+48741758709,"Uripiv: Tautu",-16.06778,167.40111,7890,near,kolosap,kolosap,,oto-mʷori,,,0
+48741758709,"Uripiv: Tautu",-16.06778,167.40111,7920,cold,kolkol,kolkol,,na-mlas ,,,0
+48741758709,"Uripiv: Tautu",-16.06778,167.40111,7930,dry,drae,drae,,ɛ-mɛs,,,0
+48741758709,"Uripiv: Tautu",-16.06778,167.40111,7940,wet,wetwet,wetwet,,ɛ-mim,,,0
+48741758709,"Uripiv: Tautu",-16.06778,167.40111,7980,new,niu,niu,,ɛ-mɛr,,,0
+48741758709,"Uripiv: Tautu",-16.06778,167.40111,7990,other,narafala,narafala,,..,,,0
+48741758809,"Uripiv: Durpif",-16.07265,167.447,810,right,raet,raet,,res,,,0
+48741758809,"Uripiv: Durpif",-16.07265,167.447,820,left,lef,lef,,maiɾ,,,0
+48741758809,"Uripiv: Durpif",-16.07265,167.447,7110,big,big,big,,ɛ-lɛp,,,0
+48741758809,"Uripiv: Durpif",-16.07265,167.447,7170,small,smol,smol,,e-weleli,,,0
+48741758809,"Uripiv: Durpif",-16.07265,167.447,7410,sharp,shap,shap,,-so,,,0
+48741758809,"Uripiv: Durpif",-16.07265,167.447,7420,blunt,no_shap,no_shap,,-pat,,,0
+48741758809,"Uripiv: Durpif",-16.07265,167.447,7490,shy,shem,shem,,-manʊn,,,0
+48741758809,"Uripiv: Durpif",-16.07265,167.447,7520,old,olfala,olfala,,ɛ-təɾa,,,0
+48741758809,"Uripiv: Durpif",-16.07265,167.447,7630,painful,sik,sik,,ɛ-msi,,,0
+48741758809,"Uripiv: Durpif",-16.07265,167.447,7710,good,gud,gud,,ɛ-rɛs,,,0
+48741758809,"Uripiv: Durpif",-16.07265,167.447,7720,bad,bad,bad,,ɛ-siʧ,,,0
+48741758809,"Uripiv: Durpif",-16.07265,167.447,7730,correct,strait,strait,,ɛ-wuretun,,,0
+48741758809,"Uripiv: Durpif",-16.07265,167.447,7770,dirty,toti,toti,,..,,,0
+48741758809,"Uripiv: Durpif",-16.07265,167.447,7800,rotten,roten,roten,,-mutmut,,,0
+48741758809,"Uripiv: Durpif",-16.07265,167.447,7860,heavy,hevi,hevi,,o-row,,,0
+48741758809,"Uripiv: Durpif",-16.07265,167.447,7880,far,longwei,longwei,,ŋasu,,,0
+48741758809,"Uripiv: Durpif",-16.07265,167.447,7890,near,kolosap,kolosap,,-moɾi,,,0
+48741758809,"Uripiv: Durpif",-16.07265,167.447,7920,cold,kolkol,kolkol,,-mɛlas ,,,0
+48741758809,"Uripiv: Durpif",-16.07265,167.447,7930,dry,drae,drae,,ɛ-mɛs,,,0
+48741758809,"Uripiv: Durpif",-16.07265,167.447,7940,wet,wetwet,wetwet,,ɪ-mɪm,,,0
+48741758809,"Uripiv: Durpif",-16.07265,167.447,7980,new,niu,niu,,ɛ-mɛr,,,0
+48741758809,"Uripiv: Durpif",-16.07265,167.447,7990,other,narafala,narafala,,..,,,0
+48741758909,"Uripiv: Potnambe",-16.07391,167.45203,810,right,raet,raet,,res,,,0
+48741758909,"Uripiv: Potnambe",-16.07391,167.45203,820,left,lef,lef,,maiɾ,,,0
+48741758909,"Uripiv: Potnambe",-16.07391,167.45203,7110,big,big,big,,ɛ-lɛp,,,0
+48741758909,"Uripiv: Potnambe",-16.07391,167.45203,7170,small,smol,smol,,ɛ-wɛlili,,,0
+48741758909,"Uripiv: Potnambe",-16.07391,167.45203,7410,sharp,shap,shap,,o-ʃo,,,0
+48741758909,"Uripiv: Potnambe",-16.07391,167.45203,7420,blunt,no_shap,no_shap,,ɛ-pat,,,0
+48741758909,"Uripiv: Potnambe",-16.07391,167.45203,7490,shy,shem,shem,,no-manʊn,,,0
+48741758909,"Uripiv: Potnambe",-16.07391,167.45203,7520,old,olfala,olfala,,ɛ-təɾa,,,0
+48741758909,"Uripiv: Potnambe",-16.07391,167.45203,7630,painful,sik,sik,,..,,,0
+48741758909,"Uripiv: Potnambe",-16.07391,167.45203,7710,good,gud,gud,,ɛ-rɛs,,,0
+48741758909,"Uripiv: Potnambe",-16.07391,167.45203,7720,bad,bad,bad,,ɛ-siʧ,,,0
+48741758909,"Uripiv: Potnambe",-16.07391,167.45203,7730,correct,strait,strait,,ɛ-wuretun,,,0
+48741758909,"Uripiv: Potnambe",-16.07391,167.45203,7770,dirty,toti,toti,,..,,,0
+48741758909,"Uripiv: Potnambe",-16.07391,167.45203,7800,rotten,roten,roten,,o-mutmut,,,0
+48741758909,"Uripiv: Potnambe",-16.07391,167.45203,7860,heavy,hevi,hevi,,o-ro,,,0
+48741758909,"Uripiv: Potnambe",-16.07391,167.45203,7880,far,longwei,longwei,,ŋasu,,,0
+48741758909,"Uripiv: Potnambe",-16.07391,167.45203,7890,near,kolosap,kolosap,,-moɾi,,,0
+48741758909,"Uripiv: Potnambe",-16.07391,167.45203,7920,cold,kolkol,kolkol,,-mɛlas ,,,0
+48741758909,"Uripiv: Potnambe",-16.07391,167.45203,7930,dry,drae,drae,,..,,,0
+48741758909,"Uripiv: Potnambe",-16.07391,167.45203,7940,wet,wetwet,wetwet,,ɛ-mim,,,0
+48741758909,"Uripiv: Potnambe",-16.07391,167.45203,7980,new,niu,niu,,ɛ-vʉsvʉs,,,0
+48741758909,"Uripiv: Potnambe",-16.07391,167.45203,7990,other,narafala,narafala,,..,,,0
+48741953109,"Wowo: Lesarmalas",-15.90733,167.17927,810,right,raet,raet,,na-matue,,,0
+48741953109,"Wowo: Lesarmalas",-15.90733,167.17927,820,left,lef,lef,,na-maiɾ,,,0
+48741953109,"Wowo: Lesarmalas",-15.90733,167.17927,7110,big,big,big,,ti-lamb,,,0
+48741953109,"Wowo: Lesarmalas",-15.90733,167.17927,7170,small,smol,smol,,ti-vɛlvɛli,,,0
+48741953109,"Wowo: Lesarmalas",-15.90733,167.17927,7410,sharp,shap,shap,,tu-mʷon,,,0
+48741953109,"Wowo: Lesarmalas",-15.90733,167.17927,7420,blunt,no_shap,no_shap,,tɪ-ᵐbasis,,,0
+48741953109,"Wowo: Lesarmalas",-15.90733,167.17927,7490,shy,shem,shem,,ti-noɣonɣan,,,0
+48741953109,"Wowo: Lesarmalas",-15.90733,167.17927,7520,old,olfala,olfala,,-mɛɾsean,,,0
+48741953109,"Wowo: Lesarmalas",-15.90733,167.17927,7630,painful,sik,sik,,tu-ros,,,0
+48741953109,"Wowo: Lesarmalas",-15.90733,167.17927,7710,good,gud,gud,,ti-naki,,,0
+48741953109,"Wowo: Lesarmalas",-15.90733,167.17927,7720,bad,bad,bad,,ti-hat,,,0
+48741953109,"Wowo: Lesarmalas",-15.90733,167.17927,7730,correct,strait,strait,,ho-voɾtian,,,0
+48741953109,"Wowo: Lesarmalas",-15.90733,167.17927,7770,dirty,toti,toti,,..,,,0
+48741953109,"Wowo: Lesarmalas",-15.90733,167.17927,7800,rotten,roten,roten,,..,,,0
+48741953109,"Wowo: Lesarmalas",-15.90733,167.17927,7860,heavy,hevi,hevi,,tu-roɸ,,,0
+48741953109,"Wowo: Lesarmalas",-15.90733,167.17927,7880,far,longwei,longwei,,-luhoɣa,,,0
+48741953109,"Wowo: Lesarmalas",-15.90733,167.17927,7890,near,kolosap,kolosap,,huɾuð-pulun,,,0
+48741953109,"Wowo: Lesarmalas",-15.90733,167.17927,7920,cold,kolkol,kolkol,,-namala,,,0
+48741953109,"Wowo: Lesarmalas",-15.90733,167.17927,7930,dry,drae,drae,,ti-namah,,,0
+48741953109,"Wowo: Lesarmalas",-15.90733,167.17927,7940,wet,wetwet,wetwet,,ti-hinin,,,0
+48741953109,"Wowo: Lesarmalas",-15.90733,167.17927,7980,new,niu,niu,,..,,,0
+48741953109,"Wowo: Lesarmalas",-15.90733,167.17927,7990,other,narafala,narafala,,..,,,0
+48741954109,"Wowo: Wowo",-15.90224,167.18459,810,right,raet,raet,,na-matue,,,0
+48741954109,"Wowo: Wowo",-15.90224,167.18459,820,left,lef,lef,,na-maiɾ,,,0
+48741954109,"Wowo: Wowo",-15.90224,167.18459,7110,big,big,big,,ti-lan,,,0
+48741954109,"Wowo: Wowo",-15.90224,167.18459,7170,small,smol,smol,,ti-vʷilvɛle,,,0
+48741954109,"Wowo: Wowo",-15.90224,167.18459,7410,sharp,shap,shap,,tu-mʷon,,,0
+48741954109,"Wowo: Wowo",-15.90224,167.18459,7420,blunt,no_shap,no_shap,,..,,,0
+48741954109,"Wowo: Wowo",-15.90224,167.18459,7490,shy,shem,shem,,tɪ-noɣonɣan,,,0
+48741954109,"Wowo: Wowo",-15.90224,167.18459,7520,old,olfala,olfala,,nɛ-mɛrsean,,,0
+48741954109,"Wowo: Wowo",-15.90224,167.18459,7630,painful,sik,sik,,tu-ros,,,0
+48741954109,"Wowo: Wowo",-15.90224,167.18459,7710,good,gud,gud,,ti-naki,,,0
+48741954109,"Wowo: Wowo",-15.90224,167.18459,7720,bad,bad,bad,,ti-hat,,,0
+48741954109,"Wowo: Wowo",-15.90224,167.18459,7730,correct,strait,strait,,tɪ-vʷirtian,,,0
+48741954109,"Wowo: Wowo",-15.90224,167.18459,7770,dirty,toti,toti,,-loklox,,,0
+48741954109,"Wowo: Wowo",-15.90224,167.18459,7800,rotten,roten,roten,,tu-momo,,,0
+48741954109,"Wowo: Wowo",-15.90224,167.18459,7860,heavy,hevi,hevi,,tu-huroɸ,,,0
+48741954109,"Wowo: Wowo",-15.90224,167.18459,7880,far,longwei,longwei,,-luhuɣa,,,0
+48741954109,"Wowo: Wowo",-15.90224,167.18459,7890,near,kolosap,kolosap,,xor-horuð,,,0
+48741954109,"Wowo: Wowo",-15.90224,167.18459,7920,cold,kolkol,kolkol,,-nanalah,,,0
+48741954109,"Wowo: Wowo",-15.90224,167.18459,7930,dry,drae,drae,,ti-nana,,,0
+48741954109,"Wowo: Wowo",-15.90224,167.18459,7940,wet,wetwet,wetwet,,ti-hinin,,,0
+48741954109,"Wowo: Wowo",-15.90224,167.18459,7980,new,niu,niu,,ti-ᵐbar,,,0
+48741954109,"Wowo: Wowo",-15.90224,167.18459,7990,other,narafala,narafala,,..,,,0
+48741956109,"Alavas: Wowo",-15.90293,167.18499,810,right,raet,raet,,na-matue,,,0
+48741956109,"Alavas: Wowo",-15.90293,167.18499,820,left,lef,lef,,na-maiɾe,,,0
+48741956109,"Alavas: Wowo",-15.90293,167.18499,7110,big,big,big,,ti-land,,,0
+48741956109,"Alavas: Wowo",-15.90293,167.18499,7170,small,smol,smol,,ti-vɛlvɛle,,,0
+48741956109,"Alavas: Wowo",-15.90293,167.18499,7410,sharp,shap,shap,,ba-mʷon,,,0
+48741956109,"Alavas: Wowo",-15.90293,167.18499,7420,blunt,no_shap,no_shap,,..,,,0
+48741956109,"Alavas: Wowo",-15.90293,167.18499,7490,shy,shem,shem,,hu-noɣonɣan,,,0
+48741956109,"Alavas: Wowo",-15.90293,167.18499,7520,old,olfala,olfala,,nɛ-mɛrsean,,,0
+48741956109,"Alavas: Wowo",-15.90293,167.18499,7630,painful,sik,sik,,tu-ros,,,0
+48741956109,"Alavas: Wowo",-15.90293,167.18499,7710,good,gud,gud,,ti-naki,,,0
+48741956109,"Alavas: Wowo",-15.90293,167.18499,7720,bad,bad,bad,,ti-hat,,,0
+48741956109,"Alavas: Wowo",-15.90293,167.18499,7730,correct,strait,strait,,tu-vurtian,,,0
+48741956109,"Alavas: Wowo",-15.90293,167.18499,7770,dirty,toti,toti,,tumə-loxlox,,,0
+48741956109,"Alavas: Wowo",-15.90293,167.18499,7800,rotten,roten,roten,,tu-momo,,,0
+48741956109,"Alavas: Wowo",-15.90293,167.18499,7860,heavy,hevi,hevi,,tu-roɸ,,,0
+48741956109,"Alavas: Wowo",-15.90293,167.18499,7880,far,longwei,longwei,,-luhuɣa,,,0
+48741956109,"Alavas: Wowo",-15.90293,167.18499,7890,near,kolosap,kolosap,,huruð,,,0
+48741956109,"Alavas: Wowo",-15.90293,167.18499,7920,cold,kolkol,kolkol,,-nanala,,,0
+48741956109,"Alavas: Wowo",-15.90293,167.18499,7930,dry,drae,drae,,ti-nana,,,0
+48741956109,"Alavas: Wowo",-15.90293,167.18499,7940,wet,wetwet,wetwet,,ti-hinin,,,0
+48741956109,"Alavas: Wowo",-15.90293,167.18499,7980,new,niu,niu,,..,,,0
+48741956109,"Alavas: Wowo",-15.90293,167.18499,7990,other,narafala,narafala,,..,,,0
+48741957109,"Alavas: Alavas",-15.89046,167.24151,810,right,raet,raet,,na-matue,,,0
+48741957109,"Alavas: Alavas",-15.89046,167.24151,820,left,lef,lef,,na-maiɾe,,,0
+48741957109,"Alavas: Alavas",-15.89046,167.24151,7110,big,big,big,,..,,,0
+48741957109,"Alavas: Alavas",-15.89046,167.24151,7170,small,smol,smol,,ti-vɛlvɛle,,,0
+48741957109,"Alavas: Alavas",-15.89046,167.24151,7410,sharp,shap,shap,,tu-mʷon,,,0
+48741957109,"Alavas: Alavas",-15.89046,167.24151,7420,blunt,no_shap,no_shap,,tɪ-ᵐbazis,,,0
+48741957109,"Alavas: Alavas",-15.89046,167.24151,7490,shy,shem,shem,,nu-noɣonɣan,,,0
+48741957109,"Alavas: Alavas",-15.89046,167.24151,7520,old,olfala,olfala,,nɛ-mɛrsean,,,0
+48741957109,"Alavas: Alavas",-15.89046,167.24151,7630,painful,sik,sik,,tu-ros,,,0
+48741957109,"Alavas: Alavas",-15.89046,167.24151,7710,good,gud,gud,,ti-naki,,,0
+48741957109,"Alavas: Alavas",-15.89046,167.24151,7720,bad,bad,bad,,ti-hat,,,0
+48741957109,"Alavas: Alavas",-15.89046,167.24151,7730,correct,strait,strait,,..,,,0
+48741957109,"Alavas: Alavas",-15.89046,167.24151,7770,dirty,toti,toti,,..,,,0
+48741957109,"Alavas: Alavas",-15.89046,167.24151,7800,rotten,roten,roten,,tu-momo,,,0
+48741957109,"Alavas: Alavas",-15.89046,167.24151,7860,heavy,hevi,hevi,,tu-roɸ,,,0
+48741957109,"Alavas: Alavas",-15.89046,167.24151,7880,far,longwei,longwei,,-luhuɣa,,,0
+48741957109,"Alavas: Alavas",-15.89046,167.24151,7890,near,kolosap,kolosap,,woruð,,,0
+48741957109,"Alavas: Alavas",-15.89046,167.24151,7920,cold,kolkol,kolkol,,-nanalah ,,,0
+48741957109,"Alavas: Alavas",-15.89046,167.24151,7930,dry,drae,drae,,ti-nanah,,,0
+48741957109,"Alavas: Alavas",-15.89046,167.24151,7940,wet,wetwet,wetwet,,ti-hinin,,,0
+48741957109,"Alavas: Alavas",-15.89046,167.24151,7980,new,niu,niu,,ti-ᵐbara,,,0
+48741957109,"Alavas: Alavas",-15.89046,167.24151,7990,other,narafala,narafala,,..,,,0

@@ -1,0 +1,347 @@
+﻿LanguageId,LanguageName,Latitude,Longitude,WordId,WordModernName1,WordModernName2,WordProtoName1,WordProtoName2,Phonetic,SpellingAltv1,SpellingAltv2,NotCognateWithMainWordInThisFamily
+11002000000,Proto-Germanic,56.21281,12.04376,30,three,,,,θrejez,þrejez,,0
+11111110102,RP,51.75195,-1.25778,30,three,,,,θɹɪiˑ,,,0
+11111120201,Lindisfarne,55.677,-1.795,30,three,,,,θχɛ̈iˑ,,,0
+11111120401,Tyneside,54.9875,-1.45833,30,three,,,,θɾɪiˑ,,,0
+11111121502,Liverpool,53.4,-3,30,three,,,,θɾiː,,,0
+11111121802,Rossendale,53.68333,-2.25,30,three,,,,θɾɪiˑ,,,0
+11111230301,"‘Doric’ Scots: Buckie",57.67554,-2.98249,30,three,,,,θɾiː,,,0
+11111310301,Tyrone,54.60296,-7.0941,30,three,,,,sɾiː,,,0
+11111311201,"Donegal: Tory Island",55.1545,-8.13,30,three,,,,θɹɪi,,,0
+11111338601,"Galway: Loughrea",53.197,-8.567,30,three,,,,tʰɹiː,,,0
+11111441507,"Std US: Pittsburgh",40.43972,-79.97639,30,three,,,,θɹɪi,,,0
+11111450301,"N. Carolina",35.3,-79,30,three,,,,θɹɪ̠ˑiˑ,,,0
+11112370000,"E Mod: Shakespeare",52.1939,-1.708,30,three,,,,θre̝ː,,,0
+11112370000,"E Mod: Shakespeare",52.1939,-1.708,30,three,,,,θri̞ː,,,0
+11112770000,"Old Engl.: West Saxon",51.0632,-1.3085,30,three,,,,θriˑe,þrīe,,0
+11121130009,"Fris. W.: Hylpen",52.95,5.4,30,three,,,,drɛː,,,0
+11121150009,"Fris. W.: Grou",53.1,5.83,30,three,,,,ˈtɾɛɪjə,trije,,0
+11121250509,"Fris. E.: Schäddel",53.03333,7.71667,30,three,,,,tʲjoː,,,0
+11121250509,"Fris. E.: Schäddel",53.03333,7.71667,30,three,,,,trɛ̝ˑi,,,0
+11121320209,"Fris. N.: Feer",54.71667,8.5,30,three,,,,tri̞,,,0
+11121330509,"Fris. N.: Heligoland",54.1825,7.88528,30,three,,,,tʁ̥ei̞,,,0
+11122700000,"Old Frisian",53.5,4.75,30,three,,,,θriːɑ,thria,,0
+11131000008,"Dutch: Std in NL",52.091,5.122,30,three,,,,dʁiˑ,drie,,0
+11131000108,"Dutch: Std in BE",50.85,4.35,30,three,,,,d̪ɾiː,,,0
+11131220209,"‘Flemish’: Ostend",51.23333,2.91667,30,three,,,,dɾiˑə,,,0
+11131220609,"‘Flemish’: Antwerp",51.21667,4.4,30,three,,,,dɾa̠ː,,,0
+11131227109,"‘Flemish’: France",50.79968,2.4864,30,three,,,,driː,,,0
+11131450309,Limburgish,50.8925,6.05917,30,three,,,,dʁɛˑɪ,,,0
+11131905607,"Afrikaans: Kroonstad",-27.89491,26.95365,30,three,,,,dri,drie,,0
+11132500000,"Middle Dutch",51.433,5.483,30,three,,,,driə̯,drie,,0
+11141110309,"‘Low Saxon’: Westerkwartier",53.16444,6.3887,30,three,,,,dɾaɛ,,,0
+11141110609,"‘Low Saxon’: Veenkoloniën",53.10042,6.87114,30,three,,,,dɾɛ̝ˑɪə,,,0
+11141160509,"‘Low Saxon’: Achterhoek",52.11667,6.51667,30,three,,,,dʁeː,,,0
+11141210609,"Schleswig-Holstein: Husum",54.48418,9.05931,30,three,,,,dʀei,,,0
+11141230509,"Lower Saxony: Bargstedt",53.46083,9.44861,30,three,,,,dʁ̞ɛ̈ˑɪ̝ˑ,,,0
+11141240509,"Lower Saxony: Cloppenburg",52.84424,8.04741,30,three,,,,drɛ̠i,,,0
+11141263309,"Westphalia: Münsterland",52.07812,8.03345,30,three,,,,dɾeɪə,drai,,0
+11141270709,"Lower Saxony: Barterode",51.55,9.78333,30,three,,,,dʁaː,,,0
+11141277609,"Eastphalian: Biere",51.97408,11.656165,30,three,,,,dʁaɪ.ə,,,0
+11141311809,"Mecklenburg: Rügen",54.46489,13.39647,30,three,,,,dʁaɪ,,,0
+11141312809,"Pomerania W.: Sundhagen",54.18441,13.21239,30,three,,,,dʁɛɪ,,,0
+11141313709,"Mecklenburg: Stavenhagen",53.69526,12.90817,30,three,,,,dʁaɪ,,,0
+11141314509,"Mecklenburg: Hagenow",53.43145,11.19272,30,three,,,,dʁaɪ,,,0
+11141314609,"Mecklenburg: Balow",53.2626,11.72388,30,three,,,,draɪ,,,0
+11141325709,"Brandenburg: Wittstock",53.21869,12.582616,30,three,,,,dʁeː,,,0
+11141346809,"Brandenburg: Berlin",52.54631,13.34821,30,three,,,,dʁaɪə,,,0
+11141347709,"Brandenburg: Fläming",52.05421,12.622763,30,three,,,,dʁeː,,,0
+11142700000,"Old Low German",53.076,8.81,30,three,,,,θria̯,thria,,0
+11151110309,"Franc. C.: Cologne",50.95,6.96667,30,three,,,,dʀe̝ˑɪ,drei,,0
+11151120109,"Franc. C.: Luxemburg",49.6,6.11667,30,three,,,,dʀaˑɪ,dräi,,0
+11151133609,"Hessen: Verna",50.99414,9.338611,30,three,,,,dʁaɪ,,,0
+11151134709,"Hessen: Frankfurterisch",50.08806,8.559715,30,three,,,,dʁaɪ,,,0
+11151158209,"Franc. Rh.: Lorraine",49.15706,7.03005,30,three,,,,d̥ʁ̥aɪ,,,0
+11151160709,"Franc. E.: Schwäbisch Hall",48.98,9.58139,30,three,,,,dʁɛ̈iˑ,,,0
+11151162309,"Franc. E.: Altersbach",50.70258,10.54467,30,three,,,,drɛɪ,,,0
+11151162709,"Franc. E.: Künzelsau",49.27929,9.691522,30,three,,,,dʁ̞aɪ,,,0
+11151163909,"Vogtland N.: Steinberg",50.53828,12.50201,30,three,,,,d̥ʁ̥aɪ.ə,,,0
+11151167609,"Franc. E.: Nuremberg",49.45808,11.07581,30,three,,,,draɪ,,,0
+11151169509,"Franc. E.: Berching",49.1105,11.437279,30,three,,,,draɪ,,,0
+11151212609,"Thur. NE: Mansfeld",51.64594,11.51266,30,three,,,,dʀaɪ,,,0
+11151215909,"Thur. E.: Altenburg",50.98526,12.43304,30,three,,,,dʁaɪ.ə,,,0
+11151216309,"Thur. Ctl: Manebach",50.68029,10.85881,30,three,,,,tʀaɪ,,,0
+11151216609,"Thur. SE: Pößneck",50.69381,11.59527,30,three,,,,tʁ̥aɪ.ə,,,0
+11151217609,"Thur. SE: Unterlemnitz",50.47176,11.62342,30,three,,,,dʁaɪ.ə,,,0
+11151217709,"Thur. SE: Peuschen",50.65924,11.64127,30,three,,,,dʁaɪə,,,0
+11151224609,"Upper Saxon: Leipzig",51.34014,12.32278,30,three,,,,tʁ̥aɪ.ə,,,0
+11151235209,"Low Silesian: Crostau",51.08306,14.4548,30,three,,,,dɻae,,,0
+11151253509,"Erzgebirge W.: Homersdorf",50.67171,12.88496,30,three,,,,tʁ̥aɪə,,,0
+11151253909,"Erzgebirge E.: Olbernhau",50.65088,13.35729,30,three,,,,tʁ̥aɪ.ə,,,0
+11151255209,"Erzgebirge W.: Aue",50.58667,12.70256,30,three,,,,dʁaɪ.ə,,,0
+11151256109,"Erzgebirge W.: Stützengrün",50.52808,12.5485,30,three,,,,dʁaɪ.ə,,,0
+11151256309,"Erzgebirge W.: Scheibenberg",50.54242,12.91607,30,three,,,,tʁ̥aɪ.ə,,,0
+11151610139,"Translv.: Klein Bistritz",47.17419,24.63545,30,three,,,,dʁe̞i,,,0
+11151630239,"Translv.: Michelsberg",45.7093,24.10862,30,three,,,,drɑo,,,0
+11151640239,"Translv.: Schäßburg",46.22055,24.79167,30,three,,,,drɑː,,,0
+11151650139,"Translv.: Kronstadt",45.71667,25.68333,30,three,,,,t̪ɾɑˑweɪ,,,0
+11161010008,"German Std (DE)",51.53389,9.93556,30,three,,,,dʁäˑe,drei,,0
+11161010807,"German Std (LI)",47.12,9.53,30,three,,,,dɾaˑɪ̝,,,0
+11161120409,"Swabia: Tübingen",48.5229,9.0521,30,three,,,,dʁɛ̈iˑ,,,0
+11161123809,"Swabia: Dinkelscherben",48.34603,10.590071,30,three,,,,dɾaɪ,,,0
+11161133909,"Lechrain: Heinrichshofen",48.19686,10.984155,30,three,,,,draɪ,,,0
+11161140139,"Alsace N.: Herrlisheim",48.73006,7.9068,30,three,,,,tχɛ̝ˑi,drei,,0
+11161140139,"Alsace N.: Herrlisheim",48.73006,7.9068,30,three,,,,tʁɛ̝ˑi,drei,,0
+11161140829,"Bodensee (A): Bregenz",47.48,9.68,30,three,,,,dʁyː,,,0
+11161147209,"Alsace Ctl: Mittlach",48.005,7.0314,30,three,,,,dʀɛi,,,0
+11161160309,"Switz.: Biel",47.15,7.24,30,three,,,,tɾyː,,,0
+11161160709,"Liecht.: Unterland",47.21667,9.51667,30,three,,,,dryː,,,0
+11161164109,"Alsace S.: Hirtzbach",47.5975,7.2228,30,three,,,,drɛ̠i̞,,,0
+11161164209,"Alsace S.: Riespach",47.5411,7.2883,30,three,,,,dʁɛ̯i,,,0
+11161180509,"Switz.: Graubünden",46.70013,9.45365,30,three,,,,dɾeiˑ,,,0
+11161180609,"Liecht.: Oberland",47.16667,9.50972,30,three,,,,dryː,,,0
+11161180809,"Liecht.: Walser",47.12,9.53,30,three,,,,dɾyː,,,0
+11161212309,"Bavarian N.: Hirschau",49.54536,11.94312,30,three,,,,draɪ,,,0
+11161213309,"Bavarian N.: Hausen",48.85732,12.00753,30,three,,,,dɾäɪ,,,0
+11161223409,"Bavarian Ctl: Bodenmais",49.07561,13.0812,30,three,,,,drɛː,,,0
+11161224409,"Bavarian Ctl: Passau",48.5738,13.45712,30,three,,,,dräɪ,,,0
+11161224609,"Austria: Amstetten",48.11667,14.86667,30,three,,,,dʀäe,,,0
+11161224809,"Austria: Vienna",48.2,16.36667,30,three,,,,dʁa̠æ,,,0
+11161225209,"Bavarian Ctl: Thierhaupten",48.56384,10.911088,30,three,,,,dræɪ̞,,,0
+11161225309,"Bavarian Ctl: Pfaffenhofen",48.53006,11.50659,30,three,,,,dɾäɪ,,,0
+11161236409,"Austria: Kötschach",46.66667,13,30,three,,,,ˈdʁäjɛ,,,0
+11161236709,"Austria: Klagenfurt",46.61667,14.3,30,three,,,,dʁa̠e̟,,,0
+11161250509,"South Tyrol: Ortisei",46.56667,11.66667,30,three,,,,dʁäˑɪ,,,0
+11161960109,"Yiddish: New York",40.66417,-73.93861,30,three,,,,dɾäˑɪ,דרײַ,draj,0
+11162500000,"Middle High German",48.783,9.183,30,three,,,,driː,drî,,0
+11162700000,"Old High German",50.554,9.672,30,three,,,,θriː,thrī,,0
+11171245109,"Volga: Frank",51.0725,44.82,30,three,,,,tʰəˈräˑɪ,,,0
+11171245209,"Volga: Kolb",51.06792,44.95802,30,three,,,,d̥rɛe̞,,,0
+11171245309,"Volga: Neu-Döhnhof",51.02028,45.13722,30,three,,,,d̥ʰræɛ,,,0
+11171246109,"Volga: Hussenbach",50.88167,44.82556,30,three,,,,dräe,,,0
+11171246309,"Volga: Dittel",50.89889,45.16945,30,three,,,,dräɛ,,,0
+11171249109,"Volga: Volgograd",48.7,44.47,30,three,,,,d̥ə̟ˈɾä̠ɛ,,,0
+11171249209,"Volga: Volzhskiy",48.78333,44.76667,30,three,,,,tʰræɪ̞,,,0
+11171412609,"Wisc. Pom.: Naugart",45.0751,-89.78876,30,three,,,,dɾaɪ,,,0
+11171412709,"Wisc. Pom.: Maine",45.05642,-89.681738,30,three,,,,dɾaɪ,,,0
+11171413609,"Wisc. Pom.: Stettin",44.94651,-89.829371,30,three,,,,dɾeː,,,0
+11171414809,"Wisc. Pom.: Green Bay",44.3504,-88.019115,30,three,,,,dɾaɪ,,,0
+11171446509,"Penn. Ger: Hartville, OH",40.95373,-81.317691,30,three,,,,draɪ,,,0
+11171555509,"Bolivia: Mennonites",-16.9277,-63.9973,30,three,,,,drɑˑi̠,,,0
+11171575309,"Chile: Maisan",-39.04428,-72.91341,30,three,,,,dräi,,,0
+11211000008,Icelandic,64.13333,-21.93333,30,three,,,,θɾɪuˑ,þrjú,,0
+11212500000,"Old Icelandic",64.12,-25.36,30,three,,,,θriːr,þrír,,0
+11221000008,Faroese,62.0009,-6.79504,30,three,,,,tʰɹʊiˑ,trý,,0
+11241330109,Stavanger,58.96442,5.72626,30,three,,,,tχiː,tre,,0
+11251172709,"Ostrobothnia: Kronoby",63.66667,23.166667,30,three,,,,triː,,,0
+11251350109,Swedish,59.33,18.07,30,three,,,,tɾi̞ˑ,tre,,0
+11251610109,Skåne,55.61,13.02,30,three,,,,tʰʁ̥ɛɪ,,,0
+11261250008,Danish,55.68,12.57,30,three,,,,tχɛ̝ɪʔ,tre,,0
+11261345609,"Jutland: Far S.: Åbenrå",55.03333,9.43333,30,three,,,,txæ̠e̝,,,0
+11261346309,"Jutland: Far S.: Tønder",54.94278,8.86389,30,three,,,,tχɛ̝ɪʔ,,,0
+11302000000,Gothic,49.35,28.25,30,three,,,,ˈθrija,þrija,,0
+12002000001,"Classical Latin",41.8922,12.4852,30,three,,,,treːs,trēs,,0
+12111200008,"Port.: Portugal N. acc.",41.3,-7.75,30,three,,,,tɾiˑĕs̠,,,0
+12111330008,"Port.: Std Lisbon acc.",38.71667,-9.16667,30,three,,,,tɾeˑĕ̠ʃ,três,,0
+12111653507,"Port.: Mozambique acc.",-19.11667,33.45,30,three,,,,tɾeːʃ,,,0
+12111824907,"Port.: Brazil: Natal",-5.78333,-35.2,30,three,,,,tɾeːɪs,,,0
+12111838507,"Port.: Brazil: Pará",-1.71778,-48.88278,30,three,,,,tɾeːiʃ,,,0
+12111865207,"Port.: Brazil: Goiânia",-16.66667,-49.25,30,three,,,,tʰɾeis,,,0
+12111875507,"Port.: Brazil: Brasilia",-15.79913,-47.86597,30,three,,,,tɾeˑis,,,0
+12121120229,"Galician: Foz",43.55,-7.3,30,three,,,,tɾe̞ˑs̺,tres,,0
+12121130129,Galician-Asturian,43.56667,-6.95,30,three,,,,tɾe̞ːs̺,,,0
+12121220008,"Asturian: Normative",43.36311,-5.84404,30,three,,,,tɾe̞ːs̺,,,0
+12121550009,Mirandese,41.49556,-6.27388,30,three,,,,tɾeˑs,três,,0
+12131120508,"Spanish Std: Burgos",42.35,-3.7,30,three,,,,tɾeˑs,tres,,0
+12131225509,"Ladino: Haketia",35.56667,-5.366667,30,three,,,,,,,0
+12131782407,"Spanish: Stgo del Estero",-27.78333,-64.26667,30,three,,,,tɾɪ̠ˑ,,,0
+12131784807,"Spanish: Buenos Aires",-34.59972,-58.38194,30,three,,,,tɾe̠ːs,,,0
+12131915509,"Spanish: Creole: Chabacano",14.48328,120.89885,30,three,,,,t̪ˈɾɛ̞ːθ,,,0
+12141230509,"Catalan Trans: Morella",40.61917,0.10056,30,three,,,,tɾeːs̟,,,0
+12141360509,"Catalan NW: Vall de Boí",42.50472,0.80361,30,three,,,,tɾeˑs,,,0
+12141380509,"Catalan NW: Andorra",42.55833,1.55528,30,three,,,,tɾeːs,,,0
+12141430509,"Catalan Ctl: Valls",41.28833,1.25194,30,three,,,,trɛ̝ːs,,,0
+12141460509,"Catalan Ctl: Granollers",41.60833,2.28889,30,three,,,,tɾɛˑs,,,0
+12141560509,"Catalan N: Perpignan",42.6986,2.8956,30,three,,,,tɾeˑs,tres,,0
+12141640507,"Catalan Std: Palma acc.",39.57139,2.65167,30,three,,,,t̪ʰɾə̟ːs,tres,,0
+12141640509,"Catalan Isl: Palma",39.57139,2.65167,30,three,,,,t̪ʰɾə̟ːs,,,0
+12211107409,"Gallo: Janzé",47.96139,-1.49778,30,three,,,,tʰwɪː,,,0
+12211222909,"Norman: St-Vaast",49.5886,-1.2661,30,three,,,,txɛ̠e̞ˑ,,,0
+12211223209,"Norman: Les Pieux",49.5139,-1.8067,30,three,,,,tχeː,,,0
+12211224209,"Norman: Sénoville",49.4342,-1.7792,30,three,,,,tʁɐ̆ɛː,,,0
+12211224609,"Norman: Orglandes",49.4225,-1.4481,30,three,,,,tχɛ̠̞ː,,,0
+12211225109,"Norman: Carteret",49.38111,-1.75278,30,three,,,,tˠχɛ̠ɛː,,,0
+12211318309,"Picard: Montreuil",50.46482,1.76301,30,three,,,,tʁʊ̆ˈɜs,,,0
+12211436209,"Walloon: Clavier",50.383,5.33,30,three,,,,tʰʁø̠ː,treûs,,0
+12211500107,"French Std: Paris Acc.",48.8567,2.3508,30,three,,,,tχwɒˑ,trois,,0
+12211500707,"French Std: Perpignan Acc.",42.6986,2.8956,30,three,,,,tʁʊ̆ˈwɑ̝ˑ,,,0
+12211787409,"Welche: Fréland",48.17058,7.19351,30,three,,,,tʁ̞a̠ːʃ,,,0
+12211788409,"Welche: Labaroche",48.11018,7.19253,30,three,,,,tx̠aːʃ,,,0
+12231145509,"Gascon: Béarn",43.3,-0.3667,30,three,,,,tʰɾeˑs,,,0
+12231155509,"Gascon: Val d’Aran",42.735,0.79528,30,three,,,,t̪ɾeːs̟,tres,,0
+12231247709,"Languedoc: Montpellier",43.60576,3.86652,30,three,,,,tʁɛˑs,tres,,0
+12231336709,"Limousin: Hautefort",45.26028,1.14861,30,three,,,,tʰɾɛˑiˑ,,,0
+12231420509,"Auvergne: Neschers",45.5911,3.1644,30,three,,,,tʰχi,,,0
+12231572409,"Provençal Alpine: Valdese",44.88906,7.04986,30,three,,,,t̪ʰɾɛːɪ,,,0
+12231615909,"Provençal: Lagnes",43.89417,5.11528,30,three,,,,tχe̞ːs,,,0
+12271223309,"French: Quebec: Abitibi",48.56667,-78.11667,30,three,,,,tʰʁ̞ŭˈʌ,,,0
+12311598609,"FrPrv: Valaisan",46.1551,7.49771,30,three,,,,tʰɵ̆ˈɾɵˑ,,,0
+12311614709,"FrPrv: Savoy: Chablaisien",46.24972,6.47333,30,three,,,,tʰɘ̆ˈɾɛ̝ˑ,,,0
+12311735609,"FrPrv: Aosta: Roisan",45.80583,7.31117,30,three,,,,tʰr̴ɛ̞ˑiˑ,,,0
+12311738609,"FrPrv: Aosta: Ayas",45.81334,7.69677,30,three,,,,tɾe̝ːs,,,0
+12321100008,"‘Rumansh Grischun’",46.85314,9.52693,30,three,,,,**,trais,,0
+12321113209,"Romansh: Tuatschin",46.68855,8.76492,30,three,,,,tɾˠa̠ˑɪ̠s,,,0
+12321120008,"Romansh: Sursilvan",46.76892,8.94799,30,three,,,,tʰʀa̠ːɪs,,,0
+12321143509,"Romansh: Surmiran",46.60228,9.5965,30,three,,,,tɾe̞ːis,,,0
+12321163609,"Romansh: Vallader",46.80946,10.07675,30,three,,,,t̪ʰɾa̠ˑɪs,,,0
+12321210109,"Ladin: Dolomites",46.34,11.4,30,three,,,,tʀɛ̠iĭ̤,,,0
+12411113409,"Piedmont: Pianezza",45.10394,7.54483,30,three,,,,tɾɛ̞̃ː,tre,,0
+12411230409,"Lombardy: Barlassina",45.65,9.13333,30,three,,,,trˠiˑ,,,0
+12411281409,"Lombardy: Bregaglia",46.46667,9.65,30,three,,,,t̪ʰrˠeˑ,,,0
+12411320209,"Lombardy: Gardone",45.68333,10.18333,30,three,,,,t̪ʰɾeˑ,,,0
+12411320309,"Lombardy: Lumezzane",45.65,10.26667,30,three,,,,tʁ̞e,,,0
+12411416409,"Trentino: Albiano",46.14487,11.19412,30,three,,,,tɾeːi,,,0
+12411438209,"Veneto: Belluno",46.16565,12.39165,30,three,,,,tɾe̠ˑ,,,0
+12411460509,"Venice (city)",45.4375,12.33583,30,three,,,,tɾɛː,,,0
+12411565509,"Trieste (city)",45.65144,13.76756,30,three,,,,tɘ̆ˈɾɛ̞ː,,,0
+12411647509,"Liguria: Cicagna",44.40984,9.23808,30,three,,,,tɾeˑĭ,,,0
+12411773509,"Bologna (city)",44.50116,11.34264,30,three,,,,trˠi̞,,,0
+12421001007,"Italian Std: Romagna acc.",44.17105,11.94742,30,three,,,,tɾɛ̞ˑ,tre,,0
+12421002007,"Italian Std: Tuscany acc.",43.87988,11.09711,30,three,,,,tʰɾe̞ˑ,,,0
+12421004007,"Italian Std: Naples acc.",40.83585,14.2501,30,three,,,,tʰɾeˑ,,,0
+12421305509,"Florence (city)",43.78333,11.25,30,three,,,,tʰɾeˑ,,,0
+12431213609,"Marche: Sassoferrato",43.42747,12.85652,30,three,,,,tɾeˑ,,,0
+12441147309,"Abruzzi E.: Chieti",42.26667,14.3,30,three,,,,tɾɛ̠̞ˑ,,,0
+12441252809,"Molise: Guglionesi",41.91667,14.91667,30,three,,,,tʰɹaː,,,0
+12441332109,"Puglia: Canosa",41.21667,16.06667,30,three,,,,tɾa̟ːj̝̥,,,0
+12441424609,"Naples (city)",40.83333,14.25,30,three,,,,tɾeˑ,,,0
+12441436309,"Campania: Montella",40.85,15.01667,30,three,,,,ʈʰɽeˑ,,,0
+12441448509,"Campania: Santa Marina",40.1,15.55,30,three,,,,ˈt̪ʰɾiːja̠,,,0
+12441533309,"Lucano: Castelmezzano",40.53333,16.05,30,three,,,,t̪ɾeˑ,,,0
+12441545709,"Calabria Lausb.: Oriolo",40.05,16.45,30,three,,,,ˈtʰɾiːjɘ̆,,,0
+12441557109,"Calabria N.: Cetraro",39.5,15.95,30,three,,,,ˈʈʂiːja̟,,,0
+12451122209,"Salento C.: Squinzano",40.43333,18.05,30,three,,,,ˈʈʂɻɛˑɛ̝d̥ɛ,,,0
+12451134509,"Salento S.: Ruffano",39.98333,18.25,30,three,,,,ˈʈʂʰɛˑɛ̈̆tɛ,,,0
+12451220809,"Calabria S.: Cropani",38.96667,16.78333,30,three,,,,ʈʂi̠ː,,,0
+12451311609,"Sicily: Palermo",38.11555,13.36139,30,three,,,,ʈʂeː,,,0
+12451316509,"Sicily W.: Sciacca",37.50917,13.08889,30,three,,,,ʈʂɻe̞ː,,,0
+12451322609,"Sicily C.: Mussomeli",37.58333,13.75,30,three,,,,tɾe̞ː,,,0
+12451345709,"Sicily E.: Catania",37.50267,15.08727,30,three,,,,ʈʂɻiˑ,,,0
+12461130159,"Corsica: Bastia",42.7008,9.4503,30,three,,,,tʰɾe̞ˑ,,,0
+12461131569,"Corsica: Corte",42.30556,9.14418,30,three,,,,tʰɾɛ̝ˑ,,,0
+12461150509,"Corsica: Bastelica",42.00339,9.04086,30,three,,,,tʰχe̞ː,,,0
+12461151709,"Corsica: Conca",41.7357,9.33579,30,three,,,,tχɛ̝ˑ,,,0
+12461170509,"North Sard.: Luogo Santo",41.04966,9.20626,30,three,,,,tʰə̆ˈɾɛˑ,,,0
+12461260509,"North Sard.: Sorso",40.79932,8.57557,30,three,,,,tɾɛˑ,,,0
+12461310859,"Sardinian N.: Monti",40.80489,9.32144,30,three,,,,tɘ̆ˈɾɛ̝ːzɛ,,,0
+12461321859,"Sardinian C.: Ghilarza",40.12425,8.83816,30,three,,,,tə̟̆ˈɾˠɛ̝ˑz̺e̠̞,,,0
+12461410509,"Sardinian NW.: Nuoro",40.3202,9.32608,30,three,,,,tʰə̆ˈɾɛ̝ez̥e̠,,,0
+12461550509,"Sardinian CR: Selargius",39.25984,9.16194,30,three,,,,ˈtʰɾ̥ɛ̝ːzi,,,0
+12461570269,"Sardinian CS: Gonnesa",39.26729,8.47003,30,three,,,,ˈtɾɛ̞ˑe̞zɪ,,,0
+12481603109,"Italy: N. in S.: Picerno",40.63333,15.63333,30,three,,,,t̪ɾɛ̝ˑ,,,0
+12481604209,"Italy: N. in S.: Tito",40.58333,15.68333,30,three,,,,t̪ɾe̞ˑ,,,0
+12481608109,"Italy: N. in S.: Trecchina",40.03333,15.76667,30,three,,,,t̪ɾeː,,,0
+12481609109,"Italy: N. in S.: Rivello",40.08333,15.76667,30,three,,,,tʰɾeˑ,,,0
+12481801609,"Italy: N. in S.: San Fratello",38.01667,14.6,30,three,,,,ʈʂɻa̠ːɪ,,,0
+12481801809,"Italy: N. in S.: Novara",38.01667,15.13333,30,three,,,,ʈʂɻɪː,,,0
+12511162509,"Romanian: N.: Maramureș",47.67694,24.23444,30,three,,,,tɘˈɾeː,trei,,0
+12511183209,"Romanian: N.: Moldovenesc",47.26444,25.76,30,three,,,,t̪ɾiːj̝̥,,,0
+12511212609,"Romanian: Itm: Hunedoara",45.33639,23.1525,30,three,,,,t̪ɾe̞ːɪ,,,0
+12521405509,"Istro-Romanian:  Žejane",45.44056,14.19444,30,three,,,,t̬ɾe̠ːɪ̠,,,0
+13111210507,"Russian: St Petersburg",59.95,30.3,30,three,,,,tɾʲi,три,,0
+13111270509,"Russian: Penza",53.68721,43.05719,30,three,,,,tɾʲiː,три,,0
+13111270509,"Russian: Penza",53.68721,43.05719,30,three,,,,tɾʲiˑ,три,,0
+13121210557,"Ukrainian: NW",50.33333,26.51667,30,three,,,,tɾĕ̟ɪ̆,три,,0
+13131680509,"Rusyn: Maramureş",47.99492,23.53511,30,three,,,,tɾɘ̟,,,0
+13211000507,"Polish: Std",51.78333,19.46667,30,three,,,,t.ʂɘ̟,trzy,,0
+13211206109,"Polish: Gtr Poland",52.28333,15.81667,30,three,,,,tʂɘ̟ɪ̯,,,0
+13211403509,"Polish: Mazovian",53.33295,21.52154,30,three,,,,t.ʂɪ,,,0
+13221112109,"Kashubian: NW",54.78778,18.0039,30,three,,,,t.ʂæ̠,trzë,,0
+13221122909,"Kashubian: NE",54.69574,18.67884,30,three,,,,tʂɜ̟,trzë,,0
+13221133409,"Kashubian: NCI",54.50199,18.14724,30,three,,,,tʂ.ʂæ̠,trzë,,0
+13221145407,"Kashubian: Std",54.34611,17.89167,30,three,,,,t.ʂɛ,trzë,,0
+13221145409,"Kashubian: CW",54.34611,17.89167,30,three,,,,t.ʂɛ̠,trzë,,0
+13221156309,"Kashubian: CE",54.27011,18.08258,30,three,,,,tʂɜ̞,trzë,,0
+13221166309,"Kashubian: SW",54.0302,17.29119,30,three,,,,tʂɜ,trzë,,0
+13221177609,"Kashubian: SE",53.87119,17.67553,30,three,,,,t.ʂʊ̠,trzë,,0
+13231100008,"Sorbian Upper: Std",51.18139,14.42417,30,three,,,,tsʲi,tři,,0
+13231195509,"Sorbian Upper: Cath.",51.23333,14.23333,30,three,,,,tsi,tři,,0
+13231300008,"Sorbian Lower: Std",51.76056,14.33417,30,three,,,,tɕi,tśi,,0
+13251000008,"Czech: Std",50.08333,14.41667,30,three,,,,tɾ̝̥ɪ,tři,,0
+13251000507,"Czech: Std (Plzeň)",49.7475,13.3775,30,three,,,,tɾ̝̥i̽,tři,,0
+13271000008,"Slovak: Std",48.14389,17.10972,30,three,,,,tʰɾi̞,tri,,0
+13271210357,"Slovak: Std (Banská)",48.7325,19.14917,30,three,,,,tɾi̞,tri,,0
+13311000008,"Slovene: Std",46.05556,14.50833,30,three,,,,tʰɾi,tri,,0
+13311503709,"Slovene: Rovte",46.06398,14.31276,30,three,,,,tɾi,tri,,0
+13331000008,"Croatian: Std",45.81667,15.98333,30,three,,,,tʰɾǐː,tri,,0
+13351000008,"Serbian: Std",44.75583,19.69389,30,three,,,,tɾîː,три,,0
+13371000008,"Macedonian: Std",42,21.43333,30,three,,,,tɾi,три,,0
+13381000008,"Bulgarian: Std",42.7,23.33333,30,three,,,,tɾi,три,,0
+13821000008,"Latvian: Std",56.94889,24.10639,30,three,,,,tɾiːs,trīs,,0
+13821000507,"Latvian: Std (Cēsis)",57.31667,25.26667,30,three,,,,tɾiˑs,trīs,,0
+13841000008,"Lithuanian: Std",54.68333,25.28333,30,three,,,,tɾʲǐːs,trys,,0
+14002000000,Proto-Celtic,50.5,-7.6,30,three,,,,,trīs,,0
+14111000000,"Irish: Std Spelling",55,-10,30,three,,,,,trí,,0
+14111115509,"Waterford: Ring",52.04921,-7.58257,30,three,,,,tʰr̝iː,,,0
+14111122809,"Cork: Ballymakeery",51.93536,-9.141,30,three,,,,tʰɾʲiː,,,0
+14111125609,"Cork: Ballingeary",51.84701,-9.23836,30,three,,,,tʰr̝iː,,,0
+14111133209,"Kerry: Ballyferriter",52.16671,-10.40625,30,three,,,,tʰɕ̝iː,,,0
+14111138309,"Kerry: Ballinskelligs",51.83518,-10.25888,30,three,,,,tʰɾiː,,,0
+14111213509,"Aran Isl.: Inis Mor",53.11775,-9.6784,30,three,,,,tʰɹ̥ʲiː,,,0
+14111225409,"C’mara S.: Rosmuc",53.35489,-9.62278,30,three,,,,tʰɹ̥ʲiː,,,0
+14111229709,"C’mara S.: Spiddal",53.24942,-9.29388,30,three,,,,tʰɹ̥ʲiː,,,0
+14111231909,"C’mara N.: Tourmakeady",53.66821,-9.35149,30,three,,,,tʰr̝iː,,,0
+14111238609,"C’mara N.: Cornamona",53.50395,-9.51567,30,three,,,,tʰɾʲiː,,,0
+14111281509,"Mayo: Carrowteige",54.31955,-9.82259,30,three,,,,tʰr̝iː,,,0
+14111285209,"Mayo: Mullet Peninsula",54.10915,-10.08627,30,three,,,,tʰr̝iː,,,0
+14111288309,"Mayo: Achill Island",53.90901,-9.97091,30,three,,,,tʰr̝iː,,,0
+14111312409,"Dgl: Glenties",54.76351,-8.36042,30,three,,,,tʰr̝iː,,,0
+14111315109,"Dgl: Glencolumbkille",54.70809,-8.72952,30,three,,,,tʰr̝iː,,,0
+14111316209,"Dgl: Teelin",54.63676,-8.64737,30,three,,,,tʰr̝iː,,,0
+14111322209,"Dgl: Tory Island",55.26444,-8.22248,30,three,,,,tʰr̝iː,,,0
+14111324209,"Dgl: Gweedore-Carrick",55.09925,-8.25001,30,three,,,,tʰr̝iː,,,0
+14111325209,"Dgl: Gweedore-Bunbeg",55.06087,-8.30035,30,three,,,,tʰr̝iː,,,0
+14111326209,"Dgl: Annagry",55.02044,-8.31366,30,three,,,,tʰr̝iː,,,0
+14111327209,"Dgl: Loughanure",54.99815,-8.2915,30,three,,,,tʰr̝iː,,,0
+14111835509,"Meath: Gibstown",53.7039,-6.76827,30,three,,,,tʰr̝iː,,,0
+14111873109,"Meath: Rathcarran",53.61213,-6.864,30,three,,,,tʰɹ̥ʲiː,,,0
+14112100000,"Old Irish",54.35,-6.66,30,three,,,,,trí,,0
+14131000000,"Scottish Gaelic: Std Spelling",56,-7,30,three,,,,,trì,,0
+14131124709,"Kintyre: Tarbert",55.8642,-5.41704,30,three,,,,tʰr̥ʲiː,,,0
+14131141509,"Argyll: Taynuilt",56.43439,-5.23497,30,three,,,,tʰɾʲiː,,,0
+14131221409,"Skye: Kilmuir",57.63279,-6.37652,30,three,,,,tʰɾʲiː,,,0
+14131223109,"Skye: Glendale",57.44906,-6.70845,30,three,,,,tʰɾiː,,,0
+14131225709,"Skye: Raasay",57.41752,-6.03322,30,three,,,,tʰɾʲiː,,,0
+14131227309,"Skye: Carbost",57.29942,-6.35632,30,three,,,,tʰɾiː,,,0
+14131323309,"Ross: Laide",57.86501,-5.54184,30,three,,,,tɕiː,,,0
+14131325109,"Ross: Opinan",57.68488,-5.78422,30,three,,,,tʰɾiː,,,0
+14131332409,"Suth.: Melness",58.50701,-4.44316,30,three,,,,tʰɾiː,,,0
+14131411809,"Lewis: Ness",58.48448,-6.2568,30,three,,,,tʰɾʲiː,,,0
+14131425609,"Harris: Scalpay",57.8736,-6.69993,30,three,,,,tʰɾʲiː,,,0
+14131431709,Berneray,57.71923,-7.17733,30,three,,,,tʰɾʲiː,,,0
+14131456309,"S. Uist: Milton",57.21283,-7.38928,30,three,,,,tʰɾʲiː,,,0
+14131459609,Eriskay,57.08388,-7.30817,30,three,,,,tʰɾiː,,,0
+14131464709,"Barra: Northbay",56.99854,-7.42204,30,three,,,,tʰɾʲiː,,,0
+14131475509,Vatersay,56.91849,-7.53697,30,three,,,,tʰɾʲiː,,,0
+14131844309,Inverness,46.22175,-61.31842,30,three,,,,tʰɾiː,,,0
+14131845209,Margaree,46.28072,-61.14448,30,three,,,,tʰɾʲiː,,,0
+14131846409,Iona,45.94836,-60.81772,30,three,,,,tʰrʲiː,,,0
+14211000000,"Welsh: Std Spelling",52.5,-5.25,30,three,,,,,tri,,0
+14211115709,"Anglesey: Talwrn",53.26953,-4.27439,30,three,,,,tʰɾ̝iː,,,0
+14211124309,"Gwynedd: Aberech",52.90541,-4.38214,30,three,,,,tʰɾei,,,0
+14211127709,"Gwynedd: Dolgellau",52.78095,-3.77718,30,three,,,,tʰɾ̝iː,,,0
+14211217709,"Denbigh: Rhosllanerchrugog",53.01233,-3.05772,30,three,,,,tʰɾiː,,,0
+14211316009,"Powys: Machynlleth",52.59072,-3.85273,30,three,,,,tʰriː,,,0
+14211416709,"Dyfed: Tregaron",52.21898,-3.93458,30,three,,,,tʰɾiː,,,0
+14211417509,"Dyfed: Ffarmers",52.08439,-3.9724,30,three,,,,tʰɕiː,,,0
+14211424709,"Dyfed: Maenclochog",51.91119,-4.78807,30,three,,,,tʰɾ̝ʲiə,,,0
+14211437309,"Dyfed: Carmarthen",51.85932,-4.30926,30,three,,,,tʰɕʲiː,,,0
+14211516809,"Sth-E: Swansea",51.63828,-3.94239,30,three,,,,tʰɾ̝ʲiː,,,0
+14211531509,"Sth-E: Fochriw",51.73994,-3.29817,30,three,,,,tʰɕiː,,,0
+14211613609,"Patagonia: Dolavon",-43.09744,-65.67583,30,three,,,,tʰriː,,,0
+14211614809,"Patagonia:  Lle Cul",-43.32799,-65.53998,30,three,,,,tʰɾiː,,,0
+14211615609,"Patagonia:  Gaiman [1]",-43.28333,-65.48333,30,three,,,,tʰɾei,,,0
+14211615709,"Patagonia:  Gaiman [2]",-43.30333,-65.50333,30,three,,,,tʰɾʲiː,,,0
+14211632709,"Patagonia:  Esquel",-42.9,-71.31667,30,three,,,,tʰríː,,,0
+14231126209,"Léon: Plouarzel",48.43888,-4.73165,30,three,,,,tʁ̥i,,,0
+14231142709,"Léon: Saint-Pol-de-Léon",48.68258,-3.982,30,three,,,,tʁ̥iˑ,,,0
+14231144709,"Léon: Plouénan",48.63615,-3.98887,30,three,,,,tʁ̥iˑ,,,0
+14231226509,"Trég.: Louargat",48.57349,-3.33864,30,three,,,,tʁ̥i,,,0
+14231243309,"Trég.: Q.-Guezennec",48.7096,-3.08978,30,three,,,,tɹi,,,0
+14231322609,"Corn.: P.-Quintin",48.36167,-3.27167,30,three,,,,tɹi,,,0
+14231334409,"Corn.: Douarnenez",48.09,-4.34,30,three,,,,tʁ̥iˑ,,,0
+14231335209,"Corn.: Pont-Croix",48.04446,-4.49685,30,three,,,,tʁ̥iˑ,,,0
+14231335309,"Corn.: P.-Kerfinidant",48.07116,-4.39482,30,three,,,,tʁ̥i,,,0
+14231433509,"Vann.: Carnac",47.58088,-3.07804,30,three,,,,tɹɤi,,,0
+14231434309,"Vann.: Brech",47.7372,-3.0365,30,three,,,,tɹɜj,,,0
+14231434409,"Vann.: Brech (skr 2)",47.7372,-3.0365,30,three,,,,tɹɜj,,,0
