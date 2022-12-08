@@ -1,7 +1,7 @@
 Ressources complémentaires - Chapitre 3
 ================
 Rémi Anselme
-2022-12-02 18:17:46
+2022-12-08 23:46:31
 
   - [Chapitre 3](#chapitre-3)
       - [3.2 Première étude : classification des trills et taps dans des
@@ -118,18 +118,18 @@ knitr::kable(df_segFull %>%
              caption = "Échantillon de dix lignes du tableau utilisé pour la première analyse.")
 ```
 
-| id | time\_start | time\_end | source            | total\_time |     durat | label       | glottocode | element | id\_elements |
-| -: | ----------: | --------: | :---------------- | ----------: | --------: | :---------- | :--------- | :------ | -----------: |
-| 24 |    22.23434 |  22.27298 | basq1248.TextGrid |    50.93000 | 0.0386353 | tap         | basq1248   | t4      |          241 |
-| 64 |    84.97235 |  85.05987 | japh1234.TextGrid |   134.78893 | 0.0875142 | trill       | japh1234   | t4      |          941 |
-| 28 |    16.23145 |  16.26857 | meri1242.TextGrid |    43.14825 | 0.0371254 | trill       | meri1242   | t1      |         1160 |
-| 42 |    67.23241 |  67.26954 | west2452.TextGrid |    68.62918 | 0.0371254 | trill       | west2452   | t1      |         1783 |
-| 22 |    20.73912 |  20.79793 | lamu1254.TextGrid |    29.49537 | 0.0588115 | trill       | lamu1254   | t4      |         1058 |
-| 38 |    44.22139 |  44.30935 | malo1243.TextGrid |    45.59855 | 0.0879586 | trill       | malo1243   | t2      |         1137 |
-| 40 |    83.91988 |  83.97479 | bear1240.TextGrid |    86.58383 | 0.0549147 | tap         | bear1240   | t4      |          277 |
-| 42 |    30.75342 |  30.79226 | plat1254.TextGrid |    52.06488 | 0.0388388 | trill\_flap | plat1254   | t1      |         1461 |
-| 22 |    16.57036 |  16.63265 | ital1282.TextGrid |    45.00000 | 0.0622872 | trill       | ital1282   | t1      |          894 |
-| 56 |    33.58004 |  33.62793 | amer1254.TextGrid |    39.96016 | 0.0478894 | tap         | amer1254   | t1      |           64 |
+| id | time\_start | time\_end | source               | total\_time |     durat | label     | glottocode | element | id\_elements |
+| -: | ----------: | --------: | :------------------- | ----------: | --------: | :-------- | :--------- | :------ | -----------: |
+| 16 |   14.031427 | 14.090086 | hung1274.TextGrid    |    39.46625 | 0.0586585 | trill     | hung1274   | t4      |          829 |
+|  6 |    9.749391 |  9.802402 | pash1270.TextGrid    |    68.20710 | 0.0530107 | tap\_flap | pash1270   | t1      |         1389 |
+| 10 |    7.118721 |  7.162414 | saba1263.TextGrid    |    47.81395 | 0.0436937 | trill     | saba1263   | t1      |         1532 |
+|  2 |    3.312331 |  3.363165 | meno1251.TextGrid    |    36.49143 | 0.0508332 | trill     | meno1251   | t1      |         1138 |
+|  2 |    1.750916 |  1.794304 | murc1238\_F.TextGrid |    38.37760 | 0.0433884 | tap       | murc1238   | t4      |         1212 |
+| 30 |   12.679033 | 12.741018 | afri1274.TextGrid    |    39.59381 | 0.0619857 | trill     | afri1274   | t3      |           15 |
+| 88 |   63.354694 | 63.404196 | arag1245.TextGrid    |    70.87410 | 0.0495014 | tap       | arag1245   | t4      |          178 |
+|  6 |    6.820600 |  6.858292 | nort3191.TextGrid    |    46.76995 | 0.0376913 | trill     | nort3191   | t1      |         1319 |
+| 24 |   28.569028 | 28.613207 | sout2604.TextGrid    |    44.47490 | 0.0441792 | trill     | sout2604   | t4      |         1604 |
+| 44 |   27.603980 | 27.636475 | murc1238\_F.TextGrid |    38.37760 | 0.0324947 | tap       | murc1238   | t4      |         1233 |
 
 Échantillon de dix lignes du tableau utilisé pour la première analyse.
 
@@ -987,18 +987,18 @@ knitr::kable(table_burst %>%
              caption = "Échantillon de dix lignes du tableau utilisé pour la deuxième analyse.")
 ```
 
-| glottocode | id\_elements | elements\_full | id | time\_start | time\_end | source            | total\_time |     durat | label      | id\_sound | word\_id     | word         | elements\_old | word\_2    | con\_left | con\_right | conCV\_left | conCV\_right | Left | Right | context | context\_full |
-| :--------- | -----------: | :------------- | -: | ----------: | --------: | :---------------- | ----------: | --------: | :--------- | --------: | :----------- | :----------- | :------------ | :--------- | :-------- | :--------- | :---------- | :----------- | :--- | :---- | :------ | :------------ |
-| mafe1237   |          955 | oco            | 36 |    41.93303 |  41.99743 | mafe1237.TextGrid |    76.14404 | 0.0643961 | trill      |        18 | mafe1237\_18 | o ro         | oco           | oro        | o         | o          | V           | V            | Vo   | oV    | VrV     | oro           |
-| east2379   |          572 | o              | 22 |    32.55351 |  32.57747 | east2379.TextGrid |    59.63569 | 0.0239630 | tap        |        11 | east2379\_11 | ˈɔˑrɛiˈt     | o             | ɔrɛit      | ɔ         | ɛ          | V           | V            | Vo   | oV    | VrV     | ɔrɛ           |
-| afri1274   |           89 | ococ           | 52 |    26.57478 |  26.64618 | afri1274.TextGrid |    39.59381 | 0.0714023 | trill      |        26 | afri1274\_26 | nuərdəvənt   | ococ          | nuərdəvənt | ə         | d          | V           | C            | Vo   | cC    | VrC     | ərd           |
-| cast1244   |          481 | oc             | 62 |    34.34254 |  34.38773 | cast1244.TextGrid |    38.90385 | 0.0451882 | tap        |        31 | cast1244\_31 | poɾ lo       | oc            | poɾlo      | o         | l          | V           | C            | Vo   | cC    | VrC     | orl           |
-| brun1243   |          362 | ob             | 22 |    20.15704 |  20.18079 | brun1243.TextGrid |    32.09270 | 0.0237525 | trill\_tap |        11 | brun1243\_11 | utaɾa        | o             | utaɾa      | a         | a          | V           | V            | Vo   | bV    | VrV     | ara           |
-| basq1248   |          291 | o              | 24 |    22.23967 |  22.26714 | basq1248.TextGrid |    50.93000 | 0.0274700 | tap        |        12 | basq1248\_12 | b̥eɾ̞̀ íɲal | o             | beɾiɲal    | e         | i          | V           | V            | Vo   | oV    | VrV     | eri           |
-| cast1244   |          442 | o              | 42 |    20.00179 |  20.02845 | cast1244.TextGrid |    38.90385 | 0.0266641 | tap        |        21 | cast1244\_21 | ˈpeɾo        | o             | peɾo       | e         | o          | V           | V            | Vo   | oV    | VrV     | ero           |
-| indo1317   |          756 | obc            | 48 |    66.48798 |  66.54011 | indo1317.TextGrid |    99.33229 | 0.0521382 | trill      |        24 | indo1317\_24 | iɾu          | oco           | iɾu        | i         | u          | V           | V            | Vo   | cV    | VrV     | iru           |
-| amer1254   |          189 | oc             | 36 |    21.59870 |  21.65478 | amer1254.TextGrid |    39.96016 | 0.0560838 | tap        |        18 | amer1254\_18 | ’fuɾja       | oc            | fuɾja      | u         | j          | V           | V            | Vo   | cV    | VrV     | urj           |
-| meri1242   |         1178 | obc            | 32 |    24.26504 |  24.30984 | meri1242.TextGrid |    43.14825 | 0.0448015 | trill      |        16 | meri1242\_16 | pru          | oc            | pru        | p         | u          | C           | V            | Co   | cV    | CrV     | pru           |
+| glottocode | id\_elements | elements\_full | id | time\_start | time\_end | source            | total\_time |     durat | label        | id\_sound | word\_id     | word       | elements\_old | word\_2   | con\_left | con\_right | conCV\_left | conCV\_right | Left | Right | context | context\_full |
+| :--------- | -----------: | :------------- | -: | ----------: | --------: | :---------------- | ----------: | --------: | :----------- | --------: | :----------- | :--------- | :------------ | :-------- | :-------- | :--------- | :---------- | :----------- | :--- | :---- | :------ | :------------ |
+| cent1954   |          538 | o              | 26 |   27.968975 | 27.993416 | cent1954.TextGrid |    36.34981 | 0.0244409 | trill        |        13 | cent1954\_13 | ˈʁoratʃa   | o             | ʁoratʃa   | o         | a          | V           | V            | Vo   | oV    | VrV     | ora           |
+| basq1248   |          283 | oc             | 20 |   20.397033 | 20.442765 | basq1248.TextGrid |    50.93000 | 0.0457320 | trill        |        10 | basq1248\_10 | ʔórdun    | oc            | ʔordun    | o         | d          | V           | C            | Vo   | cC    | VrC     | ord           |
+| meri1242   |         1188 | aca            | 38 |   29.411605 | 29.516949 | meri1242.TextGrid |    43.14825 | 0.1053434 | trill\_trill |        19 | meri1242\_19 | aRinunˈʧau | oca           | aRinunʧau | a         | i          | V           | V            | Va   | aV    | VrV     | ari           |
+| cast1244   |          406 | o              | 16 |    7.527818 |  7.550409 | cast1244.TextGrid |    38.90385 | 0.0225908 | tap          |         8 | cast1244\_8  | bjaˈxeɾo̯  | o             | bjaxeɾo   | e         | o          | V           | V            | Vo   | oV    | VrV     | ero           |
+| mafe1237   |          975 | oco            | 46 |   46.337534 | 46.397826 | mafe1237.TextGrid |    76.14404 | 0.0602912 | trill        |        23 | mafe1237\_23 | a ro       | oco           | aro       | a         | o          | V           | V            | Vo   | oV    | VrV     | aro           |
+| gayo1244   |          670 | o              | 48 |   45.777614 | 45.801615 | gayo1244.TextGrid |    60.34939 | 0.0240015 | trill        |        24 | gayo1244\_24 | muɾanˈtoa  | o             | muɾantoa  | u         | a          | V           | V            | Vo   | oV    | VrV     | ura           |
+| koto1251   |          869 | ob             |  2 |    7.210816 |  7.233632 | koto1251.TextGrid |    38.69059 | 0.0228165 | trill\_tap   |         1 | koto1251\_1  | ʔɐmɐɾasɪ   | o             | ʔɐmɐɾasɪ  | ɐ         | a          | V           | V            | Vo   | bV    | VrV     | ɐra           |
+| basq1248   |          302 | a              | 32 |   28.707629 | 28.737358 | basq1248.TextGrid |    50.93000 | 0.0297289 | tap          |        16 | basq1248\_16 | beɾé      | a             | beɾe      | e         | e          | V           | V            | Va   | aV    | VrV     | ere           |
+| indo1317   |          741 | ob             | 38 |   51.085237 | 51.107192 | indo1317.TextGrid |    99.33229 | 0.0219553 | tap          |        19 | indo1317\_19 | məɾɯsɯ     | o             | məɾɯsɯ    | ə         | ɯ          | V           | V            | Vo   | bV    | VrV     | ərɯ           |
+| gayo1244   |          615 | oca            | 16 |   13.901814 | 13.966927 | gayo1244.TextGrid |    60.34939 | 0.0651130 | trill        |         8 | gayo1244\_8  | ʊɾʊm       | oca           | ʊɾʊm      | ʊ         | ʊ          | V           | V            | Vo   | aV    | VrV     | ʊrʊ           |
 
 Échantillon de dix lignes du tableau utilisé pour la deuxième analyse.
 
