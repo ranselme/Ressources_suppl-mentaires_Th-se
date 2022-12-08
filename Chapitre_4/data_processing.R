@@ -1152,6 +1152,9 @@ dfSlavicAll1 <- dfSlavicAll %>% dplyr::mutate(phoneR =
 ) %>% 
   dplyr::filter(phoneR != "OUT")
 
+
+save(dfSlavicAll1, file = "dfSlavicAll1.RData")
+
 #------------------------------------------------------------------
 #------------------------------------------------------------------
 #------------------------------------------------------------------
@@ -1228,11 +1231,38 @@ for(i in 1:nrow(dfGermanicAll)){
 }
 
 dfGermanicAll1 <- dfGermanicAll %>% dplyr::mutate(phoneR =
-                                                dplyr::case_when(
-                                                  phonemeR_1 == "ɾ" & phonemeR_2 == "s" ~ "ɾ",
-                                                  phonemeR_1 == "ʃ" & phonemeR_2 == "ɾ" ~ "ɾ",
-                                                  phonemeR_1 == "ɾ" & phonemeR_2 == "ʃ" ~ "ɾ"))
+                                                    dplyr::case_when(
+                                                      phonemeR_1 == "r" & phonemeR_2 == "r" ~ "r",
+                                                      phonemeR_1 == "r" & phonemeR_2 == "ɻ" ~ "r",
+                                                      phonemeR_1 == "ɹ" & phonemeR_2 == "ɻ" ~ "ɹ",
+                                                      phonemeR_1 == "r" & phonemeR_2 == "χ" ~ "r",
+                                                      phonemeR_1 == "χ" & phonemeR_2 == "r" ~ "r",
+                                                      phonemeR_1 == "ɣ" & phonemeR_2 == "r" ~ "r",
+                                                      phonemeR_1 == "r" & phonemeR_2 == "ɣ" ~ "r",
+                                                      phonemeR_1 == "ɾ" & phonemeR_2 == "r" ~ "r",
+                                                      phonemeR_1 == "ɹ" & phonemeR_2 == "ɹ" ~ "ɹ",
+                                                      phonemeR_1 == "ɾ" & phonemeR_2 == "ɹ" ~ "ɾ",
+                                                      phonemeR_1 == "ʁ" & phonemeR_2 == "ʁ" ~ "ʁ",
+                                                      phonemeR_1 == "ʁ" & phonemeR_2 == "χ" ~ "ʁ",
+                                                      phonemeR_1 == "χ" & phonemeR_2 == "ʁ" ~ "ʁ",
+                                                      phonemeR_1 == "ɾ" & phonemeR_2 == "ɾ" ~ "ɾ",
+                                                      phonemeR_1 == "χ" & phonemeR_2 == "ɹ" ~ "ɹ",
+                                                      phonemeR_1 == "ɣ" & phonemeR_2 == "ɹ" ~ "ɹ",
+                                                      phonemeR_1 == "χ" & phonemeR_2 == "ɾ" ~ "ɾ",
+                                                      phonemeR_1 == "r" & phonemeR_2 == "ɹ" ~ "r",
+                                                      phonemeR_1 == "ʁ" & phonemeR_2 == "ɾ" ~ "ɾ",
+                                                      phonemeR_1 == "r" & phonemeR_2 == "ɾ" ~ "r",
+                                                      phonemeR_1 == "r" & phonemeR_2 == "ʁ" ~ "r",
+                                                      phonemeR_1 == "χ" & phonemeR_2 == "χ" ~ "χ",
+                                                      phonemeR_1 == "ɾ" & phonemeR_2 == "χ" ~ "ɾ",
+                                                      phonemeR_1 == "r" & phonemeR_2 == "ɽ" ~ "r",
+                                                      phonemeR_1 == "ɹ" & phonemeR_2 == "ɾ" ~ "ɾ",
+                                                      phonemeR_1 == "ɾ" & phonemeR_2 == "ɻ" ~ "ɾ",
+                                                      phonemeR_1 == "ɹ" & phonemeR_2 == "r" ~ "r",
+                                                      is.na(phonemeR_2) ~ phonemeR_1)) %>% 
+  dplyr::mutate(phoneR = ifelse(phoneR=="χ","ʁ",phoneR))
 
+save(dfGermanicAll1, file = "dfGermanicAll1.RData")
 
 #------------------------------------------------------------------
 #------------------------------------------------------------------
