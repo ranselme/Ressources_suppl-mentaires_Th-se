@@ -24,6 +24,8 @@ library(dplyr)
 library(ggplot2)
 library(readr)
 library(stringr)
+library(leaflet)
+library(scatterpie)
 
 source("Functions/functions_phoible.R") #Beaucoup de fonction inutiles pour ce projet, à nettoyer
 
@@ -135,6 +137,7 @@ Qui nous permet d'obtenir les fichiers à analyser suivants :
 - `df7MaAnal.RData`
 - `dfMa23RAnal.RData`
 - `dfSlavicAnal.RData`
+- `dfSlavicAll1.RData`
 - `dfGermanicAnal.RData`
 - `dfMaNewRAnal.RData`
 
@@ -146,6 +149,1157 @@ Et pour les langues non incluses dans la thèse les fichiers suivants :
 - `dfAmRAnal.RData`
 - `dfPersonQcAnal.RData`
 - `dfQc14RAnal.RData`
+
+## Étude de cas : Le cas de "3" en Europe
+
+````{r}
+load("Data_2_anal/df3EuAnal.RData")
+```
+
+Carte fixe des langues incluses :
+
+```{r fig.width=16, fig.height=8}
+base_world + ggplot2::geom_point(data=df3EuAnal,
+                             ggplot2::aes(x=Longitude,
+                                          y=Latitude),
+                                          pch=20,
+                                          size=2,
+                             color="#440154") -> carte_europe_3
+
+plot(carte_europe_3)
+```
+
+Carte dynamique des langues incluses (indisponible avec un GitDocument):
+
+```{r}
+#leaflet::leaflet(data = df3EuAnal) %>% 
+#  leaflet::addTiles() %>%
+#  leaflet::addCircleMarkers(~Longitude, ~Latitude,
+#                            popup = ~htmltools::htmlEscape(LanguageName),
+#                            stroke = FALSE,
+#                            fillOpacity = 0.8,
+#                             color="#440154")
+```
+
+
+```{r}
+df3EuAnal%>%
+  dplyr::select(-Latitude,-Longitude) %>% 
+  head() %>% 
+  knitr::kable()
+```
+
+Liste des diacritiques utilisés : 
+
+```{r, include=FALSE}
+diactrics <- c(" ˈ "," ˌ "," ː "," ˑ "," ʼ "," ʴ "," ʰ "," ʱ "," ʲ "," ʷ "," ˠ "," ˤ "," ˞ "," ̊ "," ̆ "," ̋ ",
+               " ̈ "," ̴ "," ̽ "," ̚ ","  ̃ "," ́ "," ̄ "," ̀ "," ̏ "," ̌ "," ̂ " ," ̥ "," ̤ ", " ̪ ",
+               " ̬ "," ̰ "," ̺ "," ̼ "," ̻ " ," ̹ "," ̜ "," ̟ "
+               ," ̠ "," ̝ "," ̩ "," ̞ "," ̯ "," ̘ "," . "," * "," ˳")
+```
+
+On a tout d'abord regardé le deuxième segment des mots :
+
+- r [`r nrow(df3EuAnal %>%  dplyr::filter(phoneme_2 == "r"))` mot(s)]: 5 segments différents : r, r̴, rˠ, r̝ and r̥ʲ
+- ɹ [`r nrow(df3EuAnal %>%  dplyr::filter(phoneme_2 == "ɹ"))` mot(s)]: 3 segments différents : ɹ, ɹ̥ and ɹ̥ʲ
+- χ [`r nrow(df3EuAnal %>%  dplyr::filter(phoneme_2 == "χ"))` mot(s)]: 1 segment: χ
+- ɾ [`r nrow(df3EuAnal %>%  dplyr::filter(phoneme_2 == "ɾ"))` mot(s)]: 6 segments différents : ɾ, ɾˠ, ɾ̥, ɾʲ, ɾ̝̥ and ɾ̝
+- ʁ [`r nrow(df3EuAnal %>%  dplyr::filter(phoneme_2 == "ʁ"))` mot(s)]: 3 segments différents : ʁ, ʁ̞ and ʁ̥
+- ɻ [`r nrow(df3EuAnal %>%  dplyr::filter(phoneme_2 == "ɻ"))` mot(s)]: 1 segment: ɻ
+- x [`r nrow(df3EuAnal %>%  dplyr::filter(phoneme_2 == "x"))` mot(s)]: 2 segments différents : x and x̠
+- ɽ [`r nrow(df3EuAnal %>%  dplyr::filter(phoneme_2 == "ɽ"))` mot(s)]: 1 segment : ɽ
+- s [`r nrow(df3EuAnal %>%  dplyr::filter(phoneme_2 == "s"))` mot(s)]: 1 segment : ts
+- ʂ [`r nrow(df3EuAnal %>%  dplyr::filter(phoneme_2 == "ʂ"))` mot(s)]: 1/2 segments(s) ʈʂ, parfois suivi d'un ɻ (5/16), en Polish, Kashubian mpeut-être deux segments car syllabic separation "." dans la transcription) (6/16, + 1/16: tʂ.ʂ [perso, je ne perçois pas de différence dans les audios])
+- ɕ [`r nrow(df3EuAnal %>%  dplyr::filter(phoneme_2 == "ɕ"))` mot(s)]: voiceless  alveopalatal fricative: ɕ and ɕ̝
+
+Et aussi `r nrow(df3EuAnal %>%  dplyr::filter(phoneme_2 == "ɕ"))` [j] and `r nrow(df3EuAnal %>%  dplyr::filter(phoneme_2 == "w"))` [w].
+
+On a aussi regardé le troisième segment des mots :
+
+- r [`r nrow(df3EuAnal %>%  dplyr::filter(phoneme_3 == "r"))` mot(s)] : on a ɘ avant
+- ɾ [`r nrow(df3EuAnal %>%  dplyr::filter(phoneme_3 == "ɾ"))` mot(s)] : on a ɘ ou ɵ avant 
+- ɻ [`r nrow(df3EuAnal %>%  dplyr::filter(phoneme_3 == "ɻ"))` mot(s)] : toujours après ʈʂ
+- ʂ [`r nrow(df3EuAnal %>%  dplyr::filter(phoneme_3 == "ʂ"))` mot(s)] : après after tʂ
+
+On a manuellement compté 28 segments différents en Europe qui peuvent être considéré comme des sons simil-r pour le cognat "3".
+
+On donne le graphe suivant (à partir d'un tableau `.csv` fait sur LibreOffice Calc) :
+
+```{r}
+europe_three <- readr::read_csv("Data_graphes/europe_three.csv") %>% 
+  dplyr::mutate(target = ifelse((source!=target & source != "<r>") | (source==target & source != "<r>"),
+                            paste0("[",target,"]"),target)) %>% 
+  dplyr::mutate(nb = ifelse(is.na(nb),1,nb))
+
+
+GRAPH <- igraph::graph.data.frame(europe_three,directed = FALSE)
+GRAPH <- igraph::simplify(GRAPH, remove.loops = TRUE)
+```
+
+```{r fig.cap=capFig("Graphe des différentes réalisations de la rhotique dans les variétés d’Europe à partir des données de Sound Comparisons. Au centre du graphe on retrouve le graphème <r> rattaché à différents segments « nus » sans diacritiques, utilisés comme niveau intermédiaire pour l’analyse. À ces segments sont rattachées les transcriptions étroites des rhotiques. Le graphe est obtenu avec le package igraph (Csardi et Nepusz 2006)."), fig.width=10, fig.height=10}
+plot(GRAPH,
+       vertex.shape="none",
+       vertex.label.color="black",
+       vertex.label.cex=2,
+       vertex.size = 2,
+       edge.arrow.size=0.20,
+       edge.curved = 0.2)
+```
+
+Graphe des différentes réalisations de la rhotique dans les variétés d’Europe à partir des données de Sound Comparisons. Au centre du graphe on retrouve le graphème <r> rattaché à différents segments « nus » sans diacritiques, utilisés comme niveau intermédiaire pour l’analyse. À ces segments sont rattachées les transcriptions étroites des rhotiques. Le graphe est obtenu avec le package igraph (Csardi et Nepusz 2006).
+
+```{r}
+df_1_europe <- df3EuAnal %>% dplyr::mutate(phoneR = ifelse(phoneme_2 %in% c("r","ɹ","χ","ɾ","ʀ",
+                                                             "ʁ","ɻ","x","ɽ",
+                                                             "s","ʂ","ɕ","w","j"),phoneme_2,
+                                    ifelse(phoneme_3 %in% c("r","ɹ","χ","ɾ","ʀ",
+                                                             "ʁ","ɻ","x","ɽ",
+                                                             "s","ʂ","ɕ","w","j"),phoneme_3,
+                                           as.character(NA))))
+
+df_2_europe <- (df_1_europe %>%  dplyr::filter(
+  phoneme_1 == "ʈ"
+))$LanguageId
+
+df_1_europe %>%  dplyr::select(phoneR) %>%
+  dplyr::group_by(phoneR) %>% dplyr::count() %>% 
+  dplyr::ungroup() %>%  dplyr::mutate(sum = sum(n),
+                                      prop = round(n/sum*100)) -> table_stats_europe
+
+colourCount = 15
+getPalette =  colorRampPalette(RColorBrewer::brewer.pal(15, "Set1"))
+```
+
+```{r fig.cap=capFig("Comptes des différents segments pour le cognat « 3 » dans les langues d’Europe."), fig.width=10, fig.height=7}
+df_1_europe %>% 
+  ggplot2::ggplot(ggplot2::aes(x=phoneR,fill=phoneR)) +
+  ggplot2::geom_bar(show.legend = FALSE) +
+  ggplot2::scale_fill_viridis_d() +
+  ggplot2::labs(y = "Comptes", x="Segments") +
+  ggplot2::theme_bw(base_size=20) 
+```
+
+Comptes des différents segments pour le cognat « 3 » dans les langues d’Europe.
+
+on observe que ɾ est le plus fréquent (n = `r table_stats_europe$n[table_stats_europe$phoneR=="ɾ"]` soit `r round(table_stats_europe$n[table_stats_europe$phoneR=="ɾ"]/table_stats_europe$sum[table_stats_europe$phoneR=="ɾ"]*100)`% des productions), suivi par r (n = `r table_stats_europe$n[table_stats_europe$phoneR=="r"]` soit `r round(table_stats_europe$n[table_stats_europe$phoneR=="r"]/table_stats_europe$sum[table_stats_europe$phoneR=="r"]*100)`% des productions) et ʁ (n= `r table_stats_europe$n[table_stats_europe$phoneR=="ʁ"]` soit `r round(table_stats_europe$n[table_stats_europe$phoneR=="ʁ"]/table_stats_europe$sum[table_stats_europe$phoneR=="ʁ"]*100)`% des productions).
+
+Les réalisations antérieures sont plus fréquentes que les réalisations postérieures (n = `r sum(table_stats_europe$n[table_stats_europe$phoneR%in%c("r","ɹ","ɻ","ɽ","ɾ","s","ʂ","w")])` soit `round(sum(table_stats_europe$n[table_stats_europe$phoneR%in%c("r","ɹ","ɻ","ɽ","ɾ","s","ʂ","w")])/unique(table_stats_europe$sum)*100)`% contre n = `r sum(table_stats_europe$n[table_stats_europe$phoneR%in%c("ʁ","ʀ","x","χ","ɕ","j")])` soit `r round(sum(table_stats_europe$n[table_stats_europe$phoneR%in%c("ʁ","ʀ","x","χ","ɕ","j")])/unique(table_stats_europe$sum)*100)`% des productions). Cependant, il faut prendre en compte que
+la taille de l’échantillon dont nous disposons peut influencer les résultats en favorisant certaines variétés.
+
+## Étude de cas 2 : Le cas des langues slaves et romanes
+
+### Résultats des caractérisations de la rhotique dans les langues romanes et slaves
+
+Pour obtenir les segments étant des sons simil-r dans les langues romanes, nous avons regardé les segments en deuxième position d'une attaque branchante, en position initiale, et en position
+
+#### Les langues romanes
+
+##### Deuxième position d'attaque branchante
+
+```{r}
+load("Data_2_anal/df3RoAnal.RData")
+```
+
+La carte des langues incluses :
+
+```{r fig.width=16, fig.height=8}
+base_world + ggplot2::geom_point(data=df3RoAnal,
+                             ggplot2::aes(x=Longitude,
+                                          y=Latitude),
+                                          pch=20,
+                                          size=2,
+                             color="#440154")
+```
+
+Et en version interactive :
+
+```{r}
+#leaflet::leaflet(data = df3RoAnal) %>% 
+#  leaflet::addTiles() %>%
+#  leaflet::addCircleMarkers(~Longitude, ~Latitude,
+#                            popup = ~htmltools::htmlEscape(LanguageName),
+#                            stroke = FALSE,
+#                            fillOpacity = 0.8,
+#                             color="#440154")
+```
+
+Pour cette position nous avons pour le deuxième segment du mot :
+
+- r [`r nrow(df3RoAnal %>%  dplyr::filter(phoneme_2 == "r"))` mot(s)] : 3 segments différents : r, r̴ and rˠ
+- ɹ [`r nrow(df3RoAnal %>%  dplyr::filter(phoneme_2 == "ɹ"))` mot(s)]:  1 segment : ɹ
+- χ [`r nrow(df3RoAnal %>%  dplyr::filter(phoneme_2 == "χ"))` mot(s)] : 1 segment : χ
+- ɾ [`r nrow(df3RoAnal %>%  dplyr::filter(phoneme_2 == "ɾ"))` mot(s)] : 3 segments différents: ɾ, ɾˠ and ɾ̥
+- ʁ [`r nrow(df3RoAnal %>%  dplyr::filter(phoneme_2 == "ʁ"))` mot(s)] : 2 segments différents : ʁ and ʁ̞
+- x [`r nrow(df3RoAnal %>%  dplyr::filter(phoneme_2 == "x"))` mot(s)] : 2 segments différents : x and x̠
+- ɽ [`r nrow(df3RoAnal %>%  dplyr::filter(phoneme_2 == "ɽ"))` mot(s)] : 1 segment : ɽ
+- ʂ [`r nrow(df3RoAnal %>%  dplyr::filter(phoneme_2 == "ʂ"))` mot(s)] : à considerer comme une affriquée ʈʂ, parfois suivie d'un ɻ (5/9)
+
+Et pour le troisième segment du mot nous avons :
+
+- ɾ [`r nrow(df3RoAnal %>%  dplyr::filter(phoneme_3 == "ɾ"))` mot(s)] : avant voyelle épenthétique ɘ et ɵ
+- ɻ [`r nrow(df3RoAnal %>%  dplyr::filter(phoneme_3 == "ɻ"))` mot(s)] : toujours après ʈʂ
+
+##### Position initiale 
+
+On regarde dans un premier temps le cognat "roue".
+
+```{r}
+load("Data_2_anal/dfroueRoAnal.RData")
+```
+
+Pour le premier segment du mot nous avons :
+
+- r [`r nrow(dfroueRoAnal %>%  dplyr::filter(phoneme_1 == "r"))` mot(s)] : 4 segments différents : r, rˠ, r̝ˠ and r̥
+- ɹ [`r nrow(dfroueRoAnal %>%  dplyr::filter(phoneme_1 == "ɹ"))` mot(s)] : 3 segments différents : ɹ, ɹ̝ and ɹ̝ˑ
+- χ [`r nrow(dfroueRoAnal %>%  dplyr::filter(phoneme_1 == "χ"))` mot(s)] : 1 segment : χ
+- ɾ [`r nrow(dfroueRoAnal %>%  dplyr::filter(phoneme_1 == "ɾ"))` mot(s)] : 5 segments différents : ɾ, ɾˠ , ɾ̝ , ɾ̥ and ʰɾ
+- ʁ [`r nrow(dfroueRoAnal %>%  dplyr::filter(phoneme_1 == "ʁ"))` mot(s)] : 2 segments : ʁ and ʁ̞
+- ʀ [`r nrow(dfroueRoAnal %>%  dplyr::filter(phoneme_1 == "ʀ"))` mot(s)] : 1 segment : ʀ
+- h [`r nrow(dfroueRoAnal %>%  dplyr::filter(phoneme_1 == "h"))` mot(s)] : 1 segment : h
+- z [`r nrow(dfroueRoAnal %>%  dplyr::filter(phoneme_1 == "z"))` mot(s)] : 1 segment : z̺
+- ħ [`r nrow(dfroueRoAnal %>%  dplyr::filter(phoneme_1 == "z"))` mot(s)] : 1 segment : ħ
+- ɦ [`r nrow(dfroueRoAnal %>%  dplyr::filter(phoneme_1 == "z"))` mot(s)] : 1 segment : ɦ
+
+Et pour le deuxième segment du mot, nous avons :
+
+- ɹ [`r nrow(dfroueRoAnal %>%  dplyr::filter(phoneme_2 == "ɹ"))` mot(s)]: ɹ̝
+- r [`r nrow(dfroueRoAnal %>%  dplyr::filter(phoneme_2 == "r"))` mot(s)]: r̝, rˠ
+
+Le segment en Sardinian est :  rˈrˠ 
+
+Au total, nous comptons 21 sons simil-r.
+
+On regarde dans un second temps le cognat "rapide".
+
+
+```{r}
+load("Data_2_anal/dffastRoAnal.RData")
+```
+
+
+- r [`r nrow(dffastRoAnal %>%  dplyr::filter(phoneme_1 == "r"))` mot(s)]: 3 segments différents : r, r̝ ,rˠ
+- ʁ [`r nrow(dffastRoAnal %>%  dplyr::filter(phoneme_1 == "ʁ"))` mot(s)]: 2 segments différents : ʁ, ʁ̞
+- χ [`r nrow(dffastRoAnal %>%  dplyr::filter(phoneme_1 == "χ"))` mot(s)]: 1 segment : χ
+- ɦ [`r nrow(dffastRoAnal %>%  dplyr::filter(phoneme_1 == "ɦ"))` mot(s)]: 1 segment : ɦ
+- h [`r nrow(dffastRoAnal %>%  dplyr::filter(phoneme_1 == "h"))` mot(s)]: 1 segment : h
+- ɹ [`r nrow(dffastRoAnal %>%  dplyr::filter(phoneme_1 == "ɹ"))` mot(s)]: 5 segments : ɹ, ɹ̥, ɹ̝̥ , ɹ̝ ,ɹ̰
+- z [`r nrow(dffastRoAnal %>%  dplyr::filter(phoneme_1 == "z"))` mot(s)]: 1 segment : z̺
+- ɾ [`r nrow(dffastRoAnal %>%  dplyr::filter(phoneme_1 == "ɾ"))` mot(s)]: 3 segments : ɾ, ʰɾ, ɾˠ 
+- ʕ [`r nrow(dffastRoAnal %>%  dplyr::filter(phoneme_1 == "ʕ"))` mot(s)]: 1 segment : ʕ
+- l [`r nrow(dffastRoAnal %>%  dplyr::filter(phoneme_1 == "l"))` mot(s)]: 1 segment : l
+- ʀ [`r nrow(dffastRoAnal %>%  dplyr::filter(phoneme_1 == "ʀ"))` mot(s)]: 1 segment : ʀ
+
+On retrouve aussi dans les transcriptions : rɹ que nous n'avons pas pris en compte [`r nrow(dffastRoAnal %>%  dplyr::filter(stringr::str_detect(Phonetic,"rɹ")))` mot(s)]:
+
+Au total, nous comptons 19 sons simil-r.
+
+##### Position intervocalique
+
+```{r}
+load("Data_2_anal/dfWaitRoAnal.RData")
+```
+
+Pour le troisième segment du mot, on a :
+
+- ɾ [`r nrow(dfWaitRoAnal %>%  dplyr::filter(phoneme_3 == "ɾ"))` mot(s)] : 1 segment : ɾ (toujours en attaque complexe, le plus proche du noyau)
+- ʁ [`r nrow(dfWaitRoAnal %>%  dplyr::filter(phoneme_3 == "ɾ"))` mot(s)] : 1 segment : ʁ̞ (position intervocalique)
+
+Pour le quatrième segment du mot, on a :
+
+- r [`r nrow(dfWaitRoAnal %>%  dplyr::filter(phoneme_4 == "r"))` mot(s)] : 1 segment : r (position intervocalique)
+- ɾ [`r nrow(dfWaitRoAnal %>%  dplyr::filter(phoneme_4 == "r"))` mot(s)] : 3 segments : ɾ, ɾ̠  and ɾˠ (position intervocalique ou directement suivi d'un consonne palatale approximante j ou labivelaire w)
+- ʀ [`r nrow(dfWaitRoAnal %>%  dplyr::filter(phoneme_4 == "ʀ"))` mot(s)] : 1 segment : ʀ (position intervocalique)
+- ɹ [`r nrow(dfWaitRoAnal %>%  dplyr::filter(phoneme_4 == "ɹ"))` mot(s)] : 3 segments : ɹ, ɹ̠ and ɹ̝ (intervocalique ou directement suivi d'une approximante palatale j)
+- ɣ [`r nrow(dfWaitRoAnal %>%  dplyr::filter(phoneme_4 == "ɣ"))` mot(s)] : 1 segment : ɣ (position intervocalique)
+
+Pour le cinquième segment du mot, on a :
+
+- ɾ [`r nrow(dfWaitRoAnal %>%  dplyr::filter(phoneme_5 == "ɾ"))` mot(s)] : 1 segment : ɾ (intervocalique ou directement suivi d'une approximante palatale j)
+- ʁ [`r nrow(dfWaitRoAnal %>%  dplyr::filter(phoneme_5 == "ʁ"))` mot(s)] : 2 segments : ʁ̃ and ʁ (position intervocalique)
+- χ [`r nrow(dfWaitRoAnal %>%  dplyr::filter(phoneme_5 == "χ"))` mot(s)] : 1 segment : χ (position intervocalique)
+- ɦ [`r nrow(dfWaitRoAnal %>%  dplyr::filter(phoneme_5 == "ɦ"))` mot(s)] : 1 segment : ɦ (position intervocalique)
+- ɽ [`r nrow(dfWaitRoAnal %>%  dplyr::filter(phoneme_5 == "ɽ"))` mot(s)] : 1 segment : ɽ (position intervocalique)
+
+Pour le sixième segment du mot, on a :
+
+- ɾ [`r nrow(dfWaitRoAnal %>%  dplyr::filter(phoneme_6 == "ɾ"))` mot(s)] : 1 segment : ɾ (position intervocalique)
+- ʁ [`r nrow(dfWaitRoAnal %>%  dplyr::filter(phoneme_6 == "ʁ"))` mot(s)] : 2 segments : ʁ and ʁ̞ position intervocalique)
+- ɰ	[`r nrow(dfWaitRoAnal %>%  dplyr::filter(phoneme_6 == "ɰ"))` mot(s)] : 1 segment : ɰ	(position intervocalique)
+
+Pour le septième segment du mot, on a :
+
+- ɾ [`r nrow(dfWaitRoAnal %>%  dplyr::filter(phoneme_7 == "ɾ"))` mot(s)] : 1 segment : ɾ (position intervocalique)
+
+Nous avons compté 16 segments simil-r différents.
+
+##### Graphe pour les langues romanes
+
+Le graphe se base sur les observations de seulement quelques cognats (présentées ci-dessus).
+
+```{r}
+romance_rhotics <- readr::read_csv("Data_graphes/romance_rhotics.csv", col_names = FALSE) %>% 
+  dplyr::mutate(X2 = ifelse((X1!=X2 & X1 != "<r>") | (X1==X2 & X1 != "<r>"),
+                            paste0("[",X2,"]"),X2))
+
+GRAPH2 <- igraph::graph.data.frame(romance_rhotics,directed = FALSE)
+GRAPH2 <- igraph::simplify(GRAPH2, remove.loops = TRUE)
+```
+
+```{r fig.width=10, fig.height=10}
+plot(GRAPH2,
+       vertex.shape="none",
+       vertex.label.color="black",
+       vertex.label.cex=2,
+       vertex.size = 2,
+       edge.arrow.size=0.20,
+       edge.curved = 0.2)
+```
+
+Graphe des différentes réalisations de la rhotique dans les variétés romanes à partir des données de Sound Comparisons. Nous représentons uniquement les réalisations de la rhotique dans les positions mentionnées ci-dessus. Le graphe est obtenu avec le package igraph (v1.2.6 ; Casardi & Nepusz, 2006).
+
+
+##### Cartes pour les langues romanes
+
+Les cartes ont été réalisés avec tous les cognats contenant un son simil-r dans Sound Comparisons.
+
+```{r}
+load("Data_2_anal/dfR50Anal.RData")
+
+dfR50Anal_2_bis <- dfR50Anal %>% 
+  dplyr::group_by(LanguageId,LanguageName,Latitude,Longitude) %>%
+  dplyr::count(phoneR) %>%
+  dplyr::mutate(Nrow = sum(n)) %>% 
+  dplyr::ungroup() %>% 
+  tidyr::spread(key=phoneR,value=n,fill=0)
+```
+
+
+```{r}
+data_romance_1 <- dfR50Anal_2_bis %>% 
+  dplyr::select(LanguageId,LanguageName,Latitude,Longitude,Nrow,
+                `0`,`ɦ`,`ʕ`,`ʀ`,`ʁ`,`ɣ`,
+                `ɰ`,`ɽ`,`ʂ`,`ɻ`,
+                `r`,`ɾ`,`ɹ`,`z̺`)
+```
+
+
+```{r fig.cap=capFig("Distribution des différentes réalisations dans les variétés romanes étudiées. La carte montre seulement les variétés parlées en Europe continentale."), fig.width=16, fig.height=8}
+base_world +
+       scatterpie::geom_scatterpie(ggplot2::aes(x=Longitude,
+                                                y=Latitude,
+                                                group=LanguageName,
+                                                r=0.4),
+                                   data=data_romance_1,
+                                   cols=names(data_romance_1[6:19])) +
+  ggplot2::coord_cartesian(xlim= c(-12,30) ,ylim= c(36, 52)) +
+  ggplot2::scale_fill_viridis_d(name = "Réalisations") +
+  ggplot2::theme(legend.title = ggplot2::element_text(size = 26),
+                 legend.text = ggplot2::element_text(size = 22))
+```
+
+Distribution des différentes réalisations dans les variétés romanes étudiées. La carte montre seulement les variétés parlées en Europe continentale.
+
+```{r}
+dfR50Anal_2_merged <- dfR50Anal_2_bis %>% 
+  dplyr::group_by(LanguageId,LanguageName,Latitude,Longitude,Nrow) %>% 
+  dplyr::transmute(Antérieur = sum(r,ɹ,ɻ,ɽ,ɾ,ʂ,`z̺`),
+                 Postérieur = sum(ɣ,ɦ,ʀ,ʁ,ɰ,ʕ),
+                 Absence = `0`) %>% 
+  dplyr::select(LanguageId,LanguageName,Latitude,Longitude,Nrow,Absence,Antérieur,Postérieur)
+```
+
+```{r fig.cap=capFig("Distribution des différentes réalisations dans les variétés romanes étudiées en ne s’intéressant qu’à la dichotomie entre les productions antérieures et celles postérieures (et l’absence de segment)."), fig.width=16, fig.height=8}
+base_world +
+       scatterpie::geom_scatterpie(ggplot2::aes(x=Longitude,
+                                                y=Latitude,
+                                                group=LanguageName,
+                                                r=0.4),
+                                   data=dfR50Anal_2_merged,
+                                   cols=names(dfR50Anal_2_merged[6:8])) +
+  ggplot2::coord_cartesian(xlim= c(-12,30) ,ylim= c(36, 52)) +
+  ggplot2::scale_fill_viridis_d(name = "Réalisations") +
+  ggplot2::theme(legend.title = ggplot2::element_text(size = 26),
+                 legend.text = ggplot2::element_text(size = 22))
+```
+
+Distribution des différentes réalisations dans les variétés romanes étudiées en ne s’intéressant qu’à la dichotomie entre les productions antérieures et celles postérieures (et l’absence de segment).
+
+```{r}
+dfR50Anal_2_trill_tap <- dfR50Anal_2_bis %>% 
+  dplyr::group_by(LanguageId,LanguageName,Latitude,Longitude,Nrow) %>% 
+  dplyr::transmute(Trill = r,
+                   Tap = ɾ,
+                 Autre = sum(`0`,ɣ,ɦ,ʀ,ʁ,ɰ,ʕ,ɹ,ɻ,ɽ,ʂ,`z̺`))  %>% 
+  dplyr::select(LanguageId,LanguageName,Latitude,Longitude,Nrow,Autre,Tap,Trill)
+```
+
+```{r fig.cap=capFig("Distribution des différentes réalisations dans les variétés romanes étudiées en ne s’intéressant qu’à la dichotomie entre trill et tap (et les autres segments)."), fig.width=16, fig.height=8}
+base_world +
+       scatterpie::geom_scatterpie(ggplot2::aes(x=Longitude,
+                                                y=Latitude,
+                                                group=LanguageName,
+                                                r=0.4),
+                                   data=dfR50Anal_2_trill_tap,
+                                   cols=names(dfR50Anal_2_trill_tap[6:8])) +
+  ggplot2::coord_cartesian(xlim= c(-12,30) ,ylim= c(36, 52)) +
+  ggplot2::scale_fill_viridis_d(name = "Réalisations") +
+  ggplot2::theme(legend.title = ggplot2::element_text(size = 26),
+                 legend.text = ggplot2::element_text(size = 22))
+```
+
+Distribution des différentes réalisations dans les variétés romanes étudiées en ne s’intéressant qu’à la dichotomie entre trill et tap (et les autres segments).
+
+```{r}
+data_romance_4 <- dfR50Anal_2_bis %>% 
+  dplyr::group_by(LanguageId,LanguageName,Latitude,Longitude,Nrow) %>% 
+  dplyr::transmute(Trill = r,
+                   Tap = ɾ,
+                 Autre = sum(`0`,ɣ,ɦ,ʀ,ʁ,ɰ,ʕ,ɹ,ɻ,ɽ,ʂ,`z̺`))  %>% 
+  dplyr::filter(Nrow > max(dfR50Anal_2_bis$Nrow)/3) %>% 
+  dplyr::select(LanguageId,LanguageName,Latitude,Longitude,Nrow,Autre,Trill,Tap) %>% 
+  dplyr::mutate(Autre = Autre/Nrow,
+                Trill = Trill/Nrow,
+                Tap = Tap/Nrow,
+                LanguageId = format(LanguageId, scientific = FALSE)) %>% 
+  dplyr::mutate(Family = stringr::str_extract(LanguageId,"(?<=\\d{0})\\d{2}"),
+                Language = stringr::str_extract(LanguageId,"(?<=\\d{2})\\d{2}"),
+                Variety = stringr::str_extract(LanguageId,"(?<=\\d{4})\\d{2}"),
+                Accent = stringr::str_extract(LanguageId,"(?<=\\d{6})\\d{2}"),
+                LangVar = stringr::str_extract(LanguageId,"(?<=\\d{2})\\d{4}"),
+                Proto = stringr::str_detect(LanguageId,"(?<=\\d{6})0{4}1")) %>% 
+  dplyr::filter(Proto == FALSE)
+```
+
+```{r fig.cap=capFig("Fréquences du trill et du tap dans les variétés romanes. Seuls les variétés où au moins 1/3 des transcriptions ont été faites sont incluses."), fig.width=17, fig.height=7}
+data_romance_4 %>% 
+  dplyr::mutate(Trill1 = Trill) %>% 
+  tidyr::gather(key='phoneme',value='freq',Trill,Tap) %>% 
+  ggplot2::ggplot(ggplot2::aes(x = reorder(LanguageName,-Trill1), y = freq, fill=phoneme)) +
+  ggplot2::geom_bar(stat='identity', position="dodge") +
+  ggplot2::theme_bw(base_size=20) +
+  ggplot2::theme(axis.text.x = ggplot2::element_text(angle = 90, hjust=1))  +
+  ggplot2::labs(y  = "Fréquences du r et du ɾ", x = "Variétés" ) +
+  ggplot2::scale_fill_viridis_d(name = "Réalisations")  +
+  ggplot2::theme(legend.title = ggplot2::element_text(size = 26),
+                 legend.text = ggplot2::element_text(size = 22))
+```
+
+Fréquences du trill et du tap dans les variétés romanes. Seuls les variétés où au moins 1/3 des transcriptions ont été faites sont incluses.
+
+La fréquence maximum pour le trill est de `r round(max(data_romance_4$Trill),2)` pour `r data_romance_4$LanguageName[data_romance_4$Trill==max(data_romance_4$Trill)]`. Sur la simple base de l’écoute des audios, on peut se demander si le locuteur enregistré n’hyper-articule
+pas. En supprimant les variétés sans aucun trill, la moyenne de la fréquence du trill est à `r round(mean((dplyr::filter(data_romance_4,Trill > 0))$Trill),2)`, sa médiane à `r round(median((dplyr::filter(data_romance_4,Trill > 0))$Trill),2)` et son écart inter-quartile (l’écart entre le premier quartile et le troisième) de `r round(IQR((dplyr::filter(data_romance_4,Trill > 0))$Trill),2)`. Pour le tap, dans ces mêmes variétés où on a des trills, sa fréquence moyenne est à `r round(mean((dplyr::filter(data_romance_4,Trill > 0))$Tap),2)`, sa fréquence médiane est à `r round(median((dplyr::filter(data_romance_4,Trill > 0))$Tap),2)` et son écart inter-quartile est de `r round(IQR((dplyr::filter(data_romance_4,Trill > 0))$Tap),2)`.
+
+#### Les langues slaves
+
+Pour les langues slaves, nous avons procédé légérement différement des langues romanes, nous avons utilisé la recontruction pour chercher les sons simil-r, puis nous avons regardé à différentes positions des mots.
+
+```{r}
+load("Data_2_anal/dfSlavicAnal.RData")
+```
+
+Il y a `r nrow(dplyr::distinct(dplyr::select(dfSlavicAnal,LanguageId)))` variétés langagières.
+
+##### Position initiale
+
+```{r}
+dfSlavicRinitial <- dfSlavicAnal %>% 
+  dplyr::filter(stringr::str_detect(WordProtoName1,"^r"))
+```
+
+Les mots sont données avec leur traduction en anglais dans le tableau suivant :
+
+```{r}
+dfSlavicRinitial %>% 
+  dplyr::select(WordModernName1,WordProtoName1) %>% dplyr::distinct() %>% 
+  knitr::kable()
+```
+
+- r [`r nrow(dfSlavicRinitial %>%  dplyr::filter(phoneme_1 == "r"))` mot(s)] : 2 segments différents : r, rʲ
+- ɾ [`r nrow(dfSlavicRinitial %>%  dplyr::filter(phoneme_1 == "ɾ"))` mot(s)] : 5 segments différents : ɾ,ɾʲ,ɾ̞,ɾ̝̬̥ , ɾ̝̥
+- ɹ [`r nrow(dfSlavicRinitial %>%  dplyr::filter(phoneme_1 == "ɹ"))` mot(s)] : 1 segment : ɹ̞
+- ʁ [`r nrow(dfSlavicRinitial %>%  dplyr::filter(phoneme_1 == "ʁ"))` mot(s)] : 3 segments : ʁ, ʁ̞ ,ʁ̞̥
+- ʀ [`r nrow(dfSlavicRinitial %>%  dplyr::filter(phoneme_1 == "ʀ"))` mot(s)] : 1 segment : ʀ
+- ʐ [`r nrow(dfSlavicRinitial %>%  dplyr::filter(phoneme_1 == "ʐ"))` mot(s)] : 2 segments : ʐ, ʐ͡ɣ
+
+Parmi les `r nrow(dfSlavicRinitial)` mots, nous en avons considéré seulement `r nrow(dfSlavicRinitial %>%  dplyr::filter(phoneme_1 %in% c("r","ɹ","ɾ","ʁ","ʀ","ʐ")))` mots.
+
+##### Second position cluster
+
+```{r}
+dfSlavicRsecond <- dfSlavicAnal %>% 
+  dplyr::filter(stringr::str_detect(WordProtoName1,"^.r")) 
+```
+
+Les mots sont données avec leur traduction en anglais dans le tableau suivant :
+
+```{r}
+dfSlavicRsecond %>% 
+  dplyr::select(WordModernName1,WordProtoName1) %>% dplyr::distinct() %>% 
+  knitr::kable()
+```
+
+Pour le premier segment :
+
+- ʁ [`r nrow(dfSlavicRsecond %>%  dplyr::filter(phoneme_1 == "ʁ"))` mot(s)] : 1 segment : ʁ̞
+- ʀ [`r nrow(dfSlavicRsecond %>%  dplyr::filter(phoneme_1 == "ʀ"))` mot(s)] : 1 segment : ʀ
+
+Pour le deuxième segment :
+
+- ɾ [`r nrow(dfSlavicRsecond %>%  dplyr::filter(phoneme_2 == "ɾ"))` mot(s)] : 4 segments : ɾ,ɾʲ,ɾ̥ 
+- r [`r nrow(dfSlavicRsecond %>%  dplyr::filter(phoneme_2 == "r"))` mot(s)] : 1 segment : r
+- s [`r nrow(dfSlavicRsecond %>%  dplyr::filter(phoneme_2 == "s" & WordModernName1 != "blood"))` mot(s)] : 2 segments : sʲ , s
+- ʂ [`r nrow(dfSlavicRsecond %>%  dplyr::filter(phoneme_2 == "ʂ"))` mot(s)] : 1 segment :  ʂ
+- χ [`r nrow(dfSlavicRsecond %>%  dplyr::filter(phoneme_2 == "χ"))` mot(s)] : 1 segment : χ̟
+- ʁ [`r nrow(dfSlavicRsecond %>%  dplyr::filter(phoneme_2 == "ʁ"))` mot(s)] : 4 segments : ʁ, ʁ̥, ʁ̞, ʁ̞̥
+- ɕ [`r nrow(dfSlavicRsecond %>%  dplyr::filter(phoneme_2 == "ɕ"))` mot(s)] : 1 segment : ɕ
+- ɹ [`r nrow(dfSlavicRsecond %>%  dplyr::filter(phoneme_2 == "ɹ"))` mot(s)] : 2 segments : ɹ, ɹʲ
+- ʃ [`r nrow(dfSlavicRsecond %>%  dplyr::filter(phoneme_2 == "ʃ"))` mot(s)] : 1 segment : ʃ
+
+Pour le troisième segment :
+
+- ɾ [`r nrow(dfSlavicRsecond %>%  dplyr::filter(phoneme_3 == "ɾ"))` mot(s)] : 1 segment : ɾ
+- ʂ [`r nrow(dfSlavicRsecond %>%  dplyr::filter(phoneme_3 == "ʂ"))` mot(s)] : 1 segment : ʂ
+
+##### Graphe pour les langues slaves
+
+Le graphe se base sur les observations de seulement quelques cognats (présentées ci-dessus).
+
+```{r}
+slavic_rhotics <- readr::read_csv("Data_graphes/slavic_rhotics.csv", col_names = FALSE) %>% 
+  dplyr::mutate(X2 = ifelse((X1!=X2 & X1 != "<r>") | (X1==X2 & X1 != "<r>"),
+                            paste0("[",X2,"]"),X2))
+
+
+GRAPHslavic<- igraph::graph.data.frame(slavic_rhotics,directed = FALSE)
+GRAPHslavic <- igraph::simplify(GRAPHslavic, remove.loops = TRUE)
+```
+
+```{r fig.width=10, fig.height=10}
+plot(GRAPHslavic,
+       vertex.shape="none",
+       vertex.label.color="black",
+       vertex.label.cex=2,
+       vertex.size = 2,
+       edge.arrow.size=0.20,
+       edge.curved = 0.2)
+```
+
+Graphe des différentes réalisations de la rhotique dans les variétés slaves à partir des données de Sound Comparisons. Nous représentons uniquement les réalisations de la rhotique quand elle est en position initiale ou en deuxième position d’attaque branchante. Le graphe est obtenu avec le package igraph (v1.2.6 ; Casardi & Nepusz, 2006).
+
+##### Cartes pour les langues slaves
+
+```{r}
+load("Data_2_anal/dfSlavicAll1.RData")
+
+dfSlavicAll1 <- dfSlavicAll1 %>% 
+  dplyr::filter(!(LanguageName %in% c("Latvian: Std","Latvian: Std (Cēsis)","Lithuanian: Std")))
+
+
+dfSlavicAll1_bis <- dfSlavicAll1 %>% 
+  dplyr::group_by(LanguageId,LanguageName,Latitude,Longitude) %>%
+  dplyr::count(phoneR) %>%
+  dplyr::mutate(Nrow = sum(n)) %>% 
+  dplyr::ungroup() %>% 
+  tidyr::spread(key=phoneR,value=n,fill=0) 
+```
+
+```{r}
+data_slavic_1 <- dfSlavicAll1_bis %>% 
+  dplyr::select(LanguageId,LanguageName,Latitude,Longitude,Nrow,
+                `ʀ`,`ʁ`,`ɕ`,
+                `ʐ`,`ʂ`,`ʃ`,
+                `r`,`ɾ`,`s`,`ɹ`)    
+```
+
+```{r fig.cap=capFig("Distribution des différentes réalisations dans les variétés slaves étudiées."), fig.width=16, fig.height=8}
+base_world +
+       scatterpie::geom_scatterpie(ggplot2::aes(x=Longitude,
+                                                y=Latitude,
+                                                group=LanguageName,
+                                                r=0.4),
+                                   data=data_slavic_1,
+                                   cols=names(data_slavic_1[6:15])) +
+   ggplot2::coord_cartesian(ylim= c(41.5,60) ,xlim= c(12.5,45)) +
+  ggplot2::scale_fill_viridis_d(name = "Réalisations") +
+  ggplot2::theme(legend.title = ggplot2::element_text(size = 26),
+                 legend.text = ggplot2::element_text(size = 22))
+```
+
+Distribution des différentes réalisations dans les variétés slaves étudiées.
+
+```{r}
+data_slavic_2 <- dfSlavicAll1_bis %>% 
+  dplyr::group_by(LanguageId,LanguageName,Latitude,Longitude,Nrow) %>% 
+  dplyr::transmute(Antérieur = sum(`ɕ`,`ʐ`,`ʂ`,`ʃ`,`r`,`ɾ`,`s`,`ɹ`),
+                   Postérieur = sum( `ʀ`,`ʁ`)) %>% 
+  dplyr::select(LanguageId,LanguageName,Latitude,Longitude,Nrow,Antérieur,Postérieur)
+```
+
+```{r fig.cap=capFig("Distribution des différentes réalisations dans les variétés slaves étudiées en ne s’intéressant qu’à la dichotomie entre les productions antérieures et postérieures."), fig.width=16, fig.height=8}
+base_world +
+       scatterpie::geom_scatterpie(ggplot2::aes(x=Longitude,
+                                                y=Latitude,
+                                                group=LanguageName,
+                                                r=0.4),
+                                   data=data_slavic_2,
+                                   cols=names(data_slavic_2[6:7])) +
+   ggplot2::coord_cartesian(ylim= c(41.5,60) ,xlim= c(12.5,45)) +
+  ggplot2::scale_fill_viridis_d(name = "Réalisations") +
+  ggplot2::theme(legend.title = ggplot2::element_text(size = 26),
+                 legend.text = ggplot2::element_text(size = 22))
+```
+
+Distribution des différentes réalisations dans les variétés slaves étudiées en ne s’intéressant qu’à la dichotomie entre les productions antérieures et postérieures.
+
+```{r}
+data_slavic_3 <- dfSlavicAll1_bis %>% 
+  dplyr::group_by(LanguageId,LanguageName,Latitude,Longitude,Nrow) %>% 
+  dplyr::transmute(Trill = r,
+                   Tap = ɾ,
+                   Autre = sum(`ɕ`,`ʐ`,`ʂ`,`ʃ`,`s`,`ɹ`, `ʀ`,`ʁ`))  %>% 
+  dplyr::select(LanguageId,LanguageName,Latitude,Longitude,Nrow,Autre,Tap,Trill)
+```
+
+```{r fig.cap=capFig("Distribution des différentes réalisations dans les variétés slaves étudiées en ne s’intéressant qu’à la dichotomie entre trill et tap (et les autres segments)."), fig.width=16, fig.height=8}
+base_world +
+       scatterpie::geom_scatterpie(ggplot2::aes(x=Longitude,
+                                                y=Latitude,
+                                                group=LanguageName,
+                                                r=0.4),
+                                   data=data_slavic_3,
+                                   cols=names(data_slavic_3[6:8]))  +
+   ggplot2::coord_cartesian(ylim= c(41.5,60) ,xlim= c(12.5,45)) +
+  ggplot2::scale_fill_viridis_d(name = "Réalisations")  +
+  ggplot2::theme(legend.title = ggplot2::element_text(size = 26),
+                 legend.text = ggplot2::element_text(size = 22))
+```
+
+Distribution des différentes réalisations dans les variétés slaves étudiées en ne s’intéressant qu’à la dichotomie entre trill et tap (et les autres segments).
+
+```{r}
+data_slavic_4 <- dfSlavicAll1_bis %>% 
+  dplyr::group_by(LanguageId,LanguageName,Latitude,Longitude,Nrow)  %>% 
+  dplyr::transmute(Trill = r,
+                   Tap = ɾ,
+                   Autre = sum(`ɕ`,`ʐ`,`ʂ`,`ʃ`,`s`,`ɹ`, `ʀ`,`ʁ`))  %>% 
+  dplyr::filter(Nrow > max(dfSlavicAll1_bis$Nrow)/3)%>% 
+  dplyr::select(LanguageId,LanguageName,Latitude,Longitude,Nrow,Autre,Trill,Tap) %>% 
+  dplyr::mutate(Autre = Autre/Nrow,
+                Trill = Trill/Nrow,
+                Tap = Tap/Nrow,
+                LanguageId = format(LanguageId, scientific = FALSE)) %>% 
+  dplyr::mutate(Family = stringr::str_extract(LanguageId,"(?<=\\d{0})\\d{2}"),
+                Language = stringr::str_extract(LanguageId,"(?<=\\d{2})\\d{2}"),
+                Variety = stringr::str_extract(LanguageId,"(?<=\\d{4})\\d{2}"),
+                Accent = stringr::str_extract(LanguageId,"(?<=\\d{6})\\d{2}"),
+                LangVar = stringr::str_extract(LanguageId,"(?<=\\d{2})\\d{4}"),
+                Proto = stringr::str_detect(LanguageId,"(?<=\\d{6})0{4}1")) %>% 
+  dplyr::filter(Proto == FALSE)
+```
+
+```{r fig.cap=capFig("Fréquences du trill et du tap dans les variétés slaves. Seules les variétés où au moins 1/3 des transcriptions ont été faites sont incluses."), fig.width=15, fig.height=7}
+data_slavic_4 %>% 
+  dplyr::mutate(Trill1 = Trill) %>% 
+  tidyr::gather(key='phoneme',value='freq',Trill,Tap) %>% 
+  ggplot2::ggplot(ggplot2::aes(x = reorder(LanguageName,-Trill1), y = freq, fill=phoneme)) +
+  ggplot2::geom_bar(stat='identity', position="dodge") +
+  ggplot2::theme_bw(base_size=20) +
+  ggplot2::theme(axis.text.x = ggplot2::element_text(angle = 90, hjust=1))  +
+  ggplot2::labs(y  = "Fréquences du r et du ɾ", x = "Variétés" ) +
+  ggplot2::scale_fill_viridis_d(name = "Réalisations") 
+```
+
+Fréquences du trill et du tap dans les variétés slaves. Seules les variétés où au moins 1/3 des transcriptions ont été faites sont incluses.
+
+C’est dans la variété de `r data_slavic_4$LanguageName[data_slavic_4$Trill==max(data_slavic_4$Trill)]` qu’on retrouve le plus de trills (`r round(max(data_slavic_4$Trill),2)`). En supprimant les variétés sans aucun trill, la moyenne de la fréquence du trill est à `r round(mean((dplyr::filter(data_slavic_4,Trill > 0))$Trill),2)`, sa
+médiane à  `r round(median((dplyr::filter(data_slavic_4,Trill > 0))$Trill),2)` et son écart inter-quartile de  `r round(IQR((dplyr::filter(data_slavic_4,Trill > 0))$Trill),2)`. Pour le tap, dans ces mêmes variétés où on a des trills, sa fréquence moyenne est à  `r round(mean((dplyr::filter(data_slavic_4,Trill > 0))$Tap),2)`, sa fréquence médiane est à `r round(median((dplyr::filter(data_slavic_4,Trill > 0))$Tap),2)` et son écart inter-quartile est de `r round(IQR((dplyr::filter(data_slavic_4,Trill > 0))$Tap),2)`. 
+
+
+#### Cas du latin classique
+
+```{r}
+readr::read_csv("table/production_classical_latin.csv") %>% knitr::kable()
+```
+
+## Étude de cas 3 : Le cas des langues germaniques
+
+On adapte une méthodologie similaire aux langues slaves à partir de formes reconstruites.
+
+```{r}
+load("Data_2_anal/dfGermanicAnal.RData")
+```
+
+#### Position initiale
+
+```{r}
+dfGermanicRinitial <- dfGermanicAnal %>% 
+  dplyr::filter(stringr::str_detect(WordProtoName1,"^r"))
+```
+
+Les mots inclus et leur traduction :
+
+```{r}
+dfGermanicRinitial %>% 
+  dplyr::select(WordModernName1,WordProtoName1) %>% dplyr::distinct() %>% 
+  knitr::kable()
+
+dfGermanicRinitial %>%  dplyr::filter(phoneme_1 == "ɾ")
+```
+
+En première position :
+
+- r [`r nrow(dfGermanicRinitial %>%  dplyr::filter(phoneme_1 == "r"))` mot(s)] : 4 segments différents : r,r̞ , r̠ , rʱ 
+- ɾ [`r nrow(dfGermanicRinitial %>%  dplyr::filter(phoneme_1 == "ɾ"))` mot(s)] : 1 segment : ɾ
+- ɹ [`r nrow(dfGermanicRinitial %>%  dplyr::filter(phoneme_1 == "ɹ"))` mot(s)] : 3 segments : ɹ , ɹ̝ , ɹ̝̥
+- ʁ [`r nrow(dfGermanicRinitial %>%  dplyr::filter(phoneme_1 == "ʁ"))` mot(s)] : 3 segments : ʁ, ʁ̞, ʁ̥
+- ʀ [`r nrow(dfGermanicRinitial %>%  dplyr::filter(phoneme_1 == "ʀ"))` mot(s)] : 1 segment : ʀ
+- ɻ [`r nrow(dfGermanicRinitial %>%  dplyr::filter(phoneme_1 == "ɻ"))` mot(s)] : 1 segment : ɻ
+
+On a exclu : [s], [t], [z], [g], [ə], [ʔ] (pour les trois dernier segments, le son simil-r attendu était en deuxième ou troième position).
+
+En deuxième position :
+
+- r [`r nrow(dfGermanicRinitial %>%  dplyr::filter(phoneme_2 == "r"))` mot(s)]: 1 segment: r
+- ʁ [`r nrow(dfGermanicRinitial %>%  dplyr::filter(phoneme_2 == "ʁ"))` mot(s)]: 1 segment: ʁ
+- ɾ [`r nrow(dfGermanicRinitial %>%  dplyr::filter(phoneme_2 == "ɾ"))` mot(s)]: 1 segment: ɾ
+
+En troisième position :
+
+- ɾ [`r nrow(dfGermanicRinitial %>%  dplyr::filter(phoneme_3 == "ɾ"))` mot(s)]: 1 segment: ɾ
+- r [`r nrow(dfGermanicRinitial %>%  dplyr::filter(phoneme_3 == "r"))` mot(s)]: 1 segment: r
+
+Parmi les  `r nrow(dfGermanicRinitial)` mots, nous avons pris en considération `r nrow(dfGermanicRinitial %>%  dplyr::filter((phoneme_1 %in% c("r","ɹ","ɾ","ɻ","ʁ","ʀ"))|(phoneme_2 %in% c("r","ɾ","ʁ"))|(phoneme_3 %in% c("r","ɾ"))))` mots.
+
+####  Attaque branchante
+
+```{r}
+dfGermanicRsecond <- dfGermanicAnal %>% 
+  dplyr::filter(stringr::str_detect(WordProtoName1,"^.r")) 
+```
+
+Les mots inclus et leur traduction :
+
+```{r}
+dfGermanicRsecond %>% 
+  dplyr::select(WordModernName1,WordProtoName1) %>% dplyr::distinct() %>% 
+  knitr::kable()
+```
+
+En première position :
+
+- r [`r nrow(dfGermanicRsecond %>%  dplyr::filter(phoneme_1 == "r"))` row(s)] : 3 segments : r, r̥ , r̞ 
+- ʁ [`r nrow(dfGermanicRsecond %>%  dplyr::filter(phoneme_1 == "ʁ"))` row(s)] : 3 segments : ʁ,ʁ̞ ,ʁ̥ 
+- ʀ [`r nrow(dfGermanicRsecond %>%  dplyr::filter(phoneme_1 == "ʀ"))` row(s)] : 1 segment : ʀ
+- ɹ [`r nrow(dfGermanicRsecond %>%  dplyr::filter(phoneme_1 == "ɹ"))` row(s)] : 2 segments : ɹ, ɹ̝
+- ɾ [`r nrow(dfGermanicRsecond %>%  dplyr::filter(phoneme_1 == "ɾ"))` row(s)] : 1 segment : ɾ 
+- ɻ [`r nrow(dfGermanicRsecond %>%  dplyr::filter(phoneme_1 == "ɻ"))` row(s)] : 1 segment : ɻ 
+
+En deuxième position :
+
+- ɾ [`r nrow(dfGermanicRsecond %>%  dplyr::filter(phoneme_2 == "ɾ"))` row(s)] : 2 segments : ɾ,ɾ̥
+- r [`r nrow(dfGermanicRsecond %>%  dplyr::filter(phoneme_2 == "r"))` row(s)] : 3 segments : r, r̥ ,rʲ
+- χ [`r nrow(dfGermanicRsecond %>%  dplyr::filter(phoneme_2 == "χ"))` row(s)] : 1 segment : χ
+- ʀ [`r nrow(dfGermanicRsecond %>%  dplyr::filter(phoneme_2 == "ʀ"))` row(s)] : 2 segments : ʀ, ʀ̥
+- ɣ [`r nrow(dfGermanicRsecond %>%  dplyr::filter(phoneme_2 == "ɣ"))` row(s)] : 1 segment : ɣ̞
+- ʁ [`r nrow(dfGermanicRsecond %>%  dplyr::filter(phoneme_2 == "ʁ"))` row(s)] : 3 segments : ʁ, ʁ̥, ʁ̞
+- ɻ [`r nrow(dfGermanicRsecond %>%  dplyr::filter(phoneme_2 == "ɻ"))` row(s)] : 1 segment : ɻ
+- ɹ [`r nrow(dfGermanicRsecond %>%  dplyr::filter(phoneme_2 == "ɹ"))` row(s)] : 2 segments : ɹ,ɹ̝
+
+En troisième position :
+
+- ɾ [`r nrow(dfGermanicRsecond %>%  dplyr::filter(phoneme_3 == "ɾ"))` row(s)] : 1 segment : ɾ
+- ɻ [`r nrow(dfGermanicRsecond %>%  dplyr::filter(phoneme_3 == "ɻ"))` row(s)] : 1 segment : ɻ
+- r [`r nrow(dfGermanicRsecond %>%  dplyr::filter(phoneme_3 == "r"))` row(s)] : 1 segment : r
+- ɹ [`r nrow(dfGermanicRsecond %>%  dplyr::filter(phoneme_3 == "ɹ"))` row(s)] : 1 segment : ɹ̝
+- χ [`r nrow(dfGermanicRsecond %>%  dplyr::filter(phoneme_3 == "χ"))` row(s)] : 1 segment : χ
+- ʁ [`r nrow(dfGermanicRsecond %>%  dplyr::filter(phoneme_3 == "ʁ"))` row(s)] : 3 segments : ʁ, ʁ̥, ʁ̞
+- ʀ [`r nrow(dfGermanicRsecond %>%  dplyr::filter(phoneme_3 == "ʀ"))` row(s)] : 1 segment : ʀ
+
+En quatrième position :
+
+- ɾ [`r nrow(dfGermanicRsecond %>%  dplyr::filter(phoneme_4 == "ɾ" & WordModernName1!= "brother"))` row(s)] : 1 segment : ɾ
+- ɹ [`r nrow(dfGermanicRsecond %>%  dplyr::filter(phoneme_4 == "ɹ" & WordModernName1!= "brother"))` row(s)] : 1 segment : ɹ̝
+- ʁ [`r nrow(dfGermanicRsecond %>%  dplyr::filter(phoneme_4 == "ʁ" & WordModernName1 == "earth"))` row(s)] : 2 segments : ʁ, ʁ̞
+
+### Graphe pour les langues germaniques
+
+````{r}
+germanic_rhotics <- readr::read_csv("Data_graphes/germanic_rhotics.csv", col_names = FALSE) %>% 
+  dplyr::mutate(X2 = ifelse((X1!=X2 & X1 != "<r>") | (X1==X2 & X1 != "<r>"),
+                            paste0("[",X2,"]"),X2))
+
+
+GRAPHgermanic <- igraph::graph.data.frame(germanic_rhotics,directed = FALSE)
+GRAPHgermanic <- igraph::simplify(GRAPHgermanic, remove.loops = TRUE)
+```
+
+```{r fig.width=10, fig.height=10}
+plot(GRAPHgermanic,
+       vertex.shape="none",
+       vertex.label.color="black",
+       vertex.label.cex=2,
+       vertex.size = 2,
+       edge.arrow.size=0.20,
+       edge.curved = 0.2)
+```
+
+Graphe des différentes réalisations de la rhotique dans les variétés germaniques à partir des données de Sound Comparisons. Nous représentons uniquement les réalisations de la rhotique quand elle est en position initiale ou en deuxième position d’attaque branchante. Le graphe est obtenu avec le package igraph (Csardi et Nepusz 2006).
+
+### Cartes pour les langues germaniques
+
+```{r}
+load("Data_2_anal/dfGermanicAll1.RData")
+```
+
+```{r}
+dfGermanicAll1_bis <- dfGermanicAll1 %>% 
+  dplyr::group_by(LanguageId,LanguageName,Latitude,Longitude) %>%
+  dplyr::count(phoneR) %>%
+  dplyr::mutate(Nrow = sum(n)) %>% 
+  dplyr::ungroup() %>% 
+  tidyr::spread(key=phoneR,value=n,fill=0) 
+```
+
+```{r}
+data_germanic_1 <- dfGermanicAll1_bis %>% 
+  dplyr::select(LanguageId,LanguageName,Latitude,Longitude,Nrow,
+                `ʀ`,`ʁ`,`ɣ`,
+                `ɽ`,`ɻ`,
+                `r`,`ɾ`,`ɹ`) %>% 
+ dplyr::mutate(LanguageId = format(LanguageId, scientific = FALSE)) 
+```
+
+```{r fig.cap=capFig("Distribution des différentes réalisations dans les variétés germaniques étudiées. La carte montre seulement les variétés parlés en Europe continentale."), fig.width=13, fig.height=5}
+base_world +
+       scatterpie::geom_scatterpie(ggplot2::aes(x=Longitude,
+                                                y=Latitude,
+                                                group=LanguageName,
+                                                r=0.4),
+                                   data=data_germanic_1,
+                                   cols=names(data_germanic_1[6:13])) +
+  ggplot2::coord_cartesian(ylim= c(45,60) ,xlim= c(-10,45)) +
+  ggplot2::scale_fill_viridis_d(name = "Réalisations")  +
+  ggplot2::theme(legend.title = ggplot2::element_text(size = 26),
+                 legend.text = ggplot2::element_text(size = 22))
+```
+
+Distribution des différentes réalisations dans les variétés germaniques étudiées. La carte montre seulement les variétés parlés en Europe continentale.
+
+```{r}
+data_germanic_2 <- dfGermanicAll1_bis %>% 
+  dplyr::group_by(LanguageId,LanguageName,Latitude,Longitude,Nrow) %>% 
+  dplyr::transmute(Antérieur = sum( `ɽ`,`ɻ`,`r`,`ɾ`,`ɹ`),
+                   Postérieur = sum( `ʀ`,`ʁ`,`ɣ`)) %>% 
+  dplyr::select(LanguageId,LanguageName,Latitude,Longitude,Nrow,Antérieur,Postérieur) %>% 
+ dplyr::mutate(LanguageId = format(LanguageId, scientific = FALSE)) 
+```
+
+```{r fig.cap=capFig("Distribution des différentes réalisations dans les variétés germaniques étudiées en ne s’intéressant qu’à la dichotomie entre les productions antérieures et celles postérieures (et l’absence de segment)."), fig.width=13, fig.height=5}
+base_world +
+       scatterpie::geom_scatterpie(ggplot2::aes(x=Longitude,
+                                                y=Latitude,
+                                                group=LanguageName,
+                                                r=0.4),
+                                   data=data_germanic_2,
+                                   cols=names(data_germanic_2[6:7])) +
+  ggplot2::coord_cartesian(ylim= c(45,60) ,xlim= c(-10,45)) +
+  ggplot2::scale_fill_viridis_d(name = "Réalisations") +
+  ggplot2::theme(legend.title = ggplot2::element_text(size = 26),
+                 legend.text = ggplot2::element_text(size = 22))
+```
+
+Distribution des différentes réalisations dans les variétés germaniques étudiées en ne s’intéressant qu’à la dichotomie entre les productions antérieures et celles postérieures (et l’absence de segment).
+
+```{r}
+ data_germanic_3 <- dfGermanicAll1_bis %>% 
+  dplyr::group_by(LanguageId,LanguageName,Latitude,Longitude,Nrow) %>% 
+  dplyr::transmute(Trill = r,
+                   Tap = ɾ,
+                   Autre = sum(`ʀ`,`ʁ`,`ɣ`,`ɽ`,`ɻ`,`ɹ`) ) %>% 
+  dplyr::select(LanguageId,LanguageName,Latitude,Longitude,Nrow,Autre,Tap,Trill) %>% 
+ dplyr::mutate(LanguageId = format(LanguageId, scientific = FALSE))
+ 
+```
+
+```{r fig.cap=capFig("Distribution des différentes réalisations dans les variétés germaniques étudiées en ne s’intéressant qu’à la dichotomie entre trill et tap (et les autres segments)."), fig.width=13, fig.height=5}
+base_world +
+       scatterpie::geom_scatterpie(ggplot2::aes(x=Longitude,
+                                                y=Latitude,
+                                                group=LanguageName,
+                                                r=0.4),
+                                   data=data_germanic_3,
+                                   cols=names(data_germanic_3[6:8]))  +
+  ggplot2::coord_cartesian(ylim= c(45,60) ,xlim= c(-10,45)) +
+  ggplot2::scale_fill_viridis_d(name = "Réalisations") +
+  ggplot2::theme(legend.title = ggplot2::element_text(size = 26),
+                 legend.text = ggplot2::element_text(size = 22))
+```
+
+Distribution des différentes réalisations dans les variétés germaniques étudiées en ne s’intéressant qu’à la dichotomie entre trill et tap (et les autres segments).
+
+
+```{r}
+data_germanic_4 <- dfGermanicAll1_bis %>% 
+  dplyr::group_by(LanguageId,LanguageName,Latitude,Longitude,Nrow) %>% 
+  dplyr::transmute(Trill = r,
+                   Tap = ɾ,
+                   Autre = sum(`ɾ`,`ʀ`,`ʁ`,`ɣ`,`ɽ`,`ɻ`,`ɹ`) ) %>% 
+  dplyr::filter(Nrow > max(dfGermanicAll1_bis$Nrow)/3) %>% 
+  dplyr::select(LanguageId,LanguageName,Latitude,Longitude,Nrow,Autre,Trill,Tap) %>% 
+  dplyr::mutate(Autre = Autre/Nrow,
+                Trill = Trill/Nrow,
+                Tap = Tap/Nrow,
+                LanguageId = format(LanguageId, scientific = FALSE)) %>% 
+  dplyr::mutate(Family = stringr::str_extract(LanguageId,"(?<=\\d{0})\\d{2}"),
+                Language = stringr::str_extract(LanguageId,"(?<=\\d{2})\\d{2}"),
+                Variety = stringr::str_extract(LanguageId,"(?<=\\d{4})\\d{2}"),
+                Accent = stringr::str_extract(LanguageId,"(?<=\\d{6})\\d{2}"),
+                LangVar = stringr::str_extract(LanguageId,"(?<=\\d{2})\\d{4}"),
+                Proto = stringr::str_detect(LanguageId,"(?<=\\d{6})0{5}")) %>% 
+  dplyr::filter(Proto == FALSE)
+```
+
+```{r fig.cap=capFig("Fréquences du trill et du tap dans les variétés germaniques. Seules les variétés où au moins un tiers des transcriptions ont été faites sont incluses. Les langues reconstruites ont été exclues."), fig.width=17, fig.height=7}
+data_germanic_4 %>% 
+  dplyr::mutate(Trill1 = Trill) %>% 
+  tidyr::gather(key='phoneme',value='freq',Trill,Tap) %>% 
+  ggplot2::ggplot(ggplot2::aes(x = reorder(LanguageName,-Trill1), y = freq, fill=phoneme)) +
+  ggplot2::geom_bar(stat='identity', position="dodge") +
+  ggplot2::theme_bw(base_size=20) +
+  ggplot2::theme(axis.text.x = ggplot2::element_text(angle = 90, hjust=1))  +
+  ggplot2::labs(y  = "Fréquences du r et du ɾ", x = "Variétés" ) +
+  ggplot2::scale_fill_viridis_d(name = "Réalisations") 
+```
+
+Fréquences du trill et du tap dans les variétés germaniques. Seules les variétés où au moins un tiers des transcriptions ont été faites sont incluses. Les langues reconstruites ont été exclues.
+
+la fréquence maximum pour le trill est de  `r round(max(data_germanic_4$Trill),2)` pour le haut allemand parlé à `r data_germanic_4$LanguageName[data_germanic_4$Trill==max(data_germanic_4$Trill)]`. En supprimant les variétés sans aucun trill, la moyenne de la fréquence du trill est à `r round(mean((dplyr::filter(data_germanic_4,Trill > 0))$Trill),2)`, sa médiane à `r round(median((dplyr::filter(data_germanic_4,Trill > 0))$Trill),2)` et son écart inter-quartile (entre le premier quartile et le troisième) de `r round(IQR((dplyr::filter(data_germanic_4,Trill > 0))$Trill),2)`. Pour le tap, dans ces mêmes variétés avec des trills, sa fréquence moyenne est à `r round(median((dplyr::filter(data_germanic_4,Trill > 0))$Tap),2)`, sa fréquence médiane est à `r round(median((dplyr::filter(data_germanic_4,Trill > 0))$Tap),2)` et son écart inter-quartile est de `r round(IQR((dplyr::filter(data_germanic_4,Trill > 0))$Tap),2)`.
+
+
+## Étude de cas 4 : Le cas du mapudungun
+
+Nous avons adopté une méthodologie similaire pour le mapudungun.
+
+### Position initiale avec le cognat "maison"
+
+```{r}
+load("Data_2_anal/dfHouseMaAnal.RData")
+```
+
+Carte fixe des variétés incluses :
+
+```{r fig.width=16, fig.height=8}
+base_world + ggplot2::geom_point(data=dfHouseMaAnal,
+                             ggplot2::aes(x=Longitude,
+                                          y=Latitude),
+                                          pch=20,
+                                          size=2,
+                             color="#440154") -> dfHouseMaAnal_house
+
+plot(dfHouseMaAnal_house)
+```
+
+Carte dynamique des variétés incluses (indisponible avec un GitDocument):
+
+```{r}
+# leaflet::leaflet(data = dfHouseMaAnal) %>% 
+#   leaflet::addTiles() %>%
+#   leaflet::addCircleMarkers(~Longitude, ~Latitude,
+#                             popup = ~htmltools::htmlEscape(LanguageName),
+#                             stroke = FALSE,
+#                             fillOpacity = 0.8)
+```
+
+- ʐ [`r nrow(dfHouseMaAnal %>%  dplyr::filter(phoneme_1 == "ʐ"))` mot(s)]:  2 segments : ʐ and ʐ̞
+- ɻ [`r nrow(dfHouseMaAnal %>%  dplyr::filter(phoneme_1 == "ɻ"))` mot(s)] : 1 segment : ɻ
+- ɾ [`r nrow(dfHouseMaAnal %>%  dplyr::filter(phoneme_1 == "ɾ"))` mot(s)] : 1 segment : ɾ
+- ʂ	[`r nrow(dfHouseMaAnal %>%  dplyr::filter(phoneme_1 == "ʂ"))` mot(s)] : 1 segment : ʂ
+
+Le mot peut commencer avec un ɳ dans `r nrow(dfHouseMaAnal %>%  dplyr::filter(phoneme_1 == "ɳ"))` cas. Il est suivi par ce qui pourrait être considéré comme un son simil-r : soit ʐ ou l'affriquée ɖʐ.
+
+Lorsque le mot commmence par ʊ: le son simil-r est élidé, cela correspond à `r nrow(dfHouseMaAnal %>%  dplyr::filter(phoneme_1 == "ʊ"))` cas.
+
+### Position initiale avec le cognat "7"
+
+```{r}
+load("Data_2_anal/df7MaAnal.RData")
+```
+
+En première position :
+
+- ʐ [`r nrow(df7MaAnal %>%  dplyr::filter(phoneme_1 == "ʐ"))` mot(s)] : 1 segment : ʐ
+- ɻ [`r nrow(df7MaAnal %>%  dplyr::filter(phoneme_1 == "ɻ"))` mot(s)] : 1 segment:  ɻ
+- ʂ	[`r nrow(df7MaAnal %>%  dplyr::filter(phoneme_1 == "ʂ"))` mot(s)] : 2 segments : ʂ and ʂʐ
+- ɽ [`r nrow(df7MaAnal %>%  dplyr::filter(phoneme_1 == "ɽ"))` mot(s)] : 1 segment : ɽ
+- r [`r nrow(df7MaAnal %>%  dplyr::filter(phoneme_1 == "r"))` mot(s)] : 1 segment : r
+- ɭ [`r nrow(df7MaAnal %>%  dplyr::filter(phoneme_1 == "ɭ"))` mot(s)] : 1 segment : ɭ
+- ɖ [`r nrow(df7MaAnal %>%  dplyr::filter(phoneme_1 == "ɖ"))` mot(s)] : 1 segment : ɖʐ
+
+En deuxième position après une voyelle :
+
+- l [`r nrow(df7MaAnal %>%  dplyr::filter(phoneme_1 == "l"))` mot(s)]: 1 segment : l
+- ɻ [`r nrow(df7MaAnal %>%  dplyr::filter(phoneme_1 == "ɻ"))` mot(s)]: 1 segment : ɻ
+- ʐ [`r nrow(df7MaAnal %>%  dplyr::filter(phoneme_1 == "ʐ"))` mot(s)]: 1 segment : ʂʐ
+
+Comme attendu, on retrouve [ʐ] et [ɻ] comme allophones d'une possible rhotique sous-jacente. On retrouve aussi [ʂ] et [ɭ]. 
+L'affriquée retroflexe [ɖʐ] était aussi présente dans les données, de même qie le flap retroflexe [ɽ].
+
+### Nouvelles données pour le mapudungun
+
+On a décidé de rajouter plus de données pour avoir un meilleur aperçu des possibilité des sons simil-r en mapudungun.
+
+```{r}
+load("Data_2_anal/dfMaNewRAnal.RData") 
+
+dfMaNewRAnal <- dfMaNewRAnal %>% 
+  dplyr::filter(LanguageName != "Lonquimay" & Phonetic != "fëj",
+                LanguageName != "Lago Rosario" & Phonetic != "θö.ˈmö.t͡ʃë") %>% 
+  dplyr::mutate(phoneR = ifelse(LanguageId == 28131009809 & WordId == 70 & phoneR == "l","0",phoneR))
+
+```
+
+On va regarde les productions pour les segments suivants :
+
+0   j   ɭ   r   ɹ   ɻ   ɽ   ɾ   ʃ   ʐ 
+ 
+- j [`r nrow(dplyr::filter(dfMaNewRAnal,phoneR == "j"))` mot(s)]: 1 segment : j
+- ɭ [`r nrow(dplyr::filter(dfMaNewRAnal,phoneR == "ɭ"))` mot(s)]: 1 segment : ɭ
+- r [`r nrow(dplyr::filter(dfMaNewRAnal,phoneR == "r"))` mot(s)]: 3 segments : r r̝ r̥  (on'n a pas pris en compte r r̥)
+- ɹ [`r nrow(dplyr::filter(dfMaNewRAnal,phoneR == "ɹ"))` mot(s)]: 3 segments : ɹ d͡ɹ̝ ɹ̝
+- ɻ [`r nrow(dplyr::filter(dfMaNewRAnal,phoneR == "ɻ"))` mot(s)]: 2/3 segments : ɻ  ɻ̩ː (ɻ̩)
+- ɽ [`r nrow(dplyr::filter(dfMaNewRAnal,phoneR == "ɽ"))` mot(s)]: 2/3 segment : ɻɽ  ɽ   ɽ̥
+- ɾ [`r nrow(dplyr::filter(dfMaNewRAnal,phoneR == "ɾ"))` mot(s)]: 1 segment : ɾ
+- ʃ [`r nrow(dplyr::filter(dfMaNewRAnal,phoneR == "ʃ"))` mot(s)]: 1 segment : ʃ
+- ʐ [`r nrow(dplyr::filter(dfMaNewRAnal,phoneR == "ʐ"))` mot(s)]: 4 segments : ʐ  ɖ͡ʐ  ʐ̞   ʐʂ
+- ʂ [`r nrow(dplyr::filter(dfMaNewRAnal,phoneR == "ʐ"))` mot(s)]: 1 segment : ʂ   ʂʐ
+
+### Graphe pour le mapudungun
+
+```{r}
+mapu_rhotics <- readr::read_csv("Data_graphes/mapu_rhotics.csv", col_names = FALSE) %>% 
+  dplyr::mutate(X2 = ifelse((X1!=X2 & X1 != "<r>") | (X1==X2 & X1 != "<r>"),
+                            paste0("[",X2,"]"),X2))
+
+
+GRAPH3<- igraph::graph.data.frame(mapu_rhotics,directed = FALSE)
+GRAPH3 <- igraph::simplify(GRAPH3, remove.loops = TRUE)
+```
+
+```{r fig.width=10, fig.height=10}
+plot(GRAPH3,
+       vertex.shape="none",
+       vertex.label.color="black",
+       vertex.label.cex=2,
+       vertex.size = 2,
+       edge.arrow.size=0.20,
+       edge.curved = 0.2)
+```
+
+Graphe des différentes réalisations de la rhotique dans les variétés mapudungun à partir des données de Sound Comparisons. Le graphe est obtenu avec le package igraph (Csardi et Nepusz 2006).
+
+### Cartes pour le mapudungun
+
+```{r}
+load("Data_2_anal/dfMa23RAnal.RData")
+```
+
+```{r}
+dfMa23RAnal_2_bis <- dfMa23RAnal %>%
+  dplyr::group_by(LanguageId,LanguageName,Latitude,Longitude) %>%
+  dplyr::count(phoneR) %>%
+  dplyr::mutate(Nrow = sum(n)) %>% 
+  dplyr::ungroup() %>% 
+  tidyr::spread(key=phoneR,value=n,fill=0) 
+```
+
+```{r}
+data_mapudungun_1 <- dfMa23RAnal_2_bis %>% 
+  dplyr::select(LanguageId,LanguageName,Latitude,Longitude,Nrow,
+                `0`, `j`, `ɽ`, `ʐ`, `ɻ`,`ɭ`,`ʃ`, `r`, `ɾ`, `ɹ`,`l`)  
+```
+
+```{r fig.cap=capFig("Distribution des différentes réalisations dans les variétés mapudungun étudiées."), fig.width=13, fig.height=6}
+base_world +
+       scatterpie::geom_scatterpie(ggplot2::aes(x=Longitude,
+                                                y=Latitude,
+                                                group=LanguageName,
+                                                r=0.2),
+                                    data=data_mapudungun_1,
+                                   cols=names(data_mapudungun_1[6:16])) +
+  ggplot2::coord_cartesian(ylim= c(-45,-35) ,xlim= c(-80,-60)) +
+  ggplot2::scale_fill_viridis_d(name = "Réalisations") +
+  ggplot2::theme(legend.title = ggplot2::element_text(size = 26),
+                 legend.text = ggplot2::element_text(size = 22))
+```
+
+Distribution des différentes réalisations dans les variétés mapudungun étudiées.
+
+```{r}
+data_mapudungun_3 <- dfMa23RAnal_2_bis %>% 
+  dplyr::group_by(LanguageId,LanguageName,Latitude,Longitude,Nrow) %>% 
+  dplyr::transmute(Trill = r,
+                   Tap = ɾ,
+                   Autre = sum(`0`, `j`, `ɽ`, `ʐ`, `ɻ`,`ɭ`,`ʃ`, `ɹ`,`l`)   ) %>% 
+  dplyr::select(LanguageId,LanguageName,Latitude,Longitude,Nrow,Autre,Tap,Trill)
+```
+
+```{r fig.cap=capFig("Distribution des différentes réalisations dans les variétés mapudungun étudiées en ne s’intéressant qu’à la dichotomie entre trill et tap (et les autres segments)."), fig.width=13, fig.height=6}
+base_world +
+       scatterpie::geom_scatterpie(ggplot2::aes(x=Longitude,
+                                                y=Latitude,
+                                                group=LanguageName,
+                                                r=0.2),
+                                    data=data_mapudungun_3,
+                                   cols=names(data_mapudungun_3[6:8])) +
+  ggplot2::coord_cartesian(ylim= c(-45,-35) ,xlim= c(-80,-60)) +
+  ggplot2::scale_fill_viridis_d(name = "Réalisations") +
+  ggplot2::theme(legend.title = ggplot2::element_text(size = 26),
+                 legend.text = ggplot2::element_text(size = 22))
+```
+
+Distribution des différentes réalisations dans les variétés mapudungun étudiées en ne s’intéressant qu’à la dichotomie entre trill et tap (et les autres segments).
+
+```{r}
+data_mapudungun_4 <- dfMa23RAnal_2_bis %>% 
+  dplyr::group_by(LanguageId,LanguageName,Latitude,Longitude,Nrow) %>% 
+  dplyr::transmute(Trill = r,
+                   Tap = ɾ,
+                   Autre = sum(`0`, `j`, `l`, `ɭ`, `ɹ`, `ɻ`, `ɽ`, `ʃ`, `ʐ`))  %>% 
+  dplyr::filter(Nrow > max(dfMa23RAnal_2_bis$Nrow)/3) %>% 
+  dplyr::select(LanguageId,LanguageName,Latitude,Longitude,Nrow,Autre,Trill,Tap) %>% 
+  dplyr::mutate(Autre = Autre/Nrow,
+                Trill = Trill/Nrow,
+                Tap = Tap/Nrow,
+                LanguageId = format(LanguageId, scientific = FALSE)) %>% 
+  dplyr::mutate(Family = stringr::str_extract(LanguageId,"(?<=\\d{0})\\d{2}"),
+                Language = stringr::str_extract(LanguageId,"(?<=\\d{2})\\d{2}"),
+                Variety = stringr::str_extract(LanguageId,"(?<=\\d{4})\\d{2}"),
+                Accent = stringr::str_extract(LanguageId,"(?<=\\d{6})\\d{2}"),
+                LangVar = stringr::str_extract(LanguageId,"(?<=\\d{2})\\d{4}"),
+                Proto = stringr::str_detect(LanguageId,"(?<=\\d{6})0{4}1")) %>% 
+  dplyr::filter(Proto == FALSE)
+```
+
+
+```{r fig.cap=capFig("Fréquences du trill et du tap dans les variétés mapudungun. Seuls les variétés où au moins 1/3 des transcriptions ont été faites sont incluses. Les langues reconstruites ont aussi été exclues."), fig.width=15, fig.height=7}
+data_mapudungun_4 %>% 
+  dplyr::mutate(Trill1 = Trill) %>% 
+  tidyr::gather(key='phoneme',value='freq',Trill,Tap) %>% 
+  ggplot2::ggplot(ggplot2::aes(x = reorder(LanguageName,-Trill1), y = freq, fill=phoneme)) +
+  ggplot2::geom_bar(stat='identity', position="dodge") +
+  ggplot2::theme_bw(base_size=20) +
+  ggplot2::theme(axis.text.x = ggplot2::element_text(angle = 90, hjust=1))  +
+  ggplot2::labs(y  = "Fréquences du r et du ɾ", x = "Variétés" ) +
+  ggplot2::scale_fill_viridis_d(name = "Réalisations") 
+```
+
+Fréquences du trill et du tap dans les variétés mapudungun. Seuls les variétés où au moins 1/3 des transcriptions ont été faites sont incluses. Les langues reconstruites ont aussi été exclues.
+
+La fréquence maximum pour le trill est de `r round(max(data_mapudungun_4$Trill),2)` pour le `r data_mapudungun_4$LanguageName[data_mapudungun_4$Trill==max(data_mapudungun_4$Trill)]`. En supprimant les variétés sans aucun trill, la moyenne de la fréquence du trill est à `r round(mean((dplyr::filter(data_mapudungun_4,Trill > 0))$Trill),2)`, sa médiane à `r round(median((dplyr::filter(data_mapudungun_4,Trill > 0))$Trill),2)` et son écart inter-quartile (entre le premier quartile et le troisième) de `r round(IQR((dplyr::filter(data_mapudungun_4,Trill > 0))$Trill),2)`. Pour le tap, dans les variétés où on a des trills, sa fréquence moyenne est à `r round(mean((dplyr::filter(data_mapudungun_4,Trill > 0))$Tap),2)`, sa fréquence médiane est à `r round(median((dplyr::filter(data_mapudungun_4,Trill > 0))$Tap),2)` et son écart inter-quartile est de `r round(IQR((dplyr::filter(data_mapudungun_4,Trill > 0))$Tap),2)`.
+
+```{r}
+readr::read_csv("table/productions_trill_mapudungun.csv") %>% knitr::kable()
+```
 
 # Références
 
