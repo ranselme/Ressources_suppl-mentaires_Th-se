@@ -4,7 +4,8 @@
 # Utilisation de GGplot2 pour les cartes.
 
 world_map <- ggplot2::map_data("world") %>% 
-              dplyr::filter(region != "Antarctica")
+  dplyr::filter(region != "Antarctica")
+
 
 basic4map <- ggplot2::ggplot() + 
   ggplot2::coord_fixed() +
@@ -17,8 +18,8 @@ base_world <- basic4map +
                         ggplot2::aes(x=long,
                                      y=lat,
                                      group=group), 
-                        colour="grey",
-                        fill="grey") +
+                        colour="gray",
+                        fill="gray") +
   ggplot2::theme(panel.background = ggplot2::element_rect(
     size = 0.5,
     linetype = "solid"),
@@ -29,8 +30,7 @@ base_world <- basic4map +
     panel.grid.minor = ggplot2::element_line(
       size = 0.25,
       linetype = 'solid',
-      colour = "gray90")) +
-  ggplot2::labs(title = "World map of Sounds")
+      colour = "gray90")) 
 
 rm(basic4map)
 
