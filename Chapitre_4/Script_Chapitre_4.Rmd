@@ -20,6 +20,7 @@ editor_options:
 
 library(knitr)
 
+library(tidyr)
 library(dplyr)
 library(ggplot2)
 library(readr)
@@ -1298,7 +1299,9 @@ Fréquences du trill et du tap dans les variétés mapudungun. Seuls les variét
 La fréquence maximum pour le trill est de `r round(max(data_mapudungun_4$Trill),2)` pour le `r data_mapudungun_4$LanguageName[data_mapudungun_4$Trill==max(data_mapudungun_4$Trill)]`. En supprimant les variétés sans aucun trill, la moyenne de la fréquence du trill est à `r round(mean((dplyr::filter(data_mapudungun_4,Trill > 0))$Trill),2)`, sa médiane à `r round(median((dplyr::filter(data_mapudungun_4,Trill > 0))$Trill),2)` et son écart inter-quartile (entre le premier quartile et le troisième) de `r round(IQR((dplyr::filter(data_mapudungun_4,Trill > 0))$Trill),2)`. Pour le tap, dans les variétés où on a des trills, sa fréquence moyenne est à `r round(mean((dplyr::filter(data_mapudungun_4,Trill > 0))$Tap),2)`, sa fréquence médiane est à `r round(median((dplyr::filter(data_mapudungun_4,Trill > 0))$Tap),2)` et son écart inter-quartile est de `r round(IQR((dplyr::filter(data_mapudungun_4,Trill > 0))$Tap),2)`.
 
 ```{r}
-readr::read_csv("table/productions_trill_mapudungun.csv") %>% knitr::kable()
+readr::read_csv("table/productions_trill_mapudungun.csv") %>% 
+  dplyr::mutate_if(is.character, ~tidyr::replace_na(., "")) %>% 
+  knitr::kable()
 ```
 
 # Références

@@ -1,7 +1,7 @@
 Ressources complémentaires - Chapitre 4
 ================
 Rémi Anselme
-2022-12-08 23:46:56
+2022-12-09 10:15:51
 
   - [Chapitre 4](#chapitre-4)
       - [Préparation des données](#préparation-des-données)
@@ -1673,7 +1673,9 @@ variétés où on a des trills, sa fréquence moyenne est à 0.01, sa
 fréquence médiane est à 0 et son écart inter-quartile est de 0.
 
 ``` r
-readr::read_csv("table/productions_trill_mapudungun.csv") %>% knitr::kable()
+readr::read_csv("table/productions_trill_mapudungun.csv") %>% 
+  dplyr::mutate_if(is.character, ~tidyr::replace_na(., "")) %>% 
+  knitr::kable()
 ```
 
     ## Rows: 17 Columns: 6
@@ -1686,23 +1688,23 @@ readr::read_csv("table/productions_trill_mapudungun.csv") %>% knitr::kable()
 
 | Mapudungun | Truf Truf         | San Pablo    | Zapala         | Cunco                | Mariquina      |
 | :--------- | :---------------- | :----------- | :------------- | :------------------- | :------------- |
-| are        | \[ɐ̝.rë.ˈlëj\]  | NA           | NA             | NA                   | NA             |
-| foro       | \[fö.ˈrö\]      | \[fö.rr̥ʊ\] | NA             | NA                   | NA             |
-| karü       | \[kɐ̝rː\]         | NA           | NA             | NA                   | NA             |
-| kura       | \[kʊ.ˈrɐ̝\]       | NA           | NA             | NA                   | NA             |
-| kuram      | \[kʊ.ˈrɐ̝m\]      | NA           | NA             | NA                   | NA             |
-| kure       | \[kʊ.ˈr̝ë\]      | NA           | NA             | NA                   | NA             |
-| kurü       | \[kʊ.ˈr̝ɘ\]       | NA           | NA             | NA                   | NA             |
-| mara       | \[ˈmɐ̝.rɐ̝\]      | NA           | \[mɐ̝.ˈrɐ̝\]   | NA                   | NA             |
-| mari       | \[ˈmɐ̝.r̝ɪ\]      | NA           | NA             | NA                   | NA             |
-| narki      | NA                | NA           | NA             | NA                   | \[ˈnɐ̝r.cʰɪ̥\] |
-| ngen ruka  | \[ˌɲën ˈrʊ.kɐ̝\] | NA           | NA             | NA                   | NA             |
-| ngürü      | NA                | \[ˈŋɘ.rɘ\]   | NA             | NA                   | NA             |
-| pura       | \[ˈpʊ.rɐ̝\]       | NA           | NA             | NA                   | NA             |
-| regle      | \[ˈrë.lë\]      | NA           | NA             | NA                   | NA             |
-| rüpü       | \[ˈr̝ɘ.pɘ\]       | NA           | NA             | NA                   | NA             |
-| warangka   | NA                | NA           | NA             | \[ᵑɡwɐ̝.r̥ɐ̝ŋ.kʰɐ̝\] | NA             |
-| waria      | \[wɐ̝.ˈrɪ.ɐ̝\]    | NA           | \[ˈwɐ̝.rɪ.ɐ̝\] | NA                   | NA             |
+| are        | \[ɐ̝.rë.ˈlëj\]  |              |                |                      |                |
+| foro       | \[fö.ˈrö\]      | \[fö.rr̥ʊ\] |                |                      |                |
+| karü       | \[kɐ̝rː\]         |              |                |                      |                |
+| kura       | \[kʊ.ˈrɐ̝\]       |              |                |                      |                |
+| kuram      | \[kʊ.ˈrɐ̝m\]      |              |                |                      |                |
+| kure       | \[kʊ.ˈr̝ë\]      |              |                |                      |                |
+| kurü       | \[kʊ.ˈr̝ɘ\]       |              |                |                      |                |
+| mara       | \[ˈmɐ̝.rɐ̝\]      |              | \[mɐ̝.ˈrɐ̝\]   |                      |                |
+| mari       | \[ˈmɐ̝.r̝ɪ\]      |              |                |                      |                |
+| narki      |                   |              |                |                      | \[ˈnɐ̝r.cʰɪ̥\] |
+| ngen ruka  | \[ˌɲën ˈrʊ.kɐ̝\] |              |                |                      |                |
+| ngürü      |                   | \[ˈŋɘ.rɘ\]   |                |                      |                |
+| pura       | \[ˈpʊ.rɐ̝\]       |              |                |                      |                |
+| regle      | \[ˈrë.lë\]      |              |                |                      |                |
+| rüpü       | \[ˈr̝ɘ.pɘ\]       |              |                |                      |                |
+| warangka   |                   |              |                | \[ᵑɡwɐ̝.r̥ɐ̝ŋ.kʰɐ̝\] |                |
+| waria      | \[wɐ̝.ˈrɪ.ɐ̝\]    |              | \[ˈwɐ̝.rɪ.ɐ̝\] |                      |                |
 
 # Références
 
@@ -1725,6 +1727,7 @@ ins.pack %>% knitr::kable()
 | readr      | 2.1.2   |
 | ggplot2    | 3.4.0   |
 | dplyr      | 1.0.10  |
+| tidyr      | 1.2.1   |
 | knitr      | 1.41    |
 
 ## Version de RStudio
