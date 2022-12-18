@@ -1,0 +1,48 @@
+---
+title: "Ressources complémentaires - Chapitre 6"
+author: "Rémi Anselme"
+date: "`r Sys.time()`"
+output:
+  github_document:
+    toc: yes
+    toc_depth: 6
+  html_document:
+    toc: yes
+    toc_depth: '6'
+    df_print: paged
+editor_options:
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+
+#remotes::install_version("ngramr","1.7.5")
+
+`%>%` <- magrittr::`%>%`
+
+library(ngramr)
+library(knitr)
+
+# Figure and Table caption adapted from https://stackoverflow.com/questions/37116632/rmarkdown-html-number-figures: 
+outputFormat = opts_knit$get("rmarkdown.pandoc.to"); # determine the output format of the document
+if( is.null(outputFormat) ) outputFormat = ""; # probably not run within knittr
+capTabNo = 1; capFigNo = 1; # figure and table caption numbering, for HTML do it manually
+#Function to add the Table Number
+capTab = function(x){
+  if(outputFormat == 'html'){
+    x = paste0("***Table ",capTabNo,".*** _",x,"_")
+    capTabNo <<- capTabNo + 1
+  }; x
+}
+#Function to add the Figure Number
+capFig = function(x){
+  if(outputFormat == 'html'){
+    x = paste0("***Figure ",capFigNo,".*** _",x,"_")
+    capFigNo <<- capFigNo + 1
+  }; x
+}
+```
+
+# Chapitre 6
+
+**Les ressources supplémentaires du Chapitre 6 sont en cours de mise au propre et seront mis en ligne prochainement.**
