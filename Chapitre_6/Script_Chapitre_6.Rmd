@@ -16,12 +16,10 @@ editor_options:
 
 ```{r setup, include=FALSE}
 
-#remotes::install_version("ngramr","1.7.5")
-
 `%>%` <- magrittr::`%>%`
 
-library(ngramr)
 library(knitr)
+
 
 # Figure and Table caption adapted from https://stackoverflow.com/questions/37116632/rmarkdown-html-number-figures: 
 outputFormat = opts_knit$get("rmarkdown.pandoc.to"); # determine the output format of the document
