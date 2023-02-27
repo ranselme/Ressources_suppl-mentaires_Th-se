@@ -8770,3 +8770,2002 @@ show_lang('Swahili')$Form
 rough_r_data <- rough_r_data %>% 
   dplyr::mutate(revision = ifelse(Language=="Swahili",'trilled',revision))
 ```
+
+
+### Tarifiyt Berber
+
+```{r}
+show_lang('Tarifiyt Berber')
+show_comments('Tarifiyt Berber')
+```
+
+Trill : yes  
+R_type : trill  
+
+Dataset :   
+  CLICS, no comments  
+
+Phoible :   
+https://phoible.org/inventories/view/123  
+  - r͈ː	allophones	r͈ː; rˤ allophones rˤ; r allophones	ɹ r̩ r  
+
+Applegate, Joseph R. 1958. An Outline of the Structure of Shilha. New York: American Council of Learned Societies.  
+  - Page 4 : /r/ included a variety of trills.  
+             [r_2] occurs in /+rV/. After /#/ it is preceded by a short glottal stop.  
+             [r_1] occurs in /VrV/ or /VrC/ (provided the consonant is a stop)  
+             [ɹ] occurs before fricatives and nasals. It also occurs before /+/ when there is no drop in tone.  
+             [r̩] syllabic occurs in /+rC/. The syllabic quality of this allophone is due to [^ə] which always occurs with it. This [^ə] sometimes seems to be whispered and may be overshadowed by the trill.  
+             [rʼ] a domain trill occurs with /*/  
+   - Page 8 : With /r/, the distribution is again complementary; the voiceless stops do not form clusters with this phoneme, while the voiced stops do.  
+   - Page 15 : VC1VC1 > VC1V ~ VC1C1V > VC1V  
+This change is found in the verbal affixes /ar-/ (progressive) and /ra-/ (future). When these morphemes occur after /ur-/ (negative) the second consonant is dropped.  
+    E.g., /ratfrat/,'you will enjoy', /uratfraht/ 'you will not enjoy'; /aritfrat/ 'he is enjoying', /uraitfraht/ 'he is not enjoying'.  
+
+Wikipedia :   
+https://en.wikipedia.org/wiki/Tarifit  
+  - Flap ɾ ɾˤ   
+  - postvocalic /r/ preceding a consonantal coda is dropped, as in taddart (house/home) → taddaat. Thus in tamara the /r/ is conserved because it precedes a vowel.  
+
+Glottologue :  
+https://glottolog.org/resource/languoid/id/tari1263  
+
+Autres sources :  
+https://clics.clld.org/languages/wold-TarifiytBerber    
+  Recherches : r -> 519 entries (filtered from 1,680 total entries)  
+               rr -> 67 entries (filtered from 1,680 total entries)  
+
+Ridouane, R. (2014). Tashlhiyt Berber. Journal of the International Phonetic Association, 44(2), 207-221.  
+  - Page 208 : Tap r rˤ  
+  - Page 210 : Tashlhiyt has eight sonorant consonants: labial and coronal nasals /m mː n nː/, and liquids /r rː l lː/. These consonants can occur in all word positions. /r/ is often produced as a tap [ɾ] with a single contact between the tongue and the alveolar ridge. Its geminate counterpart is always produced as a trill [rː]. The taps of the alveolar trill are almost always accompanied by short, central vocoids (Coleman 2001).  
+
+J'avais analysé les audios associé à l'article et il y avait des trills et des taps autant la liste de mots que dans la narrative.  
+
+```{r}
+show_lang('Tarifiyt Berber')$Form
+```
+
+Sur la base Ridouane, je mets 'OUT'.  
+
+```{r}
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Tarifiyt Berber",'OUT',revision))
+```
+
+
+### Malagasy
+
+```{r}
+show_lang('Malagasy')
+show_comments('Malagasy')
+```
+
+Trill : yes  
+R_type : trill  
+
+Dataset :   
+  Google, no comments  
+
+Phoible :   
+https://phoible.org/languages/plat1254  
+2 inventaires  
+  - SPA ɾ allophones r ɾ;	ɖr̠	 allophones ɖr̠ ;	ɳɖr̠  allophones	ɳɖr̠ ; ɳʈr̠̥  allophones	ɳʈr̠̥ ; ʈr̠̥  allophones	ʈʂ͇ ʈr̠̥  
+  - UPSID	r̪|r pas d'allophones ;	ʈɹ̠̥  pas d'allophones ; ɖr̠͓ pas d'allophones  
+
+
+Dyen, Isadore. 1971. Malagasy. In Sebeok, Thomas A. (ed.), Linguistics in Oceania, 211–239. The Hague: Mouton.  
+  - Page 213 : alveolar retroflex r  
+
+Dahl, Otto Christian. 1952. 'Etude de phonologie et de phonétique malgache. Norsk Tidsskrift for Sprogvidenskap 16. 148–200. -> Pas trouvé  
+
+Wikipedia :   
+https://en.wikipedia.org/wiki/Malagasy_language  
+  - Trill r ⟨r⟩   
+  - The reported postalveolar trilled affricates /ʈʳ ᶯʈʳ ɖʳ ᶯɖʳ/ are sometimes simple stops, [ʈ ᶯʈ ɖ ᶯɖ], but they often have a rhotic release, [ʈɽ̊˔ ᶯʈɽ̊˔ ɖɽ˔ ᶯɖɽ˔]. It is not clear if they are actually trilled, or are simply non-sibilant affricates [ʈɻ̊˔ ᶯʈɻ̊˔ ɖɻ˔ ᶯɖɻ˔]. However, in another Austronesian language with a claimed trilled affricate, Fijian, trilling occurs but is rare, and the primary distinguishing feature is that it is postalveolar.[28] The Malagasy sounds are frequently transcribed [ʈʂ ᶯʈʂ ɖʐ ᶯɖʐ], and that is the convention used in this article.   
+  
+Glottologue :  
+https://glottolog.org/resource/languoid/id/plat1254  
+
+Autres sources :  
+https://clics.clld.org/languages/wold-Malagasy  
+  - Recherches : 618 entries (filtered from 1,678 total entries)  
+
+Howe, P. (2021). Central Malagasy. Journal of the International Phonetic Association, 51(1), 103-136.  
+  - Page 3 : Trill/Flap r/ɾ  
+  - Page 11 : The phoneme /r/ may occur as a short alveolar trill in most dialects, including Merina, but is often reduced to an alveolar tap [ɾ] in fast speech (O’Neill 2015: 37, citing Albro 2005). Although it has been claimed that realization of /r/ is contextual, with the trill occurring in initial position and the tap occurring elsewhere (O’Neill 2015, citing Thomas-Fattier 1982), speakers in the current dataset produce either allophone in either context. For exam-  
+ple, Betsileo speaker JR4 produces trills initially and medially in the following: rano  ‘water’, atoraka ‘to be thrown’. Betsileo/Merina speaker HR2 produces an initial trill in ritsa ‘evaporated’ and a devoiced medial trill in tery ‘narrow’, but a medial tap in orana ‘rain’. As mentioned above, speakers whose /r/ is prominently trilled sometimes, though not always, produce orthographic sequences dr and tr (and ndr and ntr) as stop–trill combinations rather than as affricates.  
+Whereas the trill variant is common in Betsileo, many bilingual speakers in Antananarivo use a more retracted, fricated variant for /r/; as suggested by Rakotofiringa (1982: 544–545), this is due to influence from French. Rakotofiringa (1982) indicated that these speakers use a voiced uvular trill [ʀ] for this phoneme; I have observed use of the uvular fricatives [χ] and [ʁ], mirroring the French sound. For example, speaker ALJM uses uvular fricatives in the following: rano ‘water’, ritra ‘evaporated’, torana ‘unconscious’.  
+
+J'avais analysé les audios associé à l'article et il y avait des trills et des taps autant la liste de mots que dans la narrative.  
+
+```{r}
+show_lang('Malagasy')$Form
+```
+
+```{r}
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Malagasy",'trilled',revision))
+```
+
+
+### Zinacantán Tzotzil
+
+```{r}
+show_lang('Zinacantán Tzotzil')
+show_comments('Zinacantán Tzotzil')
+```
+
+Trill : yes  
+R_type : trill  
+
+Dataset :   
+  CLICS, no comments  
+
+Phoible :   
+https://phoible.org/inventories/view/1079  
+  - r allophones r  
+
+Shklovsky, Kirill. 2005. Person Marking in Petalcingo Tzeltal. (Doctoral dissertation, Reed College).  
+  - Page 9 : Rhotics /r/  
+  - Page 10 : Two of the phones listed above have a rather marginal status: the rhotic /r/ and the bilabial  
+approximant /w/. The rhotic appears in very few roots, and as the “native” pronunciations of some loan words indicate, its distribution may be severely restricted. For example, it seems that it cannot appear word-finally. The following example shows a loanword, and its standard pronunciation in Petalcingo:  
+              (2) poder -> [porel]  
+  
+            The 1st-person ergative exclusive morpheme sometimes features a /r/ phone and sometimes not, even with the same speaker.  
+
+  => No mention of trill  
+
+Wikipedia :    
+https://en.wikipedia.org/wiki/Tzotzil_language  
+  - Flap ɾ ⟨r⟩   
+
+Fernández Gómez, Martínez Valladares, Moreira Sendón, 2001, El Tzotzil Zinacanteco: Resumen gramatical  
+  - Page 4 : vibrante simple r  
+  - Page 5 : La r en tzotzil nunca se pronuncia como la rr  
+española. Esto sólo ocurre en los préstamos del español que llevan rr, y con frecuencia equivalen a una r, d o rr.  
+
+Glottologue :  
+https://glottolog.org/resource/languoid/id/tzot1259  
+
+Haviland, John. 2001. Tzotzil grammar. Downloaded from http://www.zapata.org/Tzotzil/. [lien qui ne fonctionne plus donc utilisation de web archive]  
+http://web.archive.org/web/20060822092808/http://www.zapata.org/Tzotzil/Chapters/chapt1.html#1.3  
+  - Approximants: l (r) y  
+  - The Tzotzil r is never pronounced as the spanish trill rr. The latter occurs only in Spanish loan words with rr:  
+        karo car  
+    The letter r occurs in very few native words, but in loan words it is frequently equivalent to d, r, and rr:  
+        krem 	boy  
+        roxa 	rose  
+        ryox 	God  
+        reva 	language  
+        roston 	fifty centavo piece  
+        Romin 	Domingo (proper noun)   
+
+Autres sources :  
+https://clics.clld.org/languages/wold-ZinacantanTzotzil  
+  Recherches : r -> 109 entries (filtered from 1,412 total entries)  
+  
+```{r}
+show_lang('Zinacantán Tzotzil')$Form
+```
+
+On pourrait mettre 'OUT' mais on choisit de mettre 'other' car le phonème n'est pas un trill.  
+
+```{r}
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Zinacantán Tzotzil",'other',revision))
+```
+
+### Bunak, Bobonaro
+
+```{r}
+show_lang('Bunak, Bobonaro')
+show_comments('Bunak, Bobonaro')
+```
+
+Trill : yes  
+R_type : trill  
+
+Dataset :   
+  CLICS, Schapper, Antoinette (2009). Bunaq: a Papuan language of central Timor (Ph.D. thesis)  
+  
+Antoinette (2009). Bunaq: a Papuan language of central Timor (Ph.D. thesis)  
+  - Page 29 : Papua-Austronesian phonology compared  
+              Liquids  Austronesian: r!=l Papuan: r==l Bunaq: r!=l  
+  - Page 39 : Trill r  
+              Minimal pair: l ~ r  
+  - Page 41 : Word-medially /d/ is realised with the trill allophone [r], word initially the trill and stop realisations are in free variation. Speakers seem largely unaware of the stop ~ rhotic alternation, varying in their realizations of the phoneme for one and the same lexical item within a single utterance. The distribution of the allophones of /d/ is recapitulated in Table 2.7.  
+              Table 2.7: Allophony of /d/  
+                         Allophone       Environment  
+                        [d] ~ [r]        /#_  
+                              [r]        / V_V  
+                The initial stop allophone is undergoing attrition being found mainly in the speech of conservative, older males. The complete merger of d > r has, however, been held back by a strong dispreference on the repetition of [r]. Sequences of two rhotics are avoided by speakers such that a small subset of words shows only stop realizations initially with no rhotic realisations being recorded. Listed in (6), these items are characterized by an adjacent [r].  
+    - Page 42 : /dar/  ‘lay out for sale’   [dar]     [*rar]  
+                /dada/ ‘erect, prepare’     [dara]    [?rara]  
+                /dade/ ‘all sorts’          [dare]    [?rare]  
+                /dadi/ ‘happen,succeed’     [dari]    [*rari]  
+                /dado/ ‘until’              [daro]    [*raro]  
+                /dida/ ‘fuse a knife blade’ [dira]    [*rira]  
+                /didaʔ/‘dew ’               [diraʔ]   [*riraʔ]  
+ 
+                The dispreference for sequences of the rhotic trill is not present where another consonant intervenes. As illustrated in (7) with digir ‘lay out for sale’ and doter ‘storm off' speakers accepted realisations with either [d] or [r] initially as well-formed.  
+                /digir/ ‘lay out for sale’  [digir ~ rigir]  
+                /doter/ ‘storm off' [doter ~ roter]  
+Such dissimilation of liquids is a cross-linguistically widely attested process (Alderete and Frisch 2006).  
+                [Alderete, J. D. and S. A. Frisch 2006. 'Dissimilation in grammar and the lexicon' in P. de Lacy The Cambridge Handbook o f Phonology Cambridge: Cambridge University Press 379-398.]  
+  - Page 46 : The distribution of the liquid phonemes /r/ and /l/ is illustrated in Table 2.12. The lateral /l/ is unrestricted. The distribution of /r/ is more complicated. Only a handful of /r/-initial words are evidenced in Bunaq Lamaknen and are for the most part identified as borrowings (see §2.1.4); all other instances of /r/ are final, with medial occurrences of [r] being treated as an allophone of /d/.1  
+                /r/  Initial (/rama/ ‘arrow’) Medial--       Final /por/ ‘holy’  
+                /l/  Initial /Jak/ ‘between’  Medial /tolo/  Final ‘put in’ /pol/ ‘send  
+  - Page 49 : main patterns observed in adapted loans from Tetun Terik and Indonesian/Malay.  
+                Source phoneme            Bunaq phoneme  
+                /d/ & medial /r/      >   /d/ [d~r]  
+                inital /r/            >   /d/ [d~r] or /l/  
+                final /r/             >   /l/ or /r/  
+
+                In Tetun loans with voiced alveolar stop /d/ has been fully adapted to Bunaq native phonology. In accordance with Bunaq allophonic rules, /d/ is realised as with [d~r] initially (19) and as [r] medially (20). Borrowings with medial /r/ are kept as [r] presumably representing underlying /d/.  
+                Tetun                     Bunaq  
+                /dale/ 'party'         >   /dale/  [dale ~ rale]  
+                /deal/ 'commoner'      >   /deal/  [deal ~ real]   
+                /daun/ 'needle'        >   /daun/  [daun- raun]  
+   -Page 50 :   /badak/ 'short'        >   /badak/ [barak]  
+                /tada/ 'know'          >   /tada/  [tara]  
+                /kuda/ 'horse'         >   /kuda/  [kura]  
+  
+In casual speech there is a tendency in borrowings which otherwise show no incorporation for a medial voiced alveolar stop /d/ to be realised as [r], Four instances from the corpus are given in (21). Initially no alternation between [d] and [r] is observed in Indonesian/Malay loans and the few Portuguese loans that Bunaq has (probably through Tetun).  
+                Indonesian/Portuguese      Bunaq  
+                /adat/ ‘custom’         >  [adat ~ arat]  
+                [examples]  
+                Some Tetun loanwords with initial /r/ are incorporated into the Bunaq lexicon with /r/ (22) others as /d/ (22) and still others as /l/ (23). Where /d/ has been used, there has been a back application of the allophonic rule for /d/, whereby speakers recognise that initial [r] is always an allophone of /d/ and therefore shows [d~r] alternation initially.  
+                Tetun                     Bunaq  
+                /rama/  ‘arrow ’        > /rama/ [rama] (*dama)  
+                /redi/  ‘net’           > /redi/ [reri] (*dedi)  
+                /ro/ 'boat'             > /do/   [do ~ ro]  
+                /rose/ 'scrub'          > /dos/  [dos ~ ros]  
+                /rade/ 'duck'           > /lade/ [lare]  
+                /resin/ 'more'          > /lesin/  
+  - Page 51 : Tetun loanwords with a final rhotic /r/ are typically adapted into Bunaq Lamaknen with the liquid phoneme /l/ (25), but some retain /r/ (26).  
+                Tetun                      Bunaq  
+                /bokur/  ‘fat’          > /bokul/  
+                /kahur/  ‘mix’          > /kahul/  
+                /mamar/  ‘soft'         > /mamal/  
+                /hanaur/ ‘burn’         > /hanaul/  
+                /fiar/   ‘believe’      > /piar/  
+                /fetor/  ‘female’       > /petor/  
+  - Page 52 :  For example, speakers struggle to recognise <tada> as a Bunaq orthographic representation of /tada/ because it always surfaces as [tara], hence <tara> is used.  
+
+Phoible : NA  
+
+Wikipedia :   
+https://en.wikipedia.org/wiki/Bunak_language  
+  - Trill r  
+  - Sounds /b d ɡ/ can be heard as [β r ɣ] in intervocalic positions.  
+
+Glottologue :  
+https://en.wikipedia.org/wiki/Bunak_language  
+
+Autres sources :  
+https://clics.clld.org/languages/lexirumah-buna1278-bobon  
+  Recherches : r -> 56 entries (filtered from 669 total entries)  
+  
+Sawardo, Paulus and F. Sanda and H. Jehane and S.H. Nitbani and S. Kusharyanto. 1996. Fonologi, morfologi, dan sintaksis Bahasa Buna. Jakarta: Pusat Pembinaan dan Pengembangan Bahasa, Departemen Pendidikan dan Kebudayaan. xv+84pp.  
+  - Traduit depuis l'indonesian avec Google Traduction depuis mon iPhone   
+  - Page 17 : Bunyi Kontinuan Geletar (Trills) [Bunyi Continiuous Gel (Trills)]  
+              Bahasa Buna memiliki bunyi geletar apiko-alveolar [The buna language has an apico-alveolar vibrating sound]  
+
+```{r}
+show_lang('Bunak, Bobonaro')$Form
+```
+
+```{r}
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Bunak, Bobonaro",'trilled',revision))
+```
+
+### Dela
+
+```{r}
+show_lang('Dela')
+show_comments('Dela')
+```
+
+Trill : yes  
+R_type : trill  
+
+Dataset :     
+  CLICS, https://www.omniglot.com/writing/westernrote.htm    
+
+Phoible : NA    
+
+Wikipedia :   
+https://en.wikipedia.org/wiki/Dela-Oenale_language  
+
+Glottologue :  
+https://glottolog.org/resource/languoid/id/dela1251  
+
+Autres sources :  
+https://clics.clld.org/languages/lexirumah-dela1252  
+  Recherches : r -> 71 entries (filtered from 476 total entries)  
+
+-> https://glottolog.org/resource/languoid/id/rote1234   
+Ingguoe, Leksi S. Y. 2015. Tata Bahasa Rote. Yogyakarta: Deepublish. xviii+209pp.  
+https://books.google.fr/books?hl=en&lr=&id=IQU3CAAAQBAJ&oi=fnd&pg=PR7&dq=2015+%22Tata+Bahasa+Rote%22+pdf&ots=iSkxNnXT6f&sig=q4ciHxvDNNZb49d8z6PHZb6tWUU&redir_esc=y#v=onepage&q&f=false  
+  - Traduit de l'Indonesien depuis Google Traduction avec mon iPhone  
+  - Page 21 : According to Fanggidaej (1892) the Rote language has 14 consonant phonemes, namely /b/, /d/, /f/, /h/, /k/, /l/, /m/, /n/, /nd/, /ng /, /ng/, /p/, /s/, and /t/. Fanggidae et al. (1998) suggested that there are 15 consonants in the Rote language, namely /b/, /p/, /m/, /d/, /t/, /n/, /f/, /v/, /s/, / r/, /l/, /k/, /n/, /?/ and /h/ (Fanggidae et al, 1998:17). While Balukh (2007: xvi) states that in consonants there are 12 consonant sounds: [b], [p], [m], [f], [d], [t], [n], [l], [s], [k], [n], [?]; 3 semi-vowels: [y], [w], and [h]; and 3 prenasal: [mb], [nd], and [ng]  
+  Some dialects do not recognize a certain sound, while other dialects recognize that sound. For example sound prenasal [ng] in bonggi lahir 'used by some dialects in western Rote, in central Rote, they use the nasal sound [n] in bongi 'born', while in eastern Rote they use the inhibitory sound [k] in boki 'born'. In addition, there are variations of sound [l] and sound [r] used by different dialects. For example in the words hara [hara] 'voice' and hala [hala] 'voice'. Therefore, according to the author, in Rote Grammar there are approximately 19 consonants.  
+  - Page 22 : Vibrate r   
+  - Page 27 : Consonant Sound [r] word:  
+              The consonant sound [r] is called the alveolar trembling sound. In the distribution there are at the beginning, middle and end of the word. Examples of the initial positions of words: ria [riva] ‘he’, rita [rita] ‘(they) see’, rasó [rasƆ] ‘poison’, ratés [rates] ‘grave’, and reké [reke] ‘count’. Examples are in the middle of the words hara [hara] ‘voice’, sira [sira] ‘they’, feces [feces] ‘heavy’, and héré [herε] ‘choose’. Examples at the end of words: hatahorir [hatahorir] 'people (plural)', mésér [meser] 'teacher (plural)', anggór [angor] 'wine', and iar [iyar] 'this is all'.  
+  - Page 28 : Variations of /r/ and /l/. The phoneme variation /r/ is used in Thie, Oenale, Delha, Ringgou, Oepao, and Landu while the variation /l/ is used in the dialects of Dengka, Lelain, Ba'a, Loleh, Korbaffo, Bokai, Bilba, Diu, Lelenuk, Termanu, Keka , and Talae.  
+  - Page 29 : Variations of /d/, /l/, and /r/. The phoneme /d/ is used in Ba'a, Loleh, Termanu, Keka, Talae, Thie, and Korbaffo. The phoneme /l/ is used in Bokai, Bilba, Diu, Lelenuk, Dengka and Lelain. The phoneme /r/ is used in Ringgou, Oepao, Landu, Oenale and Delha. This variation occurs in the initial and middle positions of the word. For example, daé 'land' becomes laé 'land' and raé 'land'.  
+              Variations of /r/, /l/, /n/, and /nd/. The phoneme variation /r/ is used in Ringgou, Landu, and Oepao. Phoneme /l/ used in Bilba, Diu, Bokai, and Lelenuk. Phoneme /n/ used in Korbaffo,   Termanu, Keka, Talae. Whereas the phoneme /nd/ is used in Ba'a, Loleh, Thie, Dengka and Oenale. This variation occurs in phonemes that are distributed in the middle of the word. For example, the Ringgou people call éré 'soak', in Bilba they call élé 'soak' while in Termanu they use éné 'soak', and Loleh use éndé 'soak'.   
+  - Page 30 : Variations of /nd/, /l/, and /r/. The /nd/ variation is used in Ba'a, Loleh, Thie, Termanu, Keka, Talae, Dengka, Lelain, Delha and Oenale. Variation /l/ is used in Bilba, Diu, Lelenuk and Bokai. The /r/ variation is used in Ringgou, Landu and Oepao. This variation occurs in the phoneme that occupies the initial position of the word.  
+
+https://id.wikipedia.org/wiki/Konsonan_getar_rongga-gigi  
+https://id.wikipedia.org/wiki/Konsonan_sentuhan  
+
+https://ms.wikipedia.org/wiki/Konsonan_tamparan  
+https://ms.wikipedia.org/wiki/Getaran_gusi  
+
+```{r}
+show_lang('Dela')$Form
+```
+
+```{r}
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Dela",'trilled',revision))
+```
+
+### Dhao
+
+```{r}
+show_lang('Dhao')
+show_comments('Dhao')
+```
+
+Trill : yes    
+R_type : trill    
+
+Dataset : 
+ CLICS, https://sil-philippines-languages.org/ical/papers/Grimes-Hawu_Dhao.pdf?_ga=GA1.2.34923686.1554420071&_gid=GA1.2.2128814745.1594140462  
+ 
+Charles E. Grimes. 2010. Hawu and Dhao in eastern Indonesia: revisiting their relationship. In Michael C. Ewing and Marian Klamer (eds.), East Nusantara: typological and areal analyses, 251-280. Canberra: Research School of Pacific and Asian Studies, Australian National University.  
+  - Page 4 : Trill r  
+         cf. Walker (1982)  
+  - Page 9 : Historical sound correspondances with PAN/PMP  
+            *d -> r  
+            *D -> r  
+            *j -> r  
+            *l -> r  
+            
+Phoible : NA  
+
+Wikipedia :   
+https://en.wikipedia.org/wiki/Dhao_language  
+  - Approximant r  
+  => Je ne sais pas pourquoi le r est au même niveau que le l; ce n'est pas le cas dans la version en Indonesien  
+https://id.wikipedia.org/wiki/Bahasa_Dhao  
+  - Getar r  
+  
+Balukh, J. I. (2020). A Grammar of Dhao: An Endangered Austronesian Language in Eastern Indonesia (PhD thesis). Leiden University.  
+  - Page 28 : Trill r  
+  - Page 29 : the trill [r]  
+  - Page 33 : Minimal pairs : /l/ ~ /r/ initial position  
+                              /l/ ~ /r/ medial position  
+  - Page 37 : The liquids, both trill /r/ and /l/, also have complete distribution and have no restriction in taking vowels. Examples of their distribution are presented in Table 2.8 below.  
+
+Glottologue :  
+https://glottolog.org/resource/languoid/id/dhao1237  
+
+Autres sources :  
+https://clics.clld.org/languages/lexirumah-dhao1237  
+  Recherches : r -> 111 entries (filtered from 543 total entries)  
+
+```{r}
+show_lang('Dhao')$Form
+```
+
+```{r}
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Dhao",'trilled',revision))
+```
+
+##Ende
+
+```{r}
+show_lang('Ende')
+show_comments('Ende')
+```
+
+Trill : yes  
+R_type : trill  
+
+Dataset :   
+  CLICS, wiki  
+
+Phoible : NA  
+
+Wikipedia :     
+https://en.wikipedia.org/wiki/Ende_language_(Indonesia)  
+  - Trill r  
+  - Approximant ɹ ⟨rh⟩   
+
+Bradley McDonnell. 2009. A Preliminary Description of Ende Phonology. Journal of the Southeast Asian Linguistics Society II. 195-226.  
+  - Page 198 : Flap/Trill ɾ/r <r>  
+              Approximant ɹ <rh>  
+  - Page 204 :  Trill/flap: The alveolar flap [ɾ] and the alveolar trill [r] are allophones of a single phoneme that can  
+occur as a single flap [ɾ] or multiple flaps, producing a trill [r]. This phoneme, represented as the flap /ɾ/ can occur in all possible consonant positions in the word. The flap /ɾ/ contrasts with voiced and voiceless alveolar stops and the palatal affricate.  
+                /ɾ/ ~ /d/ ngaru /ŋaɾu/ ‘bored’        ngadu /ŋadu/ ‘to look up’  
+                /ɾ/ ~ /Ɂ/ ngara /ŋaɾa/ ‘name’         'ata /Ɂata/ ‘person’  
+                /ɾ/ ~ /ɗ/ koro /koɾo/ ‘chili pepper’  kodho /koɗo/ ‘to watch’  
+                /ɾ/ ~ /nd/ ri'a /ɾiɁa/ ‘good’         ndia /ndia/ ‘here’  
+                /ɾ/ ~ /ʤ/ ngguru /ŋ ɡuɾu/ ‘ring’      ngguju /ŋɡuʤu/ ‘mumble’  
+                /ɾ/ ~ /n/ roko /ɾoko/ ‘to hide’       noko /noko/ ‘skinny’  
+                /ɾ/ ~ /s/ kera /kəɾa/ ‘to shout’      kesa /kəsa/ ‘to increase’  
+                
+  - Page 205 : There are two primary approximants in Ende, the labiovelar approximant /w/ and the alveolar approximant /ɹ/, and one more restricted approximant, the lateral approximate /l/. The two primary approximants, the labiovelar /w/ and the alveolar /ɹ/, both produce a high level of turbulent airflow during articulation. Therefore, these approximant phonemes at first pass sound as if they are fricatives. In fact, the turbulent airflow present on each phoneme in some instances gives rise to allophonic variation between the approximant and the respective fricative. That is, for /w/ there is occasionally allophonic variation between [w] and [ß] and for /v/ there is occasionally allophonic variation between [ɹ] and [z]. The fricative allophonic variants [ß] and [z] arise when the level of turbulence is increased by a  
+more restricted closure between the passive and active articulators, which in turn causes the approximant properties to become convoluted or lost altogether. The environment for allophonic variation between approximants and fricatives is not predictable.  
+  The labiovelar approximant /w/ shows contrast with the approximant alveolar /ɹ/ in all possible consonant positions.  
+  - Page 206 : The alveolar approximant /ɹ/ is produced when the tongue tip is brought close to the alveolar ridge, creating turbulence in the airflow between the tongue tip and the alveolar ridge. As was noted earlier in this section, the alveolar approximant shows a high level of turbulence, which shows a marked contrast with say the English alveolar approximant /ɹ/. The increased turbulence appears to result from the increased level of constriction between the tongue tip and the alveolar ridge. The following contrasting segments establish the alveolar approximant /ɹ/ as a phoneme. The alveolar approximant /ɹ/ contrasts with all of the alveolar stops /d, t, nd, ɗ/.  
+  [examples]  
+  The alveolar approximant /ɹ/ contrasts with the alveolar fricative /s/.  
+  [examples]  
+  The alveolar approximant /ɹ/ also forms a contrast with the palatal affricate /ʤ/.  
+  [examples]  
+  The alveolar approximant /ɹ/ contrasts with the flap /ɾ/ in word-initial and intervocalic positions.  
+  /ɹ/ ~ /ɾ/ rhé'é /ɹeɁe/ ‘sharp’ ré'é /reɁe/ ‘bad’  
+            ngara /ŋaɾa/ ‘name’ ngarha /ŋaɹa/ ‘can’  
+  - Page 207 : The lateral /l/ is far more common in Lio than in Ende. Cognates that occur in Lio with the lateral /l/ occur in Ende as the alveolar approximant /ɹ/. For instance, lawo ‘sarong’ in Lio forms a cognate rhawo ‘sarong’ in Ende, and the Lio numeral telu ‘three’ is a cognate with the Ende terhu ‘three’.5 In spite of numerous cognates, there is still a small subset of Ende words that contain /l/ that have no /ɹ/ equivalent. Therefore, the lateral approximant /l/ is considered a phoneme, even though it is most likely borrowed from Lio. The lateral /l/ contrasts with the alveolar stop and the palatal affricate phonemes.  
+  Further, the lateral phoneme /l/ contrasts with the alveolar nasal /n/ and flap /ɾ/ phoneme.  
+  /l/ ~ /ɾ/ gela /ɡəla/ ‘glass’ gera /ɡəɾa/ ‘to get angry’  
+  Most important in establishing the lateral approximant as a phoneme is the contrast between the lateral /l/ and the alveolar approximant // in word-initial and intervocalic positions.  
+  /ɹ/ ~ /l/ rho /ɹoː/ ‘body’ lo /loː/ ‘market’  
+            (lala)-lé /leː/ ‘to joke’ arhé /aɹe/ ‘to fly’  
+
+Elias, Alexander (2019). Lio and the Central Flores languages (M.A. thesis). Leiden University.  
+  - Page 78 : RHOTIC ɹ r  
+
+Glottologue :  
+https://glottolog.org/resource/languoid/id/ende1246  
+
+Autres sources :  
+https://clics.clld.org/languages/lexirumah-ende1246  
+  Recherches : r -> 222 entries (filtered from 642 total entries)  
+              Ce qui correspond à (Form in source) :  
+                      ɹ -> 124 entries (filtered from 642 total entries)  
+                      r -> 123 entries (filtered from 642 total entries)   
+
+Agob-Ende-Kawam : [ATTENTION CE N'EST PAS LE MEME ENDE] :    
+https://glottolog.org/resource/languoid/id/agob1244  
+Lindsey, K. L. (2021). Ende. Journal of the International Phonetic Association, 1-21.  
+  - Page 2 : Tap or flap  ɾ ɽ  
+  - Page 3 : Marginal: very few words begin with /R/ in Ende.  
+  - Page 11 : The Ende inventory includes three liquids: an alveolar tap /ɾ/, a retroflex flap /ɽ/, and an alveolar lateral approximant /l/. Ende lacks the palatal lateral approximant /ʎ/ found in Idi and Taeme, which is realized as /ɽ/ or /l/ in cognates (Evans, Lindsey & Schokkin 2019). Unlike the other consonant categories, the liquid consonants are not evenly distributed across phonological contexts. Among the liquids, /ɽ/ is most common word-initially, inter-vocalically, and word-finally, although /ɾ/ approaches the count of /ɽ/ inter-vocalically. The distribution of liquids is more similar in complex onsets and codas, although they are far more common in onsets than in codas. The counts in Table 2 are based on the 2017 Ende dictionary, which included approximately 5000 words. As with the retroflex affricates, the retroflex flap also often has weak retroflexion in its articulation. The following figures provide a near-minimal triplet contrasting intervocalic /ɽ/ with clear retroflexion (Figure 8), less-clear retroflexion (Figure 9), and the alveolar tap (Figure 10).  
+
+```{r}
+show_lang('Ende')$Form
+```
+
+Il y a un contraste entre un trill/flap et une approximante, donc 'OUT', et si on considère que le flap est phonémique, ça devrait être 'other', mais je laisse 'OUT'.  
+
+```{r}
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Ende",'OUT',revision))
+```
+
+### Kedang, Leubatang
+
+```{r}
+show_lang('Kedang, Leubatang')
+show_comments('Kedang, Leubatang')
+```
+
+Trill : yes  
+R_type : trill  
+
+Dataset :   
+  CLICS, wiki  
+
+Phoible : NA  
+
+Wikipedia :   
+https://en.wikipedia.org/wiki/Kedang_language  
+  - There are twenty consonants in the Kédang alphabet. The consonants display different manners of articulation including plosives, nasals, lateral, flap, trill, fricatives and continuant.  
+
+Samely, Ursula (1991). Kedang (Eastern Indonesia): some aspects of its grammar. Hamburg: Buske. -> Pas trouvé  
+  
+Glottologue :  
+https://glottolog.org/resource/languoid/id/keda1252  
+
+Autres sources :  
+
+awardo, Paulus and Hayon, Nico and Sandi Maryanto and Troeboes, and Felysianus Sanga and R. Susamsi. 1989. Fonologi, morfologi, dan sintaksis bahasa Kedang. Jakarta: Departemen Pendidikan dan Kebudayaan. xvi+165pp.  
+  - Traduit depuis l'indonésien avec Google Traduction depuis mon iPhone  
+  - Page 18 : [r] ialah kontoid bersuara, alveolar, getar [is a voiced, alveolar, vibrating, contoid]  
+              Contoh : [example]  
+              [ra.mu] = /ramu/ 'akar' [will]  
+  - Page 28 : /r/ - /w/ : /rai/ 'banyak' [many] /wai/ 'separuh' [half]  
+                          /rei/ 'semua' [all] /wei/ 'air' [water]  
+  - Page 30 : Getar r   
+
+```{r}
+show_lang('Kedang, Leubatang')$Form
+```
+
+```{r}
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Kedang, Leubatang",'trilled',revision))
+```
+
+### Kotos Amarasi
+
+```{r}
+show_lang('Kotos Amarasi')
+show_comments('Kotos Amarasi')
+```
+
+Trill : yes  
+R_type : trill  
+
+Dataset :   
+  CLICS, https://www.cambridge.org/core/services/aop-cambridge-core/content/view/S0025100315000377  
+
+Edwards, O. (2016). Amarasi. Journal of the International Phonetic Association, 46(1), 113-125.  
+  - Page 114 : Trill/Tap r  
+               All consonants, with the exception of /ʤ/ and /ɡ/, appear word-initially, word-medially and  
+word-finally.  
+  - Page 115 : The liquid /r/ is realised as an alveolar trill [r], or a tap [ɾ]. It is usually preceded by a voiceless component phrase-initially, in the speech of at least some speakers.  
+
+[J'avais analysé les audios, il y avait des trills dans la liste de mot, mais pas dans la narrative.]  
+
+Phoible : NA  
+
+Wikipedia :   
+https://en.wikipedia.org/wiki/Amarasi_language  
+  - r [ɾ]/[r]  
+  - Rhotic r  
+
+Glottologue :  
+https://glottolog.org/resource/languoid/id/amar1273  
+
+Autres sources :  
+https://clics.clld.org/languages/lexirumah-koto1251  
+  Recherches : r -> 108 entries (filtered from 663 total entries)  
+
+```{r}
+show_lang('Kotos Amarasi')$Form
+```
+
+```{r}
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Kotos Amarasi",'trilled',revision))
+```
+
+### Adonara Lamaholot
+
+```{r}
+show_lang('Adonara Lamaholot')
+show_comments('Adonara Lamaholot')
+```
+
+Trill : yes  
+R_type : trill  
+
+Dataset :   
+  CLICS, Michels, M (2017) Western Lamaholot: a cross-dialectal grammar sketch. MA Thesis.  
+
+Phoible : NA  
+
+Wikipedia :   
+https://en.wikipedia.org/wiki/Lamaholot_language  
+
+Kroon, Yosep Bisara (2016). A grammar of Solor – Lamaholot: a language of Flores, Eastern Indonesia (Ph.D. thesis). University of Adelaide.  
+  - Page 36 : Trill r
+  - Page 39 : SL has two liquids: lateral /l/ and trill /r/. They can productively appear in both a word-initial and a word-medial position, but rarely occur in a word-final position.  
+
+
+Nagaya, Naonori (2011). The Lamaholot Language of Eastern Indonesia (Ph.D. thesis). Rice University.  
+  - Page 53 : Trill r  
+  - Page 50 : The liquids /l/ and /r/ appear in either word-initial or word-medial position.  
+              /r/ [r] voiced alveolar trill  
+                      [rata?] 'hair'  
+                      [pira] 'how many'  
+  - Page 64 : /r/ vs. /t/  
+                      /d/  
+                      /l/  
+  - Page 78 : Stop + liquid  
+              Fricative + liquid  
+  - Page 85 : * j/* d > r PMP * j and * d became r in some contexts.  
+  - Page 40 : Consonant Minimal Pairs : /l/~/r/  
+
+
+Michels, Marc (2017). Western Lamaholot: a cross-dialectal grammar sketch (Master's thesis). Leiden University.  
+  - Page 20 : Liquid l, r  
+              Two phonemes in this table have a different phonetic value in some dialects. Firstly the palatal glide /j/ is a postalveolar affricate [dZ] in some dialects, and has in one dialect become an alveolar trill [r].  Compare for example Pamakayo kayo [kajo] ’tree’ with its cognate in Lewotobi kajo [kadZoP] (Nagaya 2011, 60). Figure 2.1 shows the spread of these two: [dZ] is prevalent in Southern Lembata and most of the Flores dialects, while [j] is more prominent on Solor and Adonara. Northern Adonara is alone in having developed this phoneme into [r], and the Eastern dialects a different root is used for this concept. The spread of the forms has little to do with the dialectal division shown earlier in Figure 2, rather it seems to have gone across dialect boundaries at a
+later time, and is therefore evidence for Lamaholot as a dialect continuum.  
+              The spread of y [j] versus j [dZ] and r [r] in kayo ’tree’ throughout the Lamaholot area. Based on the lists gathered by Keraf (1978) and the Alorese list by Klamer (2011).   
+  - Page 21 : It can be assumed that [r] on Northern Adonara is an innovation, for economical reasons if nothing else. Between [j] and [dʒ], the former has a more contiguous distribution, so an hypothesis could be that [j] is an innovation which spread from the centre outwards, leaving the original form only at the edges of the continuum. However, upon closer inspection we can see that [dʒ] is the form prevalent in all the politically and economically important coastal settlements: Lohayong and Lamakera on Solor, Lamahala and Waiwerang on Adonara, Lamalera and Lewoleba on Lembata, and the area around Larantuka on Flores. In a dialect continuum innovations usually spread from important population to the hinterlands rather than the other way around, so it is more likely that [j] is the original value and [dʒ] the innovation. Doyle also postulates [j] as the original value (Doyle 2010, 27).  
+            Another salient variation between dialect is the occurrence of /l/ in the syllable onset where the next syllable starts with /r/, such as laran ’road’ or lera ’sun’. In the dialects of Adonara and the dialects of Flores and Solor that are placed in the same group by Grangé (2015) this /l/ has become /r/: raran and rera.  
+
+=> It can be assumed that [r] on Northern Adonara is an innovation, for economical reasons if nothing else : je ne suis vraiment pas sûr de comprendre le 'economical reasons'  
+
+Glottologue :  
+https://glottolog.org/resource/languoid/id/lama1277  
+=> https://glottolog.org/resource/languoid/id/adon1237  
+
+Autres sources :  
+https://clics.clld.org/languages/lexirumah-lama1277-adona  
+  Recherches : r -> 124 entries (filtered from 613 total entries)  
+               rr -> 0 entries (filtered from 613 total entries)  
+               l -> 148 entries (filtered from 613 total entries)  
+  
+Klamer, M. (2011). A short grammar of Alorese (Austronesian). Muenchen: Lincom Europa.  
+  - Page 30 : Trill r  
+  - Page 31 : Phonetic geminates in words uttered in isolation  
+              turu [’tur.ru] ‘lie down, sleep’  
+              
+https://archive.mpi.nl/tla/islandora/object/tla:1839_ff7a3a6b_46a9_4912_9574_b1d9003d6544?asOfDateTime=2019-05-02T11:44:19.397Z : liste de mots mais pas de la même région  
+
+=> CLICS pour Adonara Lamaholot : turu SLEEP turu sleep  
+
+https://catalog.paradisec.org.au/collections/ADR2019/items/WORDLIST001/essences/1268111  
+Dossier Adonara :   
+=> Les r sont roulées (pour une raison que j'ignore sur Praat l'intensité ne fait pas deux creux, mais juste un, mais on voit bien les obstructions).  
+
+https://en.wikipedia.org/wiki/Adonara_language  
+
+```{r}
+show_lang('Adonara Lamaholot')$Form
+```
+
+```{r}
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Adonara Lamaholot",'trilled',revision))
+```
+
+### Central Lembata, Kalikasa
+
+```{r}
+show_lang('Central Lembata, Kalikasa')
+show_comments('Central Lembata, Kalikasa')
+```
+
+Trill : yes  
+R_type : trill  
+
+Dataset :   
+  CLICS, Krauße, Daniel (2016). "A Brief Grammar of the Eastern Atadei Language of Lembata, Indonesia" (PDF). Linguistik Indonesia. 34 (2)  
+
+=> https://en.wikipedia.org/wiki/Lembata  
+=> https://en.wikipedia.org/wiki/East_Atadei_language  
+
+Krauße, Daniel (2016). A Brief Grammar of the Eastern Atadei Language of Lembata, Indonesia. Linguistik Indonesia  
+  - Page 118 : trill r  
+               Consonant sounds that appear word-finally are /m/, /w/, /t/, /n/, /r/, /l/, /j/, /k/, /g/, and /ŋ/.  
+
+  
+Phoible : NA  
+
+Wikipedia :   
+https://en.wikipedia.org/wiki/Levuka_language  
+
+Glottologue :  
+https://glottolog.org/resource/languoid/id/levu1239  
+
+Autres sources :  
+https://clics.clld.org/languages/lexirumah-lama1277-kalik  
+  Recherches : r -> 214 entries (filtered from 862 total entries)  
+
+https://archive.mpi.nl/tla/islandora/object/tla:1839_5ae22b07_c195_4743_b93e_c2ea58410d37?asOfDateTime=2019-05-22T09:58:05.246Z  
+Dans le dossier : Kalikasa  
+  On a bien des r roulés  
+
+```{r}
+show_lang('Central Lembata, Kalikasa')$Form
+```
+
+```{r}
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Central Lembata, Kalikasa",'trilled',revision))
+```
+
+### Lio
+
+```{r}
+show_lang('Lio')
+show_comments('Lio')
+```
+
+Trill : yes  
+R_type : trill  
+
+Dataset :   
+  CLICS, Elias, Alexander (2019). Lio and the Central Flores languages (M.A. thesis). Leiden University.  
+  
+Elias, Alexander (2019). Lio and the Central Flores languages (M.A. thesis). Leiden University.  
+  - Page 17 : trill r <r>  
+  - Page 28 : minimal pairs  
+              /nd/ : /r/  
+  - Page 32 : /ɗ/ : /r/  
+  - Page 33 : /dʒ/ : /r/  
+  - Page 35 : /n/ : /r/  
+  - Page 38 : /f/ : /r/  
+  - Page 39 : /s/ : /r/  
+  - Page 40 : /h/ : /r/  
+  - Page 41 : /ʋ/ : /r/   
+  - Page 42 : /l/ : /r/  
+  - Page 44 : /ɰ/ : /r/  
+  - Page 44 : Voiced apico-alveolar trill /r/ The voiced apico-alveolar trill /r/ is the only rhotic and it appears both word-initially and word-medially. It is in free variation everywhere between a tap [ɾ] and a trill [r], but the tap realization is more common than the trill:  
+            ra'i ['ɾaʔi, 'raʔi] 'to approach'  
+            koro ['kʰoɾo, 'kʰoro] 'chili pepper'  
+    The following minimal pairs show that /r/ contrasts with the other continuants and coronal phonemes, as well as the absence of any phoneme:  
+    [examples with ø, t, d, nd, ɗ, dʒ, n, f, s, ʋ, l, ɰ in initial and medial position]  
+  - Page 53 : Thus, the conclusions drawn from this comparison are that, in comparable environments, the schwa /ə/ is about half as long as a full vowel, and causes an increase of around 25% in the length of the following consonant. It is my impression that the schwa /ə/ lengthens different classes of consonants to different degrees, affecting obstruents more than continuants and leaving the alveolar trill /r/ unaffected, but this must be confirmed by further phonetic analysis.  
+  - Page 54 : /mra/ -> [məra] ‘to live’  
+  - Page 75 : RHOTIC r  
+
+Phoible : NA  
+
+Wikipedia :   
+https://en.wikipedia.org/wiki/Lio_language  
+
+Glottologue :  
+https://glottolog.org/resource/languoid/id/lioo1240  
+
+Autres sources :  
+https://clics.clld.org/languages/lexirumah-lioo1240  
+  Recherches : r -> 140 entries (filtered from 675 total entries)  
+               
+```{r}
+show_lang('Lio')$Form
+```
+
+```{r}
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Lio",'trilled',revision))
+```
+
+### Hawu, Seba
+
+```{r}
+show_lang('Hawu, Seba')
+show_comments('Hawu, Seba')
+```
+
+Trill : yes  
+R_type : trill  
+
+Dataset :   
+  CLICS, Walker (1982) A Grammar of Sawu. https://openresearch-repository.anu.edu.au/bitstream/1885/111434/1/01_Walker_A_Grammar_of_Sawu_1982.pdf  
+
+Alan T. Walker. 1982. Grammar of Sawu. (NUSA, 13.) Jakarta: Universitas Katolik Indonesia Atma Jaya. xv+75pp.  
+  - Page 5 : Trill/flap r  
+             two liquids: an alveolar lateral /l/, and an alveolar trill or flap /r/  
+             Contrasts  
+             initial medial  
+             n na'i 'tobacco' raweni 'sister'  
+             d' d'a'i 'base, bottom' ked'i 'get up'  
+             l la'i 'spouse' weli 'buy'  
+             r ra'i 'dirty' weri 'again, more'  
+             r rui 'strong' b'ara 'goods'  
+             d dui 'old' b'ada animal  
+  - Page 7 : C1 can be [...] r  
+  - Page 8 : (1) final consonants delete  
+            C -> ∅ / __#  
+            [...]  
+            Ductch Indonesian Sawu   
+            kantoor kantor kato 'office'  
+
+Phoible : NA  
+
+Wikipedia :   
+https://en.wikipedia.org/wiki/Hawu_language  
+  - Approximant r  
+
+Glottologue :  
+https://glottolog.org/resource/languoid/id/sabu1255  
+
+Autres sources :  
+https://clics.clld.org/languages/lexirumah-seba1248  
+  Recherches : r -> 102 entries (filtered from 466 total entries)  
+  
+```{r}
+show_lang('Hawu, Seba')$Form
+```
+
+```{r}
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Hawu, Seba",'trilled',revision))
+```
+
+### Tetun, Suai
+
+```{r}
+show_lang('Tetun, Suai')
+show_comments('Tetun, Suai')
+```
+
+Trill : yes  
+R_type : trill  
+
+Dataset :   
+  CLICS, Van Klinken, Catharina (1999). A grammar of the Fehan dialect of Tetun, an Austronesian language of West Timor (PDF). Canberra: Pacific Linguistics, The Australian National University. doi:10.15144/PL-C155. ISBN 0858835142.  
+
+Catharina Lumien van Klinken. 1999. A Grammar of the Fehan Dialect of Tetun: An Austronesian language of West Timor. (Pacific Linguistics: Series C, 155.) Canberra: Research School of Pacific and Asian Studies, Australian National University. xxx+355pp. (Publication of 1997 PhD ANU).  
+  - Page 26 : Trill r  
+              Around Besikama, in the south of the Fehan dialect area, /r/ and /d/ have merged into a single phoneme, which phonetically tends towards an alveolar flap.  
+
+Phoible : NA  
+
+Wikipedia :   
+https://en.wikipedia.org/wiki/Tetum_language  
+  - Flap ɾ 			  
+  - Trill (r)   
+
+Glottologue :   
+https://glottolog.org/resource/languoid/id/tetu1246  
+
+Autres sources :  
+https://clics.clld.org/languages/lexirumah-tetu1245-suai  
+  Recherches : r -> 141 entries (filtered from 514 total entries)  
+  
+Williams-van Klinken, Catharina Lumien and Hajek, John and Nordlinger, Rachel. 2002. Tetun Dili: a grammar of an East Timorese language. (Pacific Linguistics, 528.) Canberra: Australian Natl. Univ. xiv+133pp.  
+  - Page 8 : Trill r  
+             Tap ɾ  
+  - Page 9 : In particular, /r/ and /ɾ/ merge for most speakers.  In addition, for many, especially those who are not native speakers of Tetun Dili, there is the possibility of merging for: /v/-/b/, /ʃ/-/s/, /ʒ/-/z/, /ɲ/-/n/, /ʎ/-/l/ and /d/-/ɾ/  
+              In intervocalic position /d/ is often tapped; this results in a possible merger with /ɾ/ (and/or /r/) in some words; e.g. odamatan [oda'matan] - [oɾa'matan] - [oɾ'matan] 'door' .
+  - Page 10 : Some speakers contrast trilled /r/ and tapped /ɾ/, although the distinction is not very stable and can only be found, where it exists, in intervocalic position in Portuguese loan words; e.g. /ka'reta/ 'car' and /fev'reiɾu/ 'February' . It appears that for most speakers the two rhotics are in free variation or in complementary distribution. For this reason, we do not distinguish the
+trill and the tap in our orthography.  
+              /r/ is a voiced alveolar trill. A duration of 3-4 taps is common, often reducing in faster speech. Although alternation with /r/ is common, the trill seems the preferred rhotic in syllable-initial position at least in careful speech ; e.g. riku ['riku] 'rich ' , hamrik [ham'ri:k] 'stand'.  
+  - Page 11 : /ɾ/ is a voiced alveolar tap, with an optional post-alveolar variant. In non-final position, the single tap commonly alternates with a very short trill with 2 taps. In word-final position, the tap is usual; e.g. fiar ['fiaɾ] 'believe'.  
+
+
+```{r}
+show_lang('Tetun, Suai')$Form
+```
+
+On pourrait soit laisser 'trilled' soit considerer comme 'OUT' à cause du possible contraste entre le trill et le tap/flap.  
+On va laisser en 'trilled'.  
+
+```{r}
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Tetun, Suai",'trilled',revision))
+```
+
+### Wetan
+
+```{r}
+show_lang('Wetan')
+show_comments('Wetan')
+```
+
+Trill : yes  
+R_type : trill  
+
+Dataset :   
+  CLICS, 	Taber, Kathleen B.; Taber, Mark H. (2015). Luang Grammar and Phonology Sketch. SIL e‑Books, 63. Dallas: SIL International.  
+
+Kathleen B. Taber and Mark H. Taber. 2015. Luang Grammar and Phonology Sketch. (SIL e-Books, 63.) [Dallas]: SIL International. ix+194pp.  
+  - Page 3 : Trill r  
+  - Page 5 : In Luang the syllabic consonants /ᶆ ṇ r l k/ occur. They occur in two main environments. One of these is the prefixation of verb roots (see §2.4.2 below). The other environment is the addition of affixes for derivational purposes. Since these syllabic consonants occur in predictable environments they are not considered phonemic in order to conserve phonemes. In connected speech, as opposed to isolated examples, these word initial syllabic consonants are not syllabic, but instead become a syllable coda in the preceding word.  
+            [r] + ['ranә] = ['rranә] /r-rana/  
+            /ha rrana/ ['har 'ranә] ‘she/he lifts’  
+            An epenthetic break can also occur between the homorganic phonemes /t/ and /r/ where they occur morpheme medially. It is this epenthetic break which signals that these phonemes occur across syllable boundaries and are not clustering together as they do elsewhere.  
+            ['itə̆rә] /it.ra/ ‘add’  
+            ['putə̆rә] /put.ra/ ‘deceive’  
+            ['tremә] /tre.ma/ ‘almost’  
+            [na'trimә] /na.tri.ma/ ‘he/she receives’  
+
+
+  - Page 6 : A common feature in Luang is the epenthetical schwa [ə̆] which occurs between non-homorganic consonants across syllable boundaries. However when non-homorganic consonant clusters occur syllable initial within a syllable, and if the second member of the cluster is the liquid /l/ or/r/ then no epenthesis occurs. Therefore, because its environment is predictable in that it signals a syllable break between two non-homorganic consonants, this epenthetic schwa is considered to be non-phonemic. The timing is also  
+significantly shorter than a normal vocoid and it is not perceived as being distinctive by native speakers.  
+            ['wuʔə̆ru] /wuʔru/ ‘cooking oil’  
+            ['mԑhə̆ rә] /mehra/ ‘sick’  
+            ['plokə̆ rә] /p-lokra/ ‘sharp’  
+        Examples syllable initial with liquids /l/ and /r/:  
+          ['treʔa] /treʔa/ ‘left’  
+          ['prai] /prai/ ‘k.o. drum’  
+          ['tlinә]  /tlina/ ‘ear’  
+
+  - Page 9 : /r/ [r] is a voiced alveolar trill. It occurs word initially and medially.^14  
+                 ['ruri] /ruri/  ‘thorn’   
+                 ['reri] /reri/ ‘very’  
+                 ['norә] /nora/ ‘coconut’  
+                 ['kԑrnә] /kerna/ ‘dry’  
+              14. Sometimes in fast speech /r/ will change its manner of articulation and be realized as a flap [ř] intervocalically.   
+              [ruri].~ [ruři]  ‘thorn’ [rarә].~.[rařә] ‘blood’  
+
+  - Page 12 : l/r ['lerә] /lera/ ‘sun’  
+                  ['rerә] /rera/ ‘post/pole’  
+                  ['ralә] /rala/ ‘they give’  
+                  ['rarә] /rara/ ‘blood’  
+
+  - Page 15 :  The long consonants are interpreted to be a sequence of two identical phonemes or two different contiguous phonemes that assimilate. They are considered to be sequences rather than units because this interpretation economizes phonemes and still corresponds to acceptable syllable patterns. Not only do these segments occur across syllable boundaries, but most occur either as the result of  
+morphophonemic processes or the result of non-morphophonemic historical processes e.g., /wolla/ ‘moon’. These geminate segments are produced with a noticeable delay in their release. They occur both word initially and medially.  
+              [ṛ'rana] /r-rana/ ‘they pick up’  
+  - Page 17 : There are eight unambiguous consonant clusters that occur within the syllable patterns CCV and CCVC: /pl/, /pr/, /tl/, /tr/, /kl/, /kr/, /wl/ and /wr/.   
+  - Page 19 : Allowable consonant clusters within a morpheme rt rk rm rn  
+  - Page 22 : ʔau- + -rana → /ʔauryana/ ‘I pick up’  
+              m(u)- + -rana → /mryana/ ‘you sg. pick up’  
+              rule: /u/ + C → C/w/; /w/ → /y/ /Calv.___  
+
+
+Phoible : NA  
+
+Wikipedia :   
+https://en.wikipedia.org/wiki/Luang_language  
+
+Glottologue :    
+https://glottolog.org/resource/languoid/id/luan1263  
+
+Autres sources :  
+https://clics.clld.org/languages/lexirumah-weta1243  
+  Recherches : r -> 266 entries (filtered from 691 total entries)  
+               rr -> 0 entries (filtered from 691 total entries)  
+               
+```{r}
+show_lang('Wetan')$Form
+```
+
+```{r}
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Wetan",'trilled',revision))
+```
+
+### Kalamang
+
+```{r}
+show_lang('Kalamang')
+show_comments('Kalamang')
+```
+
+Trill : yes  
+R_type : trill  
+
+Dataset :   
+  CLICS, https://www.duo.uio.no/handle/10852/51535		  
+
+Visser, Eline (2016). A Grammar Sketch of Kalamang with a Focus on Phonetics and Phonology (Master thesis). University of Oslo.  
+  - Page 17 : Trill r  
+  - Page 33 : Trill  
+              /r/  
+              -> [r]  
+              -> [ɾ] (fast speech, intervocalically)  
+              /r/ is an apicoalveolar trill that occurs syllable-initially and syllable-finally. It can be uttered as a tap, which happens mainly in fast speech and intervocalically. The linguogram in figure 3.8 shows the contact area of tongue and palate extends quite far to the back of the mouth, at least on one side of the tongue.  
+              ror 'wood, tree'  
+              'orun 'tail'  
+              sor 'fish'  
+  - Page 37 : /r/ - /l/ alternation is slightly more common. It is found as stated above in the name Alif/Arif. A boy named Irul is frequently called Ilur. The following words were also heard with alternations between /r/ and /l/.  
+              sol ka'rek ∼ sor ka'rek 'rattan'  
+              kor ∼ kol 'foot'  
+          
+          Minimal pairs for /r/ - /l/ can be found for each position, as can be seen in section 3.1.4.  
+  - Page 37 : /r/ - /l/  
+            initial: raŋ 'at open sea' - 'lalaŋ 'hot'  
+            medial: 'orun 'animal tail' - 'olun 'leaf on tree'  
+            final: per 'water' - pel 'bunch'  
+  - Page 58 : In Kalamang, this happens with the bilabial stop /p/ at morpheme boundaries, which weakens to a bilabial approximant /w/ intervocalically. It also lenites after /r/ and before a vowel, such that:  
+              p → w/{[V],r}+_[V]  
+             Lenition also happens with /t/, which becomes /r/ intervocalically:  
+              t → r/ [V]+_[V]  
+
+             The following examples show lenition of /t/ to /r/. It does not matter whether /t/ is part of the root or of the affix. No examples from reduplication are known. Note that, differently  
+from /p/, lenition of /t/ does not happen after /r/. Thus, when the unanalysed suffix -te is added to marmar 'to walk' the result is marmarte 'WALK.TE'.  
+          et 'canoe' + -at ACC                  'erat 'canoe.ACC'  
+          kaŋgeit 'to play' -an 1SG.POSS        kaŋgeiran 'my playing, my game'  
+          et 'canoe' + -un 3.POSS               'erun 'his/her/their canoe'  
+          kou 'narrow' + -ten adjective marker  'kouren `narrow'  
+          'ewa 'to speak' + -te TE              e'ware 'speak'  
+  - Page 59 : For lenition of /c/ to /j/ we have the following examples. Again, lenition does not happen after /r/: ter 'tea' + -ca 2SG.POSS becomes terca `your tea'.  
+  - Page 61 : Voicing assimilation is optional after /r/ for some sufixes, and obligatory for others. It does not happen with possessive -ca and -ce or the unanalysed -te. What happens when adjective marker -ten is added to an adjective ending in /r/ is unknown.  
+
+Phoible : NA  
+
+Wikipedia :   
+https://en.wikipedia.org/wiki/Karas_language  
+
+Glottologue :  
+https://glottolog.org/resource/reference/id/589950  
+
+Autres sources :   
+https://clics.clld.org/languages/lexirumah-kara1499  
+  Recherches : r -> 205 entries (filtered from 567 total entries)  
+  
+Eline Visser. 2021. A grammar of Kalamang: The Papuan language of the Karas Islands. (Doctoral dissertation, University of Lund; viii+xlii+634pp.)  
+  - Page 54 : trill r  
+              There is one trill: alveolar /r/  
+  - Page 62 : /r/  
+              → [r]  
+              → [ɾ] (fast speech, intervocalically)  
+              /r/ is an apico-alveolar trill that occurs syllable-initially and syllable-finally. It can be realised as a tap, which happens mainly in fast speech and intervocalically.  
+ 
+        
+```{r}
+show_lang('Kalamang')$Form
+```
+
+```{r}
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Kalamang",'trilled',revision))
+```
+
+### Dadu'a
+
+```{r}
+show_lang("Dadu'a")
+show_comments("Dadu'a")
+```
+
+Trill : yes  
+R_type : trill  
+
+Dataset :   
+  CLICS, Hinton, Bryan D. (2000). "The languages of Wetar: recent survey results and word lists with notes on Tugun grammar". In Grimes, Charles E. (ed.). Spices  
+  - Page 115 : Tungun consonants : Trill r  
+               The phoneme /r/ tends to be trilled if it occurs word-final or in slow speech, and elsewhere is flapped.  
+  - Page 119 : r Alveolar trill or flap  
+
+Phoible : NA  
+
+Wikipedia :   
+https://en.wikipedia.org/wiki/Wetarese_language  
+  - Tap/Trill 		ɾ ~ r  
+  - /r/ is mainly heard as [r] in word-final position or in slower speech, it is heard as [ɾ] elsewhere.  
+  
+Glottologue :   
+https://glottolog.org/resource/languoid/id/iliu1237  
+
+Autres sources :  
+https://clics.clld.org/languages/lexirumah-dadu1237  
+  Recherches : r -> 146 entries (filtered from 463 total entries)  
+
+David Penn. 2006. Introducing Dadu'a: Uma língua de Timor-Leste. (MA thesis, Armidale: University of New England; viii+162pp.) -> Pas trouvé  
+
+```{r}
+show_lang("Dadu'a")$Form
+```
+
+```{r}
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Dadu'a",'trilled',revision))
+```
+
+### Kambera
+
+```{r}
+show_lang('Kambera')
+show_comments('Kambera')
+```
+
+Trill : yes  
+R_type : trill  
+
+Dataset :   
+	CLICS, no comments  
+
+Phoible :   
+https://phoible.org/inventories/view/1679  
+  - r	allophones	r  
+
+Klamer, Marian. 2006. Kambera. In Adelaar, Alexander and Himmelman, Niklaus (eds.) 709–710. 1st edn. Routledge.  
+
+Marian Klamer. 2005. Kambera. In Alexander Adelaar and Nikolaus Himmelmann (eds.), The Austronesian Languages of Asia and Madagascar, 709-734. London & New York: Routledge.  
+  - Page 710 : Rhotic liquid r  
+
+Wikipedia :   
+https://en.wikipedia.org/wiki/Kambera_language  
+  - Rhotic r 	  
+
+Glottologue :  
+https://glottolog.org/resource/languoid/id/kamb1299  
+
+Autres sources :  
+https://clics.clld.org/languages/lexirumah-kamb1299  
+  Recherches : r -> 122 entries (filtered from 630 total entries)  
+
+Marian Klamer. 1998. A Grammar of Kambera. (Mouton Grammar Library, 18.) Berlin, New York: Berlin: Mouton de Gruyter. xv+448pp.  
+  - Page 10 : Rhotic liquid r  
+
+```{r}
+show_lang('Kambera')$Form
+```
+
+```{r}
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Kambera",'NA',revision))
+```
+
+### Batuley
+
+```{r}
+show_lang('Batuley')
+show_comments('Batuley')
+```
+
+Trill : yes  
+R_type : trill  
+
+Dataset :   
+  CLICS, no comments  
+
+Phoible : NA  
+
+Wikipedia :   
+https://en.wikipedia.org/wiki/Batuley_language  
+  - Rhotic r  
+ 
+Benjamin T. Daigle. 2015. A grammar sketch of Batuley: An Austronesian language of Aru, eastern Indonesia. (MA thesis, Rijksuniversiteit te Leiden; xxvi+285pp.)  
+  - Page 18 : Trill r  
+  - Page 19 : Batuley has two liquid phonemes: the lateral /l/ and the trill /r/. A minimal pair illustrates their  
+status as phonemes in (23).  
+              (23) /l/ ≠ /r/ /ˈlu/  ‘teardrop’  
+                             /ˈru/   ‘two’  
+  - Page 20 : The bilabial fricative /ɸ/ is typically realized as the bilabial plosive [p] before a liquid-initial stressed syllable in a limited set of numeral words. I present these in (26a-b). Note that fortition is optional in the numeral ‘twenty’ where /ɸ/ precedes the trill /r/. The choice depends upon the speaker. I have found that fortition always occurs in the numeral ‘thirty’ where /ɸ/ precedes the lateral /1/. Fortition may be a feature illustrating accent differences between the Batuley villages. Further investigation is required.  
+              (26) a. /uruɸˈru/ [u.ruɸ.ˈru] ~ [u.rup.ˈru] ‘twenty’  
+                   b. /uruɸˈlaes/ [u.rup.ˈla.ɛs] ‘thirty’  
+   - Page 28 : /r/  /ˈri/     /ˈʤa.ran/ /kab.ˈra.sek/   /mar.ˈnam/       /ˈtu.bor/  
+                    ‘dugong’ ‘parrot’   ‘type of fish’ ‘type of turtle’ ‘stomach’  
+   - Page 29 : Consonant clusters occur across syllable and morpheme boundaries. There are no syllable internal consonant clusters. (43a-c) illustrate examples of consonant clusters which occur across syllable boundaries.  
+   - Page 57 : /r/ [r] r  
+
+Glottologue :  
+https://glottolog.org/resource/languoid/id/batu1258  
+
+Autres sources :  
+https://clics.clld.org/languages/lexirumah-batu1258  
+  Recherches : r -> 172 entries (filtered from 476 total entries)  
+
+```{r}
+show_lang('Batuley')$Form
+```
+
+```{r}
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Batuley",'trilled',revision))
+```
+
+### South Mambae, Letefoho
+
+```{r}
+show_lang('South Mambae, Letefoho')
+show_comments('South Mambae, Letefoho')
+```
+
+Trill : yes  
+R_type : trill  
+
+Dataset :   
+  CLICS, Helem Andressa de Oliveira Fogaça (2013). Estudo fonético e fonológico do mambae de Same : uma língua de Timor-Leste (PDF) (Master's thesis) (in Portuguese). Universidade de Brasília.  
+
+Helem Andressa de Oliveira Fogaça (2013). Estudo fonético e fonológico do mambae de Same : uma língua de Timor-Leste. Universidade de Brasília.  
+  - Page 25 : Na descrição fonética da língua Mambae foram encontrados os seguintes fones não ambíguos:  
+              [r] [ɾ]  
+  - Page 27 : Fones Consonantais da Língua Mambae  
+              Vibrante múltiplo r  
+              Vibrante Simples ɾ  
+  - Page 31 : [r] vibrante múltiplo alveolar vozeado ocorre na posição de ataque no início de palavra.  
+              [ɾ] vibrante simples alveolar vozeado ocorre na posição de ataque da sílaba quando entre vogais, como segunda consoante numa sequência de ataque CC e como coda.  
+  - Page 44 : Os fones [d] e [r] são foneticamente semelhantes e estão em contraste em ambiente idêntico (CAI)  
+              (14) [ˈdɔː] ‘feiticeiro’  
+                   [ˈrɔː] ‘ essoa’  
+              e em ambiente análogo (CAA).  
+              (15) [ˈduɾ] ‘em urrar’  
+                   [ˈruː] ‘dois’  
+              Logo, /d/ e /r/ são fonemas distintos.  
+  -Page 48 : Os fones [r] e [ɾ] são foneticamente semelhantes e estão em distribuição complementar (DC) como variantes posicionais do fonema /r/. O fone [r] ocorre em posição de ataque da sílaba no início da palavra, enquanto o fone [ɾ] ocorre em osição de ataque da  
+sílaba na posição medial da palavra, em coda e como segunda consoante numa sequência de ataque CC:  
+              (30) /r/ -> [r] / #_  
+                          [ɾ] / n.d.a.  
+              (31)  
+                    [r]            [ɾ]  
+                    [ˈrafu] ‘azul’ [ˈbɛɾo] ‘canoa’  
+                    [ˈruː] ‘dois’  [ˈkeoɾ] ‘vento’  
+                    [ˈrui] ‘osso’  [ˈkɾei] ‘sentar’  
+  - Page 50 : Vibrante Múltipla r  
+  - Page 58 :     #_*  _ [V]  #_[C][V]   #[C]_[V]  
+              [r]  x     x    
+              /ɾ/        x                  x    
+  - Page 65 : Quando ocorre o apagamento de uma consoante ou vogal, o acento pode permanecer inalterado, ou haver uma ressilabificação com o alongamento da vogal ou, no caso de uma apócope, o ataque se tornar coda:   
+              ['da.oɾ] ~ ['da.o] 'laranja'  
+  - Page 68 : No Mambae, o apagamento consonantal pode ocorrer no ataque no início ou meio de palavra, ou ainda na coda antes do silêncio, lembrando-se ser este apagamento uma variação na fala dos informantes.  
+              - no ataque no início da palavra:  
+                (84) ['fɾɔː] ~ [ˈrɔː] 'barco'  
+              - na coda no final de palavra:   
+                (88) ['daoɾ] ~ ['dao] 'laranja'  
+            Metátese : [ˈmoɾi] ~ [ˈmoɛɾ] 'nascer'  
+
+Phoible : NA  
+
+Wikipedia :   
+https://en.wikipedia.org/wiki/Mambai_language_(Timor)  
+  - Trill r  
+  - /r, h, k/ can also be heard as [ɾ, ħ, ʔ]  
+
+Glottologue :  
+https://glottolog.org/resource/languoid/id/mamb1306ZZ  
+
+Autres sources :  
+https://clics.clld.org/languages/lexirumah-mamb1306-Slete  
+  Recherches : r -> 105 entries (filtered from 400 total entries)  
+               rr -> 1 entries (filtered from 400 total entries)  
+               l -> 103 entries (filtered from 400 total entries)  
+               
+```{r}
+show_lang('South Mambae, Letefoho')$Form
+```
+
+```{r}
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="South Mambae, Letefoho",'trilled',revision))
+```
+
+##Muna
+
+```{r}
+show_lang('Muna')
+show_comments('Muna')
+```
+
+Trill : yes  
+R_type : trill  
+
+Dataset :   
+  CLICS, no comments  
+
+Phoible :   
+  - r	allophones	r  
+
+van den Berg, René. 1989. A Grammar of the Muna Language. Foris Publications.  
+René van den Berg. 1989. A Grammar of the Muna Language. (Verhandelingen van het Koninklijk Instituut voor Taal-, Land- en Volkenkunde, 139.) Dordrecht: Foris. xvi+376pp.  
+  - Page 8 :  
+            Standard Muna   r   
+            Tiworo          r  
+            Siompu          r    
+            Gumas           h  
+  - Page 16 : trill r   
+  - Page 19 : /r/ <r> voiced apico-alveolar trill:  
+                  rase 'rust'  
+                  horo 'fly'  
+  - Page 20 : /ʁ/ <gh> voiced dorso-uvular fricative:  
+                  ghuse 'rain'  
+                  ragha 'branch'  
+  - Page 21 : List of contrasts:  
+              l - r lea 'painful' rea 'blood'  
+              gh - r ghase 'chin' rase 'rust'  
+  - Page 22 : phoneme initial medial  
+              gh      5.6     2.2  
+              r       6.5     8.6  
+  - Page 24 : Syllable structure in Muna is therefore as follows: (C) V  
+  - Page 31 : 5. Unlike liquids do not co-occur:  
+              l..r..  r..l..  
+              Exception: lera 'blessing' (loan?)  
+
+  
+Wikipedia :   
+https://en.wikipedia.org/wiki/Muna_language  
+  - Trill r  
+  - Fricative voiced ʁ ⟨gh⟩   
+  
+van den Berg, René. 2004. Notes on the southern Muna dialect. In John Bowden and Nikolaus Himmelmann (eds.), Papers in Austronesian subgrouping and dialectology, 129-170. Canberra: Research School of Pacific and Asian Studies, Australian National University.  
+  - trill r  
+  - South /h/ for north /r/  
+    The sound correspondence between /vh/ and /r/ is very conspicuous and is one of the main indicators of the southern dialect complex. Notice the following pairs:  
+    south    north    gloss  
+    bhahi    bhari    'many'  
+    buhi     buri     'write'   
+    dahu     daru     'starfruit'  
+    ehe      ere      'stand'  
+    hambi    rambi    'hit'  
+    hobhine  robhine  'woman '  
+    hoo      roo      'leaf'  
+    kihi     kiri     'thorn'  
+    sohihi   soriri   'side'  
+    tuhu     turu     'drop (n)'  
+    woha     wora     'see'  
+  This sound correspondence is completely regular in native vocabulary and goes back to Proto Muna *r. The same regular correspondence is also found in many loan words from Indonesian/Malay, as in the following list, with the Malay source provided in brackets following the gloss:  
+    south    north     gloss   
+    bhihita  bhirita   'news'    (berita)  
+    gaha     [ghohia]  'salt'    (garam)  
+    husa     rusa      'deer'    (rusa)  
+    kahadhaa karadhaa  'work'    (kerja)  
+    kahatasi karatasi  'paper'   (kertas)  
+    kahumbau karambau  'buffalo' (kerbau)    
+    nahakaa  narakaa   'hell'    (neraka)  
+    po-guhu  po-guru   'learn'   (guru)  
+  
+  However, there are many instances where /r/ is retained in loan words. I n these instances there is no difference between the two dialects in this respect.  
+    [examples]  
+  There are also words with Irl for which the etymology is as yet unclear, although presumably they are loan words too, either from the northern dialect, from Dutch (Du), or from the neighbouring language of Wolio (WoJ).  
+    [examples]  
+  It is unclear why these words with /r/ have resisted the change to /h/. A theory of lexical diffusion might suggest that these words remained untouched by the weakening rule which was clearly still operative when loan words entered the lexicon, though the question remains why. Alternatively one can speculate that these words were borrowed at a time when the sound change /r/ -> /h/ had already completed its course. Certainly loans from Indonesian during the last fifty years all retain /r/: ga redha 'church', radio 'radio' etc. This last alternative seems the more likely scenario, although there is the extra factor of influence from Indonesian through education. The word guru 'teacher', for instance, has the variant guhu, and I suspect the general use of the Indonesian word guru may have played a role in creating the variant, which now seems to be pushing out the older guhu. Interestingly, the derived word po-guhu 'learn' does not have a variant with Irl, presumably because that derivation does not exist in I ndonesian and hence retained its 'old' pronunciation with /h/. Asimilar case is kahadhaa 'work ', which is sometimes pronounced as karadhaa in the south. This explanation runs into problems with rapo-rapo 'peanuts', which has a variant hapo-hapo used by the very elderly. Since there is no I ndonesian target for this etymon, it remains unclear why there is variation.  
+
+Glottologue :  
+https://glottolog.org/resource/languoid/id/muna1247  
+
+Autres sources :  
+https://clics.clld.org/languages/lexirumah-stan1308  
+  Recherches : r -> 55 entries (filtered from 224 total entries)  
+
+```{r}
+show_lang('Muna')$Form
+```
+
+```{r}
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Muna",'trilled',revision))
+```
+
+### Tukang Besi, Binongko
+
+```{r}
+show_lang('Tukang Besi, Binongko')
+show_comments('Tukang Besi, Binongko')
+```
+
+Trill : yes  
+R_type : trill  
+
+Dataset :   
+  CLICS, wiki  
+
+Phoible :   
+Tukang Besi North : https://phoible.org/inventories/view/1152  
+  - 	r	alopphones	r ɹ ɾ ɻ  
+  
+Wikipedia :   
+https://en.wikipedia.org/wiki/Tukang_Besi_language#cite_note-Donohue_1999_phonology-3  
+  -  Tukang Besi (northern dialect) consonants: Trill r  
+
+Donohue, M. (1994). Tukang Besi. Journal of the International Phonetic Association, 24(1), 39-41.  
+  - Page 39 : Trill r  
+  - Page 40 : The phoneme /r/ varies between [r], [ɾ], [ɺ] and [ɻ] thus, after a back vowel, realizations of /r/ and /l/ overlap  
+
+Glottologue :  
+https://glottolog.org/resource/languoid/id/tuka1249  
+
+Mark Donohue. 1999. A Grammar of Tukang Besi. (Mouton Grammar Library, 20.) Berlin, New York: Berlin: Mouton de Gruyter. xxvi+576pp.  
+  - Page 15 : Sonorant r l  
+  - Page 18 : /r/ tapped or trilled voiced alveolar rhotic  
+              -> [r]  
+              -> [ɾ] / V_V Wanci dialect only  
+              -> [ɭ̆  ɽ̆]  /V_V casual fast speech (Wanci dialect)  
+                  ramo [ramo] 'flesh'  
+                  bara [ɓaɽ̆a] 'don't'  
+              
+              Note that a common allophone of both /r/ and /l/ is [ɭ̆] or [ɽ̆]; this means that the contrast  
+between the two phonemes is often neutralised, as in the examples above.  
+  - Page 21 : Minimal contrasts amongst the (suspicious) consonants:  
+              /t/ - /r/  
+              tutu 'blunt' turu 'beat a fish unconscious'  
+              /l/ - /r/  
+              da 'fetch'   ara 'if'  
+  - Page 34 : Gemination : l (aveolar allophone)  
+
+Mark Donohue. 2000. Tukang Besi dialectology. In Charles E. Grimes (ed.), Spices from the east: papers in languages of eastern Indonesia, 55-72. Canberra: Research School of Pacific and Asian Studies, Australian National University. (Im Ethnologue erscheinen Tukang Besi North bzw. Tukang Besi South je als eigene Sprachen. Deswegen der Index [1].)  
+  - Page 58 : There are several sound changes evident between the northern and southern isolects of the Tukang Besi language, both systematic and semi-systematic. These are both in the nature of sound changes that have occurred in a stage ancestral to the dialect groups, and differences in the major allophonic realisation of a phoneme, or phonemic interpretation of a particular phonetic segment. Both of these are discussed below with examples.  
+                         C/V _ σ#  l/a,o,u_  
+              Wanci      C        l, r  
+              Kaledupa   CC       l, r  
+              Tomea      CC       ɭ  
+              Binongko   CC       ɭ  
+              Bonerate   C        l  
+              
+              There is a strong division into two groups, with the first group comprising the northern islands of Wanci-Kaledupa, which show many instances [...] irregular * l > r (through **ɭ).   
+  - Page 59 : English  'what'           'inside'  
+              PAn      (PTB : * paira)   *Dalem  
+              Wanci    paira             laro   
+              Kaledupa paira             laro  
+              Southern haira             laɭo  
+              
+Autres sources :  
+https://clics.clld.org/languages/lexirumah-bino1238  
+  Recherches : r -> 39 entries (filtered from 272 total entries)  
+
+
+```{r}
+show_lang('Tukang Besi, Binongko')$Form
+```
+
+```{r}
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Tukang Besi, Binongko",'trilled',revision))
+```
+
+##Meyah
+
+```{r}
+show_lang('Meyah')
+show_comments('Meyah')
+```
+
+Trill : yes  
+R_type : trill  
+
+Dataset :   
+  CLICS, wiki  
+
+Phoible : NA  
+
+Wikipedia :   
+https://en.wikipedia.org/wiki/Meyah_language  
+  - Trill r  
+
+Glottologue :  
+https://glottolog.org/resource/languoid/id/meya1236  
+
+Gilles Gravelle. 2011. Meyah: a language of West Papua, Indonesia. (Pacific Linguistics, 619.) Canberra: Research School of Pacific and Asian Studies, Australian National University. 324pp.  
+  - Page 23 : Liquid ɾ (r)  
+  - Page 27 : /r/ The liquid [r] freely varies with the lateral approximant [l] intervocalically. No strict rule can be given as to their occurrence, but [l] seems to occur more often in words uttered in isolation.  
+              [rúa]     /rúa/  
+              [ɾáhah]   /ráhah/  
+              [ɾót] /rót/   
+              [mɛ́bɛɾə] /mébera/  
+              [maɾsí] /marsí/  
+              [ɛ́tʃiɾə] /écira/  
+              [mɛdɛmɛ́ɾ] /medemér/  
+              [maɾ] /mar/  
+  - Page 29 : /t/ vs /r/ [examples]  
+              /d/ vs /r/ [examples]  
+  - Page 34 : Consonant sequences as onsets or codas  
+              br  
+              gr  
+              kr  
+              rj  
+              rf  
+              rc  
+
+Gilles Gravelle. 2004. The Meyah Language of Papua. (Doctoral dissertation, Vrije Universiteit Amsterdam; xv+441pp.) -> Pas trouvé  
+  
+Gravelle, Gilles and Gravelle, Gloria. 1991. Meah phonology. Workpapers in Indonesian Languages and Cultures 10. 1-36. -> Pas trouvé  
+
+
+Autres sources :  
+https://clics.clld.org/languages/lexiru zmah-meya1236  
+  Recherches : r -> 48 entries (filtered from 274 total entries)  
+               l -> 0 entries (filtered from 274 total entries)  
+https://clics.clld.org/languages/transnewguineaorg-meyah  
+  Recherches : r -> 10 entries (filtered from 39 total entries)  
+
+Wodi, Jean Deisyi. 2011. Sounds and their structures in Miyakh. (MA thesis, Manokwari: Universitas Negeri Papua; xvii+97pp.) -> Pas trouvé  
+Pratiwi, Theresia Ajeng. 2010. A brief note on sounds and their structures in Irires. (MA thesis, Manokwari: Universitas Negeri Papua; 110pp.) -> Pas trouvé  
+
+```{r}
+show_lang('Meyah')$Form
+```
+
+La source que j'ai trouvé ne mentionne pas de trill. Ça serait soit 'NA' soit 'other' à cause du symbole du tap. Je choisie 'NA'.  
+
+```{r}
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Meyah",'NA',revision))
+```
+
+### Wolio
+
+```{r}
+show_lang('Wolio')
+show_comments('Wolio')
+```
+
+Trill : yes  
+R_type : trill  
+
+Dataset :   
+  CLICS, wiki  
+
+Phoible : NA  
+
+Wikipedia :   
+https://en.wikipedia.org/wiki/Wolio_language  
+  - Trill	r  
+
+Anceaux, Johannes C. 1952. The Wolio language: outline of grammatical description and texts. Verhandelingen van het Koninklijk Instituut voor Taal, Land en Volkenkunde 11. The Hague: M.Nijhoff. (2nd edition, 1988)  
+  - Page 4 : r  
+  - Page 5 : d̠. Voiced alveolar stop of high muscular tension.  
+             d. Voiced alveolar stop of little muscular tension with simultaneous slight retroflexion of the tongue and lowering of the larynx.  
+              That the description of the phonemes is made according to their articulatory characteristics, is not caused by aversion against the "acoustic" method but by the practical impossibility of applying it in the given circumstances.  
+
+  - Page 6 : r.  Clear uvular trill with the tongue in alveolar position. (=> Ça veut dire quoi ?)  
+
+  - Page 8 : oppositions of the phonemes :  
+             bada - body, bara - West.  
+             rau - face, hau - charcoal.  
+
+Glottologue :  
+https://glottolog.org/resource/languoid/id/woli1241  
+
+Abas, Husen and A. Kadir Manyambeang and Ibnu Nandar and Shaidy. 1983. Struktur bahasa Wolio. Jakarta: Pusat Bahasa. xiii+62pp.  
+  - Page 12 : Trill r  
+  - Page 13 : /r/ /raa/ 'darah' [blood]  
+  - Page 16 : /l/ x /r/   
+              /lolo/ x /roro/ 'ujung' [end] x 'rogoh' [groggy]  
+              Bunyi /l/ dan /r/ pada contoh diatas membedakan arti sehingga /l/ dan /r/ masing-masing adalah fonem yang betbeda.  
+              [The sounds /l/ and /r/ in the example above differentiate the meaning so that /l/ and /r/ are different phonemes, respectively.]  
+  - Page 19 : /r/ /raa/ 'darah' /bara/ 'barat' [and no final position]  
+  
+Autres sources :  
+https://clics.clld.org/languages/lexirumah-woli1241  
+  Recherches : r -> 136 entries (filtered from 804 total entries)  
+  
+```{r}
+show_lang('Wolio')$Form
+```
+
+Je laisse 'trilled' mais je reste confus sur Anceaux et son 'uvular trill'.  
+
+```{r}
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Wolio",'trilled',revision))
+```
+
+### Buru
+
+```{r}
+show_lang('Buru')
+show_comments('Buru')
+```
+
+Trill : yes  
+R_type : trill  
+
+Dataset :   
+  CLICS, Grimes, Charles E. (1991). The Buru language of Eastern Indonesia (Ph.D. thesis). Australian National University.  
+
+Charles E. Grimes. 1991. The Buru Language of Eastern Indonesia. Canberra: Dept. of Linguistics, Research School of Pacific Studies, Australian Natl. Univ. (Doctoral dissertation, Australian National University; xvi+562pp.)  
+  - Page 27 : PAN *R > Kayeli /l/, Buru /h/  
+  - Page 48 : Trill r   
+              The /r/ is trilled; but may become a flap or tap intervocalically  
+  - Page 64 : Deletion before /r/  
+              Simple NP phrase heads have the genitive /-n/ deleted before words begining with /r/  
+              (57) beto-n em-sia-n 'one night'  
+                   beto   rua      'two night'  
+                   beto-n telo     'three night'  
+              The genitive enclitic is not deleted from complex phrase heads before words beginning with /r/.  
+              (59) fafu ana-n rua dii 'those two piglets'  
+              Liquid /l/ is deleted before /r/.  
+              (60) polo      'ten'  
+                   po-rua    'twenty'  
+                   pol-telo  'thirty'  
+                   pol-paa   'forty'  
+  - Page 71 : Reduction of /-ro/  
+              Reduction of the pural enclitic /-ro/ to /-r/ also involves the loss of a vowel, but unlike clitisation this reduction does not affect stress. The process thus parallels the loss of paragogic /e// in syllable strucutre. While the pluram /-ro/ functions grammatically at the phrase level, within an NP it must occur before numerals, quantifiers and deictics and is cliticised as a non-final element.  
+              (103) aso-r telo  
+                    asu-ro  
+                    dog-PL three  
+                    'three dogs'  
+              (104) aso-r dii  
+                    asu-to  
+                    dog-PL DIST  
+                    'those dogs'  
+              (105) geba-r    pila  
+                    person-PL how many  
+                    'how many people'  
+              (106) faf.mina-n  fah.wanga-r   paa  
+                    pig.fat-GEN hand.digit-PL four  
+                    'pig-fat four fingers thick'  
+      
+Phoible : NA  
+
+Wikipedia :   
+https://en.wikipedia.org/wiki/Buru_language  
+  - Trill	r  
+  
+Glottologue :  
+https://glottolog.org/resource/languoid/id/buru1303  
+
+Autres sources :  
+https://clics.clld.org/languages/lexirumah-buru1303  
+  Recherches : r -> 124 entries (filtered from 864 total entries)  
+
+```{r}
+show_lang('Buru')$Form
+```
+
+```{r}
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Buru",'trilled',revision))
+```
+
+### Dobel
+
+```{r}
+show_lang('Dobel')
+show_comments('Dobel')
+```
+
+Trill : yes  
+R_type : trill  
+
+Dataset :   
+  CLICS, Hughes, Jock (2000). "The morphology of Dobel, Aru, with special reference to reduplication". In Grimes, C.E. (ed.). Spices from the East: Papers in languages of Eastern Indonesia. Pacific Linguistics No. 503. Canberra: Pacific Linguistics. pp. 131–180. doi:10.15144/PL-503.131.  
+
+Hughes, Jock. 2000. The morphology of Dobel, Aru, with special reference to reduplication. In Charles E. Grimes (ed.), Spices from the east: papers in languages of eastern Indonesia, 131-180. Canberra: Research School of Pacific and Asian Studies, Australian National University. (Im Ethnologue erscheinen Tukang Besi North bzw. Tukang Besi South je als eigene Sprachen. Deswegen der Index [1].)  
+  - Page 133 : Trill r  
+
+Phoible : NA  
+
+Wikipedia :   
+https://en.wikipedia.org/wiki/Dobel_language  
+
+Glottologue :  
+https://glottolog.org/resource/languoid/id/dobe1238  
+
+Hughes, Jock and Hughes, Katy. 1989. A phonology of Dobel. Workpapers in Indonesian Languages and Cultures 7. 43-76.  
+  - Page 45 : Vibrant r  
+  - Page 48 : /r/ is a voiced alveolar rolled vibrant phoneme realised as:  
+              [r] voiced alveolar rolled vibrant with egresive lung air.  
+                  /ren/ [ren] 'near'  
+                  /'surin/ ['surin] 'point, promontory'  
+                  /mar/ [mar] 'river'  
+  - Page 51 : General alveolar consonants /t d s l r n y/ contrast initially as in:  
+              /tay/ [taj] 'sea water'  
+              /dayala/ [dejale] 'they forgot'  
+              /say/ [saj] 'fire'  
+              /lay/ [laj] 'three'  
+              /ray/ [raj] 'size'  
+              /ya/ [ja] 'what  
+              General alveolar consonants contrast intervocalically as in: [examples]  
+  - Page 52 : General alveolar consonants /l r n y/ contrast finally as in: [examples]  
+  - Page 55 : The phones that were identified as ambivalent for unit or sequence were [r] and [k^w]. [...] The phones [r] and [k^w] both occur word initially and in medial consonant clusters. Therefore each has to be interpreted as a unit as there are no univalent initial consonant clusters (excepting nasals) and there are no medial clusters of more than two   
+  - Page 56 : This chart includes consonant clusters across morpheme boundaries  
+              rb rm rw rt r(bilabial non voicsé) rs rl rr rn rk^w rn r?  
+              lr rr yr  
+  - Page 57 : Intra-morphemic consonant clusters  
+              rb rt r(bilabial non voicsé) rs rl rn rk^w r?  
+              yr  
+  
+Autres sources :  
+https://clics.clld.org/languages/lexirumah-dobe1238  
+  Recherches : r -> 171 entries (filtered from 505 total entries)  
+  
+```{r}
+show_lang('Dobel')$Form
+```
+
+```{r}
+rough_r_data <- rough_r_data %>% 
+    dplyr::mutate(revision = ifelse(Language=="Dobel",'trilled',revision))
+```
+
+### Maybrat
+
+```{r}
+show_lang('Maybrat')
+show_comments('Maybrat')
+```
+
+Trill : yes  
+R_type : trill  
+
+Dataset :   
+  CLICS, no comments  
+
+Phoible :   
+https://phoible.org/inventories/view/938  
+  - r allophones r ɾ  
+
+Dol, Philomena Hedwig. 1999. A Grammar of Maybrat: A Language of the Bird's Head, Irian Jaya, Indonesia. (Doctoral dissertation, Universiteit Leiden).  
+
+Wikipedia :   
+https://en.wikipedia.org/wiki/Maybrat_language  
+  - Trill r  
+  - The rhotic consonant is always an alveolar trill [r] at the start of the word, while in other positions it is in free variation with the alveolar tap [ɾ].  
+
+Dol, Philomena Hedwig (2007). A grammar of Maybrat : A language of the Bird's Head Peninsula, Papua province, Indonesia. Pacific Linguistics. Canberra: Australian National University.   
+  - Page 21 : trill /r/  
+                    [r] [ɾ]  
+  - Page 24 : Trill:   
+              /r/ → [r] voiced alveolar trill  
+                        [ru]   /ru/  ‘bird’  
+                        ['ara] /ara/ ‘tree’  
+                        [teɤaɾ] /txar/‘I know’  
+                        [r] varies freely with voiced alveolar tap [ɾ], except word-initially:  
+                    [ɾ] [rir] ~ [riɾ]  /rir/ ‘lightning’  
+                        ['rere] ~ ['reɾe] /rere/ ‘shortly’  
+                        ['sirɔ] ~ ['siɾɔ] /siro/ ‘they are tired’  
+                        [sərɔx'ni] ~ [səɾɔx'ni] /sroxni/ ‘they forget’    
+  - Page 25 : Minimal pairs showing contrasts for consonants   
+              /t/ vs. /r/  
+  - Page 26 : /m/ vs. /r/  
+  - Page 27 : /n/ vs. /r  
+              /s/ vs. /r/  
+              /x/ vs. /r/  
+  - Page 25 : The epenthetic vowel schwa  
+              /rrie/ [rəɾi'je] ‘lizard’  
+  - Page 48 : The following two examples are borrowings from Dutch. In [pəris], Du [l] has been substituted by [r]. In [seŋkɔr], the Du [st] cluster has become [s]:  
+                      (73) [pə'ris]  Du politie 'police'  
+                           ['seŋkɔr] Du Steenkool ‘Steenkool’ (now Bintuni)  
+  - Page 59 : Phoneme Allophones Orthographic symbol  
+              /r/ →   [r], [ɾ]   r  
+
+Glottologue :  
+https://glottolog.org/resource/languoid/id/maib1239  
+
+Autres sources :   
+https://clics.clld.org/languages/lexirumah-maib1239  
+  Recherches : r -> 78 entries (filtered from 421 total entries)  
+
+```{r}
+show_lang('Maybrat')$Form
+```
+
+```{r}
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Maybrat",'trilled',revision))
+```
+
+##Biak
+
+```{r}
+show_lang('Biak')
+show_comments('Biak')
+```
+
+Trill : yes  
+R_type : trill  
+
+Dataset :   
+  CLICS, no comments  
+
+Phoible :   
+https://phoible.org/languages/biak1248  
+2 inventaires  
+  - PH r	allophones	r ɾ d  
+  - GM r allophones r  
+
+Heuvel, Wilco van den. 2006. Biak: Description of an Austronesian Language of Papua. LOT.  
+  - Page 21 : Trill r (r)  
+  - Page 22 : /r/ [r], a voiced alveolar trill. In fast speech /r/ may be realized as the alveolar flap [ɾ]. It may be realized as [d] when preceded by another /r/ (cf. section 2.6.3). A sequence of a /n/ and /r/ is realized as [ndr], while /mr/ is realized as [mbr].  
+  - Page 23 : Consonant contrasts in word-initial position  
+              Alveolars and palatal: /d/-/t/-/n/-/s/-/r/-/y/  
+              Fricatives, trill and approximants: /f/-/s/-/r/-/w/-/y/  
+              Alveolars: /d/-/n/-/s/-/r/-(/t/)  
+              Nasals, fricatives, trill and approximants: /m/-/n/-/v/-/f/-/s/-/r/-/w/-/y/  
+  - Page 24 : Consonant contrasts in word-final position  
+              Alveolars: /t/-/n/-/s/-/r/ (/d/ is not attested in word-final position)  
+  - Page 25 : The other phoneme to be discussed is /l/. Neither in the corpus, nor in the dictionaries by the Van Hasselts (1876, 1893, 1947) and Suparno (1977) have any forms with /l/ been attested, except in some loan words explicitly marked as such (Van Hasselt 1947:131). This makes the status slightly different from that of /t/, which is also found in some words that have become part of the language. Although some older people realize /l/ as [r] in loanwords (like one older person who realized kapal 'ship' as [kapar]), the great majority of speakers realize /l/ in loan words simply as [l].  
+          The realization [l] is not only found in loan words, but also found as an alternative realization of the phoneme /r/. This alternative realization is possible in a number of words and is used for special pragmatic effects. Although no examples were attested in the corpus of spontaneous speech, my consultants provided expressions like the following.  
+  - Page 26 : frúr 'make' vs. flúr 'strike hard' as in wa-flúr i '2SG-strike.hard 3SG' -> '(you) strike him hard.'  
+              pram 'strike hard' vs. plam 'strike hard' as in wa-plam i '2SG-strike.hard 3SG' -> 'youstrike him hard'  
+              pláf 'blind' as variant of práf 'rust(y)', as in pan pláf i '2SG.touch blind 3SG'-> 'make him blind'  
+              plef 'scrape off' as a variant of pref 'scrape off', as in wa-plef i '2SG-srape.off 3SG' -> 'scrape him off' -> 'conquer him / knock him down'  
+              The contexts depicted by my consultants, in which expressions like the ones given are used, were either situations of playing (football), or allusions to sexual intercourse (in the sense of 'take this girl'). Although the realization of /r/ as [l] instead of [r] brings about some difference in meaning, this meaning difference is more of a pragmatic nature than of a semantic nature. The difference between pram and plam is clearly of a different nature than the difference between, for example, the difference between sam 'hot' and sar 'sharp'.  
+  - Page 38 : Liquid-or r-initial  
+              /rm/   
+              /rw/  
+  - Page 39 : The origin of the prefix r- is not clear.  
+  - Page 40 : Now consider the sequences not obeying the SSP. For some of them, the cluster must phonetically be part of two syllables. This is true for clusters in which an initial /r/ or an initial nasal is (phonetically) followed by a stop. In these cases, when the words are uttered in isolation, the initial /r/ or nasal form a syllable on their own. Whereas /n/ and /r/ survive as 'phonetic syllables' at the surface, there is no reason to assume that the language structurally allows for syllables consisting of a nasal or r only.2  
+              2. If we stated that the language phonemically has syllables containing of a nasal only, nothing would be won. It does not account for the remarkable set of initial clusters, because we are still left with many non-nasal initial clusters that ask for an explanation. Second, in the analysis of final clusters, it is clear that nasal-final and /r/-final clusters behave exactly the same as other clusters. Just like other clusters, they are broken up by epenthesis, as discussed in 2.2.1 and 2.2.3. If final nasals and final /r/ phonemically formed a syllable on their own, there would be no explanation for the epenthesis of [e].  
+  - Page 42 : r-final  
+              /pr/ d-opr '3SG-jump'  
+              /kr/ i-mkikr 3SG-shiver'  
+              /fr/ s<y>ofr '<3SG>gather'  
+              /sr/ p<y>esr '<3SG>defecate'  
+              /vr/ k<y>avr '<3SG>return  
+              /wr/ r<y>owr '<3SG>hear'  
+  - Page 54 : In monomorphemic words, the sequence /n/ + /r/ is not attested. In polymorphemic words, a sequence of /n/ and /r/ is realized as [ndr], as was mentioned in 2.1.1. The sequence /m/ + /r/ is found in both polymorphemic and monomorphemic words, and realized as [mbr].   
+              
+              (18) i-mráne [imbráne]  
+              3SG-walk  
+              'he walks'  
+        The reduplication pattern clearly shows that b is not lexical. The reduplicated variant of mrán is marandán, a form that follows the regular pattern described in section 7.3.3. Both the intrusion of b in mr and the intrusion of d in nr are the result of variation in timing between the different dimensions or gestures required for the realization of the individual segments (Booij 1995:137, Browman and Goldstein (1990)). Nasals are produced with an open velic passage, so that the air stream escapes through the nasal cavity, while all other segments are produced with a closed velic passage. The b and d- intrusion described just above are the result of denasalization (or closing of the velic passage) while the air stream through the oral cavity is still obstructed. The place features of the intrusive stops are those of the preceding nasal.  
+        With respect to the realization of /r/ after /n/, a difference can be observed between words belonging to major lexical classes (verbs and nouns) on the one hand and other words and other lexical items on the other hand. For major lexical classes, a sequence of /n/ and /r/ is realized as [ndr]. The phoneme /r/, in other words, ' survives' at the surface structure. For other words and morphemes, however, /r/ is virtually always realized as [d] when following /n/. Thus, the preposition ro 'LOC' is realized as [do] in i-mrán ro di-ne ' 3SG-walk LOC place-this' [imrándodine], while for the r-initial directionals that are part of motion adverbs, the realization [d] following /n/ is obligatory (as in van-rum 'side-inside' [vandum], cf. section 9.5.4, table 10). As will be shown in 2.6.3, a similar distinction between words of major lexical classes and other lexical items holds for the sequence of /r /and /r/.  
+  - Page 56 : 2.6.3 Sequence of /r/ and /r/  
+              /r/,/d/ and /n/ differ minimally. Although they have been shown to be different phonemes in 2.1.1 above, dialectical variation shows that they are very close. Compare the following examples:  
+              (25) rambav '<type of mammal>'  
+                   dambav '<type of mammal>'  
+                   nambav '<type of mammal>'  
+              As geminates are not attested in monomorphemic words, a sequence of /r/ + /r/ also is not found. As for other contexts, a distinction should be made between words belonging to the major lexical categories of verbs and nouns on the one hand, and other lexical items on the other hand. For verbs and nouns, /r/ preceded by /r/ in the same intonational phrase is optionally realized as [d]. Thus, the compound mnivr rum has the following two realizations:  
+              (26) mnivr rum  
+                   bee nest  
+                   [mnivr:um], [mnivrdum]  
+                   'bee nest' [FFbc], [FPbi]  
+            Lexical items that do not belong to the major lexical classes, on the other hand, show a very strong tendency to be realized as [d] following /r/, as in sufrar rao '3DU-run until', where rao is realized as [da(w)o].  
+    
+Steinhauer, Hein. 2006. Biak. In Adelaar, Alexander and Himmelman, Niklaus (eds.) Austronesian Languages of Asia and Madagascar 793–795. 1st edn. Routledge.  
+  - Page 754 : Trill r  
+  - Page 795 : /n/ before a velar or labial stop is optionally assimilated as [ŋ] and [m] respectively. The sequence /mr/ is always realized as [mbr].  
+              The sonorants (/m, n, r/) may become syllabic through the loss of preceding /e/:  
+              d-oper (3s.SBJ-jump) ‘he/she/it jumps’  
+              d-opr ro war ve-ki [dhp Srowár eki] (3s.SBJ-jump LOC water REL-flow)  
+              ‘he/she/it jumps into the river’  
+              d-opr ve (a)ya [dhpSr e(a)yá] (3s.SBJ-jump DIR 1s)  
+              ‘he/she/it jumps towards me’  
+  - Page 804 : After r, y or a nasal -ri- is replaced by -di-. The exact phonetic conditions for the variation should be further investigated.  
+  
+Wikipedia :   
+https://en.wikipedia.org/wiki/Biak_language  
+  - Trill r  
+Glottologue :  
+https://glottolog.org/resource/languoid/id/biak1248  
+
+Autres sources :  
+https://clics.clld.org/languages/lexirumah-biak1248  
+  Recherches : r -> 243 entries (filtered from 551 total entries)  
+https://clics.clld.org/languages/transnewguineaorg-biak  
+  Recherches : r -> 22 entries (filtered from 51 total entries)  
+  
+```{r}
+show_lang('Biak')$Form
+```
+
+```{r}
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Biak",'trilled',revision))
+```
+
+##Alorese, Baranusa	
+
+```{r}
+show_lang('Alorese, Baranusa')
+show_comments('Alorese, Baranusa')
+```
+
+Trill : yes  
+R_type : trill  
+
+Dataset :   
+  CLICS, Klamer, Margaretha Anna Flora. (2011). A short grammar of Alorese (Austronesian). Muenchen: Lincom Europa.  
+
+Marian Klamer. 2011. A Short Grammar of Alorese (Austronesian). (Languages of the World/Materials, 486.) München: Lincom GmbH. 142pp.  
+  - Page 30 : Trill r  
+  - Page 31 : When words are uttered in isolation, as in a word list, consonants in intervocalic position are lengthened. The long consonant is the coda of the first syllable, and the onset of the second one. Examples are presented in (2-1) (full stop = syllable boundary):  
+    turu [’tur.ru] ‘lie down, sleep’  
+  - Page 32 : All consonants can be used as word-initial onset, except for the velar nasal and the affricate /ȴ/ (orthographically represented as j).   
+
+Phoible : NA  
+
+Wikipedia :   
+https://en.wikipedia.org/wiki/Alorese_language  
+
+Glottologue :  
+https://glottolog.org/resource/languoid/id/alor1247  
+
+Autres sources :  
+https://clics.clld.org/languages/lexirumah-alor1247-baran-YS  
+  Recherches : r -> 41 entries (filtered from 255 total entries)  
+               rː [dans Form in source] -> 12 entries (filtered from 448 total entries)  
+https://clics.clld.org/languages/lexirumah-alor1247-baran  
+  Recherches : r -> 97 entries (filtered from 448 total entries)  
+               rː [dans Form in source] -> 10 entries (filtered from 255 total entries)  
+
+https://archive.mpi.nl/tla/islandora/object/tla:1839_c50cac78_8f49_4c27_acce_5bce9df2257a?asOfDateTime=2019-03-01T10:10:54.957Z  
+
+https://archive.mpi.nl/tla/islandora/object/tla:1839_8072a884_d5df_4a94_a363_e69c384bafeb?asOfDateTime=2019-03-01T10:32:29.554Z  
+
+https://archive.mpi.nl/tla/islandora/object/tla:1839_20c1faa5_6ff0_427e_a39e_8c226a6f7fb0?asOfDateTime=2019-03-01T10:32:09.525Z  
+
+```{r}
+show_lang('Alorese, Baranusa')$Form
+```
+
+```{r}
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Alorese, Baranusa",'trilled',revision))
+```
+
+### Galolen
+
+```{r}
+show_lang('Galolen')
+show_comments('Galolen')
+```
+
+Trill : yes  
+R_type : trill  
+
+Dataset :   
+  CLICS, https://omniglot.com/writing/galoli.htm  
+
+Phoible : NA  
+
+Wikipedia :   
+https://en.wikipedia.org/wiki/Galoli_language  
+
+Glottologue :  
+https://glottolog.org/resource/languoid/id/galo1243  
+
+Hull, Geoffrey. 2003. Galoli. (East Timor Language Profiles, 3.) Dili: Instituto Nacional de Linguística of the Universidade Nacional Timor 'e. viii+43pp -> Pas trouvé  
+
+Sadnyana, I Nengah Semeta and Tama, I Wayan and I Wayan Sudana and I Nengah Sukartha. 1994. Struktur bahasa Galolen. Jakarta: Pusat Pembinaan dan Pengembangan Bahasa, Departemen Pendidikan dan   Kebudayaan. 113pp.  
+  - Page 18 : [r] rasa [rase] 'tinggi' [tall]  
+                  naru [naru] 'panjang' [long]  
+                  kenar [kenar] 'telinga' [ear]  
+  - Page 20 : Kontoid getar (trill) adalah bunyi yang terjadi karena ujung lidah mendekati dan menjauhi lengkung kaki gigi berkali-kali  
+dengan cepat yang mengakibatkan ujung Iidah bergetar .  
+              [Traduit avec Google Traduction depuis mon iPhone : A vibrating contoid (trill) is a sound that occurs when the tip of the tongue approaches and away from the dental arch many times rapidly, causing the tip of the tongue to vibrate]  
+              [r] runa [runa] 'bangun' [get up]  
+                  guarda [guwarda]  'desa' [village]  
+                  kenar [kenar] 'telinga' [ear]  
+  - Page 25 : Getar bersuara r  
+  - Page 30 : Konsonan /r/ ditemukan dengan mengontraskan pasangan minimal bunyi [t] : [r]  
+                tuna [tuna] 'beh.it'   
+                runa [runa] 'bangun'  
+              Konsonan /d/ ditemukan dengan cara mengontraskan pasangan bunyi [d] : [r]  
+                odas [odas] 'gelang'  
+                oras [oras] 'jam'  
+              Konsonan /d/ (=Je pense que c'est une typo et que c'était peut-être /r/) ditemukan dengan cara mengontraskan pasangan minimal bunyi [r] : [w] yang terdapat dalam kata  
+                rai [ray] 'kotor'  
+                wai (way] 'terkejut'  
+              Konsonan 11/ ditemukan dengan jalan mengontraskan pasangan minimal bunyi [l] : [r]. Di samping itu, juga dengan mengontraskan bunyi [l]] : [g] : [n] seperti  
+                mali [mali] 'tertawa'  
+                mari [mari] 'hidup'  
+                lau [law] 'tupai'  
+                gau [gaw] 'saya'     
+                nau [naw] 'pintar'  
+              Konsonan Ikl ditemukan dengan jalan mengontraskan pasangan minimal bunyi [k] : [r] dan juga [k] : [n]  
+                ibuk [ibUk] 'pelipis] (= typo je pense que ça devait être une apostrophe)  
+                ibur [ibUr] 'bibir'  
+                waki [waki] 'benar'  
+                wani [wani] 'tawon'  
+              Semivokal /w/ ditemukan dengan eara memakaiprinsip pasangan  
+minimal bunyi [w] : [r] : [h]  
+                wai [way] 'terkejut'  
+                rai [ray] 'kotor'  
+                hai [may] 'aduh'  
+    - Page 37 : Distribusi konsonan /r/  
+                posisi awal  
+                 rasa [rasa] 'tinggi'  
+                 runa [runa] 'bangun'  
+                 rius [riyUs] 'mandi'  
+                posisi tengah  
+                  guarda[guwarda] 'desa'  
+                  naru [naru] 'panjang'  
+                  tersa [tErsa] 'selasa'  
+                posisi akhir  
+                 le'er [le?Er] 'membaca'  
+                 buit [buwlt] 'keramas'  
+                 ihat [ihat] 'empat'  
+    - Page 42 : dr vidro [vidro] 'kaca'  
+                tr itruwan [itruwan] 'tikar'  
+                str strada [strada] 'jalan'  
+  
+Autres sources :    
+https://clics.clld.org/languages/lexirumah-galo1243    
+  Recherches : r -> 127 entries (filtered from 378 total entries)    
+  
+```{r}
+show_lang('Galolen')$Form
+```
+
+```{r}
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Galolen",'trilled',revision))
+```
+
+### Lamboya
+
+```{r}
+show_lang('Lamboya')
+show_comments('Lamboya')
+```
+
+Trill : yes  
+R_type : trill  
+
+Dataset : 
+  CLICS, Verdizade, Allahverdi (2019). Selected topics in the phonology and morphosyntax of Laboya: A field study (MA thesis). Stockholm University.  
+
+Allahverdi Verdizade. 2019. Selected topics in the phonology and morphosyntax of Laboya: A field study. (MA thesis, Stockholm University; 95pp.)  
+  - Page 20 : Trill r  
+              /r/ - /l̺/ ro [roː] ‘leaf’ - lo [l̺oː] ‘to go away’  
+              /r/ - /n/ morro [ˈmoro] ‘medicine’ - mono [ˈmono] ‘and’  
+
+Phoible : NA  
+
+Wikipedia :   
+https://en.wikipedia.org/wiki/Lamboya_language  
+
+Glottologue :  
+https://glottolog.org/resource/languoid/id/lamb1273  
+
+Autres sources :  
+https://clics.clld.org/languages/lexirumah-lamb1273  
+  Recherches : r -> 143 entries (filtered from 666 total entries)  
+
+```{r}
+show_lang('Lamboya')$Form
+```
+
+```{r}
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Lamboya",'trilled',revision))
+```
+
