@@ -1,7 +1,7 @@
 Ressources complémentaires - Chapitre 5
 ================
 Rémi Anselme
-2023-03-10 18:32:57
+2023-03-13 16:39:34
 
   - [Chapitre 5](#chapitre-5)
       - [Présentation de l’article de Winter et
@@ -238,6 +238,97 @@ Rémi Anselme
           - [Colorado](#colorado)
           - [Epena](#epena)
           - [Yuwana](#yuwana)
+          - [Yaruro](#yaruro)
+          - [Ninam (Shirishana variety)](#ninam-shirishana-variety)
+          - [Yanomámi](#yanomámi)
+          - [Cofán](#cofán)
+          - [Aguaruna](#aguaruna)
+          - [Yagua](#yagua)
+          - [Ignaciano](#ignaciano)
+          - [Waurá](#waurá)
+          - [Aymara](#aymara)
+          - [Chipaya](#chipaya)
+          - [Mosetén](#mosetén)
+          - [Tacana](#tacana)
+          - [Movima](#movima)
+          - [Pacaas Novos](#pacaas-novos)
+          - [Mundurukú](#mundurukú)
+          - [Chiriguano](#chiriguano)
+          - [Wayampi](#wayampi)
+          - [Kaingáng](#kaingáng)
+          - [Mocoví](#mocoví)
+          - [Selknam](#selknam)
+          - [Qawasqar](#qawasqar)
+          - [Toba](#toba)
+          - [Central Thai](#central-thai)
+          - [Thai](#thai)
+          - [Ingush](#ingush)
+          - [Telugu](#telugu)
+          - [Nyakur](#nyakur)
+          - [Samre](#samre)
+          - [Cayapa](#cayapa)
+          - [Trinitario](#trinitario)
+          - [Yavitero](#yavitero)
+          - [Ese Ejja](#ese-ejja)
+          - [Sirionó](#sirionó)
+          - [Kunza](#kunza)
+          - [Angami Kohima](#angami-kohima)
+          - [Jingpho](#jingpho)
+          - [Lushai](#lushai)
+          - [Sangtam](#sangtam)
+          - [Tangsa (Yogli)](#tangsa-yogli)
+          - [Hokkaido Ainu](#hokkaido-ainu)
+          - [Japanese](#japanese)
+          - [Burushaski](#burushaski)
+          - [Tsangla (Motuo)](#tsangla-motuo)
+          - [Xumi](#xumi)
+          - [Atsi \[Zaiwa\]](#atsi-zaiwa)
+          - [’Are’are (1)](#areare-1)
+          - [Anuta](#anuta)
+          - [Arosi (1)](#arosi-1)
+          - [Kokota](#kokota)
+          - [Kwara’ae](#kwaraae)
+          - [Oroha](#oroha)
+          - [Poleo](#poleo)
+          - [Iraqw](#iraqw)
+          - [Archi](#archi)
+          - [Manange](#manange)
+          - [Yaqui](#yaqui)
+          - [Otomi](#otomi)
+          - [Irarutu](#irarutu)
+          - [Moskona](#moskona)
+          - [Haitian Creole](#haitian-creole)
+          - [Uzbek](#uzbek)
+          - [Guugu-Yimidhirr](#guugu-yimidhirr)
+          - [Magar](#magar)
+          - [Awa](#awa)
+          - [Bará](#bará)
+          - [Chimila](#chimila)
+          - [Guayabero](#guayabero)
+          - [Ika](#ika)
+          - [Cubeo](#cubeo)
+          - [Mari](#mari)
+          - [Jamaican Creole (Limonese Creole
+            dialect)](#jamaican-creole-limonese-creole-dialect)
+          - [Embera](#embera)
+          - [Baure](#baure)
+          - [Wapishana](#wapishana)
+          - [Cavineña](#cavineña)
+          - [Aché](#aché)
+          - [Karajá](#karajá)
+          - [Ayoreo](#ayoreo)
+          - [Southern Kam](#southern-kam)
+          - [Tamil](#tamil)
+          - [Ahlao Th—ERROR—](#ahlao-therror)
+          - [Surin Khmer](#surin-khmer)
+          - [Itonama](#itonama)
+          - [Kannada](#kannada)
+          - [Anong](#anong)
+          - [Pumi (Taoba)](#pumi-taoba)
+          - [rGyalrong](#rgyalrong)
+          - [Kali’na](#kalina)
+          - [Makasae](#makasae)
+          - [Ngadha](#ngadha)
 
 # Chapitre 5
 
@@ -16665,7 +16756,7 @@ Konsonan 11/ ditemukan dengan jalan mengontraskan pasangan minimal bunyi
 \[l\] : \[r\]. Di samping itu, juga dengan mengontraskan bunyi \[l\]\] :
 \[g\] : \[n\] seperti  
 mali \[mali\] ‘tertawa’  
-mari \[mari\] ‘hidup’  
+mari [mari](#mari) ‘hidup’  
 lau \[law\] ‘tupai’  
 gau \[gaw\] ‘saya’  
 nau \[naw\] ‘pintar’  
@@ -23574,4 +23665,11152 @@ d’un flap… Et je ne peux pas vérifier les sources.
 ``` r
 rough_r_data <- rough_r_data %>% 
   dplyr::mutate(revision = ifelse(Language=="Yuwana",'OUT',revision))
+```
+
+### Yaruro
+
+``` r
+show_lang('Yaruro')
+```
+
+    ## # A tibble: 2 × 6
+    ##   Language Dataset Meaning Form    Trill R_type  
+    ##   <chr>    <chr>   <chr>   <chr>   <chr> <chr>   
+    ## 1 Yaruro   CLICS   smooth  tata    no    no trill
+    ## 2 Yaruro   CLICS   rough   i gaipa no    no trill
+
+``` r
+show_comments('Yaruro')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language Dataset Comments               
+    ##   <chr>    <chr>   <chr>                  
+    ## 1 Yaruro   IDS     flap based on wikipedia
+
+``` r
+show_iso('Yaruro')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language ISO_code Phoible_code
+    ##   <chr>    <chr>    <chr>       
+    ## 1 Yaruro   yae      yae
+
+Trill : no  
+R\_type : no trill
+
+Dataset :  
+IDS, flap based on wikipedia
+
+Phoible :  
+<https://phoible.org/inventories/view/2125>  
+\- ɾ pas d’allophones; ɾ̃ pas d’allophones
+
+Mosonyi, E. E., J. C. Mosonyi and García, Jorge Ramón. 2000. Manual de
+Lenguas Ind’igenas de Venezuela. Caracas: Fundaci’on BIGOTT. -\> Pas
+trouvé
+
+Wikipedia :  
+<https://en.wikipedia.org/wiki/Yaruro_language>  
+\- Rhotic ɾ  
+\- Lateral l
+
+Glottologue :  
+<https://glottolog.org/resource/languoid/id/pume1238>
+
+Guerreiro de Pirela, Yandira Coromoto. 2016. Lengua indígena yaruro: una
+gramática tipológica-referencial. (Doctoral dissertation, Universidad de
+Córdoba; 183pp.)  
+\- Page 92 : Vibrantes r  
+\- Page 93 : El sonido /r̃/ posiblemente sea una variante de la vibrante
+simple oral, esto es, una simple nasalización de /r/ cuando está
+flanqueada por vocales nasales, pues no se encontró en ninguna otra
+posición.  
+\- Page 94 : Tabla 8: Pares mínimos de consonantes  
+n/r̃ ana ‘grande’ Ãrã ‘ponerse’  
+\- Page 96 : Tabla 10: Fonología y sistema de escritura  
+r \[ɾ\] consonante vibrante simple alveolar sonora oral biri ‘carare’,
+ara ‘cargar’
+
+Mosonyi, Esteban Emilio and Jorge Ramón García. 2000. Yaruro (Pumé). In
+Mosonyi, Esteban Emilio and Jorge Carlos Mosonyi (eds.), Manual de
+Lenguas Indígenas de Venezuela, 544-593. Caracas: Fundación Bigott. -\>
+Même que PHOIBLE
+
+Autres sources :  
+<https://clics.clld.org/languages/ids-251>  
+Recherches : r -\> 437 entries (filtered from 1,139 total entries)  
+l -\> 1 entries (filtered from 1,139 total entries) (=\> kučarila
+‘spoon’)
+
+Matthias Pache. 2016. Pumé (Yaruro) and Chocoan Evidence for a New
+Genealogical Link in Northern South America. Language Dynamics and
+Change 6. 99–155  
+\- Page 104 : Vibrants (oral and nasal) ɾ ɾ̃  
+Pumé does not seem to make a phonemic distinction between the tap ɾ and
+the trill r, an opposition that is attested in Chocoan languages
+(Constenla and Margery, 1991). On the phonetic level, the Pumé vibrant
+should probably be described as a tap (cf. Mosonyi et al., 2000: 551)
+and is transcribed as such in the present paper.  
+Dyck and Dyck (2007) apparently do not interpret the opposition between
+the nasal and oral tap as phonemic: cf. ⟨ãr̃õr̃ẽ́⟩ ‘we’ and ⟨jará⟩ ‘to
+drink’ given by Mosonyi et al. (2000: 549; 551), and ⟨ãrõrẽ⟩ ‘we’ and
+⟨hara⟩ ‘to drink,’ given by Dyck and Dyck (2007). In the
+transcriptions used in this paper, nasality of a tap is only indicated
+in the context of data from Mosonyi et al. (2000), who interpret the
+nasal tap as a distinct phoneme. In general terms, a phonemic contrast
+between /ɾ̃/ and /n/ is rather unusual (Maddieson et al., 2014–2015; I
+am grateful to Natacha Chevrier for pointing out this information).  
+\[=\> La ref c’est Lapsyd\]
+
+  - Page 130 : 5.13 Pumé ɾ, Chocoan ɾ  
+    Table 21 shows nine correspondences between Pumé ɾ and Chocoan ɾ,
+    attested in sets 4, 5, 17, 18, 27, 30, 32, 46, and 51. This sound
+    correspondence seems to be also attested in \* 2, \* 11, \* 12, \*
+    14, \* 15, \* 16, \* 17, \* 18, \* 19, \* 20 (see Appendix 1). This
+    is the only consonant correspondence discussed in this paper which
+    is never attested in root-initial position, neither in Pumé nor in
+    Chocoan; none of these languages has root-initial ɾ. In the lexical
+    elements discussed in this paper that have a c1v1c2v2 structure in
+    both Pumé and Chocoan, c2 is most frequently a tap ɾ or a voiced
+    alveolar stop d.  
+    (46.) In Pumé, Mosonyi et al. (2000: 561–562) observe an element -ɾɛ
+    \~ -ɾ̃ɛ̃ that they label a nominative case marker.53 Its use is
+    illustrated in examples (4a) and (4b).
+    
+    ``` 
+          Remember that the nasalized tap ɾ̃ is a phoneme of Pumé according to the transcription Mosonyi et al. (2000), but not according to Dyck and Dyck (2007) (cf. Footnote 15).  
+    ```
+
+  - Page 131 : table 21 Nine correspondences between Pumé ɾ and Chocoan
+    ɾ  
+    \[examples\]  
+    The element -ɾɛ \~ -ɾ̃ɛ̃ in (4) is attached to a noun in (4a) and to
+    a nominalized verb in (4b). In Chamí, a southern variety of Emberá,
+    Aguirre (1999: 70–71) describes a formally similar element -ɾa,
+    which he labels a topic marker. Its use is illustrated in (5) where
+    it is attached to the first-person-singular marker ˈmɯ.  
+    \[examples\]  
+    Aguirre (2006: 376) interprets the function of an element -ɾa,
+    attested in some varieties of Emberá (Upper San Juan, Antioquia,
+    Córdoba, Atrato, Panama), as indicating “previous reference.”  
+    In the context of Chamí -ɾa, indicating topicality, and of Mosonyi
+    et al.’s (2000) interpretation of -ɾɛ \~ -ɾ̃ɛ̃ as a nominative case
+    marker in Pumé, note that, generally speaking, subjects have a
+    topical nature, and that topic function is compatible with
+    nominative case (cf., e.g., Beck, 1996; Blake, 1994: 32). Also, the
+    use of -ɾ̃ɛ̃ in the Pumé examples (4a) and (4b) is highly
+    reminiscent of topic marking.  
+    (51.) Final di in Pumé uɾɛdi ‘deep’ might be related to final di in
+    Pumé ɡoadi ‘to hide, conceal’ (see set 25 in Subsection 5.8).
+    
+    ``` 
+            (Dyck, Merrill and Teresa Ann Dyck. 2007. Yaruro. In Bernard Comrie (ed.), Interconti-  
+    ```
+    
+    nental Dictionary Series. Leipzig: Max Planck Institute for
+    Evolutionary Anthropol-  
+    ogy. Available at
+    <http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse>  
+    \&lg\_id=251 (accessed December 16, 2015).)
+
+<!-- end list -->
+
+``` r
+show_lang('Yaruro')$Form
+```
+
+    ## [1] "tata"    "i gaipa"
+
+``` r
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Yaruro",'other',revision))
+```
+
+### Ninam (Shirishana variety)
+
+``` r
+show_lang('Ninam (Shirishana variety)')
+```
+
+    ## # A tibble: 1 × 6
+    ##   Language                   Dataset Meaning Form   Trill R_type  
+    ##   <chr>                      <chr>   <chr>   <chr>  <chr> <chr>   
+    ## 1 Ninam (Shirishana variety) CLICS   smooth  si-ãhi no    no trill
+
+``` r
+show_comments('Ninam (Shirishana variety)')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language                   Dataset Comments
+    ##   <chr>                      <chr>   <chr>   
+    ## 1 Ninam (Shirishana variety) IDS     <NA>
+
+``` r
+show_iso('Ninam (Shirishana variety)')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language                   ISO_code Phoible_code
+    ##   <chr>                      <chr>    <chr>       
+    ## 1 Ninam (Shirishana variety) shb      shb
+
+Trill : no  
+R\_type : no trill
+
+Dataset :  
+IDS, no comments
+
+Phoible :  
+<https://phoible.org/languages/nina1238>  
+2 inventaires  
+\- UPSID ɾ̪|ɾ pas d’allophones  
+\- SAPHON ɾ pas d’allophones
+
+Migliazza, Ernest and Grimes, Joseph E. 1961. Shiriana Phonology.
+Anthropological Linguistics 3. 31–41.  
+\- Page 32 : /r/ is a liquid, apical, with a Lateral allophone before or
+after /i/ in an oral foot (3) as in ariro \[alilo\] chanting, a nasal
+flap atlophone before or after /i/ in a nasal foot (where it is in
+contrast with the ordinary apical nasal) as in ^nmori4 \[mõňĩ\] one,
+\[example\], and a non nasal flap allophone elsewhere as in ^n roo
+\[řoo\] house fly.
+
+Gomez, Gale Goodwin. 1990. The Shiriana dialect of Yaman (northern
+Brazil). (Doctoral dissertation, Columbia University). -\> Pas trouvé
+
+Wikipedia :  
+<https://en.wikipedia.org/wiki/Ninam_language>  
+\- Flap ɾ
+
+Glottologue :  
+<https://glottolog.org/resource/languoid/id/nina1238>
+
+Autres sources :  
+Recherches : r -\> 2 entries (filtered from 999 total entries) \[=\>
+dont kolher ‘spoon’ et zero ‘he/she/it’\]  
+l -\> 381 entries (filtered from 999 total entries)
+
+``` r
+show_lang('Ninam (Shirishana variety)')$Form
+```
+
+    ## [1] "si-ãhi"
+
+Mismatch entre l’utilisation du l dans CLICS et le r dans la
+phonologie…  
+Je laisse en ‘other’.
+
+``` r
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Ninam (Shirishana variety)",'other',revision))
+```
+
+### Yanomámi
+
+``` r
+show_lang('Yanomámi')
+```
+
+    ## # A tibble: 3 × 6
+    ##   Language Dataset Meaning Form         Trill R_type  
+    ##   <chr>    <chr>   <chr>   <chr>        <chr> <chr>   
+    ## 1 Yanomámi CLICS   smooth  si kõpehe-wə no    no trill
+    ## 2 Yanomámi CLICS   rough   rõki         no    no trill
+    ## 3 Yanomámi CLICS   rough   namo         no    no trill
+
+``` r
+show_comments('Yanomámi')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language Dataset Comments
+    ##   <chr>    <chr>   <chr>   
+    ## 1 Yanomámi IDS     <NA>
+
+``` r
+show_iso('Yanomámi')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language ISO_code Phoible_code
+    ##   <chr>    <chr>    <chr>       
+    ## 1 Yanomámi wca      wca
+
+Trill : no  
+R\_type : no trill
+
+Dataset :  
+IDS, no comments
+
+Phoible :  
+<https://phoible.org/languages/yano1262>  
+4 inventaires  
+\- SAPHON 2134 ɾ pas d’allophones  
+\- SAPHON 2146 ɾ pas d’allophones  
+\- SAPHON 2147 ɾ pas d’allophones  
+\- SAPHON 2150 ɾ pas d’allophones
+
+Migliazza, Ernest Cesar. 1972. Yanomama Grammar and Intelligibility.
+(Doctoral dissertation, Indiana University; 145–152pp.) -\> Pas trouvé  
+Ferreira, Helder. NULL. Personal communication.  
+Ramirez, Henri. 1999. A prática do Yanomami. In. Boa Vista:
+Comisstextasciitilde ao Pr’o-Yanomami (CCPY). -\> Pas trouvé
+
+Wikipedia :  
+<https://en.wikipedia.org/wiki/Waik%C3%A1_language>
+
+Glottologue :  
+<https://glottolog.org/resource/languoid/id/yano1262>
+
+Aikhenvald, Alexandra and Dixon, R.M.W. 1999. Yanomami. In Dixon, R. M.
+W. and Aikhenvald, Alexandra Y. (eds.), The Amazonian languages,
+341-350. Cambridge: Cambridge University Press.  
+\- Page 346 : flap r
+
+Autres sources :  
+<https://clics.clld.org/languages/ids-253>  
+Recherches : r -\> 324 entries (filtered from 931 total entries)  
+l -\> 0 entries (filtered from 931 total entries)
+
+``` r
+show_lang('Yanomámi')$Form
+```
+
+    ## [1] "si kõpehe-wə" "rõki"         "namo"
+
+``` r
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Yanomámi",'other',revision))
+```
+
+### Cofán
+
+``` r
+show_lang('Cofán')
+```
+
+    ## # A tibble: 4 × 6
+    ##   Language Dataset Meaning Form         Trill R_type  
+    ##   <chr>    <chr>   <chr>   <chr>        <chr> <chr>   
+    ## 1 Cofán    CLICS   smooth  'giyaʔc̷ʰi    no    no trill
+    ## 2 Cofán    CLICS   smooth  kesɨsɨ       no    no trill
+    ## 3 Cofán    CLICS   rough   c̷ʰac̷ʰac̷ʰi    no    no trill
+    ## 4 Cofán    CLICS   rough   c̷ʰac̷ʰariʔkʰo no    no trill
+
+``` r
+show_comments('Cofán')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language Dataset Comments
+    ##   <chr>    <chr>   <chr>   
+    ## 1 Cofán    IDS     <NA>
+
+``` r
+show_iso('Cofán')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language ISO_code Phoible_code
+    ##   <chr>    <chr>    <chr>       
+    ## 1 Cofán    con      con
+
+Trill : no  
+R\_type : no trill
+
+Dataset :  
+IDS, no comments
+
+Phoible :  
+<https://phoible.org/languages/cofa1242>  
+2 inventaires  
+\- USPID R̪|R pas d’allophones  
+\- SAPHON ɾ pas d’allophones
+
+Borman, M. B. 1962. Cofan Phonemes. In Elson, Benjamin F. (ed.), Studies
+in Ecuadorian Indian languages 1, 45–59. Norman: Summer Institute of
+Linguistics of the University of Oklahoma.  
+\- Page 46 : a flapped vibrant  
+vibrant, r  
+\- Page 48 : Voiced stops versus vibrant:  
+/d, r/: \[examples\]  
+/z \[dz\], r/: \[examples\]  
+\- Page 49 : Vibrant versus nasal:  
+/r, n/: \[examples\]  
+Vibrant versus voiced fricative:  
+/r, y \[z̆\]/  
+Fischer, Rafael. NULL. A grammatical description of A’ingae (Cof´an).
+(unpublished). -\> Pas trouvé
+
+Wikipedia :  
+<https://en.wikipedia.org/wiki/Cof%C3%A1n_language>  
+\- /ɾ/ r  
+\- Tap ɾ
+
+Glottologue :  
+<https://glottolog.org/resource/languoid/id/cofa1242>
+
+Autres sources :  
+<https://clics.clld.org/languages/ids-254>  
+Recherches : r -\> 142 entries (filtered from 1,467 total entries)  
+l -\> 2 entries (filtered from 1,467 total entries) (‘ladriyo’ brick;
+mil ‘thousand’)
+
+Repetti-Ludlow, C., Zhang, H., Lucitante, H., AnderBois, S., & Sanker,
+C. (2020). A’ingae (Cofán). Journal of the International Phonetic
+Association, 50(3), 431-444.  
+\- Page 3 : Tap ɾ
+
+``` r
+show_lang('Cofán')$Form
+```
+
+    ## [1] "'giyaʔc̷ʰi"    "kesɨsɨ"       "c̷ʰac̷ʰac̷ʰi"    "c̷ʰac̷ʰariʔkʰo"
+
+``` r
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Cofán",'other',revision))
+```
+
+### Aguaruna
+
+``` r
+show_lang('Aguaruna')
+```
+
+    ## # A tibble: 3 × 6
+    ##   Language Dataset Meaning Form   Trill R_type  
+    ##   <chr>    <chr>   <chr>   <chr>  <chr> <chr>   
+    ## 1 Aguaruna CLICS   smooth  ču'win no    no trill
+    ## 2 Aguaruna CLICS   smooth  pinu   no    no trill
+    ## 3 Aguaruna CLICS   rough   šuham  no    no trill
+
+``` r
+show_comments('Aguaruna')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language Dataset Comments
+    ##   <chr>    <chr>   <chr>   
+    ## 1 Aguaruna IDS     flap
+
+``` r
+show_iso('Aguaruna')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language ISO_code Phoible_code
+    ##   <chr>    <chr>    <chr>       
+    ## 1 Aguaruna agr      agr
+
+Trill : no  
+R\_type : no trill
+
+Dataset :  
+IDS, flap
+
+Phoible :  
+<https://phoible.org/inventories/view/1947>  
+\- ɾ pas d’allophones
+
+Overall, Simon E. 2007. A grammar of Aguaruna. (Doctoral dissertation,
+La Trobe University).  
+\- Page 1 : There are 12 consonants, of which /ɾ/ and /ʔ/ have extremely
+limited distribution  
+\- Page 20 : Of the 12 consonants listed, the glottal stop /ʔ/ and the
+rhotic /ɾ/ have extremely limited distribution.  
+\- Page 21 : FLAP ɾ  
+\- Page 22 : /t/ → \[ɾ\] / \_ h  
+/t/ is realised as an alveolar flap when followed by /h/. The /h/
+typically fails to surface, and the flap \[ɾ\] may then be realised as
+\[l\], as is usual for the phoneme /ɾ/ (see §2.2.7).  
+(9) \[yuwáɾhai\]<sub>\[yuwáɾai\]</sub>\[yuwálai\]  
+yu-a-ta-ha-i  
+eat-HIAF- IFUT-1SG-DECL  
+‘I will eat (this)’ (Obs)
+
+  - Page 23 : Rule B (change of /th/ to \[ɾ\]\~\[l\]) is more common,
+    and is typically encountered in casual (especially children’s)
+    speech. This process is considered incorrect by most speakers.
+
+  - Page 32 : As has been noted, the major phonological difference
+    between Aguaruna and the other Jivaroan languages is that Aguaruna
+    \[h\]/\[ŋ\] often corresponds to a rhotic \[22\] in the other
+    languages. Table 2.5 shows some examples of correspondences; the
+    languages represented are Shuar (SHU), Achuar-Shiwiar (ACU),
+    Huambisa (HUB), Marañón Aguaruna (AGR) and reconstructed
+    Proto-Jivaroan (PJ). For the contemporary languages, surface forms
+    are represented, while the reconstructed proto-forms include the
+    final vowels that are underlyingly present in all the daughter
+    languages.  
+    \[table\]  
+    From these correspondences we can reconstruct a PJ phoneme */r/, as
+    shown in table 2.6.  
+    \[table\]  
+    PJ */r/ never appeared word-initially; in all the Jivaroan languages
+    that have retained PJ /r/, word-initial occurrences are restricted
+    to recent borrowings and onomatopeia, and are not cognate with
+    word-initial /h/ in Aguaruna. Not all instances of Aguaruna /h/
+    correspond to /r/ in the other languages, however.  
+    Table 2.7 shows some morphologically simple examples in which
+    Aguaruna /h/ corresponds to /h/ in the other languages.
+
+\[22\] The precise phonetic nature of the rhotic is unclear. Recordings
+I have had access to suggest that it may  
+surface as a flap or a trill. I transcribe it simply as /r/ in the
+absence of reliable field data.
+
+  - Page 34 : It can now be seen from tables 2.6 and 2.9 that PJ \* /r/
+    and \* /h/ have merged in Aguaruna: the reflexes of both are
+    identical and show the same pattern of allophonic variation.
+    Meanwhile both proto phonemes have continued into SHU, ACU and HUB
+    unchanged. Note that evidence for phonotactic restrictions on PJ \*
+    /r/, which does not appear word-initially, and \* /h/, which rarely
+    appears word-finally, suggest that there may already have been some
+    kind of neutralisation in word-initial and word-final syllables in
+    PJ.  
+    It is clear that AGR, and particularly the Marañón variety, is the
+    most innovative member of the family with respect to phonological
+    development of PJ \* /h/ and \* /r/. That the syllable-final
+    allophone is the most recent development is apparent from the
+    historical facts of vowel elision, as mentioned above: any
+    synchronic positional allophony must postdate vowel elision,
+    otherwise the prevocalic allophone would be universal.  
+    A new syllable-final allophone \[ŋ\] has developed in M-AGR.
+    Word-final devoicing of vowels must have had its beginnings in PJ,
+    since it is attested in all the modern languages, but this also
+    means that the next step, complete elision of affected vowels, must
+    be relatively recent. Given that, it must be the case that the
+    syllable-final allophone is the most recent innovation, since the
+    syllable-final environment did not exist for consonants until vowel
+    elision was fully established.
+
+  - Page 36 : To summarise, while PJ \* /h/ and \* /r/ continued into
+    the rest of the Jivaroan languages unchanged, they have undergone a
+    gradual merger in Aguaruna. At first \* /r/ became \* /h̃/ in
+    Aguaruna, giving rise to minimal pairs distinguished only by
+    nasality of the glottal fricative. This must have quickly been
+    interpreted as vowel nasality, as an already existing phonemic
+    distinction. The development of a new allophone \[ŋ\] neutralises
+    the already small contrast between \* /h/ and \* /h̃/, and evidence
+    shows that many Aguaruna speakers either do not recognise the
+    distinction, or ascribe it to vowel nasality. Based on evidence from
+    the
+
+  - Page 38 : Rhotic  
+    Aguaruna has been described as lacking liquids (Wise 1999: 314), and
+    neither Corbera (1994) nor Wise (1999) includes a liquid phoneme in
+    their inventories. In fact, both \[ɾ\] and \[l\] are in common use
+    in loans from Spanish\[29\], including most proper names, for
+    example Chela, Trifena, Arias, Doris. These names are thoroughly
+    integrated into the language. Although most speakers preserve the
+    Spanish distinction of /ɾ/ versus /l/, for those who know less
+    Spanish, especially children, both sounds surface as \[l\]:
+    \[álias\], \[dɔ́ lis\].  
+    There is also a native phoneme /ɾ/, which typically surfaces as a
+    voiced alveolar flap. It too varies freely with a lateral \[l\], but
+    the \[ɾ\] pronunciation is considered by native speakers to be more
+    correct. The \[l\] pronunciation is typical in children’s speech and
+    only appears in very casual adult speech \[30\].  
+    (32) \[piɾía\]\~\[pilía\]  
+    ‘variety of banana (plátano guineo)’  
+    Although it is relatively common in names and other borrowings from
+    Spanish, there are just four words in my corpus that contain a
+    liquid phoneme and are not of Spanish origin:  
+    (33) a. piɾía  
+    ‘type of small banana (Sp. plátano guineo)’  
+    b. suwákaɾaipa  
+    ‘frog species’ (where the noise made by the frog is said to be
+    \[kaɾáip\])  
+    c. ʃaráʃama  
+    ‘tree frog species’  
+    d. duɾíntsiu  
+    ‘conehead katydid’  
+    Example (b) is apparently onomatopoetic, and (c) may also be.
+    Examples (a) and (d) are of uncertain provenance. No apparent
+    cognates appear in the dictionaries of other Jivaroan languages.  
+    There is also at least one Aguaruna personal name with a liquid
+    phoneme: Námarai. I have no information on the origin of this name,
+    and it may have been introduced from another language through
+    marriage.  
+    No minimal pairs exist, but other consonant phonemes are potentially
+    contrastive in intervocalic position. Based on this evidence, it
+    must be accepted that Aguaruna has a liquid phoneme /ɾ/ (varying
+    freely with \[l\]), but with extremely limited distribution – much
+    like the glottal stop (§2.2.2). Furthermore, this rhotic is not
+    descended from the rhotic phoneme of Proto-Jivaroan.
+
+\[29\] Spanish \[rr\] in loanwords is simplified to \[ɾ\] by all
+monolingual, and most bilingual, Aguaruna speakers.  
+\[30\] Occasional spelling errors in Spanish also point to a confounding
+of \[ɾ\] and \[l\], for example <picafrol> for picaflor ‘hummingbird’.
+
+Wikipedia :  
+<https://en.wikipedia.org/wiki/Aguaruna_language>  
+\- They include the following: four stops, two affricates, three
+fricatives, two nasals, and a flap  
+\- Flaps r \[ɾ\]
+
+Asangkay Sejekam, Nexar. (2006). Awajún. Ilustraciones fonéticas de
+lenguas amerindias, ed. Stephen A. Marlett. Lima: SIL International y
+Universidad Ricardo Palma.  
+\=\> Aucune mention de tap, flap ou de trill.
+
+Glottologue :  
+<https://glottolog.org/resource/languoid/id/agua1253>
+
+Autres sources :  
+<https://clics.clld.org/languages/ids-258>  
+Recherches : r -\> 4 entries (filtered from 1,258 total entries)  
+l -\> 0 entries (filtered from 1,258 total entries)  
+h -\> 387 entries (filtered from 1,258 total entries)  
+t -\> 636 entries (filtered from 1,258 total entries)  
+th -\> 8 entries (filtered from 1,258 total entries)
+
+``` r
+show_lang('Aguaruna')$Form
+```
+
+    ## [1] "ču'win" "pinu"   "šuham"
+
+``` r
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Aguaruna",'other',revision))
+```
+
+### Yagua
+
+``` r
+show_lang('Yagua')
+```
+
+    ## # A tibble: 2 × 6
+    ##   Language Dataset Meaning Form       Trill R_type  
+    ##   <chr>    <chr>   <chr>   <chr>      <chr> <chr>   
+    ## 1 Yagua    CLICS   smooth  wasidya    no    no trill
+    ## 2 Yagua    CLICS   rough   wariwyunu- no    no trill
+
+``` r
+show_comments('Yagua')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language Dataset Comments
+    ##   <chr>    <chr>   <chr>   
+    ## 1 Yagua    IDS     flap
+
+``` r
+show_iso('Yagua')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language ISO_code Phoible_code
+    ##   <chr>    <chr>    <chr>       
+    ## 1 Yagua    yad      yad
+
+Trill : no  
+R\_type : no trill
+
+Dataset :  
+IDS, flap
+
+Phoible :  
+<https://phoible.org/languages/yagu1244>  
+2 inventaires  
+\- UPSID ɾ pas d’allophones  
+\- SAPHON ɾ pas d’allophones
+
+Payne, Doris. 1985. Aspects of the Grammar of Yagua: A Typological
+Approach. (Doctoral dissertation, University of California at Los
+Angeles).  
+\- Page 29 : FLAPS ř \[ř\]
+
+Peña, Jaime G. 2009. A historical reconstruction of the Peba-Yaguan
+linguistic family. (MA thesis, University of Oregon).  
+\- Page 91 : According to Payne and Payne (1990), Yagua has eleven
+contrasting synchronic consonants: /p, t, k, m, n, s, tʃ, ɽ, w, j, h/.
+Notice that ɽ is a retroflex flap and h a pharingeal approximant. This
+coincides in general with Powlison’s (1962, 1995) analysis, although
+Powlison does not say anything about the retroflexed realization of the
+flap. However, Powlison and Gordon de Powlison (1971), who give a flap
+phoneme /ɾ/, state it can be realized as a voiced retroflexed fricative
+\[ʐ\]  
+\- Page 93 : Also, alternation between ɽ and n has been observed in some
+dialects of Yagua. For example, Chaumeil (1987: 19) gives the forms for
+‘shaman’ as \< rimara\> for the dialect of the Pebas town area, and
+<nemara> for the dialect of the Sarko group (who are located around
+Atacuari and Cotuhe-L-Yacu) \[47\].
+
+``` 
+          [47] This kind of alternation also seems to occur diachronically. For example, the word for 'shaman' in Peba is dimasa whereas Yagua has the form ɽimaɽa or nemaɽa, as we saw previously. No explanation can be provided (at least at this point) because there is no evidence to argue for a systematic pattern. In this work, I assume that these are random alternations.   
+```
+
+Wikipedia :  
+<https://en.wikipedia.org/wiki/Yagua_language>  
+\- Tap r \[ɾ\]  
+\- The rhotic r is often retroflex (\[ɽ\]) and may have some laterality
+(\[ɺ\]); simple taps (\[ɾ\]) are also heard. /r/ can also be realized as
+\[d\], especially when palatalized.
+
+Glottologue :  
+<https://glottolog.org/resource/languoid/id/yagu1244>
+
+Autres sources :  
+<https://clics.clld.org/languages/ids-260>  
+Recherches : r -\> 542 entries (filtered from 1,776 total entries)  
+l -\> 0 entries (filtered from 1,776 total entries)  
+rr -\> 1 entries (filtered from 1,776 total entries)
+
+``` r
+show_lang('Yagua')$Form
+```
+
+    ## [1] "wasidya"    "wariwyunu-"
+
+``` r
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Yagua",'other',revision))
+```
+
+### Ignaciano
+
+``` r
+show_lang('Ignaciano')
+```
+
+    ## # A tibble: 3 × 6
+    ##   Language  Dataset Meaning Form    Trill R_type  
+    ##   <chr>     <chr>   <chr>   <chr>   <chr> <chr>   
+    ## 1 Ignaciano CLICS   smooth  timahu  no    no trill
+    ## 2 Ignaciano CLICS   rough   'sesuki no    no trill
+    ## 3 Ignaciano CLICS   rough   'sesume no    no trill
+
+``` r
+show_comments('Ignaciano')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language  Dataset Comments
+    ##   <chr>     <chr>   <chr>   
+    ## 1 Ignaciano IDS     flap
+
+``` r
+show_iso('Ignaciano')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language  ISO_code Phoible_code
+    ##   <chr>     <chr>    <chr>       
+    ## 1 Ignaciano ign      ign
+
+Trill : no  
+R\_type : no trill
+
+Dataset :  
+IDS, flap
+
+Phoible :  
+<https://phoible.org/languages/igna1246>  
+3 inventaires  
+\- SPA ɾ allophones ɾ  
+\- UPSID ɾ pas d’allophones  
+\- SAPHON ɾ pas d’allophones
+
+Ott, Willis and Ott, Rebecca. 1967. Phonemes of the Ignaciano Language.
+Linguistics 35. 56–60.  
+\- Page 56 : There are fourteen consonant phonemes in Ignaciano /ř/  
+\- Page 57 : There is one vibrant, the flapped alveolar /?/. It never
+occurs word initially: biři ‘cascabel’, yaře ‘Come\!’,tiřa Older
+sister’.
+
+Wikipedia :  
+<https://en.wikipedia.org/wiki/Moxo_languages>  
+<https://fr.wikipedia.org/wiki/Ignaciano>  
+\- Liquides r \[r\]
+
+Glottologue :  
+<https://glottolog.org/resource/languoid/id/igna1246>
+
+Enrique Jordá. 2014. Mojeño Ignaciano. In Mily Crevels and Pieter
+Muysken. Lenguas de Bolivia (eds.), Oriente, 21-58. La Paz: Plural
+Editores.  
+\- Page 26 : Vibrante r
+
+Autres sources :  
+<https://clics.clld.org/languages/ids-263>  
+Recherches : r -\> 425 entries (filtered from 1,107 total entries)  
+rr -\> 3 entries (filtered from 1,107 total entries)  
+l -\> 18 entries (filtered from 1,107 total entries)
+
+``` r
+show_lang('Ignaciano')$Form
+```
+
+    ## [1] "timahu"  "'sesuki" "'sesume"
+
+``` r
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Ignaciano",'other',revision))
+```
+
+### Waurá
+
+``` r
+show_lang('Waurá')
+```
+
+    ## # A tibble: 2 × 6
+    ##   Language Dataset Meaning Form      Trill R_type  
+    ##   <chr>    <chr>   <chr>   <chr>     <chr> <chr>   
+    ## 1 Waurá    CLICS   smooth  kamimitʸa no    no trill
+    ## 2 Waurá    CLICS   rough   kapic̷uka  no    no trill
+
+``` r
+show_comments('Waurá')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language Dataset Comments
+    ##   <chr>    <chr>   <chr>   
+    ## 1 Waurá    IDS     <NA>
+
+``` r
+show_iso('Waurá')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language ISO_code Phoible_code
+    ##   <chr>    <chr>    <chr>       
+    ## 1 Waurá    wau      wau
+
+Trill : no  
+R\_type : no trill
+
+Dataset :  
+IDS, no comments
+
+Phoible :  
+<https://phoible.org/inventories/view/1835>  
+\- ɾ pas d’allophones
+
+Richards, Joan. 1977. A estrutura verbal Waurá. Serie Linguistica.
+141–184.  
+\- Page 12 : vibrante /ř/ (flap)  
+Os morfemas da língua waurá compreendem duas classes: a maior delas
+palataliza a consoante inicial, quando eles ocorrem depois de morfemas
+terminados em i; a outra onde não há palatalização. As alterações
+consonantais são: l torna-se r.
+
+Wikipedia :  
+<https://en.wikipedia.org/wiki/Waur%C3%A1_language>  
+\- Tap ɾ
+
+Postigo, Adriana Viana (2014). Língua Wauja (Arawak): uma descrição
+fonológica e morfossintática  
+\- Page 78 : Tepe ɾ  
+\- Page 83 : O tepe alveolar \[ɾ\] não demonstrou nenhuma variação, ou
+alofone e, também, não ocorreu com a vogal central alta \[ɨ\]. Esse
+segmento ocorreu nas posições medial e final de palavra, não sendo
+encontrado, em nossos dados, em posição inicial. Por sua ocorrência não
+ser previsível, postulamos o status fonológico de /ɾ/. Exemplos:  
+(20) /ɾ/  
+\[ɾ\] \[kuweɾe’tete\] ‘pica-pau’  
+\[ahuɾi’ɾitʃa\] ‘espremer’  
+\[kuɾu’wãw\] ‘gato’  
+\[tã’kuaɾa\] ‘flauta’  
+\- Page 85 : Por sua vez, as consoantes \[l\] e \[ɾ\] não ocorreram com
+a vogal central alta \[ɨ\].  
+Soantes \[+cont\] não-nasais ɾ  
+\- Page 125 : IPA: ɾ Ortografia: r
+
+(<https://pt.wikipedia.org/wiki/Consoante_vibrante_simples>)
+
+Glottologue :  
+<https://glottolog.org/resource/languoid/id/waur1244>
+
+Autres sources :  
+<https://clics.clld.org/languages/ids-267>  
+Recherches : r -\> 35 entries (filtered from 1,242 total entries)  
+l -\> 193 entries (filtered from 1,242 total entries)
+
+``` r
+show_lang('Waurá')$Form
+```
+
+    ## [1] "kamimitʸa" "kapic̷uka"
+
+``` r
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Waurá",'other',revision))
+```
+
+### Aymara
+
+``` r
+show_lang('Aymara')
+```
+
+    ## # A tibble: 2 × 6
+    ##   Language Dataset Meaning Form    Trill R_type  
+    ##   <chr>    <chr>   <chr>   <chr>   <chr> <chr>   
+    ## 1 Aymara   CLICS   smooth  ḳuɲa    no    no trill
+    ## 2 Aymara   CLICS   rough   čʰankʰa no    no trill
+
+``` r
+show_comments('Aymara')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language Dataset Comments
+    ##   <chr>    <chr>   <chr>   
+    ## 1 Aymara   IDS     flap
+
+``` r
+show_iso('Aymara')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language ISO_code Phoible_code
+    ##   <chr>    <chr>    <chr>       
+    ## 1 Aymara   ayr      ayr
+
+Trill : no  
+R\_type : no trill
+
+Dataset :  
+IDS, flap
+
+Phoible :  
+<https://phoible.org/languages/cent2142>  
+2 inventaires  
+\- SAPHON 1851 ɾ pas d’allophones  
+\- SAPHON 2145 ɾ pas d’allophones
+
+Apaza, Ignacio. 2007. Estudios de lingü’istica y sociolingü’istica
+andina: teor’ia, discusi’on y análisis. La Paz: Instituto de Estudios
+Bolivianos. 35– -\> Pas trouvé
+
+Büttner, Thomas. 1983. Las lenguas de los Andes centrales. Madrid:
+Instituto de Cooperaci’on Iberoamericana. 168–9pp.
+
+Wikipedia :  
+<https://en.wikipedia.org/wiki/Aymara_language>  
+\- Aymara also has a tapped /ɾ/  
+\- Tap ɾ
+
+Glottologue :  
+<https://glottolog.org/resource/languoid/id/cent2142>
+
+Cerrón-Palomino, Rodolfo and Carvajal Carvajal, Juan. 2009. Aimara. In
+Mily Crevels and Pieter Muysken (eds.), Ambito Andino, 169-213. La Paz:
+Plural Editores.  
+\- PAeg 175 : Liquidas Vibrante r  
+\- Page 177 : Finalmente, señalemos que la lengua, si bien registra una
+vibrante de naturaleza simple, es decir /r/, según lo ilustran ejemplos
+como aru ‘palabra’, mara ‘año’, marka ‘pueblo’, laχra ‘lengua’, t’awra
+‘lana’, ella no aparece jamás en inicial de palabra. Los pocos
+ejemplos que pueden encontrarse en los diccionarios, como riyata,
+rumarisu, rimiña, etc. provienen del castellano reata, romadizo,
+remendar, respectivamente. Todo ello sugiere que el aimara tenía una
+regla en virtud de la cual la /r/ inicial se actualizaba como \[l\]. De
+hecho, históricamente, palabras con /r/ inicial tomadas del quechua
+cambiaron dicha consonante por /l/. Son ejemplos: lirpu ‘espejo’, lanti
+‘reemplazo’, laki- ‘seleccionar’, larqa ‘acequia’, etc., que provienen
+del quechua rirpu, ranti, raki- y rarqa, respectivamente.
+
+Autres sources :  
+<https://clics.clld.org/languages/ids-269>  
+Recherches : r -\> 201 entries (filtered from 1,026 total entries)  
+l -\> 215 entries (filtered from 1,026 total entries)
+
+``` r
+show_lang('Aymara')$Form
+```
+
+    ## [1] "ḳuɲa"    "čʰankʰa"
+
+``` r
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Aymara",'other',revision))
+```
+
+### Chipaya
+
+``` r
+show_lang('Chipaya')
+```
+
+    ## # A tibble: 2 × 6
+    ##   Language Dataset Meaning Form   Trill R_type  
+    ##   <chr>    <chr>   <chr>   <chr>  <chr> <chr>   
+    ## 1 Chipaya  CLICS   smooth  lʸanu  no    no trill
+    ## 2 Chipaya  CLICS   rough   č̣ʰax̣ta no    no trill
+
+``` r
+show_comments('Chipaya')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language Dataset Comments
+    ##   <chr>    <chr>   <chr>   
+    ## 1 Chipaya  IDS     flap
+
+``` r
+show_iso('Chipaya')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language ISO_code Phoible_code
+    ##   <chr>    <chr>    <chr>       
+    ## 1 Chipaya  cap      cap
+
+Trill : no  
+R\_type : no trill
+
+Dataset :  
+IDS, flap
+
+Phoible :  
+<https://phoible.org/inventories/view/2126>  
+\- ɾ pas d’allophones
+
+Olson, Ronald. 1967. The syllable in Chipaya. International Journal of
+American Linguistics 33. 300–304.  
+\- Page 300 : flap  
+r  
+\- Page 301 : The laterals and the flap are l, l^y, r. The laterals and
+the flap have voiceless allophones contiguous to a velar fricative. The
+flap as a word initial allophone, \[ž.\] voiced alveopalatal
+retroflexed grooved fricative, which is an approximation of the Bolivian
+Spanish word inital r (Chipaya r occurs word initially only in loan
+word). The laterals and the flap contrast as in: k.ala tight, k.al^ya
+start\!, k.ara comb; ali small plant, al^ypi muddy water, ari sharp.
+
+Wikipedia :  
+\- Possible syllable codas are:  
+h/x + p/t/k/q/l/lʲ/r + (t)
+
+Glottologue :  
+<https://glottolog.org/resource/languoid/id/chip1262>
+
+Rodolfo Cerrón-Palomino. 2007. Reconstrucción del proto-uro: fonología.
+Lexis: Revista de lingüística y literatura XXXI. 47-104.  
+\- Page 64 : PU *r  
+una vibrante */r/  
+\- Page 74 : una vibrante simple */r/  
+\- Page 75 : Finalmente, en cuanto a la vibrante, sobra decir que su
+reconstrucción está respaldada por la serie de cognadas ofrecidas,
+aunque debemos notar que su ausencia en comienzo de palabra puede estar
+acusando influencia aimara.  
+\- Page 85 : Por lo que respecta a la vibrante, a su turno, aparte de
+variaciones esporádicas del tipo UP <ara> y UD-UCH <ana> ‘no’, es
+curioso notar que su restricción de no ocurrencia en posición inicial
+absoluta recuerda la de su equivalente aimara. No creemos estar aquí
+ante un fenómeno de vacío distribucional sistemático, por lo que no debe
+descartarse que es-  
+temos ante un caso de influencia por contacto (y entonces podría
+pensarse que tal vez algunas de las palabras que comienzan con /l/ en
+las variedades del uro registradas habrían portado */r/ inicial). Por lo
+demás, modernamente, UCH registra /r/ inicial, realizada como \[ř\],
+sólo en préstamos del castellano.
+
+\[Uro de la Bahía de Puno (UP), Uro del Desaguadero (UD) y Uro-Chipaya
+(UCH)\]
+
+Autres sources :  
+<https://clics.clld.org/languages/ids-270>  
+Recherches : r -\> 183 entries (filtered from 1,010 total entries)  
+l -\> 189 entries (filtered from 1,010 total entries)
+
+``` r
+show_lang('Chipaya')$Form
+```
+
+    ## [1] "lʸanu"  "č̣ʰax̣ta"
+
+``` r
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Chipaya",'other',revision))
+```
+
+### Mosetén
+
+``` r
+show_lang('Mosetén')
+```
+
+    ## # A tibble: 3 × 6
+    ##   Language Dataset Meaning Form    Trill R_type  
+    ##   <chr>    <chr>   <chr>   <chr>   <chr> <chr>   
+    ## 1 Mosetén  CLICS   smooth  'tanes  no    no trill
+    ## 2 Mosetén  CLICS   rough   šek'tač no    no trill
+    ## 3 Mosetén  CLICS   rough   šek'tæs no    no trill
+
+``` r
+show_comments('Mosetén')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language Dataset Comments
+    ##   <chr>    <chr>   <chr>   
+    ## 1 Mosetén  IDS     <NA>
+
+``` r
+show_iso('Mosetén')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language ISO_code Phoible_code
+    ##   <chr>    <chr>    <chr>       
+    ## 1 Mosetén  cas      cas
+
+Trill : no  
+R\_type : no trill
+
+Dataset :  
+IDS, no comments
+
+Phoible :  
+<https://phoible.org/languages/mose1249>  
+4 inventaires  
+\- PH r allophones r ɽ  
+\- SAPHON 1986 ɾ pas d’allophones  
+\- SAPHON 1987 ɾ pas d’allophones  
+\- SAPHON 1988 ɾ pas d’allophones
+
+Sakel, Jeanette. 2004. A Grammar of Mosetén. (Mouton Grammar Library.)
+Mouton de Gruyter.  
+\- Page 25 : Trill  
+\- Page 33 : Trills  
+/r/  
+/r/ is a short trill. Usually, the tongue hits the gum ridge only once.
+It can appear at the beginning of the syllable (2:102) and at the end of
+the syllable (2:103):  
+(2:102) \[rex\] ‘all’  
+\[pepex\] ‘father in law’  
+(2:103) \[fer\] ‘strong’  
+\[fen\] ‘egg’  
+Some people pronounce /r/ as a retroflex flap \[ɽ\].
+
+Sakel, Jeanette. 2011. Mosetén and Chimane Argument Coding: A Layered
+System. International Journal of American Linguistics 77. 537–557.  
+\- Page 539 : Mosetenan consonant phonemes are: /p/, /t/, /t^j/ (written
+ty), /k/, /ʔ/ (written ’), /p^h/ (written ph), /kh/ (written kh), /b/,
+/d/, /dj/ (written dy), /f/, /s/, /ʃ/ (written sh), /h/ (written j),
+/ts/, /tʃ/ (written ch), /ts h/ (written ts^h), /tʃ^h/ (written chh),
+/m/, /n/, /ɲ/ (written ñ), /r/, and the approximants /ʋ/ (written w) and
+/j/ (written y).
+
+Wikipedia :  
+<https://en.wikipedia.org/wiki/Chimane_language>  
+\- Trill r
+
+Glottologue :  
+<https://glottolog.org/resource/languoid/id/mose1249>
+
+Autres sources :  
+<https://clics.clld.org/languages/ids-271>  
+Recherches : r -\> 174 entries (filtered from 1,161 total entries)  
+l -\> 0 entries (filtered from 1,161 total entries)
+
+``` r
+show_lang('Mosetén')$Form
+```
+
+    ## [1] "'tanes"  "šek'tač" "šek'tæs"
+
+Je n’ai pas trouvé d’autres références…  
+Est-ce que ce n’est pas un tap/flap ? Il n’y a pas d’autres liquides…
+
+``` r
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Mosetén",'trilled',revision))
+```
+
+### Tacana
+
+``` r
+show_lang('Tacana')
+```
+
+    ## # A tibble: 5 × 6
+    ##   Language Dataset Meaning Form        Trill R_type  
+    ##   <chr>    <chr>   <chr>   <chr>       <chr> <chr>   
+    ## 1 Tacana   CLICS   smooth  kʷapi-kʷapi no    no trill
+    ## 2 Tacana   CLICS   smooth  noc̷a-da     no    no trill
+    ## 3 Tacana   CLICS   rough   ď̶ebo-da     no    no trill
+    ## 4 Tacana   CLICS   rough   ď̶aka-ď̶aka   no    no trill
+    ## 5 Tacana   CLICS   rough   ď̶eoda       no    no trill
+
+``` r
+show_comments('Tacana')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language Dataset Comments
+    ##   <chr>    <chr>   <chr>   
+    ## 1 Tacana   IDS     flap
+
+``` r
+show_iso('Tacana')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language ISO_code Phoible_code
+    ##   <chr>    <chr>    <chr>       
+    ## 1 Tacana   tna      tna
+
+Trill : no  
+R\_type : no trill
+
+Dataset :  
+IDS, flap
+
+Phoible :  
+<https://phoible.org/languages/taca1256>  
+2 inventaires  
+\- UPSID ɾ pas d’allophones; ɾ͓ pas d’allophones  
+\- SAPHON ɾ pas d’allophones
+
+Van Wynen, Donald and de Van Wynen, Mabel Garrard. 1962. Tacana y
+Castellano. (Vocabularios Bolivianos, 2.) Cochabamba: Instituto
+Lingü’istico de Verano.
+
+Key, Mary R. 1968. Comparative Tacanan Phonology. The Hague: Mouton.
+
+Ottaviano, John and Ottaviano, Ida. 1965. Tacana. In Matteson, Esther
+(ed.), 309–417. Riberalta: Instituto Lingü’istico de Verano.  
+\- Page 309 : Los fonamas del tacana son: d, d barré, d’
+
+Wikipedia :  
+<https://en.wikipedia.org/wiki/Tacana_language>  
+\- Rhotic ɾ r
+
+Lazarte, Manuel L.; Van Wynen, Donald & Mabel (1962). Fonemas tacana y
+modelos de acentuación. Cochabamba: Instituto Lingüístico de Verano.  
+\- Page 9 : d  
+d barré  
+r d̆ barré
+
+\=\> Pas sûr de savoir interpréter les phonèmes ‘sauf peut-être en
+comparaison avec Antoine Guillaume’.
+
+Glottologue :  
+<https://glottolog.org/resource/languoid/id/taca1256>
+
+Autres sources :  
+<https://clics.clld.org/languages/ids-276>  
+Recherches : r -\> 182 entries (filtered from 1,190 total entries)  
+l -\> 8 entries (filtered from 1,190 total entries)
+
+Antoine Guillaume. 2021. Negation in Tacana (Amazonian Bolivia):
+synchronic description and diachronic reconstruction. The Negative
+Existential Cycle from a historical-comparative perspective  
+\- Page 3 : The Tacana consonant phonemes are p, b, t, d \[ḍ\], ď \[d̪͡t
+̪/əd̪͡t ̪\], dh \[ð\], ts \[ṭṣ\], ch \[tɕ\], s \[ṣ\], sh \[ɕ\], k, kw
+\[kw\], r \[ɾ\], m, n, j \[h\], w \[w/ß̞\] and y \[j\].
+
+``` r
+show_lang('Tacana')$Form
+```
+
+    ## [1] "kʷapi-kʷapi" "noc̷a-da"     "ď̶ebo-da"     "ď̶aka-ď̶aka"   "ď̶eoda"
+
+``` r
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Tacana",'other',revision))
+```
+
+### Movima
+
+``` r
+show_lang('Movima')
+```
+
+    ## # A tibble: 2 × 6
+    ##   Language Dataset Meaning Form      Trill R_type  
+    ##   <chr>    <chr>   <chr>   <chr>     <chr> <chr>   
+    ## 1 Movima   CLICS   smooth  ti-ɬoi-ni no    no trill
+    ## 2 Movima   CLICS   rough   ča-puh-ni no    no trill
+
+``` r
+show_comments('Movima')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language Dataset Comments
+    ##   <chr>    <chr>   <chr>   
+    ## 1 Movima   IDS     tap/flap
+
+``` r
+show_iso('Movima')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language ISO_code Phoible_code
+    ##   <chr>    <chr>    <chr>       
+    ## 1 Movima   mzp      mzp
+
+Trill : no  
+R\_type : no trill
+
+Dataset :  
+IDS, tap/flap
+
+Phoible :  
+<https://phoible.org/languages/movi1243>  
+2 inventaires :  
+\- UPSID ɾ pas d’allophones  
+\- SAPHON ɾ pas d’allophones
+
+Judy, Robert A. and Judy, Judith. 1962. Fonemas del movima, con atención
+especial a la serie glotal. (Notas Lingü’isticas de Bolivia, 5.)
+Cochabamba: Instituto Lingü’istico de Verano. -\> Pas trouvé
+
+Haude, Katharina. 2006. A grammar of Movima. (Doctoral dissertation,
+Radboud Universiteit).  
+\- Page 20 : simple vibrant r  
+\- Page 26 : /r/  
+/r/ is a simple alveolar flap, \[ɾ\]. In word-initial position, it can
+have a slightly retroflex pronunciation:  
+(49) \[’ɾɔ:ja\] \~ \[’ɽɔ:ja\] /‘ro:ja/ ‘house’  
+/r/ occurs principally in onset position. It occurs in coda position
+only in Spanish loans (cf. (50)) and in one word of unknown origin
+(cf. (51)):  
+(50) \[’tʃaɾki\] /‘tʃarki/ ‘dried meat’ (\< Sp. charque)  
+\[pɔɾɔ’f sɔɾ\] /poro’fesor/ ‘teacher’ (\< Sp. profesor)  
+\[mɔ’tɔɾ\] /mo’tor/ ‘motorboat’ (\< Sp. motor)  
+(51) \[tɔɾ’ɗɛta\] /tor’deta/ ‘mosquito net’ (\< ?)  
+In certain reduplication contexts, /r/ is realized as \[ɗ\] (cf. 2.9.7
+below). Otherwise, the two are contrastive.  
+/r/ vs. /d/:  
+(32) \[’ɗɔʔna\] /‘dokna/ ’I put X on’  
+\[’ɾɔʔna\] /‘rokna/ ’I cover X’  
+/r/ vs. /l/:  
+(48) \[’pɔla\] /‘pola/ ‘late, later’  
+\[’pɔ:ra\] /‘po:ra/ ‘quickly’
+
+Wikipedia :  
+<https://en.wikipedia.org/wiki/Movima_language>  
+\- Trill r
+
+Glottologue :  
+<https://glottolog.org/resource/languoid/id/movi1243>
+
+Autres sources :  
+<https://clics.clld.org/languages/ids-285>  
+Recherches : r -\> 196 entries (filtered from 1,038 total entries)  
+l -\> 391 entries (filtered from 1,038 total entries)  
+Form in source:  
+ɬ -\> 192 entries (filtered from 1,038 total entries)  
+l -\> 224 entries (filtered from 1,038 total entries)
+
+``` r
+show_lang('Movima')$Form
+```
+
+    ## [1] "ti-ɬoi-ni" "ča-puh-ni"
+
+``` r
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Movima",'other',revision))
+```
+
+### Pacaas Novos
+
+``` r
+show_lang('Pacaas Novos')
+```
+
+    ## # A tibble: 1 × 6
+    ##   Language     Dataset Meaning Form    Trill R_type  
+    ##   <chr>        <chr>   <chr>   <chr>   <chr> <chr>   
+    ## 1 Pacaas Novos CLICS   smooth  topišik no    no trill
+
+``` r
+show_comments('Pacaas Novos')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language     Dataset Comments
+    ##   <chr>        <chr>   <chr>   
+    ## 1 Pacaas Novos IDS     <NA>
+
+``` r
+show_iso('Pacaas Novos')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language     ISO_code Phoible_code
+    ##   <chr>        <chr>    <chr>       
+    ## 1 Pacaas Novos pav      pav
+
+Trill : no  
+R\_type : no trill
+
+Dataset :  
+IDS, no comments
+
+Phoible :  
+<https://phoible.org/languages/wari1268>  
+2 inventaires  
+\- PH ɾ pas d’allophones  
+\- SAPHON ɾ pas d’allophones
+
+Everett, Dan and Kern, Barbara. 1997. Wari’. Routledge.  
+\- Page 385 : /ɾ/  
+\- Page 390 : Liquid  
+/r/ ‘r’  
+\[ɾ\] voiced apico-alveolar flap occurs utterance-medially only.  
+(778) a. tarama’ \[taɾa’maʔ\]  
+‘man’  
+(778) b. terere’ \[teɾe’ɾeʔ\]  
+‘butterfly’  
+(778) c. Quep rain, \[‘kεp ɾai\]  
+‘Hold it\!’
+
+Wikipedia :  
+<https://en.wikipedia.org/wiki/Wari%CA%BC_language>  
+\- Flap ɾ ⟨r⟩  
+\- /t͡ʙ̥/ is a trilled affricate made up of a bilabial trill preceded by
+a dental stop, and is only reported from four other languages. In Oro
+Nao, this has been analysed as an allophone of /t/ that only occurs
+before /o/ and /y/ which does not occur in every idiolect. In some
+dialects it is a separate phoneme; however, only about 24 words contain
+the sound, some of which are onomatopoeic. It also is used more by older
+speakers of the language.
+
+Glottologue :  
+<https://glottolog.org/resource/languoid/id/wari1268>
+
+Apontes, Selmo Azevedo. 2015. Descrição gramatical do Oro Waram,
+variante Wari’ norte (Pakaa nova, Txapakura): fonologia, morfologia e
+sintaxe. (Doctoral dissertation, Belo Horizonte: Universidade Federal de
+Minas Gerais; xvii+303pp.)  
+\- Page 20 : Flap ɾ  
+Apresentamos exemplos de pares mínimos e de oposição entre fonemas que
+não  
+pertencem a uma mesma classe natural. O objetivo de apresentar esse tipo
+de oposição é  
+para verificar as realizações alofônicas e os processos fonológicos.  
+\- Page 21 : (15) /t/, /ɾ/  
+/taʔ/ \[taʔ\] “FUT.SG”  
+/ɾaʔ/ \[^{ɐ}ɾaʔ\] “2SG.IMP”  
+\- Page 25 : Tap: /ɾ/  
+(37) a. /ɾ/ em início de sílaba  
+/ɾi/ \[ɾi\] “marcador de aspecto evidentivo”  
+/teɾem/ \[’t^{ɛ}ɾɛm\] “deitar”  
+/ɾaʔ/ \[ɾaʔ\] “2SG.IMP”  
+/oɾot/ \[o’rot̚ \] “germinar, brotar”  
+/ɾyt/ \[ɾyt̚ \] “1PL.EXCL”  
+b. /ɾ/ em fim de sílaba realiza-se como /t/ quando não for precedido de
+fonema nasal  
+/piɾ/ \[ˈpit̚ \] “descosturar”  
+/heɾ/ \[ˈhet̚ \] “sair”  
+/kaɾ/ \[ˈkat̚ \] “quebrar”  
+/hoɾ/ \[ˈhot̚ \] “tirar”  
+/tyɾ/ \[ˈtyt̚ \] “andar”  
+c. /ɾ/ em final de sílaba realiza-se como /n/, quando for precedido de
+um fonema nasal  
+/mawiɾ/ \[ma’win\] “urucum”  
+/makaɾ/ \[ma’kar\] “terra”  
+/makoɾ/ \[ma’kon\] “cipo”  
+\- Page 33 : Empréstimo com o fonema lateral /l/:  
+Português Empréstimo Equivalência  
+Pulou \[puˈɾoː\] l\>ɾ  
+Ele \[ˈeːɾi\] l\>ɾ  
+flecha \[’fɾɛːs̠a\] l\>ɾ
+
+``` 
+          O português possui a oposição distintiva entre a lateral e o tap. Porém, em Oro Waram, não há essa distinção. No quadro 2.7, verifica-se que o fonema lateral do português /l/ foi acomodado no sistema fonológico do Oro Waram como o fonema tap /ɾ/.  
+```
+
+  - Page 34 : Restrição fonotática  
+    Início de sílaba  
+    C1 C2  
+    ɾ ɾ  
+    No caso de grupos consonantais (C1+C2) antes do núcleo da sílaba, o
+    segundo fonema consonantal só pode ser um //, no entanto, isso
+    ocorre somente na forma fonética, como será verificado na seção
+    2.5.2.
+
+  - Page 38 : Estruturas com redução silábica \[CɾV(c)\] → /CV.ɾV(C)/  
+    Há também processo de redução silábica transformando palavras que
+    contêm fonologicamente duas sílabas em palavras com uma sílaba
+    fonética. Vejamos os exemplos:  
+    \[examples\]  
+    Nos exemplos de (53a) até (53.f), a sílaba átona é apagada, tornando
+    monossilábica uma estrutura dissilábica. Porém, esse apagamento da
+    sílaba átona é devido ao fato de avogal átona possuir a mesma
+    qualidade vocálica que a sílaba tônica.  
+    Essa redução de sílaba átona com a mesma qualidade vocálica que a
+    sílaba tônica pode ocorrer com estrutura trissilábica. Vejamos:  
+    \[examples\]  
+    Os exemplos em (53.g-j) mostram o processo de redução de palavras
+    trissilábicas para palavras dissilábicas. O fator condicionante é o
+    mesmo dos exemplos anteriores, ou seja, uma das vogais átonas pode
+    ser apagada. Do mesmo modo, continua ocorrendo a redução silábica
+    devido ao fato de as sílabas átonas e as tônicas possuírem a mesma
+    qualidade vocálica. No entanto, a consciência dos falantes está se
+    encaminhando para a interpretação de que a estrutura da sílaba
+    fonológica pode ser CɾV(C), uma única sílaba, e não o resultado da
+    redução fonética de duas sílabas.
+
+  - Page 41 : PROCESSOS FONOLÓGICOS NA REDUPLICAÇÃO  
+    Vejamos outro processo de reduplicação, com palavra monossilábica:  
+    het -\> \*het.het -\> heɾ-e-het -\> he.ɾe.het
+    
+    ``` 
+          kat -> *kaɾ.kaɾ -> kaɾ-a-kat -> ka.ɾa.kat  
+    ```
+
+  - Page 54 : Fortalecimento do tap em fim de sílaba  
+    Já verificamos que /ɾ/, /t/ e /n/ são fonemas. No entanto, o fonema
+    /ɾ/ possui uma restrição em fim de palavra. Ele pode ser realizado
+    como dois alofones: será realizado como \[t\] em fim de palavra
+    quando no radical não houver nenhum fonema nasal; e será realizado
+    como \[n\] quando no radical houver um fonema nasal.  
+    /ɾ/ -\> \[t\]/C\[-nasal\]***\#  
+    \-\> \[n\]/C\[+nasal\]***\#  
+    Vejamos o primeiro conjunto de exemplos: /ɾ/ -\>
+    \[t\]/C\[-nasal\]***\#  
+    \[examples\]  
+    /ɾ/ -\> \[n\]/C\[+nasal\]***\#  
+    \[examples\]  
+    Poderíamos postular que são o /t/ e o /n/ que se realizam como tap
+    entre vogais, porém não há evidência para tal afirmação. Além de
+    tudo, seria mais complicado realizar processos para dois caminhos
+    diferentes em um mesmo contexto. No entanto, há um fator que
+    condiciona a mudança, como já foi exposto no início desta seção:  
+    i) o /ɾ/ será realizado como \[t\] em fim de palavra quando não
+    houver um fonema nasal no radical;  
+    ii) o /ɾ/ será realizado como \[n\] em fim de palavra se esta
+    possuir um fonema nasal no radical.
+
+Autres sources :  
+<https://clics.clld.org/languages/ids-286>  
+Recherches : r -\> 61 entries (filtered from 228 total entries)  
+l -\> 1 entries (filtered from 228 total entries) \[sal ‘salt’\]
+
+``` r
+show_lang('Pacaas Novos')$Form
+```
+
+    ## [1] "topišik"
+
+``` r
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Pacaas Novos",'other',revision))
+```
+
+### Mundurukú
+
+``` r
+show_lang('Mundurukú')
+```
+
+    ## # A tibble: 2 × 6
+    ##   Language  Dataset Meaning Form   Trill R_type  
+    ##   <chr>     <chr>   <chr>   <chr>  <chr> <chr>   
+    ## 1 Mundurukú CLICS   smooth  -korop no    no trill
+    ## 2 Mundurukú CLICS   smooth  -sẽm   no    no trill
+
+``` r
+show_comments('Mundurukú')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language  Dataset Comments
+    ##   <chr>     <chr>   <chr>   
+    ## 1 Mundurukú IDS     <NA>
+
+``` r
+show_iso('Mundurukú')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language  ISO_code Phoible_code
+    ##   <chr>     <chr>    <chr>       
+    ## 1 Mundurukú myu      myu
+
+Trill : no  
+R\_type : no trill
+
+Dataset :  
+IDS, no comments
+
+Phoible :  
+<https://phoible.org/languages/mund1330>  
+2 inventaires  
+\- PH ɾ allophones ɾ ɾ̃  
+\- SAPHON ɾ pas d’allophones
+
+Picanço, Gessiane Lobato. 2005. Munduruk’u: Phonetics, Phonology,
+Synchrony, Diachrony. (Doctoral dissertation, University of British
+Columbia).  
+\- Page 13 : Mundurukú phonemic inventory (adapted from Braun and Crofts
+1965)  
+Liquid r  
+\- Page 14 : Mundurukú phonemic inventory (adapted from Crofts 1973)  
+Liquid r  
+\- Page 15 : Consonant inventory (as proposed here)  
+Approximant r  
+\- Page 58 : /r/ pàràt \[pàɾàt\] ‘sieve’  
+Approximants r  
+\- Page 80 : The set of approximants comprises /r, w, y, ʔ, h/.  
+\[…\] whereas /r, ʔ, h/ can only be onsets  
+\- Page 81 : /r/ has an additional restriction: it does not occur
+word-initially in native words, but may occur in borrowings
+(e.g. rɑ́taʔɑ́ ‘can’ from Portuguese lata, and rɑ́piʔíp ‘pencil’,
+Portuguese lɑ́pis), in which case it is preceded by a short, nonsyllabic
+schwa: \[^{ə}ɾátàʔà\] and \[^{ə}ɾápìʔíp\].\[4\] (Nonsyllablic
+\[ə\] is examined in Chapter 4.) Approximants also have affinities with
+vowels, especially with respect to their behavior in nasal harmony.
+These are the consonants that assimilate nasality, thus all have
+nasalized variants \[ɾ̃,w̃,ỹ,ʔ̃,h̃\] in the context of nasalization
+contexts, and are oral otherwise.  
+\[4\] This was first reported by Braun and Crofts (1965). Young speakers
+who speak Portuguese fluently pronounce simply \[ɾátàʔá\] and
+\[ɾápìʔíp̚ \].  
+\- Page 148 : Representations for coronals  
+(h) r  
+\[+son\]  
+\[+cons\]  
+\[+cont\]  
+Place  
+Cor  
+\[+ant\]
+
+  - Page 219 : Nasal harmony is illustrated in the following data. They
+    show the participation of the liquid /r/, in (2)a-c
+
+Wikipedia :  
+<https://en.wikipedia.org/wiki/Munduruku_language>  
+\- Flap /ɾ/
+
+Glottologue :  
+<https://glottolog.org/resource/languoid/id/mund1330>
+
+Autres sources :  
+<https://clics.clld.org/languages/ids-287>  
+Recherches : r -\> 67 entries (filtered from 533 total entries)  
+l -\> 2 entries (filtered from 533 total entries)
+
+``` r
+show_lang('Mundurukú')$Form
+```
+
+    ## [1] "-korop" "-sẽm"
+
+``` r
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Mundurukú",'other',revision))
+```
+
+### Chiriguano
+
+``` r
+show_lang('Chiriguano')
+```
+
+    ## # A tibble: 3 × 6
+    ##   Language   Dataset Meaning Form   Trill R_type  
+    ##   <chr>      <chr>   <chr>   <chr>  <chr> <chr>   
+    ## 1 Chiriguano CLICS   smooth  sĩi    no    no trill
+    ## 2 Chiriguano CLICS   smooth  ĩ-či   no    no trill
+    ## 3 Chiriguano CLICS   rough   haiᵐbe no    no trill
+
+``` r
+show_comments('Chiriguano')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language   Dataset Comments
+    ##   <chr>      <chr>   <chr>   
+    ## 1 Chiriguano IDS     tap/flap
+
+``` r
+show_iso('Chiriguano')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language   ISO_code Phoible_code
+    ##   <chr>      <chr>    <chr>       
+    ## 1 Chiriguano gui      gui
+
+Trill : no  
+R\_type : no trill
+
+Dataset :  
+IDS, tap/flap
+
+Phoible :  
+<https://phoible.org/languages/east2555>  
+2 inventaires  
+\- SAPHON 2077 ɾ pas d’allophones  
+\- SAPHON 2078 ɾ pas d’allophones
+
+Dietrich, Wolf. 1986. El Idioma chiriguano: Gramática, textos,
+vocabulario. 45–50pp.  
+\- Page 47 : Sistema A/Ac (chiriguano-chané)  
+Vibrante r  
+\- Page 48 : El sistema de RJ, DJ: Sistema B  
+Vibrante r
+
+  - Page 49 : Parejas de oposicion minima:  
+    /r/ : /s/ /apira-kwe/ ‘punta perdida’ : /apisa-kwe/ ‘oido perdido’  
+    /r/ : /t/ /karu/ : /katu/ ‘potente’  
+
+  - Page 65 : El fonema /r/ plantea varios problemas, tanto desde el
+    punto de vista fonetico como del fonologico. Esto se debe a la
+    articulacion debit con que se pronuncia este sonido en chiriguano.
+    En general, se produce por una vibracion muy breve, muchas veces por
+    un solo movimiento de la punta de la lengua contra el paladar. Asi,
+    con mucha frecuencia, delante de vocal nasal, no se realiza ninguna
+    vibracion, sino que la punta de la lengua, tocando el paladar, no
+    produce mas que \[n\]; delante de vocal oral, en lugar de la
+    vibracion, hay una oclusion entre la punta de la lengua y el paladar
+    blando de modo que se oye \[nd\].
+    
+    ``` 
+          Desde el punto de vista fonologico, se puede hablar de neutralizaciones parciales de /r/-/n/ en secuencias nasales, o/y de /r/-/nd/ en secuencias orales. En las normas de los informates pueden distinguirse cuatro grupos:  
+          1) Neutralizacion de /r/ y /n/ en contextos nasales, realizacion del archifonema //N//:  
+          [nẽnãi] = /ne-rãi/ 'tus dientes'    
+          [oɲõnãno] = /oñorãro/ 'se pelearon'  
+          [mãẽnãpa] = /mãe-ra-pa/ 'por qué?'  
+          [kãwĩna] = /kãwi-ra/ 'para chicha'  
+          [sundanõneta] = /sundaro-reta/ 'soldados>>; pero  
+          [nde/./reyu] = /nde-reyu/ 'vienes'  
+            [ore/./roeru] = /ore roeru/ 'nosotros (excl.) lo trajimos'  
+          Esta norma corresponde al izoceño y al idiolecto de AG.  
+          2) Neutraliacion de /r/ y /n/ en contextos nasales como en 1), pero al mismo tiempo neutralizacion de /r/ y /nd/ en posicion inicial, sobre todo después de pausa y realizacion del archifonema //ND//:   
+          [ndoi] /roi/ 'frio', [ndeyu] /reyu/ 'vienes'  
+          [ore/./nduyasia] /ore ryasia/ 'nosotros (excl.) cortamos'; pero en posicion las neutralizaciones en cuestion no parecen tener la misma extension que en chiriguano, es mejor basarse en grafias "etimologicas" que en anotaciones arbitrarias que se refieren a la impresion fonetica que recibe el linguista extranjero.  
+    ```
+
+Wikipedia :  
+<https://en.wikipedia.org/wiki/Eastern_Bolivian_Guaran%C3%AD_language>
+
+Glottologue :  
+<https://glottolog.org/resource/languoid/id/east2555>
+
+Daviet, Windy. 2016. Observations sociolinguistiques et analyse de la
+phonologie du dialecte ava du guaraní bolivien, langue tupi-guaraní de
+Bolivie. (MA thesis, Université Lumière Lyon 2; 125pp.)  
+\- Page 71 : VOISEES Non-plosives ɾ  
+\- Page 72 : la battue alvéolaire /ɾ/, présente en guaraní bolivien.
+Aikhenvald (2012 :106) élargit cette particularité des langues
+d’Amazonie aux liquides, en spécifiant les réalisations possibles
+(\[r\], \[ɾ\] ou \[l\]). \[Aikhenvald, A. Y. 2012. The languages of the
+Amazon. Oxford: Oxford University Press.\]  
+\- Page 73 : Oppositions par voisement  
+/s/ ≠ /ɾ / : /ˈhasɨ/ ≠ /ʧeˈʤaɾɨ/  
+\[ˈhasɨ\] \[ʧeˈd͡ jaɾɨ\]  
+‘sa douleur’ ‘ma grand-mère’  
+\- Page 75 : Oppositions par lieu d’articulation  
+/β/ ≠ /ɾ/ : /aˈβati/ ≠ /ˈaɾa/  
+\[aˈβati\] \[ˈaɾa\]  
+‘maïs’ ‘jour’  
+\- Page 76 : Oppositions par mode d’articulation  
+/d/ ≠ /ɾ/ : /deˈapu/ ≠ /ɾeˈpau/  
+\[n͡deˈapu\] \[ɾeˈpau\]  
+‘ton mensonge’ ‘tu rêves’  
+\- Page 77 : CONTINUES Battues Voisées ɾ \[ɾ̃\] \[n\]  
+\- Page 80 : Les consonnes non-plosives /β/, /ɾ/, /ʤ/ se réalisent
+respectivement \[β̃ \~ w̃ \] (62), \[ɾ̃ \~ n\] (63)  
+(63) a. /aɾa/ \[ˈaɾa\]  
+‘jour’  
+b. /i-puɾuã / \[i-pũ ˈɾ̃ũʔã \]  
+3.II-nombril  
+‘son nombril’  
+c. /ɨ-ʧoɾoɾõ / \[ɨ-ʧõ ˈɾ̃ õ ɾ̃õ \] \~ \[ɨ-ʧõ ˈnõ nõ \]  
+‘cascade’  
+\- Page 83 : typologie de Piggott (1992), les langues présentant une
+propagation de la nasalité peuvent être classées en deux types  
+\[Piggott, G. L. 1992. “Variability in Feature Dependency: The Case of
+Nasality”, Natural Languageand Linguistic Theory, 10:1, p.33-77.\]
+
+Autres sources :  
+<https://clics.clld.org/languages/ids-289>  
+Recherches : r -\> 425 entries (filtered from 1,413 total entries)  
+l -\> 1 entries (filtered from 1,413 total entries)
+
+``` r
+show_lang('Chiriguano')$Form
+```
+
+    ## [1] "sĩi"    "ĩ-či"   "haiᵐbe"
+
+``` r
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Chiriguano",'other',revision))
+```
+
+### Wayampi
+
+``` r
+show_lang('Wayampi')
+```
+
+    ## # A tibble: 2 × 6
+    ##   Language Dataset Meaning Form   Trill R_type  
+    ##   <chr>    <chr>   <chr>   <chr>  <chr> <chr>   
+    ## 1 Wayampi  CLICS   smooth  sɨlɨ   no    no trill
+    ## 2 Wayampi  CLICS   rough   kalala no    no trill
+
+``` r
+show_comments('Wayampi')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language Dataset Comments
+    ##   <chr>    <chr>   <chr>   
+    ## 1 Wayampi  IDS     tap/flap
+
+``` r
+show_iso('Wayampi')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language ISO_code Phoible_code
+    ##   <chr>    <chr>    <chr>       
+    ## 1 Wayampi  oym      oym
+
+Trill : no  
+R\_type : no trill
+
+Dataset :  
+IDS, tap/flap
+
+Phoible :  
+<https://phoible.org/languages/waya1270>  
+2 inventaires  
+\- SAPHON 2111 ɾ pas d’allophones  
+\- SAPHON 2112 ɾ pas d’allophones
+
+Jensen, Cheryl Joyce. 1984. O desenvolvimento hist’orico da l’ingua
+wayampi. (MA thesis, Universidade Estadual de Campinas). -\> Pas trouvé
+
+Wikipedia :  
+<https://en.wikipedia.org/wiki/Wayampi_language>  
+\- Lateral l  
+\- Approximant w j
+
+Glottologue :  
+<https://glottolog.org/resource/languoid/id/waya1270>
+
+Copin, François. 2012. Grammaire Wayampi (famille tupi-guarani).
+(Doctoral dissertation, Université de Paris 7 - Dénis Diderot;
+xx+463pp.)  
+\- Page 409 : latérale /l/  
+\- Page 411 : La latérale alvéolaire /l/ <l> se réalise \[l\] en
+position initiale (uniquement dans des emprunts) et en position interne
+de mot prosodique. /loto/ \[loˈto\] loto ‘voiture’  
+/jakale/ \[jakaˈle\] jakale ‘caïman’
+
+Autres sources :  
+<https://clics.clld.org/languages/ids-292>  
+Recherches : r -\> 1 entries (filtered from 1,260 total entries) \[mira
+‘person, human being’ vs. tɛkɔ ‘person, human being’\]  
+l -\> 413 entries (filtered from 1,260 total entries)
+
+Françoise Rose. 2003. Morphosyntaxe de l’Emerillon: Langue Tupi-Guarani
+de Guyane Française. Lyon: Univ. Lumière Lyon 2. (Doctoral dissertation,
+Université Lumière Lyon 2; xx+678pp.)  
+\- Page 642 : non-obstruantes l  
+\- Page 644 : La variation intralocuteur concernant le /l/ est très
+forte. On trouve diverses réalisations de ce phonème difficile à définir
+: latérale \[l\], flap \[ɾ\], approximante rétroflexe non latérale
+\[ɻ\]. Il nous semble maintenant que la réalisation préférée est le
+flap.
+
+``` r
+show_lang('Wayampi')$Form
+```
+
+    ## [1] "sɨlɨ"   "kalala"
+
+Je ne sais pas si laisser ‘other’ ou mettre ‘OUT’, ce n’est pas vraiment
+une rhotique, mais plus une latérale ? Je prends la décision de ‘OUT’.
+
+``` r
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Wayampi",'OUT',revision))
+```
+
+### Kaingáng
+
+``` r
+show_lang('Kaingáng')
+```
+
+    ## # A tibble: 5 × 6
+    ##   Language Dataset Meaning Form  Trill R_type  
+    ##   <chr>    <chr>   <chr>   <chr> <chr> <chr>   
+    ## 1 Kaingáng CLICS   smooth  kanɛr no    no trill
+    ## 2 Kaingáng CLICS   smooth  kamɛn no    no trill
+    ## 3 Kaingáng CLICS   smooth  kanãn no    no trill
+    ## 4 Kaingáng CLICS   smooth  hɔhow no    no trill
+    ## 5 Kaingáng CLICS   rough   kaΦãy no    no trill
+
+``` r
+show_comments('Kaingáng')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language Dataset Comments
+    ##   <chr>    <chr>   <chr>   
+    ## 1 Kaingáng IDS     <NA>
+
+``` r
+show_iso('Kaingáng')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language ISO_code Phoible_code
+    ##   <chr>    <chr>    <chr>       
+    ## 1 Kaingáng kgp      kgp
+
+Trill : no  
+R\_type : no trill
+
+Dataset :  
+IDS, no comments
+
+Phoible :  
+<https://phoible.org/languages/kain1272>  
+2 inventaires  
+\- UPSID 402 R pas d’allophones  
+\- SAPHON 1961 ɾ pas d’allophones
+
+Wiesemann, Ursula. 1972. Die phonologische und grammatische Struktur der
+Kaing’ang-Sprache. The Hague: Mouton. -\> Pas trouvé
+
+Kindell, G. 1972. Kaingang phonemics. Appendix to U. Wiesemann, Die
+phonologische und grammatische Struktur der Kaingang-Sprache. The Hague
+/ Paris: Mouton. -\> Pas trouvé
+
+Henry, Jules. 1935. A Kaingang Text. International Journal of American
+Linguistics 8. 172–218.  
+\- Page 172 : Lateral Frictionless l  
+\- Page 173 : Lateral Frictionless  
+Between vowels l is often replaced by ɾ
+
+Neto, Ambrósio Pereira da Silva. 2007. Revisão da classificação da
+família lingüística Puri. Goiania: Editora da Universidade Federal de
+Goiás. (MA thesis, Universidade de Bras’ilia).  
+\- Page 21 : r \#\_**V  
+r C,V**\_V  
+\- Page 23 : Consoantes  
+r =\> En fait je ne sais pas quoi vraiment chercher…
+
+Wikipedia :  
+<https://en.wikipedia.org/wiki/Kaingang_language>  
+\- Approximant ɹ  
+\- Word-initially, /ɹ/ is preceded by an epenthetic \[ə\]; it is \[ɾ\]
+in tonic syllables and \[l\] in atonic syllables, and when nasalized, it
+varies between \[ɾ̃\] and \[ɹ̃\]. As a syllable coda it is a flap when
+oral and approximant when nasal, and may optionally be palatalized:
+\[ɾʲ\], \[ɹ̃ᶮ\].
+
+Glottologue :  
+<https://glottolog.org/resource/languoid/id/kain1272>
+
+Cristina Herold. 1996. Aspectos da fonologia da língua Kaingáng –
+Dialeto Central. (MA thesis, Florianópolis: Universidade Federal de
+Santa Catarina; 186pp.)  
+\- Page 52 : Tap ɾ  
+Aproximantes ɻ  
+\- Page 54 : Vibrante e Aproximante  
+A vibrante retroflexa \[ɻ\] e a aproximante alveolar \[ɾ\] encontram-se
+em variação livre, podendo ocorrer em início, meio e final de palavra:  
+44\. \[ɻɔ̃\] \[ɾɔ̃\] ‘sol’  
+45\. \[ɲɔɻe\] \[ɲɔɾe\] ‘tres’  
+46\. \[nũɻ\] \[nũɾ\] ‘dormir’  
+47\. \[ndoɻ\] \[ndoɾ\]  
+48\. \[gɔoɻ\] \[gɔoɾ\]  
+\- Page 55 : Ambos os segmentos formam, ainda, encontros consonantais
+com os segmentos oclusivos bilabiais surdo e sonoro e oclusivos velares
+surdo e sonoro e com as nasais bilabial e velar, conforme os exemplos
+abaixo relacionados:  
+49\. \[pɾãŋ\] ‘ano’ 50. \[yapɾɨ\] ‘caminho’  
+51\. \[mbɾɛ\] ‘com’ 52. \[mbɾo\] ‘nadar’  
+53\. \[mbɻɛɻ\] ‘molhado’ 54. \[kɾẽɲkufəɾ\] ‘peixe’  
+55\. \[yakɾĩ\] ‘joelho’ 56. \[tamɛ kupɾi\] ‘pulmão’  
+57\. \[nĩgɾu\] ‘garra, unha’ 58. \[ɱɛ̃ɲkɔ̃gɾa\] ‘quatro’  
+59\. \[mɾɛ̃ɲ\] ‘cinza’ 60. \[mɻũɻ\] ‘cipo’  
+61\. \[mɾɔn mɾɔn\] ‘surrar’ 62. \[nĩŋɾɛ̃g\] ‘orelha’  
+63\. \[ɻɛ̃gŋɻe\] ‘dois’ 64. \[ŋɾɔ̃\] ‘lado’  
+\- Page 131 : Tap alveolar e aproximante retrofiexo:  
+Os segmentos tap alveolar \[ɾ\] e aproximante retrofiexo \[ɻ\] ocorrem
+em variação livre, podendo ser encontrados no mesmo ambiente, a saber,
+em início, meio e final de sílaba, precedido ou posposto a vogais orais
+ou nasais. Parece-nos que a realização do segmento retrofiexado \[ɻ\]
+está relacionado à velocidade da fala, sobretudo em finais de sílaba,
+isto é, quando de uma pronúncia mais enfática, bem como à pronúncia
+utilizada na região. O tap \[ɾ\] porém, parece fazer parte da forma
+usual da língua. Compare os exemplos ababco:  
+\[examples\]  
+\- Page 132 : Concluímos, assim, que \[ɾ\] e \[ɻ\] são alofones de vim
+mesmo fonema /ɾ/.  
+Há que se considerar, também, um problema de ordem fonológica a relação
+entre a fricativa glotal \[h\] e a aproximante alveolar \[r\], pois
+ambas ocorrem em ambientes semelhantes. Como tal relação não pode ser
+melhor esclarecida pelos dados que obtivemos, passamos a considerar
+ambos os segmentos como fonemas distintos.  
+\- Page 133 : Tap ɾ
+
+Autres sources :  
+<https://clics.clld.org/languages/ids-294>  
+Recherches : r -\> 599 entries (filtered from 1,714 total entries)  
+l -\> 0 entries (filtered from 1,714 total entries)
+
+``` r
+show_lang('Kaingáng')$Form
+```
+
+    ## [1] "kanɛr" "kamɛn" "kanãn" "hɔhow" "kaΦãy"
+
+``` r
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Kaingáng",'other',revision))
+```
+
+### Mocoví
+
+``` r
+show_lang('Mocoví')
+```
+
+    ## # A tibble: 2 × 6
+    ##   Language Dataset Meaning Form           Trill R_type  
+    ##   <chr>    <chr>   <chr>   <chr>          <chr> <chr>   
+    ## 1 Mocoví   CLICS   smooth  n-alo-ʔoh-taʔ  no    no trill
+    ## 2 Mocoví   CLICS   rough   se n-al-a-ʔtaʔ no    no trill
+
+``` r
+show_comments('Mocoví')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language Dataset Comments
+    ##   <chr>    <chr>   <chr>   
+    ## 1 Mocoví   IDS     <NA>
+
+``` r
+show_iso('Mocoví')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language ISO_code Phoible_code
+    ##   <chr>    <chr>    <chr>       
+    ## 1 Mocoví   moc      moc
+
+Trill : no  
+R\_type : no trill
+
+Dataset :  
+IDS, no comments
+
+Phoible :  
+<https://phoible.org/languages/moco1246>  
+2 inventaires  
+\- PH ɾ allophones ɾ ʔ  
+\- SAPHON ɾ pas d’allophones
+
+Grondona, Verónica Maria. 1998. A Grammar of Mocovi. (Doctoral
+dissertation, University of Pittsburgh).  
+\- Page 22 : liquids flap r  
+\- Page 24 : The fact that /d/ does not occur word-finally is due to the
+innovation of /r/ in Mocovi (for further discussion see /r/ below). -
+Page 29 : /r/ voiced apicoalveolar flap: occurs in initial and medial
+positions. (Underlying /r/ is realized as a glottal stop \[ʔ\] when it
+occurs in word final position. See section 2.5 (b) for further
+discussion.)  
+(75) /rapik/ ‘honey’  
+(76) /qo?paripi/ ‘tree.stick.wood (pl)’  
+\- Page 30 : The phoneme /r/ is of recent origin in Mocovi. It is likely
+that \[d\] and \[r\] were allophones of one phoneme in Proto-Southern
+Waikurrian. if not in Proto-Waikuriian. Klein I979 reports that in Toba
+there is a phone \[r\] which occurs as an allophone of /d/. in free
+variation with \[d\]. In Abipon. Lafone Quevedo 1896 includes r but not
+d as “sounds” in the language. and actually under the entry for d he
+states that it is a “letter that Abipon lacks” (p. 62) and refers the
+reader to “look under ‘r’”. For Pilaga Vidal 1997 lists a phoneme /r/
+which is restricted to the environments V\_V and V\_C (p. 106). In
+Mocovi /d/ and /r/ are separate phonemes. Compare examples (77) and
+(78).  
+(77) /ro?o/ ‘he gets angry’  
+(78) /do?o/ ‘hat’  
+\- Page 35 : All alveolar consonants except /r/ are palatalized before
+/i/  
+\- Page 37 : The alveolar flap /r/ becomes a glottal stop \[?\]
+word-finally.  
+(122) a. \[yale?\] ‘men (pcl)’  
+/yaler/  
+yale-r  
+man-PCL
+
+``` 
+                b. [yaʎeripi] 'men (pl)'  
+                   /yaleripi/  
+                    yale-r-ipi  
+                    man-PCL-PL  
+```
+
+Coria, Teresa, et al. 2006. Lengua, cultura e historia mocovi in Santa
+Fe. 190–192pp. -\> pas trouvé
+
+Wikipedia :  
+<https://en.wikipedia.org/wiki/Mocov%C3%AD_language>  
+\- Flap ɾ
+
+Glottologue :  
+<https://glottolog.org/resource/languoid/id/moco1246>
+
+Autres sources :  
+<https://clics.clld.org/languages/ids-301>  
+Recherches : r -\> 418 entries (filtered from 1,195 total entries)  
+l -\> 597 entries (filtered from 1,195 total entries)  
+Form in source  
+r -\> 139 entries (filtered from 1,195 total entries)  
+ʁ -\> 329 entries (filtered from 1,195 total entries)  
+l -\> 597 entries (filtered from 1,195 total entries)
+
+``` r
+show_lang('Mocoví')$Form
+```
+
+    ## [1] "n-alo-ʔoh-taʔ"  "se n-al-a-ʔtaʔ"
+
+``` r
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Mocoví",'other',revision))
+```
+
+### Selknam
+
+``` r
+show_lang('Selknam')
+```
+
+    ## # A tibble: 3 × 6
+    ##   Language Dataset Meaning Form     Trill R_type  
+    ##   <chr>    <chr>   <chr>   <chr>    <chr> <chr>   
+    ## 1 Selknam  CLICS   smooth  aypˀèl   no    no trill
+    ## 2 Selknam  CLICS   smooth  ax-ketˀè no    no trill
+    ## 3 Selknam  CLICS   rough   čou tˀam no    no trill
+
+``` r
+show_comments('Selknam')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language Dataset Comments            
+    ##   <chr>    <chr>   <chr>               
+    ## 1 Selknam  IDS     cannot be determined
+
+``` r
+show_iso('Selknam')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language ISO_code Phoible_code
+    ##   <chr>    <chr>    <chr>       
+    ## 1 Selknam  ona      ona
+
+Trill : no  
+R\_type : no trill
+
+Dataset :  
+IDS, cannot be determined
+
+Phoible :  
+<https://phoible.org/inventories/view/1907>  
+\- ɾ pas d’allophones
+
+Viegas, Pedro Barros. 2005. Voces en el viento: Ra’ices lingü’isticas de
+la Patagonia. Mondragon Ediciones. -\> Pas trouvé
+
+Wikipedia :  
+<https://en.wikipedia.org/wiki/Ona_language>  
+\- Flap ɾ
+
+Rojas Berscia, Luis Miguel. 2014. A heritage reference grammar of
+Selk’nam. (MA thesis, Radboud Universiteit Nijmegen; 107pp.)  
+\- Page 28 : Consonantal phonemes in Selk’nam  
+Tap /ɾ/
+
+Glottologue :  
+<https://glottolog.org/resource/languoid/id/onaa1245>
+
+Viegas Barros, J. Pedro. 1993. La alternancia /r/ - /l/ en selknam.
+Indicios de lexicalización de simbolismo fónico. Actas I JLA: 271-278.  
+\- Page 1 : Las consonantes vibrante y lateral son claramente fonemas
+distintos en selknam, existiendo pares mínimos o cuasi-mínimos como los
+siguientes  
+\- Page 2 : Estas alternancias entre /r/ y /l/ se pueden clasificar en
+tres tipos: casos de fluctuación de fonemas, casos de variación
+dialectal y casos de un tercer tipo de alternancia, que serían
+explicables como lexicalizaciones de formas alternantes por un antiguo
+simbolismo fónico.  
+\- Page 3 : En estos casos, las formas con /l/ tienen claramente un
+matiz de significado despectivo o peyorativo, a partir del significado
+más “neutro” de las formas con /r/.  
+En algunos casos, las formas con /l/ parecen implicar un significado
+aumentativo o diminutivo (probablemente a partir de un significado
+básicamente despectivo)  
+\- Page 4 : Grado Consonantes Significado  
+1 r normal; no humano  
+2 l anormal (despectivo, aumentativo, diminutivo); humano
+
+``` 
+         [7] En algunas lenguas amerindias hay sistemas de simbolismo fónico más complejos. Confróntese, por ejemplo, el sistema de tres grados (que afectan a cuatro series de consonantes) en la lengua wiyot de California (Proulx 1984: 172):  
+         Grado   Consonantes   Significado  
+         1       t tʰ s l      neutro  
+         2       c cʰ š r      diminutivo  
+         3       č čʰ š r      aumentative; peyorativo  
+         [Proulx, Paul (1984): Proto-Algic 1: Phonological Sketch, IJAL 50 (2): 165-207.]  
+```
+
+  - Page 5 : En las lenguas chon distintas del selknam, según las
+    descripciones existentes, la fluctuación /l/ \~ /r/ está mucho más
+    extendida que el simbolisrno fónico. De esto podríamos inferir que
+    el simbolismo fónico se habría originado a partir de la fluctuación
+    fonémica en proto-chon (y se desarrolló después particularmente en
+    selknam), presumiblemente por especialización y polarización
+    semántica de los miembros de cada doblete originario.
+
+Autres sources :  
+<https://clics.clld.org/languages/ids-311>  
+Recherches : r -\> 157 entries (filtered from 864 total entries)  
+l -\> 125 entries (filtered from 864 total entries)
+
+``` r
+show_lang('Selknam')$Form
+```
+
+    ## [1] "aypˀèl"   "ax-ketˀè" "čou tˀam"
+
+Comme le peux d’information qu’on a semble converger vers une rhotique
+non trillée, on laisse en ‘other’.
+
+``` r
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Selknam",'other',revision))
+```
+
+### Qawasqar
+
+``` r
+show_lang('Qawasqar')
+```
+
+    ## # A tibble: 1 × 6
+    ##   Language Dataset Meaning Form   Trill R_type  
+    ##   <chr>    <chr>   <chr>   <chr>  <chr> <chr>   
+    ## 1 Qawasqar CLICS   smooth  senaḳs no    no trill
+
+``` r
+show_comments('Qawasqar')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language Dataset Comments
+    ##   <chr>    <chr>   <chr>   
+    ## 1 Qawasqar IDS     <NA>
+
+``` r
+show_iso('Qawasqar')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language ISO_code Phoible_code
+    ##   <chr>    <chr>    <chr>       
+    ## 1 Qawasqar alc      alc
+
+Trill : no  
+R\_type : no trill
+
+Dataset :  
+IDS, no comments
+
+Phoible :  
+<https://phoible.org/languages/qawa1238>  
+3 inventaires  
+\- UPSID ɾ pas d’allophones  
+\- SAPHON 1801 ɾ pas d’allophones  
+\- SAPHON 2144 ɾ pas d’allophones
+
+Clairis, Christos. 1977. Première approche du qawasqar: identification
+et phonologie. La Linguistique 13. 145–152.  
+\- Page 149 : Le phonème /l/:  
+/l-r/ : /teles/ “écouter” - /teres/ “papier”;  
+Ce phonème se réalise comme une alvéolaire, latérale, sonore.  
+Le phonème /r/:  
+/r-l/ : v. supra; /r-s/ : /esar/ “laird, mauvais, mal, etc.” - /esas/
+“lacher la corde”; /r-n/ : /aper/ “pluie, il pleut” - /apen/
+“chaleur”.  
+Ce phonème se réalise comme une vibrante simple.  
+\- Page 151 : En qawasqar il y a fluctuation entre les phonemes
+suivant:  
+3\) /l/ - /r/ : /afcawel/ - /afcawer/ “poing”
+
+``` 
+           Définition des phonèmes  
+           /l/ : latérale /l-r/  
+           /r/ : vibrante /r-l/  
+```
+
+  - Page 152 : Vibrante r
+
+Viegas, Pedro Barros. 2005. Voces en el viento: Ra’ices lingü’isticas de
+la Patagonia. Buenos Aires: Mondragon Ediciones. -\> Pas trouvé
+
+Aguilera, Oscar E. 2001. Gramática de la lengua Kawésqar. Temuco, Chile:
+Corporaci’on Nacional de Desarollo Ind’igena. 23–25pp.  
+\- Page 22 du document : Vibrantes r  
+\- Page 23 du document : Observemos qué fonema y sus variantes contiene
+el Alfabeto estandar del kawesqar:  
+Grafema: R r  
+Fonema : /r/  
+Variantes : \[r\] alveolar vibrante simple  
+\[ɹ avec un point dessus\] alveolar fricativa simple sonora relajada  
+Grafema: Rr rr  
+Fonema : /r/  
+Variantes : \[r\] alveolar vibrante multiple
+
+Wikipedia :  
+<https://en.wikipedia.org/wiki/Kaw%C3%A9sqar_language>  
+\- Rhotic r, ɾ
+
+Glottologue :  
+<https://glottolog.org/resource/languoid/id/qawa1238>
+
+Autres sources :  
+<https://clics.clld.org/languages/ids-313>  
+Recherches : r -\> 222 entries (filtered from 634 total entries)  
+l -\> 188 entries (filtered from 634 total entries)
+
+``` r
+show_lang('Qawasqar')$Form
+```
+
+    ## [1] "senaḳs"
+
+‘DOG’ dans la grammaire -\> kiurro alors que dans IDS -\> ḳyoro  
+Il vaut mieux considérer comme ‘trilled’ avec comme référence Aguilera
+même si la grammaire de Clairis parle de vibrante simple…
+
+``` r
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Qawasqar",'trilled',revision))
+```
+
+### Toba
+
+``` r
+show_lang('Toba')
+```
+
+    ## # A tibble: 2 × 6
+    ##   Language Dataset Meaning Form     Trill R_type  
+    ##   <chr>    <chr>   <chr>   <chr>    <chr> <chr>   
+    ## 1 Toba     CLICS   smooth  salʸi-ta no    no trill
+    ## 2 Toba     CLICS   rough   kesaḳ    no    no trill
+
+``` r
+show_comments('Toba')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language Dataset Comments
+    ##   <chr>    <chr>   <chr>   
+    ## 1 Toba     IDS     tap/flap
+
+``` r
+show_iso('Toba')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language ISO_code Phoible_code
+    ##   <chr>    <chr>    <chr>       
+    ## 1 Toba     tob      tob
+
+Trill : no  
+R\_type : no trill
+
+Dataset :  
+IDS, tap/flap
+
+Phoible :  
+<https://phoible.org/languages/toba1269>  
+3 inventaires  
+\- PH ɾ allophones ɾ r  
+\- SAPHON 1918 ɾ pas d’allophones  
+\- SAPHON 1919 ɾ pas d’allophones
+
+Klein, Harriet Esther Manelis. 1973. A Grammar of Argentine Toba: Verbal
+and Nominal Morphology. (Doctoral dissertation, Columbia University).
+-\> Pas trouvé
+
+Klein, Harriet E. Manelis. 1978. Una grámatica de la lengua toba:
+morfologia verbal y nominal. Montevideo: Universidad de la Rep’ublica,
+Divisi’on Publicaciones y Ediciones. 20–34pp. -\> Pas trouvé
+
+Messineo, Christina María. 1988. Fonolog’ia del toba-takv sek.
+Etnolingü’istica. 32–37. -\> Pas trouvé
+
+Wikipedia :  
+<https://en.wikipedia.org/wiki/Toba_Qom_language>  
+\- Flap ɾ  
+\- /ɾ/ is heard as a trill \[r\] when following a /t/
+
+Glottologue :  
+<https://glottolog.org/resource/languoid/id/toba1269>
+
+González, Raúl Eduardo. 2015. Estudio fonológico y morfosintáctico de la
+lengua toba hablada en el este de la provincia de Formosa (Argentina)
+desde en enfoque tipologico functional. Tesis Doctora, Universidad
+Nacional del Nordeste.
+
+  - Page 27 : Fonema /d/:  
+    Este fonema también se realiza como vibrante simple \[ɾ\]. Esta
+    realización, junto con \[d\], puede ser pensada como variantes
+    facultativas, es decir, según Trubetzkoy (1973:41) como dos sonidos
+    permutables, que pueden aparecer en los mismos contextos, pero que
+    no producen cambio de significado \[6\].Decidimos postular a /d/
+    como fonema por dos razones: (i) de acuerdo con la metacondición de
+    simetría del sistema (Lass 1984:23-25)\[7\], postular la realización
+    oclusiva alveolar sonora como fonema permite oponerla a su
+    contraparte sorda /t/ en el plano de las oclusivas alveolares
+    configurando, de este modo, un sistema más equilibrado que el que
+    resultaría de postular a \[ \], lo cual nos obligaría a incorporar
+    una nueva serie (vibrante simple) integrada por un único fonema que
+    se opone a todo el sistema y (ii) vinculado con el primer punto, el
+    contenido y estatus fonológico de /d/ lo integra mejor al sistema.
+    Si postuláramos \[ɾ\] como fonema su contenido sería  
+    puramente negativo: en correlación con el resto del sistema, se
+    caracterizaría por no ser una consonante determinada, no ser vocal,
+    no ser nasal ni tampoco una lateral.\[8\]
+    
+    ``` 
+          [6] Sólo un par de excepciones podríamos mencionar, por ejemplo que ante consonante nasal /n/ sólo hemos documentado la forma [d] ndep ‘la creciente’ y precediendo a /t/ sólo hemos documentado [ɾ] por ejemplo [ketɾa'wo] ‘entran (3sg)’. En consecuencia, no pueden analizarse como variantes combinatorias en distribución complementaria.   
+          [7] Recordemos las tres metacondiciones de Lass (1984:23-25) planteadas al comienzo de este capítulo, que el sistema fonológico debe ser: (i) lo más económico posible (ii) lo más simétrico y equilibrado posible y (iii) aprovechar al máximo las regularidades observadas.  
+          [8] Trubetzkoy (1973:65) brinda el ejemplo del fonema alemán /r/ el cual se encuentra en oposición bilateral con /l/ siendo, en rigor, su contenido fonológico escaso o nulo, ya que se caracteriza por su esencia puramente negativa: no es vocal, ni una consonante determinada, no es nasal y no es lateral.  
+    ```
+
+  - Page 28 : Estudios de otras variedades de la lengua toba (Messineo
+    2003:39; Carpio 2012:17), mencionan la variable sociolingüística
+    edad en el uso de estas variedades facultativas, siendo \[d\] la
+    realización prototípica para hablantes jóvenes, según la primera
+    autora y, en cambio, para la segunda es la realización \[ɾ\] la más
+    frecuente entre los hablantes de esta franja etárea. En ambos
+    trabajos, no obstante, también se postula /d/ como unidad fonológica
+    mientras que Censabella (2003:59) postula /ɾ/ como fonema y \[d\]
+    como realización. En otras lenguas de la familia guaycurú habladas
+    en el Gran Chaco argentino, Gualdieri (1998:27) en mocoví establece
+    a /d/ y /r/ como fonemas distintos y  
+    Vidal (2001:34), en pilagá, los define como variantes combinatorias
+    en distribución complementaria. En nuestro caso, no hemos encontrado
+    una variable sociolingüística que explique uno u otro uso y la
+    elección de la unidad fonológica radica en un punto de vista
+    teórico. A nuestros argumentos, Messineo (2003:39-40) añade
+    motivaciones genético-históricas y metodológicas para elegir a /d/:
+    (i) en el primer caso, porque el status fonológico de /d/ ha sido
+    documentado para otras lenguas de la familia guaycurú y (ii) en
+    cuanto a la metodología, porque /d/ permite explicar la
+    palatalización de alveolares, que ocurre en toba y otras lenguas de
+    la familia y que no se da para el caso de la vibrante simple.
+
+Autres sources :  
+<https://clics.clld.org/languages/ids-314>  
+Recherches : r -\> 367 entries (filtered from 1,357 total entries) \[=\>
+ʁ\]  
+d -\> 174 entries (filtered from 1,357 total entries)  
+l -\> 661 entries (filtered from 1,357 total entries)  
+Form in source:  
+r -\> 9 entries (filtered from 1,357 total entries)  
+d -\> 174 entries (filtered from 1,357 total entries)  
+l -\> 661 entries (filtered from 1,357 total entries)
+
+``` r
+show_lang('Toba')$Form
+```
+
+    ## [1] "salʸi-ta" "kesaḳ"
+
+Mieux de mettre ‘OUT’ car il ne semble pas que ça soit vraiment une
+rhotique mais plus un allophone du /d/.
+
+``` r
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Toba",'OUT',revision))
+```
+
+### Central Thai
+
+``` r
+show_lang('Central Thai')
+```
+
+    ## # A tibble: 3 × 6
+    ##   Language     Dataset Meaning Form                         Trill R_type  
+    ##   <chr>        <chr>   <chr>   <chr>                        <chr> <chr>   
+    ## 1 Central Thai CLICS   smooth  riap.3                       no    no trill
+    ## 2 Central Thai CLICS   rough   ja:p.2                       no    no trill
+    ## 3 Central Thai CLICS   rough   khruʔ.2-khraʔ.2 maj.3 riap.3 no    no trill
+
+``` r
+show_comments('Central Thai')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language     Dataset Comments
+    ##   <chr>        <chr>   <chr>   
+    ## 1 Central Thai IDS     tap/flap
+
+``` r
+show_iso('Central Thai')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language     ISO_code Phoible_code
+    ##   <chr>        <chr>    <chr>       
+    ## 1 Central Thai tha      tha
+
+Trill : no  
+R\_type : no trill
+
+Dataset :  
+IDS, tap/flap
+
+Phoible :  
+<https://phoible.org/languages/thai1261>  
+3 inventaires  
+\- SPA ɾ allophones ɾ ɾ̃ ɾ ɾ̥ ; l allophones l r l̥ l ɻ l̃  
+\- UPSID ɾ pas d’allophones  
+\- UZ l allophones l r ∅ ; ɾ allophones ɾ r l ∅
+
+Kruatrachue, Foongfuang. 1960. Thai and English: A Comparative Study of
+Phonology for Pedagogical Applications. Bloomington: Indiana University
+Press.  
+Noss, Richard Brainard. 1964. Thai Reference Grammar. Washington, D.C.:
+Foreign Service Institute, Department of State, United States
+Government.  
+\- Page 8 : Oral continuants /r/  
+\- Page 14 : /r/ Alveolar oral continuant  
+Normally apico-alveolar flap, with grooving of tongue, lenis.  
+As initial - fully voiced, little or no friction: /‘raaj/ ’case’  
+Second in cluster: - same, overlapping first member of cluster, voiced:
+/‘traa/ ’stamp’ , partrly voiceless, more frication: /‘phree/ ’silk
+cloth’  
+Variant (both positions): voiced retroflex spirant with low friction
+
+Noss, Richard Brainard. 1954. An Outline of Siamese Grammar. (Doctoral
+dissertation, Yale University, New Haven).  
+<https://www.proquest.com/openview/21dc4c7db7ab2b65de8679f56d8d72be/1?cbl=18750&diss=y&pq-origsite=gscholar&parentSessionId=cWwl24GD8CRfWGZ8tDDKf1t3FSLHAb03mBqF2xvBu%2Bo%3D>  
+\- Page i : THe treatment of /r/ and /l/, alone or in clusters, varies
+so greatly among speakers (those who make the distinction at all) that
+the choice between these two phonemes in a given lexical unit is simply
+made in accordance with the official spelling wherever possible. The
+general statement can be made, however that the Central Plains dialect
+contains far fewer instances of /r/ than the standard language.  
+\- Pas accès à la suite…
+
+Abramson, Arthur S. 1962. The Vowels and Tones of Standard Thai:
+Acoustical Measurements and Experiments. (International Journal of
+American Linguistics, 28.) Bloomington: Indiana University. -\> Pas
+trouvé
+
+Haas, Mary Rosamond. 1956. The Thai System of Writing. (American Council
+of Learned Societies Program in Oriental Languages, 5.) American Council
+of Learned Societies.  
+\- Page ix : /r-/ Voiced retroflex or weak trill. Compare Eng. r in
+red.  
+\- Page xi : Vd.Trill (or Retroflex) r-
+
+Haas, Mary R. 1964. Thai-English Student’s Dictionary. Stanford:
+Stanford University Press.  
+\- Page xi : Sonorants: Vd. Trill or Retroflex r-
+
+Tingsabadh, M. R. Kalaya and Abramson, Arthur S. 1993. Illustrations of
+the IPA: Thai. Journal of the International Phonetic Association 23.
+24–28. Cambridge University Press.  
+\- Page 24 : Trill r  
+\- Page 26 : The consonant /r/ is realized most frequently as \[\] but
+also as \[r\]. Perceptual experiemtns (Abramson 1962: 6-9) have shown
+that the distinction between /r/ and /l/ is not very robust;
+nevertheless, the normative attitude among speakers of Standard Thai is
+that they are separate phonemes, as given in Thai script. This
+distinction is rather well maintained by some cultivated speakers,
+especially in formal speech; however, many show much vacillation, with a
+tendency to favor the lateral phone \[l\] in the position of a single
+initial consonant. As the second element of initial consonant clusters,
+both N and hi tend to be deleted altogether.
+
+Wikipedia :  
+<https://en.wikipedia.org/wiki/Thai_language>  
+\- Trill \[r\] ร
+
+Glottologue :  
+<https://glottolog.org/resource/languoid/id/thai1261>
+
+James Higbie and Snea Thinsan. 2002. Thai reference grammar: The
+structure of spoken Thai. Bangkok: Orchid Press. 468pp.  
+\- Page xvi : r slightly rolled, pronounced “l” in colloquial Thai
+
+Iwasaki, Shoichi and Horie, Inkapiromu Puriya. 2005. A reference grammar
+of Thai. New York: Cambridge Univ. Press. xxvi+392pp.  
+\- Page 4 : Liquid /r/  
+The lateral liquid /l/ and the trill or tap /r/ are distinguished in the
+orthography and prononced differently in very carefully articulated
+speech. However in most speech /r/ is pronounced /l/.
+
+Autres sources :  
+<https://clics.clld.org/languages/ids-401>  
+Recherches : r -\> 259 entries (filtered from 1,756 total entries)  
+l -\> 270 entries (filtered from 1,756 total entries)
+
+Google Trad :  
+ขรุขระ -\> K̄hruk̄hra  
+หยาบ -\> H̄yāb  
+เรียบ -\> Reīyb
+
+``` r
+show_lang('Central Thai')$Form
+```
+
+    ## [1] "riap.3"                       "ja:p.2"                      
+    ## [3] "khruʔ.2-khraʔ.2 maj.3 riap.3"
+
+On a deux choix : soit on ‘OUT’ à cause des deux entrées (donc je ne
+sais pas quel liste de vocabulaire prendre), soit on change en ‘trill’
+(mais il ne faudrait garder que une entrée). Je ne sais pas d’où ils ont
+sorti le tap/flap.  
+Et je ne suis pas sûr pour les différences de transcriptions entre les
+deux entrées.  
+Les deux entrées ont les mêmes ISO code et Phoible code.
+
+UPDATE AU 03/05/22 :  
+Je change le ‘TO DECIDE’ en ‘trilled’.  
+Et j’exclu l’autre entrée du Thai.
+
+``` r
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Central Thai",'trilled',revision))
+```
+
+### Thai
+
+``` r
+show_lang('Thai')
+```
+
+    ## # A tibble: 6 × 6
+    ##   Language Dataset Meaning Form       Trill R_type  
+    ##   <chr>    <chr>   <chr>   <chr>      <chr> <chr>   
+    ## 1 Thai     CLICS   smooth  liap.4     no    no trill
+    ## 2 Thai     CLICS   smooth  sa.5 mɣ:.1 no    no trill
+    ## 3 Thai     CLICS   rough   ja:p.8     no    no trill
+    ## 4 Thai     CLICS   rough   ta.5 luk.5 no    no trill
+    ## 5 Thai     CLICS   smooth  lamun      no    no trill
+    ## 6 Thai     CLICS   rough   yàap       no    no trill
+
+``` r
+show_comments('Thai')
+```
+
+    ## # A tibble: 2 × 3
+    ##   Language Dataset Comments
+    ##   <chr>    <chr>   <chr>   
+    ## 1 Thai     Google  <NA>    
+    ## 2 Thai     WOLD    <NA>
+
+``` r
+show_iso('Thai')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language ISO_code Phoible_code
+    ##   <chr>    <chr>    <chr>       
+    ## 1 Thai     tha      tha
+
+Trill : no  
+R\_type : no trill
+
+Dataset :  
+Google, no comments  
+WOLD, no comments
+
+Phoible :  
+Cf. Central Thai
+
+Wikipedia :  
+Cf. Central Thai
+
+Glottologue :  
+Cf. Central Thai
+
+Autres sources :  
+<https://clics.clld.org/languages/wold-Thai>  
+Recherches : r -\> 294 entries (filtered from 2,096 total entries)  
+l -\> 279 entries (filtered from 2,096 total entries)
+
+``` r
+show_lang('Thai')$Form
+```
+
+    ## [1] "liap.4"     "sa.5 mɣ:.1" "ja:p.8"     "ta.5 luk.5" "lamun"     
+    ## [6] "yàap"
+
+Même décision à prendre que ci-dessus : Cf. Central Thai
+
+UPDATE AU 03/05/22 :  
+Je change le ‘TO DECIDE’ en ‘OUT’.
+
+``` r
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Thai",'OUT',revision))
+```
+
+### Ingush
+
+``` r
+show_lang('Ingush')
+```
+
+    ## # A tibble: 2 × 6
+    ##   Language Dataset Meaning Form  Trill R_type  
+    ##   <chr>    <chr>   <chr>   <chr> <chr> <chr>   
+    ## 1 Ingush   CLICS   smooth  sära  no    no trill
+    ## 2 Ingush   CLICS   rough   oxca  no    no trill
+
+``` r
+show_comments('Ingush')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language Dataset Comments
+    ##   <chr>    <chr>   <chr>   
+    ## 1 Ingush   CLICS   <NA>
+
+``` r
+show_iso('Ingush')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language ISO_code Phoible_code
+    ##   <chr>    <chr>    <chr>       
+    ## 1 Ingush   inh      inh
+
+Trill : no  
+R\_type : no trill
+
+Dataset :  
+CLICS, no comments
+
+Phoible :  
+<https://phoible.org/languages/ingu1240>  
+2 inventaires  
+\- PH ɾ allophones ɾ ; ɾ̥ allophones ɾ̥  
+\- EA r ̺ ̥ pas d’allophones ; ɾ̺ pas d’allophones
+
+Nichols, Johanna. 1996. Ingush. In Smeets, Riek (ed.), The Indigenous
+Languages of the Caucasus. Delmar, NY: Caravan Press. -\> pas trouvé
+
+Nichols, Johanna. 2011. Ingush Grammar. (University of California
+Publications Series.) University of California Press. 830pp.  
+\- Page 20 : Single consonants can be geminated by various
+morphophonemic processes. The geminates shown here are only those that
+occur in root morphemes.  
+r  
+rh  
+Consonant phonemes in transcription  
+r  
+r̥  
+\- Page 46 : /r/: An apical, slightly retroflexed tap (occasionally a
+two-tap trill). Word-finally it is often partly devoiced (§§2.5.1.(3b),
+2.9, 3.3.5). Lack of this devoicing can be the main clue to a following
+schwa (which is usually not pronounced after /r/):  
+suogara \[suogər\] ‘from me’  
+duoshar \[duožər\] ‘fall(ing)’ (verbal noun)
+
+``` 
+          /rh/: Often a voiceless single tap, with audible aspiration. Sometimes it seems to be a prestopped or pretapped lateral fricative (produced by stopping the airstream entirely with the tongue in an alveolar articulation, then releasing the sides of the tongue). This latter pronunciation is phonetically similar to the Batsbi sequence /rlh/ ([rɫ]) that is its most  
+```
+
+common correspondent (e.g. Ingush vorh : Batsbi vorlh ‘seven’).
+
+Wikipedia :  
+<https://en.wikipedia.org/wiki/Ingush_language>  
+\- Trill voiceless рхl rh \[r̥\]  
+voiced р r \[r\]
+
+Glottologue :  
+<https://glottolog.org/resource/languoid/id/ingu1240>
+
+Zaurbek K. Mal’sagov. 1963. Grammatika ingušskogo jazyka.
+(Chečeno-Ingušskoe Naučno-Issledovatel’skij Institut: Trudy, 5.) izd.
+2-e edn. Groznyj: Chečeno-Ingušskoe Knižnoe Izdatel’stvo. 158pp.  
+Мальсагов З. К. 1963. Грамматика ингушского языка. Чечено-ингушское
+книжное издательство  
+\- Page 6 : R r эр р
+
+Autres sources :  
+<https://clics.clld.org/languages/ids-516>  
+Recherches : r -\> 408 entries (filtered from 1,516 total entries)  
+rr -\> 3 entries (filtered from 1,516 total entries)  
+l -\> 372 entries (filtered from 1,516 total entries)  
+ll -\> 18 entries (filtered from 1,516 total entries)  
+Form in source :  
+рх -\> 20 entries (filtered from 1,516 total entries)
+
+``` r
+show_lang('Ingush')$Form
+```
+
+    ## [1] "sära" "oxca"
+
+J’avais mis le Chechen en ‘other’…  
+A cause du two-tap trill, je change en ‘trilled’…
+
+``` r
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Ingush",'trilled',revision))
+```
+
+### Telugu
+
+``` r
+show_lang('Telugu')
+```
+
+    ## # A tibble: 6 × 6
+    ##   Language Dataset Meaning Form    Trill R_type  
+    ##   <chr>    <chr>   <chr>   <chr>   <chr> <chr>   
+    ## 1 Telugu   CLICS   smooth  nunu    no    no trill
+    ## 2 Telugu   CLICS   smooth  nunupu  no    no trill
+    ## 3 Telugu   CLICS   smooth  nunna   no    no trill
+    ## 4 Telugu   CLICS   smooth  mṛduwu  no    no trill
+    ## 5 Telugu   CLICS   rough   cittu   no    no trill
+    ## 6 Telugu   CLICS   smooth  n̪un̪ːʌn̪i no    no trill
+
+``` r
+show_comments('Telugu')
+```
+
+    ## # A tibble: 2 × 3
+    ##   Language Dataset Comments                                                     
+    ##   <chr>    <chr>   <chr>                                                        
+    ## 1 Telugu   IDS     flap based on mixture of wikipedia and phoible (conflicting …
+    ## 2 Telugu   Google  <NA>
+
+``` r
+show_iso('Telugu')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language ISO_code Phoible_code
+    ##   <chr>    <chr>    <chr>       
+    ## 1 Telugu   tel      tel
+
+Trill : no  
+R\_type : no trill
+
+Dataset :  
+IDS, flap based on mixture of wikipedia and phoible (conflicting
+information)  
+Google, no comments
+
+Phoible :  
+<https://phoible.org/languages/telu1262>  
+4 inventaires  
+\- SPA rː allophones rː; ɾ allophones ɾ; ɖ allophones ɖ ɽ  
+\- UPSID ɾ pas d’allophones  
+\- RA ɾ pas d’allophones; ɽ pas d’allophones  
+\- EA r̪ pas d’allophones
+
+Kelley, Gerald. 1963. Vowel Phonemes and External Vocalic Sandhi in
+Telugu. Journal of the American Oriental Society 83. 67–73.  
+\- Page 67 : The consonantal phonemes of Telugu are /r/
+
+Krishnamurti, Bh. 1961. Telugu Verbal Bases. Berkeley / Los Angeles:
+University of California Press. -\> Pas trouvé
+
+Lisker, Leigh. 1963. Introduction to Spoken Telugu. New York: American
+Council of Learned Societies.  
+\- Page 16 : r generally like t of ‘cavity’ but with tongue tip making
+contact with rook of mouth just behing upper front teeth
+
+Kostic, D. and Mitter, A. and Krishnamurti, B. 1977. A Short Outline of
+Telugu Phonetics. Calcutta: Indian Statistical Institute. -\> Pas trouvé
+
+Sastry, J. V. 1972. Telugu Phonetic Reader. Mysore: Central Institute of
+Indian Languages. -\> Pas trouvé
+
+Krishnamurti, Bh. 1998. Telugu. In Steever, Sanford B. (ed.), The
+Dravidian Languages, 202–240. London \&New York: Routledge.  
+\- Page 206 : Flap r  
+\- Page 209 : Telugu script is derived from the Ashokan Brahmi with
+modifications introduced in the Southern varieties for short and long e,
+o in vowels. New symbols for r̠ (alveolar trill) and z (retroflex
+fricative) were innovated.
+
+Wikipedia :  
+<https://en.wikipedia.org/wiki/Telugu_language>  
+\- Tap ɾ r  
+\- The common Proto Dravidian approximant \*/ɻ/ merged with /ɖ/ in
+Telugu while it was preserved as /ɽ/ in the other Southern II branch
+languages.  
+\- Most consonants contrast in length in word-medial position, meaning
+that there are long (geminated) and short phonetic renderings of the
+sounds. A few examples of words that contrast by length of word-medial
+consonants:  
+\- /mɐɾi/ mari ‘again’ – /mɐɾːi/ marri ‘banyan tree’
+
+Glottologue :  
+<https://glottolog.org/resource/languoid/id/telu1262>
+
+Autres sources :  
+<https://clics.clld.org/languages/ids-709>  
+Recherches : r -\> 1,197 entries (filtered from 4,034 total entries)  
+l -\> 808 entries (filtered from 4,034 total entries)  
+rr -\> 27 entries (filtered from 4,034 total entries)  
+ll -\> 119 entries (filtered from 4,034 total entries)  
+Form in source :  
+r -\> 1,157 entries (filtered from 4,034 total entries)  
+l -\> 808 entries (filtered from 4,034 total entries)  
+rr -\> 27 entries (filtered from 4,034 total entries)  
+ll -\> 119 entries (filtered from 4,034 total entries)
+
+Bhaskararao, P., & Ray, A. (2017). Telugu. Journal of the International
+Phonetic Association, 47(2), 231-241.  
+\- Page 232 : Trill r  
+\- Page 234 : Contrast for gemination is limited to words of the
+syllabic structure \#(C1)VC2V…,where C1 is optional and C2 contrasts for
+gemination.  
+/mɐri/ ‘again’ – /mɐrri/ ‘banyan tree’  
+\- Page 235 : In intervocalic position the pronunciation of singleton
+/ɳ/ is that of a flap, e.g. \[ʋɐːɽ̃ iː\] ‘tippet’. Intervocalic
+singleton /ɖ/, /ɖʱ/and/ɭ/ also have flap pronunciation, e.g. \[ʋɐːɽu\]
+‘he’, \[muːɽʱuɽu\] ‘foolish man’, \[tɑːɺ̠ɐʋ̃\] ‘lock’.8 /ɖ/ occurs
+after the nasal /m/ in a few borrowed words, where it is realized as a
+flap, e.g. \[ʧɑmɽɐː\] ‘leather’.  
+/r/ has two allophones, tap \[ɾ\] in intervocalic position and trill
+\[r\] elsewhere e.g. \[peːɾu\] ‘name’, \[reːpu\] ‘tomorrow’, \[kɑrrɐ\]
+‘stick’.
+
+``` r
+show_lang('Telugu')$Form
+```
+
+    ## [1] "nunu"    "nunupu"  "nunna"   "mṛduwu"  "cittu"   "n̪un̪ːʌn̪i"
+
+On pourrait mettre ‘OUT’ à cause du contraste intervocalique… Ou sinon
+‘trilled’, mais pas de vraies raisons de le laisser en ‘other’.
+
+``` r
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Telugu",'OUT',revision))
+```
+
+### Nyakur
+
+``` r
+show_lang('Nyakur')
+```
+
+    ## # A tibble: 2 × 6
+    ##   Language Dataset Meaning Form  Trill R_type  
+    ##   <chr>    <chr>   <chr>   <chr> <chr> <chr>   
+    ## 1 Nyakur   CLICS   smooth  hriəp no    no trill
+    ## 2 Nyakur   CLICS   rough   jrɔ:č no    no trill
+
+``` r
+show_comments('Nyakur')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language Dataset Comments 
+    ##   <chr>    <chr>   <chr>    
+    ## 1 Nyakur   IDS     not clear
+
+``` r
+show_iso('Nyakur')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language ISO_code Phoible_code
+    ##   <chr>    <chr>    <chr>       
+    ## 1 Nyakur   cbn      cbn
+
+Trill : no  
+R\_type : no trill
+
+Dataset :  
+IDS, not clear
+
+Phoible :  
+<https://phoible.org/inventories/view/274>  
+\- R̪̥|R̥ pas d’allophones; R̪|R pas d’allophones
+
+Thongkum, Therapan L. 1984. Nyah Kur (Chao Bon)-Thai-English Dictionary.
+(Monic Language Studies, 2.) Bangkok: Chulalongkorn University,
+Linguistic Research Unit, Faculty of Arts. -\> Pas trouvé
+
+Diffloth, Gerard. 1984. The Dvaravati Old Mon Language and Nyah Kur.
+Bangkok: Chulalongkorn University. -\> Pas trouvé
+
+Wikipedia :  
+<https://en.wikipedia.org/wiki/Nyah_Kur_language>  
+\- Trill r̥ r
+
+Glottologue :  
+<https://glottolog.org/resource/languoid/id/nyah1250>
+
+Autres sources :  
+<https://clics.clld.org/languages/ids-829>  
+Recherches : r -\> 254 entries (filtered from 1,171 total entries)  
+l -\> 193 entries (filtered from 1,171 total entries)
+
+<http://web.phonetik.uni-frankfurt.de/L/L2315.html>  
+Sound: "rr  
+Description: voiced dental/alveolar r-sound  
+\[Mais même sources que PHOIBLE\]
+
+``` r
+show_lang('Nyakur')$Form
+```
+
+    ## [1] "hriəp" "jrɔ:č"
+
+Je n’arrive pas à trouver des sources… Et il semble que dans le peu de
+sources existantes la nature du r ne soit pas spécifiée…  
+Donc on met ‘NA’.
+
+``` r
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Nyakur",'NA',revision))
+```
+
+### Samre
+
+``` r
+show_lang('Samre')
+```
+
+    ## # A tibble: 2 × 6
+    ##   Language Dataset Meaning Form   Trill R_type  
+    ##   <chr>    <chr>   <chr>   <chr>  <chr> <chr>   
+    ## 1 Samre    CLICS   smooth  riəp.B no    no trill
+    ## 2 Samre    CLICS   rough   ja:p.C no    no trill
+
+``` r
+show_comments('Samre')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language Dataset Comments   
+    ##   <chr>    <chr>   <chr>      
+    ## 1 Samre    IDS     approximant
+
+``` r
+show_iso('Samre')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language ISO_code Phoible_code
+    ##   <chr>    <chr>    <chr>       
+    ## 1 Samre    sxm      sxm
+
+Trill : no  
+R\_type : no trill
+
+Dataset :  
+IDS, approximant
+
+Phoible :  
+<https://phoible.org/inventories/view/994>  
+\- ɹ allophones ɹ ɣ ɯ̯
+
+Ploykaew, Pornsawan. 2001. Samre Grammar. (Doctoral dissertation,
+Mahidol University).  
+\- Page 44 : they are /ɹ/  
+The Consonant Sequences  
+while the second member is a liquid, either /l/ or /ɹ/  
+\- Page 49 : /ɹ/ is realized as \[ɹ\] a voiced alveolar approximant or
+\[ɣ\] a voiced velar fricative or \[ɯ̯\] - a central semivowel. Although
+this phoneme has three allophones suggested here. The symbol which
+represents the phoneme is the most common among the three allophones.
+=\> La suite c’est comme dans l’article de 2001
+
+Wikipedia :  
+<https://en.wikipedia.org/wiki/Samre_language_of_Pursat>  
+\- Approximant \[ɹ\]  
+\- The pronunciation \[ɣ\] is mostly heard among the older generation
+who consider it to be the “correct” pronunciation. It can be considered
+a “harsh” sound and \[ɹ\] is sometimes used when the speaker wishes to
+sound “softer” or “soothing”. The \[ɣ\] sound is not often heard among
+younger or less fluent speakers who use \[ɹ\] or replace the sound with
+a tapped or trilled /r/ due to influence from Thai.
+
+Glottologue :  
+<https://glottolog.org/resource/languoid/id/samr1245>
+
+Ploykaew, Porsawan. 2001. The phonology of Samre. Papers from the Ninth
+Annual Meeting of the Southeast Asian Lingu 31. 103-120. Tempe, Arizona:
+Arizona State University, Program for Southeast Asian Studies.  
+\- Page 18 : -ɹ  
+\- Page 19 : /ɹ/ is realized as \[ɹ\] - A voiced alveolar approximant.
+The allophone \[ɹ\] fluctuates with \[ɣ\] - a voiced velar fricative -
+in all positions except for at the final position when it follows a low
+central unrounded vowel either /a/ or /aa/, where is realized \[ɯ̯\] - a
+central semivowel - as in /maaɹ^A/ \[’maaɯ̯^332\] ‘field’; /thaɹ^A/
+\[thaɯ̯^332\] ‘cloth’. Examples for other positions are /ɹaaŋ^B/
+\[’ɹaaŋ^21\] \~ \[’ɣaaŋ^21\] ‘to carry (a dead body)’; /tiɹ^B/
+\[’tiɹ^22\] \~ \[’tiɣ^22\] ‘to crow’. It should be noted that the
+allophone \[ɣ\] is a harsh accent which is most pronounced in the elder
+generation of the speakers whose language ability is better than the
+younger group. The \[ɣ\] seems to be closer to the original sound of
+Smare than the \[ɹ\] as I was informed that it is a unique sound of
+Samre. Even when the Samre people speak Thai, their pronunciation seems
+to echo the mother tongue, such as in the Thai word \[ʔaʔ’raj\] ‘what’
+which may be pronounced \[ʔa’ɣaj^451\] by the Samre speakers and their
+descendants who have been influenced by this sound even in those groupes
+who are no longer able to speak the Samre language. On the other hand,
+the allophone \[ɹ\] is a tender accent which some of the speakers feel
+makes the language sound more beautiful. The younger generation tend to
+pronounce this one and some of them sometimes substitute this sound with
+a voiced trill \[r\] due to influence from the Thai language.
+
+Autres sources :  
+<https://clics.clld.org/languages/ids-833>  
+Recherches : r -\> 268 entries (filtered from 1,244 total entries)  
+l -\> 194 entries (filtered from 1,244 total entries)
+
+``` r
+show_lang('Samre')$Form
+```
+
+    ## [1] "riəp.B" "ja:p.C"
+
+On laisse en ‘other’ mais c’est une fois de plus une langue qui me fait
+m’interroger sur la nature profonde des segments. On ne sait pas
+vraiment ce qu’il y a au niveau sous-jacent.
+
+``` r
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Samre",'other',revision))
+```
+
+### Cayapa
+
+``` r
+show_lang('Cayapa')
+```
+
+    ## # A tibble: 2 × 6
+    ##   Language Dataset Meaning Form          Trill R_type  
+    ##   <chr>    <chr>   <chr>   <chr>         <chr> <chr>   
+    ## 1 Cayapa   CLICS   rough   'bus'naʔ'c̷ulu no    no trill
+    ## 2 Cayapa   CLICS   rough   'bui'-'hele   no    no trill
+
+``` r
+show_comments('Cayapa')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language Dataset Comments
+    ##   <chr>    <chr>   <chr>   
+    ## 1 Cayapa   IDS     <NA>
+
+``` r
+show_iso('Cayapa')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language ISO_code Phoible_code
+    ##   <chr>    <chr>    <chr>       
+    ## 1 Cayapa   cbi      cbi
+
+Trill : no  
+R\_type : no trill
+
+Dataset :  
+IDS, no comments
+
+Phoible :  
+<https://phoible.org/languages/chac1249>  
+3 inventaires  
+\- SPA r allophones r  
+\- UPSID R pas d’allophones  
+\- SAPHON ɾ pas d’allophones
+
+Lindskoog, J. N. and Brend, R. M. 1962. Cayapa Phonemics. In Elson,
+Benjamin F. (ed.), Studies in Ecuadorian Indian Languages 1, 31–44.
+Norman: Summer Institute of Linguistics, University of Oklahoma.  
+\- Page 32 : r  
+\- Page 34 : The alveolar lateral and the vibrant contrast with each
+other and also with the alveolar nasal /n, l, r/: nanu ‘to the child’,
+lanu ‘to come up’, ranu ‘on the ten-cent coin’; nana ‘balsa wood’, hala
+‘hornet’, ?ahara ‘angry’; mulu ‘beans’, huru ‘hole’.  
+\- Page 37 : while syllables may be closed by /n, ŋ, ʔ, h, s, š/ only.
+
+Floyd, Simeon. 2010. Discourse Forms and Social Categorization in
+Cha’palaa. (Doctoral dissertation, University of Texas).  
+\- Page 367 : tap ɾ  
+\- Page 368 : r ɾ - grapheme based on Spanish
+
+Wikipedia :  
+<https://en.wikipedia.org/wiki/Cha%27palaa_language>  
+\- Liquid ɾ
+
+Glottologue :  
+<https://glottolog.org/resource/languoid/id/chac1249>
+
+Autres sources :  
+<https://clics.clld.org/languages/ids-245>  
+Recherches : r -\> 170 entries (filtered from 1,604 total entries)  
+l -\> 337 entries (filtered from 1,604 total entries)
+
+``` r
+show_lang('Cayapa')$Form
+```
+
+    ## [1] "'bus'naʔ'c̷ulu" "'bui'-'hele"
+
+``` r
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Cayapa",'other',revision))
+```
+
+### Trinitario
+
+``` r
+show_lang('Trinitario')
+```
+
+    ## # A tibble: 1 × 6
+    ##   Language   Dataset Meaning Form  Trill R_type  
+    ##   <chr>      <chr>   <chr>   <chr> <chr> <chr>   
+    ## 1 Trinitario CLICS   rough   -reru no    no trill
+
+``` r
+show_comments('Trinitario')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language   Dataset Comments
+    ##   <chr>      <chr>   <chr>   
+    ## 1 Trinitario IDS     <NA>
+
+``` r
+show_iso('Trinitario')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language   ISO_code Phoible_code
+    ##   <chr>      <chr>    <chr>       
+    ## 1 Trinitario trn      trn
+
+Trill : no  
+R\_type : no trill
+
+Dataset :  
+IDS, no comments
+
+Phoible :  
+<https://phoible.org/inventories/view/2155>  
+\- ɾ pas d’allophones
+
+Rose, Françoise. 2015. Mojeño Trinitario. In Crevels, Mily and Muysken,
+Peter (eds.), Lenguas de Bolivia, vol 3. Oriente. La Paz: Plural
+Editores.  
+\- Page 63 : Vibrante r \[ɾ\]
+
+Wikipedia :  
+<https://en.wikipedia.org/wiki/Moxo_languages>  
+<https://fr.wikipedia.org/wiki/Trinitario_(langue)>  
+<https://es.wikipedia.org/wiki/Idioma_trinitario>  
+\- Vibrante r \[ɾ\]
+
+Glottologue :  
+<https://glottolog.org/resource/languoid/id/trin1274>
+
+Autres sources :  
+<https://clics.clld.org/languages/ids-265>  
+Recherches : r -\> 286 entries (filtered from 907 total entries)  
+l -\> 0 entries (filtered from 907 total entries)
+
+Rose, F. (2021). Mojeño trinitario. Journal of the International
+Phonetic Association, 1-19.  
+\- Page 3 : Tap ɾ ɾʲ  
+\- Page 9 : The rhotic /ɾ/  
+The phoneme /ɾ/ displays an array of slightly differing realizations in
+variation, with some lateral and retroflex articulations. It often
+triggers the presence of a schwa-like transitional vocoid \[^ə\]
+immediately preceding it when following a consonant, as in
+/tɾappes’ɾawo/ trappesrawo ‘shining’, that is realized
+\[t<sup>əɾap:es</sup>ə’ɾawo\].
+
+``` r
+show_lang('Trinitario')$Form
+```
+
+    ## [1] "-reru"
+
+``` r
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Trinitario",'other',revision))
+```
+
+### Yavitero
+
+``` r
+show_lang('Yavitero')
+```
+
+    ## # A tibble: 1 × 6
+    ##   Language Dataset Meaning Form    Trill R_type  
+    ##   <chr>    <chr>   <chr>   <chr>   <chr> <chr>   
+    ## 1 Yavitero CLICS   rough   gaľu-hi no    no trill
+
+``` r
+show_comments('Yavitero')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language Dataset Comments
+    ##   <chr>    <chr>   <chr>   
+    ## 1 Yavitero IDS     <NA>
+
+``` r
+show_iso('Yavitero')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language ISO_code Phoible_code
+    ##   <chr>    <chr>    <chr>       
+    ## 1 Yavitero yvt      yvt
+
+Trill : no  
+R\_type : no trill
+
+Dataset :  
+IDS, no comments
+
+Phoible :  
+<https://phoible.org/inventories/view/1839>  
+\- ɾ pas d’allophones; ɺ pas d’allophones; ɺ̥
+
+Mosonyi, Esteban, Jorge Mosonyi and Largo, Águeda. 2000. Yavitero. In
+Mosonyi, Esteban and Mosonyi, Jorge (eds.), Manual de lenguas ind’igenas
+de Venezuela, 594–661. -\> Pas trouvé
+
+Wikipedia :  
+<https://en.wikipedia.org/wiki/Yavitero_language>  
+\- Tap ɾ  
+\- Lateral Tap ɺ̥ ɺ
+
+Glottologue :  
+<https://glottolog.org/resource/languoid/id/yavi1244>
+
+Mosonyi, Jorge C. 1987. El idioma yavitero: ensayo de gramática y
+diccionario. Tesis doctoral de la Universidad Central de Venezuela.
+(Doctoral dissertation, Caracas: Universidad Central de Venezuela;
+iv+241pp.) -\> Pas trouvé
+
+Autres sources :  
+<https://clics.clld.org/languages/ids-268>  
+Recherches : r -\> 37 entries (filtered from 797 total entries)  
+l -\> 270 entries (filtered from 797 total entries)  
+Form in source :  
+r -\> 37 entries (filtered from 797 total entries)  
+r̃ -\> 6 entries (filtered from 797 total entries) \[ex. bur̃u ‘ass,
+donkey’\]  
+l̥ -\> 140 entries (filtered from 797 total entries)  
+l -\> 270 entries (filtered from 797 total entries)
+
+<https://linguistics.berkeley.edu/saphon/es/inv/Yavitero.html>  
+Notas The authors observe that /p/and /r/ appear (only?) in loans, and
+that /nʲ/ is rare; /ɺ/ is a voiced lateral tap and /ɺ̥ / its voiceless
+counterpart.
+
+``` r
+show_lang('Yavitero')$Form
+```
+
+    ## [1] "gaľu-hi"
+
+Comme le trill n’a pas l’air d’être dans la phonologie native, on laisse
+en ‘other’.
+
+``` r
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Yavitero",'other',revision))
+```
+
+### Ese Ejja
+
+``` r
+show_lang('Ese Ejja')
+```
+
+    ## # A tibble: 1 × 6
+    ##   Language Dataset Meaning Form  Trill R_type   
+    ##   <chr>    <chr>   <chr>   <chr> <chr> <chr>    
+    ## 1 Ese Ejja CLICS   rough   -šaʔa no    no rhotic
+
+``` r
+show_comments('Ese Ejja')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language Dataset Comments
+    ##   <chr>    <chr>   <chr>   
+    ## 1 Ese Ejja IDS     <NA>
+
+``` r
+show_iso('Ese Ejja')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language ISO_code Phoible_code
+    ##   <chr>    <chr>    <chr>       
+    ## 1 Ese Ejja ese      ese
+
+Trill : no  
+R\_type : no rhotic
+
+Dataset :  
+IDS, no comments
+
+Phoible :  
+<https://phoible.org/languages/esee1248>  
+2 inventaires  
+\- SAPHON 2046 Pas de rhotique ou de latérale  
+\- SAPHON 2047 Pas de rhotique ou de latérale
+
+Vuillermet, Marine. 2006. L’ese ejja de Bolivie: Esquisse phonologique
+et phonétique. (MA thesis, Université Lumière Lyon 2).
+
+Chavarria, Maria. 2012. Etewémeeji ese ejaha sowiho: Gu’ia para el uso
+del alfabeto ese eja. (unpublished). -\> Pas cherché
+
+Wikipedia :  
+<https://en.wikipedia.org/wiki/Ese_Ejja_language>
+
+Glottologue :  
+<https://glottolog.org/resource/languoid/id/esee1248>
+
+Autres sources :  
+<https://clics.clld.org/languages/ids-274>  
+Recherches : r -\> 1 entries (filtered from 968 total entries) (Form in
+source: ‘or exioxi ???e-wasi’ =\> Je me demande même si le ‘or’ ce n’est
+pas de l’anglais; même le dictionnaire semble écrit en espagnol…; et pas
+de r dans <https://ids.clld.org/contributions/274>\]  
+l -\> 1 entries (filtered from 968 total entries) \[čipilo ‘money’\]
+
+\=\> Wyma, Richard and Wyma, Lucille P. 1962. Ese’ejja y Castellano.
+(Vocabularios Bolivianos, 3.) Cochabamba: ILV. vi+110pp. -\> Juste une
+page de trouvé sur la prononciation (=\> donc pas d’accès au
+vocabulaire)
+
+``` r
+show_lang('Ese Ejja')$Form
+```
+
+    ## [1] "-šaʔa"
+
+``` r
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Ese Ejja",'OUT',revision))
+```
+
+### Sirionó
+
+``` r
+show_lang('Sirionó')
+```
+
+    ## # A tibble: 1 × 6
+    ##   Language Dataset Meaning Form   Trill R_type  
+    ##   <chr>    <chr>   <chr>   <chr>  <chr> <chr>   
+    ## 1 Sirionó  CLICS   rough   eraašɨ̃ no    no trill
+
+``` r
+show_comments('Sirionó')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language Dataset Comments
+    ##   <chr>    <chr>   <chr>   
+    ## 1 Sirionó  IDS     <NA>
+
+``` r
+show_iso('Sirionó')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language ISO_code Phoible_code
+    ##   <chr>    <chr>    <chr>       
+    ## 1 Sirionó  srq      srq
+
+Trill : no  
+R\_type : no trill
+
+Dataset :  
+IDS, no comments
+
+Phoible :  
+<https://phoible.org/languages/siri1273>  
+3 inventaires  
+\- SPA ɾ allophones ɾ d  
+\- UPSID ɾ̪|ɾ pas d’allophones  
+\- SAPHON ɾ pas d’allophones
+
+Priest, Perry. 1968. Phonemes of the Siriono Language. Linguistics 41.
+102–108.  
+\- Page 103 : The consonant phonemes are /r/  
+r  
+Contrasts in the pairs which are phonetically similar are given below.  
+/t/ and /r/ : k^{y}atu ‘go\!’; k^{y}aru ‘eat\!’  
+/n/ and /r/ : eino ‘brown’; eiro ‘kick’  
+\- Page 104 : The phoneme /r/ has two allophones, the voiced flapped
+vibrant \[r\] and the voiced alveolar stop \[d\]. The allophones
+fluctuate in all environments, but \[r\] is much more commonly used.
+
+Priest, P. N. and Priest, A. M. 1985. Diccionario Sirion’o y Castellano.
+Cochabamba: Summer Institute of Linguistics (SIL). -\> Pas trouvé
+
+Priest, P. N. and Priest, A. M. 1967. Bolivian Indian Grammars, Volume 2
+of Summer Institute of Linguistics Publications in Linguistics and
+Related Fields. (Summer Institute of Linguistics Publications in
+Linguistics and Related Fields.) In Matteson, E. (ed.) Summer Institute
+of Linguistics (SIL). 195–255pp. - Page 195 : The phonemes of Siriono
+are: r
+
+Wikipedia :  
+<https://en.wikipedia.org/wiki/Sirion%C3%B3_language>  
+<https://fr.wikipedia.org/wiki/Siriono>  
+\- Occlusives Sonores r \[ɾ\]
+
+Glottologue :  
+<https://glottolog.org/resource/languoid/id/siri1273>
+
+Gasparini, Noé. 2012. Observations sociolinguistiques et esquisse de la
+phonologie du siriono: Langue tupi-guarani de Bolivie. (MA thesis,
+Université Lumière Lyon 2; 136pp.)  
+\- Page 72 : battues ɾ  
+\- Page 78 : Alvéolaires  
+Les réalisations articulatoires du lieu d’articulation alvéolaire sont
+les suivantes : \[t\], \[n͡d\], \[n\], \[ɾ\], \[s\], \[s̺ \]. Certaines
+peuvent être distinguée par des paires minimales claires tandis que
+d’autres nécessiteront une analyse plus précise.  
+\- /ɾ/ \~/s/ :  
+\[eɾéɾa\] ‘transparent’  
+\[eɾésa\] ‘œil’  
+\- /ɾ/ \~/t͡ʃ/ :  
+\[eɾi\] ‘jus’  
+\[et͡ʃi\] ‘pot-au-feu’ (Arce , coordinateur : 6)  
+L’opposition entre \[ɾ\] et \[t\] peut trouver une illustration par une
+paire quasi-minimale issue du corpus ainsi que par la paire minimale
+proposée par les participants à l’atelier sur la réforme de
+l’orthographe.  
+\- /ɾ/ \~/t/ :  
+\[em͡buɾá e\] ‘solliciter’  
+\[em͡buta\] ‘barbe’  
+\- /ɾ/ \~/t/ \~/t͡ʃ :  
+\[n͡ʤeɾa\] ‘détacher’  
+\[n͡ʤeta\] ‘rassasié’  
+\[n͡ʤet͡ʃa\] ‘s’éloigner’  
+Cela permet déjà de considérer des phonèmes distincts /ɾ/, /s/, /t/ et
+/t͡ʃ/ et il est maintenant possible de voir plus en détail les
+réalisations des consonnes alvéolaires.  
+\- Page 79 : /ɾ/  
+Voyons maintenant le comportement de la battue alvéolaire \[ɾ\].
+Celle-ci apparait préférentiellement en position intervocalique. Seules
+quatre entrées la présentent en position initiale et il semble que
+celles-ci soient des morphèmes nécessitant une composition pour être
+utilisés. La battue ne se réalise donc normalement pas à l’initiale.
+Elle se réalise toujours dans un environnement oral (42)  
+(42) a. \[eɾı́ ɾi\] ‘enfant’  
+b. \[kjá ɾu\] ‘manger’  
+D’après Priest (1968 : 104 et suivantes) la réalisation de ce phonème
+hésite entre \[r\] et \[d\], le premier son étant plus fréquent que le
+second. Schermair (1949 :23) considère que cette différence est liée à
+l’existence de variations genrées dans la langue, avec une variété des
+hommes et une variété des femmes et enfants. Si cela a pu être le cas à
+une époque, le faible nombre de locuteurs aujourd’hui ne permet plus
+d’observer ce phénomène.  
+Il y a cependant aujourd’hui une certaine variation de cette battue avec
+la sifflante \[s\]. Cela apparait notamment sur l’enregistrement du
+clitique augmentatif \[kau\] \~ \[kaɾu\]\~ \[kasu\] ainsi que dans la
+phrase 5 du texte proposé en annexe page 120, dans le morphème \[ɾaka\]
+\~ \[saka\]. La consonne intervocalique est prononcée de manière
+variable et une locutrice âgée a même paru la prononcer comme une
+fricative vélaire sourde \[x\], ce qui ne paraît pas incongru vis à vis
+des séries de consonnes observées en siriono. Dans leur dictionnaire,
+Priest & Priest (1985) indiquent plusieurs mots dont la consonne
+initiale est soit \[ɾ\] soit \[s\]. Ces variations n’ayant pu être
+enregistrées sur d’autres exemples clairs, il paraît préférable de ne
+pas s’avancer dans une analyse trop poussée. On pourra noter cependant
+que Lemle (1971 : 117) propose la forme reconstruite *katu avec le même
+sens que le terme ambigu relevé. En s’appuyant sur le dictionnaire de
+Priest & Priest (1985) elle propose plusieurs formes en siriono qu’elle
+reconstruit avec un \[t\] et qui se prononcerait aujourd’hui \[ʃ\] ou
+\[t͡ʃ\]. On reprendra la graphie proposée par Lemle avant d’en indiquer
+la prononciation actuelle lorsque le mot fait partie du corpus (43).  
+(43) a.*abati \> abaš i ’maïs’  
+b.*tiŋ \> šı̃ \[ésɨ ̺ \] ’blanc’  
+c.*kɨtı̃ \> kiš ı̃ ’couper’  
+A travers ces exemples, on peut noter que le son \*t a évolué dans
+plusieurs mots, principalement devant la voyelle \[i\]. Une observation
+et une comparaison plus large de cette évolution pourraient permettre
+d’amener de nouvelles informations sur ce phénomène qui apparaît
+parfois dans la prononciation. On considérera pour l’instant qu’il
+s’agit d’une neutralisation entre deux phonèmes qui peut se produire
+pour des raisons lexicales.
+
+Autres sources :  
+<https://clics.clld.org/languages/ids-291>  
+Recherches : r -\> 359 entries (filtered from 1,159 total entries)  
+d -\> 0 entries (filtered from 1,159 total entries)  
+l -\> 1 entries (filtered from 1,159 total entries)
+
+``` r
+show_lang('Sirionó')$Form
+```
+
+    ## [1] "eraašɨ̃"
+
+``` r
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Sirionó",'other',revision))
+```
+
+### Kunza
+
+``` r
+show_lang('Kunza')
+```
+
+    ## # A tibble: 2 × 6
+    ##   Language Dataset Meaning Form       Trill R_type  
+    ##   <chr>    <chr>   <chr>   <chr>      <chr> <chr>   
+    ## 1 Kunza    CLICS   rough   ckatchacka no    no trill
+    ## 2 Kunza    CLICS   rough   ca-cha-ca  no    no trill
+
+``` r
+show_comments('Kunza')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language Dataset Comments
+    ##   <chr>    <chr>   <chr>   
+    ## 1 Kunza    IDS     <NA>
+
+``` r
+show_iso('Kunza')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language ISO_code Phoible_code
+    ##   <chr>    <chr>    <chr>       
+    ## 1 Kunza    kuz      kuz
+
+Trill : no  
+R\_type : no trill
+
+Dataset :  
+IDS, no comments
+
+Phoible :  
+<https://phoible.org/inventories/view/2123>  
+\- ɾ pas d’allophones
+
+Adelaar, Willem and Muysken, Pieter. 2004. The Languages of the Andes.
+New York: Cambridge University Press.  
+\- Page 379 : The other symbols that are found in the Vaı̈sse glossary
+are b (sometimes written v), l, m, n, r, s and y. All are described as
+having similar functions as their equivalents in Spanish or other
+languages.  
+\- Page 380 : Tentative inventory of the Atacameño sounds  
+Vibrant r
+
+Wikipedia :  
+<https://en.wikipedia.org/wiki/Kunza_language>  
+\- Trill r
+
+Glottologue :  
+<https://glottolog.org/resource/languoid/id/kunz1244>
+
+García Peyró, Miguel. 2005. Estructuras gramaticales en el Glosario de
+la lengua Atacameña (1896). LIAMES 5. 25-42.  
+\- Page 29 : VHE presentan breves descripciones articulatorias de
+algunos segmentos de la lengua, en concreto los que en su trabajo
+aparecen en posición inicial de palabra. Así explican las realizaciones
+que representan por <a>, <b>, <ck>, <h>, <i>, <l>, <m>, <n>,
+
+<p>
+
+, <pp>, <s>, <t>, <tt>, <tch> e <y>. En el texto del diccionario
+aparecen además otras letras: <e>, <ñ>, <o>, <r>, <u>, <v>, y también
+<â> en el grupo <aâ> (<aâya>, <baâlatur>).  
+\[Emilio Vaïsse, Félix Hoyos y Aníbal Echeverría y Reyes Glosario de la
+lengua atacameña (en adelante citado como VHE)\]
+
+Vaisse, E. and F.S. Hoyos and A. Echeverría y Reyes. 1895. Glosario de
+la lengua atacameña. Anales de la Universidad de Chile 91. 527-556.
+
+Francisco J. San Román. 1890. La Lengua Cunza de los Naturales de
+Atacama. Revista de la Dirección de Obras Públicas: Sección de Minas y
+Geografía 5. 77-94. (Reprinted 1922 Revista chilena de historia y
+geografía XL:123-144 as well as 1967 Revista de Cultura Universitaria
+3:76-88.)  
+\[San Román, Francisco J. (1967) La lengua cunza de los naturales de
+Atacama. Revista de Cultura Universitaria Ancora 3, pp. 76–88.
+Antofagasta (first published in 1890 in Revista de la Dirección de
+Obras Públicas: Sección de Geografı́a 5, Santiago: Imprenta
+Gutenberg).\]
+
+Autres sources :  
+<https://clics.clld.org/languages/ids-308>  
+Recherches : r -\> 437 entries (filtered from 895 total entries)  
+l -\> 203 entries (filtered from 895 total entries)
+
+``` r
+show_lang('Kunza')$Form
+```
+
+    ## [1] "ckatchacka" "ca-cha-ca"
+
+On choisit de mettre ‘NA’. Juste la mention vibrante n’est pas
+suffisante.
+
+``` r
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Kunza",'NA',revision))
+```
+
+### Angami Kohima
+
+``` r
+show_lang('Angami Kohima')
+```
+
+    ## # A tibble: 2 × 6
+    ##   Language      Dataset Meaning Form    Trill R_type  
+    ##   <chr>         <chr>   <chr>   <chr>   <chr> <chr>   
+    ## 1 Angami Kohima CLICS   smooth  kemeju  no    no trill
+    ## 2 Angami Kohima CLICS   rough   kemehie no    no trill
+
+``` r
+show_comments('Angami Kohima')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language      Dataset Comments
+    ##   <chr>         <chr>   <chr>   
+    ## 1 Angami Kohima CLICS   wiki
+
+``` r
+show_iso('Angami Kohima')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language      ISO_code Phoible_code
+    ##   <chr>         <chr>    <chr>       
+    ## 1 Angami Kohima njm      njm
+
+Trill : no  
+R\_type : no trill
+
+Dataset :  
+CLICS, wiki
+
+Phoible :  
+<https://phoible.org/inventories/view/1703>  
+\- r pas d’allophones; r̤ pas d’allophones
+
+Ravindran, N. 1974. Angami Phonetic Reader. Mysore: Central Institute of
+Indian Languages. -\> Pas trouvé
+
+Wikipedia :  
+<https://en.wikipedia.org/wiki/Angami_language>  
+\- Approximant voiceless ɻ̊  
+voiced ɻ  
+\- The post-alveolar approximants are truly retroflex (sub-apical) \[ɻ̊
+ɻ\] before mid and low vowels, but laminal \[ɹ̠̊ ɹ̠\] before high
+vowels (/i u/)  
+\- Phon.: ɻ ; allophone before /ə/: ɻ̩ \~ ɚ
+
+Glottologue :  
+<https://glottolog.org/resource/languoid/id/anga1288>
+
+Blankenship, Barbara and Ladefoged, Peter and Bhaskararao, Peri and
+Nichumeno Chase. 1993. Phonetic structures of Khonoma Angami.
+Linguistics of the Tibeto-Burman Area 16. 69-88.  
+\- Page 74 : ɻ̥ rha^3  
+ɻ ra^3  
+ɻ̥ə rhə^3  
+ɻə rə^3
+
+  - Page 75 : The retroflex \[ɻ\] is laminal before high vowels, but
+    sublaminal before other vowels. The syllable \[ɻə\] can optionnaly
+    be pronounced as a syllabic \[ɻ̩\], as it is in about half the
+    instrances in our recordings.  
+    Approx. ɻ̥ ɻ  
+    In addition to whatever affricates may occur, all dialects of Angmai
+    have consonant clusters involving \[ɻ\].
+
+Duovituo Kuolie. 2005. Structural description of Tenyidie: a
+Tibeto-Burman language of Nagaland. Bulletin of the Deccan College
+Post-Graduate and Research Institute. Vol. 64/65 (2004-2005),
+pp. 427-432  
+\- Page 428 : seven nasals: /rh/  
+two trills: /r rh/
+
+Rivenburg, S. W. 1905. Phrases in English and Angami Naga. Kohima: Assam
+Secretariat Press.  
+\- Page 7 du document : Rr, rr, as r trilled
+
+Autres sources :  
+<https://clics.clld.org/languages/marrisonnaga-KohimaAngami>  
+Recherches : r -\> 133 entries (filtered from 630 total entries)  
+rh -\> 10 entries (filtered from 630 total entries)  
+l -\> 48 entries (filtered from 630 total entries)
+
+\[Marrison, Geoffrey Edward (1967) : The classification of the Naga
+languages of North-East India. London: School of African and Oriental
+Sciences.\]  
+\- Page 11 : r voiced alveolar roll or fricative  
+rh voiceless alveolar roll or fricative  
+\- Page 27 : The Angami (Kohima) Syllable exhibits the following
+possibilities:  
+Initials  
+kr khr  
+pr phr  
+r rh  
+\[examples in the following pages\]
+
+``` r
+show_lang('Angami Kohima')$Form
+```
+
+    ## [1] "kemeju"  "kemehie"
+
+Je prefère changer en ‘trilled’. Même si du point de vue phonétique, ce
+n’est pas réalisé comme un trill (Blankenship et al.) il semblerait que
+ce soit le cas du point de vue phonologique.
+
+``` r
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Angami Kohima",'trilled',revision))
+```
+
+### Jingpho
+
+``` r
+show_lang('Jingpho')
+```
+
+    ## # A tibble: 5 × 6
+    ##   Language Dataset Meaning Form  Trill R_type  
+    ##   <chr>    <chr>   <chr>   <chr> <chr> <chr>   
+    ## 1 Jingpho  CLICS   smooth  ra    no    no trill
+    ## 2 Jingpho  CLICS   smooth  pri   no    no trill
+    ## 3 Jingpho  CLICS   rough   nra   no    no trill
+    ## 4 Jingpho  CLICS   rough   laja  no    no trill
+    ## 5 Jingpho  CLICS   smooth  pʒi̱³³ no    no trill
+
+``` r
+show_comments('Jingpho')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language Dataset Comments
+    ##   <chr>    <chr>   <chr>   
+    ## 1 Jingpho  CLICS   <NA>
+
+``` r
+show_iso('Jingpho')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language ISO_code Phoible_code
+    ##   <chr>    <chr>    <chr>       
+    ## 1 Jingpho  kac      kac
+
+Trill : no  
+R\_type : no trill
+
+Dataset :  
+CLICS, no comments
+
+Phoible :  
+<https://phoible.org/inventories/view/387>  
+\- R̪|R pas d’allophones
+
+Liu, L. 1964. Ching-p’o-yu Kai-k’uang. Chung Kuo Yu Wen 5. 407–417. -\>
+Pas vraiment cherché car ça doit être une référence en chinois
+
+Wikipedia :  
+<https://en.wikipedia.org/wiki/Jingpho_language>  
+\- Liquid voiced ɻ  
+glottalized ˀɻ  
+\- /ɻ/ can also be heard as a fricative \[ʐ\].  
+\- r \[ʒ\]  
+\- ရ – r – \[ɻ\~ʒ\]  
+\- ြ – -r- – \[-ᶼ-\]
+
+Glottologue :  
+<https://glottolog.org/resource/languoid/id/kach1280>
+
+Dai Qingxia and Lon Diehl. 2003. Jinghpo. In Graham Thurgood and Randy
+J. LaPolla (eds.), The Sino-Tibetan Languages, 401-408. London & New
+York: Routledge.  
+\- Page 402 : Fricatives voiced ʒ \[=\> Je ne sais pas quel segment
+prendre en compte\]  
+Liquids l
+
+Kurabe, Keita. 2017. Jinghpaw. In Graham Thurgood and Randy J. LaPolla
+(eds.), The Sino-Tibetan Languages, 993-1010. 2nd edn. London & New
+York: Routledge.  
+\- Page 994 : r  
+ʔr
+
+Kurabe, Keita. 2014. Phonological inventories of seven Jingphoish
+languages and dialects. Kyoto University Linguistic Research 33.
+57-88.  
+\- Page 62 : Complex onsets (C1C2) may consist of a stop (bilabial,
+velar) or nasal (bilabial, alveolar) plus /r/ or /y/. Possible onset
+clusters are thus: /pr, br, phr, kr, gr, khr, py, by, phy, ky, gy, khy,
+my, ny, ʔmy,  
+ʔny/.  
+\- Page 63 : plain liquids r  
+preglottalized liquids ʔr  
+\- Page 64 : PJ medial \* -r- is generally preserved as such in Standard
+Jingpho, but it has sporadically become -y- in specic lexical items,
+such as SJ phún-pyen ‘plank’ (PTB \* pleŋ FLAT SURFACE / PLANK) and SJ
+pyo ‘to delight’ (PTB \* pro DELIGHT) \[5\]. In some cases, PJ medial \*
+-r- is preserved in Gauri, as in GR fún-pren ‘plank’ and GR pro ‘to
+delight’.  
+\[5\] The two medial liquids of PTB, \* -l- and \* -r-, have largely
+merged into the liquid -r- in Standard Jingpho (Matisoff 2003:72 note
+105) as well as in all the other modern Jingphoish languages and
+dialects known to date.
+
+Autres sources :  
+<https://clics.clld.org/languages/marrisonnaga-Jingpho>  
+Recherches : r -\> 95 entries (filtered from 674 total entries)  
+l -\> 106 entries (filtered from 674 total entries)  
+ʒ -\> 0 entries (filtered from 674 total entries)  
+<https://clics.clld.org/languages/suntb-Jingpho>  
+Recherches : r -\> 0 entries (filtered from 956 total entries)  
+l -\> 129 entries (filtered from 956 total entries)  
+ʒ -\> 118 entries (filtered from 956 total entries)
+
+``` r
+show_lang('Jingpho')$Form
+```
+
+    ## [1] "ra"    "pri"   "nra"   "laja"  "pʒi̱³³"
+
+Je prefère mettre ‘NA’.
+
+``` r
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Jingpho",'NA',revision))
+```
+
+### Lushai
+
+``` r
+show_lang('Lushai')
+```
+
+    ## # A tibble: 4 × 6
+    ##   Language Dataset Meaning Form  Trill R_type  
+    ##   <chr>    <chr>   <chr>   <chr> <chr> <chr>   
+    ## 1 Lushai   CLICS   smooth  dam   no    no trill
+    ## 2 Lushai   CLICS   smooth  zal   no    no trill
+    ## 3 Lushai   CLICS   rough   buan  no    no trill
+    ## 4 Lushai   CLICS   rough   buk   no    no trill
+
+``` r
+show_comments('Lushai')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language Dataset Comments
+    ##   <chr>    <chr>   <chr>   
+    ## 1 Lushai   CLICS   <NA>
+
+``` r
+show_iso('Lushai')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language ISO_code Phoible_code
+    ##   <chr>    <chr>    <chr>       
+    ## 1 Lushai   lus      lus
+
+Trill : no  
+R\_type : no trill
+
+Dataset :  
+CLICS, no comments
+
+Phoible :  
+<https://phoible.org/inventories/view/1760>  
+\- ɾ pas d’allophones; ʱɾ pas d’allophones; ɾ̪̊ʰ pas d’allophones; ɾ̪̊
+pas d’allophones
+
+Weidert, Alfons. 1975. Analysis of Lushai Phonology. Current Issues in
+Linguistic Theory 2. Amsterdam: John Benjamins B.V.  
+\- Page 10 : Flapped plosive tr trh  
+Rolled r hr  
+\- Page 35 : Consonants (syllable-initial):  
+Flapped Plosive tr trh  
+Rolled r  
+\- Page 36 : Consonants (syllable-final):  
+Rolled r  
+Consonant clusters (syllable-initial):  
+pr  
+phr  
+br  
+fr  
+dr  
+khr  
+Consonant clusters (syllable-final):  
+rs
+
+Wikipedia :  
+<https://en.wikipedia.org/wiki/Mizo_language>  
+\- Liquid plain r \[r\]  
+aspirated hr \[ʰr\]  
+glottalized rh \[rʔ\]
+
+<https://upload.wikimedia.org/wikipedia/commons/3/31/Mizo-r.ogg> -\>
+Trilled
+
+Glottologue :  
+<https://glottolog.org/resource/languoid/id/lush1249>
+
+Chhangte, Lalnunthangi. 1986. A Preliminary Grammar of the Mizo
+Language. Ann Arbor: UMI. (MA thesis, University of Texas at Arlington;
+xiii+271pp.)  
+\- Page 27 : Syllable initial consonants  
+flap ř̥ ř  
+\- Page 28 : Syllable initial consonants  
+flaps ř̥ ř  
+\- Page 53 : thos who speak rapidly tend to flap their laterals and curl
+the tongue to form retroflex post-alveolars  
+\- Page 55 : Another recent development is rhotacization. This is
+probably a result of watching American TV as this phenomenon is
+predominantly among video fans. \[examples\]  
+Similarly, the voiceless lateral flap becomes a voiceless retroflex as
+in \[examples\]
+
+Lorrain, J. Herbert and Fred W. Savidge. 1984. The Lushai Grammar and
+Dictionary. Delhi: Goyal Offset Printers.  
+\- Page 2 : R r like r in the English word roch (this letter is never
+mute)
+
+Autres sources :  
+<https://clics.clld.org/languages/marrisonnaga-Lushai>  
+Recherches : r -\> 134 entries (filtered from 699 total entries)  
+l -\> 172 entries (filtered from 699 total entries)
+
+``` r
+show_lang('Lushai')$Form
+```
+
+    ## [1] "dam"  "zal"  "buan" "buk"
+
+Je ne sais pas vraiment quel décision prendre… Je laisse en ‘other’.
+
+``` r
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Lushai",'other',revision))
+```
+
+### Sangtam
+
+``` r
+show_lang('Sangtam')
+```
+
+    ## # A tibble: 2 × 6
+    ##   Language Dataset Meaning Form         Trill R_type  
+    ##   <chr>    <chr>   <chr>   <chr>        <chr> <chr>   
+    ## 1 Sangtam  CLICS   smooth  se'se'       no    no trill
+    ## 2 Sangtam  CLICS   rough   yongkoyongru no    no trill
+
+``` r
+show_comments('Sangtam')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language Dataset Comments
+    ##   <chr>    <chr>   <chr>   
+    ## 1 Sangtam  CLICS   wiki
+
+``` r
+show_iso('Sangtam')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language ISO_code Phoible_code
+    ##   <chr>    <chr>    <chr>       
+    ## 1 Sangtam  nsa      <NA>
+
+Trill : no  
+R\_type : no trill
+
+Dataset :  
+CLICS, wiki
+
+Phoible : NA
+
+Wikipedia :  
+<https://en.wikipedia.org/wiki/Sangtam_language>  
+\- Approximant ɹ
+
+Glottologue :  
+<https://glottolog.org/resource/languoid/id/sang1321>
+
+Alexander R. Coupe. 2020. Northern Sangtam phonetics, phonology and word
+list. Linguistics of the Tibeto-Burman Area 43. 147-189.
+Amsterdam/Philadelphia: John Benjamins Publishing Company.  
+\- Page 12 : Northern Sangtam phonotactic distribution of phonemes C1 V
+(C2) Tone  
+C1: ɹ C2: (ɹ)  
+\- Page 14 : The central approximant /ɹ/ is a highly marginal coda
+consonant that does not occur in the C2 position in any recorded native
+lexical roots. It is only observed to function as a coda in genitival
+\[N-GEN N\]NP constructions. Under these circumstances, /ɹ/ is
+syllabified as a coda, e.g. /V.CVC CVC.CV/ in àzā-ɹ pʌ̄m-tʃī (‘child-GEN
+sit-LNMZ’, literally ‘child’s sitting place’) ‘womb’.\[15\] It also
+occurs infrequently as a coda in some loan words, e.g. hātʃáɹ ‘thousand’
+(most probably \< Hindi हज़ार \[hɐzaːr̥\] ‘thousand’). For reasons
+presently not understood, there is a dispreference for coronal phonemes
+of any manner of articulation to fill the coda slot. This restriction is
+partially reflected in the closely related Lotha language, which
+similarly bans dental plosive codas, but permits a dental nasal to fill
+this slot.  
+\[15\] The rhotic may also occur as a coda when a related morpheme is
+used as a converb suffix or an agentive nominalizing suffix on a verb
+stem.  
+\- Page 22 : Northern Sangtam consonant phoneme inventory  
+Approximant ɹ  
+\- Page 23 : The retroflex plosives /ʈ^{ɻ}, t^{hɻ}/ have a
+characteristically rhotacized release. In the articulation of these
+consonants, the sub-apical aspect of the retracted tongue tip and the
+sides of the tongue form a complete occlusion at the postalveolar place
+of articulation and the gingival margins of the molar teeth. The
+retroflexed configuration of the tongue is maintained immediately
+following the release of the oral occlusion, and this is responsible for
+the rhotic quality that accompanies the release. The retroflex plosives
+occur as onsets word-initially and word-medially only, e.g. ʈɻʌ̀sú-tʃhō
+‘be frightened-NMLZ2’, áʈɻōŋ ‘many, much’, ʈhɻīŋxāŋ ‘rib’, and
+mʌ̄ʈhɻàŋ ‘fog/cloud’.  
+\- Page 30 : The central retroflex approximant is restricted to the
+onset position in lexical roots, occurring word-initially and
+word-medially, e.g. ɹáŋ-pà ‘seize-NMLZ 1’, ɹìta-tʃō ‘argue-NMLZ2’, ʃīɹóŋ
+‘fox’ and fʌ̄ɹʌ̀ ‘paddy’. As noted in §6.1, the only situation in which
+this segment can fill the syllable coda is when the
+genitivizing/nominalizing suffix -ɹ(ʌ̄) is resyllabified as such in
+nominal derivations and converb constructions.
+
+Autres sources :  
+<https://clics.clld.org/languages/marrisonnaga-Sangtam>  
+Recherches : r -\> 108 entries (filtered from 552 total entries)  
+l -\> 73 entries (filtered from 552 total entries)  
+rr -\> 1 entries (filtered from 552 total entries)
+
+``` r
+show_lang('Sangtam')$Form
+```
+
+    ## [1] "se'se'"       "yongkoyongru"
+
+``` r
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Sangtam",'other',revision))
+```
+
+### Tangsa (Yogli)
+
+``` r
+show_lang('Tangsa (Yogli)')
+```
+
+    ## # A tibble: 1 × 6
+    ##   Language       Dataset Meaning Form  Trill R_type  
+    ##   <chr>          <chr>   <chr>   <chr> <chr> <chr>   
+    ## 1 Tangsa (Yogli) CLICS   smooth  küra  no    no trill
+
+``` r
+show_comments('Tangsa (Yogli)')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language       Dataset Comments
+    ##   <chr>          <chr>   <chr>   
+    ## 1 Tangsa (Yogli) CLICS   <NA>
+
+``` r
+show_iso('Tangsa (Yogli)')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language       ISO_code Phoible_code
+    ##   <chr>          <chr>    <chr>       
+    ## 1 Tangsa (Yogli) nst      nst
+
+Trill : no  
+R\_type : no trill
+
+Dataset :  
+CLICS, no comments
+
+Phoible :  
+<https://phoible.org/inventories/view/1790>  
+\- ɾ pas d’allophones
+
+Bandyoppadhyay, Swapan Kumar. 1980. A Linguistic Analysis of Tangsa: A
+Tibeto-Burman Language. (Doctoral dissertation, University of Delhi).
+-\> Pas trouvé
+
+Wikipedia :  
+<https://en.wikipedia.org/wiki/Tangsa_language>  
+\- r \[r\]
+
+Glottologue :  
+<https://glottolog.org/resource/languoid/id/tase1235>
+
+Stephen Morey. 2017. Tangsa. In Randy J. LaPolla and Graham Thurgood
+(eds.), The Sino-Tibetan languages, 350-368. 2nd edn. London:
+Routledge.  
+\- Page 358 : TABLE 17.5 CONSONANT PHONEMES IN MUESHAUNGX  
+Rhotic approximant r /ɹ/
+
+Autres sources :  
+<https://clics.clld.org/languages/marrisonnaga-YogliTangsa>  
+Recherches : r -\> 18 entries (filtered from 152 total entries)  
+l -\> 28 entries (filtered from 152 total entries)  
+hr -\> 3 entries (filtered from 152 total entries)  
+rh -\> 0 entries (filtered from 152 total entries)
+
+Marrison, Geoffrey Edward (1967) : The classification of the Naga
+languages of North-East India. London: School of African and Oriental
+Sciences.  
+\- Page 75 : In phonology these languages differ from Konyak chiefly in
+employing r as a phoneme, as an initial -r, in initial clusters, kr-,
+gr-, and as a final -r.  
+The Tangsa (Moshang) Syllable:  
+Initials:  
+kr gr  
+r  
+Finals:  
+r  
+(Page 77: Tsangsa Yogli: rhang ‘sky’  
+\=\> Mais dans CLICS: hrang)
+
+On n’est plus dans la même branche : Muklomic au lieu de Pangwa Naga  
+Mulder, M. (2020). A descriptive grammar of Muklom Tangsa (Doctoral
+dissertation, La Trobe).  
+\- Page 25 : orthography: r IPA: ɹ  
+\- Page 45 : When allophony occurs, I have selected the IPA symbol of
+the most frequently used allomorph to represent the phoneme.  
+This has not been done in the convention used in this thesis: /ɹ/ is
+chosen to represent the postalveolar approximant and not the symbol <r>
+- Page 53 : approximant /ɹ/  
+\- Page 108 : Free allophonic variation  
+The rhotic /ɹ/ may be realized as a post-alveolar approximant \[ɹ\], a
+retroflex fricative \[ʐ\] or, less common, as a trill \[r\]. Variation
+is free within and between speakers. Examples (100) and (101) are from
+the same consultant and the same recording, showing intra-speaker
+variation between \[ɹ\] and \[ʐ\] respectively.  
+(100)\[ɹʌŋ2\]  
+/ɹʌŋ2/  
+‘sky’ (20100124-111527)  
+(101)\[ʐʌŋ2\]  
+/ɹʌŋ2/  
+‘sky’ (20100124-111527)  
+The following two examples show intra-speaker variation between \[ɹ\]
+and \[r\], again from one speaker and uttered during the same recording
+session. The aspiration on the final consonant \[k\] is a feature that
+sometimes appears in careful, slow speech.  
+(102)\[thʌ 0-ɹikh0\]  
+/thʌ 0-ɹik0/  
+‘wedding’ (20160115\_01)  
+(103)\[thʌ 0-rikh0\]  
+/thʌ 0-ɹik0/  
+‘wedding’ (20160115\_01)
+
+On n’est plus dans la même branche : Nocte Naga au lieu de Tangsa  
+Boro, K. (2017). A grammar of Hakhun Tangsa (Doctoral dissertation,
+University of Oregon).  
+\- Page 40 : Hakhun Consonant Inventory  
+Trill/Flap r  
+\- Page 44 : Onset Liquid Consonants  
+There are two liquid consonants, a rhotic and a lateral, which we find
+syllable initially. The rhotic is variably realized either as a trill
+\[r\] or a flap \[ɾ\]. Moreover, the rhotic is produced with some amount
+of friction, especially in the speech of my older consultant. Table 9
+presents a minimal set illustrating the contrast between the rhotic and
+the lateral.  
+Table 9ː Minimal Set for the liquids  
+Liquids Minimal Pair Gloss  
+l lán ‘to beat’  
+r rán ‘to choose’
+
+``` r
+show_lang('Tangsa (Yogli)')$Form
+```
+
+    ## [1] "küra"
+
+Je pourrais laisser en ‘other’ mais je suis un peu influencé par les
+langues proches où on peut retrouver un trill…  
+Et comme PHOIBLE n’a pas l’air de correspondre à Stephen Morey. 2017.
+Tangsa, je pense qu’il vaut peut-être mieuc mettre ‘trilled’.
+
+``` r
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Tangsa (Yogli)",'trilled',revision))
+```
+
+### Hokkaido Ainu
+
+``` r
+show_lang('Hokkaido Ainu')
+```
+
+    ## # A tibble: 1 × 6
+    ##   Language      Dataset Meaning Form  Trill R_type  
+    ##   <chr>         <chr>   <chr>   <chr> <chr> <chr>   
+    ## 1 Hokkaido Ainu CLICS   smooth  ɾaɾak no    no trill
+
+``` r
+show_comments('Hokkaido Ainu')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language      Dataset Comments
+    ##   <chr>         <chr>   <chr>   
+    ## 1 Hokkaido Ainu CLICS   <NA>
+
+``` r
+show_iso('Hokkaido Ainu')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language      ISO_code Phoible_code
+    ##   <chr>         <chr>    <chr>       
+    ## 1 Hokkaido Ainu ain      ain
+
+Trill : no  
+R\_type : no trill
+
+Dataset :  
+CLICS, no comments
+
+Phoible :  
+<https://phoible.org/languages/ainu1240>  
+2 inventaires  
+\- SPA r allophones ɾ ɾ̥ r  
+\- UPSID ɾ pas d’allophones
+
+Patrie, James. 1982. The Genetic Relationship of the Ainu Language.
+Honolulu, Hawaii: University of Hawaii Press.  
+Simeon, G. 1969. Hokkaido Ainu Phonemics. Journal of the American
+Oriental Society 89. 751–757.  
+\- Page 755 : The three dialects have the following nine consonants: /p,
+t, k, c (affricate), h, s, m, n, r/.  
+\- Page 756 : The liquid /r/ is produced at a post-alveolar point of
+articulation: /ru/ ‘broad’. Voiceless and voiced flapped allophones
+\[r̠̃\] and \[r̃\] occur medially in all three dialects: /pirika/
+\[pir̠̃ika\] ‘good’, /kopasrota/ \[kopasr̃ota\] ‘he scolded’.  
+\- Page 757 : Single consonants /p, t, k, s, m, n, r/ occur initially,
+medially, and final
+
+Wikipedia :  
+<https://en.wikipedia.org/wiki/Ainu_language>  
+\- Flap ɾ
+
+Glottologue :  
+<https://glottolog.org/resource/languoid/id/ainu1240>
+
+Anna Bugaeva. 2012. Southern Hokkaido Ainu. In Nicolas Tranter (ed.),
+The Languages of Japan and Korea, 461-509. New York: Routledge.  
+\- Page 465 : Just like all other Ainu dialects, Southern Hokkaido Ainu
+has 12 consonant phonemes /p/, /t/, /k/, /c/, /s/, /r/, /m/, /n/, /w/,
+/y/, /h/, /Ɂ/  
+the tap /r/  
+In Sakahlin Ainu (except for the Taraika dialect), the syllable final
+stops /p/, /t/, /k/ and also the tap /r/ have neutralized into /h/,
+which should probably be regarded as a later development, e.g.  
+kah ‘skin’, kuh ‘girdle’, sih ‘eye’ (cf. the above Hokkaido forms), and
+utah ‘people’ (cf. utar of Hokkaido Ainu).  
+tap r  
+\- Page 466 : /r/ is a voiced alveolar tap sound \[ɾ\], similar to that
+of Japanese, but in the speech of some speakers it is occasionally
+realized as alveolar trill \[r\]. Frequently, after a syllable final /r/
+the preceding vowel is copied, which is, however, not phonological:
+pirka \[piɾika\] ‘good’, kor \[koɾo\] ‘have’, utar \[utaɾa\] ‘people’.
+This copied vowel is often not clearly articulated and sounds more like
+the schwa sound \[ə\]: kor \[koɾə\] ‘have’, punkar \[punkaɾə\] ‘vine’
+(Bugaeva 2004: 12). This “copying” phenomenon might be due to contact
+with Japanese, which is a rather syllabic language; “copying” is even
+more prominent in the speech of the last generation of Ainu speakers.  
+\- Page 468 : regressive assimilation (examples from Tamura 1979: 1):  
+(2) /r+t/ \> /tt/: ku=kor tasiro \> /ku=kot tasiro/ ‘my sword’  
+1SG.A=have sword  
+(3) /r+c/ \> /tc/: ku=kor cise \> /ku=kot cise/ ‘my house’  
+1SG.A=have house  
+(4) /r+n/ \> /nn/: ku=kor nonno \> /ku=kon nonno/ ‘my flower’  
+1SG.A=have flower  
+regressive dissimilation (Tamura 1983b: 1):  
+(8) /r+r/ \> /nr/: ku=kor rusuy \> /ku=kon rusuy/ ‘I want to have
+(it).’  
+1SG.A=have DESID
+
+\[Tamura Suzuko (1979) Aynu Itak. Aynugo nyūmon \[The Ainu language. An
+introduction into Ainu\],  
+Goken kyōzai sensho 21, Tokyo: Waseda daigaku gogaku kyōiku kenkyūjo.  
+Tamura Suzuko (1983b) ‘Syntactic patterns of position nouns in Japanese,
+Ainu, Canadian Eskimo  
+and Basque,’ in IKER-2: Piarres Lafitteri Omenaldia, Bilbao:
+Euskalzaindia.\]
+
+Autres sources :  
+<https://clics.clld.org/languages/northeuralex-ain>  
+Recherches : r -\> 292 entries (filtered from 911 total entries)  
+l -\> 0 entries (filtered from 911 total entries)
+
+``` r
+show_lang('Hokkaido Ainu')$Form
+```
+
+    ## [1] "ɾaɾak"
+
+Je laisse en ‘other’ car dans les formes ce sont des taps, mais il faut
+garder en tête qu’il y a des allophones trillés.
+
+``` r
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Hokkaido Ainu",'other',revision))
+```
+
+### Japanese
+
+``` r
+show_lang('Japanese')
+```
+
+    ## # A tibble: 7 × 6
+    ##   Language Dataset Meaning Form       Trill R_type  
+    ##   <chr>    <chr>   <chr>   <chr>      <chr> <chr>   
+    ## 1 Japanese CLICS   smooth  näme̞ɾäkänä no    no trill
+    ## 2 Japanese CLICS   smooth  nameraka   no    no trill
+    ## 3 Japanese CLICS   smooth  subesube   no    no trill
+    ## 4 Japanese CLICS   smooth  tsurutsuru no    no trill
+    ## 5 Japanese CLICS   rough   arai       no    no trill
+    ## 6 Japanese CLICS   rough   somatsu    no    no trill
+    ## 7 Japanese CLICS   rough   zarazara   no    no trill
+
+``` r
+show_comments('Japanese')
+```
+
+    ## # A tibble: 2 × 3
+    ##   Language Dataset Comments
+    ##   <chr>    <chr>   <chr>   
+    ## 1 Japanese Google  <NA>    
+    ## 2 Japanese WOLD    <NA>
+
+``` r
+show_iso('Japanese')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language ISO_code Phoible_code
+    ##   <chr>    <chr>    <chr>       
+    ## 1 Japanese jpn      jpn
+
+Trill : no  
+R\_type : no trill
+
+Dataset :  
+Google, no comments  
+WOLD, no comments
+
+Phoible :  
+<https://phoible.org/languages/nucl1643>  
+3 inventaires  
+\- SPA ɾ allophones ɾʲ ɾ ɺ  
+\- UPSID ɾ pas d’allophones  
+\- UZ d̠ pas d’allophones (=\> je pense qu’il s’agit de la rhotique)
+
+Bloch, Bernard. 1950. Studies in Colloquial Japanese. Part 4: Phonemics.
+Language 26. 86–125.  
+Martin, Samuel E. 1952. Morphophonemics of Standard Colloquial Japanese.
+(Language Dissertation, 47.) Baltimore: Linguistic Society of America.  
+Jorden, Eleanor Harz. 1963. Beginning Japanese, Part 1. (Yale Linguistic
+Series, 5.) New Haven: Yale University Press.  
+Shibatani, Masayoshi. 1990. The Languages of Japan. (Cambridge Language
+Surveys.) Cambridge: Cambridge University Press.  
+\- Page 159 : r - Page 163 : The flap \[r\] does not occur initially in
+native words but occurs in words from other strata of the lexicon.
+
+Okada, Hideo. 1991. Illustrations of the IPA: Japanese. Journal of the
+International Phonetic Association 21. 94–96. Cambridge University
+Press.  
+\- Page 95 : /ɖ/, which is often transcribed by others as /r/, is
+postalveolar in place rather than retroflex. Initially it tends to be
+slightly affricated \[ɖ̠^{ɹ}\]. Between vowels \[ɾ\] may be more
+frequent. A postalveolar \[l̠\] is not unusual in all positions.
+
+Wikipedia :  
+<https://en.wikipedia.org/wiki/Japanese_language>  
+\- Liquid r  
+\- The “r” of the Japanese language is of particular interest, ranging
+between an apical central tap and a lateral approximant.
+
+<https://en.wikipedia.org/wiki/Japanese_phonology>  
+\- Realization of the liquid phoneme /r/ varies greatly depending on
+environment and dialect. The prototypical and most common pronunciation
+is an apical tap, either alveolar \[ɾ\] or postalveolar
+\[ɾ̠\].\[7\]\[8\]\[5\] Utterance-initially and after /N/, the tap is
+typically articulated in such a way that the tip of the tongue is at
+first momentarily in light contact with the alveolar ridge before being
+released rapidly by airflow.\[9\]\[8\] This sound is described variably
+as a tap, a “variant of \[ɾ\]”, “a kind of weak plosive”,\[9\] and “an
+affricate with short friction, \[d̠ɹ̝̆\]”.\[5\] The apical alveolar or
+postalveolar lateral approximant \[l\] is a common variant in all
+conditions,\[5\] particularly utterance-initially\[9\] and before /i,
+j/.\[7\] According to Akamatsu (1997), utterance-initially and
+intervocalically (that is, except after /N/), the lateral variant is
+better described as a tap \[ɺ\] rather than an approximant.\[9\]\[10\]
+The retroflex lateral approximant \[ɭ\] is also found before /i,
+j/.\[7\] In Tokyo’s Shitamachi dialect, the alveolar trill \[r\] is a
+variant marked with vulgarity.\[7\] Other reported variants include the
+alveolar approximant \[ɹ\],\[5\] the alveolar stop \[d\], the retroflex
+flap \[ɽ\], the lateral fricative \[ɮ\],\[7\] and the retroflex stop
+\[ɖ\].\[11\]
+
+\[7\] Labrune, Laurence (2012), The Phonology of Japanese, Oxford,
+England: Oxford University Press, ISBN 978-0-19-954583-4  
+\[8\] Vance, Timothy J. (2008), The Sounds of Japanese, Cambridge
+University Press, ISBN 978-0-5216-1754-3  
+\[5\] Okada, Hideo (1999), “Japanese”, in International Phonetic
+Association (ed.), Handbook of the International Phonetic Association: A
+Guide to the Use of the International Phonetic Alphabet, Cambridge
+University Press, pp. 117–119, ISBN 978-0-52163751-0  
+\[9\] Akamatsu, Tsutomu (1997), Japanese Phonetics: Theory and Practice,
+München: Lincom Europa, ISBN 978-3-89586-095-9  
+\[10\] Akamatsu (1997) employs a different symbol, \[l̆\], for the
+lateral tap.  
+\[11\] Arai, Takayuki; Warner, Natasha; Greenberg, Steven (2007),
+“Analysis of spontaneous Japanese in a multi-language telephone-speech
+corpus”, Acoustical Science and Technology, 28 (1): 46–48,
+<doi:10.1250/ast.28.46>
+
+Glottologue :  
+<https://glottolog.org/resource/languoid/id/nucl1643>
+
+Autres sources :  
+<https://clics.clld.org/languages/wold-Japanese>  
+Recherches : r -\> 567 entries (filtered from 2,130 total entries)  
+l -\> 0 entries (filtered from 2,130 total entries)  
+<https://clics.clld.org/languages/northeuralex-jpn>  
+Recherches : r -\> 335 entries (filtered from 1,023 total entries)  
+l -\> 0 entries (filtered from 1,023 total entries)
+
+``` r
+show_lang('Japanese')$Form
+```
+
+    ## [1] "näme̞ɾäkänä" "nameraka"   "subesube"   "tsurutsuru" "arai"      
+    ## [6] "somatsu"    "zarazara"
+
+Comment prendre en compte le trill ?  
+Niveau social qui est sur un autre palier que le niveau linguistique ?  
+Plusieurs raisons de l’emmergence des trills ?
+
+``` r
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Japanese",'other',revision))
+```
+
+### Burushaski
+
+``` r
+show_lang('Burushaski')
+```
+
+    ## # A tibble: 1 × 6
+    ##   Language   Dataset Meaning Form   Trill R_type  
+    ##   <chr>      <chr>   <chr>   <chr>  <chr> <chr>   
+    ## 1 Burushaski CLICS   smooth  t̪aˈt̪aṅ no    no trill
+
+``` r
+show_comments('Burushaski')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language   Dataset Comments
+    ##   <chr>      <chr>   <chr>   
+    ## 1 Burushaski CLICS   <NA>
+
+``` r
+show_iso('Burushaski')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language   ISO_code Phoible_code
+    ##   <chr>      <chr>    <chr>       
+    ## 1 Burushaski bsk      bsk
+
+Trill : no  
+R\_type : no trill
+
+Dataset :  
+CLICS, no comments
+
+Phoible :  
+<https://phoible.org/languages/buru1296>  
+5 inventaires  
+\- SPA r allophones r  
+\- UPSID R̪|R pas d’allophones  
+\- EA 2561 r pas d’allophones  
+\- EA 2577 r pas d’allophones  
+\- EA 2613 r pas d’allophones
+
+Morgenstierne, Georg. 1945. Notes on Burushaski Phonology. Norsk
+Tidsskrift for Sprogvidenskap 13. 61–95. -\> Pas trouvé
+
+Anderson, Gregory D. S. 1997. Burushaski phonology. In Kaye, Alan S. and
+Daniels, Peter T. (eds.), Phonologies of Asia and Africa, 1021–1041.
+Winona Lake, Indiana: Eisenbrauns.  
+\- Page 1023 : r  
+\- Page 1024 : Medially, numerous two-member clusters are found,
+consisting of a continuant (usually \[l\], \[n\], or \[r\] \[…\]  
+\- Page 1026 : The B sound \[l\] tends to be devoiced when it stands
+before a voiceless consonant. B \[r\] is rare in initial position,
+especially so in non-loanwords. In addition, although \[l\] and \[r\]
+are phonemically distinct in B, some words exhibit variation between the
+two sounds: bil \~ bir ‘full’ or -lpur \~ -rpur ‘eye-lash’ (the latter
+may be due to assimilation or dissimilation, however). Note that there
+are sporadic \[l\] : \[r\] correspondences in the various dialects of B,
+see § 50.5.  
+\- Page 1037 : For the most part there is an exact correspondence of
+liquid sounds between these dialects; however, sporadically, a
+correspondence of Ng \[l\] : Hz \[r\] is attested. In addition, Ng
+occasionally loses \[l\] in a medial cluster before an obstruent, while
+this cluster is preserved in Hz.  
+Nagar Hunza  
+šʌl šʌr ‘pit’  
+bilʌgo birʌgo ‘colt’  
+d.ʌŋlətʌs d.ʌŋrətʌs ‘female goblin’  
+ɛːtirʌas ɛːltirʌas ‘to show’  
+deǰʌba delǰʌba ‘I strike’  
+Note, however, Ng tur bišʌyəs Hz tul bišʌyəs ‘break into a house’.
+
+Wikipedia :  
+<https://en.wikipedia.org/wiki/Burushaski>  
+\- Trill r ⟨r⟩  
+Approximant ɻ ⟨ỵ⟩ \[7\]
+
+``` 
+[7] This phoneme has various pronunciations, all of which are rare sounds cross-linguistically. Descriptions include: "a voiced retroflex sibilant with simultaneous dorso-palatal narrowing" (apparently [ʐʲ]) (Berger 1998); "a fricative r, pronounced with the tongue in the retroflex ('cerebral') position" (apparently [ɻ̝]/[ʐ̞], a sound which also occurs in Standard Chinese, written r in Pinyin) (Morgenstierne 1945); and "a curious sound whose phonetic realizations vary from a retroflex, spirantized glide to a retroflex velarized spirant" (Anderson forthcoming). In any case, it does not occur in the Yasin dialect, and in Hunza and Nager it does not occur at the beginning of words.  
+```
+
+Glottologue :  
+<https://glottolog.org/resource/languoid/id/buru1296>
+
+Sadaf Munshi. 2018. Srinagar Burushaski: A Descriptive and Comparative
+Account with Analyzed Texts. Leiden: Brill. xx+306pp.  
+\- Page XV : r ɹ Alveolar approximant/vibrant  
+l l Lateral approximant/liquid  
+y j Palatal approximant  
+ɹ̣ ɻ Retroflex approximant  
+\- Page 20 : Vibrants r  
+Glides ɹ̣  
+\- Page 31 : Liquids include lateral /l/ and vibrant /r/. The phonemic
+contrast between them is illustrated by the examples in (19).  
+(19) Liquids: phonemic contrast between /l/ and /r/  
+phul ‘cup’ phur ‘flight’  
+chil ‘water’ chir ‘line’  
+malaq ‘falling/rolling (n.)’ maraq (etas) ‘(to) twist’  
+Liquids occur in all different positions, viz. word-initial,
+word-medial, and word-final. Consider the data in (20) for
+illustration:  
+(20) Occurrence of liquids in different environments:  
+Vibrant /r/: rax ‘desire’ šuriyaar ‘happiness’ ǰaṭur ‘quince’  
+ram-ram ‘flap wings; kharaṭi ‘basket’ haɣur ‘horse’  
+Onom.’  
+The phonemic contrast between the retroflex glide /ɹ̣/ and the vibrant
+liquid /r/ is illustrated in (21):  
+(21) /ɹ̣/ \~ /r/ contrast  
+ɣar ‘song’ ɣaɹ̣ ‘right (side)’
+
+Yoshioka, Noboru. 2012. A Reference Grammar of Eastern Burushaski.
+(Doctoral dissertation, Tokyo University of Foreign Studies;
+xxvii+309+ccxciipp.)  
+\- Page 15 : Rhotic /r/\[ɾ\]
+
+Hermann Berger. 1998. Die Burushaski-Sprache von Hunza und Nager: Teil
+I: Grammatik. (Neuindische Studien, 13.) Wiesbaden: Otto Harrassowitz.
+284pp.  
+\- Traduit avec Google Traduction depuis le German depuis mon iPhone  
+\- Page 23 : r is a clearly rolled tongue r generated at the alveoli.
+
+Autres sources :  
+<https://clics.clld.org/languages/northeuralex-bsk>  
+Recherches : r -\> 271 entries (filtered from 886 total entries)  
+l -\> 166 entries (filtered from 886 total entries)
+
+``` r
+show_lang('Burushaski')$Form
+```
+
+    ## [1] "t̪aˈt̪aṅ"
+
+Je change en ‘trilled’ mais je ne suis pas vraiment convaincu…
+
+``` r
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Burushaski",'other',revision))
+```
+
+### Tsangla (Motuo)
+
+``` r
+show_lang('Tsangla (Motuo)')
+```
+
+    ## # A tibble: 1 × 6
+    ##   Language        Dataset Meaning Form   Trill R_type  
+    ##   <chr>           <chr>   <chr>   <chr>  <chr> <chr>   
+    ## 1 Tsangla (Motuo) CLICS   smooth  dʑampo no    no trill
+
+``` r
+show_comments('Tsangla (Motuo)')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language        Dataset Comments
+    ##   <chr>           <chr>   <chr>   
+    ## 1 Tsangla (Motuo) CLICS   <NA>
+
+``` r
+show_iso('Tsangla (Motuo)')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language        ISO_code Phoible_code
+    ##   <chr>           <chr>    <chr>       
+    ## 1 Tsangla (Motuo) tsj      tsj
+
+Trill : no  
+R\_type : no trill
+
+Dataset :  
+CLICS, no comments
+
+Phoible :  
+<https://phoible.org/languages/tsha1245>  
+2 inventaires  
+\- PH ɾ allophones ɾ  
+\- EA ɾ pas d’allophones
+
+Andvik, Erik E. 1999. Tshangla Grammar. (Doctoral dissertation,
+University of Oregon).  
+<https://www.proquest.com/openview/9712103cc03895ad6c40f6d062738d49/1?cbl=18750&diss=y&pq-origsite=gscholar&parentSessionId=wcEScnt2Xi8%2BMWpLgQvzSrEiZORUb%2F%2B0qhYYajdpCWE%3D>
+-\> PAs d’accès à la phonologie
+
+Andvik, Erik E. 2010. A Grammar of Tshangla. (Brill’s Tibetan Studies
+Library: Languages of the Greater Himalayan Region, 5/10.) E. J. Brill.
+506pp. - Page 8 : Word-initial consonant phonemes are shown in Table 1
+below.  
+Asterisked phonemes occur syllable-finally as well.  
+flap r\*  
+\- Page 10 : Flap.  
+/r/: apico-alveolar flap \[ɾ\] . (This sound is often voiceless
+syllable-finally.)  
+\- Page 11 : Contrasts and minimal pairs (=\> Mais pas de flap)  
+\- Page 14 : The maximum allowable consonant cluster is a series of two
+consonants. Tshangla has retained, as its only consonant cluster, the
+initial /Cr/ (preserved in WT) for labial initials (cf. /branton/
+‘chest’) . The WT velar-initial ICrl clusters are pronounced with a
+retroflex coronal in Trashigang but retained in some dialects (cf. for
+example /krame/ ‘to distribute’; Trashigang: /ʈame/) . The six possible
+consonant clusters in some dialects are /pr/, /pʰr/, /br/, /kr/, /kʰr/,
+/gr/. Examples are: \[examples\]  
+These are not simply Dzongkha or Tibetan borrowings, however, but rather
+appear to be native Tshangla lexemes, as many of these forms do not
+exist in Tibetan or Dzongkha. It appears that some Tshangla dialects
+have undergone coronal cluster simplification (as have the modern
+Tibetan languages), while others have not.
+
+Wikipedia :  
+<https://en.wikipedia.org/wiki/Tshangla_language>  
+\- Flap r ⟨r ར⟩  
+\- Consonant clusters in the onset position are limited to consonant
+plus /r/
+
+Glottologue :  
+<https://glottolog.org/resource/languoid/id/tsha1245>
+
+Selin Grollmann. 2020. A Grammar of Bjokapakha. Leiden: Brill.
+xvi+514pp. -\> Pas trouvé  
+Das Gupta, Kamalesh. 2007 \[1968\]. An introduction to Central Monpa.
+Shillong: Philology Section, Research Department, North East Frontier
+Agency. vi+167pp. -\> Pas trouvé  
+Hofrenning, Ralph W. 1959. First Bhutanese grammar: Grammar of Gongar
+\[=Tsangla\], language of East Bhutan. Madison. 13pp. -\> Pas trouvé
+
+Autres sources :  
+<https://clics.clld.org/languages/suntb-MotuoTsangla>  
+Recherches : r -\> 131 entries (filtered from 860 total entries)  
+l -\> 101 entries (filtered from 860 total entries)
+
+``` r
+show_lang('Tsangla (Motuo)')$Form
+```
+
+    ## [1] "dʑampo"
+
+``` r
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Tsangla (Motuo)",'other',revision))
+```
+
+### Xumi
+
+``` r
+show_lang('Xumi')
+```
+
+    ## # A tibble: 1 × 6
+    ##   Language Dataset Meaning Form         Trill R_type  
+    ##   <chr>    <chr>   <chr>   <chr>        <chr> <chr>   
+    ## 1 Xumi     CLICS   smooth  ɬɛ⁵⁵to³³ji⁵⁵ no    no trill
+
+``` r
+show_comments('Xumi')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language Dataset Comments
+    ##   <chr>    <chr>   <chr>   
+    ## 1 Xumi     CLICS   wiki
+
+``` r
+show_iso('Xumi')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language ISO_code Phoible_code
+    ##   <chr>    <chr>    <chr>       
+    ## 1 Xumi     sxg      <NA>
+
+Trill : no  
+R\_type : no trill
+
+Dataset :  
+CLICS, wiki
+
+Phoible :  
+<https://phoible.org/languages/shix1238>  
+3 inventaires  
+\- UZ 2230 ɹ allophones ɹ əɹ; ɹ̩ allophones ɹ̩ ʒ̩ z̩  
+\- UZ 2231 ɹ allophones ɹ; ɹ̩ allophones ɹ̩  
+\- EA 2539 r̪ pas d’allophones;
+
+Chirkova, Katia and Chen, Yiya. 2013. Illustrations of the IPA: Xumi
+(part 1): Lower Xumi, the variety of the lower and middle reaches of the
+Shuiluo river. Journal of the International Phonetic Association 43.
+363–379. Cambridge University Press.  
+\- Page 365 : Approximant ɹ  
+\- Page 367 : Xumi has three central approximants and four lateral
+approximants: /wjɹ/, and /l l̥ ʎʎ̥/.  
+\- Page 368 : /w/and/ɹ/ have a broad distribution, occurring before most
+oral vowels (/ieɐʉuo ɑ/). For example, /LPowe/ ‘downstairs shed’,
+/RPbʉ-wʉ/ ‘to go out’, /RPdiwu/ ‘bullet’ (WT mde’u), /EPtʰuwɑ/ ‘hammer’
+(WT tho ba). Before /ɐ/, /w/ is realized as \[v\],asin/Hwɐ/ \[Hvɐʔ\]
+‘tooth’. Examples with /ɹ/ include: /Hɹi/‘now’,/Hɹe/ ‘cloth’, /Hɹʉ/
+‘to walk’, /RPbɐɹo/ ‘snake’, /Rɹɐ/ ‘good’. We note that in
+word-initial position, /ɹ/ is realized as preceded by a schwa
+(e.g. /Hɹi/ \[Həɹi\] ‘now’). In the transcribed text, a similar
+addition of schwa is also observed in the words /Htʰi/ \[Hətʰi\] ‘that’
+and /Htɐ/ \[Hətɐ\] ‘there’. No such effect is observed in word-medial
+position, where /ɹ/ is realized as \[ɹ\]. In addition to being an
+initial, /ɹ/ is also found as a rhyme, i.e. /ɹ̩/ (see below).  
+As a syllabic consonant, /ɹ̩/ may occur with a zero-initial (e.g. the
+topic marker /ɹ̩/, see the transcribed text). We take the position that
+this syllabic consonant is phonologically the same as the fricative
+vowel after alveolar sibilants and retroflexes (/sztstsʰ dz ʃʒtʃʰ tʂʰ/).
+In the latter case, /ɹ̩/ is realized as homorganic to the preceding
+consonant onset. Consider the following examples: /Htsɹ̩/ \[Htsz̩\]
+‘leopard, panther’, /Hdzɹ̩/ \[Hdzz̩\] ‘wheat’, /Htsʰɹ̩/ \[Htsʰz̩\]
+‘goat’, /Hʃɹ ̩/ \[Hʃʒ̩\] ‘tongue’, /RPʎɐ-ʒɹ ̩/ \[RPʎɐ-ʒʒ̩\] ‘to
+sleep’, /Htʃʰɹ ̩/ \[Htʃʰʒ̩\] ‘to sell’, /Htʂʰɹ ̩/ \[Htʂʰʐ̩\] ‘dollar’.
+
+Chirkova, Katia and Chen, Yiya. 2013. Illustrations of the IPA: Xumi
+(part 2): Upper Xumi, the variety of the upper reaches of the Shuiluo
+river. Journal of the International Phonetic Association 43. 381–396.
+Cambridge University Press.  
+\- Page 382 : Approximant ɹ  
+\- Page 384 : As a syllabic consonant, /ɹ̩/ may occur with a
+zero-initial (e.g. /RPkʰu-ɹ̩/ ‘to be in debt’), and after alveolar
+sibilants and retroflexes (attested in our corpus after /ts tsʰ dz s z
+tʂʰ ʂ ʐ/). We take the position that this syllabic consonant is
+phonologically the same as the fricative vowel after alveolar sibilants
+and retroflexes (/sztstsʰ dz ʃʒtʃʰ tʂʰ/). In the latter case, /ɹ̩/is
+realized as homorganic to the preceding consonant onset. Consider the
+following examples: /ʜtsɹ̩/ \[ʜtsz̩\] ‘to use’, /ʜtsʰɹ̩/ \[ʜtsʰz̩\] ‘to
+cut with scissors’, /ʜdzɹ̩/ \[ʜdzz̩\] ‘wheat’, /RPmɐsɹ̩/ \[RPmɐsz̩\]
+‘tomorrow’, /RPmɐzɹ̩/ \[RPmɐsz̩\] ‘cat’, /ʜtʂʰɹ̩/ \[ʜtʂʰʐ̩\] ‘to
+sell’, /ʜʂɹ̩/ \[ʜʂʐ̩\] ‘fishing net’, /Rʐɹ̩/ \[Rʐʐ̩ \] ‘to sleep’.
+Similar to the distribution of the syllabic consonant /ɹ̩/inLower Xumi,
+/ɹ̩/ in Upper Xumi contrasts with the high vowels (/iu/),asin/ʜtsi/
+‘lock’, /ʜtsɹ̩/‘to use’, /ʜtsu/ ‘to pluck (facial hair)’. We therefore
+analyse it as a separate phoneme in this language.
+
+Chirkova, Katia and others. 2009. Shixing, a Sino-Tibetan language of
+South-West China: A grammatical sketch with two appended texts.
+Linguistics of the Tibeto-Burman Area 32. 1–90. Nanyang Technological
+University.  
+(Ekaterina Chirkova. Shixing, a Sino-Tibetan language of South-West
+China: A grammatical sketch with two appended texts. Linguistics of the
+Tibeto-Burman Area, Dept. of Linguistics, University of California,
+2009, 32 (1), pp.1-89. hal-00483979)  
+\- Page 11 : approximant r
+
+Wikipedia :  
+<https://en.wikipedia.org/wiki/Shixing_language>  
+\- Approximant ɹ
+
+Glottologue :  
+<https://glottolog.org/resource/languoid/id/shix1238>
+
+Autres sources :  
+<https://clics.clld.org/languages/suntb-Xumi>  
+Recherches : r -\> 135 entries (filtered from 858 total entries)  
+l -\> 130 entries (filtered from 858 total entries)  
+Form in source:  
+ɿ -\> 47 entries (filtered from 858 total entries)  
+r -\> 54 entries (filtered from 858 total entries)  
+ʴ -\> 7 entries (filtered from 858 total entries)  
+ʁ -\> 34 entries (filtered from 858 total entries)
+
+``` r
+show_lang('Xumi')$Form
+```
+
+    ## [1] "ɬɛ⁵⁵to³³ji⁵⁵"
+
+``` r
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Xumi",'other',revision))
+```
+
+### Atsi \[Zaiwa\]
+
+``` r
+show_lang('Atsi [Zaiwa]')
+```
+
+    ## # A tibble: 1 × 6
+    ##   Language     Dataset Meaning Form   Trill R_type  
+    ##   <chr>        <chr>   <chr>   <chr>  <chr> <chr>   
+    ## 1 Atsi [Zaiwa] CLICS   smooth  tʃu̱t⁵⁵ no    no trill
+
+``` r
+show_comments('Atsi [Zaiwa]')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language     Dataset Comments
+    ##   <chr>        <chr>   <chr>   
+    ## 1 Atsi [Zaiwa] CLICS   <NA>
+
+``` r
+show_iso('Atsi [Zaiwa]')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language     ISO_code Phoible_code
+    ##   <chr>        <chr>    <chr>       
+    ## 1 Atsi [Zaiwa] atb      atb
+
+Trill : no  
+R\_type : no trill
+
+Dataset :  
+CLICS, no comments
+
+Phoible :  
+<https://phoible.org/inventories/view/1229>  
+\- ɹ allophones ɹ
+
+Wannemacher, Mark W. 1998. Aspects of Zaiwa Phonology: An Autosegmental
+Account. (Publications in Linguistics.) Summer Institute of Linguistics
+and The University of Texas at Arlington. (=\> Mauvaise entrée dans
+PHOIBLE ? C’est pas plutôt Prosody au lieu de Phonology ?)
+<https://www.proquest.com/openview/d9ff164378e8db9edd42fa24e0955fbc/1?pq-origsite=gscholar&cbl=18750&diss=y>
+-\> Pas trouvé
+
+Wikipedia :  
+<https://en.wikipedia.org/wiki/Zaiwa_language>
+
+Glottologue :  
+<https://glottolog.org/resource/languoid/id/zaiw1241>
+
+Anton Lustig. 2010. A Grammar and Dictionary of Zaiwa. Leiden: Brill.
+xxvi+1076+xii+562pp. (2 vols.)  
+\- Page 7 : I refrain from the Pinyin-like mistake of using an i for a
+vowel sounding \[ɘ\], cf. zing vs. my /zeng31 / for \[tsɘŋ31\] ‘drum’,
+or for syllabic consonants, cf. re vs. my /r11/ for \[ʐ11\] ‘also’.  
+\- Page 8 : Zaiwa initials in the official and present transliteration
+systems  
+\[ʒ\]  
+r  
+my: r  
+\- Page 22 : /f/, /sh/ and /r/ are loan phonemes.  
+A subset of the phonemes which also occur initially, viz. /y, r/, are
+used as optional post-consonantal glides, whereby /r/ is a loan
+phoneme.  
+\- Page 26 : The phonemes /m, n, ng, r/ can phonologically act as vowel
+nuclei. These syllabic consonants are marginal phenomena within Zaiwa
+phonology, forming part of only grammatical function words,
+interjections, apparent loans, or onomatopoeia, as Section 3.9 will
+discuss in more detail. The following forms may serve as illustration of
+the Zaiwa syllabic consonants.  
+/r^11 / \[ʐ^11\] a morpheme glossed ‘also’, both used as an adverb and
+as a clause marker  
+\- Page 33 : Initial /r/ is a voiced retroflex (apico-postalveolar)
+fricative \[ʐ\] and is mainly used in loans from Jingpo.  
+\- Page 36 : Zaiwa phoneme /r/ is a voiced retroflex
+(i.e. apico-postalveolar) fricative \[ʐ\]. This phoneme /r/ seems to be
+mainly used for loans from Jingpo. Two-thirds of the Zaiwa forms with
+/r/ can also be found in the Jingpo-Chinese dictionary of Xu et
+al. (1983). Most of these loan words with /r/ seem to be quite recent
+borrowings from Jingpo, because of close appearance both in realisation
+and meaning. For example, compare the Zaiwa word /ra35/ ‘(floor, haircut
+etc.) even, complete’ with the Jingpo form ra \[ʒ a33\] with the same
+meanings. As another example, compare the Zaiwa word /ram35 / ‘enough,
+will do’ with the Jingpo word ram \[ʒam 33\] with about the same
+meaning. Section 7.8 will discuss the morpho-phonological alternations
+between /r/, /l/ and other consonant phonemes.  
+\- Page 51 : A syllabic loan phonem /r/ is also attested in non-short
+forms, which are either important grammatical morphemes or, in one case,
+a loan from Jingpo.  
+/r11/ \[ʐ11\] ‘also’, a morpheme which is usedb oth as adverb and as
+clause marker,  
+/r55/ \[ʐ55\] 1) The object marking suffix,  
+2\) The time-suffix and  
+3\) The personal experience clause marker \<ra55 \~ r55\>  
+\- Page 173 : 7.8 MORPHO-PHONOLOGICAL ALTERNATION BETWEEN /l/, /r/ AND
+OTHER INITIAL PHONEMES  
+There are some interesting regularities in the use of initials of
+important grammatical morphemes, as I shall separately discuss below.
+The factors underlying these variations appear to be rather complex, and
+probably differ for each speaker. A first general remark is that up to
+one-third of all Zaiwa markers, adverbs and affixes either have an
+initial /l/ or an initial loan phoneme /r/, indicating that these two
+phonemes play an important role.  
+One special group of indigenous grammatical morphemes listed below are
+those which have a kind of “free style” variants with the initial /l/
+instead of other initials, as specified below.  
+\[examples\]  
+\- Page 174 : There is a group of important Zaiwa function words, listed
+in Table 7.2, which all have at least one variant or allomorph
+consisting of only a syllabic /r/ and a tone, and many of which moreover
+have variants with initial /l/. The table also lists Jingpo forms that
+may underlie possible Zaiwa loan morphemes. Most members of this group
+are indigenous Zaiwa morphemes, whereas it may only be the morpheme
+variants <r11>, <li11> and <lye11 > ‘also’ which could be loan  
+phonemes. It is not clear yet whether the personal experience clause
+marker \<ra55 \~ r55\> is a loan from Jingpo.  
+My principal informant considers the variant \<r 11\> ‘also’ to be the
+only correct variant, in contrast to <li11 > ‘also’ and (seldom) <lye11>
+‘also’. Nevertheless I have found cases where he uses the variant <li11>
+‘also’ and even, though very seldom, <lye11 > ‘also’. 19  
+\- Page 175 : As an equivalent to my morpheme <r11> ‘also’ in its
+specific function of an adverb, Yabu (1982: lemma 444) only mentions a
+form in /l/, viz. -le22 , whereas Xu & Xu (1982: 94, 103, 115) mention
+variants in both initials, viz. lê21 and retroflex ʒê21. According to
+the Jingpo-Chinese dictionary of Xu et al. (1983) and the Jingpo grammar
+by Dai & Xu (1992), Jingpo does not have an equivalent which could be
+borrowed into Zaiwa and which could have resulted in the morpheme \<r
+11\> ‘also’. Quite remarkably, Hanson (1954: 567) mentions a Jingpo
+adverb ri ‘also, too, even’, as a variant of the adverb mung, with the
+same meaning. Possibly, his adverb ri ‘also, too, even’ stems from a
+Jingpo dialect with Zaiwa influences.  
+\- Page 176 : Apart from being used as an adverb, the same morpheme
+variants <r11>, <li11> and \<lye 11\> ‘also’ can also be used as clause
+markers with an additional conjunction-like function. Neither Yabu
+(1982) nor Xu & Xu (1984) explicitly mention this particular function of
+these morphemes, although the latter scholars in fact use a retroflex
+equivalent ʒe21 in several Zaiwa sentences in the book in what appears
+to be such conjunction-like use (Xu & Xu 1984: 132, 149 etc.). However,
+Xu & Xu (1984: 115) do state that this form ʒe21 is used to indicate a
+pause within an utterance, thus resembling the function of the morpheme
+variants <r11>, <li11> and <lye11 > ‘also’ as conjunctions.  
+The general indicative clause marking unit lye31 (also+I) consists of a
+root morpheme which either is no longer retrievable or, perhaps, the
+morpheme variant <lye11> ‘also’ and the indicative mood marker \< +I \>.
+Other scholars do not mention this possibility.  
+The variant <r55 > appears to be the most commonly used of the three
+variants of the Zaiwa object markers <r55 >, <lye55> and <li55> (OBJ ),
+even though the former is the most “Jingpoish”. My principal informant
+considers this <r55 > variant to be the only correct one, even though I
+have found cases where he used the variant <li55> and, though very
+seldom, the variant <lye55>.  
+As equivalents of the Zaiwa object markers <r55>, <lye55> and <li55>
+(OBJ ), Yabu (1982: lemma 436a) only mentions a form in /l/, viz. -le44.
+Xu & Xu (1984: 108-9) mention variants in both initials, viz. -lĕ55 and
+retroflex –ʒĕ55. According to the dictionaries by Hanson (1954) and Xu
+et al. (1983) and the grammar of Jingpo by Dai & Xu (1992), Jingpo does
+not have any equivalent of these morphemes  
+which could have been borrowed into Zaiwa.  
+\- Page 177 : The allomorph <r55 > of the personal experience clause
+marker \<ra 55 \~ r55\> appears to be the result of the
+morpho-phonological process of vowel reduction, which occurs on all
+function words ending in the vowel /a/, changing this vowel into /e/. In
+Zaiwa dialects other than that of Loilung and in all other sources
+(Cheng 1956, Yabu 1982, Xu & Xu 1984), the allomorph <ra55> is used
+instead of the allomorph <r55 >. Some informants in Loilung claim the
+allomorph \<ra 55\> to be standard, since it appears as such in
+publications and radio broadcasting. However, my main informant prefers
+the allomorph <r55>, using the allomorph <ra55> rather seldom and as a
+kind of slow speech variant. As I already argued in Section 7.5, I
+consider this form <r55> to be a variant of the personal experience
+clause marker \<ra55 \~ r55\>, as a result of morpho-phonological
+process of vowel reduction, even though this morpho-phonological process
+may in this case be restricted to the Zaiwa of Loilung. On the other
+hand, even though as yet there are no strong arguments for stating so, I
+could also hypothesise that the Zaiwa personal experience clause marker
+\<ra55 \~ r55\> is based on one of the Jingpo copula which Dai & Xu
+(1992: 63-4) mention as re2, with tone contour \[5-5\], re3 with tone
+contour \[5-2\], or - somewhat less suitable for my hypothesis - re2
+with tone contour \[5-5\] and final glottal stop. Note that whereas Dai
+& Xu (1992: 63-4) mention three variants of this Jingpo copula, Hanson
+(1954: 567) and Xu et al. (1983: 687-8) mention only a form re.
+Unfortunately, neither Hanson (1954) nor Xu et al. (1983) or Dai & Xu
+(1992) give detailed phonetic transcriptions, therefore making it
+uncertain whether the Jingpo copula re2/re3 /re2 actually is a syllabic
+consonant. If the latter would be a syllabic consonant, I might further
+hypothesise that the Zaiwa clause marker /ra55/ were the result of
+hypercorrection of the morpho-phonological process of vowel reduction.
+
+Zhu, Yanhua. 2017. Zaiwa. In Graham Thurgood and Randy J. LaPolla
+(eds.), The Sino-Tibetan Languages, 877-884. 2nd edn. London & New York:
+Routledge.
+
+Autres sources :  
+<https://clics.clld.org/languages/suntb-Atsi>  
+Recherches : r -\> 0 entries (filtered from 956 total entries)  
+l -\> 110 entries (filtered from 956 total entries)  
+Form in source:  
+ʒ -\> 11 entries (filtered from 956 total entries) (=\> Ça correspond à
+z dans CLICS form)
+
+``` r
+show_lang('Atsi [Zaiwa]')$Form
+```
+
+    ## [1] "tʃu̱t⁵⁵"
+
+``` r
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Atsi [Zaiwa]",'other',revision))
+```
+
+### ’Are’are (1)
+
+``` r
+show_lang("'Are'are (1)")
+```
+
+    ## # A tibble: 1 × 6
+    ##   Language     Dataset Meaning Form     Trill R_type  
+    ##   <chr>        <chr>   <chr>   <chr>    <chr> <chr>   
+    ## 1 'Are'are (1) CLICS   smooth  mamanā!a no    no trill
+
+``` r
+show_comments("'Are'are (1)")
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language     Dataset Comments
+    ##   <chr>        <chr>   <chr>   
+    ## 1 'Are'are (1) CLICS   wiki
+
+``` r
+show_iso("'Are'are (1)")
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language     ISO_code Phoible_code
+    ##   <chr>        <chr>    <chr>       
+    ## 1 'Are'are (1) alu      <NA>
+
+Trill : no  
+R\_type : no trill
+
+Dataset :  
+CLICS, wiki
+
+Phoible : NA
+
+Wikipedia :  
+<https://en.wikipedia.org/wiki/%EA%9E%8BAre%EA%9E%8Care_language>  
+\- Tap ɾ ⟨r⟩  
+\- one liquid (r)
+
+Naitoro, Kateřina (2013). A Sketch Grammar of ꞌAreꞌare: The Sound System
+and Morpho-syntax (Master of Arts thesis). University of Canterbury.  
+hdl:10092/8085  
+\- Page 11 : All other chapters follow the orthographic conventions laid
+out below.  
+Phoneme ɾ  
+Grapheme r  
+\- Page 12 : the tap /ɾ/  
+\- Page 13 : Tap ɾ  
+\- Page 17 : For the tap /ɾ/, the following minimal pairs with other
+alveolar sounds were found:  
+/ɾ/ and /s/  
+/maɾika/ ‘fish’  
+/masika/ ‘be small’  
+/ɾ/ and /t/  
+/ɾaɾo/ ‘sky’  
+/ɾato/ ‘sun’  
+The tap also contrasts with the velar plosive /k/ and the glottal
+fricative /h/:  
+/ɾ/ and /k/  
+/huɾa/ ‘moon, month’  
+/huka/ ‘wife’  
+/ɾ/ and /h/  
+/oːɾu/ ‘seasonal wind’  
+/oːhu/ ‘sugarcane’  
+The tap is sometimes realised as \[d^w\] but no rules have been found
+determining thedistribution of this realisation. Since both variants may
+occur in the same lexeme, they do not contrast:  
+\[ɾuə\] \[d^{w}uə\] ‘two’  
+\- Page 18 : The approximant /w/ contrasts with the tap /ɾ/, the nasal
+/m/ and the glottal fricative /h/:  
+/w/ and /ɾ/  
+/ɾaɾaha/ ‘thigh’  
+/wawaha/ ‘cloud, mist’  
+\- Page 32 : 2.7 Non-native sounds  
+It may happen that a word is used that contains a sound non-native to
+‘Are’are, or at least non-native to this particular dialect. In that
+case, speakers would pronounce the word with the closest sound existing
+in the ’Are’are inventory:  
+’Melissa’ \[meɾisa\]  
+‘Helen’ \[heɾen\]  
+This has been observed in situation where speakers used the foreign word
+in an ’Are’are context, speaking ’Are’are. In situations where the
+language used was English, the words in question were pronounced as
+\[melisa\] and \[helen\].
+
+Glottologue :  
+<https://glottolog.org/resource/languoid/id/area1240>
+
+Autres sources :  
+Recherches : r -\> 21 entries (filtered from 327 total entries)  
+l -\> 1 entries (filtered from 327 total entries)
+
+``` r
+show_lang("'Are'are (1)")$Form
+```
+
+    ## [1] "mamanā!a"
+
+``` r
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="'Are'are (1)",'other',revision))
+```
+
+### Anuta
+
+``` r
+show_lang('Anuta')
+```
+
+    ## # A tibble: 1 × 6
+    ##   Language Dataset Meaning Form     Trill R_type  
+    ##   <chr>    <chr>   <chr>   <chr>    <chr> <chr>   
+    ## 1 Anuta    CLICS   smooth  remoremo no    no trill
+
+``` r
+show_comments('Anuta')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language Dataset Comments                                                     
+    ##   <chr>    <chr>   <chr>                                                        
+    ## 1 Anuta    CLICS   Feinberg, Richard (1977). The Anutan Language Reconsidered: …
+
+``` r
+show_iso('Anuta')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language ISO_code Phoible_code
+    ##   <chr>    <chr>    <chr>       
+    ## 1 Anuta    aud      <NA>
+
+Trill : no  
+R\_type : no trill
+
+Dataset : CLICS, Feinberg, Richard (1977). The Anutan Language
+Reconsidered: Lexicon and Grammar of a Polynesian Outlier, Volume 1.
+Human Relations Area Files.
+
+Phoible : NA
+
+Wikipedia :  
+<https://en.wikipedia.org/wiki/Anuta_language>  
+\- Liquid l \~ ɾ
+
+Feinberg, Richard. 1977. The Anutan Language Reconsidered: Lexicon and
+Grammar of a Polynesian Outlier. Two Volumes. HRAFlex Books. New Haven:
+Human Relations Area Files Press.  
+\- Page 8 : PPN \* l \* r (Proto-polynesian)  
+TIK l,r l,r (Tikopian)  
+ANU r r  
+\- Page 10 : A more complicated problem pertains to the pairs ‘l’ and
+‘r’.  
+In my opinion the situation with ‘r’ and ‘l’, and ‘s’ and ‘t’ is
+similar, but the evidence is less clear. There are a number of words in
+which Anutan use ‘s’ or ‘l’ fairly consistently and insist that this is
+acceptable pronunciation. Where these souncs occur, however,there are
+not phonemically distinct form ‘t’ and ‘r’ respectively.  
+One may speak perfectly good ANU and never utter and ‘s’ or ‘l’. In TIK,
+on the other hand, these sounds are phonemically distinct, and for every
+case in which we find ‘s’ and ‘l’ to be acceptable ANU pronunciation
+there is also a TIK form in which the sound is sued. In other words the
+ANU word tap (“best”; “top notch”) may be rendered by the TIK
+pronunciation, sapa. Pete (“to sing”) mayappear in the TIK word sare
+(“wrong”; “incorrect”) might appear in ANU as sara or tara, but never
+sala or tala, and tutu (“to write”) may appear as the TIK tusi but never
+susi. The TIK sale (“to play a stringed instrument”) could appear in ANU
+in any of four forms. In ANU words for which there are no TIK cognates
+‘s’ and ‘l’ ought not to be pronounced. THis rule is less rigid,
+however, than in the case of ANU words where the TIK cognates already
+have a ‘t’ or ‘r’. The simplist explanation for this variation would
+seem to be that the PPN ‘\* s’ originally shifted to ‘t’, and ‘\* l’ to
+‘r’ in ANU, but with increading TIK influence ‘s’ and ‘l’ are being
+reintroduced.  
+\- Page 12 : Finally, there is a group of words in which the PPN ’\*l’
+shifts to ‘r’ in TIK and ‘n’ in ANU. Included in this list are TIK
+raua/raaua (“they”, dual), ratou/raatou (“they”, plural) and rima
+(“arm”, “five”), which change in ANU to naaua, naatou, and nima
+respectively. With regard to this phoneme ANU appears to be aligned with
+TON and opposed to SAM and TIK.
+
+Glottologue :  
+<https://glottolog.org/resource/languoid/id/anut1237>  
+\=\> Pas d’autres grammaires à regarder…
+
+Autres sources :  
+<https://clics.clld.org/languages/tryonsolomon-anuta>  
+Recherches : r -\> 93 entries (filtered from 329 total entries)  
+l -\> 0 entries (filtered from 329 total entries)
+
+``` r
+show_lang('Anuta')$Form
+```
+
+    ## [1] "remoremo"
+
+Il n’est pas préciser de quelle rhotique on parler dans Feinberg 1977,
+on peut soit mettre ‘NA’ soit on laisse en ‘other’.  
+Comme on n’a pas d’autres sources, on change en ‘NA’, mais il peut
+s’agir d’un non-trill à cause du manque de contraste avec la latérale.
+
+``` r
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Anuta",'NA',revision))
+```
+
+### Arosi (1)
+
+``` r
+show_lang('Arosi (1)')
+```
+
+    ## # A tibble: 1 × 6
+    ##   Language  Dataset Meaning Form     Trill R_type  
+    ##   <chr>     <chr>   <chr>   <chr>    <chr> <chr>   
+    ## 1 Arosi (1) CLICS   smooth  wadiwadi no    no trill
+
+``` r
+show_comments('Arosi (1)')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language  Dataset Comments                                                    
+    ##   <chr>     <chr>   <chr>                                                       
+    ## 1 Arosi (1) CLICS   "\"r is a definite flap\", Arthur, Capell (1971). Arosi Gra…
+
+``` r
+show_iso('Arosi (1)')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language  ISO_code Phoible_code
+    ##   <chr>     <chr>    <chr>       
+    ## 1 Arosi (1) aia      <NA>
+
+Trill : no  
+R\_type : no trill
+
+Dataset :  
+CLICS, “r is a definite flap”, Arthur, Capell (1971). Arosi Grammar.
+Series B - No. 20. Canberra: Australian National University.
+
+Phoible : NA
+
+Wikipedia :  
+<https://en.wikipedia.org/wiki/Arosi_language>  
+\- Liquid r
+
+Arthur, Capell (1971). Arosi Grammar. Series B - No. 20. Canberra:
+Australian National University. <doi:10.15144/PL-B20>. hdl:1885/146474.
+ISBN 0858830523. OCLC 703648  
+\- Page 5 : r  
+/r/ is a definite flap.
+
+Glottologue :  
+<https://glottolog.org/resource/languoid/id/aros1241>
+
+John Lynch and Rex Horoi. 2002. Arosi. In John Lynch and Malcolm Ross
+and Terry Crowley (eds.), The Oceanic Languages, 562-572. Richmond:
+Curzon.  
+\- Page viii: Arosi adapted by John Lunch and Rex Horoi 562  
+\- Page 562 : r  
+/r/ is a flap.
+
+Autres sources :  
+<https://clics.clld.org/languages/tryonsolomon-arosi1>  
+Recherches : r -\> 119 entries (filtered from 330 total entries)  
+l -\> 0 entries (filtered from 330 total entries)
+
+``` r
+show_lang('Arosi (1)')$Form
+```
+
+    ## [1] "wadiwadi"
+
+``` r
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Arosi (1)",'other',revision))
+```
+
+### Kokota
+
+``` r
+show_lang('Kokota')
+```
+
+    ## # A tibble: 1 × 6
+    ##   Language Dataset Meaning Form     Trill R_type  
+    ##   <chr>    <chr>   <chr>   <chr>    <chr> <chr>   
+    ## 1 Kokota   CLICS   smooth  fanoɣano no    no trill
+
+``` r
+show_comments('Kokota')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language Dataset Comments
+    ##   <chr>    <chr>   <chr>   
+    ## 1 Kokota   CLICS   <NA>
+
+``` r
+show_iso('Kokota')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language ISO_code Phoible_code
+    ##   <chr>    <chr>    <chr>       
+    ## 1 Kokota   kkk      kkk
+
+Trill : no  
+R\_type : no trill
+
+Dataset :  
+CLICS, no comments
+
+Phoible :  
+<https://phoible.org/inventories/view/913>  
+\- ɾ allophones ɾ ɾʷ; ɾ̥ allophones ɾ̥ ɾ̥ʷ
+
+Palmer, Bill. 1999. A Grammar of the Kokota Language, Santa Isabel,
+Solomon Islands. (Doctoral dissertation, The University of Sydney). -\>
+Pas vraiment cherché car j’ai trouvé la version de 2009
+
+Wikipedia :  
+<https://en.wikipedia.org/wiki/Kokota_language>  
+\- Rhotic (Tap) rh /ɾ̥/  
+r /ɾ/  
+\- In CC initial syllables, the first consonant (C1) must be an
+obstruent or fricative, specifically: the labial plosives /p/, /b/,
+velar plosives /k/, /g/, labial fricatives /f/, /v/, or coronal
+fricatives /s/, /z/. The second consonant (C2) must be a voiced coronal
+sonorant ( /ɾ/, /l/, or /n/).
+
+Glottologue :  
+<https://glottolog.org/resource/languoid/id/koko1269>
+
+Palmer, Bill. 2009. Kokoto grammar. (Oceanic Linguistics Special
+publications, 35.) Honolulu, Hawaii: Univ. of Hawaii Press. xxi+422pp.  
+\- Page 4 : KOKOTA ORTHOGRAPHY  
+phoneme letter  
+/r/ r  
+/r̥/ rh  
+\- Page 5 : three sonorant classes (nasal, lateral and rhotic)  
+Rhotic ɾ̥ ɾ  
+\- Page 8 : Laterals and rhotics occur only in post-alveolar place. The
+rhotics are taps. However, when immediately preceding a lateral they can
+be realized as rhotic approximants. This adjacency occurs in rapid
+speech as the result of vowel syncope:  
+(2.2) /aɾe+lau/ -\> /aɾelau/ -\> /aɾlau/ -\> \[aɹlau\]  
+\- Page 11 : Labialization  
+The effect on coronals, which are both \[-labial\] and \[-back\], is
+primarily rounding, accompanied by an increase in dorsal height:  
+/ɾ̥uɾ̥uta/ ‘untangle’ -\> \[ɾ̥ʷuɾ̥ʷuta\]
+
+Autres sources :  
+<https://clics.clld.org/languages/tryonsolomon-kokota>  
+Recherches : r -\> 67 entries (filtered from 317 total entries)  
+l -\> 60 entries (filtered from 317 total entries)  
+rh -\> 0 entries (filtered from 317 total entries)  
+hr -\> 8 entries (filtered from 317 total entries)
+
+``` r
+show_lang('Kokota')$Form
+```
+
+    ## [1] "fanoɣano"
+
+Interrésant… Je me demande dans la variation possible, on peut avoir des
+trills, ce qui ne semble pas le cas juste avec le peu de description
+phonétique qu’on a.
+
+``` r
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Kokota",'other',revision))
+```
+
+### Kwara’ae
+
+``` r
+show_lang("Kwara'ae")
+```
+
+    ## # A tibble: 1 × 6
+    ##   Language Dataset Meaning Form  Trill R_type  
+    ##   <chr>    <chr>   <chr>   <chr> <chr> <chr>   
+    ## 1 Kwara'ae CLICS   smooth  dad   no    no trill
+
+``` r
+show_comments("Kwara'ae")
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language Dataset Comments                                               
+    ##   <chr>    <chr>   <chr>                                                  
+    ## 1 Kwara'ae CLICS   https://researchcommons.waikato.ac.nz/handle/10289/5755
+
+``` r
+show_iso("Kwara'ae")
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language ISO_code Phoible_code
+    ##   <chr>    <chr>    <chr>       
+    ## 1 Kwara'ae kwf      <NA>
+
+Trill : no  
+R\_type : no trill
+
+Dataset :  
+CLICS, <https://researchcommons.waikato.ac.nz/handle/10289/5755>
+
+Phoible : NA
+
+Wikipedia :  
+<https://en.wikipedia.org/wiki/Kwara%27ae_language>  
+\- Rhotic ɾ
+
+Macdonald, Daryl Eveline (2010). A Grammar Sketch of Kwaraqae (Master of
+Arts thesis). University of Waikato. hdl:10289/5755  
+\- page 32 : Flap ɾ  
+\- Page 36 : Liquids  
+The Kwaraqae phoneme inventory included two liquids: an alveolar flap
+/ɾ/ and an alveolar lateral /l., which is the second most frequently
+occuring phoneme . Speakers use both these sounds in both syllable
+positions:  
+/ɾ/ and /l/  
+/oɾ.oɾ/ ‘quiet’ /ol.ol/ ‘right (side)’  
+/kaɾ.ŋia/ ‘close to sth.’ /kal/ ‘some’  
+/ɾu.an/ ‘second’ /lu.an/ ‘his neck’  
+/loŋ/ ‘also’ /ɾoŋ.wa/ ‘hear’  
+\- Page 56 : Epenthesis  
+Text data from this thesis demonstrates that speakers ma insert an
+epenthetic \[d\] between morpheme boundaries, particulary words in rapid
+speech to form the intermorphemic segment /ndɾ/. The three examples here
+involve the cardinal number ‘two’ ro or ordinal numeral ‘second’ ru.  
+For example:  
+\[an ^{d}ɾu.an wik\] ‘in the second week’  
+\[hein ^{d}ɾɔ ɔ.a ki\] ‘in two hours’  
+\[gɔʔ an ^{d}ɾɔ akʷal\] ‘less than twenty’  
+While this does not occur very often, it may be the result of Kwaraqae
+speakers interacting with speakers of other Southeast Solomonic
+languages, where homorganic prenasalised voiced stops such as /^{n}d/
+are part of the phoneme inventory.  
+\- Page 57 : Apocope  
+/ko.ɾoaʔ/ /koɾ/ ‘1DU.INCL’  
+/seis.siɾ/ /seis/ ‘do’  
+Syncope  
+/ko.ɾoʔ/ /koʔ/ ‘2DU’  
+Apocope and syncope  
+/ki.ɾaʔ/ /kia/ ‘3PL’  
+\- Page 59 : Metathesis  
+\[ki.ɾa\] \[ki.aɾ\] ‘FUT.3PL’  
+\- Page 64 : Morphophonemic Fusion  
+/ki.ɾaʔ/ + /ka/ -\> /ki.ak/  
+3PL IMP IMP.3PL  
+\- Page 66 : Phonetic realisation \[ɾ\] Phonemic Form ɾ Orthographic
+Form r Example rorod ‘tomorrow’
+
+Glottologue :  
+<https://glottolog.org/resource/languoid/id/kwar1239>
+
+Norman C. Deck. 1934. A Grammar of the Language Spoken by the Kwara’ae
+People of Mala, British Solomon Islands. (Reprint No, 5.) New Plymouth:
+Wellington: Polynesian Society. 96pp. (“Reprint no. 5 from the Journal
+of the Polynesian Society, vols. 42 and 43”).  
+\- Page 36 : l, as in Englisg, it is distinguished from r  
+r, as in English
+
+Autres sources :  
+<https://clics.clld.org/languages/tryonsolomon-kwaraae>  
+Recherches : r -\> 49 entries (filtered from 328 totar entries)  
+l -\> 82 entries (filtered from 328 total entries)  
+rh -\> 1 entries (filtered from 328 total entries)
+
+``` r
+show_lang("Kwara'ae")$Form
+```
+
+    ## [1] "dad"
+
+``` r
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Kwara'ae",'other',revision))
+```
+
+### Oroha
+
+``` r
+show_lang('Oroha')
+```
+
+    ## # A tibble: 1 × 6
+    ##   Language Dataset Meaning Form     Trill R_type  
+    ##   <chr>    <chr>   <chr>   <chr>    <chr> <chr>   
+    ## 1 Oroha    CLICS   smooth  mamana!a no    no trill
+
+``` r
+show_comments('Oroha')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language Dataset Comments                      
+    ##   <chr>    <chr>   <chr>                         
+    ## 1 Oroha    CLICS   "wiki \"the r is not rolled\""
+
+``` r
+show_iso('Oroha')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language ISO_code Phoible_code
+    ##   <chr>    <chr>    <chr>       
+    ## 1 Oroha    ora      <NA>
+
+Trill : no  
+R\_type : no trill
+
+Dataset :  
+CLICS, wiki “the r is not rolled”
+
+Phoible : NA
+
+Wikipedia :  
+<https://en.wikipedia.org/wiki/Oroha_language>  
+\- Liquid r  
+\- The \[r\] is not rolled.
+
+Ivens, W. G. (1927). “A Study of the Oroha Language, Mala, Solomon
+Islands”. Bulletin of the School of Oriental Studies, University of
+London. 4 (3): 587–610. ISSN 1356-1898. JSTOR 606957  
+\- Page 589 : Consonants: r  
+There is not such a distinct rolling of the r as occurs in Sa’a, and the
+language is spoken more indistinctly, with little movement of the lips.
+
+<http://paradisec.org.au/fieldnotes/image_viewer.htm?IOROH101,24,1,L>
+
+Glottologue :  
+<https://glottolog.org/resource/languoid/id/oroh1237>
+
+Autres sources :  
+<https://clics.clld.org/languages/tryonsolomon-oroha>  
+Recherches : r -\> 126 entries (filtered from 321 total entries)  
+l -\> 3 entries (filtered from 321 total entries)
+
+``` r
+show_lang('Oroha')$Form
+```
+
+    ## [1] "mamana!a"
+
+On garde ‘other’.
+
+``` r
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Oroha",'other',revision))
+```
+
+### Poleo
+
+``` r
+show_lang('Poleo')
+```
+
+    ## # A tibble: 1 × 6
+    ##   Language Dataset Meaning Form    Trill R_type  
+    ##   <chr>    <chr>   <chr>   <chr>   <chr> <chr>   
+    ## 1 Poleo    CLICS   smooth  maɣambɔ no    no trill
+
+``` r
+show_comments('Poleo')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language Dataset Comments
+    ##   <chr>    <chr>   <chr>   
+    ## 1 Poleo    CLICS   wiki
+
+``` r
+show_iso('Poleo')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language ISO_code Phoible_code
+    ##   <chr>    <chr>    <chr>       
+    ## 1 Poleo    tlr      <NA>
+
+Trill : no  
+R\_type : no trill
+
+Dataset :  
+CLICS, wiki
+
+Phoible : NA
+
+Wikipedia :  
+\- Tap/Flap ɾ
+
+Crowley, Susan (1986). Tolo Dictionary. Pacific Linguistics Series C -
+No. 91. Canberra: Dept. of Linguistics, Research School of Pacific
+Studies, Australian National University. <doi:10.15144/PL-C91>.
+hdl:1885/145398. ISBN 0858833468.  
+\- Page vi : r is pronounced by hitting the tip of the tongue once
+against the roof of the mouth
+
+Glottologue :  
+<https://glottolog.org/resource/languoid/id/tali1259>
+
+Capell, Arthur. 1930. The language of Inakona, Guadalcanar, Solomon
+Islands. Journal of the Polynesian Society 39. 113-136.  
+\- Page 113 : Consonants: r  
+No detailed information is to hand on the sounds of Inakona.
+
+Autres sources :  
+<https://clics.clld.org/languages/tryonsolomon-poleo>  
+Recherches : r -\> 57 entries (filtered from 319 total entries)  
+l -\> 75 entries (filtered from 319 total entries)
+
+``` r
+show_lang('Poleo')$Form
+```
+
+    ## [1] "maɣambɔ"
+
+On n’a pas vraiment de détails… Mais mieux que rien.
+
+``` r
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Poleo",'other',revision))
+```
+
+### Iraqw
+
+``` r
+show_lang('Iraqw')
+```
+
+    ## # A tibble: 2 × 6
+    ##   Language Dataset Meaning Form       Trill R_type  
+    ##   <chr>    <chr>   <chr>   <chr>      <chr> <chr>   
+    ## 1 Iraqw    CLICS   smooth  motsotsooq no    no trill
+    ## 2 Iraqw    CLICS   rough   xaslasla'  no    no trill
+
+``` r
+show_comments('Iraqw')
+```
+
+    ## # A tibble: 2 × 3
+    ##   Language Dataset Comments
+    ##   <chr>    <chr>   <chr>   
+    ## 1 Iraqw    WOLD    <NA>    
+    ## 2 Iraqw    CLICS   <NA>
+
+``` r
+show_iso('Iraqw')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language ISO_code Phoible_code
+    ##   <chr>    <chr>    <chr>       
+    ## 1 Iraqw    irk      irk
+
+Trill : no  
+R\_type : no trill
+
+Dataset :  
+WOLD, no comments  
+CLICS, no comments
+
+Phoible :  
+<https://phoible.org/languages/iraq1241>  
+2 inventaires  
+\- SPA r allophones r  
+\- UPSID R pas d’allophones
+
+Whiteley, W. H. 1958. A Short Description of Item Categories in Iraqw.
+Kampala: East African Institute of Social Research. -\> Pas trouvé
+
+Wikipedia :  
+<https://en.wikipedia.org/wiki/Iraqw_language>  
+\- Trill r
+
+Glottologue :  
+<https://glottolog.org/resource/languoid/id/iraq1241>
+
+Mous, Maarten. 2007. A sketch of Iraqw grammar. Ms. 33pp.  
+\- Page 5 : trill
+
+Mous, Maarten. 1992. A Grammar of Iraqw. Rijksuniversiteit Leiden
+Doctoral Dissertation. (Doctoral dissertation, Rijksuniversiteit te
+Leiden; 384pp.) <https://glottolog.org/resource/reference/id/123238>  
+\- Page 15 : Liquid r  
+\- Page 17 : r is a voiced apico-alveolar trill. The consonant r does
+not occur word-intially.  
+‘aara ’goats’, migir ‘collection of firewoord’  
+\- Page 35 : Simplification of consonant clusters  
+The glottal consonants h and ’ are deleted before an oral consonant and
+the glottal stop is deleted after r.  
+\[examples\]  
+r is optionally deleted before w:  
+\[examples\]  
+\- Page 37 : (15) Occasional morphological nasality dissimilation: An n
+becomes r before the m of a suffix.  
+\[example\]  
+(16) t and d become r before ’  
+This can be shown from reduplication of the first CVC of the stem. The
+nasal element of a nasal-obstruent cluster is suppressed in the
+reduplication; see 2.4.  
+\[examples\]  
+\- Page 38 : The following rule is morphophonological and has
+exceptions:  
+(20) Lenition of voiced stop to continuant: b to w, d to r
+intervocalically orn finally, but not at a stem boundary.  
+The rule operates with the number suffixes u, o, eemo, ee, and with the
+derivations. Note also the back formation in ichaabu ‘jiggers’ from
+Swahili cha ‘lice’ plus the plural suffix -u.  
+\[examples\]
+
+Autres sources :  
+<https://clics.clld.org/languages/wold-Iraqw>  
+Recherches : r -\> 281 entries (filtered from 1,261 total entries)  
+l -\> 324 entries (filtered from 1,261 total entries)  
+rr -\> 0 entries (filtered from 1,261 total entries)
+
+``` r
+show_lang('Iraqw')$Form
+```
+
+    ## [1] "motsotsooq" "xaslasla'"
+
+Je change pour ‘trilled’ même si certains phénomènes phonologiques font
+penser à un tap.
+
+``` r
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Iraqw",'trilled',revision))
+```
+
+### Archi
+
+``` r
+show_lang('Archi')
+```
+
+    ## # A tibble: 2 × 6
+    ##   Language Dataset Meaning Form      Trill R_type  
+    ##   <chr>    <chr>   <chr>   <chr>     <chr> <chr>   
+    ## 1 Archi    CLICS   smooth  čula      no    no trill
+    ## 2 Archi    CLICS   rough   qarqatːut no    no trill
+
+``` r
+show_comments('Archi')
+```
+
+    ## # A tibble: 2 × 3
+    ##   Language Dataset Comments
+    ##   <chr>    <chr>   <chr>   
+    ## 1 Archi    WOLD    <NA>    
+    ## 2 Archi    CLICS   <NA>
+
+``` r
+show_iso('Archi')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language ISO_code Phoible_code
+    ##   <chr>    <chr>    <chr>       
+    ## 1 Archi    aqc      aqc
+
+Trill : no  
+R\_type : no trill
+
+Dataset :  
+WOLD, no comments  
+CLICS, no comments
+
+Phoible :  
+<https://phoible.org/inventories/view/228>  
+\- R̪|R pas d’allophones
+
+Kodzasov, S. V. 1977. Fonetika archinskogo jazyka. In Kibrik, A.E. and
+Kodzasov, S.V. and Olovjannikova, I.P. and Samedov, D.S. (eds.), Opyt
+Strukturnogo Opisanija Archinskogo Jazyka 1, 185–352. Moscow:
+Izdatel’stvo Moskovskogo Universiteta.  
+Кибрик А.Е., Кодзасов С.В., Оловянникова И.П., Самедов Д.С. 1977.
+Арчинский язык. Тексты и словари  
+\[Il s’agit d’un dictionnaire\]  
+\- Page 309 : r  
+Wikipedia :  
+<https://en.wikipedia.org/wiki/Archi_language>  
+\- Trill r
+
+Glottologue :  
+<https://glottolog.org/resource/languoid/id/arch1244>
+
+Mikailov, K. Š. 1967. Arčinskij jazyk: (grammatičeskij očerk s tekstami
+i slovarem). Machackala: \[Dagestanskij Filial AN SSSR\]. 215pp.  
+Микаилов К. Ш. 1967. Арчинский язык. (Грамматический очерк с текстами и
+словарём). — Махачкала  
+\- Traduit depuis Google Traduction avec mon iPhone  
+\- Page 22 : Sonorant r  
+\- Page 23 : Sonorants: There are four sonorous sounds in the Archa
+language: two nasal (m,n) and two oral (r,l). These consonants occur in
+various positions:  
+At the beginning of the word \[examples\]  
+In the middle of a word between vowels \[examples\]  
+In the middle of a word before the consonants \[examples\]  
+In the middle of a word after a vowel \[examples\]  
+At the absolute end of a word \[examples\]  
+\- Page 24 : Sonorant r in position after pharyngealized vowels tends to
+lose such important of this trait, as vibrancy. At the same time, the
+sonorant r acoustically approaches the ENglish r in ‘rose, read…’ Let’s
+take examples \[examples\]  
+\- Page 35 : Phonetic processes  
+Assimilation. This phonetic processis widespread among sonorant
+consonants, usually when the final consonant of the stemm meets the
+initial sonorant suffix:  
+b) rl \> ll: the transition is systematic and is most aften observed
+when declensing nouns with the original r. In some cases, after this, a
+vowel sound can also appear, for examples: \[examples\]  
+d) The types of complete contact assimilation (progressive and
+regressive), which are of a regular nature, were listed above. However,
+such cases of assimilation are also noted: \[…\]  
+р+тІ \> д+тІ (r + ti \> d + ti) (=\> Pas sûr de comprendre)
+
+Marina Chumakina and Greville G. Corbett and Dunstan Brown. 2008. Archi
+language tutorial. Paper presented at the LAGB meeting, University of
+Essex. 24pp - Page 2 : Trill r
+
+Autres sources :  
+<https://clics.clld.org/languages/wold-Archi>  
+Recherches : r -\> 310 entries (filtered from 1,253 total entries)  
+l -\> 397 entries (filtered from 1,253 total entries)  
+rr -\> 3 entries (filtered from 1,253 total entries) \[=\> correspond à
+ʁ\]  
+Form in source:  
+ʁ -\> 25 entries (filtered from 1,253 total entries)  
+r -\> 292 entries (filtered from 1,253 total entries)  
+l -\> 279 entries (filtered from 1,253 total entries)  
+ɬ -\> 153 entries (filtered from 1,253 total entries)
+
+``` r
+show_lang('Archi')$Form
+```
+
+    ## [1] "čula"      "qarqatːut"
+
+Je change pour ‘trilled’.
+
+``` r
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Archi",'trilled',revision))
+```
+
+### Manange
+
+``` r
+show_lang('Manange')
+```
+
+    ## # A tibble: 1 × 6
+    ##   Language Dataset Meaning Form  Trill R_type  
+    ##   <chr>    <chr>   <chr>   <chr> <chr> <chr>   
+    ## 1 Manange  CLICS   smooth  tʃã   no    no trill
+
+``` r
+show_comments('Manange')
+```
+
+    ## # A tibble: 2 × 3
+    ##   Language Dataset Comments
+    ##   <chr>    <chr>   <chr>   
+    ## 1 Manange  WOLD    <NA>    
+    ## 2 Manange  CLICS   <NA>
+
+``` r
+show_iso('Manange')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language ISO_code Phoible_code
+    ##   <chr>    <chr>    <chr>       
+    ## 1 Manange  nmm      nmm
+
+Trill : no  
+R\_type : no trill
+
+Dataset :  
+WOLD, no comments  
+CLICS, no comments
+
+Phoible :  
+<https://phoible.org/languages/mana1288>  
+\- PH ɾ allophones ɾ ʐ ɾ̥  
+\- EA ɾ pas d’allophones
+
+Hildebrandt, Kristine A. 2004. A Grammar and Dictionary of the Manange
+Language. In Genetti, Carol (ed.), Tibeto-Burman Languages of Nepal:
+Manange and Sherpa, 2–189. Canberra: Pacific Linguistics.  
+\- Page 25 : Tap ɾ  
+\- Page 27 : (2.5) \[lô\] ‘year’  
+\[ɾô\] ‘corpse’  
+For more discussion on the allophonic variation of /ɾ/, see §2.2.3.  
+\- Page 32 : Manange has an alveolar tap /ɾ/. There are three
+allophones, shown here:  
+(2.18) \[ʐ,ɾ̥,ɾ\]  
+/ɾ/ is commonly realised as \[ʐ\] when in word-initial position.
+Examples are given in (2.19):  
+\[examples\]  
+Despite the examples in (2.19), at this time it is unclear if \[ʐ\] is
+really an allophone of /¡/ or possibly a separate phoneme, which in this
+case would be the voiced retroflex fricative /ʐ/. Different
+pronunciations from different consultants have complicated the issue. On
+the one hand, my younger Kathmandu-based consultant, Eden, insists that
+the segment can be identified as a tap. On the other hand, my Tengki
+Manang consultant, while not able to provide her interpretation of what
+she thinks the segment is, always produces these words using the
+retroflex fricative \[ʐ\]. For her, the voiced retroflex fricative is a
+separate sound.  
+One piece of evidence pointing to \[ʐ\] as a separate phoneme would be
+the presence of minimal pairs. I have no minimal pairs which illus trate
+a contrast between \[ɾ\] and \[ʐ\]. Currently, the only minimal pair
+involving \[ʐ\] in my glossary is the following, transcribed
+phonetically: (2.20) \[ʐô\] ‘corpse’  
+\[ʂô\] ‘wheat’  
+\- Page 33 : This single set suggests the possibility of both a voiced
+and voiceless retroflex fricative series in Manange. Hoshi (1986a)
+transcribes the initial consonant of ‘wheat’ using a voiceless
+approximant (IPA \[ɾ̥\]), rather than a voiceless retroflex fricative.
+In this same glossary, another segmentally similar word roopʌ ‘friend
+(male)’ occurs with a voiced approximant (IPA \[ɹ\]), again suggesting a
+phonemic voicing distinction, but I have not been able to elicit this
+word. Since the number of forms that suggest that voicing is phonemic is
+extremely low (only this one minimal pair in my data), I will not posit
+an additional series of voiced fricatives. Rather, I will posit the
+initial consonant \[ʐ\] of ‘corpse’ as an allophonic variant of the tap
+/ɾ/. THis will preserve a voiceless-only obstruent inventory in the
+language, whereas positing a voiced phoneme /ʐ/ would create a severe
+asymmetry in the inventory, namely only one voiced obstruent phoneme.
+\[8\] Although the voiceless retroflex fricative /¥/ has a limited dis
+tribution, it occurs in word-initial position in common lexical items.
+Therefore, I currently treat it as a member of the Manange inventory and
+discuss it more in §2.2.4.  
+As opposed to its infrequent occurrence in word-final position, /ɾ/ is
+more common in C2 onset position. Example (2.21) shows a phonemic
+representation of occurrences of C2 /ɾ/:  
+(2.21) /2mɾe/ ‘door’ (I have also heard \[mʌ̂ɾe\] for ‘door’.)  
+/2pɾĩ/ ‘hit’  
+/1kɾʌ/ hair  
+/ɾ/ does not follow coronals. For more discussion on Manange syllable
+structure, see §2.4.  
+\- Page 34 : Perceptually, there is a slight devoicing of /ɾ/ when it
+follows a voiceless aspirated obstruent, \[examples\] suggesting the
+allophone \[ɾɯ\] \[=\> pas sûr de comprendre\], a devoiced version of
+/ɾ/. Other sonorant C2 onsets such as /l/ and /j/ also are commonly
+devoiced when following aspirated stops.  
+/ɾ/ also occurs in coda and word final position, as example (2.22)
+shows:  
+Turning to the phoneme /l/, it contrast with /ɾ/ in C2 onset position,
+as example (2.23) shows:  
+(2.23) \[pʰɾô\]  
+\[pʰlô\]  
+\- Page 49 : Manange permits three kinds of complex onsets in
+word-initial position. They are clusters formed with the glide /j/, the
+lateral /l/ and the tap /ɾ/ in C2 position.  
+/l/ occurs after bilabial C1 onsets only, while /ɾ/ and /j/ follow both
+bilabials and velars.  
+\- Page 50 : Word-medial complex onsets \[examples\]  
+Word-medial and word-final codas \[examples\]  
+Coda segments can be split into two types, those occurring word-medially
+and those occurring word-finally. With the exception of /n/, those codas
+which occur word-medially also occur in word-final position; /n/ occurs
+in word-medial coda position but is not found word-finally. The most
+frequently occurring coda segments are: /m, n, ŋ, ɾ, l/. Examples of
+these are found in (2.61): \[examples\]
+
+\[8\] Another possible account for the presence of voiced \[ʐ\] may lie
+in a tonal analysis of Manange. The word-initial retroflex fri cative in
+words that show a low-falling pitch (i.e., tone /4/ words) often sounds
+voiced, suggesting an interaction between tone category and apparent
+voicing on the initial consonant. However, this initial observation
+needs further examination before I can posit it as a systematic part of
+the tone system in Manange.
+
+Hildebrandt, Kristine Ann. 2003. Manange Tone: Scenarios of Retention
+and Loss in Two Communities (Nepal). Ann Arbor: UMI. (Doctoral
+dissertation, University of California, Santa Barbara; 409pp.)  
+\- Page 10 : Tap ɾ  
+\- Page 11 : Nasals and Alveolar Tap Minimal Pairs  
+Alveolar Nasal & Tap  
+2nʌ ‘sick’  
+1ɾʌ ‘goat’  
+\- Page 13 : There is some question as to the manner status of the tap
+consonant /ɾ/ in Manange. In some ways it patterns like other obstruents
+in Manange, in that it is always unvoiced in word-initial position and
+that it shows formant structure similar to other obstruents. However,
+tap patterns like other sonorants in the language in thatɾfrequently
+occurs in C2 onset position and also is frequently attested in the
+word-medial coda and in word-final positions, unlike most obstruents. In
+this study I treat /r/ as a sonorant.
+
+Hildebrandt, Kristine A. 2005. A phonetic analysis of Manange segmental
+and suprasegmental properties. Linguistics of the Tibeto-Burman Area 28.
+1–36.  
+\- Page 6 : Tap ɾ  
+\- Page 7 : The status of /ɾ/  
+One particularly interesting case of consonantal allophonic variation in
+Manange is that regarding the tap consonant /ɾ/. The tap has two
+allophones: a tap \[ɾ\] and a fricative with a varying post-alveolar or
+retroflex place of  
+articulation, which I will represent with the IPA symbol \[ʐ\].\[3\] The
+fricative occurs only in word-initial position, while the tap occurs in
+all other environments (i.e. in C2 onset, in word-medial onset and coda,
+and in word-final position). No other consonant in the inventory
+displays this type of allophonic alternation. Examples of the allophones
+for /ɾ/, in both phonemic and phonetic transcription, are given in
+Examples (1) and (2)  
+(1) Word-initial /ɾ/ = \[ʐ\]  
+/1ɾʌ/ \[ʐʌ1\] ‘goat’  
+/3ɾo/ \[ʐo2\] ‘friend’  
+/4ɾo/ \[ʐo4\] ‘corpse’  
+/2ɾu/ \[ʐu2\] ‘(animal) horn’  
+(2) Elsewhere /ɾ/ = \[ɾ\]  
+C2 onset  
+/2mɾe/ \[mɾe2\] ‘door’  
+/3pɾi/ \[pɾi3\] ‘write’  
+/2nokɾe/ \[no2.kɾe\] ‘bone’  
+Word-medial, syllable initial  
+/3toɾe/ \[to3.ɾe4\] ‘graveyard’  
+/1nɑɾɑŋ/ \[nɑ1.ɾɑŋ1\] ‘before’  
+Syllable or word final  
+/1tʌɾkja/ \[tʌɾ1.kja1\] ‘white’  
+/1kʌɾtẽ/ \[kʌɾ1.tẽ\] ‘knife’  
+/4kʰjokoɾ/ \[kʰjo4.koɾ4\] ‘old animated’  
+/2sʌɾ/ \[sʌɾ2\] ‘star’  
+\- Page 8 : In addition to illustrating the environments of allophonic
+variation, these examples also show that the variation occurs
+independent of tonal influence, as the two allophones may occur in words
+of all four tone categories.  
+Figures 2 through 4 illustrate spectrograms of /ɾ/ in three positions in
+three native words: word-initially in the noun /1ɾʌ/ ‘goat’, in C2 onset
+position in the verb root /1kɾa/ ‘cry’, and in word-final position in
+the noun /2sʌɾ/ ‘star’. These words are recorded from Speaker 1. The
+spectrograms all have a broad bandwidth (172 Hz./128 pts.), and the
+formant search range was set at 5500 Hz. for the three female speakers,
+and at 5000 for the one male speaker.  
+\- Page 10 : There is an epenthetic schwa /ə/ between the first and
+second onset in ‘cry’. It is variably present.  
+\- Page 11 : In Figure 1 the weak formant bands illustrate the structure
+of an initial, voiced, fricative, not a tap. In Figures 2 and 3 the
+formant bands lower before the single point of contact between the
+tongue and the roof of the mouth, indicating a tap. In Figure 3, the tap
+in /2sʌɾ/ ‘star’ is word-final and so it tends to be realized as simply
+a devoiced segment.  
+The tap also surfaces when in initial position at a morpheme boundary,
+as long as it is still within the phonological word. Figure 5
+illustrates a spectrogram of the locational noun plus locative enclitic
+/2pʰi=ɾi/ ‘upwards’.  
+\- Page 12 : Case enclitics like locative =ɾi in Manange display some
+selectional freedom in the hosts to which they can attach (e.g. nouns
+and simple adjectives); however, they are always phonologically bound,
+as evidenced by optional vowel harmony with the stem vowel. In Figure 4
+there is a slight drop in the frequency of the F2 just before the tap,
+and then a dramatic loss of  
+energy with the single point of contact. Thus, the surface realization
+of the /ɾ/ as a tap in this morphologically complex form suggests that
+the relevant environment for the appearance of the other allophone is
+the start of the phonological word, and not the syllable. \[7\]
+(Possibly another allophone of the tap is a slightly devoiced variant,
+at word-final edge). Therefore, I treat the fricative \[ʐ\] as an
+allophone of the tap /ɾ/, which only occurs in word-initial position.
+The tap occurs ‘elsewhere.’
+
+\[3\] There is no true rhotic approximant in Manange, either contrastive
+or allophonic. In Hildebrandt (2003) I suggested that the tap may have
+an approximant allophone \[ɹ\]. Upon further investigation, it appears
+that the phonetic represent ation is more accurately identified as a
+tap.
+
+\[6\] A reviewer has noted that the tap in Figure 5 appears as a
+voiceless segment and looks long enough to be considered a full-fl edged
+stop with a burst.
+
+\[7\] I do not have acoustic data for a consonant series of
+morpheme-final tap before another tap, as in a noun plus indefinite or
+locative clitic 2sʌɾ=ɾi ‘a star’ or ‘to a star’, but there is no
+gemination detected in pronunciations of words like this, suggesting
+that one of the consonants is not realized. Such a dispreference for
+geminates is expected, as the only geminate occurs in a quantifier
+borrowed from Nepali: 2kʌtti ‘very, many, too many’ (listed as an
+emphatic in Turner 1931). Inci dent ally, this word in Nepali does not
+have a geminate alveolar plosive. Gemination here may have an emphatic
+function.
+
+Wikipedia :  
+<https://en.wikipedia.org/wiki/Manang_language>  
+\- Flap ɾ
+
+Glottologue :  
+<https://glottolog.org/resource/languoid/id/mana1288>
+
+Autres sources :  
+<https://clics.clld.org/languages/wold-Manange>  
+Recherches : r -\> 214 entries (filtered from 1,123 total entries)  
+l -\> 204 entries (filtered from 1,123 total entries)
+
+``` r
+show_lang('Manange')$Form
+```
+
+    ## [1] "tʃã"
+
+On laisse en ‘other’ mais on pourrait penser que phonémiquement c’est un
+trill.
+
+``` r
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Manange",'other',revision))
+```
+
+### Yaqui
+
+``` r
+show_lang('Yaqui')
+```
+
+    ## # A tibble: 2 × 6
+    ##   Language Dataset Meaning Form         Trill R_type  
+    ##   <chr>    <chr>   <chr>   <chr>        <chr> <chr>   
+    ## 1 Yaqui    CLICS   smooth  chitabetalai no    no trill
+    ## 2 Yaqui    CLICS   rough   sosoko       no    no trill
+
+``` r
+show_comments('Yaqui')
+```
+
+    ## # A tibble: 2 × 3
+    ##   Language Dataset Comments
+    ##   <chr>    <chr>   <chr>   
+    ## 1 Yaqui    WOLD    <NA>    
+    ## 2 Yaqui    CLICS   <NA>
+
+``` r
+show_iso('Yaqui')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language ISO_code Phoible_code
+    ##   <chr>    <chr>    <chr>       
+    ## 1 Yaqui    yaq      yaq
+
+Trill : no  
+R\_type : no trill
+
+Dataset :  
+CLICS, no comments  
+WOLD, no comments
+
+Phoible :  
+<https://phoible.org/inventories/view/629>  
+\- ɾ pas d’allophones
+
+Johnson, Jean B. 1962. El idioma yaqui. (Departamento de Investigaciones
+Antropologicas, Publicaciones, 10.) Mexico: Instituto Nacional de
+Antropologia e Historia. -\> Pas trouvé
+
+Crumrine, L. S. 1961. The Phonology of Arizona Yaqui. (Anthropological
+Papers of the University of Arizona.) Tucson: University of Arizona.  
+\- Page 3 : The consonant phonemes are /r/ (Table 1).  
+Table 1. Approximante Values of Consonant ALlophones Except /w/ and
+/y/  
+FLAPS voiced r  
+The remaining phonemes have relatively narrow allophonic variations:
+/r/  
+\- Page 4 : 2.11 Voiced liquids are apico-alveolar flap /r/ and alveolar
+lateral /l/. In initial position the flap has a schwa onset.  
+\- Page 8 : Table 3. Double consonant Clusters  
+rt  
+rb  
+rs  
+lr  
+kr  
+dr
+
+Wikipedia :  
+<https://en.wikipedia.org/wiki/Yaqui_language>  
+\- Tap ɾ  
+\- In the IPA, they are respectively /b t͡ʃ (d) (f) (ɡ) h k l m n p ɾ s
+t β w j/.  
+\- Also, “d”, “f”, and “g” are present only in English and Spanish
+loanwords and are substituted with the native sounds “t”/“r”/“l”, “p”,
+and “w”/“k”, respectively.  
+\- Sound symbolism  
+Sound symbolism is present in Yaqui.\[citation needed\] For example, a
+word with the phoneme /l/ in it may be pronounced normally, to denote
+approval from the speaker, or with /r/ replacing the /l/, to denote
+disapproval or disfavor on the part of the speaker. Either form is
+correct.
+
+Glottologue :  
+<https://glottolog.org/resource/languoid/id/yaqu1251>
+
+Mason, J. Alden. 1923. Preliminary Sketch of the Yaqui Language.
+(University of California Publications in American Archaeology and
+Ethnology, 20.) In Mason, John Alden (ed.) Berkeley and Los Angeles:
+University of California Press. 195-214pp.  
+\- Page 197 : The primary consonants of Yaqui appear to be w, y, m, n,
+1, possibly r, s, v, h, probably bw, p, t, k, and tc.  
+\- Page 198 : l is relatively common is Yaqui and appears to be
+independent of phonetic rules. Two instances of voiceless ʟ were
+recorded. The writer never confused l with r, but once wrote a
+questionable l-n sound.  
+r certainly exists as a sound phonetically independent of l, though it
+may be not primary, nor so frequent. The writer recorded r three times
+in his short notes, in each case being corroborated by Velasco’s
+rendering. The latter states that in some words l and r are
+interchangeable and pronounced differently by different persons (i. e.,
+intermediate?), while in other words the sounds must be distinguished,
+as alanoca, speak well and aranoca, be able to speak.  
+\- Page 199 : The reasons for giving r a place in Yaqui apart from l
+have been stated already. In practically all Uto-Aztekan languages l and
+r are closely related and only one original sound is posited for
+Uto-Aztekan. Worthy of consideration, however, is the large number of
+languages in which observers have written both l and r (Tepehuane,
+Tepecano, Cora), as well as those which distinguish r and rh (Lower Pima
+and Heve). More striking yet is the fact that Papago has two very
+variant reflexes of Tepecano r: l, which was frequently recorded as r by
+the writer, and t. . Unless these very varying reflexes can be
+explained  
+on phonetic grounds, it may be necessary to posit two precursors for
+them in Uto-Aztekan.
+
+Dedrick, John M. and Casad, Eugene M. 1999. Sonora Yaqui language
+structures. Tucson, Ariz.: University of Arizona. xxiii+411pp.  
+<https://www.google.fr/books/edition/Sonora_Yaqui_Language_Structures/_5IlEAAAQBAJ?hl=fr&gbpv=1&dq=Sonora+Yaqui+Language+Structures&printsec=frontcover>  
+\- Page 21 : Flap r  
+The alveolars /t,n,s,l,r/ contrast as follows in both word initial and
+word medial positions:  
+Initial Medial  
+ro’i ‘crippled’ tu’ure ‘to like’  
+\- Page 23 : The liquid /r/ occurs only as a single flap.  
+rihu’utiam \[řihu’utiam\] rattles  
+kari \[kaři\] house  
+\- Page 30 : Dropping intervocalic /l/ and /r/  
+Yaqui has a marker tendency to drop intervocalic /l/ and /r/, whereas
+Mayo tends to retain them. Thus Yaqui boohtia to have diarrhea
+corresponds to Mayo borohtia, Yaqui ’aa to be able to corresponds to May
+’ara, and the Yaqui desiderative verbal suffix -bae coresponds to the
+Mayo form -baare.  
+In the examples that follow, the first form is the one most commonly
+used in Yaqui, although the seconf form is heard occasionally:  
+baai/baali fresh, cool  
+sae’eciam/sare’eciam lungs  
+In a few instances, Yaqui shows a three way contrast between the
+versions: that without any form of the laryngeal, that with intervocalic
+/l/, and that with intervocalic /r/.  
+sikii/sikili/sikiri red  
+cukui/cukuli/cukuri black
+
+Autres sources :  
+<https://clics.clld.org/languages/wold-Yaqui>  
+Recherches : r -\> 290 entries (filtered from 1,608 total entries)  
+l -\> 216 entries (filtered from 1,608 total entries)
+
+``` r
+show_lang('Yaqui')$Form
+```
+
+    ## [1] "chitabetalai" "sosoko"
+
+``` r
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Yaqui",'other',revision))
+```
+
+### Otomi
+
+``` r
+show_lang('Otomi')
+```
+
+    ## # A tibble: 2 × 6
+    ##   Language Dataset Meaning Form       Trill R_type  
+    ##   <chr>    <chr>   <chr>   <chr>      <chr> <chr>   
+    ## 1 Otomi    CLICS   smooth  xi_nts'u̲ki no    no trill
+    ## 2 Otomi    CLICS   rough   xi_nzadi   no    no trill
+
+``` r
+show_comments('Otomi')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language Dataset Comments
+    ##   <chr>    <chr>   <chr>   
+    ## 1 Otomi    CLICS   <NA>
+
+``` r
+show_iso('Otomi')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language ISO_code Phoible_code
+    ##   <chr>    <chr>    <chr>       
+    ## 1 Otomi    ote      ote
+
+Trill : no  
+R\_type : no trill
+
+Dataset :  
+CLICS, no comments
+
+Phoible :  
+<https://phoible.org/inventories/view/97>  
+\- ɾ allophones ɾ
+
+Blight, Richard C. and Pike, Eunice V. 1976. The Phonology of Tenango
+Otomi. International Journal of American Linguistics 42. 51–57.  
+\- Page 51 : flap /r/  
+The flap /r/ occurs in a few morphemes only, but it occurs frequently
+because of the morphemes ra- the, rà- this, gra- you are (gra’su you are
+a grandmother), dra- I am (dra’su I am a grandmother). The /r/ also
+occurs in a few other morphomes, for example: ’barga lizard, ’nerbe
+partridge, ’borto button, ’pardo reddish brown mixture, di’borpi he
+changes it, i’sorbi it is in vain, bi’gorbi it’s laying inside.
+
+Wikipedia :  
+<https://en.wikipedia.org/wiki/Otomi_language>  
+\- Liquid rhotic r\~ɾ
+
+Glottologue :  
+<https://glottolog.org/resource/languoid/id/mezq1235>
+
+Du noeud soeur:  
+Enrique Palancar. 2009. Gramática y Textos del Hñöñhö: Otomí de San
+Ildefonso Tultepec, Queretaro. Mexico City: Plaza y Valdés.
+xxiii+577+iv+146pp. (2 vols.)  
+\- Page 20 : Flap ɾ  
+Trino (ing. trill) r
+
+``` 
+          Todos los sonidos son nativos de la lengua salvo la vibrante múltiple /r/, que denominaremos aquí como “trino” (inglés trill), que aparece solamente con préstamos del español (p.ej. ar̃o ‘arroz’) y en el prefijo intensivo de verbos y  
+```
+
+sustantivos que expresan propiedades \[ra\] <r̃a-> ‘muy’ (ver 3.5.4.,
+7.2, §582).  
+La líquida \[l\] es prácticamente de un rendimiento fonológico nulo. Se
+encuentra solamente en palabras nativas del lenguaje infantil (ver
+3.5.5).  
+\- Page 21 : El único lugar en donde este trabajo se aleja de la
+convención es emplear <r̃> para representar el trino /r/.  
+\- Page 26 : 3.5.4. Vibrantes. La vibrante flap /ɾ/ tiene muy bajo
+rendimiento, pero aparece en morfemas gramaticales que son de altísima
+frecuencia. En inicio de secuencia solamente aparece en el marcador de
+2a persona posesivo /ɾi/ <ri> ‘tu’. Suele ocurrir, sin embargo, en final
+de secuencia. La vibrante trino /r/ no es nativa de la lengua. Aparece
+solamente con préstamos del español y en el prefijo intensivo de verbos
+que expresan propiedades /ra/ \[ra\] <r̃a-> ‘muy’ que procede de un
+antiguo marcador estativo de 3a persona /ɾa/ \[ɾa\] reanalizado en la
+lengua como intensivo bajo la influencia del prefijo español /re/ \[re\]
+<re-> como en re-grande.  
+(6) /ɾ/ \[ɾ\] ri ‘tu’  
+ar determinante de singular  
+/r/ \[r\] r̃a.nt’a.xi ‘es muy blanco’  
+ka.r̃o ‘carro’
+
+``` 
+          3.5.5. Líquidas. La lateral alveolar /l/ tiene un rendimiento fonológico casi nulo ya que se encuentra solamente en un par de palabras nativas procedentes del lenguaje infantil como /'lɛ.lɛ/ <lele> ‘bebé’ o /'lo.lo/ <lolo> ‘fruta/juguete’ que  
+```
+
+son además reduplicaciones. También se emplea esporádicamente en
+pronunciaciones infantiles substitutas de la combinación consonántica
+\[ʔɾ\], del tipo \[bi.’laʰ.ka.gi\] por \[bi.’ʔɾaʰ.ka.gi\]
+\<bi’raʰkagi\> ‘me lo dio’
+
+Autres sources :  
+<https://clics.clld.org/languages/wold-Otomi>  
+Recherches : r -\> 158 entries (filtered from 2,556 total entries)  
+l -\> 80 entries (filtered from 2,556 total entries)  
+rr -\> 7 entries (filtered from 2,556 total entries)
+
+``` r
+show_lang('Otomi')$Form
+```
+
+    ## [1] "xi_nts'u̲ki" "xi_nzadi"
+
+Même s’il y a aussi de trills, comme ils ne sont pas natifs, on ne garde
+que ‘other’.
+
+``` r
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Otomi",'other',revision))
+```
+
+### Irarutu
+
+``` r
+show_lang('Irarutu')
+```
+
+    ## # A tibble: 2 × 6
+    ##   Language Dataset Meaning Form          Trill R_type  
+    ##   <chr>    <chr>   <chr>   <chr>         <chr> <chr>   
+    ## 1 Irarutu  CLICS   smooth  səruidənə     no    no trill
+    ## 2 Irarutu  CLICS   rough   nətəɸəti_ɸərə no    no trill
+
+``` r
+show_comments('Irarutu')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language Dataset Comments
+    ##   <chr>    <chr>   <chr>   
+    ## 1 Irarutu  CLICS   <NA>
+
+``` r
+show_iso('Irarutu')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language ISO_code Phoible_code
+    ##   <chr>    <chr>    <chr>       
+    ## 1 Irarutu  irh      irh
+
+Trill : no  
+R\_type : no trill
+
+Dataset :  
+CLICS, no comments
+
+Phoible :  
+<https://phoible.org/inventories/view/369>  
+\- ɾ̪|ɾ pas d’allophones
+
+Voorhoeve, Clemens L. 1989. Notes on Irarutu (An Austronesian Language
+Spoken in the Centre of the Bomberai Peninsula, Southwest Irian Jaya).
+IRIAN 17. 107–119. -\> Pas trouvé  
+\- Page 109 : r  
+\- Page 110 : /r/ : a flapped vibrant. In word-initial position often
+preceded by a weak vocalic onset: \[^{ə}ř\]. A trilled vibrant \[r̃\]
+also occurs but only as an alternative realization of \[řəř\] = /rr/.
+In word-final position /r/ can be unvoiced: \[ř \~ Ř\].  
+The only sequences of two consonant phonemes which do not require the
+presence of the consonant separator ə are those consisting of a voiced
+or /f/, and /r/ : /br, dr, gr, fr/.  
+As mentioned above the sequence /rr/ can be realized as \[rər\] and as
+\[r\].
+
+Wikipedia :  
+<https://en.wikipedia.org/wiki/Irarutu_language>  
+\- Flaps r  
+\- /r/ is found in most Irarutu dialects, but is sometimes switched out
+with \[l\].
+
+Jackson, Jason Alexander Johann (2014). A Grammar of Irarutu, A language
+of West Papua, Indonesia, With Historical Analysis (Ph.D. thesis).
+University of Hawaii at Manoa. hdl:10125/100426.  
+\- Page 43 : Tap/trill /r/  
+/r/ can be a non-lateral approximant or a tap.  
+\- Page 48 : Interestingly, there are a few recorded instances in the
+literature within the past hundred years where /d/ varies with the
+rhotic /r/, for example duguin \~ rungguin ‘head’ (Anceaux 1961, Smits
+and Voorhoeve 1992). Unfortunately, the specifics of this variation are
+not clear. Examples of this segment in contrast with the voiced stops
+/ɟ, g/, the nasal /n/, and the /r/ are provided below.  
+d : r  
+\[^{n}dir\] ‘good’ : \[rir\] ‘seed’  
+\- Page 50 : n : r  
+\[nut\] ‘pierce/stab’ : \[rut\] ‘sound’  
+\[mbin\] ‘land’ : \[mbir\] ‘canoe’  
+\[m ̩ ’.ŋgan\] ‘hollow’ : \[m ̩ ’.ŋgar\] ‘dig’  
+2.1.1.4 Rhotic  
+The Irarutu consonant /r/ contrasts with the phonemic glide /w/.
+Speakers of Irarutu report that certain dialects have a lateral /l/
+instead of /r/; and, Matsumura and Matsumura (1991) report that in
+Northeast Arguni dialect, /l/ is an allophone of /r/ in certain
+contexts. The segment occurs in initial \[ru\] ‘two’, medial \[irary\]
+‘language’, and final \[mbir\]  
+‘canoe’ position. It contrasts in manner with /d, n/. Examples of
+contrast between /r/ and /d/ are provided in the description of /d/, and
+examples of /r/ versus /n/ are given in the description of /n/. There is
+one example where \[r\] appears to contrast with \[j\] (‘male headdress’
+versus ‘month’), but this is not exactly an appropriate comparison.  
+r : j  
+\[srem.bro\] ‘male headdress’ : \[sjem.ba\] ‘month’  
+\- Page 56 : There are two approximants in Irarutu, /r/, and /w/. /r/, a
+non-lateral, is usually articulated as a rhotic /ɹ/ or tap \[ɾ\], but in
+some contexts, it can become a trill. Approximants are the most sonorous
+type of consonant. \[+approximant\] segments are /w, r/.  
+\- Page 59 : 2.3.1.3 Trilling and rhotic deletion  
+Sequences of two \[+cor +approx\] segments optionally merge as a trill
+\[r\], represented here as \[r̩\]. /r/ is generally the first element in
+clusters only with another rhotic, as in /rre/  
+\[r^{ә}re\] (careful speech) vs. \[r̩.e\] (casual speech) ‘day’, but can
+follow a range of  
+consonants, such as /krru/ \[kr^{ә}ru \~ kr̩.’u\] ‘thunder’, /frro/
+\[fr^{ə}ro \~ fr̩.’o\] ‘run’, /mrro/ \[mr^{ә}ro \~ mr̩.’o\] ‘long’.  
+Trilling is also supported by dialect variation. Matsumura (1991)
+reports that the East Arguni dialect has changed /rr/ to \[l\] in
+certain contexts; but notably, the same environments sometimes do not
+yield \[l\]. Matsumura does not cite \[i.lu.tu\], only \[i.ra.ru.tu\]
+‘Irarutu’; however, Anceaux (1961) does cite the form ‘irutu’. Native
+speakers who were consulted for the present description only supported
+the form \[ir^{ә}.ry.’ty\], but \[i.r̩.y.’ty\] is supported by the trill
+allophony in the Fruata dialect. Trilling does not appear to to arise
+from morpheme combination.  
+However, /r/ is always deletes before /m/ in the forms /m-ar-ma/
+‘you-take-come’ \[ma.’ma\], \*\[mar.’ma\], and /m-ar-mri/
+‘you-take-go.into’ \[ma.’mri\].  
+\- Page 60 : Schwa epenthesis  
+As mentioned in the description of consonant release features above, to
+emphasize a consonant in Irarutu, whether it is voiced or voiceless,
+slow speech tempo enhances vocalic release, which can derive from
+aspiration in voiceless obstruents, attains syllabic status (C^{ә} -\>
+Cә), as in /tru/ ‘egg’ \[tʰru \~ t^{ә}ru\] (casual speech) versus
+\[tə.’ru\] (careful  
+speech) and therefore under the right conditions it can appear to
+function as the nucleus of its own syllable.  
+\- Page 66 : TABLE 2.4 – Initial two-member consonant clusters.  
+rg  
+rb  
+r  
+tr  
+kr  
+fr  
+sr  
+br  
+dr  
+mr  
+nr  
+rr  
+\- Page 69 : TABLE 2.6 – Medial consonant clusters -CC-.  
+\- Page 71 : TABLE 2.7 – Final consonant clusters.
+
+Glottologue :  
+<https://glottolog.org/resource/languoid/id/irar1238>
+
+Autres sources :  
+<https://clics.clld.org/languages/lexirumah-irar1238>  
+Recherches : r -\> 217 entries (filtered from 449 total entries)  
+l -\> 2 entries (filtered from 449 total entries) \[narə\_pəlad͡ʒaran
+‘teach’, nudə\_pəlad͡ʒaran ‘learn’\]
+
+``` r
+show_lang('Irarutu')$Form
+```
+
+    ## [1] "səruidənə"     "nətəɸəti_ɸərə"
+
+Je prends la décision de laisser en ‘other’ même si on pourrait penser à
+un trill.
+
+``` r
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Irarutu",'other',revision))
+```
+
+### Moskona
+
+``` r
+show_lang('Moskona')
+```
+
+    ## # A tibble: 1 × 6
+    ##   Language Dataset Meaning Form    Trill R_type  
+    ##   <chr>    <chr>   <chr>   <chr>   <chr> <chr>   
+    ## 1 Moskona  CLICS   smooth  ejwaɾsa no    no trill
+
+``` r
+show_comments('Moskona')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language Dataset Comments                                                     
+    ##   <chr>    <chr>   <chr>                                                        
+    ## 1 Moskona  CLICS   Gravelle, Gloria (2010). A Grammar of Moskona: An East Bird'…
+
+``` r
+show_iso('Moskona')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language ISO_code Phoible_code
+    ##   <chr>    <chr>    <chr>       
+    ## 1 Moskona  mtj      <NA>
+
+Trill : no  
+R\_type : no trill
+
+Dataset :  
+CLICS, Gravelle, Gloria (2010). A Grammar of Moskona: An East Bird’s
+Head Language of West Papua, Indonesia (PhD). Vrije Universiteit
+Amsterdam. hdl:1871/15730
+
+Phoible : NA
+
+Wikipedia :  
+<https://en.wikipedia.org/wiki/Moskona_language>
+
+Glottologue :  
+<https://glottolog.org/resource/languoid/id/mosk1236>
+
+Gloria Gravelle. 2010. A Grammar of Moskona: An East Bird’s Head
+Language of West Papua, Indonesia. (Doctoral dissertation, Vrije
+Universiteit Amsterdam; 599pp.)  
+\- Page 15 : the flap /ɾ/ as /r/  
+\- Page 16 : Flap r \[ɾ\] \[ɾ̥\]  
+\- Page 22 : Flap  
+/r/  
+The voiced alveolar flap /r/, which occurs in onset and coda positions,
+is realized as voiceless alveolar flap \[ɾ̥\] contiguous to voiceless
+consonants and word finally and as the voiced alveolar flap \[ɾ\] in all
+other environments. The voiced lateral approximant \[l\] has been
+observed to occur in variation with \[ɾ\] intervocalically, but only
+rarely, and so is not included as an allophone of /r/.  
+\[ɾud\] /rud/ ‘against’  
+\[ɾáxu\] /ráhu/ ‘long time’  
+\[ɛ́ɾa\] /éra/ ‘NEG’  
+\[ɛ́bɾi\] /ébri/ ‘crack’  
+\[ɛsɛtɛɾ̥\] /eséter/ ‘much more’  
+\[ɛɸɛ́mbɾa\] /efémbra/ ‘flank’  
+\[ɛ́tɾ̥ɛt\] /étret/ ‘annoy’  
+\[amókɛra\] /amókera/ ‘friend-PL’  
+\[ɛbiɾóɾ̥xa\] \~ \[ɛβiɾóɾ̥xa\] /ebirórha/ ‘skull’  
+\[igɛ́ɾ̥sa\] /igérsa/ ‘male (animal)’  
+\- Page 24 : Consonantal oppositions  
+(22) /t/ vs /r/  
+or ‘hold’  
+ot ‘wash’  
+roga ‘first’  
+toga ‘different(ly)’  
+oroh ‘CAUS-sink down’  
+otoh ‘wide’  
+mesta ‘moon’  
+mesra ‘walnut tree’  
+(23) /d/ vs /r/  
+era ‘THM’  
+eda ‘then’  
+esed ‘grab’  
+eser ‘pass by’  
+dudu ‘1SG-tell’  
+rudud ‘by’  
+ofra ‘lift’  
+ofda ‘arrive’  
+\- Page 75 : Table 2.11 Adapted nouns  
+Moskona Malay  
+heri ‘helicopter’ heli ‘helicopter’  
+\- Page 76 : Phonemic representation: /r/  
+Allophonic representation: \[ɾ,ɾ̻\]  
+Orthographic representation: r
+
+Autres sources :  
+<https://clics.clld.org/languages/lexirumah-mosk1236>  
+Recherches : r -\> 83 entries (filtered from 355 total entries)  
+l -\> 0 entries (filtered from 355 total entries)  
+Form in source:  
+r -\> 1 entries (filtered from 355 total entries) \[ara ‘God’\]  
+ɾ -\> 82 entries (filtered from 355 total entries)
+
+``` r
+show_lang('Moskona')$Form
+```
+
+    ## [1] "ejwaɾsa"
+
+``` r
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Moskona",'other',revision))
+```
+
+### Haitian Creole
+
+``` r
+show_lang('Haitian Creole')
+```
+
+    ## # A tibble: 1 × 6
+    ##   Language       Dataset Meaning Form    Trill R_type
+    ##   <chr>          <chr>   <chr>   <chr>   <chr> <chr> 
+    ## 1 Haitian Creole Google  rough   ki graj no    <NA>
+
+``` r
+show_comments('Haitian Creole')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language       Dataset Comments                                  
+    ##   <chr>          <chr>   <chr>                                     
+    ## 1 Haitian Creole Google  voiced velar fricative; based on wikipedia
+
+``` r
+show_iso('Haitian Creole')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language       ISO_code Phoible_code
+    ##   <chr>          <chr>    <chr>       
+    ## 1 Haitian Creole hat      hat
+
+Trill : no  
+R\_type : NA
+
+Dataset :  
+Google, voiced velar fricative; based on wikipedia
+
+Phoible : NA
+
+Wikipedia :  
+<https://en.wikipedia.org/wiki/Haitian_Creole>  
+\- Haitian orthography: r IPA: ɣ Examples: rezon English approximation:
+between go and loch
+
+<https://en.wikipedia.org/wiki/Haitian_Creole>
+
+Glottologue :  
+<https://glottolog.org/resource/languoid/id/hait1244>
+
+Autres sources :  
+<https://apics-online.info/contributions/49>  
+\- Haitian Creole is a French-based creole
+
+<https://apics-online.info/surveys/49>  
+\- fricative voiced ɣ <r>
+
+Notes avant mise au propre :
+
+<https://en.wikipedia.org/wiki/Haitian_Creole#Orthography>  
+THE ‘’REAL’’ HAITIAN CREOLE: METALINGUISTICS AND ORTHOGRAPHIC CHOICE’
+Bambi B. Schiefferin& Racheile charrier Doucet -\> parcouru très
+rapidement mais pas de mention de trill mais bien d’une autre rhotique
+
+Creole ʁ?
+
+I edited the IPA so that it represents the French uvular /ʁ/ more
+accuately, but is the r for Haitian Creole an alveolar trill or is it
+also uvular? — Preceding unsigned comment added by Aeusoes1 (talk •
+contribs) 01:05, 5 September 2005 (UTC)
+
+I don’t believe it exists. I have never heard Haitian Creole spoken with
+an uvular trill and I’ve toured the country extensively. In fact, I
+believe it is one of those things that, to the average Haitian, sounds
+“Frenchy” and therefore snobbish/condescending. Braidedheadman 18:09,
+17 December 2006 (UTC)
+
+It does existe in creole as well do the french sounds (oe, eu etc.)
+people forget there is more than one way to pronounce things in creole.
+Accents vary in Haiti so not everyone pronounces everything the same. —
+Preceding unsigned comment added by 74.104.104.54 (talk • contribs)
+18:53, 26 February 2010 (UTC)
+
+This is true. I also have noticed it is more heard upon emphasis in the
+speaker; such as a point trying to be made. Savvyjack23 (talk) 07:52, 8
+February 2017 (UTC)
+
+r: \[ ʁ \], como la r francesa.
+
+``` r
+show_lang('Haitian Creole')$Form
+```
+
+    ## [1] "ki graj"
+
+On peut se poser la question de pourquoi ‘other’ et pas finalement
+‘trilled’ car on pourrait considérer qu’il s’agit d’une langue
+indo-européenne (et c’est ce qu’on retouve sur Glottolog où le Haitian
+est dans la famille IE).  
+Phonétiquement, ce n’est pas un trill ? Mais phonologiquement, c’est
+quoi ?
+
+Je peux donc hésiter enter ‘other’, ‘trilled’ ou même ‘OUT’.
+
+UPDATE AU 03/05/22 :  
+Je change le ‘TO DECIDE’ en ‘OUT’.
+
+``` r
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Haitian Creole",'OUT',revision))
+```
+
+### Uzbek
+
+``` r
+show_lang('Uzbek')
+```
+
+    ## # A tibble: 2 × 6
+    ##   Language Dataset Meaning Form       Trill R_type  
+    ##   <chr>    <chr>   <chr>   <chr>      <chr> <chr>   
+    ## 1 Uzbek    Google  rough   qo&#39;pol no    no trill
+    ## 2 Uzbek    Google  smooth  silliq     no    no trill
+
+``` r
+show_comments('Uzbek')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language Dataset Comments               
+    ##   <chr>    <chr>   <chr>                  
+    ## 1 Uzbek    Google  voiced uvular fricative
+
+``` r
+show_iso('Uzbek')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language ISO_code Phoible_code
+    ##   <chr>    <chr>    <chr>       
+    ## 1 Uzbek    uzb      uzn
+
+Trill : no  
+R\_type : no trill
+
+Dataset :  
+Google, voiced uvular fricative
+
+Phoible :  
+<https://phoible.org/inventories/view/603>  
+\- ɾ pas d’allophones
+
+Sjoberg, Andrée F. 1963. Uzbek Structural Grammar. (Uralic and Altaic
+Series, 18.) Bloomington: Indiana University Press.  
+\- Page 8 : The following segmental phonemes appear in the formal,
+standard variety of the Tashkent dialect: /r/  
+Sonants Non-nasals r  
+\- Page 13 : /r/ \[r\] Dentoalveolar single-flap sonant. Slightly
+palatalized when both non-geminate and next to front vowel allophones
+(excepting ä) \[ǧurrä\] ‘bump, knob’, \[erk\] ‘freedom’; \[keräk’\]
+‘necessary.’  
+\- Page 21 : Colloquial style  
+This is the speech-style of educated persons which is more rapid and
+relaxed than the formal standard we have described.  
+In a few sequences an extra consonant appears: /dɔira/ \> /dɔyira \~
+dɔrra/ ‘circle’  
+\- Page 41 : Any consonant phoneme but /f, z, x, g, h, ts, c, j, n/ may
+occur geminately and, as such may contrast with itself - \[examples =\>
+mais aucun avec rr\]. However, in quite rapid formal discourse, geminate
+consonants tend to be reduced to single units.  
+All geminate consonants and vowel clusters are spread over two
+syllables.  
+\- Page 47 : Regressive assimiltion in terms of point and/or manner of
+articulation  
+The following show a concomitant change in voicing  
+/bir/ ‘one, a’ + /-ta/ \> /bitta/ ‘one (item)’  
+\- Page 50 : Epenthetic vowel  
+Before a suffix with initial consonant, /i/ or /u/ is inserted after or
+between the last two components of a stem final consonant cluster
+consisting of: 1. any consonant but /w, y/, plus a nasal or /l, r/, or
+2. a nasal followed by a non-homorganic consonant.  
+/tsilindr/ ‘cylinder’ + /-da/ \> /tsilindirda/ ‘in the cylinder’  
+/ɸikr/ ‘thought, idea/ + /-dan/ \> /ɸikridan/ ’from the thought, idea’  
+/sintyabr/ ‘September’ + /-da/ \> /sintyabirda/ ‘in September’  
+\- Page 53 : Stem-final /t,d/, preceded by a nasal /or /r,y/, is often
+lost before a suffix-initial /d/ - sometimes after changin the latter to
+/t/. /mart/ ‘March’ + /-da/ \> /marta/ ‘in March’
+
+Sjobgeerg, Andrée F. 1962. The Phonology of Standard Uzbek. In Poppe,
+Nicholas (ed.), American Studies in Altaic Linguistics, 237–262.
+Bloomington: Indiana University Press. -\> Pas trouvé
+
+Wikipedia :  
+<https://en.wikipedia.org/wiki/Uzbek_language>  
+\- Rhotic ɾ
+
+Glottologue :  
+<https://glottolog.org/resource/languoid/id/nort2690>
+
+Hendrik Boeschoten. 1998. Uzbek. In Lars Johanson and Éva Csató-Johanson
+(eds.), The Turkic Languages, 357-378. London & New York: Routledge.  
+\- Page 359 : liquid r
+
+Autres sources :  
+CLICS -\> Northern Uzbek  
+<https://clics.clld.org/languages/northeuralex-uzn>  
+Recherches : r -\> 289 entries (filtered from 962 total entries)  
+l -\> 258 entries (filtered from 962 total entries)  
+rr -\> 0 entries (filtered from 962 total entries)
+
+Notes avant mise au propre :
+
+Commantaire : voiced uvular fricative
+
+qo'pol -\> qo’pol  
+silliq
+
+Et dans Phoible c’est UPSID : mais c’est un tap or flap Sjoberg 1963
+Sjoberg 1962
+
+``` r
+show_lang('Uzbek')$Form
+```
+
+    ## [1] "qo&#39;pol" "silliq"
+
+Je ne sais pas d’où il sorte que c’est une voiced uvular fricative c’est
+la rhotique. Ils n’ont pas regardé la bonne rhotique.
+
+``` r
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Uzbek",'other',revision))
+```
+
+### Guugu-Yimidhirr
+
+``` r
+show_lang('Guugu-Yimidhirr')
+```
+
+    ## # A tibble: 2 × 6
+    ##   Language        Dataset Meaning Form   Trill R_type
+    ##   <chr>           <chr>   <chr>   <chr>  <chr> <chr> 
+    ## 1 Guugu-Yimidhirr Chirila rough   taŋa   no    <NA>  
+    ## 2 Guugu-Yimidhirr Chirila smooth  moimon no    <NA>
+
+``` r
+show_comments('Guugu-Yimidhirr')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language        Dataset Comments
+    ##   <chr>           <chr>   <chr>   
+    ## 1 Guugu-Yimidhirr Chirila <NA>
+
+``` r
+show_iso('Guugu-Yimidhirr')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language        ISO_code Phoible_code
+    ##   <chr>           <chr>    <chr>       
+    ## 1 Guugu-Yimidhirr kky      kky
+
+Trill : no  
+R\_type : NA
+
+Dataset :  
+Chirila, no comments
+
+Phoible :  
+<https://phoible.org/inventories/view/2886>  
+\- r pas d’allophones; ɻ pas d’allophones
+
+Haviland, John. 1979. Guugu Yimidhirr. In Dixon, R. M. W. and Blake,
+Barry (eds.), Handbook of Australian Languages, 26–180. John
+Benjamins.  
+\- Page 36 : rhotics rr r  
+\- Page 37 : The rhotic rr is nearly always a front flap, occasionally
+trilled intervocalically (especially in the word warra ‘bad’ when spoken
+emphatically). The rhotic r is heavily retroflexed word-finally, and
+before a consonant, and tends to be a more neutral back glide
+intervocalically. Full contrast between the consonants of the language
+occurs only in medial position, for only the stops, nasals and
+semi-vowels can occur word-initially, whereas only the lateral, the
+rhotics, the semi-vowels and n and nh occur word-finally.  
+\- Page 38 : FLAP OR TRILLED rr RETROFLEX r  
+birra ‘leaf’ bira ‘certainly’  
+marral ‘bottle’ maral ‘girl’  
+APICAL RHOTIC rr APICAL STOP d  
+burral ‘top, summit’ budal ‘to eat’  
+FINAL rr Final l  
+wunuurr ‘place at head of McIvor River’ wunuul ‘leaning, oblique’
+
+``` 
+          (Final rr is often very difficult to distinguish from final l, expecially following u. There is also a close relationship between d and rr; in rapid speech, an initial d following a vowel-final word can be pronounced with a flap or trill as in):  
+          bunggun 'knee' + dagaadhi 'sat down' = bunggu-rragaadhi 'knelt'  
+          Normally this orthography would write bunggu-dagaadhi, quoting the underlying form as it would appear in slow and careful speech.)  
+          The closed roots end in a rhotic, the lateraln n, nh, or y.  
+          -rr 26.4% -r 9.0%  
+```
+
+  - Page 40 : C1 can be any stop, nasal or semi-vowel (=\> Pas de
+    rhotique)  
+    C3 can be the liquid, either rhotic, the laminal semi vowel, or n or
+    nh (l; rr, r; y; n, nh).  
+    C2 represents either a single medial consonant or a cluster of up to
+    three consonants, defined by the following possibilities \[…\]
+    
+    ``` 
+           When rr combines with an apical consonant it usually drops. For example, when an rr-final noun combines with an ergative suffixe -nda, ordinarily the final vv drops (although not in the speech of all Hopevale residents)  
+    ```
+
+  - Page 41 : Similarly, note that non-nasal sonorants (y, w, l, rr and
+    r) do not occur as final elements in a medial cluster within roots.
+
+Wikipedia :  
+<https://en.wikipedia.org/wiki/Guugu_Yimithirr_language>  
+\- Rhotic r ɻ  
+\- The rhotic /r/ is normally a flap \[ɾ\], but may be a trill in
+emphatic speech.
+
+Glottologue :  
+<https://glottolog.org/resource/languoid/id/gugu1255>
+
+Autres sources :  
+<https://www.pamanyungan.net/wpdm-package/guugu-yimidhirr/> -\> File not
+found or deleted from the server
+
+Notes avant mise au propre :
+
+taŋa  
+moimon
+
+Wikipedia: The rhotic /r/ is normally a flap \[ɾ\], but may be a trill
+in emphatic speech.  
+<https://phoible.org/inventories/view/2886>  
+Sur phoible: trill : avec autre rhotique contrastant
+
+Guuguby Yimidhirr - John Haviland
+
+The rhotic rr is nearly always a front flap, occasionally trilled
+intervocalically (especially in the word warra ‘bad’ when spoken
+emphatically). The rhotic r is heavily retroflexed word-finally, and
+before a consonant, and tends to be a more neutral back glide
+intervocalically.
+
+``` r
+show_lang('Guugu-Yimidhirr')$Form
+```
+
+    ## [1] "taŋa"   "moimon"
+
+Je ne prends pas de rique, je mets ‘OUT’.
+
+``` r
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Guugu-Yimidhirr",'OUT',revision))
+```
+
+### Magar
+
+``` r
+show_lang('Magar')
+```
+
+    ## # A tibble: 2 × 6
+    ##   Language Dataset Meaning Form    Trill R_type  
+    ##   <chr>    <chr>   <chr>   <chr>   <chr> <chr>   
+    ## 1 Magar    CLICS   smooth  ling-ke no    no trill
+    ## 2 Magar    CLICS   rough   us-ke   no    no trill
+
+``` r
+show_comments('Magar')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language Dataset Comments
+    ##   <chr>    <chr>   <chr>   
+    ## 1 Magar    CLICS   wiki
+
+``` r
+show_iso('Magar')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language ISO_code Phoible_code
+    ##   <chr>    <chr>    <chr>       
+    ## 1 Magar    mgp      <NA>
+
+Trill : no  
+R\_type : no trill
+
+Dataset :  
+CLICS, wiki
+
+Phoible : NA
+
+Wikipedia :  
+<https://en.wikipedia.org/wiki/Magar_language>  
+\- Approximant voiced ɹ  
+murmured ɹʱ  
+\- Phoneme: /d/ Allophones: \[dʲ\], \[ɖ\], \[ɽ\]
+
+Glottologue :  
+<https://glottolog.org/resource/languoid/id/east2352>
+
+Grunow-Hårsta, Karen A. 2008. A descriptive grammar of two Magar
+dialects of Nepal: Tanahu and Syangja Magar. (Doctoral dissertation,
+University of Wisconsin-Milwaukee; 642pp.)  
+\- Page 41 : voiced rhotic r  
+voiced murmured rhotic rh  
+r = IPA ɹ  
+ɦ = IPA ̤  
+\- Page 43 : Approximants, /r/ and /l/, are post-alveolar
+approximants.  
+raɦ ‘come’  
+laɦ ‘self’  
+In Magar, sonorants (nasals and approximants) do not contrast for
+voicing. There are no voiceless approximants and nasals as are found in
+Bodish. All Magar consonants (including sonorants) contrast in phonation
+quality, i.e. aspiration and murmur. Murmur, also known as breathy-, or
+lax-voice, contrasts with clear, also  
+known as plain-, or modal-voice.  
+\- Page 44 : Murmured coda consonants are restricted to sonorants,
+i.e. approximants /r/ and /l/ and nasals  
+\- Page 45 : (b) Approximants  
+/r/ \~ /rɦ/  
+ra “snare trap” rɦa “goat”  
+/l/ \~ /lɦ/  
+laɦ “self” lɦa “leaf”  
+\- Page 53 : Approximants  
+Clear and murmured approximates /l/, /r/, /lɦ/ and /rɦ/ are
+post-alveolar and appear in onsets and codas, word-initially, medially
+and finally. The phoneme /r/ (transcribed as \[ɹ\] in close
+transcription) is the only consonant that can appear in consonant
+clusters as C2 for example praŋ ‘drawn’, (see §2.6).  
+In word-inital position, /r/ is preceded by a slight prosthetic schwa,
+for example re, ‘crab’ becaomes \[^{ə}re\] or ri ‘dirt from the body’
+becomes \[^{ə}ri\], see also §2.4.1.2.  
+/r/  
+re \[^{ə}re\] ‘crab’  
+biris \[biɹɪs\] ‘fear’  
+khur \[kʰʊɹ\] ‘hoof’  
+/rɦ/  
+rɦus \[ɹ̤ʊ̤s\] ‘bone’  
+birɦin \[biɹ̤ĩ̤\] (T) \~ \[biɹ̤ɪ̤s\] ‘send’  
+dorɦ \[ɖô̤ːɹː\] ‘right’  
+\- Page 61 : In both dialects, the voiced alveolar stop /d/, when
+intervocalic, lenites to a retroflex tap \[ɽ\] (as it also does in
+Nepali).  
+(58) mi-dut -\> \[mi.ɽʊʈ̚ \] ‘POSS-milk’  
+mi-duŋga -\> \[mi.ɽuŋhaː\] ‘POSS-neck’  
+ma-dus -\> \[ma.ɽʊs\] ‘NEG-help’
+
+``` 
+          (59) dut -> [ɖʊʈ̚ ] 'milk'  
+               duŋga -> [ɖuŋhaː] 'neck'  
+               dus -> [ɖʊs] 'help'   
+```
+
+  - Page 61 : Fortition is not common in Magar; however it does occur
+    word-initially in the form of a prosthetic scwaa before word-initial
+    /r/ ((60)) and the epenthesis of a glottal stop before a word
+    beginning with vowel ((61)).  
+    \[^{ə}re\] ‘crab’  
+    \[^{ə}raˑ\] ‘snare-trap’
+    
+    ``` 
+          If, for example, the inalienable possessive mi- precedes ri, /r/ has no prosthetic schwa, as in [mi-ɹi] 'body dirt'.  
+    ```
+
+  - Page 70 : ra \[ɹaˑ\] ‘bird trap’  
+    rɦa \[ɹ̤a̤ˑ\] ‘goat’  
+    raɦ \[ɹâ̤ː\] ‘come’
+
+Autres sources :  
+<https://clics.clld.org/languages/halenepal-Magar>  
+Recherches : r -\> 162 entries (filtered from 621 total entries)  
+l -\> 110 entries (filtered from 621 total entries)  
+rh -\> 18 entries (filtered from 621 total entries)  
+rr -\> 0 entries (filtered from 621 total entries)
+
+Notes avant mise au propre :
+
+no trill wiki
+
+A DESCRIPTIVE GRAMMAR OF TWO MAGAR DIALECTS OF NEPAL:  
+TANAHU AND SYANGJA MAGAR -\> c’est décrit comme une approximante
+
+``` r
+show_lang('Magar')$Form
+```
+
+    ## [1] "ling-ke" "us-ke"
+
+Le comportement de la rhotique en initial peut faire penser à celui d’un
+trill phonémique.  
+Mais on laisse en ‘other’.
+
+``` r
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Magar",'other',revision))
+```
+
+### Awa
+
+``` r
+show_lang('Awa')
+```
+
+    ## # A tibble: 1 × 6
+    ##   Language Dataset Meaning Form  Trill R_type  
+    ##   <chr>    <chr>   <chr>   <chr> <chr> <chr>   
+    ## 1 Awa      CLICS   smooth  si̵nam no    no trill
+
+``` r
+show_comments('Awa')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language Dataset Comments
+    ##   <chr>    <chr>   <chr>   
+    ## 1 Awa      CLICS   <NA>
+
+``` r
+show_iso('Awa')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language ISO_code Phoible_code
+    ##   <chr>    <chr>    <chr>       
+    ## 1 Awa      kwi      kwi
+
+Trill : no  
+R\_type : no trill
+
+Dataset :  
+CLICS, no comments
+
+Phoible :  
+<https://phoible.org/languages/awac1239>  
+2 inventaires  
+\- PH : t̪ allophones t̪ d̪ ɾ̪ t̪̚ t̪ⁿ ð θ  
+\- SAPHON 1853 : ɾ pas d’allophones
+
+Curnow, Timothy Jowan. 1997. A Grammar of Awa Pit (Cuaiquer): An
+Indigenous Language of South-western Colombia. (Doctoral dissertation,
+The Austrailian National University).  
+\- Page 23 : These controversial areas are: whether there is a phoneme
+/r/ or whether it is an allophone of /t/  
+\- Page 24 : Table 2.1: Consonant and glide phonemes of Awa Pit  
+\[d\] / C \[voiced\] \_\_\_ \[voiced\]  
+/t/ \[ɾ\] / V or G \[voiced\] \_\_\_ V or G \[voiced\]  
+\[t\] elsewhere  
+\- Page 25 : It should be noted especially that between two vowels, /t/
+is produced as \[ɾ\], not as \[ð\]. \[1\] In broad terms, the analysis
+of the stops presented so far agrees with the four major previous works,
+except that Calvache Duenas (1989) states that /t/ and /r/ are separate
+phonemes, rather than the latter being an intervocalic allophone of the
+former. Her reasons for claiming this, and arguments against it, will be
+examined in sections 2.2.1.2 and 2.2.5.3.  
+In addition there is one situation in which \[ð\] may appear rather than
+\[ɾ\] between two vowels. This occurs optionally if the speaker has
+produced an alveolar stop or fricative earlier in the word.  
+\[1\] \[ɾ\] as a phoneme of a dental stop is found in a variety of
+nearby Amazonian languages (Aikhenvald forthcoming).  
+\- Page 26 : It should be noted that there is a great difference in the
+frequency of different intervocalic stops, and also an interesting
+morphophonemic rule. The phoneme /t/ is found intervocalically (as
+\[ɾ\]) in many words.  
+\- Page 27 : Previous works ( Calvache Dueiias 1989, Obando Ord6iiez
+1992, Henriksen & Henriksen 1979, Montaluisa Chasiquiza 1991) have only
+examined the phonology at the level of words, without examination of
+inter-word phonology. But the interactions which take place at word
+boundaries are of vital importance to the  
+understanding of Awa Pit phonology, particularly stop and fricative
+phonemes, and can be used to resolve a number of issues, such as the
+existence or otherwise of the phoneme /r/.  
+The biggest difference between intra-word and inter-word allophony is
+that the former (discussed above) is obligatory, while the latter is
+always optional - speakers can pronounce words as they would in
+isolation, although in connected speech they usually do not. It might be
+thought that the allophony associated with connected speech would be
+similar to word-internal allophony, and in some cases it is, but in
+others it is not. That is, there are significant boundary phenomena in
+Awa Pit or, in somewhat outdated structuralist terms, the word break
+(‘juncture’) is an important “phoneme” in Awa Pit.  
+\- Page 29 : As mentioned earlier, one of the most serious disagreements
+in previous studies of Awa Pit phonology regards the status of \[r\], as
+either an allophone of /t/, or as a separate phoneme /r/. Calvache
+Dueiias (1989) has taken the second analysis; the other authors
+(Henriksen & Henriksen 1979, Obando Ord6iiez 1992, Montaluisa Chasiquiza
+1991) have taken the former analysis. Calvache Dueiias introduces /r/
+because of the contrast she observes between intervocalic \[ð\] (/t/ in
+her analysis) and \[ɾ\] (/r/ in her analysis) - her examples of
+intervocalic \[ð\] are \[kwaðam\] red and \[swaðaɾe\] put over there.
+The first example will be dealt with in section 2.2.5.3; however the
+second “word” is now explainable. The form given by Calvache Duenas for
+‘put over there’ is not, in fact, a single word, but two separate
+words:  
+(5) su=wa ta-ti  
+there=in(approx) put-IMP.SG  
+‘Put \[it\] over there’  
+The \[ð\] is now expected, having been formed as a result of the
+application of sandhi rules.  
+Given this analysis, plus the account of \[kwaðam\] in section 2.2.5.3,
+\[ɾ\] can  
+be considered simply as the allophone of /t/ found in intervocalic
+position. \[7\]
+
+\[7\] There is additional evidence that /t/ does not have a (general)
+intervocalic allophone \[ð\], which comes from the Spanish spoken by Awa
+Pit speakers who are imperfect bilinguals. While those who are fluently
+bilingual have no trouble with the sound system of Spanish, second-
+language speakers of Spanish have problems with a number of sounds in
+Spanish, and one of these is intervocalic /d/, pronounced \[ð\]. Words
+or names which contain an intervocalic /d/ in Spanish, such as /la
+planada/ \[laplanaða\], are produced by Awa Pit speakers as
+\[lapɨlanaɾa\]. If \[ð\] were an intervocalic allophone of /t/, as
+Calvache Duenas claims, we might expect Awa Pit speakers to produce this
+sound correctly.  
+\- Page 33 : The lateral approximant /l/ has a number of allophones,
+many in free variation. After /i/ and /j/ the lateral is palatalized to
+\[ʎ\], although for some speakers this is in free variation with
+\[^{d}l\]; before consonants and word-finally it is often prestopped or
+even produced as the stop \[d\]; and after a non-front vowel it is often
+produced as prestopped, occasionally as \[d\]. Thusː
+
+The precise frequency of the various allophones in free variation
+depends very much upon the speaker- some of my informants almost never
+used \[l\], while others used \[l\] almost exclusively in word-lists
+(although they also used \[^{d}l\] in connected speech).
+
+  - Page 38 : At this point it should be noted that Calvache Duenas
+    (1989) second example showing the necessity of a phoneme /r/ has now
+    been discounted. She had two examples of intervocalic \[ð\], which
+    she stated realized /t/, requiring a phoneme /r/ to account for
+    intervocalic \[ɾ\]. Her first example was dealt with by stop sandhi
+    patterns in section 2.2.1.2; the other example was \[kwaðam\], which
+    as shown above contains a phonological /ŋ/ before the stop, leading
+    to its pronunciation as \[ð\] rather than \[ɾ\].
+
+Calvache, Rocío Dueñas. 2000. Aproximacion al Awa Pit. In de Pérez,
+María Stella González and de Montes, María Luisa Rodríguez (eds.),
+Lenguas ind’igenas de Colombia: Una visi’on descriptiva. Bogotá:
+Instituto Caro y Cuervo.  
+\- Page 98 : El inventario de las vocales y las consonantes en estas
+posiciones es:  
+C1 = (=\> pas de r)  
+V =  
+C2 = (=\> pas de r)
+
+``` 
+          /r/, /l/, /h/ solo aparecen en inicio de silaba  
+          
+```
+
+  - Page 98 : Vibrantes r  
+    t/r  
+    (14) /tɨɨtam/ \[ˈ tɨɨðam\] palo /paran/ \[ˈ paran\] hablar  
+    /palatam/ \[ˈ palaðam\] platanera /ʧiraran/ \[ˈ ʧiraran\] cierta
+    clase de papa  
+    /atus/ \[ˈ arʊs\] estoy viniendo /tamaharu \[ˈ tamaharʊ\] damajagua
+    (planta con la cual hacian sus vestidos)  
+    /ɨtus/ \[ˈ ɨɾʊs\] estoy viniendo, /iiru/ \[ˈ iiɾʊ\] alambre  
+  - Page 99 : l/r  
+    (34) /jala/ \[ˈ jala\] perdiz /ara/ \[ˈ aɾal\] gallina  
+    /alu/ \[ˈ alʊ\] lluvia /kuiru/ \[ˈ kwiɾʊ\] cuy conejillo de Indias  
+    r/n  
+    (35) /parein/ \[paˈ ɾɛjn\] pareja /tane/ \[ˈ tane\] dejar  
+    /wakara/ \[ˈ waɣaɾa\] ganado /kana/ \[ˈ kana\] perdera  
+    r/s (36) /karaskuil/ \[ˈ kaɾasːkwiʎ\] ˈflauta /-kasa/ \[- ˈ kasa\]
+    comitativo, instrumental  
+  - Page 100 : VIBRANTES ɾ  
+    Wikipedia :  
+    <https://en.wikipedia.org/wiki/Awa_Pit_language>  
+    \[d̪\] C \[v\] \_\_ \[v\]  
+    /t/ \[t̪\] \[θ\] C \[fricative\] \[v\] \_\_ V \[v\]  
+    \[ð\] C \[fricative\] \[v\] \_\_ V \[v\]  
+    \[ɾ̪\] V/G \[v\] \_\_ V/G \[v\]
+
+Glottologue :  
+<https://glottolog.org/resource/languoid/id/awac1239>
+
+Autres sources :  
+<https://clics.clld.org/languages/hubercolumbian-Awa>  
+Recherches : r -\> 5 entries (filtered from 365 total entries)  
+l -\> 79 entries (filtered from 365 total entries)
+
+Notes avant mise au propre :
+
+si̵nam
+
+<https://phoible.org/languages/awac1239>
+
+Ils ont du garder le Awa Cuaiquer : pas d’allophones
+
+Calvache, Rocío Dueñas. 2000. Aproximaci’on al Awa Pit. In de Pérez,
+María Stella González and de Montes, María Luisa Rodríguez (eds.),
+Lenguas ind’igenas de Colombia: Una visi’on descriptiva. Bogotá:
+Instituto Caro y Cuervo.  
+\-\> avec la version pixélé que j’ai trouvé aucune idée si c’est un
+trill ou un tap et c’est juste écrit Fonema vibrante alveolar (je pense
+que c’est /r/ mais dans les transcriptions \[\] c’est avec un tap)
+
+<https://phoible.org/inventories/view/1120>  
+Pour Awa-pit qu’ils n’ont pas pu garder car ils gardent Saphon, on n’a
+pas de rhotique et le tap est un allophone des plosives
+
+``` r
+show_lang('Awa')$Form
+```
+
+    ## [1] "si̵nam"
+
+Je prefère mettre ‘OUT’.
+
+``` r
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Awa",'OUT',revision))
+```
+
+### Bará
+
+``` r
+show_lang('Bará')
+```
+
+    ## # A tibble: 1 × 6
+    ##   Language Dataset Meaning Form  Trill R_type  
+    ##   <chr>    <chr>   <chr>   <chr> <chr> <chr>   
+    ## 1 Bará     CLICS   smooth  hipí  no    no trill
+
+``` r
+show_comments('Bará')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language Dataset Comments
+    ##   <chr>    <chr>   <chr>   
+    ## 1 Bará     CLICS   <NA>
+
+``` r
+show_iso('Bará')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language ISO_code Phoible_code
+    ##   <chr>    <chr>    <chr>       
+    ## 1 Bará     bao      bao
+
+Trill : no  
+R\_type : no trill
+
+Dataset :  
+CLICS, no comments
+
+Phoible :  
+<https://phoible.org/languages/waim1255>  
+3 inventaires  
+\- SPA ɾ allophones ɺ̠ ɾ̃ ɾ  
+\- UPSID ɾ pas d’allophones  
+\- SAPHON ɾ pas d’allophones
+
+Stolte, Joel and Stolte, Nancy. 1971. A Description of Northern Barasano
+Phonology. Linguistics 75. 86–92.  
+\- Page 88 : There is one consonant phoneme of class C2, the alveolar
+flap /ř/  
+\- Page 90 : The voiced alveolar flap /ř/, which constitutes class C2,
+has allophones of the homorganic nasal flap contiguous to nasal vowels,
+lateral retroflexed flap following central and back vowels, and the
+alveolar flap elsewhereː /ř/ \[ň\] \[l̆\] \[ř\]:  
+\[examples\]
+
+Stolte, Joel and Stolte, Nancy. 1976. Fonolog’ia del barasano del norte.
+In Waterhouse, Viola G. (ed.), 83–93. -\> Pas charché
+
+Wikipedia :  
+<https://en.wikipedia.org/wiki/Waimaj%C3%A3_language>
+
+<https://es.wikipedia.org/wiki/Idioma_bar%C3%A1>  
+\- vibrantes ɾ  
+\- La vibrante ɾ en pies de tono alto se realiza como la vibrante
+lateral ɺ. y antes de vocal nasal como la vibrante nasal ɾ̃.
+
+Stolte, Joel y Nancy. «Fonología del barasano norte». Sistemas
+fonológicos de idiomas colombianos III. Bogotá: Instituto Lingüístico
+de Verano. pp. 83-93. Consultado el 3 de octubre de 2021.
+
+Glottologue :  
+<https://glottolog.org/resource/languoid/id/waim1255>
+
+Autres sources :  
+<https://clics.clld.org/languages/hubercolumbian-Bara>  
+Recherches : r -\> 61 entries (filtered from 364 total entries)  
+l -\> 1 entries (filtered from 364 total entries) \[ jãbĩbãlĩ̵ bũĩpũ
+‘moon’\]
+
+Notes avant mise au propre :
+
+<https://phoible.org/inventories/view/1813>  
+Phoible c’est un tap Stolte, Joel and Stolte, Nancy. 1971. A Description
+of Northern Barasano Phonology. Linguistics 75. 86–92. Pas regardé  
+Pas d’allophones
+
+``` r
+show_lang('Bará')$Form
+```
+
+    ## [1] "hipí"
+
+``` r
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Bará",'other',revision))
+```
+
+### Chimila
+
+``` r
+show_lang('Chimila')
+```
+
+    ## # A tibble: 1 × 6
+    ##   Language Dataset Meaning Form   Trill R_type  
+    ##   <chr>    <chr>   <chr>   <chr>  <chr> <chr>   
+    ## 1 Chimila  CLICS   smooth  píiroʔ no    no trill
+
+``` r
+show_comments('Chimila')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language Dataset Comments
+    ##   <chr>    <chr>   <chr>   
+    ## 1 Chimila  CLICS   <NA>
+
+``` r
+show_iso('Chimila')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language ISO_code Phoible_code
+    ##   <chr>    <chr>    <chr>       
+    ## 1 Chimila  cbg      cbg
+
+Trill : no  
+R\_type : no trill
+
+Dataset :  
+CLICS, no comments
+
+Phoible :  
+<https://phoible.org/inventories/view/1894>  
+\- ɾ pas d’allophones
+
+Malone, Terry. 2006. Tone and Syllable Structure in Chimila.
+International Journal of American Linguistics 72. 1–58.  
+\- Page 3 : Flap ɾ  
+The following monosyllabic consonant clusters occur in syllable-onset
+position: /pr/, /br/, /kr/, /gr/, /kw/, /gw/, /kwr/, /gwr/, /wr/, /ty/,
+/dy/, and /ny/.  
+\- Page 54 : In these formulas, C1 can be /p/, /t/, /k/, /b/, /d/,/g/,
+/m/, /n/, /N/, /h/, /s/, /l/, /r/, /w/, /y/, /pr/, /br/, /kr/, /gr/,
+/wr/, /ty/, /dy/,  
+/kw/, /gw/, /kwr/, or /gwr/
+
+Wikipedia :  
+<https://en.wikipedia.org/wiki/Chimila_language>  
+<https://es.wikipedia.org/wiki/Idioma_chimila>  
+\- sonantes l, ˀr
+
+Glottologue :  
+<https://glottolog.org/resource/languoid/id/chim1309>
+
+Gérard Reichel-Dolmatoff. 1947. La Lengua Chimila. Journal de la Société
+des Américanistes XXXVI. 15-50.  
+\- Page 15 : El idioma Chimila posée los sonidos que corresponden a las
+siguientes consonantes : b, d, g, h (aspirada), k, 1, m, n, p, r, s, t,
+v, w, y.
+
+Autres sources :  
+<https://clics.clld.org/languages/hubercolumbian-Chimila>  
+Recherches : r -\> 136 entries (filtered from 357 total entries)  
+l -\> 20 entries (filtered from 357 total entries)  
+rr -\> 1 entries (filtered from 357 total entries)
+
+Notes avant mise au propre :
+
+<https://phoible.org/inventories/view/1894>  
+Phoible : tap Malone, Terry. 2006. Tone and Syllable Structure in
+Chimila. International Journal of American Linguistics 72. 1–58. Pas
+regardé Pas d’allophones
+
+``` r
+show_lang('Chimila')$Form
+```
+
+    ## [1] "píiroʔ"
+
+``` r
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Chimila",'other',revision))
+```
+
+### Guayabero
+
+``` r
+show_lang('Guayabero')
+```
+
+    ## # A tibble: 1 × 6
+    ##   Language  Dataset Meaning Form   Trill R_type  
+    ##   <chr>     <chr>   <chr>   <chr>  <chr> <chr>   
+    ## 1 Guayabero CLICS   smooth  hahóek no    no trill
+
+``` r
+show_comments('Guayabero')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language  Dataset Comments
+    ##   <chr>     <chr>   <chr>   
+    ## 1 Guayabero CLICS   <NA>
+
+``` r
+show_iso('Guayabero')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language  ISO_code Phoible_code
+    ##   <chr>     <chr>    <chr>       
+    ## 1 Guayabero guo      guo
+
+Trill : no  
+R\_type : no trill
+
+Dataset :  
+CLICS, no comments
+
+Phoible :  
+<https://phoible.org/inventories/view/1912>  
+\- ɾ pas d’allophones
+
+Tobar, Nubia. 2000. Aspectos generales de la lengua guayabero. In de
+Pérez, María Stella González and de Montes, María Luisa Rodríguez
+(eds.), Lenguas ind’igenas de Colombia: Una visi’on descriptiva,
+600–601. Bogotá: Instituto Caro y Cuervo.  
+\- Page 600 : LIQUIDAS vibrantes r  
+\- Page 602 : C1 estan todos los fonemas consonanticos del sistema
+
+Keels, Jack. 1985. Guayabero: Phonology and Morphophonemics. In Brend,
+Ruth (ed.), From Phonology to Discourse: Studies in Six Colombian
+Languages, 57–75. Dallas: Summer Institute of Linguistics.  
+\- Page 57 : Consonant contrasts. Consonant contrasts are seen in the
+following examples, where all seventeen consonant phonemes occur word
+initially in the stress syllable:  
+réra ‘red-capped parrot’, lá ‘he calls’  
+\- Page 58 : Flaps r  
+\- Page 69 : All seventeen consonant phonemes occur word initially as
+well as initially in both stressed and unstressed syllables, with no
+apparent restriction on distribution in relation to vowels.  
+\- Page 74 : Flaps. Variants of the alveolar flap /r/ are as follows.
+The flap /r/ is realized with secondary palatalization when it occurs
+syllable finally following high vowels, which often results in a voiced
+or voiceless vocalic release \[14\]. Word finally preceding pause, the
+flap \[ř\] freely with the voiceless trill \[R̆\] (=\> ça doit
+correspondre à \[r̥\] en IPA). Elsewhere it has the normal phonetic
+realization: ra  
+rarói-č \[řʌřɔ́č\] ‘a small beach-bird’  
+wɨř \[wɨř^{y}i\] \~ \[wɨř^{y}\] \~ \[wɨR̄\] ‘a dog’  
+kaečiřʔáma \[kʰæ̀čiřʔámʌ\] \~ \[kʰæ̀čiř^{y}ʔámʌ\] ‘throat’  
+kamnár \[kʰʌmnář\] \~ \[kʰʌmnáR̆\] ‘spoonbill’
+
+\[14\] All the alveolar consonants are strongly palatalized following
+high front vowels in Guayabero, but only in the case of the flap /r/
+does this secondary articulatory feature have significant phonological
+implications.
+
+Wikipedia :  
+<https://en.wikipedia.org/wiki/Guayabero_language>  
+\- Flap ɾ
+
+Glottologue :  
+<https://glottolog.org/resource/languoid/id/guay1257>
+
+Autres sources :  
+<https://clics.clld.org/languages/hubercolumbian-Guayabero>  
+Recherches : r -\> 22 entries (filtered from 419 total entries)  
+l -\> 90 entries (filtered from 419 total entries)
+
+Notes avant mise au propre :
+
+<https://phoible.org/inventories/view/1912>  
+Phoible : tap  
+Pas d’allophones
+
+Tobar, Nubia. 2000. Aspectos generales de la lengua guayabero. In de
+Pérez, María Stella González and de Montes, María Luisa Rodríguez
+(eds.), Lenguas ind’igenas de Colombia: Una visi’on descriptiva,
+600–601. Bogotá: Instituto Caro y Cuervo  
+Keels, Jack. 1985. Guayabero: Phonology and Morphophonemics. In Brend,
+Ruth (ed.), From Phonology to Discourse: Studies in Six Colombian
+Languages, 57–75. Dallas: Summer Institute of Linguistics. Pas regardé
+
+``` r
+show_lang('Guayabero')$Form
+```
+
+    ## [1] "hahóek"
+
+``` r
+rough_r_data <- rough_r_data %>%
+  dplyr::mutate(revision = ifelse(Language=="Guayabero",'other',revision))
+```
+
+### Ika
+
+``` r
+show_lang('Ika')
+```
+
+    ## # A tibble: 1 × 6
+    ##   Language Dataset Meaning Form  Trill R_type  
+    ##   <chr>    <chr>   <chr>   <chr> <chr> <chr>   
+    ## 1 Ika      CLICS   smooth  ʒən   no    no trill
+
+``` r
+show_comments('Ika')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language Dataset Comments
+    ##   <chr>    <chr>   <chr>   
+    ## 1 Ika      CLICS   <NA>
+
+``` r
+show_iso('Ika')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language ISO_code Phoible_code
+    ##   <chr>    <chr>    <chr>       
+    ## 1 Ika      arh      arh
+
+Trill : no  
+R\_type : no trill
+
+Dataset :  
+CLICS, no comments
+
+Phoible :  
+<https://phoible.org/languages/arhu1242>  
+2 inventaires  
+\- PH ɾ allophones ɾ d; n allophones n m ɾ  
+\- SAPHON ɾ pas d’allophones
+
+Franks, Paul Stephen. 1985. A Grammar of Ika. (Doctoral dissertation,
+The University of Pennsylvania).  
+<https://www.proquest.com/openview/bd1439cc942dbf21a2f9fc5763d7f79c/1?pq-origsite=gscholar&cbl=18750&diss=y>
+-\> Pas d’accès à la phonologie  
+Mais j’ai trouvé une version téléchargé depuis Internet :  
+\- Page 13 : The following two tables summarize the phonemes of IKA
+\[3\]. (See Tracy and Tracy 1973 for detaisl on IKA phonology).  
+\- Page 14 : Flap r  
+\- Page 17 : r becomes d following a nasal. Compare the forms of -ri
+‘topic’ in 26& and b.  
+(26) a. Dorori-ri b. Sawastian-di  
+Dolores-top Sebastian-top  
+\- Page 18 : Even though the sequences ki/ke and ni/ne occur within
+morphemes, k becomes s and n becomes r when followed by a front vowel
+across a morpheme boundary.  
+(32) a. nan-u’ b. nar-e’ c. nar-i  
+be-neg be-then be-while
+
+Landaburu, Jon. 2000. La lengua ika. In de Pérez, María Stella González
+and de Montes, María Luisa Rodríguez (eds.), Lenguas ind’igenas de
+Colombia: Una visi’on descriptiva. Instituto Caro y Cuervo. -\> Pas
+trouvé
+
+Wikipedia :  
+<https://en.wikipedia.org/wiki/Arhuaco_language>  
+\- Flap ɾ ⟨r⟩  
+\- With some exceptions, Arhuaco syllables may begin with up to two
+consonants (the second of which must be a glide /w j/) and may be closed
+by one of the following consonants: /ʔ n r w j/.
+
+Glottologue :  
+<https://glottolog.org/resource/languoid/id/arhu1242>
+
+Tracy, Hugh and Tracy, Martha. 1976. Notas sobre fonología y ortografía
+ica (arhuaco). In Sistemas fonológicas de idiomas colombianos 3
+143-47.  
+\- Page 145 : Aunque no fue descrito en el articulo anterior, el
+analisis de la secuencia fonetica CrV provisionalmente se considero ser
+/CVrV/. Sin embargo, esta hipothesis no se ha verificado. Por esta razon
+es necesario incluir un nuevo patron silabico. Es el unico patron
+silabico que lleva mas de una C en el margen:  
+C5C6V donde C5 = t, d, k, g, s; C6=r  
+/triki/ ‘golondrina’  
+/drunun/ ‘volar’  
+/makruma/ ‘regalo’  
+/granun/ ‘quebarar’  
+/aʔsrissun/ ‘untar’
+
+Tracy, Hubert P. and Stephen H. Levinsohn and Martha de Tracy. 1973.
+Fonemas del ica. Sistemas fonológicos de idiomas colombianos
+(V.G.Waterhouse, comp.), ILV/MG, Bogotá 1972 2. 57-70.  
+\- Page 62 : Vibrante r  
+C1 r  
+\- Page 65 : Una vibrante ocurre en el punto de articulacion dental: /r/
+\[ř\]  
+Autres sources :  
+<https://clics.clld.org/languages/hubercolumbian-Ika>  
+Recherches : r -\> 60 entries (filtered from 348 total entries)  
+l -\> 0 entries (filtered from 348 total entries)  
+Form in source: r -\> 59 entries (filtered from 348 total entries \[=\>
+il manque hígɾu ‘liver’\]
+
+``` r
+show_lang('Ika')$Form
+```
+
+    ## [1] "ʒən"
+
+``` r
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Ika",'other',revision))
+```
+
+### Cubeo
+
+``` r
+show_lang('Cubeo')
+```
+
+    ## # A tibble: 1 × 6
+    ##   Language Dataset Meaning Form   Trill R_type  
+    ##   <chr>    <chr>   <chr>   <chr>  <chr> <chr>   
+    ## 1 Cubeo    CLICS   smooth  jarídõ no    no trill
+
+``` r
+show_comments('Cubeo')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language Dataset Comments
+    ##   <chr>    <chr>   <chr>   
+    ## 1 Cubeo    CLICS   <NA>
+
+``` r
+show_iso('Cubeo')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language ISO_code Phoible_code
+    ##   <chr>    <chr>    <chr>       
+    ## 1 Cubeo    cub      cub
+
+Trill : no  
+R\_type : no trill
+
+Dataset :  
+CLICS, no comments
+
+Phoible :  
+<https://phoible.org/languages/cube1242>  
+2 inventaires  
+\- UPSID ɺ̪|ɺ pas d’allophones  
+\- SAPHON ɾ pas d’allophones
+
+Salser, J. K. 1971. Cubeo Phonemics. Linguistics 75. 74–79.  
+\- Page 75 : Flap l  
+Consonant Class C2  
+D2 = /l/ \[ň\] \[l̆\]. /l/ has an allophone \[ň\] which is a
+alveopalatal flapped nasal with lateral release. It occurs preceding
+nasal vowelsː  
+/kõlẽ́kihivi/ \[kõňẽ́kihivi\] Im going to urinate, /kuidã́lõ/
+\[kuinã́ňṍ\] one. It has an oral counterpart \[l̆\] preceding oral
+vowelsː /kolékihivi/ \[kol̆ékihiwi\] Im going to wait, /koló/
+\[kol̆ó\] sp. of bird. /l/ contrasts with all other central
+consonants… /tulubo/ sp. of plant, /duduki/ chigger; /palidõ/ strenght,
+/hatubi/ embarked; /toalo/ firing cap, /toačuli/ a burn; /dod(baré)é/
+tarira fish, /doléivi/ it stung.  
+\- Page 76 : Consonant Class C1  
+C1 = all other consonants.  
+\- Page 79 : Voiced alveolar flap \[ř\] and voiceless alveolar grooved
+fricative \[s\] occur occasionally in loan words used by Cubeo with some
+educational background. The illiterate Cubeo speaker adapts r and s of
+loan words to his own speech patterns, r becoming \[l̆\] /l/ word medial
+and \[^{n}d\] /d/ word initial, while s becomes \[č\] /č/ː
+\[^{n\]dobéto\] Roberto (Spanish) (loss of the medial r corresponds to
+the Cubeo pattern which has no consonant clusters); \[pil̆á\] pira
+(Tupi) fish; čabã́ũ sabão (Geral-Portuguese) soap.
+
+Chacon, Thiago Costa. 2012. The phonology and morphology of Kubeo: the
+documentation, theory, and description of an Amazonian language.
+(Doctoral dissertation, University of Hawai’i at Manoa).  
+\- Page 16 : FLAP /TAP (r)  
+Consonants (ð) and (r) are the results of recent phonemicization in the
+language.  
+\- Page 53 : In the case of /ð/ and /r/, which are also allophones of
+/j/ and /d/, respectively, there is a phonemic representation and an
+allophonic representation.  
+\- Page 54 : \[/d/ \[n\] \[/r/ \[ɾ\] \[ɽ\] \[ɽ̃\] \]\]  
+\- Page 55 : (2.70) /d/ vs. /r/  
+a. ãdĩ \[ãˈ nĩ\] ˈãrĩ \[ˈãɽ̃ĩ\]  
+this- where  
+‘this’ ‘where?’  
+b. ‘t∫idu-ko \[’t∫iduko\] ’jiru-ko \[’ʤiruko\]  
+fish.sp- FEM cricket.sp-FEM  
+’A fish species’ ‘A cricket species’  
+c. dudu-kɨ \[du’dukɨ\] duru-i-dõ \[du’ɾuinõ\]  
+lizard.sp.-MSC fall.apart-ST -CNT  
+‘a lizard species’ ‘the thing that is falling apart’  
+\- Page 56 : Stem Initially (\#\_) Stem Medially (V\_V) Stem Initially
+and Medially (\#\_V,V\_V) Affix Initially Clitic Initially  
+r - + - - -  
+Not every manifestation of \[r\] is analyzed as the phoneme /r/. Some
+instances of \[r\] are cases where \[r\] is an allophone of /d/. <r> in
+this table refers only to the phoneme /r/. Please see section 2.2.2.5.  
+\- Page 57 : \_\_i \_\_e \_\_ɨ \_\_a \_\_o \_\_u  
+r + + - - + +  
+\- Page 58 : b. /d/ \> \[n\]  
+/dɨ̃-‘dĩ/ \[nɨ̃’rĩ\]  
+go- CNV  
+’to go’  
+c. /r/ \> \[ɽ̃\]  
+/ɨ̃rẽ/ \[ɨ̃ɽ̃ẽ\]  
+‘pupunha (palm sp.)’  
+\- Page 60 : Finally, it is important to notice that a nasal allophone
+will always be almost identical in terms of point of articulation to its
+non-nasal realization. Hence: /j/ – \[ʤ\], \[ð\] and \[j\] correspond to
+\[ɲ\], \[ð̃\] and \[j̃\]; /w/ – \[w\], \[β\] and \[ʋ\] correspond to
+\[w̃\] and \[ʋ̃\]; /d/ – \[d\] and \[ɾ\] correspond to \[n\] and
+\[ɾ̃\]; and /b/ corresponds to \[m\]. However, in some cases a nasal
+allophone seem to correspond to the simplification of two correspondent
+oral allophones, for example where \[w̃\] corresponds to either \[w\] or
+\[β\]. An interpretation to this fact seem to be rooted in the phonetic
+properties triggered by nasalization, which seem to ‘soften’ the
+environment that otherwise would have triggered the fortition of /w/ to
+\[β\].  
+\- Page 71 : 2.2.2.5 The stop /d/ and the flap/tap /r/. The contrast of
+/d/ and /r/ is exemplified in (2.70) above. These sounds can be analyzed
+as distinct phonemes only in root internal position. In bound morphemes
+(across morpheme boundaries) their contrast is neutralized, and
+allophonic alternations are subject to the following rules:  
+(2.102) Table 14: Allophones of /d/  
+WORD INITIAL POSITION AFTER A VOWEL IN WORD INTERNAL POSITION  
+\[d\] Always in oral syllables - after /i/ and /e/  
+\- in words that were borrowed and end in a consonant  
+\[n\] Always in nasal syllables - after nasalized /i/ and /e/  
+\[ɾ\] never\[32\] - regularly elsewhere (after /a/, /ɨ/, /o/ and /u/)  
+\[ɽ\] never - same environement as \[ɾ\], though before /i/ and /e/.  
+\[ɽ̃\] never - regularly elsewhere in nasal environments
+
+``` 
+          In this dissertation, the phonemic symbol /r/ represents a tap [ɾ] or a flap [ɽ]. Its nasal counterpart < r̃ > is always a flap [ɽ̃].[33]  
+         [32] The single exception to this rule comes from the borrowing of the Spanish and Portuguese name Luis, which is nativized either as /dui/ or /rui/ by Kubeo speakers. In the latter case, /rui/ ‘Luis’ contrasts with /duika/ ‘down-river’.  
+         [33]  The flap and tap alternation in Kubeo is actually murkier than the above contexts suggest. Nevertheless, this is the best generalization I could made based on frequency of occurrence of each sound in my corpus. This alternation also finds analogous situations in other Tukanoan languages, where usually an [l] has been perceived/transcribed instead of a flap [ɽ].  
+```
+
+  - Page 72 : There are different ways to analyze the contrast and
+    neutralization of /d/ and /r/. The way I opted is to represent /d/
+    and /r/ as distinct phonemes in lexical roots, since in this
+    environment they never alternate. In bound morphemes, where the
+    contrast is neutralized and they alternate across morpheme
+    boundaries, I represent them only as /d/. There is a diachronic
+    reason for that: /r/ in lexical roots is the result of recent
+    phonemicization, whose main source is probably borrowings.  
+    The most general rules that capture \[d\] and \[r\] as allophones of
+    /d/ are the following:  
+    (2.103) /d/
+    \[-sonorant\]\[+consonantal\]\[coronal\]\[+anterior\]\[-distributed\]
+    -\>  
+    a. (no change) / \#\_\_\_\_ \[d\] \[coronal\]\[-consonantal\]
+    \_\_\_\_ \[d\]  
+    b. \[+sonorant\] / \[dorsal\]\[-consonantal\] \_\_\_\_ \[ɾ\] \~
+    \[ɽ\]  
+    The contrast between \[ɾ\] and \[ɽ\] does not have a principled
+    expression in distinctive features. Their alternation is based on
+    the vowels following each sound: \[ɽ\] occurs before \[coronal\] and
+    \[ɾ\] before \[dorsal\] vowels.  
+    While the rule /d/ \> \[r\] is expected intervocalically as a case
+    of lenition, where a \[-sonorant\]\[+consonantal\] sound becomes
+    \[+sonorant\] one, it is not clear why a \[coronal\] vowel /i/ and
+    /e/ would trigger \[d\] instead of \[r\], since phonetically both
+    sounds have a very similar place of articulation. The only solution
+    I can think of for this problem is to assume that \[r\], as the
+    single flap in Kubeo consonants, has an unmarked place of
+    articulation. This entails that in the \[d\] vs. \[r\] alternation
+    that occurs intervocalically, \[r\] is the allophone with the least
+    specific conditioning, so if the environment never specifies
+    \[coronal\], \[r\] is the default surface form, a classic case of  
+    Panini’s Law.\[34\]  
+    The following examples illustrate the contexts where allophones of
+    /d/ and /r/ occur. Only \[d\], but never \[r\], can occur in word
+    initial position:  
+    (2.104) a. doje \[do’ðe\]  
+    ‘traira fish’  
+    b. da-bi \[da’bi\]  
+    come-3MSC  
+    ‘he came’  
+    c. du-bi  
+    \[du’bi\]  
+    escape-3MSC  
+    ‘he escaped/released (from the hook)’  
+    d. ‘dɨi=bo \[’dɨibo\]  
+    swamp=CLASS.MARKER  
+    ’inundated forest’
+    
+    ``` 
+          [34] Please notice that the allomorph [d] is the marked surface form between vowels both because it goes against a general rule of lenition intervocalically and because it can only occur after a coronal stop.  
+    ```
+
+  - Page 73 : In a nasal syllable in word initial position, \[n\] is the
+    surface realization of /d/:  
+    (2.105) a. ‘dẽo \[’nẽõ\]  
+    ’greese, fuel’  
+    b. dɨ̃-b i\[nɨ̃’mĩ\]  
+    go-3MSC  
+    ‘he went’  
+    c. ‘dõ \[’nõ\] that.anaphoric  
+    ’that one, that thing’  
+    d. dũ-bi \[nũ’mĩ\]  
+    suck-3MSC  
+    ‘he sucked’  
+    In word medial position, i.e. after a vowel, by far the most common
+    pattern is for /d/ to surface as \[d\] or \[n\] after /i/ and /e/ or
+    as \[r\] or \[r̃\] after any other vowel. Consider the examples
+    below that show the \[d\] and \[n\] realizations:  
+    (2.106) a. hede=wa \[he’dewa\]  
+    outside=CL.FLAT  
+    ‘outside the house, in the yard surrounding the house’  
+    b. eda-abẽ \[e’damẽ\]  
+    arrive-II.3MSC  
+    ‘he arrived (long ago)’  
+    c. et∫idi \[e’t∫idi\]  
+    ‘inajápalm’  
+    d. hidoha-dõ \[hi’dohar̃õ\]  
+    be.dangerous-NMZ. CNT  
+    ‘A dangerous place or thing’  
+
+  - Page 74 : (2.107) a. ẽdũ-wɨ \[ẽ’nũw̃ɨ̃\]  
+    get.wet-N.3AN  
+    ‘it got wet’  
+    b. pedã \[pe’nã\]  
+    ‘powder’  
+    c. idã \[i’nã\]  
+    ‘these ones animates’  
+    d. pidĩdɨ \[pi’nĩndɨ\]  
+    ‘last, end side’  
+    There are ‘exceptional’ \[d\] and \[n\] phones in morpheme internal
+    position too. Please consider the examples below:  
+    (2.108) a. bãderu=bo \[mã n derubo\]  
+    bird.sp.=CL.OVAL  
+    ‘bird sp.’  
+    b. dudu-kɨ \[dudukɨ\]  
+    lizard.sp.-MSC  
+    ‘a lizard species’  
+    c. ãdõ \[ã n õ\]  
+    THAT. CNT  
+    ‘there, that inanimate one’  
+    Turning now to /r/, the following examples show this phoneme in root
+    internal position.  
+    (2.109) a. kɨra  
+    \[kɨɾa\]  
+    ‘feces’  
+    b. para-wɨ \[paɾawɨ\]  
+    lie.down-N.3.AN  
+    ‘I lied down’  
+    c. kari \[kaɽi\]  
+    ‘now’  
+    (2.110) a. kɨ̃rãbĩ \[kɨ̃ɽ̃ãmĩ\]  
+    ‘house’  
+    b. ‘õrẽ \[’õɽ̃ẽ\]  
+    ’banana’  
+    c. ɨ̃rẽ \[’õɽ̃ẽ\]  
+    ‘pupunha (Palm sp.)’  
+
+  - Page 75 : There are also ‘exceptional’ occurrence of /r/ in root
+    internal position as well.  
+    See the examples below:  
+    (2.111) a. bãderu=bo \[mã n ’deɾubo\]  
+    insect.sp.=CL.OVAL  
+    ‘insect sp.’  
+    b. ‘jiru-ko \[’ʤiɾuko\]  
+    cricket.sp-FEM  
+    ’A cricket species’  
+    c. jukira \[ʤu’kiɾa\]  
+    ‘salt’  
+    d. t∫irura \[t∫i’ɾuɾa\]  
+    ‘pants’  
+    Because of the ‘exceptional’ occurrence in root internal position of
+    \[ɾ\], \[ɽ\], \[ɽ̃\], in one hand, and \[d\] and \[n\], on the other
+    hand, one is forced to recognize them as allophones of different
+    phonemes in this context: /r/ and /d/ respectively. This is a very
+    specific situation, which seems to be a shift from a time where
+    \[d\], \[r\], \[n\] and \[r̃\] were different allophones of the same
+    phoneme. This innovation seems constrained to lexical roots,
+    possibly reflecting the introduction of borrowing and creation of
+    new words. Some clear instances of borrowings are jukira ‘salt’
+    (from Ñeengatu, perhaps via Baniwa), ‘jiruko probably a borrowing
+    from Baniwa <dzíiɻo> ‘creeket’ or from Portuguese grilo ‘creeket’,
+    t∫irura ‘pants’ from Portuguese via Lingua Geral /siroula/
+    ‘undergarment’. Please, also see chapter 9 for a discussion of the
+    DISTAL DEMONSTRATIVE as borrowing from an Arawakan language.  
+    In bound morphemes, however, one finds a much more regular scenario.
+    One could argue that /d/ and /r/ contrast is neutralized in this
+    environment, or, as I prefer, that this innovation (i.e. the
+    contrast of /d/ and /r/) has not reached grammatical levels beyond
+    lexical roots. Please consider the examples below, which show the
+    regular alternations between the allophones of /d/ (based on rules
+    in (2.103) above):  
+
+  - Page 76 : (2.112) -de ‘OBLIQUE’  
+    a. ‘hio-de \[’hioɽe\]  
+    plantation- OBL  
+    ’to/at the plantation’  
+    b. jawi-de \[ʤa’ʋide\]  
+    jaguar-OBL  
+    ‘to/at the jaguar’  
+    (2.113) -dã ‘ANIMATE PLURAL’  
+    a. ã-dãhi-wɨ \[ã’ɽ̃ãhiwɨ\]  
+    eat-FUT.INT.AN.P-N.3.AN  
+    ‘I will eat’  
+    b. ‘kɨhĩ-dã \[’kɨhĩnã\]  
+    small-AN.PL  
+    ’the small ones’  
+    (2.114) -du ‘IF, CONDITIONAL’  
+    a. ku-du \[ku’ɾu\]  
+    walk-IF  
+    ‘if one walks…’  
+    b. kɨ-be-du \[kɨ’bedu\]  
+    exist-NEG-IF  
+    ‘if there wasn’t…’  
+    (2.115) -di ‘INTERROGATIVE’  
+    a. oka-di \[okaɽi\]  
+    rain-INTRR  
+    ‘has it rained?’  
+    b. oka-i-di \[okaɽi\]  
+    rain-ST -INTRR  
+    ‘is it raining?’  
+    (2.116) -dĩ ‘CONVERB’  
+    a. ‘hã -dĩ \[’hãɽ̃ĩ\]  
+    see-CNV  
+    ’seeing…’  
+    b. ĩ-dĩ \[ĩ’nĩ\]  
+    take- CNV  
+    ‘taking…’  
+
+  - Page 77 : In all these examples it is not necessary to analyze /d/
+    as anything except the underlying phoneme, given that every
+    allophone is regularly predicted by rule. In addition, when Kubeo
+    speakers make use of Portuguese or Spanish terms that end in a
+    consonant, it is always the phone \[d\] that surfaces as the default
+    form, such as in ’ professores=de’ (teachers=OBL) ‘to, at, for the
+    teachers’.  
+    There is only a single morpheme, however, where this regular
+    alternation does not occur. This morpheme is =dẽ and it means ‘
+    HORTATIVE MOTION’ or ‘let’s go do X’.  
+    In the example below, one would expect the form \[ɽ̃ẽ\], but what
+    one gets is \[nẽ\]:  
+    (2.117) bue-dã=dẽ \[buenãnẽ\]  
+    study-AN.P =MOT.HORT  
+    ‘let’s go studying’  
+    This morpheme is a clitic, a morpheme type that always shows
+    segmental allophonic alternations as other bound morphemes (see
+    chapter 6). It is the result of a new development in some southern
+    dialects of Kubeo (Phratry IV, cf. chapter 1), and originally it was
+    formed by the word dɨ̃-re=wɨ \[nɨ̃r̃ẽwɨ\] (go-OBL =CL.AN.COL)
+    ‘let’s go’. The form is still fully pronounced in other
+    dialects, very often with the omission of =wɨ ‘CLASSIFIER ANIMATE
+    COLLECTIVE’. Hence, the exceptional clitic =dẽ ‘hortative motion’
+    actually comes from a contraction of a full, independent stem. It is
+    thus a relative matter whether one should treat it as being relevant
+    for the overall analysis of /d/ and /r/, or not.  
+    In conclusion, there are alternative ways to analyze the
+    relationship between /d/ and /r/ in Kubeo. The one I think is the
+    best is to assume that /r/ and /d/ contrast only in a few
+    exceptional lexical items and that in bound-morphemes there is only
+    a single phoneme /d/, where the /d/ and /r/ contrast is neutralized.
+    
+    \=\> Je ne regarde pas la partie de la section suivante sur la
+    Nasalité
+
+Ferguson, Judith and Hollinger, Cari and Criswell, Linda and Morse,
+Nancy. 2000. El Cubeo. In de Pérez, María Stella González and de Montes,
+María Luisa Rodríguez (eds.), Lenguas ind’igenas de Colombia: Una
+visi’on descriptiva, 357–372. Instituto Caro y Cuervo. -\> Pas trouvé
+
+Morse, Nancy and Maxwell, Michael. 1999. Gramática del cubeo. Editorial
+Alberto Lleras Camargo.  
+\- Page 3 : Vibrante simple r  
+\- Page 4 : De modo similar, /r/ tiene el alofono \[ɾ̃\] antes de vocal
+nasalizada y el \[ɾ\] antes de vocal oral:  
+(2) /ko’rexaki/ \[ko’ɾexaki\] ‘espere\!’  
+/kõrẽko/ \[kõɾ̃ẽko\]  
+\- Page 12 : Varicion morfofonologica entre /r/ y /d/  
+Los sufijos cuya consonante inicial es la vibrante simple /r/ (obajo un
+analisis alternativo, la oclusiva alveolar /d/) exhiben morfofonologicas
+condicionadas por la vocal precedente. Despues de las vocales anteriores
+/i, ĩ, e, ẽ/, tales sufijos empiezan con /d/, pero despuès de otras
+vocales, empiezan con /r/. Un ejemplo es el sufijo nasal por naturaleza
+-Rĩ ‘gerundio’. (La R mayuscula se usa aqui para indicar un archifonema
+ambigui entre /r/ y /d/):  
+\[examples\]  
+Otro ejemplo del archifonema R es el sufijo clasificador oral por
+naturalza -Rɨ ‘pequeno objeto tridimensional’:  
+\[examples\]  
+Algunos sufijos tiene esta variacion morfofonologica y, ademas, no se
+marcan para nasalidad. Esta do como resultado cuatro variantes
+morfofonologicas de un solo sufijo. Un ejemplo es -RE ‘marcador de
+objeto’:  
+\- Page 13 : Los verbos da- venir y dɨ̃- ir tambien se convierten en Ra-
+y Rɨ̃, respectivamente, cuando se unen a un verbo que termina en -kɨ or
+-ko: \[examples\]  
+Fuera de estas construcciones, estas raices verbas son da- y dɨ̃-,
+respectivamente.
+
+``` 
+          La /r/ se acerca mucho por ser un alofono de /d/, pero hay unos pocos ejemplos de contrastes, por ejemplo: /'dudukɨ/ coloradito y /'turubo/ especie de planta. COn excepcion de estos ejemplos, la /d/ ocurre siempre después de vocales anteriores (/i, ĩ, e, ẽ/) y al inicio de palabra. La /r/ generalmente ocurre siguiendo a vocales no anteriores. Los unicos casos de /r/ despues de una vocal anterior son palabras onomatopeyicas o palabras prestadas del espanol, por ejemplo: /'peru'peru/ ['peɾu'peɾu] 'pestanear, pestanear/centellear, centellear', /'ʧeru/ ['ʧeɾu] 'sonido de zamponas' y /ʧe'ruʧu/ [ʧe'ɾuʧu] 'serrucho'; y los unicos casos de /r/ al inicio de palabra son prestamos del espanol, especialemnte nombre propios, como Roberto.  
+          
+```
+
+Wikipedia :  
+<https://en.wikipedia.org/wiki/Cubeo_language>  
+\- Continuant r
+
+Glottologue :  
+<https://glottolog.org/resource/languoid/id/cube1242>
+
+Autres sources :  
+<https://clics.clld.org/languages/hubercolumbian-Cubeo>  
+Recherches : r -\> 98 entries (filtered from 384 total entries)  
+l -\> 0 entries (filtered from 384 total entries)  
+Form in source:  
+r -\> 97 entries (filtered from 384 total entries) (=\> kĩ̵ɾã́bo
+‘stone’)
+
+``` r
+show_lang('Cubeo')$Form
+```
+
+    ## [1] "jarídõ"
+
+``` r
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Cubeo",'other',revision))
+```
+
+### Mari
+
+``` r
+show_lang('Mari')
+```
+
+    ## # A tibble: 3 × 6
+    ##   Language Dataset Meaning Form    Trill R_type  
+    ##   <chr>    <chr>   <chr>   <chr>   <chr> <chr>   
+    ## 1 Mari     CLICS   smooth  'tör̃    no    no trill
+    ## 2 Mari     CLICS   smooth  šə'ma   no    no trill
+    ## 3 Mari     CLICS   rough   kozə'r̃a no    no trill
+
+``` r
+show_comments('Mari')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language Dataset Comments
+    ##   <chr>    <chr>   <chr>   
+    ## 1 Mari     IDS     tap/flap
+
+``` r
+show_iso('Mari')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language ISO_code Phoible_code
+    ##   <chr>    <chr>    <chr>       
+    ## 1 Mari     mhr      mhr
+
+Trill : no  
+R\_type : no trill
+
+Dataset :  
+IDS, tap/flap
+
+Phoible :  
+<https://phoible.org/languages/east2328>  
+7 inventaires  
+\- SPA ɾ allophones ɾʲ ɾ r̩  
+\- UPSID ɾ̪|ɾ pas d’allophones  
+\- PH ɾ allophones ɾ ɾʲ  
+\- EA 2241 r pas d’allophones  
+\- EA 2413 r pas d’allophones  
+\- EA 2506 r pas d’allophones  
+\- EA 2532 r pas d’allophones
+
+Ristinen, Elaine K. 1960. An East Cheremis Phonology. (Uralic and Altaic
+Series, 1.) Bloomington: Indiana University Press. -\> Pas trouvé
+
+Sebeok, Thomas A. and Ingemann, Frances J. 1961. An Eastern Cheremis
+Manual. (Research and Studies in Uralic and Altaic Languages, 9.)
+Indiana University.  
+\- Page 6 : /r/ \[ŕ\] palatalized dental-alveolar before /j/  
+flap or palatal flap /pörjeŋ/ ‘man’  
+\[r\] dental-alveolar flap elsewhere  
+/rok/ ‘earth’  
+/urža/ ‘rye’  
+/sar/ ‘yellow’
+
+Gruzov, L.P. 1960. Sovremennyi marijskij jazyk: fonetika. Joshkar-Ola.
+-\> Pas trouvé  
+Современный марийский язык.
+
+Wikipedia :  
+<https://en.wikipedia.org/wiki/Meadow_Mari_language>  
+<https://ru.wikipedia.org/wiki/%D0%9B%D1%83%D0%B3%D0%BE%D0%B2%D0%BE%D0%BC%D0%B0%D1%80%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA>  
+\- Дрожащие Сонанты р /r/
+
+Glottologue :  
+<https://glottolog.org/resource/languoid/id/east2328>
+
+Alhoniemi, Alho. 1993. Grammatik des Tscheremissischen (Mari). Hamburg:
+Buske. 253pp.  
+\- Traduit depuis le German sur Google Traduction avec mon iPhone  
+\- Page 20 : Tremulent r  
+Some dialects have even more palatalized consonant: step dialectally at
+least the opposition pairs /r/ - /ŕ/
+
+Autres sources :  
+<https://clics.clld.org/languages/ids-147>  
+Recherches : r -\> 458 entries (filtered from 1,553 total entries)  
+rr -\> 1 entries (filtered from 1,553 total entries)  
+l -\> 489 entries (filtered from 1,553 total entries)
+
+``` r
+show_lang('Mari')$Form
+```
+
+    ## [1] "'tör̃"    "šə'ma"   "kozə'r̃a"
+
+``` r
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Mari",'other',revision))
+```
+
+### Jamaican Creole (Limonese Creole dialect)
+
+``` r
+show_lang('Jamaican Creole (Limonese Creole dialect)')
+```
+
+    ## # A tibble: 2 × 6
+    ##   Language                                  Dataset Meaning Form  Trill R_type  
+    ##   <chr>                                     <chr>   <chr>   <chr> <chr> <chr>   
+    ## 1 Jamaican Creole (Limonese Creole dialect) CLICS   smooth  smud  no    no trill
+    ## 2 Jamaican Creole (Limonese Creole dialect) CLICS   rough   rɔf   no    no trill
+
+``` r
+show_comments('Jamaican Creole (Limonese Creole dialect)')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language                                  Dataset Comments   
+    ##   <chr>                                     <chr>   <chr>      
+    ## 1 Jamaican Creole (Limonese Creole dialect) IDS     approximant
+
+``` r
+show_iso('Jamaican Creole (Limonese Creole dialect)')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language                                  ISO_code Phoible_code
+    ##   <chr>                                     <chr>    <chr>       
+    ## 1 Jamaican Creole (Limonese Creole dialect) jam      jam
+
+Trill : no  
+R\_type : no trill
+
+Dataset :  
+IDS, approximant
+
+Phoible :  
+<https://phoible.org/inventories/view/1053>  
+\- ɹ allophones ɹ
+
+Harry, Otelemate G. 2006. Illustrations of the IPA: Jamaican Creole.
+Journal of the International Phonetic Association 36. 125–131. Cambridge
+University Press.  
+\- Page 126 : Approximant ɹ
+
+Wikipedia :  
+<https://en.wikipedia.org/wiki/Jamaican_Patois>  
+\- English-based creole language with West African influences  
+\- Approximant ɹ
+
+Glottologue :  
+<https://glottolog.org/resource/languoid/id/jama1262>
+
+Autres sources :  
+<https://clics.clld.org/languages/ids-218>  
+Recherches : r -\> 400 entries (filtered from 1,676 total entries)  
+rr -\> 0 entries (filtered from 1,676 total entries)  
+l -\> 440 entries (filtered from 1,676 total entries)
+
+<https://apics-online.info/contributions/8>  
+<https://apics-online.info/surveys/8>  
+\- Jamaican is a non-rhotic variety, which sets it off from Jamaican
+English, which is rhotic or contains at least r-colouring.4  
+\- approximant ɹ
+
+``` r
+show_lang('Jamaican Creole (Limonese Creole dialect)')$Form
+```
+
+    ## [1] "smud" "rɔf"
+
+Comme l’autre Créole, on peut se demander si même si ce n’est pas
+réalisé comme un trill, ça ne peut pas être un trill au niveau
+phonologique ? Sur Glottologue, c’est Indo-European.
+
+UPDATE AU 03/05/22 :  
+Je change le ‘TO DECIDE’ en ‘OUT’.
+
+``` r
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Jamaican Creole (Limonese Creole dialect)",'OUT',revision))
+```
+
+### Embera
+
+``` r
+show_lang('Embera')
+```
+
+    ## # A tibble: 2 × 6
+    ##   Language Dataset Meaning Form  Trill R_type          
+    ##   <chr>    <chr>   <chr>   <chr> <chr> <chr>           
+    ## 1 Embera   CLICS   smooth  dou'a no    mixed with trill
+    ## 2 Embera   CLICS   rough   ɨ'gɨa no    mixed with trill
+
+``` r
+show_comments('Embera')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language Dataset Comments                  
+    ##   <chr>    <chr>   <chr>                     
+    ## 1 Embera   IDS     tap/flap ~ trill allophony
+
+``` r
+show_iso('Embera')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language ISO_code Phoible_code
+    ##   <chr>    <chr>    <chr>       
+    ## 1 Embera   emp      emp
+
+Trill : no  
+R\_type : mixed with trill
+
+Dataset :  
+IDS, tap/flap \~ trill allophony
+
+Phoible :  
+\- r pas d’allophones; ɾ pas d’allophones
+
+Hoyos Benítez, Mario Edgar. 2000. Informe sobre la lengua embera del
+R’io Napip’i. In de Pérez, María Stella González and de Montes, María
+Luisa Rodríguez (eds.), Lenguas ind’igenas de Colombia: Una visi’on
+descriptiva. Bogotá: Instituto Cara y Cuervo. -\> Pas trouvé
+
+Wikipedia :  
+<https://en.wikipedia.org/wiki/Northern_Embera_language>  
+\- Rhotic trill r  
+tap ɾ  
+\- Katio’s phoneme inventory contains 16 consonants (p, t, dɮ , t͡ʃʼ, k,
+b, d, g, s, h, m, n, r, u) and 6 vowels, both oral and nasal (a, e, i,
+o, u, ɨ). Darien Embera’s phoneme inventory contains 17 consonants (p,
+t, k, b, d, dɮ, t͡ʃʼ, g, s, h, z, r, t, w, j) and 6 vowels, oral and
+nasal (a, e, i, o, u, ɨ).  
+\- Panama spelling  
+r - \[r\~ɾ\]  
+rr - \[r\]  
+\- Colombia spelling  
+r - \[r\~ɾ\]
+
+Glottologue :  
+<https://glottolog.org/resource/languoid/id/nort2972>
+
+Sara, Solomon I. 2003. Spanish borrowing into Emberá. Word 54. 69-82.  
+\- Page 70 : Flap/trill r/rr  
+\- Page 77 : Substitution: \[d -\> r\]. This change is not observed in
+many items, but its occurrence is of interest, as it indicates that
+Emberé seems to favor \[r\] in its inventory. Cf. Spanish: torpedo,
+Emberé: t<sup>horp</sup>hero, English: torpedo  
+Substitution: \[l -\> r\]. Although both \[r\] and \[l\] occur in
+Embera, \[r\] is more frequent thant \[l\], as my be been in Table 19.  
+\- Page 79 : Table 19. Substitution of \[r\] for \[l\]  
+\[examples\]
+
+Autres sources :  
+<https://clics.clld.org/languages/ids-247>  
+Recherches : r -\> 323 entries (filtered from 793 total entries)  
+rr -\> 0 entries (filtered from 793 total entries)  
+l -\> 6 entries (filtered from 793 total entries)  
+Form in source :  
+r̃ -\> 53 entries (filtered from 793 total entries)  
+r -\> 323 entries (filtered from 793 total entries)
+
+``` r
+show_lang('Embera')$Form
+```
+
+    ## [1] "dou'a" "ɨ'gɨa"
+
+On ne trouve pas vraiment de sources, je mets ‘OUT’ car il semble y
+avoir un trill et un tap.
+
+``` r
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Embera",'OUT',revision))
+```
+
+### Baure
+
+``` r
+show_lang('Baure')
+```
+
+    ## # A tibble: 1 × 6
+    ##   Language Dataset Meaning Form    Trill R_type  
+    ##   <chr>    <chr>   <chr>   <chr>   <chr> <chr>   
+    ## 1 Baure    CLICS   smooth  -'mo-ri no    no trill
+
+``` r
+show_comments('Baure')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language Dataset Comments
+    ##   <chr>    <chr>   <chr>   
+    ## 1 Baure    IDS     <NA>
+
+``` r
+show_iso('Baure')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language ISO_code Phoible_code
+    ##   <chr>    <chr>    <chr>       
+    ## 1 Baure    brg      brg
+
+Trill : no  
+R\_type : no trill
+
+Dataset :  
+IDS, no comments
+
+Phoible :  
+<https://phoible.org/inventories/view/1843>  
+\- ɾ pas d’allophones
+
+Danielsen, Swintha. 2007. Baure an Arawak languge of Bolivia. Leiden:
+CNWS Publications.  
+\- Page 39 : rhotic r\[61\]  
+\[61\] In the phonemic representation the retroflex flap will be written
+/r/, only in the phonetic transcription the specific IPA symbol \[ɽ\]
+will be used.  
+\- Page 40 : There is a retroflex rhotic /r/.  
+\- Page 47 : 2.1.3.12 Rhotics: /r/: \[r\] and \[ɽ\]  
+The rhotic /r/ is either realized as a voiced alveolar vibrant \[r\]
+(=\> je ne sais pas à quoi ça fait référence vibrante ?) or a voiced
+retroflex flap \[ɽ\]. The vibrant \[r\] occurs Word initially; word
+finally it is generally the flap \[ɽ\] \[67\]. Only when a final /i/ is
+deleted before the phoneme /r/, the vibrant is used in a devoiced and
+palatalized form: \[r̥ʲ\]. The phoneme /r/ can be contrasted with all
+other consonants. Here are examples of the allophones of /r/:  
+(74) \[rak\] /rak/ ‘his aunt’  
+\[rɔs\] /ros/ ‘his grandmother’  
+\[rɛn\] /ren/ ‘his mother’  
+\[ri’ʔaʔ\] /ri’ʔa/ ‘her body’  
+(75) \[ta’rar\] /ta’rar/ ‘raven’  
+\[ni’sɔɽ\] /nisor/ ‘my trachea’  
+\[ni’wɛɽ\] /niwer/ ‘my house’  
+\[viɽ\] /vir/ ‘wind’  
+\[67\] I admit that more phonetic analysis is needed to determine the
+specific type(s) of /r/ that occur in Baure.  
+\- Page 48 : (76) \[’par̥ʲ\] /‘pari/ ’house’  
+\[ni’sɔr̥ʲ\]/ni’sori/ ‘my village’  
+\[’pɛr̥ʲ\] /‘peri/ ’agouti’  
+\[ni’pir̥ʲ\]/ni’piri/ ‘my sibling of the same sex’  
+The phonetic presentation of /r/ has been simplified as \[r\]
+throughout.  
+\- Page 49 : Sounds in Spanish loanwords  
+Spanish Baure Spanish word Baure word translation  
+sound sound  
+\[d\] \[r\] domɪngo \[do’mngo\] \[ro’mik\] Sunday  
+\[l\] \[r\] Julián \[xu’lian\] \[ho’rian\] name  
+\[fr \] \[br\] Franciso \[fran’sisko\] \[bran’sisik\] village  
+\[tre\] \[ter\] catre \[’katre\] \[’kater\] ‘bedstead’  
+\[bre\] \[vor\] pobre \[’pobre\] \[’povor\] ‘poor’
+
+  - Page 59 : phoneme Baptista & Baptista & Valenzuela’s Danielsen  
+    Wallin, Wallin, for the suggestion (2007)  
+    linguistic notes speakers (1996)  
+    (1960–1970) (1960–1970)  
+    /r/ r, l \[82\] r r r
+    
+    ``` 
+          [82] Formerly they used l, but in the latest material they decided on r.  
+    ```
+
+Wikipedia :  
+<https://en.wikipedia.org/wiki/Baure_language>  
+\- r/l - \[r/l\]
+
+Glottologue :  
+<https://glottolog.org/resource/languoid/id/baur1253>
+
+Autres sources :  
+<https://clics.clld.org/languages/ids-261>  
+Recherches : r -\> 76 entries (filtered from 287 total entries)  
+l -\> 0 entries (filtered from 287 total entries)
+
+``` r
+show_lang('Baure')$Form
+```
+
+    ## [1] "-'mo-ri"
+
+Je laisse en ‘other’.
+
+``` r
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Baure",'other',revision))
+```
+
+### Wapishana
+
+``` r
+show_lang('Wapishana')
+```
+
+    ## # A tibble: 2 × 6
+    ##   Language  Dataset Meaning Form             Trill R_type  
+    ##   <chr>     <chr>   <chr>   <chr>            <chr> <chr>   
+    ## 1 Wapishana CLICS   smooth  miduda-ʔu        no    no trill
+    ## 2 Wapishana CLICS   rough   kʰaduraiẓaˀba-ʔu no    no trill
+
+``` r
+show_comments('Wapishana')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language  Dataset Comments
+    ##   <chr>     <chr>   <chr>   
+    ## 1 Wapishana IDS     flap
+
+``` r
+show_iso('Wapishana')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language  ISO_code Phoible_code
+    ##   <chr>     <chr>    <chr>       
+    ## 1 Wapishana wap      wap
+
+Trill : no  
+R\_type : no trill
+
+Dataset :  
+IDS, flap
+
+Phoible :  
+<https://phoible.org/languages/wapi1253>  
+3 inventaires  
+\- SPA ɾ allophones ɾ  
+\- UPSID ɾ pas d’allophones  
+\- SAPHON ɽ pas d’allophones
+
+Tracy, Frances V. 1972. Wapishana Phonology. In Grimes, J. E. (ed.),
+Languages of the Guianas, 78–84. Norman: Summer Institute of
+Linguistics, University of Oklahoma.  
+\- Page 78 : The flap is alveolar: /r/  
+\- Page 84 : The use of z has been questioned since ealier attempts to
+write Wapishana that were not based on a linguistic analysis used r.
+Furthermore, /z/ is articulated in much the same way as English z except
+that the tip of the tongue is curled, giving the sound a quality a
+little like that of English r. Unless native reaction is exceedingly
+resistant, z appears to be the better choice, both from the standpoint
+of Wapishana speakers themselves and of others wanting to read and write
+Wapishana.  
+These considerations lead to a Wapishana alphabet as follows: \[…\] r,
+\[…\] z.
+
+Ferreira, Helder. NULL. Personal communication.
+
+dos Santos, Manuel Gomes. 2006. Uma gramática do Wapixana (Aruak):
+aspectos da fonologia, da morfologia e da sintaxe. (Doctoral
+dissertation, Universidade Estadual de Campinas).  
+\- Page 32 : flepe son ɽ  
+\- Page 33 : O fonema /ʐ/, por seu turno, embora em início de palavra
+possa apresentar algum traço ejetivo, mais evidente aí parece ser a
+pré-vocalização, mas nenhum desses traços apresenta conseqüências para
+o sistema fonológico da língua, por isso, no quadro acima, ele é
+caracterizado como fricativo retroflexo. Esse fonema aparece na
+literatura também representado como aproximante retroflexo /ɻ/ (RAMIREZ,
+2001, p. 525); suas propriedades fonéticas reúnem a retroflexidade do
+flape /ɽ/ e o ruído sibilar de um som fricativo. Minha opção por
+representá-lo como /Ω/ é de caráter prático, pois tanto a ortografia
+empregada na  
+Guiana por Tracy (ibid., p. 84), quanto a empregada no Brasil (CADETE,
+1990) utilizam o símbolo /z/ para caracterizar esse segmento e reservam
+/r/ para caracterizar o flepe. Quando em final de sílaba, /b/, /ɖ/ e /ʐ/
+perdem o traço \[+ son\], realizando-se como /p/, /ʈ/ e /ʂ/,
+respectivamente.  
+\- Page 34 : (7) a. /t/ /watu/ \[’watu\] ‘urubu’  
+b. /ɽ/ /waɽu/ \[’waɽu\] ‘papagaio’  
+\- Page 46 : Palatalização  
+i. /ɽiɽan/ \[^{ə}ɽi'ɽʲɛ̃n\] ‘murchar’
+
+Wikipedia :  
+<https://en.wikipedia.org/wiki/Wapishana_language>  
+\- Tap ɽ
+
+Glottologue :  
+<https://glottolog.org/resource/languoid/id/wapi1253>
+
+Autres sources :  
+<https://clics.clld.org/languages/ids-266>  
+Recherches: r -\> 291 entries (filtered from 1,152 total entries)  
+l -\> 5 entries (filtered from 1,152 total entries) \[=\> emprunt du
+Portuguais ? De l’anglais ?\]
+
+``` r
+show_lang('Wapishana')$Form
+```
+
+    ## [1] "miduda-ʔu"        "kʰaduraiẓaˀba-ʔu"
+
+``` r
+rough_r_data <- rough_r_data %>% 
+   dplyr::mutate(revision = ifelse(Language=="Wapishana",'other',revision))
+```
+
+### Cavineña
+
+``` r
+show_lang('Cavineña')
+```
+
+    ## # A tibble: 2 × 6
+    ##   Language Dataset Meaning Form    Trill R_type  
+    ##   <chr>    <chr>   <chr>   <chr>   <chr> <chr>   
+    ## 1 Cavineña CLICS   smooth  momi-ya no    no trill
+    ## 2 Cavineña CLICS   rough   c̷eke-da no    no trill
+
+``` r
+show_comments('Cavineña')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language Dataset Comments
+    ##   <chr>    <chr>   <chr>   
+    ## 1 Cavineña IDS     <NA>
+
+``` r
+show_iso('Cavineña')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language ISO_code Phoible_code
+    ##   <chr>    <chr>    <chr>       
+    ## 1 Cavineña cav      cav
+
+Trill : no  
+R\_type : no trill
+
+Dataset :  
+IDS, other
+
+Phoible :  
+<https://phoible.org/languages/cavi1250>  
+2 inventaires  
+\- PH ɹ allophones ɹ  
+\- SAPHON ɺ pas d’allophones
+
+Guillaume, Antoine. 2004. A Grammar of Cavineña, an Amazonian Language
+of Northern Bolivia. (Doctoral dissertation, La Trobe University). -\>
+Pas trouvé
+
+Guillaume, Antoine. 2008. A Grammar of Cavineña. Berlin: Walter de
+Grutyer.  
+\- Page 24 : liquid r \[ɺ\] ry \[ʎ\]  
+Conversely, segments which do not have a voiceless counterpart, such as
+r \[ɺ\], ry \[ʎ\] are never voiceless.  
+\- Page 25 : The liquid r is probably the most noteworthy sound in
+Cavineña. Roughly speaking, its pronunciation lies somewhere between a
+tap \[ɾ\] and a lateral \[l\]. An instrumental study (Guillaume 2002)
+has revealed that its articulation combines tongue tip retroflexion, a
+very brief period of complete closure in the oral cavity made by the
+tongue tip striking the alveolar ridge, and lateral airflow release.
+According to these characteristics, this sound would be an alveolar
+lateral flap \[ɺ\] (Ladefoged 1971: 51-52; Laver 1994: 311-312;
+Ladefoged and Maddieson 1996: 243).  
+(2.4) rake- \[ɺake\] ‘break’  
+ara- \[aɺa\] ‘eat’  
+\- Page 26 : (2.9) liquid  
+ryu- \[ʎʊ\] ‘comb’  
+tirya-ya \[tiʎaja\] ‘finish-IMPFV’  
+\- Page 28 : e. wira- ‘urinate’  
+wirya- ‘be bored with’  
+\- Page 32 : ry \[ʎ\] \[…\] never occur before front vowels (i and e).  
+\- Page 46 : Phonology of loanwords  
+For example, this is the case with the noun irisha ‘church’ \[íɺiɕa\]
+(from Spanish iglesia \[iglésja\]).  
+In terms of syllable structure, the complex syllable onsets gl and si
+\[sj\] (and the sounds g and l which are foreign to Cavineña) have been
+converted into the single phonemes r \[ɺ\] and sh \[ɕ\]. In addition to
+these modifications, we observe the change of the vowel e of the second
+syllable into an i.  
+\- Page 47 : In other cases, the segments in the borrowed words have not
+(or have only partially) been adapted into the Cavineña system
+(presumably because they are more recent borrowings). For example, the
+noun gringo \[gɾíŋgo\] ‘foreign man of Caucasian type’ is not
+pronounced any differently in Cavineña than it is in Spanish, although
+the complex onset gr \[gɾ\] (and the sound g) \[…\]  
+\- Page 48 : Most of the graphemes used in this study follow Guillaume
+(1996), except for two forms. I use ry instead of ll and ny instead of
+ñ. This makes clearer the fact that these two phonemes belong to the
+series of alveo-palatal phonemes.  
+This also makes the reading easier for readers unfamiliar with the
+Spanish orthographic system.
+
+Wikipedia :  
+<https://en.wikipedia.org/wiki/Cavine%C3%B1a_language>  
+\- Lateral ɺ ⟨r⟩
+
+Glottologue :  
+<https://glottolog.org/resource/languoid/id/cavi1250>
+
+Autres sources :  
+<https://clics.clld.org/languages/ids-273>  
+Recherches : r -\> 243 entries (filtered from 1,005 total entries)  
+l -\> 3 entries (filtered from 1,005 total entries) \[=\> iriša
+‘temple, church’\]  
+ry -\> 0 entries (filtered from 1,005 total entries) \[=\> tere-ya
+‘finish’\]
+
+Guillaume, Antoine. 1996. Propuesta de Alfabeto Canineno - Taller de
+alfabetos de las lenguas del oriente Boliviano, Tumi Chucua 5-19 de
+Agosto de 1996  
+\- Page 1 : Estos sonidos son transcriptos con los simbolos del Alfabeta
+Fonetico Internation (A.F.I)  
+\- Page 2 : Fonema /r/ Alfabeto 1960 r Propuesta 1996 r  
+\- Page 4 : vibrante r  
+\- Page 5 : Fonema /r/ Grafema r Descripcion vibrante palatal sonora
+ejemplo ruru ‘sapo’  
+Notas sobre algunas consonantes:  
+\- vibrante palatal sonora /r/  
+La vibrante /r/ es quizas el sonido mas propio de la lengua cavinena.
+Tiene una pronunciacion algo distinta a la del castellano,
+pronunciandose como un sonido palatal/retroflejo.  
+\- liquida palatal sonora /r/:  
+La pronuncation actual y mas comun de este sonido es como la <ll> del
+castellano. Sin embargo segun la informacion de un participante del
+taller los hablantes tradicionales lo pronunciacion mas como el conjunto
+de la consonante /r/ seguido por la vocal /i/.  
+\- Page 8 : Pares minimos  
+n/r  
+bina ‘murcielago’  
+bira ‘peto’  
+d/r  
+dudu ‘horcon’  
+ruru ‘sapo’
+
+``` r
+show_lang('Cavineña')$Form
+```
+
+    ## [1] "momi-ya" "c̷eke-da"
+
+``` r
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Cavineña",'other',revision))
+```
+
+### Aché
+
+``` r
+show_lang('Aché')
+```
+
+    ## # A tibble: 2 × 6
+    ##   Language Dataset Meaning Form  Trill R_type  
+    ##   <chr>    <chr>   <chr>   <chr> <chr> <chr>   
+    ## 1 Aché     CLICS   smooth  prečã no    no trill
+    ## 2 Aché     CLICS   rough   kuru  no    no trill
+
+``` r
+show_comments('Aché')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language Dataset Comments
+    ##   <chr>    <chr>   <chr>   
+    ## 1 Aché     IDS     <NA>
+
+``` r
+show_iso('Aché')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language ISO_code Phoible_code
+    ##   <chr>    <chr>    <chr>       
+    ## 1 Aché     guq      guq
+
+Trill : no  
+R\_type : no trill
+
+Dataset :  
+IDS, no comments
+
+Phoible :  
+<https://phoible.org/languages/ache1246>  
+2 inventaires  
+\- UPSID ɺ̪|ɺ pas d’allophones  
+\- SAPHON ɾ pas d’allophones
+
+Susnik, Branka J. 1974. Estudios Guayaki: Sistema fonetico y tematico.
+Asunción, Paraguay: Museo Etnografico “Andres Barbero”.
+
+Roessler, Eva-Maria. 2008. Aspectos da gramática achê: Descrição e
+reflexão sobre uma hipótese de contato. (MA thesis, Universidade
+Estadual de Campinas).  
+\- Page 35 : Fones consonantais do achê segundo Sammons (1977)  
+Tap ɾ  
+\- Page 37 : Sistema consonantal do GP segundo Gregores & Suarez (G\&S
+1967, p. 51)  
+Consoantes Soantes r  
+\- Page 38 : Sistema consonantal do PTG seguno Scheilcher (1998,
+p. 39)  
+Consonantes Lenis r  
+\- Page 39 : Fones consonantais do Achê  
+Aproximante, tap, glide ɾ  
+\- Page 44 : (c) \[nõ’.^{ŋ}ga\] /ɾõga/ ‘part.COMP’ (dado:
+MaCh120507CP)  
+(i) \[ɾã.’ʔã\] /ɾã/ dar + \[-ga\] /-ga/ FOC-2  
+em: \[…ɾã.^{n}ga mõ.^{n}do ʧo.pɛ\] (dod: MaCh030507CP)  
+/ɾã-ga bõdo ʧo-pe/  
+‘dar’sf.FOC-2 aux.IMP 1SG+LOC  
+’me dar (a.c.)’  
+\- Page 48 : Analogo a \[w, ɾ\], ele \[j\] aparece raras vezes
+isoladamente no inicio da palavra, no caso das silabas CCV a sua
+ocorrência é muito mais freqüente.  
+\- Page 51 : Fluctuaçao possivel entre \[ɾ\] e \[n\]  
+Como comun no guarani e outras linguas TG, tambem encontramos possiveis
+flutuaçoas na realizaçao do tap e da nasal alveolar num contexto
+vocalico nasal. Aqui trata-se entao tambem de um overlapping no caso da
+nasal alveolar \[n\], que pode por um lado ser alofone da soante /d/, e
+por outro lado do tap /ɾ/. Descrever a distribuiçao complementar nao foi
+possivel, porque em ambos contextos a nasal ocorre no inicio da palavra
+em contexto vocalico nasal. Até agora nao foi possivel apresentar uma
+sistematicidade clara para essa flutaçao, mas existem evidencias de que
+o tap pode aparecer tanto antes de uma vogal oral, como em \[ɾe.kɔ\]
+‘ter’, quanto antes de uma vogal nasal, como em \[ɾõ\] clitico para
+FOC-1. Em algums casos encontramos mesmo assim a realizaçao de /ɾ/ como
+\[n\] em contexto nasal, de modo que existe a variaçao aparentemente
+livre de \[ɾɔ̃.ŋga\] e \[nɔ̃.ŋga\], particula de comparaçao (COMP).
+Neste caso a nasal aparece (segundo nossos dados atuais) com mais
+frequencia do que o tap. Suspeito que a nasal ocorra em itens lexicais e
+fala lenta; em morfemas dependentes (sufixos), em cliticos e fala ocorre
+o tap, mas essa distribuiçao teria que ser confirmada em mais dados. No
+seguinte exemplo (007) econtra-se a palavra /ka.ɾẽ/ realizado no dados
+de EnTy220407CP(a-001) como \[ka.nẽ\]. E importante notar que em outros
+realizaçoes do mesmo item lexical o tal esta realizados. Como mostra
+claramente o espectrograma (n°10) no anexo (1), nao ocorreu o tap neste
+exemplo.  
+/ka.ɾẽ/  
+\[ka.nẽ\]  
+‘quati’  
+(dado: EnTy220407CP(a-001))  
+\- Page 59 : Os segundos segmentos sao exclusivamente soantes \[ɾ, w,
+j\].
+
+Wikipedia :  
+<https://en.wikipedia.org/wiki/Ach%C3%A9_language>  
+\- Flap ɾ
+
+Glottologue :  
+<https://glottolog.org/resource/languoid/id/ache1246>
+
+Autres sources :  
+<https://clics.clld.org/languages/ids-288>  
+Recherches : r -\> 308 entries (filtered from 969 total entries)  
+l -\> 0 entries (filtered from 969 total entries)
+
+``` r
+show_lang('Aché')$Form
+```
+
+    ## [1] "prečã" "kuru"
+
+``` r
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Aché",'other',revision))
+```
+
+### Karajá
+
+``` r
+show_lang('Karajá')
+```
+
+    ## # A tibble: 1 × 6
+    ##   Language Dataset Meaning Form  Trill R_type  
+    ##   <chr>    <chr>   <chr>   <chr> <chr> <chr>   
+    ## 1 Karajá   CLICS   smooth  tɨtɨ  no    no trill
+
+``` r
+show_comments('Karajá')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language Dataset Comments
+    ##   <chr>    <chr>   <chr>   
+    ## 1 Karajá   IDS     <NA>
+
+``` r
+show_iso('Karajá')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language ISO_code Phoible_code
+    ##   <chr>    <chr>    <chr>       
+    ## 1 Karajá   kpj      kpj
+
+Trill : no  
+R\_type : no trill
+
+Dataset :  
+IDS, no comments
+
+Phoible :  
+<https://phoible.org/inventories/view/1962>  
+\- ɾ pas d’allophones
+
+Ribeiro, Eduardo Rivail. 2001. Empréstimos Tupí-Guaraní em Karajá.
+Revista do Museu Antropol’ogico. 75–100.  
+\- Page 2 : (b) O padrão silábico é, em todos os quatro dialetos, (C)V.
+Contudo, sílabas CCV ocorrem foneticamente em Karajá do Sul e do Norte,
+como resultado da síncope de um xuá quando este aparece entre uma
+oclusiva e a aproximante /r/: \[6\]  
+Karajá do Sul e do Norte Javaé e Xambioá  
+kərɔbɪ \[krɔ’bɪ\] kɔrɔbɪ \[kɔrɔ’bɪ\] ‘macaco’  
+kərɛ \[krɛ\] kɛrɛ \[kɛ’rɛ\] ‘martim-pescador’  
+kərɔ \[krɔ\] kɔrɔ \[kɔ’rɔ\] ‘sapo’  
+O mesmo processo de síncope pode também atingir uma vogal precedida por
+consoante oclusiva e seguida por /r/ e outra vogal idêntica:  
+Karajá do Sul e do Norte Javaé e Xambioá  
+kabɔrɔrɔ \[kabrɔ’rɔ\] kabɔrɔrɔ \[kabɔrɔ’rɔ\] ‘jacaré-açu’  
+ɗaraθa \[ɗra’θa\] ɗaraθa \[ɗara’θa\] ‘a açao de tirar’  
+\- Page 3 : Consoantes do Karajá  
+Aproximantes r  
+Lateral l
+
+Wikipedia :  
+<https://en.wikipedia.org/wiki/Karaj%C3%A1_language>  
+\- Sonorant central ɾ  
+lateral l
+
+Glottologue :  
+<https://glottolog.org/resource/languoid/id/kara1500>
+
+Ribeiro, Eduardo Rivail. 2012. A grammar of Karajá. (Doctoral
+dissertation, University of Chicago; x+291pp.)  
+<https://www.proquest.com/openview/dbc0188accdf5e81d7a19f66f288e8e3/1?cbl=18750&diss=y&pq-origsite=gscholar&parentSessionId=0pATCcG5DHC%2BfPWyFFmcXAdNdNg0%2FLmrpb088TdRMqE%3D>
+-\> Pas de version intégrale
+
+David L. Fortune. 1973. Gramática Karajá: Um Estudo Preliminar em Forma
+Transformacional. Série Lingüística 1. 101-161. Brasília.  
+\- Page 158 : Consoantes r  
+\- Page 159 : Quatro simbolos necessitam de esclarecimento : t é
+implosivo; j e tx são africados sonoro e surdo; r é o flap.
+
+\=\> Je n’arrive pas à trouver d’autres sources…
+
+Autres sources :  
+<https://clics.clld.org/languages/ids-295>  
+Recherches : r -\> 200 entries (filtered from 525 total entries)  
+l -\> 42 entries (filtered from 525 total entries)
+
+@misc{fortune,  
+author = {Fortune, David Lee},  
+url =
+{<http://glottolog.org/langdoc?sEcho=1&sSearch_1=fortune&sSearch_2=karaj%C3%A1>},  
+title = {Karajá - various topics},  
+ids\_url = {<http://ids.clld.org/sources/fortune>}  
+}
+
+Cristiane Oliveira. 2010. O Processamento da Dêixis em Karajá- Rio de
+Janeiro: UFRJ  
+\- Page 28 : r \[ɾ\]  
+\- Page 29 : Quadro Fonêmico Consonantal Karajá  
+Tepe r  
+Aproximante Lateral l  
+Ribeiro (2003)
+
+Si je regarde une autre langue de la famille :  
+<https://glottolog.org/resource/languoid/id/jece1235>  
+Machado Estevam, Adriana. 2011. Morphosyntaxe du xavante, langue jê du
+Mato Grosso (Brésil). (Doctoral dissertation, Université de Paris 7 -
+Dénis Diderot; 508pp.)  
+\- Page 19 : Etant donné que la phonologie n’a pas pu être décrite dans
+le cadre de cette thèse, le lecteur est renvoyé aux travaux de Burgess
+(1971), McLeod (1974), Quintino (2000) et notamment Pickering (2010)
+pour une discussion sur les descriptions faites du système phonologique
+de la langue. (Ce dernier fournit par ailleurs un excellent résumé des
+publications antérieures concernant le xavante.) Nous reprenons ici les
+résultats obtenus par cet auteur concernant l’inventaire des phonèmes  
+Battues ɾ  
+(=\> Pas de latérale)  
+\- Page 20 : le son \[ɾ\] sera transcrit par la lettre r
+
+``` r
+show_lang('Karajá')$Form
+```
+
+    ## [1] "tɨtɨ"
+
+``` r
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Karajá",'other',revision))
+```
+
+### Ayoreo
+
+``` r
+show_lang('Ayoreo')
+```
+
+    ## # A tibble: 3 × 6
+    ##   Language Dataset Meaning Form            Trill R_type  
+    ##   <chr>    <chr>   <chr>   <chr>           <chr> <chr>   
+    ## 1 Ayoreo   CLICS   smooth  karu-n̥a-i       no    no trill
+    ## 2 Ayoreo   CLICS   smooth  karu-n̥a-ŋe      no    no trill
+    ## 3 Ayoreo   CLICS   rough   čoo 'čiki 'čiki no    no trill
+
+``` r
+show_comments('Ayoreo')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language Dataset Comments
+    ##   <chr>    <chr>   <chr>   
+    ## 1 Ayoreo   IDS     tap/flap
+
+``` r
+show_iso('Ayoreo')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language ISO_code Phoible_code
+    ##   <chr>    <chr>    <chr>       
+    ## 1 Ayoreo   ayo      ayo
+
+Trill : no  
+R\_type : no trill
+
+Dataset :  
+IDS, tap/flap
+
+Phoible :  
+<https://phoible.org/inventories/view/2137>  
+\- ɾ pas d’allophones
+
+Bertinetto, Pier Marco. 2009. Ayoreo (Zamuco). A grammatical sketch.  
+\- Page 8 : Ayoreo, like many Amazonian languages, lacks /l/ (which is
+however present in Chamacoco (=\> branche soeur), possibly as an
+autonomous development; here again, comparative analysis is needed). The
+only liquid-like sound, realized as \[ɹ\], is in fact an approximant
+and, as observed in 2.1.1, often undergoes deletion in the only position
+where it may occur, namely intervocalically. The Ayoreo from both the
+South and the North often consider the pronunciation of /r/ as the
+distinctive feature of the others’ speech (those of Bolivia as oppposed
+to those of Paraguay); since, however, the actual pronunciation of this
+sound seems to be confined to very few communities (notably, that of
+Rincón del Tigre in South-East Bolivia), the above opinion simply
+suggests that the Ayoreos are aware of the latent presence of /r/ even
+though most of them do not pronounce it any more.  
+\- Page 9 : This might explain the frequent oscillation in pronunciation
+– or, at least, in the different dialects’ pronunciation – of /d/ e /n/.
+For instance, the word for ‘shaman’ is variously reported as daijnai or
+naijnai.  
+\- Page 10 : approximant ɹ <r>  
+\- Page 11 : Word-internally, the only syllable-closing phoneme is /j/.
+Word-finally, codas may consist, in addition to /j/, of  
+one of the following consonants: /ɹ s k p t/. However, final consonants
+are very often followed, especially within an utterance, by the default
+vocoid \[e\], recreating the preferred syllable structure (this is in
+fact compulsory with word-final /ɹ/).  
+\- Page 12 : Morphophonemic alternations  
+(1) a. ñi-ri 1s.arrive di 3s/p.arrive
+
+Wikipedia :  
+<https://en.wikipedia.org/wiki/Ayoreo_language>  
+\- Approximant ɹ
+
+Glottologue :  
+<https://glottolog.org/resource/languoid/id/ayor1240>
+
+Autres sources :  
+<https://clics.clld.org/languages/ids-297>  
+Recherches : r -\> 589 entries (filtered from 1,405 total entries)  
+l -\> 7 entries (filtered from 1,405 total entries) \[=\> des emprunts
+de l’espagnol\]
+
+J’ai regardé le Wiki du Chamacoco :  
+<https://en.wikipedia.org/wiki/Chamacoco_language>  
+\- Approximant plain ɹ  
+lateral l  
+\- Trill r  
+<https://linguistics.berkeley.edu/saphon/en/inv/Chamacoco.html>
+
+``` r
+show_lang('Ayoreo')$Form
+```
+
+    ## [1] "karu-n̥a-i"       "karu-n̥a-ŋe"      "čoo 'čiki 'čiki"
+
+Le tap dans PHOIBLE vient de SAPHON.
+
+``` r
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Ayoreo",'other',revision))
+```
+
+### Southern Kam
+
+``` r
+show_lang('Southern Kam')
+```
+
+    ## # A tibble: 3 × 6
+    ##   Language     Dataset Meaning Form           Trill R_type  
+    ##   <chr>        <chr>   <chr>   <chr>          <chr> <chr>   
+    ## 1 Southern Kam CLICS   smooth  ljân.55        no    no trill
+    ## 2 Southern Kam CLICS   rough   mut.323        no    no trill
+    ## 3 Southern Kam CLICS   rough   qe.212 ljân.55 no    no trill
+
+``` r
+show_comments('Southern Kam')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language     Dataset Comments
+    ##   <chr>        <chr>   <chr>   
+    ## 1 Southern Kam CLICS   wiki
+
+``` r
+show_iso('Southern Kam')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language     ISO_code Phoible_code
+    ##   <chr>        <chr>    <chr>       
+    ## 1 Southern Kam doc; kmc <NA>
+
+Trill : no  
+R\_type : no trill
+
+Dataset :  
+CLICS, wiki
+
+Phoible :  
+<https://phoible.org/inventories/view/309>  
+\- l pas d’allophones
+
+Guoqiao, Zheng and Yang, Quan. 1988. The Sounds of Rongjiang Kam. In
+Edmondson, Jerold A. and Solnit, David B. (eds.), Comparative Kadai:
+Linguistic Studies Beyond Tai, 43–58. Dallas: Summer Institute of
+Linguistics and University of Texas at Arlington. -\> Je ne trouve pas
+
+Wikipedia :  
+<https://fr.wikipedia.org/wiki/Kam_du_Nord>
+
+<https://en.wikipedia.org/wiki/Kam_language>  
+\- The Chinese orthography for Kam orthography has 32 syllable-initial
+consonants; seven of them (tʃ-, tʃʰ-, ʃ-, ɻ-, f-, ts- and tsʰ-) only
+occur in recent loanwords from Chinese.  
+\- IPA: ɻ Gaeml: r
+
+Glottologue :  
+Northern Dong : <https://glottolog.org/resource/languoid/id/nort2735>  
+Southern Dong : <https://glottolog.org/resource/languoid/id/sout2741>
+
+Yang, Tongyin. 2017. A Grammar of Kam Revealed in its Narrative
+Discourse. Berlin: Springer. 317pp.  
+\- Page 8 : For the current study, the variety at Yutou of Tongdao,
+Hunan has been taken to represent Kam phonology in this work since: (a)
+the discourse data is from Yutou, and some phonological and syntactic
+variation found in discourse will also be included in later discussions.
+So, it is more efficient to describe Yutou phonology here rather than
+later. Though, phonology is not the focus in the present study; (b)
+Yutou belongs to the same variety as Zhanglu of Rongjiang, Guizhou,
+which isthe standard on which the Kam orthography is based. The
+difference between them is minor. Its initials, rhymes, and tones are
+listed as follows, which is a common practice for a phonological
+analysis of an analytical, tonal, monosyllabic language.  
+There are eighteen consonants:  
+\[…\] l \[..\]  
+\- Page 9 : Fig. 1.3 Inventory of Yutou Kam Initials  
+laterals: l ʔlj  
+\- Page 11 : Fig. 1.5 Inventory of Initials in Kam Orthography  
+r\* (ʑ)
+
+Katrina Elizabeth Tang. 2008. The Phonology and Phonetics of
+Consonant-Tone Interaction. Los Angeles. University of California  
+\- Page 89 : Liquids l, lʲ  
+Autres sources :  
+<https://clics.clld.org/languages/ids-419>  
+Recherches : r -\> 0 entries (filtered from 1,401 total entries)  
+l -\> 182 entries (filtered from 1,401 total entries)
+
+``` r
+show_lang('Southern Kam')$Form
+```
+
+    ## [1] "ljân.55"        "mut.323"        "qe.212 ljân.55"
+
+Je mets ‘OUT’ car la rhotique qu’ils ont considérée n’est pas native…
+
+``` r
+rough_r_data <- rough_r_data %>% 
+   dplyr::mutate(revision = ifelse(Language=="Southern Kam",'OUT',revision))
+```
+
+### Tamil
+
+``` r
+show_lang('Tamil')
+```
+
+    ## # A tibble: 3 × 6
+    ##   Language Dataset Meaning Form           Trill R_type  
+    ##   <chr>    <chr>   <chr>   <chr>          <chr> <chr>   
+    ## 1 Tamil    CLICS   smooth  vaḻavaḻappāṉa  no    no trill
+    ## 2 Tamil    CLICS   rough   karaṭumūraṭāṉa no    no trill
+    ## 3 Tamil    CLICS   smooth  ʋʌɻuʋʌɻupːɑːnʌ no    no trill
+
+``` r
+show_comments('Tamil')
+```
+
+    ## # A tibble: 2 × 3
+    ##   Language Dataset Comments           
+    ##   <chr>    <chr>   <chr>              
+    ## 1 Tamil    IDS     flap or approximant
+    ## 2 Tamil    Google  <NA>
+
+``` r
+show_iso('Tamil')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language ISO_code Phoible_code
+    ##   <chr>    <chr>    <chr>       
+    ## 1 Tamil    tam      tam
+
+Trill : no  
+R\_type : no trill
+
+Dataset :  
+IDS, flap or approximant  
+Google, no comments
+
+Phoible :  
+<https://phoible.org/languages/tami1289>  
+3 inventaires  
+\- PH ɻ allophones ɻ; ɾ allophones ɾ; ʈ allophones ʈ ɖ ɽ  
+\- RA ɾ pas d’allophones; ɽ pas d’allophones  
+\- EA r̪ pas d’allophones; r pas d’allophones
+
+Keane, Elinor. 2004. Illustrations of the IPA: Tamil. Journal of the
+International Phonetic Association 34. 111–116. Cambridge University
+Press.  
+\- Page 111 : Tap ɾ  
+Approximant ɻ  
+\- Page 113 : The orthography distinguishes between two, ர and ற: each
+is subject to certain distributional restrictions, but in intervocalic
+position they may mark a lexical contrast. Opinion is divided over
+whether this corresponds to a phonetic distinction in colloquial Tamil:
+Balasubramanian (1982a) argues that always corresponds phonetically to a
+tap, whilst \[ɾ\] and \[r\] are both possible realizations of ர, their
+distribution being determined in part by environment. Narayanan, Byrd
+and Kaun (1999) report a slight difference in place, rather than manner,
+of articulation, with ர pre-alveolar and ற postalveolar. In most
+colloquial varieties, however, it seems that a merger is in progress, if
+not complete.
+
+Ramaswami, N. 1997. Diglossia: Formal and Informal Tamil. Mysore:
+Central Institute of Indian Languages.  
+\- Page 33 : The Southern dialect spoken in Kannyakumari district
+maintains the difference between the alveolar trill /r̠/ and the
+alveolar flap /r/ wherease the other dialect have lost it. All the other
+dialects have only one /r/; the alveolar flap. The Southern dialect
+spoken in Tirunelveli district has /t/ as the present tense marker as in
+collu-t-a:n ‘he says’ which is not found in any other dialect. The
+Southern and Western dialects have lost contrast between /ɻ/, the
+retroflex non-lateral continuant and /l./. The Northern dialect also has
+lost /ɻ/; it now merged with /y/ and /s./. The Eastern dialect retains
+/ɻ/.  
+\- Page 64 : Formal tamil:  
+Non-lateral : r ɻ (=\> je n’ai pas su interpréter le symbole dans
+l’ouvrage)  
+\- Page 70 : Becoming Continuant  
+/t̠/ becomes /r/ in the intervocalic position.  
+\- Page 71 : Though /t̠/ is never realized as a stop in the surface
+phonetic level, it must be treated as a stop in the underlyong
+representation for the following reasons. It behaves like a stop in the
+distribution in that like all stops, it does not occur in the word final
+position. Traditional grammars group it with stops. It behaves like
+stops in certain morphophonemic alternations like doubling beforecase
+markers (Schiffman, 1975).  
+\[examples\]  
+But /r/ does not double.  
+\[examples\]  
+Therefore some /r/’s must be treated as /t̠/ at the phonemic level.  
+\- Page 76 : The sonorants /ɻ/, /r/ and /y/ are not deleted before
+consonant clusters.  
+\- Page 93 : Informal tamil:  
+Non-lateral : r ɻ (=\> je n’ai pas su interpréter le symbole dans
+l’ouvrage)
+
+Annamalai, E. and Steever, Sanford B. 1998. Modern Tamil. In Steever,
+Sanford B. (ed.), The Dravidian Languages, 100–128. London \&New York:
+Routledge.  
+\- Page 102 : Tap r  
+Flap \[r̠\]  
+All consonants except r and z can occur doubled;
+
+Wikipedia :  
+<https://en.wikipedia.org/wiki/Tamil_language>  
+<https://en.wikipedia.org/wiki/Tamil_phonology>  
+\- The proto Dravidian alveolar stop \* ṯ developed into an alveolar
+trill /r/ in many of the Dravidian languages while \* ṯṯ and \*ṉṯ
+remained. The stop sound is retained in Kota and Toda (Subrahmanyam
+1983) \[Krishnamurti (2003), p. 146.\].
+
+  - Tap ɾ ர்  
+    Trill r ற்  
+    Approximant ɻ ழ்
+
+  - In SpT the /tːr/ can either be pronounced as /tːr/ or merge with
+    /t̪t̪/.
+
+  - Tamil stop allophones  
+    Retroflex ʈː ɖ\~ɽ ɖ  
+    Alveolar tːr r (d)r
+
+  - The t̠ became a trill r̠ eg. PD. cāṯu, Ta. ār̠u “six”.
+
+Glottologue :  
+<https://glottolog.org/resource/languoid/id/tami1289>
+
+Autres sources :  
+<https://clics.clld.org/languages/ids-708>  
+Recherches : r -\> 449 entries (filtered from 1,248 total entries)  
+rr -\> 32 entries (filtered from 1,248 total entries)  
+l -\> 605 entries (filtered from 1,248 total entries)  
+Form in source:  
+r -\> 312 entries (filtered from 1,248 total entries)  
+ṟ -\> 152 entries (filtered from 1,248 total entries)  
+ṟṟ -\> 32 entries (filtered from 1,248 total entries)  
+l -\> 444 entries (filtered from 1,248 total entries)  
+ḷ -\> 130 entries (filtered from 1,248 total entries)  
+ḻ -\> 104 entries (filtered from 1,248 total entries)  
+<https://clics.clld.org/languages/northeuralex-tam>  
+Recherches : r -\> 386 entries (filtered from 955 total entries)  
+l -\> 249 entries (filtered from 955 total entries)  
+Form in source:  
+ɾ -\> 209 entries (filtered from 955 total entries)  
+r -\> 103 entries (filtered from 955 total entries)  
+ɻ -\> 91 entries (filtered from 955 total entries)
+
+``` r
+show_lang('Tamil')$Form
+```
+
+    ## [1] "vaḻavaḻappāṉa"  "karaṭumūraṭāṉa" "ʋʌɻuʋʌɻupːɑːnʌ"
+
+‘OUT’ car il y a un trill et une autre rhotique ?  
+Je garde ‘OUT’.
+
+``` r
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Tamil",'OUT',revision))
+```
+
+### Ahlao Th—ERROR—
+
+``` r
+show_lang('Ahlao Th')
+```
+
+    ## # A tibble: 2 × 6
+    ##   Language Dataset Meaning Form           Trill R_type  
+    ##   <chr>    <chr>   <chr>   <chr>          <chr> <chr>   
+    ## 1 Ahlao Th CLICS   smooth  hăʔdiʔ.B kŏh.B no    no trill
+    ## 2 Ahlao Th CLICS   rough   ʔɣ̆nʔ.B zonʔ.B  no    no trill
+
+``` r
+show_comments('Ahlao Th')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language Dataset Comments
+    ##   <chr>    <chr>   <chr>   
+    ## 1 Ahlao Th IDS     flap
+
+``` r
+show_iso('Ahlao Th')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language ISO_code Phoible_code
+    ##   <chr>    <chr>    <chr>       
+    ## 1 Ahlao Th thm      thm
+
+Trill : no  
+R\_type : no trill
+
+Dataset :  
+IDS, flap
+
+Phoible :  
+<https://phoible.org/languages/aheu1239>  
+2 inventaires  
+\- PH 1014 ɾ allophones ɾ  
+\- PH 1216 \[Pas de segment rhotique\]
+
+Migliazza, Brian. 1998. A Grammar of So – a Mon Khmer Language of
+Northeast Thailand. (Doctoral dissertation, Mahidol University).  
+\- Page 33 : C1 V (C2) C1 = /r l/  
+\- Page 38 : C1 (C2) V (C3) (C4)  
+C1 = anu consonant of the 21 initial consonants set (shown in Figure
+11)  
+C2 = /l r/  
+\- Page 41 : Initial consonants:  
+Flaps r  
+Approxomates l  
+\- Page 44 : Approximates and Flap  
+Approximates and flap /w l y r/ occur in forms such as these:  
+waːŋ now  
+yaːŋ to cross over  
+way fast  
+yay big (thai)  
+wiaŋ to aim to the targer  
+yi̤ːaːŋ forest spirit  
+ra.bʌŋ to stop and stare  
+la.bʌː particle for certainty  
+ra̤ŋ rich  
+la̤ŋ to look in the mirror  
+re̤h to cut cloth  
+le̤h to untie  
+\- Page 44 : Initial consonant clusters  
+There are 8 initial consonant clusters composed of C1C2 where:  
+C1=/p b t t^h k/  
+C2=/r l/
+
+``` 
+          pr tr kr  
+          pl     kl  
+              tʰr  
+          br  
+          bl  
+```
+
+  - Page 45 : Initial consonant cluster contrasts  
+    The initial cluster /pr/:  
+    \[examples\]  
+    The initial cluster /pl/ only occurred about 9 times:  
+    \[examples\]  
+    The initial cluster /br/ only occurred about 3 times:  
+    \[examples\]  
+    The initial cluster /bl/ only occurred about 8 times:  
+  - Page 46 : The initial cluster /tr/:  
+    \[examples\]  
+    The initial cluster /t^hr/ occurs about 13 times:  
+    \[examples\]  
+    The initial cluster /kr/:  
+    \[examples\]  
+    The initial cluster /kl/:  
+    \[examples\]  
+  - Page 47 : Final consonants  
+    There are 14 single final consonants in the So language as arrayed
+    in the figure below:  
+    Flaps r  
+    Approximates l  
+  - Page 49 : Approximates and Flap  
+    The approximates and flap /w l y r/:  
+    ʔaw agreement particle  
+    baːw a young man  
+    ʔaːy air  
+    biaŋ.baːy put phakama across one shoulder  
+    baːl to shine light  
+    le̤l to stick out your tongue  
+    tɛːl a stinger  
+    baːr two  
+    re̤ːr to glance off the edge  
+    ci.tɛːr to ear when cursing someone  
+  - Page 51 : Obstruents Continuants Flap r  
+    Sonorants Oral l
+
+Nuchanart, Waiyanont. 1998. Thavung Phonology at Muang Khamkert,
+Bolikhamxai Province, Lao P.D.R. (MA thesis, Mahidol University).
+
+Wikipedia :  
+<https://en.wikipedia.org/wiki/Thavung_language>
+
+Premsrirat, Suwilai (1996). Phonological characteristics of So
+(Thavung), a Vietic language of Thailand.  
+\- Page 168 : Initial consonant phonemes in So (T)  
+lateral l  
+\- Page 169 : /l/ \[l\] is an alveolar lateral. it can only occur
+initially as in lɛ́h ‘to be’
+
+Glottologue :  
+<https://glottolog.org/resource/languoid/id/aheu1239>
+
+On retrouve Brian Migliazza dans :  
+<https://glottolog.org/resource/languoid/id/sooo1254>
+
+Autres sources :  
+<https://clics.clld.org/languages/ids-827>  
+Recherches : r -\> 0 entries (filtered from 870 total entries)  
+l -\> 198 entries (filtered from 870 total entries)
+
+``` r
+show_lang('Ahlao Th')$Form
+```
+
+    ## [1] "hăʔdiʔ.B kŏh.B" "ʔɣ̆nʔ.B zonʔ.B"
+
+Problème Sô est dans les langues Katuic alors que Thavung est dnas les
+langues Vietic…
+
+``` r
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Ahlao Th",'ERROR',revision))
+```
+
+### Surin Khmer
+
+``` r
+show_lang('Surin Khmer')
+```
+
+    ## # A tibble: 2 × 6
+    ##   Language    Dataset Meaning Form  Trill R_type  
+    ##   <chr>       <chr>   <chr>   <chr> <chr> <chr>   
+    ## 1 Surin Khmer CLICS   smooth  ri:əp no    no trill
+    ## 2 Surin Khmer CLICS   rough   kkrɨh no    no trill
+
+``` r
+show_comments('Surin Khmer')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language    Dataset Comments
+    ##   <chr>       <chr>   <chr>   
+    ## 1 Surin Khmer IDS     <NA>
+
+``` r
+show_iso('Surin Khmer')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language    ISO_code Phoible_code
+    ##   <chr>       <chr>    <chr>       
+    ## 1 Surin Khmer khm      khm
+
+Trill : no  
+R\_type : no trill
+
+Dataset :  
+IDS, no comments
+
+Phoible :  
+Language Central Khmer : <https://phoible.org/languages/cent1989>  
+\- SPA ɽ allophones ɽ ɹ r̠  
+\- UPSID ɽ pas d’allophones  
+\- EA r pas d’allophones
+
+Jacob, Judith M. 1968. Introduction to Cambodian. London: Oxford
+University Press. -\> Pas regardé  
+Huffman, Franklin E. 1970. The Cambodian System of Writing and Beginning
+Reading. New Haven: Yale University Press. -\> Pas regardé  
+Huffman, Franklin E. 1970. Modern Spoken Cambodian. New Haven: Yale
+University Press. -\> Pas regardé  
+Ehrman, Madeline E. 1972. Contemporary Cambodian: Grammatical Sketch.
+Washington, D.C.: Foreign Service Institute, US Department of State. -\>
+Pas regardé  
+Wayland, Ratree. 1998. An acoustic study of Battambang Khmer vowels.
+Monkhmer Studies. 43–62. Mahidol University. -\> Pas regardé  
+Haiman, John. 2011. Cambodian: Khmer (London Oriental and African
+Language Library). John Benjamins Publishing Company. -\> Pas regardé
+
+Inventory Northern Khmer (PH 965) :
+<https://phoible.org/inventories/view/965>  
+\- ɽ allophones ɽ
+
+Phunsap, Isarangkun Na’ayutthaya. 1984. A Relational Grammar Analysis of
+the Buriram Dialect of Northern Khmer. (MA thesis, Mahidol
+University).  
+\- Page 5 : retroflex vd.unasp. r  
+lateral vd.unasp. l
+
+Wikipedia :  
+<https://en.wikipedia.org/wiki/Khmer_language>  
+\- Liquid rhotic r
+
+  - Northern Khmer (called Khmer Surin in Khmer) refers to the dialects
+    spoken by many in several border provinces of present-day northeast
+    Thailand. After the fall of the Khmer Empire in the early 15th
+    century, the Dongrek Mountains served as a natural border leaving
+    the Khmer north of the mountains under the sphere of influence of
+    the Kingdom of Lan Xang. The conquests of Cambodia by Naresuan the
+    Great for Ayutthaya furthered their political and economic isolation
+    from Cambodia proper, leading to a dialect that developed relatively
+    independently from the midpoint of the Middle Khmer period.\[18\]  
+    This has resulted in a distinct accent influenced by the surrounding
+    tonal languages Lao and Thai, lexical differences, and phonemic
+    differences in both vowels and distribution of consonants.
+    Syllable-final /r/, which has become silent in other dialects of
+    Khmer, is still pronounced in Northern Khmer. Some linguists
+    classify Northern Khmer as a separate but closely related language
+    rather than a dialect.\[19\]\[20\]
+
+  - Phnom Penh Khmer is spoken in the capital and surrounding areas.
+    This dialect is characterized by merging or complete elision of
+    syllables, which speakers from other regions consider a “relaxed”
+    pronunciation. For instance, “Phnom Penh” is sometimes shortened to
+    “m’Penh”. Another characteristic of Phnom Penh speech is observed
+    in words with an “r” either as an initial consonant or as the second
+    member of a consonant cluster (as in the English word “bread”). The
+    “r”, trilled or flapped in other dialects, is either pronounced as
+    a uvular trill or not pronounced at all.\[21\]  
+    This alters the quality of any preceding consonant, causing a
+    harder, more emphasized pronunciation. Another unique result is that
+    the syllable is spoken with a low-rising or “dipping” tone much like
+    the “hỏi” tone in Vietnamese. For example, some people pronounce
+    ត្រី \[trəj\] (‘fish’) as \[tʰəj\]: the \[r\] is dropped and
+    the vowel begins by dipping much lower in tone than standard speech
+    and then rises, effectively doubling its length. Another example is
+    the word រៀន \[riən\] (‘study’), which is pronounced \[ʀiən\], with
+    the uvular “r” and the same intonation described above.\[21\]
+    
+    \[19\] Thomas, David (1990). “On the ‘language’ status of Northern
+    Khmer”. JLC. 9 (1): 98–106.  
+    \[21\] William Allen A. Smalley (1994). Linguistic Diversity and
+    National Unity: Language Ecology in Thailand. University of Chicago.
+    ISBN 978-0-226-76288-3.  
+    \[20\] Phonetic variation of final trill and final palatals in Khmer
+    dialects of Thailand Suwilai, Premsrirat; Mahidol University;
+    Mon-Khmer Studies 24:1–26; pg 1
+
+  - All consonant sounds except /b/, /d/, /r/, /s/ and the aspirates can
+    appear as the coda (although final /r/ is heard in some dialects,
+    most notably in Northern Khmer).\[38\]  
+
+  - Although most Cambodian dialects are not tonal, the colloquial Phnom
+    Penh dialect has developed a tonal contrast (level versus peaking
+    tone) as a by-product of the elision of /r/.\[30\]
+
+\[30\] Minegishi, M (2006). “Khmer”. In Keith Brown (ed.). Encyclopedia
+of Language and Linguistics (2 ed.). Elsevier. pp. 4981–4984.  
+\[38\] Nacaskul, Karnchana (1978). “The syllabic and morphological
+structure of Cambodian words” (PDF). Mon-Khmer Studies Journal. 7: 187.
+Archived from the original (PDF) on 11 October 2017. Retrieved 24
+January 2016.
+
+<https://en.wikipedia.org/wiki/Northern_Khmer_dialect>  
+\- Liquid r
+
+Glottologue :  
+<https://glottolog.org/resource/languoid/id/cent1989> -\> Pas regardé
+
+<https://glottolog.org/resource/languoid/id/nort2684>
+
+Wichitkhachee, Amphon. 1996. A phonological study of the Khmer spoken at
+Ban Nawattai, Tambon Dongnoi, Ratchasan Sub-district, Chachoengsaw
+province. (MA thesis, Mahidol University; xi+220pp.)  
+\- Page 25 : The Consonant Phonemes of Ban Nawattai Khmer Dialect  
+Trill r  
+\- Page 26 : All consonants can occur in the initial position of the
+syllable  
+\- Page 35 : /r/ \[r\] is a voiced alveolar trill. it occurs in syllable
+initial position and as the second and the third members of consonants
+clusters. \[examples\]  
+\- Page 41 : /r/ is the first consonant /C1/ that precedes the
+consonants  
+/t, ɓ, s, n, ŋ, l, w, j/ as follows:  
+\[examples\]  
+\- Page 63 : /r/ occurs before: monophtongs /iː, ɪː, e, eː, ɛ, ɛː, ɯ, ɤ,
+ɤː, ə, əː, a, aː, u, uː, ɞ, ɞː, o, oː, ɔ, ɔː, ɒ/  
+: diphtongs /iːa, ɯːa, ua, uːa, aːe, aːə, aːɔ/  
+\- Page 82 : /n/-/r/ /noːm/ “urine”  
+/roːm/ “to swarm”  
+/l/-/r/ /loːk/ “monk”  
+/roːk/ “disease, affection”  
+/slah/ “to be clear”  
+/srah/ “pond”  
+/lɛʔ/ “to hide”  
+/reʔ/ “to be shallow”  
+\- Page 137 : The phonological system of consonants in three dialects:
+Northern Khmer (Surin), Central Khmer (Phnom Penh) and Nawattai Khmer
+are seventeen consonant phonemes. The outstanding final phoneme /\_r/ is
+different among these dialects: Northern Khmer /\_r/ is pronounced while
+the central Khmer and Nawattai Khmer do not have /\_r/ in final
+position.
+
+Autres sources :  
+<https://clics.clld.org/languages/ids-836>  
+Recherches : r -\> 220 entries (filtered from 999 total entries)  
+l -\> 181 entries (filtered from 999 total entries)
+
+``` r
+show_lang('Surin Khmer')$Form
+```
+
+    ## [1] "ri:əp" "kkrɨh"
+
+Le ISO est khm (Central Khmer) alors que Surin Khmer devrait être kxm
+car Northern Khmer.  
+Sinon, je suis entre ‘OUT’ ou ‘trilled’…  
+Je choisis ‘trilled’.
+
+``` r
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Surin Khmer",'trilled',revision))
+```
+
+### Itonama
+
+``` r
+show_lang('Itonama')
+```
+
+    ## # A tibble: 1 × 6
+    ##   Language Dataset Meaning Form       Trill R_type  
+    ##   <chr>    <chr>   <chr>   <chr>      <chr> <chr>   
+    ## 1 Itonama  CLICS   rough   kˀapuluʔna no    no trill
+
+``` r
+show_comments('Itonama')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language Dataset Comments
+    ##   <chr>    <chr>   <chr>   
+    ## 1 Itonama  IDS     <NA>
+
+``` r
+show_iso('Itonama')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language ISO_code Phoible_code
+    ##   <chr>    <chr>    <chr>       
+    ## 1 Itonama  ito      ito
+
+Trill : no  
+R\_type : no trill
+
+Dataset :  
+IDS, no comments
+
+Phoible :  
+<https://phoible.org/languages/iton1250>  
+3 inventaires  
+\- SPA ɾ allophones ɾ  
+\- UPSID ɾ̪|ɾ pas d’allophones  
+\- SAPHON ɾ pas d’allophones
+
+Liccardi, M. and Grimes, J. 1968. Itonama Intonation and Phonemes.
+Linguistics 38. 36–41.  
+\- Page 39 : a flap  
+\- Page 40 : flap /r/  
+flap r
+
+Crevels, Mily. 2002. Itonama o Sihnipadara, Lengua no clasificada de la
+Amazon’ia Boliviana. (Estudios de Lingü’istica, 16.)  
+\- Page 30 : flap ɾ  
+\- Page 31 : en el grupo de las líquidas figura la lateral /l/ y la
+vibrante múltiple conocida a menudo con el término inglés flap /ɾ/ (=\>
+??? Je ne suis pas sûr de comprendre…)
+
+Wikipedia :  
+<https://en.wikipedia.org/wiki/Itonama_language>  
+\- Liquid rhotic ɾ
+
+Glottologue :  
+<https://glottolog.org/resource/languoid/id/iton1250>
+
+Camp, Elizabeth L. and Liccardi, Millicent R. 1965. Itonama. In
+Gramáticas estructurales de lenguas bolivianas 2, 223-383. Riberalta:
+Instituto Lingüístico de Verano.  
+\- Page 223 : Los fonemas del Itonama son: l, r
+
+Autres sources :  
+<https://clics.clld.org/languages/ids-284>  
+Recherches : r -\> 104 entries (filtered from 902 total entries)  
+l -\> 138 entries (filtered from 902 total entries)
+
+``` r
+show_lang('Itonama')$Form
+```
+
+    ## [1] "kˀapuluʔna"
+
+Langue sous-documentée mais je laisse en ‘other’.
+
+``` r
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Itonama",'other',revision))
+```
+
+### Kannada
+
+``` r
+show_lang('Kannada')
+```
+
+    ## # A tibble: 1 × 6
+    ##   Language Dataset Meaning Form  Trill R_type  
+    ##   <chr>    <chr>   <chr>   <chr> <chr> <chr>   
+    ## 1 Kannada  CLICS   smooth  n̪əja  no    no trill
+
+``` r
+show_comments('Kannada')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language Dataset Comments
+    ##   <chr>    <chr>   <chr>   
+    ## 1 Kannada  Google  <NA>
+
+``` r
+show_iso('Kannada')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language ISO_code Phoible_code
+    ##   <chr>    <chr>    <chr>       
+    ## 1 Kannada  kan      kan
+
+Trill : no  
+R\_type : no trill
+
+Dataset :  
+Google, no comments
+
+Phoible :  
+<https://phoible.org/languages/nucl1305>  
+\- RA ɾ pas d’allophones  
+\- EA r̪ pas d’allophones
+
+Upadhyaya, U.P. 1972. Kannada Phonetic Reader. Mysore: Central Institute
+of Indian Languages. -\> Pas trouvé
+
+Steever, Sanford B. 1998. Kannada. In Steever, Sanford B. (ed.), The
+Dravidian Languages, 129-157. London \&New York: Routledge.  
+\- Page 130 : Tap r  
+All consonants expect l. and n. may occur initially.
+
+Wikipedia :  
+<https://en.wikipedia.org/wiki/Kannada>  
+\- Trill r (ರ)  
+\- The alveolar trill /r/ may be pronounced as an alveolar tap \[ɾ\].  
+\- Additionally, Kannada included the following phonemes, which dropped
+out of common usage in the 12th and 18th century respectively:  
+/r/ ಱ (ṟ), the alveolar trill.  
+/ɻ/ ೞ (ḻ), the retroflex central approximant.
+
+``` 
+Old Kannada had an archaic phoneme /ɻ/ under retroflexes in early inscriptions which merged with /ɭ/ and it maintained the contrast between /r/ (< PD ∗t̠) and /ɾ/ from (< PD ∗r). Both merged in Medieval Kannada  
+```
+
+Glottologue :  
+<https://glottolog.org/resource/languoid/id/nucl1305>
+
+Mallappa, A. B. 1999. A linguistic study of “Kuruba dialect of Bellary
+district”. (Doctoral dissertation, Dharwar: Karnatak University;
+xxx+421pp.)  
+\- Page 56 : Trill r  
+\- Page 62 : /r/ and /l/  
+ran.t.i plough  
+langt.i loin cloth  
+mari lamb  
+mali breast
+
+``` 
+          /r/ and /l./  
+          uri rope  
+          ul.i chisel, to stay, to remain  
+```
+
+  - Page 64 : /r/ and /rr/  
+    bari to write  
+    barri please come  
+  - Page 71 : /r/ \[r\] Apico-alveolar \[rempgi\] leather  
+    cutter  
+    \[ga:rgi\] sweet dish  
+  - Page 80 : Non stop + non stop  
+    rr jarr slip
+
+S. Mallikarjuna Swamy. 1990. A descriptive study of “Adikarnataka
+dialect of Kannada” spoken in Mandya district. (Doctoral dissertation,
+University of Mysore; 307pp.)  
+\- Page 3 : Trill r  
+\- Page 6 : r Initial: + Medial: + Final: -  
+\- Page 7 : raggu ‘blanket’ uri ‘burning’  
+\- Page 18 : /d./ has two allophones \[r.\] & \[d.\]  
+(i) \[r.\] is a retroflex voiced flap which occurs between two short
+vowels in the medial position of a word.  
+\[examples\]  
+(ii) \[d.\] is a retroflex voiced plosive which occurs initially,
+medially and it is geminated in the medial position of a word.  
+\[examples\]  
+\- Page 25 : /r/ has one allophone \[r\] the alveolar trill which occurs
+in initial and medial positions.  
+\[examples\]  
+\- Page 45 : /s, r/  
+/ma:su/ ‘fade’  
+/ma:ru/ ‘yard’  
+/mu:su/ ‘to smell’  
+/mu:ru/ ‘three’  
+TRILL VERSUS LATERALS:  
+/r, l/  
+/uri/ ‘flame’  
+/uli/ ‘tiger’  
+/ka:ra/ ‘hot’  
+/ka:la/ ‘time’  
+\- Page 46 : /r, l./  
+/kore/ ‘less than one’  
+/kol.e/ ‘dirty’  
+/ari/ ‘grind’  
+/al.i. ‘to measure’  
+\- Page 64 : Non stop + non stop  
+\-rr- ka-rr-ge ‘black’
+
+Autres sources :  
+<https://clics.clld.org/languages/northeuralex-kan>  
+Recherches : r -\> 250 entries (filtered from 956 total entries) \[bəre
+‘write’ vs. bəru “come”\]  
+l -\> 220 entries (filtered from 956 total entries)
+
+``` r
+show_lang('Kannada')$Form
+```
+
+    ## [1] "n̪əja"
+
+Je change en ‘trilled’.
+
+``` r
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Kannada",'trilled',revision))
+```
+
+### Anong
+
+``` r
+show_lang('Anong')
+```
+
+    ## # A tibble: 1 × 6
+    ##   Language Dataset Meaning Form  Trill R_type  
+    ##   <chr>    <chr>   <chr>   <chr> <chr> <chr>   
+    ## 1 Anong    CLICS   smooth  sɿn⁵⁵ no    no trill
+
+``` r
+show_comments('Anong')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language Dataset Comments
+    ##   <chr>    <chr>   <chr>   
+    ## 1 Anong    CLICS   <NA>
+
+``` r
+show_iso('Anong')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language ISO_code Phoible_code
+    ##   <chr>    <chr>    <chr>       
+    ## 1 Anong    nun      <NA>
+
+Trill : no  
+R\_type : no trill
+
+Dataset :  
+CLICS, no comments
+
+Phoible : NA
+
+Wikipedia :  
+<https://en.wikipedia.org/wiki/Nung_language_(Sino-Tibetan)>  
+\- Rhotic voiced ɹ
+
+孙宏开，刘光，p.26－31
+
+Glottologue :  
+<https://glottolog.org/resource/languoid/id/nung1282>
+
+Hongkai Sun and Guangkun Liu. 2009. A grammar of Anong: Language death
+under intense contact. (Brill’s Tibetan Studies Library, 5/9.) Leiden:
+E.<sub>J.</sub>Brill. xiv+394pp. (Languages of the Greater Himalayan
+Region).  
+\- Page 20 : Table 3: Anong initial consonants  
+semi-vowel: ɹ-  
+(5) The semi-vowel \[ɹ\]. The semi-vowel \[ɹ\] is unstable. Sometimes it
+is realized as a voiced alveolar fricative or as a voiced alveolar
+retroflex fricative. It is often deleted before the high, front
+unrounded vowel \[i\].  
+\- Page 22 : Single Initial Consonants  
+ɹ ɹɿ31ʔuŋ55 mountain ɹuŋ55 hibernation  
+The first consists of clusters with the retroflex semi-vowel \[ɹ\] as
+the second member: \[pɹ\], \[phɹ\], \[bɹ\], \[mɹ\], \[fɹ\], \[vɹ\],
+\[khɹ\], \[gɹ\], and \[xɹ\].  
+\- Page 24 : (6) The apical vowel \[ɿ\] becomes \[ɭ\] after retroflex
+consonants.  
+\- Page 25 : ɿ ɑ31sɿ55 comb tshɿ31 rain  
+\- Page 28 : (3) The semi-vowel \[ɹ\] is unstable in coda position and
+only occurs in a limited number of words. Sometimes it is pronounced as
+a  
+retroflexed vowel and sometimes it is deleted. Therefore, it is not
+included in the finals inventory.
+
+Sun, Hongkai. 1988. Notes on Anong, a new language. Linguistics of the
+Tibeto-Burman Area 11. 27-63. -\> Pas trouvé
+
+Autres sources :  
+<https://clics.clld.org/languages/suntb-Anong>  
+Recherches : r -\> 174 entries (filtered from 869 total entries)  
+l -\> 105 entries (filtered from 869 total entries)  
+Form in source:  
+ɿ -\> 138 entries (filtered from 869 total entries)  
+ɹ -\> 50 entries (filtered from 869 total entries)  
+l -\> 100 entries (filtered from 869 total entries)  
+ɬ -\> 5 entries (filtered from 869 total entries)
+
+``` r
+show_lang('Anong')$Form
+```
+
+    ## [1] "sɿn⁵⁵"
+
+``` r
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Anong",'other',revision))
+```
+
+### Pumi (Taoba)
+
+``` r
+show_lang('Pumi (Taoba)')
+```
+
+    ## # A tibble: 1 × 6
+    ##   Language     Dataset Meaning Form          Trill R_type  
+    ##   <chr>        <chr>   <chr>   <chr>         <chr> <chr>   
+    ## 1 Pumi (Taoba) CLICS   smooth  pʐa³⁵la⁵⁵mə⁵³ no    no trill
+
+``` r
+show_comments('Pumi (Taoba)')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language     Dataset Comments                                                 
+    ##   <chr>        <chr>   <chr>                                                    
+    ## 1 Pumi (Taoba) CLICS   Daudey, Henriëtte (2014). A grammar of Wadu Pumi (Ph.D. …
+
+``` r
+show_iso('Pumi (Taoba)')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language     ISO_code Phoible_code
+    ##   <chr>        <chr>    <chr>       
+    ## 1 Pumi (Taoba) pmi      <NA>
+
+Trill : no  
+R\_type : no trill
+
+Dataset :  
+CLICS, Daudey, Henriëtte (2014). A grammar of Wadu Pumi (Ph.D. thesis).
+La Trobe University
+
+Phoible :  
+Southern Pumi : <https://phoible.org/inventories/view/2585>  
+\- ɻ pas d’allophones; ɻ̊ pas d’allophones
+
+Ding, Picus Sizhi. 2014. A grammar of Prinmi: based on the Central
+dialect of Northwest Yunnan, China. Brill.  
+\- Page 9 : Table 1-1: Comparison of phonological features in different
+Prinmi varieties  
+\* kr ɹ̥ /ʂ \* p^h r  
+ʈ ʂ p^h ʂ  
+k^ɹ ɹ̥ p^h ʐ  
+ʈ ɹ̥ p^h ɹ  
+ʈʂ ʂ ʈ^h  
+\- Page 17 : ɹ ɹ̥  
+\- Page 19 : The rhotic consonant in Xīnyíngpán Prinmi is realized as an
+approximant rather similar to that in English. In some Prinmi dialects,
+however, the plain rhotic is produced as a trill (see Matisoff 1997). A
+phonemic contrast exists between the voiced and voiceless aspirated
+rhotics in Xīnyíngpán Prinmi, e.g.:  
+2.14 a ɹəR ‘sickle’ ɹ̥ əR ‘dew’  
+b ɹi F ‘to shave’ ɹ̥ iF ‘to sweat’  
+c ɹuH ‘stem’ ɹ̥ uH ‘chirrup’  
+d ɹaF ‘to get stuck’ ɹ̥ aR ‘to laugh’  
+Unlike the voiceless nasals, which are found in most of the known Prinmi
+dialects, the voiceless rhotic occurs mainly in Central Prinmi. There is
+a rather regular correspondence between the voiceless rhotic in
+Xīnyíngpán and a voiceless fricative — either post-alveolar or  
+retroflex — in other dialects that lack it (see §1.2.2).\[1\] On
+occasions, the main consultant produced the voiceless rhotic  
+with sibilant friction, virtually rendering it as a fricative
+allophone.  
+For instance:  
+2.15 ɡəL-ɹ̥ ʉLɹ̥ ɥeH ‘to clean up by wiping’ \[ɡəL-ʃʉL ʃɥeH\]  
+On repetition in a careful manner, however, the allophonic fricative
+does not arise; the consonant remains an approximant. There exists no
+minimal pair of words for the two consonants, but they do contrast in
+similar environment, e.g.:  
+2.16 ɹ̥ ɑ̃ H ‘long’ ɡəLʂɑ̃ R ‘chopstick’
+
+\[1\] Okll (1995: 12-13) observes a similar variation between ɹ̥ and ʃ
+in modern Burmese dialects between Arakanese and Standard Burmese.
+Bradley (1985: 197) also notes a variation between ɹ̥ and ɕ in
+Arakanese.  
+\- Page 21 : 2.1.5. Rhoticized plosives  
+Two sets of rhoticized plosives occur in Xīnyíngpán Prinmi: bilabial and
+velar, exemplified respectively in (2.21) and (2.22). Unlike clusters
+such as /bɹ/, /pɹ/, or /ɡɹ/, /kɹ/ in English, the rhoticized plosives in
+Prinmi are argued on the acoustic ground that the rhotic element is not
+an independent segment; instead, it represents secondary articulation in
+production of the plosives (Ding 2009). In addition to the primary place
+of articulation, rhoticized plosives are produced with a simultaneous
+articulatory gesture of the tongue bent backward.
+
+\[Matisoff, James. 1997. Dàyáng Pumi phonology and adumbrations of
+comparative Qiangic. In S. Premsrirat et al (eds.), Memorial Volume for
+Paul K. Benedict/Mon-Khmer Studies vol. 27: 171–213. Bangkok: Mahidol
+University. \]  
+\- Page 198 : r  
+This phoneme is strongly trilled.  
+\[examples\]
+
+Wikipedia :  
+<https://en.wikipedia.org/wiki/Pumi_language>  
+\- Letter: r IPA: \[ɹ\]  
+Letter: hr IPA: \[ɹ̥\]
+
+Glottologue :  
+<https://glottolog.org/resource/languoid/id/nort2723>
+
+Henriëtte Daudey. 2014. A grammar of Wadu Pumi. (Doctoral dissertation,
+LaTrobe University; xix+626pp.)  
+\- Page 19 : Table 2.1 Wǎdū Pǔmǐ consonant phonemes  
+Liquids l ɻ  
+l ̥ ɻ̥  
+\- Page 33 : Wǎdū Pǔmǐ has two liquid series: an alveolar lateral series
+and a retroflex approximant rhotic series. Both distinguish voicing.  
+(26) /ɻû/ ‘chicken’  
+/ɻ̥û/ ‘pine torch’  
+In his transcription my main consultant sometimes showed inconsistencies
+between \[ɻ\] and \[ʐ\], but when asked, he was able to distinguish very
+clearly between the two. Some speech varieties actually have a
+corresponding \[ʐ\]. \[63\] The voiceless retroflex approximant rhotic
+in Wǎdū /ɻ/ ̥ corresponds to the voiceless retroflex fricative /ʂ/ in
+some speech varieties. \[64\]
+
+\[63\] Pāntiāngé and Sānjiè (Gerong Pincuo, MS). Most speech varieties
+in Mùlǐ have a tap \[ɾ\] (Dōngzi, Xiàmàidì, Bókē, Gùzēng) or a trill
+\[r\] (Kāngwū and Xiǎngshuǐhé) (data all taken from Gerong Pincuo’s
+wordlist, except for Xiǎngshuǐhé which is taken from personal notes).  
+\[64\] Yǔchū, Dōngzi, Xiàmàidì, Bókē, Gùzēng, Kāngwū (all in Mùlǐ), and
+Tuōzhī and Sānjiè. It has a corresponding \[h\] in Pāntiāngé.  
+\- Page 59 : Another instance of consonant lenition is that the voiced
+retroflex stop \[ɖ\] is often reduced to a tap \[ɾ\] or retroflex flap
+\[ɽ\] in fast speech. Interestingly, this does not seem to happen with
+every occurrence of the voiced retroflex stop, but only in the
+frequently  
+used =ɖɑw current evidential marker.87 This marker is often used in
+combination with the quotative tɕə (\<the verb ‘to say’) and in many
+instances it fuses with the quotative to form a hearsay particle tɕɑw.
+In that case the initial is totally lost.  
+2.4.3 Voicing and aspiration change  
+Voiceless nasals and rhotics sometimes show a voicing alternation.  
+(74) \[ɕɑ́wɻwɑ̂ ̥ \] \~ \[ɕɑ́wɻwɑ̂\] ‘to pinch’  
+\[dzɐ̀m ̥ ǐ\] \~ \[dzɐ̀mǐ\] ‘beggar’ (\<m̥ ǐ ‘beg’) 88  
+\[ɻʉ́ ̥ m ̥ ì\] \~ \[ɻʉ́ ̥ mì\] ‘evening of day before yesterday’ (\<m̥
+ǐ ‘night’)
+
+\[87\] Note that in other speech varieties of Pǔmǐ this same marker =ɖɑw
+has the form \[rə\] (Shuǐluò \[Jacques 2011a\] and Yǔchū \[personal
+fieldnotes\]) or \[ɹju\] (Niúwōzǐ \[Dīng 1998\]), so it does not even
+have a stop, but rather a liquid.
+
+Autres sources :  
+<https://clics.clld.org/languages/suntb-TaobaPumi>  
+Recherches : r -\> 58 entries (filtered from 929 total entries)  
+rh -\> 0 entries (filtered from 929 total entries)  
+hr -\> 0 entries (filtered from 929 total entries)  
+l -\> 72 entries (filtered from 929 total entries)
+
+``` r
+show_lang('Pumi (Taoba)')$Form
+```
+
+    ## [1] "pʐa³⁵la⁵⁵mə⁵³"
+
+Je laisse en ‘other’ mais il se peut que ça soit un trill phonémique.
+
+``` r
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Pumi (Taoba)",'other',revision))
+```
+
+### rGyalrong
+
+``` r
+show_lang('rGyalrong')
+```
+
+    ## # A tibble: 1 × 6
+    ##   Language  Dataset Meaning Form   Trill R_type  
+    ##   <chr>     <chr>   <chr>   <chr>  <chr> <chr>   
+    ## 1 rGyalrong CLICS   smooth  kə_wjo no    no trill
+
+``` r
+show_comments('rGyalrong')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language  Dataset Comments
+    ##   <chr>     <chr>   <chr>   
+    ## 1 rGyalrong CLICS   <NA>
+
+``` r
+show_iso('rGyalrong')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language  ISO_code Phoible_code
+    ##   <chr>     <chr>    <chr>       
+    ## 1 rGyalrong jya      jya
+
+Trill : no  
+R\_type : no trill
+
+Dataset :  
+CLICS, no comments
+
+Phoible :  
+<https://phoible.org/languages/jiar1240>  
+2 inventaires  
+\- PH ɻ pas d’allophones  
+\- EA r pas d’allophones
+
+Jacques, Guillame. 2004. Phonologie et morphologie du Japhug
+(rGyalrong). (Doctoral dissertation, Université Paris VII).  
+\- Page 15 : Nous fournirons des paires minimales entre les phonèmes
+ayant le même lieu d’articulation, et avec d’autres phonèmes ayant un
+autre lieu d’articulation lorsqu’ils présentent une ressemblance
+acoustique (par exemple, nous donnerons des exemples des paires /w/ ::
+/ɣ/, /ɕ/ :: /ʂ/ et /l/ :: /r/).  
+\- Page 16 : sonantes non-nasales r  
+\- Page 19 : D’autre part, /r/ n’a pas de version aspirée */r̻/, à
+l’inverse de /l/ qui s’oppose à /ɬ/.  
+/tɕ/ :: /tɕh/ :: /ndʑ/ :: /ɕ/ :: /ʑ/ :: /tʂ/ :: /tʂh/ :: /ndʐ/ :: /ʂ/ ::
+/r/  
+kɯ-ʂa « capable »  
+kɯ-ra « devoir »  
+\- Page 20 : On peut par ailleurs démontrer que /r/ et /l/ sont des
+phonèmes distincts grâce à la  
+paire suivante :  
+(12) Avec la rime –u : /l/ :: /r/  
+tɤ-lu « lait »  
+tɤ-ru « chef de village »  
+Les rétroflexes et alvéolo-palatales ne peuvent pas être considérées
+comme des groupes composés respectivement de \[dentale + /r/\], et de
+\[dentale + /j/\]. Le comportement de ces deux séries d’affriquées dans
+les réduplications partielles permet de prouver qu’elles se comportent
+comme des initiales simples et non comme des groupes.  
+\- Page 26 : L’inventaire des consonnes en position médiane en japhug
+est très limité. Seuls les phonèmes /w/, /l/, /r/, /j/ et /ɣ/ peuvent
+occuper cette position (ce sont les seules consonnes susceptibles de
+disparaître dans la première syllabe d’un bisyllabe rédupliqué par
+réduplication partielle). - Page 27 : 2.3.1.3 Le phonème /r/ en
+position médiane  
+Le phonème /r/ est le plus courant parmi les phonèmes consonantiques
+pouvant se trouver en position médiane. On trouve dix-huit exemples de
+groupes présents dans des verbes et pouvant donc être soumis au test de
+réduplication :  
+Tableau 7 : Groupes avec -r- comme médiane non-ambiguë.  
+\[tableau\]  
+\- Page 28 : Le groupe sr- n’est attesté dans un verbe que dans kɤ-fsroŋ
+« protéger ». La réduplication de ce verbe au non-passé peut s’effectuer
+de deux manières : soit fsrɯ-fsroŋ, soit fsɯ-fsroŋ, ce qui montre que
+/r/ peut être analysé soit comme médiane, soit comme initiale dans ce
+groupe.  
+On doit ajouter aux groupes présentés dans le Tableau 7 les groupes
+\[z\]br-, tɕr-, ɕr-, ʁr- et jr-, pour lesquels nous n’avons pas
+d’exemples réduplicables et qui seront étudiés en 2.3.3. Tous les
+lieux d’articulation sauf les rétroflexes sont compatibles avec /r/.  
+Dans les groupes βr- et ɣr-, /r/ est initiale : la forme βraʁ du verbe
+kɤ-βraʁ « attacher à un poteau » se réduplique βrɯ-βraʁ et non *
+wɯ-βraʁ, et la forme ɣrum du verbe ku-ɣrum « blanc » se réduplique
+ɣrɯ-ɣrum et non *ɣɯ-ɣrum.  
+\- Page 40 : Les phonèmes /r/ et /ʂ/ en position préinitiale  
+Dans le système des consonnes préinitiales, \[ʂ\] peut être considéré
+comme la variante sourde de /r/. C’est en effet de cette manière que /r/
+est prononcé devant les occlusives sourdes et aspirées. Dans tous ces
+cas, nous noterons dans notre orthographe invariablement <r>. Toutefois,
+devant une initiale, /ŋ/, le phonème /ʂ/ est distinctif par rapport à
+/r/ et à d’autres phonèmes tels que /s/ ou /ɕ/.  
+/r/ peut servir de préinitiale devant 32 consonnes, et /ʂ/ devant deux
+consonnes (sans compter les cinq consonnes /w/, /l/, /j/, /ɣ/ et /ʁ/ qui
+sont susceptibles d’être médianes) :  
+Tableau 19 : Groupes de consonnes avec /r/ \~ /ʂ/ comme préinitiale
+(n’incluant pas les cas où l’initiale est un phonème susceptible de
+servir de médiane)  
+\[tableau\]  
+Les groupes rph-, rs-, ʂχ- et rɴɢ- ne sont attestés que par les exemples
+donnés dans le Tableau 19. On note l’absence des groupes * rb-, \* rth-,
+\* rndz-, \* rdʑ-, et \* rx-. r- n’est pas compatible avec les
+affriquées rétroflexes.  
+Tableau 20 : Distribution de /r/ \~ /ʂ/ devant occlusives et
+fricatives.  
+\[tableau\]  
+/ʂ/ ne s’oppose à /r/ que dans un seul exemple devant les phonèmes /ŋ/
+et /ɣ/. On trouve les paires minimales ou quasi-minimales suivantes en
+préinitiale devant /ŋ/ :  
+(24) /ʂ/ :: /r/ :: /ɕ/ :: /s/  
+kɤ-ʂŋaʁ « se faire une entorse »  
+rŋa-pa « le cinquième mois »  
+ɕŋaʁ-ɕŋaʁ « jaune vif »  
+sŋaʁ « sorcellerie »  
+Devant /ɣ/, dans le seul exemple ʂɣɤl-ʂɣɤl « transparent et brillant
+comme la rosée du matin », /ʂ/ ne présente pas de paire minimale avec
+/r/, même si le groupe rɣ- existe aussi. Ces groupes seront discutés
+dans la section 2.3.3.
+
+Sun, Jackson T.-S. 2003. Caodeng rGyalrong. In Thurgood, Graham and
+LaPolla, Randy J. (eds.), The Sino-Tibetan Languages, 490-502. London
+\&New York: Routledge.  
+\- Page 490 : r  
+The coda -r is often devoiced while the -s is usually voiced.
+
+Wikipedia : <https://en.wikipedia.org/wiki/Gyalrong_languages>  
+<https://en.wikipedia.org/wiki/Japhug_language>  
+\- Continuant voiced r
+
+Glottologue :  
+<https://glottolog.org/resource/languoid/id/jiar1240>
+
+Autres sources :  
+<https://clics.clld.org/languages/suntb-MaerkangrGyalrong>  
+Recherches : r -\> 238 entries (filtered from 904 total entries)  
+l -\> 97 entries (filtered from 904 total entries)
+
+``` r
+show_lang('rGyalrong')$Form
+```
+
+    ## [1] "kə_wjo"
+
+``` r
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="rGyalrong",'other',revision))
+```
+
+### Kali’na
+
+``` r
+show_lang("Kali'na")
+```
+
+    ## # A tibble: 2 × 6
+    ##   Language Dataset Meaning Form       Trill R_type  
+    ##   <chr>    <chr>   <chr>   <chr>      <chr> <chr>   
+    ## 1 Kali'na  CLICS   smooth  tu’kapele  no    no trill
+    ## 2 Kali'na  CLICS   rough   tɨwakalake no    no trill
+
+``` r
+show_comments("Kali'na")
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language Dataset Comments
+    ##   <chr>    <chr>   <chr>   
+    ## 1 Kali'na  CLICS   <NA>
+
+``` r
+show_iso("Kali'na")
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language ISO_code Phoible_code
+    ##   <chr>    <chr>    <chr>       
+    ## 1 Kali'na  car      car
+
+Trill : no  
+R\_type : no trill
+
+Dataset :  
+CLICS, no comments
+
+Phoible :  
+<https://phoible.org/languages/gali1262>  
+5 inventaires  
+\- SPA ɾ allophones ʒ ɽ ɾ ɺ  
+\- UPSID ɾ pas d’allophones  
+\- SAPHON 1867 \[pas de segment rhotique\] ɭ pas d’allophones  
+\- SAPHON 1868 ɾ pas d’allophones  
+\- SAPHON 1869 ɾ pas d’allophones
+
+Peasgood, E. T. 1972. Carib Phonology. In Grimes, J. E. (ed.), Languages
+of the Guianas, 35–41. Norman: Summer Institute of Linguistics,
+University of Oklahoma.  
+\- Page 36 : Liquid r  
+\- Page 37 : d and r, however, contrast elsewhere  
+In words that begin with i in a short initial syllable, the i may fuse
+with the following palatalized consonant \[…\]. However, fusing does not
+occur when r follows initial i: iro:mi \[irje:mi\] ‘dry season’.
+
+``` 
+          r is a an alveolar tap following e or preceded by and followed by i: e:ro [er:o] 'this', karsi:ri [kaAsi:ri] 'kasiri, alcoholic drink made from cassava root'. r after u, o, ï, and a is a reverse flap [ř] varying freely with a flap having slight lateral opening [l]. pahporo [pappořo ~ pappolo] 'all', kï:ri [kïři ~ kïli] 'older brother', ara:bo [ařa:bo ~ ala:bo] 'eel-like fish'.  
+          
+```
+
+Hoff, B. J. 1968. The Carib Language: Phonology, Morphology, Texts and
+Word Index. (Verhandelingen van het Koninklijk Instituut voor Taal, Land
+en Volkenkunde, 55.) The Hague: Martinus Nijhoff.  
+\- Page 32 : /r/ r dʲ  
+\- Page 33 : In the case of palatalized /r/ we find the same fricative
+j, now in co-articulation with d. The non-palatalized allophone of /r/
+is an alveolar flap.  
+\- Page 42 : flap r
+
+Renault-Lescure, Odile. 2009. Langues de Guyane. La Roque d’Anthéron:
+Vents d’ailleurs. 66–77pp. -\> Pas trouvé
+
+Álvarez, José. 2003. Syllable reduction and mora preservation in
+Kari’ña. Amerindia. 55–82.  
+\- Page 60 : The phonetic inventory of Kari’ña is relatively simple, as
+the transparent spelling (based on Latin American Spanish) shows.
+Lateral r \[ɾ\]  
+The phonemic inventory is /a, e, i, o, u, ü, p, t, k, s, m, n, r, w,
+y/.  
+\- Page 61 : Gemination in Kari’ña is possible with all consonants and
+glides, except s, sh, h, ’, r (Mosonyi 1982:5). As gemination is not  
+possible when the onset of the following syllable is r, vowel
+lengthening (Option A) takes place instead of \*r.r, as illustrated in
+(4).  
+(4) Optimization of iambic feet through vowel lengthening before r:  
+/adu-rü/ (a.duu).<rü> ‘to fry’  
+/adu-rü=poko/ (a.duu).(ru.puoo).<ko> ‘frying it’  
+/eku-rü/ (e.kuu).<rü> ‘to violate, rape’  
+/k-upi-rü/ (ku.pii).<rü> ‘to look for both of us’  
+/mü-rü/ (müü).<rü> ‘to tie’
+
+Courtz, Hendrik. 2008. A Carib Grammar and Dictionary. Toronto: Magoria
+Books. 14–22pp.  
+\- Page 22 : bound phonemes (or consonants): /r/  
+\- Page 23 : In the onset, all consonants do appear preceding all
+vowels, both word initially and word medially, with one exception: the
+combination /ji/ does not occur at all, unless the intervocalic glottal
+stop (which in other words has been found to have its origin  
+in one of the bound phonemes) in a word like \[woɁi\] ‘grass sp.’ is
+interpreted as having its origin in /j/.  
+\- Page 32 : /r/ \[ɾ\] following /i e/ /paira/ \[paiɾa\] ‘letterwood’  
+\[ɽ\] elsewhere /ruQme/ \[ɽuɁme\] ‘weak’
+
+  - Page 33 : /r/ The combination of an /N/ and a suffix or clitic
+    initial /r/ is pronounced \[n\],e.g.:  
+    /ti-auraN-re/ \[tauɽane\] ‘talkative’  
+    /iro-koN roteN/ \[iɾokonoteŋ\] ‘only these things’  
+  - Page 37 : /r/ r /rere/ rere ‘bat’  
+  - Page 47 : 2.5.11 The retroflex flap /r/  
+    The /r/ is always written r, even when the perseverance of a
+    preceding /i/ causes it to be pronounced as not much more than \[d\]
+    or \[j\] (cf. iro ‘that’).  
+    Mosonyi Hoff Renault-Lescure this book  
+    iyyo indo ilo iro  
+    \[ij:o\] \[ĩdio\] \[i:ɾo\] /iro/ ‘that \[anaphoric\]’  
+    shiyaamai sira:mai silamai siramai  
+    \[ʃija:mai\] \[ʃiɾa:mai\] \[ʃiɾa:mai\] /si-rama-i/  
+    ‘I turn’  
+    emüyyü emïirï emiyi emyiry  
+    \[emiy:i\] \[emiiɾi\] \[emiyi\] /emii-ri/  
+    ‘daughter of …’  
+    Wikipedia :  
+    <https://en.wikipedia.org/wiki/Carib_language>  
+  - Tap/Flap ɾ
+
+Glottologue :  
+<https://glottolog.org/resource/languoid/id/gali1262>
+
+Autres sources :  
+<https://clics.clld.org/languages/wold-Kalina>  
+Recherches : r -\> 9 entries (filtered from 1,279 total entries) \[=\>
+tous les emprunts au français\]  
+l -\> 530 entries (filtered from 1,279 total entries)
+
+``` r
+show_lang("Kali'na")$Form
+```
+
+    ## [1] "tu’kapele"  "tɨwakalake"
+
+``` r
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Kali'na",'other',revision))
+```
+
+### Makasae
+
+``` r
+show_lang('Makasae')
+```
+
+    ## # A tibble: 3 × 6
+    ##   Language Dataset Meaning Form    Trill R_type  
+    ##   <chr>    <chr>   <chr>   <chr>   <chr> <chr>   
+    ## 1 Makasae  CLICS   smooth  fuˈkal  no    no trill
+    ## 2 Makasae  CLICS   smooth  luˈmeke no    no trill
+    ## 3 Makasae  CLICS   rough   raˈbaka no    no trill
+
+``` r
+show_comments('Makasae')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language Dataset Comments                                                     
+    ##   <chr>    <chr>   <chr>                                                        
+    ## 1 Makasae  CLICS   "Correia, Aderito (2011). Describing Makasae: a trans-New Gu…
+
+``` r
+show_iso('Makasae')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language ISO_code Phoible_code
+    ##   <chr>    <chr>    <chr>       
+    ## 1 Makasae  mkz      <NA>
+
+Trill : no  
+R\_type : no trill
+
+Dataset :  
+CLICS, Correia, Aderito (2011). Describing Makasae: a trans-New Guinea
+language of East Timor (Ph.D. thesis). University of Western Sydney. -
+says tap in detailed description (“vibrant” in the consonant phoneme
+table)
+
+Phoible : NA
+
+Wikipedia :  
+<https://en.wikipedia.org/wiki/Makasae_language>  
+\- Trill r
+
+Correia, Aderito (2011). Describing Makasae: a trans-New Guinea language
+of East Timor (Ph.D. thesis). University of Western Sydney.  
+\- Page 24 : Native consonants: /b/ /d/ /f/ /g/ /h/ /k/ /l/ /m/ /n/ /r/
+/s/ /t/ /w/ /‘/  
+Foreign consonants: /p/ /ʎ/ /ɲ/ /rr/ /ʃ/ /ʒ/ /z/ /v/  
+\- Page 36 : The 14 native consonantal phonemes of Makasae compared with
+the 13 of Tetum in its pre-Malay and pre-Portuguese phases, share a
+striking characteristic: most do not have a voiceless or voiced
+counterpart.  
+\- Page 37 : vibrants vl. /r/  
+vd.  
+\- Page 38 : /r/ voiced alveolar tap \[ɾ\]:  
+ra’u \[ɾaʔu\] ‘plate’  
+baru \[baɾu\] ‘roast’  
+\- Page 39 : Eight Tetum or Portuguese consonantal phonemes are part of
+the phonological inventory of acrolectal Makasae.  
+trill vl.  
+vd. /rr/  
+\- Page 40 : /rr/ voiced post-alveolar  
+trill \[r\]: bairro bairru \[ˈbairu\] \> (A) bairru \[bairu\]  
+‘neighbourhood’  
+(M) bairu \[baiɾu\]  
+\- Page 41 : In the mesolectal and basilectal varieties phonemic
+substitutions are normal in the treatment of foreign consonants. The
+consonantal phonemes /p/, /v/, /z/, /ʃ/ and /ʒ/ in acrolectal Tetum and
+their substitutes in the basilectal and mesolectal varieties of Makasae
+occur only in initial or medial (intervocalic) position, as in example
+(30). The phoneme /rr/ is replaced by /r/ only in intervocalic position
+(31).  
+\- Page 42 : (31) /rr/ \> /r/, as in  
+korreiu \[koˈreiu\] \> (B) koreu \[koɾeu\] ‘post or mail’  
+(M) koreiu \[koɾeiu\]
+
+Fogaça, Jessé Silveira (2015). Aspectos gramaticais da língua makasae de
+timor-leste : fonologia, morfologia e sintaxe \[Grammar aspects of the
+East Timorese Makasae language: phonology, morphology and syntax\]
+(Doctor’s thesis) (in Portuguese). University of Brasília.
+<doi:10.26512/2015.11.T.20168>  
+\- Page 50 : Segundo Fogaça (2011), em Makasae registram-se dezenove
+fones consonantais nativos: \[p\], \[b\], \[t\], \[d\], \[k\], \[ɡ\],
+\[ʔ\], \[m\], \[d\],  
+̆ \[n\], \[r\], \[ɾ\], \[ɽ\], \[ɸ\], \[f\], \[s\], \[h\], \[w\] e \[l\].
+Dos consonantais, registra-se 8 oclusivas, 2 nasais, 1 vibrante
+múltipla, 2 vibrante simples, 4 fricativas, 1 aproximante e 1
+aproximante lateral, reconhecendo 4 pontos de articulação e 7 modos de
+articulação.  
+Tabela 3.1: Sons consonantais da Língua Makasae.  
+Vibrante Múltiplo r  
+Vibrante Simples ɾ  
+(Tap or Flap) - Page 54 : /d/, /r/  
+\[’rikɐ\] rika ‘magro’  
+\[’duɾɐ\] dura ‘rato’  
+\[’raʔu\] ra’u ‘prato’  
+\[’daho\] daho ‘seis’  
+\- Page 56 : alofones, sendo \[r\], \[ɾ\] e \[ɽ\] alofones do fonema
+/r/  
+Vibrante Múltiplo /r/  
+Vibrante Simples  
+(Tap or Flap)  
+\- Page 59 :O /d/ possui dois alofones: \[d\] e \[d\]. ̆ O alofone tap
+dental \[d\] ̆ está restrito a ocorrências em ambientes entre vogais
+quando antecedendo vogais altas.  
+\- Page 62 : 3.3.4 Fonema Vibrante Múltiplo  
+3.3.4.1 O /r/  
+O /r/ possui sua ocorrência restrita à posição inicial da sílaba,
+precedida de silêncio.  
+(76) \[ru’ɾuː\] ruruu ‘tremer’  
+(77) \[’rukʊ\] ruku ‘pular’  
+(78) \[’ruɾʊ\] ruru ‘dez’  
+(79) \[’raʔʊ\] ra’u ‘prato’  
+Possui dois alofones: \[r\] e \[ɾ\]. A consoante \[r\] ocorre no início
+de palavra, precedida por silêncio, enquanto que \[ɾ\] ocorre nos
+ambientes entre vogais.  
+(80) \[’ruɾu\] ruru ‘dez’  
+(81) \[’raʔu\] ra’u ‘prato’  
+(82) \[ɛɾi’seː\] erisee ‘aqui’  
+(83) \[’iɾɐ\] ira ‘água’  
+\- Page 80 : Tabela 3.7 : Distribuição Fonotática.  
+\#r +  
+r\# -  
+\- Page 84 : A língua Makasae também pode apresentar flexibilidade de
+aceitação de novos elementos fonéticos, como no caso da vibrante simples
+retroflexa \[ɽ\], e a introdução do padrão silábico CVC no interior da
+palavra.  
+Tetum Makasae  
+\[timoɽ oan\]\[timoɽ ɡi’matɐ\] ‘timorense’  
+\[baɽ’lakɪ\] \[ɡibaɽ’lakɪ\] ‘dote’
+
+Huber, Juliette (2017). “Makalero and Makasae”. In Schapper, Antoinette
+(ed.). The Papuan Languages of Timor, Alor and Pantar: Volume 2. Walter
+de Gruyter. pp. 267–351. -\> Pas trouvé
+
+Glottologue :  
+<https://glottolog.org/resource/languoid/id/maka1316>
+
+Autres sources :  
+<https://clics.clld.org/languages/lexirumah-maka1316>  
+Recherches : r -\> 189 entries (filtered from 603 total entries)  
+l -\> 163 entries (filtered from 603 total entries)
+
+``` r
+show_lang('Makasae')$Form
+```
+
+    ## [1] "fuˈkal"  "luˈmeke" "raˈbaka"
+
+Soit je change en ‘OUT’ soit je change en ‘trilled’. Je prefère changer
+en ‘trilled’.
+
+``` r
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Makasae",'trilled',revision))
+```
+
+### Ngadha
+
+``` r
+show_lang('Ngadha')
+```
+
+    ## # A tibble: 2 × 6
+    ##   Language Dataset Meaning Form      Trill R_type  
+    ##   <chr>    <chr>   <chr>   <chr>     <chr> <chr>   
+    ## 1 Ngadha   CLICS   smooth  ŋelu      no    no trill
+    ## 2 Ngadha   CLICS   rough   ɗogo_ɗəgi no    no trill
+
+``` r
+show_comments('Ngadha')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language Dataset Comments
+    ##   <chr>    <chr>   <chr>   
+    ## 1 Ngadha   CLICS   <NA>
+
+``` r
+show_iso('Ngadha')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language ISO_code Phoible_code
+    ##   <chr>    <chr>    <chr>       
+    ## 1 Ngadha   nxg      nxg
+
+Trill : no  
+R\_type : no trill
+
+Dataset :  
+CLICS, no comments
+
+Phoible :  
+<https://phoible.org/inventories/view/1213>  
+\- ɾ allophones ɾ r
+
+Djawanai, Stephanus. 1983. Ngadha Text Tradition: The Collective Mind of
+the Ngadha People, Flores. (Pacific Linguistics Series D, 55.)
+Department of Linguistics, Research School of Pacific Studies,
+Australian National University.  
+\- Page 114 : tap/trill r  
+orthography: r  
+\- Page 115 : Consonants may occur in initial or medial positions in the
+morpheme, while vowels may occur in initial, medial or final
+positions.  
+\- Page 116 : 3.2.2.6. Tap/Trill  
+r : rio painful  
+aro charcoal  
+\- Page 118 : 3.2.3.5. Tap/ trill  
+r usually consists of one or more taps . It appears as a trill in
+emphatic speech or enunciation , or when preceded by a schwa.  
+\- PAge 119 : rro erro sun
+
+Wikipedia :  
+<https://en.wikipedia.org/wiki/Ngadha_language>  
+\- Liquid trill r  
+\- The trill is short, and may have only one or two contacts.
+
+Glottologue :  
+<https://glottolog.org/resource/languoid/id/ngad1261>
+
+Elias, Alexander. 2018. Lio and the Central Flores languages. (MA
+thesis, Rijksuniversiteit te Leiden; 238pp.)  
+\- Page 82 : Table 14: Consonant inventory of Western Ngadha (Bajawa)  
+rhotic r  
+\- Page 83 : Table 15: Consonant inventory of Central Ngadha (So’a)  
+rhotic r  
+This dialect is on the border between Ngadha and Nage and is in some
+ways transitional between those two languages, and is unique among CF
+languages in showing the total loss of PCF \* l. Another unique feature
+for Ngadha varieties is the reflex of PCF \* dZ as /r/, a change it
+shares with many other CF languages but not with other Ngadha varieties.
+This is a transitional variety important for understanding the CF group
+as a whole and is included despite the poor level of documentation.  
+Table 16: Consonant inventory of Eastern Ngadha (Takatunga)  
+rhotic r  
+lateral (=\> Il n’y a pas de latérale)
+
+Autres sources :  
+<https://clics.clld.org/languages/lexirumah-ngad1267>  
+Recherches : r -\> 86 entries (filtered from 786 total entries)  
+l -\> 159 entries (filtered from 786 total entries)
+
+``` r
+show_lang('Ngadha')$Form
+```
+
+    ## [1] "ŋelu"      "ɗogo_ɗəgi"
+
+Je fais le choix de changer en ‘trilled’.
+
+``` r
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Ngadha",'trilled',revision))
+```
+
+\#\#Hatam
+
+``` r
+show_lang('Hatam')
+```
+
+    ## # A tibble: 2 × 6
+    ##   Language Dataset Meaning Form  Trill R_type  
+    ##   <chr>    <chr>   <chr>   <chr> <chr> <chr>   
+    ## 1 Hatam    CLICS   smooth  mblus no    no trill
+    ## 2 Hatam    CLICS   smooth  dia   no    no trill
+
+``` r
+show_comments('Hatam')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language Dataset Comments
+    ##   <chr>    <chr>   <chr>   
+    ## 1 Hatam    CLICS   wiki
+
+``` r
+show_iso('Hatam')
+```
+
+    ## # A tibble: 1 × 3
+    ##   Language ISO_code Phoible_code
+    ##   <chr>    <chr>    <chr>       
+    ## 1 Hatam    had      <NA>
+
+Trill : no  
+R\_type : no trill
+
+Dataset :  
+CLICS, wiki
+
+Phoible : NA
+
+Wikipedia :  
+<https://en.wikipedia.org/wiki/Hatam_language>  
+\- Liquid ɾ  
+\- Phoneme : /ɾ/ Allophones : \[ɾ, l, lː\]
+
+Reesink, Ger P. (1999). A Grammar of Hatam: Bird’s Head Peninsula, Irian
+Jaya. Pacific Linguistics: Series C, 146. Canberra: Research School of
+Pacific and Asian Studies, The Australian National University.
+hdl:1885/146620. ISBN 978-0-85883-497-2.  
+\- Page 9 : Occasionally, I refer to words in the orthography which is
+used in Griffiths (1994) and other published Hatam materials. In those
+cases the Hatam items are given in italics. In the orthography both rand
+l occur, even though there is no phonemic contrast.  
+\- Page 10 : liquid r \[ɾ, l\]  
+geminate (ll)  
+\- Page 12 : /r/ is realised as an alveolar flap \[ɾ\] or a lateral
+approximant \[l\] in free variation. Thus, in isolation one may hear
+either \[ɾim\] or \[lim\] for ‘to roll’. But in monomorphernic sequences
+no \[l\] is attested directly following a consonant. There seems to be
+some preference for \[l\] in utterance-initial position and \[ɾ\]
+elsewhere. For example, the preposition leu ‘from’, the related
+conjunction lene ‘and then’ are invariably pronounced as \[lɛw\] and
+\[lɛnɛ\] when starting a sentence or resuming after a pause. In fast
+speech following consonants, one would get \[ɾɛw\] , \[ɾɛnɛ\] , as in
+/mbuT rew/ ‘he goes from = he leaves’ \[mbudɾew\] and /noK rene/ ‘it
+then = so’ \[nogɾɛnɛ\]. But it seems that no strict rule can be given.
+The same speaker may realise /mbuT rew/ ‘walk; go from’ as either
+\[mbudɾɛw\] or \[mbut\>lɛw\]. Indonesian selalu ‘always’ can be given
+as \[selaɾu\], \[seɾaɾu\], \[selalu\].  
+/r/ vs /d/: /ran/ track /da/ I  
+/ruT/ ripe (corn) /duT/ warn  
+/dor/ to run /roK/ to push  
+\- Page 28 : Consonant clusters  
+Tautosyllabic consonant clusters are rather limited. In §2.5 I have
+already given preconsonantal nasals as being syllabic. Complex onsets
+are formed by stops, except the palatals, or /s/ as first element
+followed by the liquid /r/, which is always realised with its  
+allophone flap \[ɾ\], never by the lateral \[l\], as in:  
+(2.38) /pr/ /pri/ to jump  
+/br/ /bri/ to clamber  
+/tr/ /tri/ to sell  
+/dr/ /druy/ to be startled  
+/fr/ /kri/ to tie  
+/gr/ no available?  
+/sr/ /sra/ to cut along the grain  
+Following a syllabic nasal, I have only found the /Cr/ cluster with
+voiced stop in my data, as in:  
+(2.39) /mbr/ /m.braP/ to talk  
+/ndr/ /n.draT/ to stub one’s toe  
+/nggr/ /ng.grey/ to peel (a banana)  
+But Griffiths has a few instances with voiceless stops and /s/:  
+(2.40) mpri /m.pri/ k.o. frog  
+mpriet /m.prieT/ ghost  
+nsrik /n.sriK/ tsk, tsk (but this is obviously an onomatopoeia, so not
+necessarily part of the regular phonological system).
+
+Glottologue :  
+<https://glottolog.org/resource/languoid/id/hata1243>
+
+Autres sources :  
+<https://clics.clld.org/languages/lexirumah-hata1243>  
+Recherches : r -\> 36 entries (filtered from 387 total entries)  
+l -\> 7 entries (filtered from 387 total entries)
+
+``` r
+show_lang('Hatam')$Form
+```
+
+    ## [1] "mblus" "dia"
+
+``` r
+rough_r_data <- rough_r_data %>% 
+  dplyr::mutate(revision = ifelse(Language=="Hatam",'other',revision))
 ```
