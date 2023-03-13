@@ -1,7 +1,7 @@
 Ressources complémentaires - Chapitre 5
 ================
 Rémi Anselme
-2023-03-13 16:39:34
+2023-03-13 16:45:12
 
   - [Chapitre 5](#chapitre-5)
       - [Présentation de l’article de Winter et
@@ -27354,13 +27354,11 @@ la lengua Atacameña (1896). LIAMES 5. 25-42.
 \- Page 29 : VHE presentan breves descripciones articulatorias de
 algunos segmentos de la lengua, en concreto los que en su trabajo
 aparecen en posición inicial de palabra. Así explican las realizaciones
-que representan por <a>, <b>, <ck>, <h>, <i>, <l>, <m>, <n>,
-
-<p>
-
-, <pp>, <s>, <t>, <tt>, <tch> e <y>. En el texto del diccionario
-aparecen además otras letras: <e>, <ñ>, <o>, <r>, <u>, <v>, y también
-<â> en el grupo <aâ> (<aâya>, <baâlatur>).  
+que representan por \<a\>, \<b\>, \<ck\>, \<h\>, \<i\>, \<l\>, \<m\>,
+\<n\>, \<p\>, \<pp\>, \<s\>, \<t\>, \<tt\>, \<tch\> e \<y\>. En el texto
+del diccionario aparecen además otras letras: \<e\>, \<ñ\>, \<o\>,
+\<r\>, \<u\>, \<v\>, y también \<â\> en el grupo \<aâ\> (\<aâya\>,
+\<baâlatur\>).  
 \[Emilio Vaïsse, Félix Hoyos y Aníbal Echeverría y Reyes Glosario de la
 lengua atacameña (en adelante citado como VHE)\]
 
