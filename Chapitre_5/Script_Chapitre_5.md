@@ -1,7 +1,7 @@
 Ressources complémentaires - Chapitre 5
 ================
 Rémi Anselme
-2023-03-13 16:45:12
+2023-03-15 18:23:53
 
   - [Chapitre 5](#chapitre-5)
       - [Présentation de l’article de Winter et
@@ -329,6 +329,8 @@ Rémi Anselme
           - [Kali’na](#kalina)
           - [Makasae](#makasae)
           - [Ngadha](#ngadha)
+      - [Résultat du recodage](#résultat-du-recodage)
+      - [Analyses et résultats](#analyses-et-résultats)
 
 # Chapitre 5
 
@@ -34812,3 +34814,297 @@ show_lang('Hatam')$Form
 rough_r_data <- rough_r_data %>% 
   dplyr::mutate(revision = ifelse(Language=="Hatam",'other',revision))
 ```
+
+## Résultat du recodage
+
+``` r
+rough_r_data %>% 
+  dplyr::select(Language,revision,Trill) %>% 
+  dplyr::filter(!is.na(revision)) %>% 
+  dplyr::group_by(Trill) %>% 
+  dplyr::distinct() %>% dplyr::select(revision) %>% 
+  table() %>% as.data.frame() -> table_changes
+```
+
+    ## Adding missing grouping variables: `Trill`
+
+L’analyse originelle comportait 332 langues. De ces langues nous n’en
+avons gardé que 256 pour 70 familles de langues après notre recodage.
+
+``` r
+table_changes_2 <- table_changes %>% 
+         dplyr::mutate(Trill = ifelse(Trill=="yes","Trill","Other"),
+                       revision = dplyr::case_when(revision == "ERROR" ~ "Error",
+                                                   revision == "OUT" ~ "Contrast",
+                                                   revision == "other" ~ "OTHER",
+                                                   revision == "trilled" ~ "TRILL",
+                                                   is.na(revision) ~ "NA"),
+                       revision = ifelse(is.na(revision),"NA",revision),
+                       Data = ifelse(revision %in% c("TRILL","OTHER"),"Included","Excluded"))
+
+table_changes_2$revision <- factor(table_changes_2$revision,levels = c("OTHER","Contrast","Error","NA","TRILL"))
+```
+
+``` r
+#Adapté de quelque part sur Internet
+ggplot2::ggplot(data = table_changes_2,
+       ggplot2::aes(axis1 = Trill, axis2 = revision, axis3 = Data, y = Freq)) +
+  ggalluvial::geom_alluvium(ggplot2::aes(fill = revision)) +
+  ggalluvial::geom_stratum() +
+  ggplot2::geom_text(stat = ggalluvial::StatStratum,
+            ggplot2::aes(label = ggplot2::after_stat(stratum))) +
+  ggplot2::scale_x_discrete(limits = c("Survey", "Response"),
+                   expand = c(0.15, 0.05)) +
+  ggplot2::scale_fill_viridis_d() +
+  ggplot2::theme_void() +
+  ggplot2::theme(legend.position="none")
+```
+
+    ## Warning: Using the `size` aesthetic in this geom was deprecated in ggplot2 3.4.0.
+    ## ℹ Please use `linewidth` in the `default_aes` field and elsewhere instead.
+
+![Diagramme illustrant le re-codage des langues en fonction des
+informations collectées. A gauche le compte des langues telles que
+codées par Winter et al., au milieu les conclusions de notre processus
+de révision des valeurs de trill/other dans les langues, à droite le
+compte des langues inclues ou exclues dans notre
+réplication.](Script_Chapitre_5_files/figure-gfm/unnamed-chunk-1007-1.png)
+
+``` r
+#Adapté de quelque part sur Internet
+
+world_map <- ggplot2::map_data("world") %>% 
+              dplyr::filter(region != "Antarctica")
+
+basic4map <- ggplot2::ggplot() + 
+  ggplot2::coord_fixed() +
+  ggplot2::xlab("") +
+  ggplot2::ylab("")
+
+#Add map to base plot
+base_world <- basic4map +
+  ggplot2::geom_polygon(data=world_map,
+                        ggplot2::aes(x=long,
+                                     y=lat,
+                                     group=group), 
+                        colour="gray",
+                        fill="gray") +
+  ggplot2::theme(panel.background = ggplot2::element_rect(
+    size = 0.5,
+    linetype = "solid"),
+    panel.grid.major = ggplot2::element_line(
+      size = 0.5,
+      linetype = 'solid',
+      colour = "gray90"), 
+    panel.grid.minor = ggplot2::element_line(
+      size = 0.25,
+      linetype = 'solid',
+      colour = "gray90")) 
+```
+
+    ## Warning: The `size` argument of `element_rect()` is deprecated as of ggplot2 3.4.0.
+    ## ℹ Please use the `linewidth` argument instead.
+
+    ## Warning: The `size` argument of `element_line()` is deprecated as of ggplot2 3.4.0.
+    ## ℹ Please use the `linewidth` argument instead.
+
+``` r
+rm(basic4map)
+```
+
+``` r
+data_R_revision_2 <- rough_r_data %>% 
+                        dplyr::select(Language,Latitude,Longitude,revision,Trill) %>% 
+                        dplyr::mutate(revision = ifelse(revision=="trilled","TRILL",
+                                                        ifelse(revision=="other","OTHER","OLD")),
+                                      Data = ifelse(revision%in%c("TRILL","OTHER"),"NEW","OLD")) %>% 
+                        dplyr::distinct()
+
+data_R_revision_2$revision <- factor(data_R_revision_2$revision,levels = c("OTHER","TRILL","OLD"))
+  
+r_col <- "#440154FF"
+other_col <- "#FDE725FF"
+```
+
+``` r
+base_world + 
+  ggplot2::geom_point(data =  data_R_revision_2 %>% dplyr::filter(Data=="OLD"),
+                      ggplot2::aes(x=Longitude, y=Latitude, shape=Data),
+             size=2, alpha=1)+
+  ggplot2::geom_point(data =  data_R_revision_2 %>% dplyr::filter(revision!="OLD"),
+                      ggplot2::aes(x=Longitude, y=Latitude, fill=revision,shape=Data),
+             size=2, alpha=1) +
+  ggplot2::scale_fill_viridis_d(name = "Langues avec") +
+  ggplot2::scale_shape_manual(values=c(21, 18),
+                              labels=c("Inclusion", "Exclusion")) +
+  ggplot2::ggtitle(NULL) + 
+  ggplot2::theme(legend.position="bottom") +
+  ggplot2::guides(fill=ggplot2::guide_legend(override.aes=list(shape = 21)))
+```
+
+![Distribution des langues incluses dans l’analyse originale de Winter
+et al. (2022). Deux groupes sont inclus : les langues TRILL et les
+langues OTHER. Les langues Indo-Européennes ne sont pas
+incluses.](Script_Chapitre_5_files/figure-gfm/unnamed-chunk-1010-1.png)
+
+## Analyses et résultats
+
+Le code est Proportions des prédictions des modèles avec les intervalles
+plausibles bayésien à 95% pour les mots « rugueux » et « lisse ».
+
+``` r
+source("donnees_winter2022/scripts/rough_helper.r")
+
+xling <- readr::read_csv("donnees_winter2022/final_data/cross_linguistic.csv") %>%
+  dplyr::filter(Meaning %in% c("rough","smooth"),
+         Family!="Indo-European")
+```
+
+    ## Rows: 2729 Columns: 18
+    ## ── Column specification ────────────────────────────────────────────────────────
+    ## Delimiter: ","
+    ## chr (12): Language, ISO_code, Phoible_code, Meaning, Form, Trill, Dataset, F...
+    ## dbl  (3): Latitude, Longitude, Rough.M
+    ## lgl  (3): rough, r, l
+    ## 
+    ## ℹ Use `spec()` to retrieve the full column specification for this data.
+    ## ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+
+``` r
+xling$Meaning <- paste0("‘", xling$Meaning, "’")
+xling$Meaning.f <- factor(xling$Meaning)#, levels=c("‘smooth’", "‘rough’"))
+# only Google TRS data for Basque:
+xling <- dplyr::filter(xling, !(Language=="Basque" & Dataset=="CLICS"))
+
+
+# some languages happen to have more than one rough / smooth words (very small minority!)
+# reduce to single data point via majority rule:
+xling_single <- xling %>%
+  dplyr::filter(Trill=="yes") %>%
+  dplyr::group_by(Language,Meaning.f) %>%
+  dplyr::summarise(r = as.logical(round(mean(r))),
+            Longitude=Longitude[1],
+            Latitude=Latitude[1]) %>%
+  dplyr::ungroup()
+```
+
+    ## `summarise()` has grouped output by 'Language'. You can override using the
+    ## `.groups` argument.
+
+``` r
+data_R_revision <- rough_r_data 
+
+xling_revision <- data_R_revision %>%
+  dplyr::filter(Meaning %in% c("rough","smooth"),
+         Family!="Indo-European") %>% 
+  dplyr::mutate(Trill = dplyr::case_when(revision == "trilled" ~ "yes",
+                                         revision == "other" ~ "no",
+                                         revision %in% c("OUT","NA") ~ "OUT")) %>% 
+  dplyr::filter(Trill != "OUT")
+
+xling_revision$Meaning <- paste0("‘", xling_revision$Meaning, "’")
+xling_revision$Meaning.f <- factor(xling_revision$Meaning)#, levels=c("‘smooth’", "‘rough’"))
+
+# some languages happen to have more than one rough / smooth words (very small minority!)
+# reduce to single data point via majority rule:
+xling_single_revision <- xling_revision %>%
+  dplyr::filter(Trill=="yes") %>%
+  dplyr::group_by(Language,Meaning.f) %>%
+  dplyr::summarise(r = as.logical(round(mean(r))),
+            Longitude=Longitude[1],
+            Latitude=Latitude[1]) %>%
+  dplyr::ungroup()
+```
+
+    ## `summarise()` has grouped output by 'Language'. You can override using the
+    ## `.groups` argument.
+
+``` r
+r_col <- "#440154FF"
+other_col <- "#FDE725FF"
+
+world <- rnaturalearth::ne_countries(scale = "medium", returnclass = "sf")
+
+theme_rough <- 
+ggplot2::theme_classic() + 
+  ggplot2::theme(legend.position = "none",
+        legend.key.height = ggplot2::unit(2,"line"),
+        legend.title = ggplot2::element_blank(),
+        legend.text = ggplot2::element_text(size = 12),
+        legend.background = ggplot2::element_rect(fill = "transparent"),
+        strip.background = ggplot2::element_blank(),
+        strip.text = ggplot2::element_text(size = 12, face = "bold"),
+        panel.spacing = ggplot2::unit(2, "lines"),
+        panel.border = ggplot2::element_blank(),
+        plot.background = ggplot2::element_rect(fill = "transparent", colour = NA),
+        panel.background = ggplot2::element_rect(fill = "transparent"),
+        strip.text.y =ggplot2:: element_text(size = 12, hjust = 0),
+        axis.text.x = ggplot2::element_text(size = 12, colour="black", face="bold"),
+        axis.text.y = ggplot2::element_text(size = 12, colour="black"),
+        axis.line = ggplot2::element_blank(),
+        axis.ticks.x = ggplot2::element_blank(),
+        axis.title = ggplot2::element_text(size = 12, face = "bold"),
+        plot.title = ggplot2::element_text(size = 14, face = "bold"),
+        plot.margin = ggplot2::unit(c(0.4,0.4,0.4,0.4),"cm"))
+```
+
+``` r
+ggplot2::ggplot(world) +
+  ggplot2::geom_sf(size=0.2, col="white", fill="lightgrey") +
+  ggplot2::coord_sf(xlim = c(-180, 180), ylim = c(-60, 80), datum=NA) +
+  ggplot2::geom_point(data = xling_single, ggplot2::aes(x = Longitude, y = Latitude, fill = r, group = NA),
+             alpha = 0.8, size = 2.5,
+             col="black", pch=21, stroke=0.1,
+             position = ggplot2::position_jitter(width=2.5,height=2.5,seed=1)) +
+  ggplot2::facet_grid(~Meaning.f) +
+  ggplot2::scale_fill_manual(breaks = c(F,T), values = c(other_col, r_col), labels=c("no /r/", "contains /r/")) +
+  ggplot2::labs(title = "Trilled /r/ in the words ‘rough’ and ‘smooth’ cross-linguistically \n(Original study)") +
+  theme_rough +
+  ggplot2::theme(
+    legend.position = "bottom",
+    axis.title = ggplot2::element_blank(),
+    axis.text = ggplot2::element_blank(),
+    axis.line = ggplot2::element_blank(),
+    axis.ticks = ggplot2::element_blank(),
+    plot.margin = ggplot2::unit(c(0.1,0.4,-0.4,0.4),"cm"),
+    panel.spacing = ggplot2::unit(0, "lines"))
+```
+
+![Distribution des langues incluses dans l’analyse originale de Winter
+et al. (2022). Deux groupes sont inclus : les langues TRILL et les
+langues OTHER. Les langues Indo-Européennes ne sont pas
+incluses.](Script_Chapitre_5_files/figure-gfm/unnamed-chunk-1012-1.png)
+
+``` r
+ggplot2::ggplot(world) +
+  ggplot2::geom_sf(size=0.2, col="white", fill="lightgrey") +
+  ggplot2::coord_sf(xlim = c(-180, 180), ylim = c(-60, 80), datum=NA) +
+  ggplot2::geom_point(data = xling_single_revision, ggplot2::aes(x = Longitude, y = Latitude, fill = r, group = NA),
+             alpha = 0.8, size = 2.5,
+             col="black", pch=21, stroke=0.1,
+             position = ggplot2::position_jitter(width=2.5,height=2.5,seed=1)) +
+  ggplot2::facet_grid(~Meaning.f) +
+  ggplot2::scale_fill_manual(breaks = c(F,T), values = c(other_col, r_col), labels=c("no /r/", "contains /r/")) +
+  ggplot2::labs(title = "Trilled /r/ in the words ‘rough’ and ‘smooth’ cross-linguistically \n(Replication)") +
+  theme_rough +
+  ggplot2::theme(
+    legend.position = "bottom",
+    axis.title = ggplot2::element_blank(),
+    axis.text = ggplot2::element_blank(),
+    axis.line = ggplot2::element_blank(),
+    axis.ticks = ggplot2::element_blank(),
+    plot.margin = ggplot2::unit(c(0.1,0.4,-0.4,0.4),"cm"),
+    panel.spacing = ggplot2::unit(0, "lines"))
+```
+
+![Distribution des langues incluses dans l’analyse originale de Winter
+et al. (2022). Deux groupes sont inclus : les langues TRILL et les
+langues OTHER. Les langues Indo-Européennes ne sont pas
+incluses.](Script_Chapitre_5_files/figure-gfm/unnamed-chunk-1012-2.png)
+
+Distribution de la présence du /r/ trillé dans des termes Rough («
+rugueux »), et smooth (« lisse »). Nous comparons les distributions de
+Winter et al. (2022) (en haut) à la notre (en bas). Visuellement, il
+apparaît que dans l’étude d’origine et dans notre analyse, on retrouve
+plus de /r/ trillé dans les termes pour « rugueux » par rapport à «
+lisse ».
