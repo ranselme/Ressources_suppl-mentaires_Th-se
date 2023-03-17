@@ -1,7 +1,7 @@
 Ressources complémentaires - Chapitre 5
 ================
 Rémi Anselme
-2023-03-15 18:23:53
+2023-03-17 17:11:55
 
   - [Chapitre 5](#chapitre-5)
       - [Présentation de l’article de Winter et
@@ -331,6 +331,10 @@ Rémi Anselme
           - [Ngadha](#ngadha)
       - [Résultat du recodage](#résultat-du-recodage)
       - [Analyses et résultats](#analyses-et-résultats)
+          - [Avec trills](#avec-trills)
+          - [Sans trills](#sans-trills)
+          - [Analyse Omnibus : langues avec et sans trills
+            ensemble](#analyse-omnibus--langues-avec-et-sans-trills-ensemble)
 
 # Chapitre 5
 
@@ -35102,9 +35106,670 @@ et al. (2022). Deux groupes sont inclus : les langues TRILL et les
 langues OTHER. Les langues Indo-Européennes ne sont pas
 incluses.](Script_Chapitre_5_files/figure-gfm/unnamed-chunk-1012-2.png)
 
-Distribution de la présence du /r/ trillé dans des termes Rough («
-rugueux »), et smooth (« lisse »). Nous comparons les distributions de
-Winter et al. (2022) (en haut) à la notre (en bas). Visuellement, il
-apparaît que dans l’étude d’origine et dans notre analyse, on retrouve
-plus de /r/ trillé dans les termes pour « rugueux » par rapport à «
-lisse ».
+### Avec trills
+
+``` r
+data_R_revision_trill_rs <- dplyr::filter(data_R_revision, revision=="trilled",
+                                          Meaning %in% c("rough","smooth"))
+```
+
+Nous avons 124 langues incluses dans l’analyse où on retrouve un trill.
+Cela représente 33 famille linguistiques.
+
+``` r
+data_r_revision_trill_rs_1 <- data_R_revision_trill_rs %>% 
+  dplyr::mutate(Trill=ifelse(revision=="trilled","yes"))
+
+data_r_revision_trill_rs_1 <- data_r_revision_trill_rs_1 %>% 
+  dplyr::mutate(Family=stringr::str_remove_all(Family,"�"))
+```
+
+``` r
+xling_brm_rs_logistic_priors <- c(
+  brms::set_prior("student_t(5,0,2.5)", class = "b"),
+  brms::set_prior("student_t(5,0,2.5)", class = "Intercept"),
+  brms::set_prior("lkj(2)", class = "cor"),
+  brms::set_prior("student_t(4,0,2)", class = "sd", coef = "Intercept", group="Family"),
+  brms::set_prior("student_t(4,0,2)", class = "sd", coef = "roughTRUE", group="Family"),
+  brms::set_prior("student_t(4,0,2)", class = "sd", coef = "Intercept", group="Area"),
+  brms::set_prior("student_t(4,0,2)", class = "sd", coef = "roughTRUE", group="Area")
+)
+
+set.seed(314)
+xling_brm_rs_logistic_mod_r_revision <- brms::brm(r ~ rough +
+                          (1 + rough | Family) +
+                          (1 + rough | Area),
+                        data=data_r_revision_trill_rs_1 ,
+                        prior=xling_brm_rs_logistic_priors,
+                        family="bernoulli",
+                       control=list(adapt_delta=0.9),
+                       refresh=0)
+```
+
+    ## Compiling Stan program...
+
+    ## Start sampling
+
+``` r
+summary(xling_brm_rs_logistic_mod_r_revision)
+```
+
+    ##  Family: bernoulli 
+    ##   Links: mu = logit 
+    ## Formula: r ~ rough + (1 + rough | Family) + (1 + rough | Area) 
+    ##    Data: data_r_revision_trill_rs_1 (Number of observations: 247) 
+    ##   Draws: 4 chains, each with iter = 2000; warmup = 1000; thin = 1;
+    ##          total post-warmup draws = 4000
+    ## 
+    ## Group-Level Effects: 
+    ## ~Area (Number of levels: 13) 
+    ##                          Estimate Est.Error l-95% CI u-95% CI Rhat Bulk_ESS
+    ## sd(Intercept)                0.45      0.37     0.02     1.39 1.00     1708
+    ## sd(roughTRUE)                0.78      0.59     0.04     2.28 1.00     1134
+    ## cor(Intercept,roughTRUE)    -0.07      0.45    -0.85     0.78 1.00     2691
+    ##                          Tail_ESS
+    ## sd(Intercept)                2046
+    ## sd(roughTRUE)                1649
+    ## cor(Intercept,roughTRUE)     2736
+    ## 
+    ## ~Family (Number of levels: 33) 
+    ##                          Estimate Est.Error l-95% CI u-95% CI Rhat Bulk_ESS
+    ## sd(Intercept)                0.96      0.53     0.08     2.09 1.00      674
+    ## sd(roughTRUE)                0.69      0.50     0.03     1.85 1.00     1478
+    ## cor(Intercept,roughTRUE)    -0.16      0.44    -0.87     0.72 1.00     3078
+    ##                          Tail_ESS
+    ## sd(Intercept)                 947
+    ## sd(roughTRUE)                2102
+    ## cor(Intercept,roughTRUE)     2657
+    ## 
+    ## Population-Level Effects: 
+    ##           Estimate Est.Error l-95% CI u-95% CI Rhat Bulk_ESS Tail_ESS
+    ## Intercept    -1.86      0.44    -2.85    -1.10 1.00     1791     2192
+    ## roughTRUE     1.45      0.56     0.29     2.53 1.00     1990     2270
+    ## 
+    ## Draws were sampled using sampling(NUTS). For each parameter, Bulk_ESS
+    ## and Tail_ESS are effective sample size measures, and Rhat is the potential
+    ## scale reduction factor on split chains (at convergence, Rhat = 1).
+
+``` r
+#saveRDS(xling_brm_rs_logistic_mod_r_revision, "models/xling_brm_rs_logistic_mod_r_revision.rds")
+```
+
+``` r
+library(brms)
+```
+
+    ## Loading required package: Rcpp
+
+    ## Loading 'brms' package (version 2.17.0). Useful instructions
+    ## can be found by typing help('brms'). A more detailed introduction
+    ## to the package is available through vignette('brms_overview').
+
+    ## 
+    ## Attaching package: 'brms'
+
+    ## The following object is masked from 'package:stats':
+    ## 
+    ##     ar
+
+``` r
+library(tidyverse)
+```
+
+    ## ── Attaching packages ─────────────────────────────────────── tidyverse 1.3.0 ──
+
+    ## ✔ tibble  3.1.8      ✔ dplyr   1.0.10
+    ## ✔ tidyr   1.2.1      ✔ stringr 1.4.1 
+    ## ✔ purrr   0.3.5      ✔ forcats 0.5.1
+
+    ## ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+    ## ✖ dplyr::filter() masks stats::filter()
+    ## ✖ dplyr::lag()    masks stats::lag()
+
+``` r
+x <- logistic_summary(xling_brm_rs_logistic_mod_r_revision, dat=data_r_revision_trill_rs_1, outcome="/r/", roughpred="rough", pp_over_zero=T)
+```
+
+    ## Warning: Method 'posterior_samples' is deprecated. Please see ?as_draws for
+    ## recommended alternatives.
+
+    ## predicted probability of /r/ rating based on roughness:
+    ##    smooth: 0.14 [0.05,0.25]
+    ##    rough: 0.41 [0.16,0.64]
+    ## predicted difference in probability of /r/ (rough - smooth):
+    ##    diff: 0.26 [0.04,0.49], 98.83% over zero
+
+### Sans trills
+
+``` r
+data_R_revision_other_rs <- dplyr::filter(data_R_revision, revision=="other",
+                                          Meaning %in% c("rough","smooth"))
+```
+
+Nous avons 132 langues incluses dans l’analyse où on ne retrouve pas un
+trill. Cela représente 51 famille linguistiques.
+
+``` r
+data_r_revision_other_rs_1 <- data_R_revision_other_rs %>% 
+  dplyr::mutate(Trill=ifelse(revision=="other","no"))
+
+data_r_revision_other_rs_1 <- data_r_revision_other_rs_1 %>% 
+  dplyr::mutate(Family=stringr::str_remove_all(Family,"�"))
+```
+
+``` r
+# priors: since the outcomes here are similar to those for a logistic model (i.e. a number between 0/1),
+# and the link function is the same, we use the same priors as we do for logistic models
+
+xling_brm_rs_logistic_priors <- c(
+  brms::set_prior("student_t(5,0,2.5)", class = "b"),
+  brms::set_prior("student_t(5,0,2.5)", class = "Intercept"),
+  brms:: set_prior("lkj(2)", class = "cor"),
+  brms::set_prior("student_t(4,0,2)", class = "sd", coef = "Intercept", group="Family"),
+  brms::set_prior("student_t(4,0,2)", class = "sd", coef = "roughTRUE", group="Family"),
+  brms::set_prior("student_t(4,0,2)", class = "sd", coef = "Intercept", group="Area"),
+  brms::set_prior("student_t(4,0,2)", class = "sd", coef = "roughTRUE", group="Area")
+)
+
+set.seed(314)
+xling_nt_brm_rs_logistic_mod_o_revision <- brms::brm(r ~ rough +
+                          (1 + rough | Family) +
+                          (1 + rough | Area),
+                        data=data_r_revision_other_rs_1,
+                        prior=xling_brm_rs_logistic_priors,
+                        family="bernoulli",
+                       control=list(adapt_delta=0.9),
+                       refresh=0)
+#saveRDS(xling_nt_brm_rs_logistic_mod_o_revision, "models/xling_nt_brm_rs_logistic_mod_o_revision.rds")
+```
+
+``` r
+x <- logistic_summary(xling_nt_brm_rs_logistic_mod_o_revision, dat=data_r_revision_other_rs_1, outcome="/r/", roughpred="rough", pp_over_zero=T)
+```
+
+    ## Warning: Method 'posterior_samples' is deprecated. Please see ?as_draws for
+    ## recommended alternatives.
+
+    ## predicted probability of /r/ rating based on roughness:
+    ##    smooth: 0.18 [0.06,0.38]
+    ##    rough: 0.37 [0.13,0.67]
+    ## predicted difference in probability of /r/ (rough - smooth):
+    ##    diff: 0.19 [-0.02,0.41], 96.23% over zero
+
+### Analyse Omnibus : langues avec et sans trills ensemble
+
+``` r
+data_full_revised <- rough_r_data %>%
+  dplyr::filter(Family!="Indo-European") %>%
+  dplyr::filter(!is.na(revision)) %>% 
+  dplyr::mutate(Family=stringr::str_remove_all(Family,"�")) %>% 
+  dplyr::mutate(Trill=ifelse(revision=="other","no",
+                             ifelse(revision=="trilled","yes",NA))) %>% 
+  dplyr::filter(Meaning %in% c("rough","smooth"),
+                !is.na(Trill))
+```
+
+Nous avons 256 langues incluses dans cette analyse. Cela représente 70
+famille linguistiques.
+
+``` r
+xling_brm_omnibus_priors <- c(
+  set_prior("student_t(5,0,2.5)", class = "b"),
+  set_prior("student_t(5,0,2.5)", class = "Intercept"),
+  set_prior("lkj(2)", class = "cor"),
+  set_prior("student_t(4,0,2)", class = "sd", coef = "Intercept", group="Family"),
+  set_prior("student_t(4,0,2)", class = "sd", coef = "roughTRUE", group="Family"),
+  set_prior("student_t(4,0,2)", class = "sd", coef = "Trillyes", group="Family"),
+  set_prior("student_t(4,0,2)", class = "sd", coef = "roughTRUE:Trillyes", group="Family"),
+  set_prior("student_t(4,0,2)", class = "sd", coef = "Intercept", group="Area"),
+  set_prior("student_t(4,0,2)", class = "sd", coef = "roughTRUE", group="Area"),
+  set_prior("student_t(4,0,2)", class = "sd", coef = "Trillyes", group="Area"),
+  set_prior("student_t(4,0,2)", class = "sd", coef = "roughTRUE:Trillyes", group="Area")
+)
+
+set.seed(314)
+xling_brm_omnibus_mod_r_revision <- brm(r ~ rough * Trill +
+                          (1 + rough * Trill | Family) +
+                          (1 + rough * Trill | Area),
+                        data=data_full_revised,
+                        prior=xling_brm_omnibus_priors,
+                        family="bernoulli",
+                       control=list(adapt_delta=0.99))
+```
+
+    ## Compiling Stan program...
+
+    ## Start sampling
+
+    ## 
+    ## SAMPLING FOR MODEL '7c5e40608384b118960431a3e2dbbd4d' NOW (CHAIN 1).
+    ## Chain 1: 
+    ## Chain 1: Gradient evaluation took 0.000186 seconds
+    ## Chain 1: 1000 transitions using 10 leapfrog steps per transition would take 1.86 seconds.
+    ## Chain 1: Adjust your expectations accordingly!
+    ## Chain 1: 
+    ## Chain 1: 
+    ## Chain 1: Iteration:    1 / 2000 [  0%]  (Warmup)
+    ## Chain 1: Iteration:  200 / 2000 [ 10%]  (Warmup)
+    ## Chain 1: Iteration:  400 / 2000 [ 20%]  (Warmup)
+    ## Chain 1: Iteration:  600 / 2000 [ 30%]  (Warmup)
+    ## Chain 1: Iteration:  800 / 2000 [ 40%]  (Warmup)
+    ## Chain 1: Iteration: 1000 / 2000 [ 50%]  (Warmup)
+    ## Chain 1: Iteration: 1001 / 2000 [ 50%]  (Sampling)
+    ## Chain 1: Iteration: 1200 / 2000 [ 60%]  (Sampling)
+    ## Chain 1: Iteration: 1400 / 2000 [ 70%]  (Sampling)
+    ## Chain 1: Iteration: 1600 / 2000 [ 80%]  (Sampling)
+    ## Chain 1: Iteration: 1800 / 2000 [ 90%]  (Sampling)
+    ## Chain 1: Iteration: 2000 / 2000 [100%]  (Sampling)
+    ## Chain 1: 
+    ## Chain 1:  Elapsed Time: 24.9602 seconds (Warm-up)
+    ## Chain 1:                22.1977 seconds (Sampling)
+    ## Chain 1:                47.1579 seconds (Total)
+    ## Chain 1: 
+    ## 
+    ## SAMPLING FOR MODEL '7c5e40608384b118960431a3e2dbbd4d' NOW (CHAIN 2).
+    ## Chain 2: 
+    ## Chain 2: Gradient evaluation took 0.000164 seconds
+    ## Chain 2: 1000 transitions using 10 leapfrog steps per transition would take 1.64 seconds.
+    ## Chain 2: Adjust your expectations accordingly!
+    ## Chain 2: 
+    ## Chain 2: 
+    ## Chain 2: Iteration:    1 / 2000 [  0%]  (Warmup)
+    ## Chain 2: Iteration:  200 / 2000 [ 10%]  (Warmup)
+    ## Chain 2: Iteration:  400 / 2000 [ 20%]  (Warmup)
+    ## Chain 2: Iteration:  600 / 2000 [ 30%]  (Warmup)
+    ## Chain 2: Iteration:  800 / 2000 [ 40%]  (Warmup)
+    ## Chain 2: Iteration: 1000 / 2000 [ 50%]  (Warmup)
+    ## Chain 2: Iteration: 1001 / 2000 [ 50%]  (Sampling)
+    ## Chain 2: Iteration: 1200 / 2000 [ 60%]  (Sampling)
+    ## Chain 2: Iteration: 1400 / 2000 [ 70%]  (Sampling)
+    ## Chain 2: Iteration: 1600 / 2000 [ 80%]  (Sampling)
+    ## Chain 2: Iteration: 1800 / 2000 [ 90%]  (Sampling)
+    ## Chain 2: Iteration: 2000 / 2000 [100%]  (Sampling)
+    ## Chain 2: 
+    ## Chain 2:  Elapsed Time: 29.4895 seconds (Warm-up)
+    ## Chain 2:                39.0734 seconds (Sampling)
+    ## Chain 2:                68.5629 seconds (Total)
+    ## Chain 2: 
+    ## 
+    ## SAMPLING FOR MODEL '7c5e40608384b118960431a3e2dbbd4d' NOW (CHAIN 3).
+    ## Chain 3: 
+    ## Chain 3: Gradient evaluation took 0.000163 seconds
+    ## Chain 3: 1000 transitions using 10 leapfrog steps per transition would take 1.63 seconds.
+    ## Chain 3: Adjust your expectations accordingly!
+    ## Chain 3: 
+    ## Chain 3: 
+    ## Chain 3: Iteration:    1 / 2000 [  0%]  (Warmup)
+    ## Chain 3: Iteration:  200 / 2000 [ 10%]  (Warmup)
+    ## Chain 3: Iteration:  400 / 2000 [ 20%]  (Warmup)
+    ## Chain 3: Iteration:  600 / 2000 [ 30%]  (Warmup)
+    ## Chain 3: Iteration:  800 / 2000 [ 40%]  (Warmup)
+    ## Chain 3: Iteration: 1000 / 2000 [ 50%]  (Warmup)
+    ## Chain 3: Iteration: 1001 / 2000 [ 50%]  (Sampling)
+    ## Chain 3: Iteration: 1200 / 2000 [ 60%]  (Sampling)
+    ## Chain 3: Iteration: 1400 / 2000 [ 70%]  (Sampling)
+    ## Chain 3: Iteration: 1600 / 2000 [ 80%]  (Sampling)
+    ## Chain 3: Iteration: 1800 / 2000 [ 90%]  (Sampling)
+    ## Chain 3: Iteration: 2000 / 2000 [100%]  (Sampling)
+    ## Chain 3: 
+    ## Chain 3:  Elapsed Time: 22.5272 seconds (Warm-up)
+    ## Chain 3:                22.7242 seconds (Sampling)
+    ## Chain 3:                45.2514 seconds (Total)
+    ## Chain 3: 
+    ## 
+    ## SAMPLING FOR MODEL '7c5e40608384b118960431a3e2dbbd4d' NOW (CHAIN 4).
+    ## Chain 4: 
+    ## Chain 4: Gradient evaluation took 0.000162 seconds
+    ## Chain 4: 1000 transitions using 10 leapfrog steps per transition would take 1.62 seconds.
+    ## Chain 4: Adjust your expectations accordingly!
+    ## Chain 4: 
+    ## Chain 4: 
+    ## Chain 4: Iteration:    1 / 2000 [  0%]  (Warmup)
+    ## Chain 4: Iteration:  200 / 2000 [ 10%]  (Warmup)
+    ## Chain 4: Iteration:  400 / 2000 [ 20%]  (Warmup)
+    ## Chain 4: Iteration:  600 / 2000 [ 30%]  (Warmup)
+    ## Chain 4: Iteration:  800 / 2000 [ 40%]  (Warmup)
+    ## Chain 4: Iteration: 1000 / 2000 [ 50%]  (Warmup)
+    ## Chain 4: Iteration: 1001 / 2000 [ 50%]  (Sampling)
+    ## Chain 4: Iteration: 1200 / 2000 [ 60%]  (Sampling)
+    ## Chain 4: Iteration: 1400 / 2000 [ 70%]  (Sampling)
+    ## Chain 4: Iteration: 1600 / 2000 [ 80%]  (Sampling)
+    ## Chain 4: Iteration: 1800 / 2000 [ 90%]  (Sampling)
+    ## Chain 4: Iteration: 2000 / 2000 [100%]  (Sampling)
+    ## Chain 4: 
+    ## Chain 4:  Elapsed Time: 25.8183 seconds (Warm-up)
+    ## Chain 4:                21.8849 seconds (Sampling)
+    ## Chain 4:                47.7032 seconds (Total)
+    ## Chain 4:
+
+``` r
+summary(xling_brm_omnibus_mod_r_revision)
+```
+
+    ##  Family: bernoulli 
+    ##   Links: mu = logit 
+    ## Formula: r ~ rough * Trill + (1 + rough * Trill | Family) + (1 + rough * Trill | Area) 
+    ##    Data: data_full_revised (Number of observations: 501) 
+    ##   Draws: 4 chains, each with iter = 2000; warmup = 1000; thin = 1;
+    ##          total post-warmup draws = 4000
+    ## 
+    ## Group-Level Effects: 
+    ## ~Area (Number of levels: 17) 
+    ##                                   Estimate Est.Error l-95% CI u-95% CI Rhat
+    ## sd(Intercept)                         0.59      0.43     0.03     1.64 1.00
+    ## sd(roughTRUE)                         0.47      0.38     0.02     1.41 1.00
+    ## sd(Trillyes)                          0.58      0.48     0.02     1.79 1.00
+    ## sd(roughTRUE:Trillyes)                0.91      0.69     0.03     2.54 1.00
+    ## cor(Intercept,roughTRUE)             -0.04      0.39    -0.74     0.71 1.00
+    ## cor(Intercept,Trillyes)              -0.17      0.39    -0.83     0.63 1.00
+    ## cor(roughTRUE,Trillyes)               0.02      0.38    -0.68     0.74 1.00
+    ## cor(Intercept,roughTRUE:Trillyes)    -0.11      0.38    -0.78     0.62 1.00
+    ## cor(roughTRUE,roughTRUE:Trillyes)    -0.04      0.39    -0.75     0.71 1.00
+    ## cor(Trillyes,roughTRUE:Trillyes)     -0.01      0.38    -0.72     0.70 1.00
+    ##                                   Bulk_ESS Tail_ESS
+    ## sd(Intercept)                         1180     2310
+    ## sd(roughTRUE)                         2068     2180
+    ## sd(Trillyes)                          1808     2739
+    ## sd(roughTRUE:Trillyes)                1568     1890
+    ## cor(Intercept,roughTRUE)              4677     2915
+    ## cor(Intercept,Trillyes)               3389     3156
+    ## cor(roughTRUE,Trillyes)               4116     3097
+    ## cor(Intercept,roughTRUE:Trillyes)     4312     3106
+    ## cor(roughTRUE,roughTRUE:Trillyes)     4037     2861
+    ## cor(Trillyes,roughTRUE:Trillyes)      3982     3487
+    ## 
+    ## ~Family (Number of levels: 70) 
+    ##                                   Estimate Est.Error l-95% CI u-95% CI Rhat
+    ## sd(Intercept)                         1.48      0.41     0.78     2.31 1.00
+    ## sd(roughTRUE)                         0.81      0.50     0.04     1.90 1.00
+    ## sd(Trillyes)                          0.58      0.45     0.02     1.67 1.00
+    ## sd(roughTRUE:Trillyes)                0.61      0.49     0.02     1.82 1.00
+    ## cor(Intercept,roughTRUE)             -0.20      0.36    -0.78     0.57 1.00
+    ## cor(Intercept,Trillyes)              -0.00      0.37    -0.69     0.70 1.00
+    ## cor(roughTRUE,Trillyes)              -0.03      0.38    -0.74     0.70 1.00
+    ## cor(Intercept,roughTRUE:Trillyes)    -0.04      0.38    -0.73     0.70 1.00
+    ## cor(roughTRUE,roughTRUE:Trillyes)    -0.05      0.38    -0.73     0.67 1.00
+    ## cor(Trillyes,roughTRUE:Trillyes)     -0.06      0.39    -0.74     0.68 1.00
+    ##                                   Bulk_ESS Tail_ESS
+    ## sd(Intercept)                         1059     1478
+    ## sd(roughTRUE)                         1063     1548
+    ## sd(Trillyes)                          1462     2077
+    ## sd(roughTRUE:Trillyes)                2823     2497
+    ## cor(Intercept,roughTRUE)              3497     3106
+    ## cor(Intercept,Trillyes)               4792     2776
+    ## cor(roughTRUE,Trillyes)               3715     2968
+    ## cor(Intercept,roughTRUE:Trillyes)     6808     3064
+    ## cor(roughTRUE,roughTRUE:Trillyes)     4984     2785
+    ## cor(Trillyes,roughTRUE:Trillyes)      3394     3104
+    ## 
+    ## Population-Level Effects: 
+    ##                    Estimate Est.Error l-95% CI u-95% CI Rhat Bulk_ESS Tail_ESS
+    ## Intercept             -1.76      0.45    -2.72    -0.96 1.00     2247     2482
+    ## roughTRUE              1.06      0.48     0.10     2.00 1.00     3480     2902
+    ## Trillyes              -0.60      0.52    -1.68     0.40 1.00     3575     2883
+    ## roughTRUE:Trillyes     0.37      0.69    -0.98     1.71 1.00     3709     2989
+    ## 
+    ## Draws were sampled using sampling(NUTS). For each parameter, Bulk_ESS
+    ## and Tail_ESS are effective sample size measures, and Rhat is the potential
+    ## scale reduction factor on split chains (at convergence, Rhat = 1).
+
+``` r
+mean(posterior_samples(xling_brm_omnibus_mod_r_revision)[,"b_roughTRUE:Trillyes"] > 0)
+```
+
+    ## Warning: Method 'posterior_samples' is deprecated. Please see ?as_draws for
+    ## recommended alternatives.
+
+    ## [1] 0.7105
+
+``` r
+l <- logistic_intr_summary(xling_brm_omnibus_mod_r_revision, data_full_revised, outcome="/r/", roughpred="rough",
+                      trillpred="Trill", pp_over_zero=T,
+                      binary_pred=T, printPlease=T)
+```
+
+    ## Warning: Method 'posterior_samples' is deprecated. Please see ?as_draws for
+    ## recommended alternatives.
+
+    ## TRILLS:
+    ## predicted probability of /r/ based on roughness:
+    ##    smooth: 0.1 [0.03,0.2]
+    ##    rough: 0.3 [0.08,0.58]
+    ## predicted difference in probability of /r/ (rough - smooth):
+    ##    diff: 0.21 [0,0.47], 97.6% over zero
+    ## 
+    ## NO TRILLS:
+    ## predicted probability of /r/ based on roughness:
+    ##    smooth: 0.15 [0.06,0.28]
+    ##    rough: 0.34 [0.14,0.56]
+    ## predicted difference in probability of /r/ (rough - smooth):
+    ##    diff: 0.18 [0.01,0.37], 98.25% over zero
+    ## 
+    ## CHANGE IN DIFFERENCE BETWEEN ROUGH vs. SMOOTH AS A FUNCTION OF TRILL:
+    ##    0.02 [-0.22,0.28], 55.25% over zero
+
+Commentaires de Winter et al. pour le modèle suivant : “When the same
+model is fitted without by-Family random slopes over Trill, essentially
+the same results are obtained, but with narrower credible intervals.”
+
+``` r
+xling_brm_omnibus_no_famtrill_priors <- c(
+  set_prior("student_t(5,0,2.5)", class = "b"),
+  set_prior("student_t(5,0,2.5)", class = "Intercept"),
+  set_prior("lkj(2)", class = "cor"),
+  set_prior("student_t(4,0,2)", class = "sd", coef = "Intercept", group="Family"),
+  set_prior("student_t(4,0,2)", class = "sd", coef = "roughTRUE", group="Family"),
+  #set_prior("student_t(4,0,2)", class = "sd", coef = "Trillyes", group="Family"),
+  #set_prior("student_t(4,0,2)", class = "sd", coef = "roughTRUE:Trillyes", group="Family"),
+  set_prior("student_t(4,0,2)", class = "sd", coef = "Intercept", group="Area"),
+  set_prior("student_t(4,0,2)", class = "sd", coef = "roughTRUE", group="Area"),
+  set_prior("student_t(4,0,2)", class = "sd", coef = "Trillyes", group="Area"),
+  set_prior("student_t(4,0,2)", class = "sd", coef = "roughTRUE:Trillyes", group="Area")
+)
+
+set.seed(314)
+xling_brm_omnibus_no_famtrill_mod_r_revision <- brm(r ~ rough * Trill +
+                          (1 + rough | Family) +
+                          (1 + rough * Trill | Area),
+                        data=data_full_revised,
+                        prior=xling_brm_omnibus_no_famtrill_priors,
+                        family="bernoulli",
+                       control=list(adapt_delta=0.99))
+```
+
+    ## Compiling Stan program...
+
+    ## Start sampling
+
+    ## 
+    ## SAMPLING FOR MODEL '539589b4452b76fc86c065b4d26678a5' NOW (CHAIN 1).
+    ## Chain 1: 
+    ## Chain 1: Gradient evaluation took 0.000132 seconds
+    ## Chain 1: 1000 transitions using 10 leapfrog steps per transition would take 1.32 seconds.
+    ## Chain 1: Adjust your expectations accordingly!
+    ## Chain 1: 
+    ## Chain 1: 
+    ## Chain 1: Iteration:    1 / 2000 [  0%]  (Warmup)
+    ## Chain 1: Iteration:  200 / 2000 [ 10%]  (Warmup)
+    ## Chain 1: Iteration:  400 / 2000 [ 20%]  (Warmup)
+    ## Chain 1: Iteration:  600 / 2000 [ 30%]  (Warmup)
+    ## Chain 1: Iteration:  800 / 2000 [ 40%]  (Warmup)
+    ## Chain 1: Iteration: 1000 / 2000 [ 50%]  (Warmup)
+    ## Chain 1: Iteration: 1001 / 2000 [ 50%]  (Sampling)
+    ## Chain 1: Iteration: 1200 / 2000 [ 60%]  (Sampling)
+    ## Chain 1: Iteration: 1400 / 2000 [ 70%]  (Sampling)
+    ## Chain 1: Iteration: 1600 / 2000 [ 80%]  (Sampling)
+    ## Chain 1: Iteration: 1800 / 2000 [ 90%]  (Sampling)
+    ## Chain 1: Iteration: 2000 / 2000 [100%]  (Sampling)
+    ## Chain 1: 
+    ## Chain 1:  Elapsed Time: 15.5998 seconds (Warm-up)
+    ## Chain 1:                16.3087 seconds (Sampling)
+    ## Chain 1:                31.9085 seconds (Total)
+    ## Chain 1: 
+    ## 
+    ## SAMPLING FOR MODEL '539589b4452b76fc86c065b4d26678a5' NOW (CHAIN 2).
+    ## Chain 2: 
+    ## Chain 2: Gradient evaluation took 0.000129 seconds
+    ## Chain 2: 1000 transitions using 10 leapfrog steps per transition would take 1.29 seconds.
+    ## Chain 2: Adjust your expectations accordingly!
+    ## Chain 2: 
+    ## Chain 2: 
+    ## Chain 2: Iteration:    1 / 2000 [  0%]  (Warmup)
+    ## Chain 2: Iteration:  200 / 2000 [ 10%]  (Warmup)
+    ## Chain 2: Iteration:  400 / 2000 [ 20%]  (Warmup)
+    ## Chain 2: Iteration:  600 / 2000 [ 30%]  (Warmup)
+    ## Chain 2: Iteration:  800 / 2000 [ 40%]  (Warmup)
+    ## Chain 2: Iteration: 1000 / 2000 [ 50%]  (Warmup)
+    ## Chain 2: Iteration: 1001 / 2000 [ 50%]  (Sampling)
+    ## Chain 2: Iteration: 1200 / 2000 [ 60%]  (Sampling)
+    ## Chain 2: Iteration: 1400 / 2000 [ 70%]  (Sampling)
+    ## Chain 2: Iteration: 1600 / 2000 [ 80%]  (Sampling)
+    ## Chain 2: Iteration: 1800 / 2000 [ 90%]  (Sampling)
+    ## Chain 2: Iteration: 2000 / 2000 [100%]  (Sampling)
+    ## Chain 2: 
+    ## Chain 2:  Elapsed Time: 18.0195 seconds (Warm-up)
+    ## Chain 2:                16.4211 seconds (Sampling)
+    ## Chain 2:                34.4406 seconds (Total)
+    ## Chain 2: 
+    ## 
+    ## SAMPLING FOR MODEL '539589b4452b76fc86c065b4d26678a5' NOW (CHAIN 3).
+    ## Chain 3: 
+    ## Chain 3: Gradient evaluation took 0.000121 seconds
+    ## Chain 3: 1000 transitions using 10 leapfrog steps per transition would take 1.21 seconds.
+    ## Chain 3: Adjust your expectations accordingly!
+    ## Chain 3: 
+    ## Chain 3: 
+    ## Chain 3: Iteration:    1 / 2000 [  0%]  (Warmup)
+    ## Chain 3: Iteration:  200 / 2000 [ 10%]  (Warmup)
+    ## Chain 3: Iteration:  400 / 2000 [ 20%]  (Warmup)
+    ## Chain 3: Iteration:  600 / 2000 [ 30%]  (Warmup)
+    ## Chain 3: Iteration:  800 / 2000 [ 40%]  (Warmup)
+    ## Chain 3: Iteration: 1000 / 2000 [ 50%]  (Warmup)
+    ## Chain 3: Iteration: 1001 / 2000 [ 50%]  (Sampling)
+    ## Chain 3: Iteration: 1200 / 2000 [ 60%]  (Sampling)
+    ## Chain 3: Iteration: 1400 / 2000 [ 70%]  (Sampling)
+    ## Chain 3: Iteration: 1600 / 2000 [ 80%]  (Sampling)
+    ## Chain 3: Iteration: 1800 / 2000 [ 90%]  (Sampling)
+    ## Chain 3: Iteration: 2000 / 2000 [100%]  (Sampling)
+    ## Chain 3: 
+    ## Chain 3:  Elapsed Time: 14.6408 seconds (Warm-up)
+    ## Chain 3:                13.9105 seconds (Sampling)
+    ## Chain 3:                28.5513 seconds (Total)
+    ## Chain 3: 
+    ## 
+    ## SAMPLING FOR MODEL '539589b4452b76fc86c065b4d26678a5' NOW (CHAIN 4).
+    ## Chain 4: 
+    ## Chain 4: Gradient evaluation took 0.000169 seconds
+    ## Chain 4: 1000 transitions using 10 leapfrog steps per transition would take 1.69 seconds.
+    ## Chain 4: Adjust your expectations accordingly!
+    ## Chain 4: 
+    ## Chain 4: 
+    ## Chain 4: Iteration:    1 / 2000 [  0%]  (Warmup)
+    ## Chain 4: Iteration:  200 / 2000 [ 10%]  (Warmup)
+    ## Chain 4: Iteration:  400 / 2000 [ 20%]  (Warmup)
+    ## Chain 4: Iteration:  600 / 2000 [ 30%]  (Warmup)
+    ## Chain 4: Iteration:  800 / 2000 [ 40%]  (Warmup)
+    ## Chain 4: Iteration: 1000 / 2000 [ 50%]  (Warmup)
+    ## Chain 4: Iteration: 1001 / 2000 [ 50%]  (Sampling)
+    ## Chain 4: Iteration: 1200 / 2000 [ 60%]  (Sampling)
+    ## Chain 4: Iteration: 1400 / 2000 [ 70%]  (Sampling)
+    ## Chain 4: Iteration: 1600 / 2000 [ 80%]  (Sampling)
+    ## Chain 4: Iteration: 1800 / 2000 [ 90%]  (Sampling)
+    ## Chain 4: Iteration: 2000 / 2000 [100%]  (Sampling)
+    ## Chain 4: 
+    ## Chain 4:  Elapsed Time: 16.9835 seconds (Warm-up)
+    ## Chain 4:                16.4493 seconds (Sampling)
+    ## Chain 4:                33.4328 seconds (Total)
+    ## Chain 4:
+
+``` r
+summary(xling_brm_omnibus_no_famtrill_mod_r_revision)
+```
+
+    ##  Family: bernoulli 
+    ##   Links: mu = logit 
+    ## Formula: r ~ rough * Trill + (1 + rough | Family) + (1 + rough * Trill | Area) 
+    ##    Data: data_full_revised (Number of observations: 501) 
+    ##   Draws: 4 chains, each with iter = 2000; warmup = 1000; thin = 1;
+    ##          total post-warmup draws = 4000
+    ## 
+    ## Group-Level Effects: 
+    ## ~Area (Number of levels: 17) 
+    ##                                   Estimate Est.Error l-95% CI u-95% CI Rhat
+    ## sd(Intercept)                         0.57      0.43     0.02     1.62 1.01
+    ## sd(roughTRUE)                         0.47      0.37     0.02     1.39 1.00
+    ## sd(Trillyes)                          0.60      0.48     0.02     1.76 1.00
+    ## sd(roughTRUE:Trillyes)                0.92      0.66     0.05     2.47 1.00
+    ## cor(Intercept,roughTRUE)             -0.05      0.38    -0.75     0.67 1.00
+    ## cor(Intercept,Trillyes)              -0.18      0.40    -0.83     0.63 1.00
+    ## cor(roughTRUE,Trillyes)               0.03      0.38    -0.70     0.72 1.00
+    ## cor(Intercept,roughTRUE:Trillyes)    -0.11      0.37    -0.77     0.62 1.00
+    ## cor(roughTRUE,roughTRUE:Trillyes)    -0.05      0.37    -0.72     0.67 1.00
+    ## cor(Trillyes,roughTRUE:Trillyes)     -0.03      0.37    -0.71     0.70 1.00
+    ##                                   Bulk_ESS Tail_ESS
+    ## sd(Intercept)                         1023     2018
+    ## sd(roughTRUE)                         2278     2727
+    ## sd(Trillyes)                          1536     2129
+    ## sd(roughTRUE:Trillyes)                2116     2458
+    ## cor(Intercept,roughTRUE)              5924     2515
+    ## cor(Intercept,Trillyes)               2853     3269
+    ## cor(roughTRUE,Trillyes)               4208     3364
+    ## cor(Intercept,roughTRUE:Trillyes)     4330     2838
+    ## cor(roughTRUE,roughTRUE:Trillyes)     3781     3290
+    ## cor(Trillyes,roughTRUE:Trillyes)      3916     3614
+    ## 
+    ## ~Family (Number of levels: 70) 
+    ##                          Estimate Est.Error l-95% CI u-95% CI Rhat Bulk_ESS
+    ## sd(Intercept)                1.51      0.39     0.84     2.35 1.00     1228
+    ## sd(roughTRUE)                0.83      0.48     0.05     1.86 1.00     1165
+    ## cor(Intercept,roughTRUE)    -0.29      0.39    -0.88     0.55 1.00     3369
+    ##                          Tail_ESS
+    ## sd(Intercept)                2434
+    ## sd(roughTRUE)                1823
+    ## cor(Intercept,roughTRUE)     3084
+    ## 
+    ## Population-Level Effects: 
+    ##                    Estimate Est.Error l-95% CI u-95% CI Rhat Bulk_ESS Tail_ESS
+    ## Intercept             -1.78      0.44    -2.71    -0.99 1.00     2181     2885
+    ## roughTRUE              1.09      0.45     0.14     1.92 1.00     3534     2915
+    ## Trillyes              -0.53      0.47    -1.48     0.37 1.00     3507     3086
+    ## roughTRUE:Trillyes     0.37      0.64    -0.90     1.61 1.00     3541     2840
+    ## 
+    ## Draws were sampled using sampling(NUTS). For each parameter, Bulk_ESS
+    ## and Tail_ESS are effective sample size measures, and Rhat is the potential
+    ## scale reduction factor on split chains (at convergence, Rhat = 1).
+
+``` r
+mean(posterior_samples(xling_brm_omnibus_no_famtrill_mod_r_revision)[,"b_roughTRUE:Trillyes"] > 0)
+```
+
+    ## Warning: Method 'posterior_samples' is deprecated. Please see ?as_draws for
+    ## recommended alternatives.
+
+    ## [1] 0.73325
+
+``` r
+l <- logistic_intr_summary(xling_brm_omnibus_no_famtrill_mod_r_revision, data_full_revised, outcome="/r/", roughpred="rough",
+                      trillpred="Trill", pp_over_zero=T,
+                      binary_pred=T, printPlease=T)
+```
+
+    ## Warning: Method 'posterior_samples' is deprecated. Please see ?as_draws for
+    ## recommended alternatives.
+
+    ## TRILLS:
+    ## predicted probability of /r/ based on roughness:
+    ##    smooth: 0.1 [0.03,0.2]
+    ##    rough: 0.32 [0.1,0.58]
+    ## predicted difference in probability of /r/ (rough - smooth):
+    ##    diff: 0.22 [0.02,0.46], 98.4% over zero
+    ## 
+    ## NO TRILLS:
+    ## predicted probability of /r/ based on roughness:
+    ##    smooth: 0.15 [0.06,0.27]
+    ##    rough: 0.34 [0.16,0.55]
+    ## predicted difference in probability of /r/ (rough - smooth):
+    ##    diff: 0.19 [0.02,0.36], 98.65% over zero
+    ## 
+    ## CHANGE IN DIFFERENCE BETWEEN ROUGH vs. SMOOTH AS A FUNCTION OF TRILL:
+    ##    0.03 [-0.2,0.28], 58.38% over zero

@@ -21520,8 +21520,7 @@ base_world +
 
 ## Analyses et résultats
 
-Le code est
-Proportions des prédictions des modèles avec les intervalles plausibles bayésien à 95% pour les mots « rugueux » et « lisse ».
+Le code est très largement adapté de celui de Winter et al. (2022).
 
 ```{r}
 
@@ -21644,4 +21643,187 @@ ggplot2::ggplot(world) +
 ```
 
 
-Distribution de la présence du /r/ trillé dans des termes Rough (« rugueux »), et smooth (« lisse »). Nous comparons les distributions de Winter et al. (2022) (en haut) à la notre (en bas). Visuellement, il apparaît que dans l’étude d’origine et dans notre analyse, on retrouve plus de /r/ trillé dans les termes pour « rugueux » par rapport à « lisse ».
+### Avec trills
+
+```{r}
+data_R_revision_trill_rs <- dplyr::filter(data_R_revision, revision=="trilled",
+                                          Meaning %in% c("rough","smooth"))
+```
+
+Nous avons `r length(unique(data_R_revision_trill_rs$Language))` langues incluses dans l'analyse où on retrouve un trill. Cela représente `r length(unique(data_R_revision_trill_rs$Family))` famille linguistiques.
+
+
+```{r}
+data_r_revision_trill_rs_1 <- data_R_revision_trill_rs %>% 
+  dplyr::mutate(Trill=ifelse(revision=="trilled","yes"))
+
+data_r_revision_trill_rs_1 <- data_r_revision_trill_rs_1 %>% 
+  dplyr::mutate(Family=stringr::str_remove_all(Family,"�"))
+```
+
+
+```{r}
+xling_brm_rs_logistic_priors <- c(
+  brms::set_prior("student_t(5,0,2.5)", class = "b"),
+  brms::set_prior("student_t(5,0,2.5)", class = "Intercept"),
+  brms::set_prior("lkj(2)", class = "cor"),
+  brms::set_prior("student_t(4,0,2)", class = "sd", coef = "Intercept", group="Family"),
+  brms::set_prior("student_t(4,0,2)", class = "sd", coef = "roughTRUE", group="Family"),
+  brms::set_prior("student_t(4,0,2)", class = "sd", coef = "Intercept", group="Area"),
+  brms::set_prior("student_t(4,0,2)", class = "sd", coef = "roughTRUE", group="Area")
+)
+
+set.seed(314)
+xling_brm_rs_logistic_mod_r_revision <- brms::brm(r ~ rough +
+                          (1 + rough | Family) +
+                          (1 + rough | Area),
+                        data=data_r_revision_trill_rs_1 ,
+                        prior=xling_brm_rs_logistic_priors,
+                        family="bernoulli",
+                       control=list(adapt_delta=0.9),
+                       refresh=0)
+summary(xling_brm_rs_logistic_mod_r_revision)
+
+#saveRDS(xling_brm_rs_logistic_mod_r_revision, "models/xling_brm_rs_logistic_mod_r_revision.rds")
+```
+
+```{r}
+library(brms)
+library(tidyverse)
+
+x <- logistic_summary(xling_brm_rs_logistic_mod_r_revision, dat=data_r_revision_trill_rs_1, outcome="/r/", roughpred="rough", pp_over_zero=T)
+
+```
+
+### Sans trills
+
+```{r}
+data_R_revision_other_rs <- dplyr::filter(data_R_revision, revision=="other",
+                                          Meaning %in% c("rough","smooth"))
+```
+
+Nous avons `r length(unique(data_R_revision_other_rs$Language))` langues incluses dans l'analyse où on ne retrouve pas un trill. Cela représente `r length(unique(data_R_revision_other_rs$Family))` famille linguistiques.
+
+```{r}
+data_r_revision_other_rs_1 <- data_R_revision_other_rs %>% 
+  dplyr::mutate(Trill=ifelse(revision=="other","no"))
+
+data_r_revision_other_rs_1 <- data_r_revision_other_rs_1 %>% 
+  dplyr::mutate(Family=stringr::str_remove_all(Family,"�"))
+```
+
+```{r, warning=F, message=F}
+# priors: since the outcomes here are similar to those for a logistic model (i.e. a number between 0/1),
+# and the link function is the same, we use the same priors as we do for logistic models
+
+xling_brm_rs_logistic_priors <- c(
+  brms::set_prior("student_t(5,0,2.5)", class = "b"),
+  brms::set_prior("student_t(5,0,2.5)", class = "Intercept"),
+  brms:: set_prior("lkj(2)", class = "cor"),
+  brms::set_prior("student_t(4,0,2)", class = "sd", coef = "Intercept", group="Family"),
+  brms::set_prior("student_t(4,0,2)", class = "sd", coef = "roughTRUE", group="Family"),
+  brms::set_prior("student_t(4,0,2)", class = "sd", coef = "Intercept", group="Area"),
+  brms::set_prior("student_t(4,0,2)", class = "sd", coef = "roughTRUE", group="Area")
+)
+
+set.seed(314)
+xling_nt_brm_rs_logistic_mod_o_revision <- brms::brm(r ~ rough +
+                          (1 + rough | Family) +
+                          (1 + rough | Area),
+                        data=data_r_revision_other_rs_1,
+                        prior=xling_brm_rs_logistic_priors,
+                        family="bernoulli",
+                       control=list(adapt_delta=0.9),
+                       refresh=0)
+#saveRDS(xling_nt_brm_rs_logistic_mod_o_revision, "models/xling_nt_brm_rs_logistic_mod_o_revision.rds")
+```
+
+
+```{r}
+x <- logistic_summary(xling_nt_brm_rs_logistic_mod_o_revision, dat=data_r_revision_other_rs_1, outcome="/r/", roughpred="rough", pp_over_zero=T)
+```
+
+### Analyse Omnibus : langues avec et sans trills ensemble
+
+```{r}
+data_full_revised <- rough_r_data %>%
+  dplyr::filter(Family!="Indo-European") %>%
+  dplyr::filter(!is.na(revision)) %>% 
+  dplyr::mutate(Family=stringr::str_remove_all(Family,"�")) %>% 
+  dplyr::mutate(Trill=ifelse(revision=="other","no",
+                             ifelse(revision=="trilled","yes",NA))) %>% 
+  dplyr::filter(Meaning %in% c("rough","smooth"),
+                !is.na(Trill))
+```
+
+Nous avons `r length(unique(data_full_revised$Language))` langues incluses dans cette analyse. Cela représente `r length(unique(data_full_revised$Family))` famille linguistiques.
+
+```{r}
+xling_brm_omnibus_priors <- c(
+  set_prior("student_t(5,0,2.5)", class = "b"),
+  set_prior("student_t(5,0,2.5)", class = "Intercept"),
+  set_prior("lkj(2)", class = "cor"),
+  set_prior("student_t(4,0,2)", class = "sd", coef = "Intercept", group="Family"),
+  set_prior("student_t(4,0,2)", class = "sd", coef = "roughTRUE", group="Family"),
+  set_prior("student_t(4,0,2)", class = "sd", coef = "Trillyes", group="Family"),
+  set_prior("student_t(4,0,2)", class = "sd", coef = "roughTRUE:Trillyes", group="Family"),
+  set_prior("student_t(4,0,2)", class = "sd", coef = "Intercept", group="Area"),
+  set_prior("student_t(4,0,2)", class = "sd", coef = "roughTRUE", group="Area"),
+  set_prior("student_t(4,0,2)", class = "sd", coef = "Trillyes", group="Area"),
+  set_prior("student_t(4,0,2)", class = "sd", coef = "roughTRUE:Trillyes", group="Area")
+)
+
+set.seed(314)
+xling_brm_omnibus_mod_r_revision <- brm(r ~ rough * Trill +
+                          (1 + rough * Trill | Family) +
+                          (1 + rough * Trill | Area),
+                        data=data_full_revised,
+                        prior=xling_brm_omnibus_priors,
+                        family="bernoulli",
+                       control=list(adapt_delta=0.99))
+summary(xling_brm_omnibus_mod_r_revision)
+```
+
+```{r}
+mean(posterior_samples(xling_brm_omnibus_mod_r_revision)[,"b_roughTRUE:Trillyes"] > 0)
+
+l <- logistic_intr_summary(xling_brm_omnibus_mod_r_revision, data_full_revised, outcome="/r/", roughpred="rough",
+                      trillpred="Trill", pp_over_zero=T,
+                      binary_pred=T, printPlease=T)
+```
+
+Commentaires de Winter et al. pour le modèle suivant : "When the same model is fitted without by-Family random slopes over Trill, essentially the same results are obtained, but with narrower credible intervals."
+
+```{r}
+xling_brm_omnibus_no_famtrill_priors <- c(
+  set_prior("student_t(5,0,2.5)", class = "b"),
+  set_prior("student_t(5,0,2.5)", class = "Intercept"),
+  set_prior("lkj(2)", class = "cor"),
+  set_prior("student_t(4,0,2)", class = "sd", coef = "Intercept", group="Family"),
+  set_prior("student_t(4,0,2)", class = "sd", coef = "roughTRUE", group="Family"),
+  #set_prior("student_t(4,0,2)", class = "sd", coef = "Trillyes", group="Family"),
+  #set_prior("student_t(4,0,2)", class = "sd", coef = "roughTRUE:Trillyes", group="Family"),
+  set_prior("student_t(4,0,2)", class = "sd", coef = "Intercept", group="Area"),
+  set_prior("student_t(4,0,2)", class = "sd", coef = "roughTRUE", group="Area"),
+  set_prior("student_t(4,0,2)", class = "sd", coef = "Trillyes", group="Area"),
+  set_prior("student_t(4,0,2)", class = "sd", coef = "roughTRUE:Trillyes", group="Area")
+)
+
+set.seed(314)
+xling_brm_omnibus_no_famtrill_mod_r_revision <- brm(r ~ rough * Trill +
+                          (1 + rough | Family) +
+                          (1 + rough * Trill | Area),
+                        data=data_full_revised,
+                        prior=xling_brm_omnibus_no_famtrill_priors,
+                        family="bernoulli",
+                       control=list(adapt_delta=0.99))
+summary(xling_brm_omnibus_no_famtrill_mod_r_revision)
+```
+
+```{r}
+mean(posterior_samples(xling_brm_omnibus_no_famtrill_mod_r_revision)[,"b_roughTRUE:Trillyes"] > 0)
+
+l <- logistic_intr_summary(xling_brm_omnibus_no_famtrill_mod_r_revision, data_full_revised, outcome="/r/", roughpred="rough",
+                      trillpred="Trill", pp_over_zero=T,
+                      binary_pred=T, printPlease=T)
+```
