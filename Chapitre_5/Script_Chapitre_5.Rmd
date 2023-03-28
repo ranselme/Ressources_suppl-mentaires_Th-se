@@ -21411,6 +21411,11 @@ rough_r_data <- rough_r_data %>%
 ## Résultat du recodage
 
 ```{r}
+#save(rough_r_data, file = "data_replication/rough_r_data.RData")
+#write.csv(rough_r_data, "data_replication/rough_r_data.csv", row.names=FALSE)
+```
+
+```{r}
 rough_r_data %>% 
   dplyr::select(Language,revision,Trill) %>% 
   dplyr::filter(!is.na(revision)) %>% 
@@ -21619,8 +21624,10 @@ ggplot2::ggplot(world) +
     axis.ticks = ggplot2::element_blank(),
     plot.margin = ggplot2::unit(c(0.1,0.4,-0.4,0.4),"cm"),
     panel.spacing = ggplot2::unit(0, "lines"))
+```
 
 
+```{r fig.cap=capFig("Distribution des langues incluses dans l’analyse originale de Winter et al. (2022). Deux groupes sont inclus : les langues TRILL et les langues OTHER. Les langues Indo-Européennes ne sont pas incluses."), fig.width=9, fig.height=3}
 ggplot2::ggplot(world) +
   ggplot2::geom_sf(size=0.2, col="white", fill="lightgrey") +
   ggplot2::coord_sf(xlim = c(-180, 180), ylim = c(-60, 80), datum=NA) +
@@ -21827,3 +21834,132 @@ l <- logistic_intr_summary(xling_brm_omnibus_no_famtrill_mod_r_revision, data_fu
                       trillpred="Trill", pp_over_zero=T,
                       binary_pred=T, printPlease=T)
 ```
+
+```{r}
+#Prédictions Trills
+#saveRDS(xling_brm_rs_logistic_mod_r_revision, "models/xling_brm_rs_logistic_mod_r_revision.rds")
+#Prédictions Sans Trills
+#saveRDS(xling_nt_brm_rs_logistic_mod_o_revision, "models/xling_nt_brm_rs_logistic_mod_o_revision.rds")
+```
+
+prédictions du modèle 
+
+```{r}
+mod_preds_trill_revision <- logistic_summary(xling_brm_rs_logistic_mod_r_revision, dat=xling_revision, outcome="/r/", roughpred="rough", pp_over_zero=T)
+
+mod_dat_trill_revision <- data.frame(Meaning.f=factor(c("‘smooth’", "‘rough’"), levels=c("‘smooth’", "‘rough’")),
+                      pred=c(mean(mod_preds_trill_revision$pred_prob_smooth),mean(mod_preds_trill_revision$pred_prob_rough))*100,
+                      ll=c(quantile(mod_preds_trill_revision$pred_prob_smooth, 0.025),quantile(mod_preds_trill_revision$pred_prob_rough, 0.025))*100,
+                      ul=c(quantile(mod_preds_trill_revision$pred_prob_smooth, 0.975),quantile(mod_preds_trill_revision$pred_prob_rough, 0.975))*100
+)
+
+mod_preds_nt_revision <- logistic_summary(xling_nt_brm_rs_logistic_mod_o_revision, dat=xling_revision, outcome="/r/", roughpred="rough", pp_over_zero=T)
+
+mod_dat_nt_revision <- data.frame(Meaning.f=factor(c("‘smooth’", "‘rough’"), levels=c("‘smooth’", "‘rough’")),
+                      pred=c(mean(mod_preds_nt_revision$pred_prob_smooth),mean(mod_preds_nt_revision$pred_prob_rough))*100,
+                      ll=c(quantile(mod_preds_nt_revision$pred_prob_smooth, 0.025),quantile(mod_preds_nt_revision$pred_prob_rough, 0.025))*100,
+                      ul=c(quantile(mod_preds_nt_revision$pred_prob_smooth, 0.975),quantile(mod_preds_nt_revision$pred_prob_rough, 0.975))*100
+)
+
+mod_dat_revision <- bind_rows(mod_dat_trill_revision, mod_dat_nt_revision) %>%
+  mutate(Trill=factor(c("trilled /r/","trilled /r/","other /r/","other /r/"), 
+                      levels=c("trilled /r/","other /r/"))
+  )
+
+# raw figures / language family
+r_per_family_revision <- xling_revision %>%
+  dplyr::group_by(Family, Trill, Meaning.f) %>%
+  dplyr::summarise(perc_r = mean(r)*100, 
+            n=length(unique(Language))) %>%
+  dplyr::ungroup() %>%
+  dplyr::mutate(Trill=recode(Trill, yes="trilled /r/", no="other /r/"),
+         Trill=factor(Trill, levels=c("trilled /r/","other /r/"))
+  )
+
+xling_brm_rs_logistic_mod_r <- readRDS("models/xling_brm_rs_logistic_mod_r.rds")
+xling_nt_brm_rs_logistic_mod_r <- readRDS("models/xling_nt_brm_rs_logistic_mod_r.rds")
+
+mod_preds_trill <- logistic_summary(xling_brm_rs_logistic_mod_r, dat=xling, outcome="/r/", roughpred="rough", pp_over_zero=T)
+
+mod_dat_trill <- data.frame(Meaning.f=factor(c("‘smooth’", "‘rough’"), levels=c("‘smooth’", "‘rough’")),
+                      pred=c(mean(mod_preds_trill$pred_prob_smooth),mean(mod_preds_trill$pred_prob_rough))*100,
+                      ll=c(quantile(mod_preds_trill$pred_prob_smooth, 0.025),quantile(mod_preds_trill$pred_prob_rough, 0.025))*100,
+                      ul=c(quantile(mod_preds_trill$pred_prob_smooth, 0.975),quantile(mod_preds_trill$pred_prob_rough, 0.975))*100
+)
+
+mod_preds_nt <- logistic_summary(xling_nt_brm_rs_logistic_mod_r, dat=xling, outcome="/r/", roughpred="rough", pp_over_zero=T)
+
+mod_dat_nt <- data.frame(Meaning.f=factor(c("‘smooth’", "‘rough’"), levels=c("‘smooth’", "‘rough’")),
+                      pred=c(mean(mod_preds_nt$pred_prob_smooth),mean(mod_preds_nt$pred_prob_rough))*100,
+                      ll=c(quantile(mod_preds_nt$pred_prob_smooth, 0.025),quantile(mod_preds_nt$pred_prob_rough, 0.025))*100,
+                      ul=c(quantile(mod_preds_nt$pred_prob_smooth, 0.975),quantile(mod_preds_nt$pred_prob_rough, 0.975))*100
+)
+
+mod_dat <- bind_rows(mod_dat_trill, mod_dat_nt) %>%
+  mutate(Trill=factor(c("trilled /r/","trilled /r/","other /r/","other /r/"), 
+                      levels=c("trilled /r/","other /r/"))
+  )
+
+r_per_family <- xling %>%
+  group_by(Family, Trill, Meaning.f) %>%
+  summarise(perc_r = mean(r)*100, 
+            n=length(unique(Language))) %>%
+  ungroup() %>%
+  mutate(Trill=recode(Trill, yes="trilled /r/", no="other /r/"),
+         Trill=factor(Trill, levels=c("trilled /r/","other /r/"))
+  )
+
+```
+
+Nous présentons les graphiques des prédictions du modèle de l’article d’origine et de notre réplication. 
+
+```{r fig.cap=capFig("Prédictions du modèle de l’article d’origine. A gauche : langues avec un /r/ trillé dans leur inventaire phonémique ; à droite : langues avec un autre type de /r/. Les résultats sont agrégés par famille linguistique avec chaque point de couleur représentant une famille. La taille des cercles est proportionnelle au nombre de langues par famille. Les points gris sont les prédictions des modèles avec les intervalles plausibles bayésien à 95%."), fig.width=9, fig.height=3.5}
+ggplot2::ggplot(data = r_per_family, ggplot2::aes(x = Meaning.f, y = perc_r)) +
+  ggplot2::facet_grid(. ~ Trill) +
+  ggplot2::geom_point(data=r_per_family, 
+             ggplot2::aes(color = perc_r, size = n), alpha = 0.5,
+             position = ggbeeswarm::position_quasirandom(width = 0.3)) +
+  ggplot2::geom_errorbar(data=mod_dat,
+                ggplot2::aes(ymin = ll, ymax = ul, y=NULL), 
+                width = 0.075) +
+  ggplot2::geom_point(data=mod_dat, 
+             ggplot2::aes(y=pred), fill="grey", 
+             size = 6, shape = 21) +
+  ggplot2::scale_color_gradient(guide = F,
+                       low=other_col, high=r_col) +
+  ggplot2::scale_y_continuous(breaks=seq(0,100,25), labels=paste0(seq(0,100,25), "%")) +
+  ggplot2::scale_size_continuous(guide = FALSE, range = c(2,6)) +
+  ggplot2::labs(title = "Proportions per language family and model predictions (world-wide)\n(Original study)",
+       y = "percentage of forms with /r/", 
+       x = "\n") +
+  theme_rough +
+  ggplot2::theme(plot.margin = unit(c(0.4,0.4,-0.6,0.4),"cm"))
+```
+
+
+```{r fig.cap=capFig("Prédictions du modèle de notre replication. A gauche : langues avec un /r/ trillé dans leur inventaire phonémique ; à droite : langues avec un autre type de /r/. Les résultats sont agrégés par famille linguistique avec chaque point de couleur représentant une famille. La taille des cercles est proportionnelle au nombre de langues par famille. Les points gris sont les prédictions des modèles avec les intervalles plausibles bayésien à 95%."), fig.width=9, fig.height=3.5}
+ggplot2::ggplot(data = r_per_family_revision, aes(x = Meaning.f, y = perc_r)) +
+  ggplot2::facet_grid(. ~ Trill) +
+  ggplot2::geom_point(data=r_per_family_revision, 
+             ggplot2::aes(color = perc_r, size = n), alpha = 0.5,
+             position = ggbeeswarm::position_quasirandom(width = 0.3)) +
+  ggplot2::geom_errorbar(data=mod_dat_revision,
+                ggplot2::aes(ymin = ll, ymax = ul, y=NULL), 
+                width = 0.075) +
+  ggplot2::geom_point(data=mod_dat_revision, 
+             ggplot2::aes(y=pred), fill="grey", 
+             size = 6, shape = 21) +
+  ggplot2::scale_color_gradient(guide = F,
+                       low=other_col, high=r_col) +
+  ggplot2::scale_y_continuous(breaks=seq(0,100,25), labels=paste0(seq(0,100,25), "%")) +
+  ggplot2::scale_size_continuous(guide = FALSE, range = c(2,6)) +
+  ggplot2::labs(title = "Proportions per language family and model predictions (world-wide)\n(Replication)",
+       y = "percentage of forms with /r/", 
+       x = "\n") +
+  theme_rough +
+  ggplot2::theme(plot.margin = unit(c(0.4,0.4,-0.6,0.4),"cm"))
+
+```
+
+
+

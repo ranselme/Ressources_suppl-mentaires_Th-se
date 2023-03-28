@@ -1,7 +1,7 @@
 Ressources complémentaires - Chapitre 5
 ================
 Rémi Anselme
-2023-03-17 17:11:55
+2023-03-28 17:27:54
 
   - [Chapitre 5](#chapitre-5)
       - [Présentation de l’article de Winter et
@@ -34822,6 +34822,11 @@ rough_r_data <- rough_r_data %>%
 ## Résultat du recodage
 
 ``` r
+#save(rough_r_data, file = "data_replication/rough_r_data.RData")
+#write.csv(rough_r_data, "data_replication/rough_r_data.csv", row.names=FALSE)
+```
+
+``` r
 rough_r_data %>% 
   dplyr::select(Language,revision,Trill) %>% 
   dplyr::filter(!is.na(revision)) %>% 
@@ -34872,7 +34877,7 @@ informations collectées. A gauche le compte des langues telles que
 codées par Winter et al., au milieu les conclusions de notre processus
 de révision des valeurs de trill/other dans les langues, à droite le
 compte des langues inclues ou exclues dans notre
-réplication.](Script_Chapitre_5_files/figure-gfm/unnamed-chunk-1007-1.png)
+réplication.](Script_Chapitre_5_files/figure-gfm/unnamed-chunk-1008-1.png)
 
 ``` r
 #Adapté de quelque part sur Internet
@@ -34949,12 +34954,11 @@ base_world +
 ![Distribution des langues incluses dans l’analyse originale de Winter
 et al. (2022). Deux groupes sont inclus : les langues TRILL et les
 langues OTHER. Les langues Indo-Européennes ne sont pas
-incluses.](Script_Chapitre_5_files/figure-gfm/unnamed-chunk-1010-1.png)
+incluses.](Script_Chapitre_5_files/figure-gfm/unnamed-chunk-1011-1.png)
 
 ## Analyses et résultats
 
-Le code est Proportions des prédictions des modèles avec les intervalles
-plausibles bayésien à 95% pour les mots « rugueux » et « lisse ».
+Le code est très largement adapté de celui de Winter et al. (2022).
 
 ``` r
 source("donnees_winter2022/scripts/rough_helper.r")
@@ -35077,7 +35081,7 @@ ggplot2::ggplot(world) +
 ![Distribution des langues incluses dans l’analyse originale de Winter
 et al. (2022). Deux groupes sont inclus : les langues TRILL et les
 langues OTHER. Les langues Indo-Européennes ne sont pas
-incluses.](Script_Chapitre_5_files/figure-gfm/unnamed-chunk-1012-1.png)
+incluses.](Script_Chapitre_5_files/figure-gfm/unnamed-chunk-1013-1.png)
 
 ``` r
 ggplot2::ggplot(world) +
@@ -35104,7 +35108,7 @@ ggplot2::ggplot(world) +
 ![Distribution des langues incluses dans l’analyse originale de Winter
 et al. (2022). Deux groupes sont inclus : les langues TRILL et les
 langues OTHER. Les langues Indo-Européennes ne sont pas
-incluses.](Script_Chapitre_5_files/figure-gfm/unnamed-chunk-1012-2.png)
+incluses.](Script_Chapitre_5_files/figure-gfm/unnamed-chunk-1014-1.png)
 
 ### Avec trills
 
@@ -35344,8 +35348,8 @@ xling_brm_omnibus_mod_r_revision <- brm(r ~ rough * Trill +
     ## 
     ## SAMPLING FOR MODEL '7c5e40608384b118960431a3e2dbbd4d' NOW (CHAIN 1).
     ## Chain 1: 
-    ## Chain 1: Gradient evaluation took 0.000186 seconds
-    ## Chain 1: 1000 transitions using 10 leapfrog steps per transition would take 1.86 seconds.
+    ## Chain 1: Gradient evaluation took 0.000176 seconds
+    ## Chain 1: 1000 transitions using 10 leapfrog steps per transition would take 1.76 seconds.
     ## Chain 1: Adjust your expectations accordingly!
     ## Chain 1: 
     ## Chain 1: 
@@ -35362,15 +35366,15 @@ xling_brm_omnibus_mod_r_revision <- brm(r ~ rough * Trill +
     ## Chain 1: Iteration: 1800 / 2000 [ 90%]  (Sampling)
     ## Chain 1: Iteration: 2000 / 2000 [100%]  (Sampling)
     ## Chain 1: 
-    ## Chain 1:  Elapsed Time: 24.9602 seconds (Warm-up)
-    ## Chain 1:                22.1977 seconds (Sampling)
-    ## Chain 1:                47.1579 seconds (Total)
+    ## Chain 1:  Elapsed Time: 23.7714 seconds (Warm-up)
+    ## Chain 1:                21.6537 seconds (Sampling)
+    ## Chain 1:                45.4251 seconds (Total)
     ## Chain 1: 
     ## 
     ## SAMPLING FOR MODEL '7c5e40608384b118960431a3e2dbbd4d' NOW (CHAIN 2).
     ## Chain 2: 
-    ## Chain 2: Gradient evaluation took 0.000164 seconds
-    ## Chain 2: 1000 transitions using 10 leapfrog steps per transition would take 1.64 seconds.
+    ## Chain 2: Gradient evaluation took 0.000163 seconds
+    ## Chain 2: 1000 transitions using 10 leapfrog steps per transition would take 1.63 seconds.
     ## Chain 2: Adjust your expectations accordingly!
     ## Chain 2: 
     ## Chain 2: 
@@ -35387,15 +35391,15 @@ xling_brm_omnibus_mod_r_revision <- brm(r ~ rough * Trill +
     ## Chain 2: Iteration: 1800 / 2000 [ 90%]  (Sampling)
     ## Chain 2: Iteration: 2000 / 2000 [100%]  (Sampling)
     ## Chain 2: 
-    ## Chain 2:  Elapsed Time: 29.4895 seconds (Warm-up)
-    ## Chain 2:                39.0734 seconds (Sampling)
-    ## Chain 2:                68.5629 seconds (Total)
+    ## Chain 2:  Elapsed Time: 28.1486 seconds (Warm-up)
+    ## Chain 2:                36.6314 seconds (Sampling)
+    ## Chain 2:                64.78 seconds (Total)
     ## Chain 2: 
     ## 
     ## SAMPLING FOR MODEL '7c5e40608384b118960431a3e2dbbd4d' NOW (CHAIN 3).
     ## Chain 3: 
-    ## Chain 3: Gradient evaluation took 0.000163 seconds
-    ## Chain 3: 1000 transitions using 10 leapfrog steps per transition would take 1.63 seconds.
+    ## Chain 3: Gradient evaluation took 0.00023 seconds
+    ## Chain 3: 1000 transitions using 10 leapfrog steps per transition would take 2.3 seconds.
     ## Chain 3: Adjust your expectations accordingly!
     ## Chain 3: 
     ## Chain 3: 
@@ -35412,15 +35416,15 @@ xling_brm_omnibus_mod_r_revision <- brm(r ~ rough * Trill +
     ## Chain 3: Iteration: 1800 / 2000 [ 90%]  (Sampling)
     ## Chain 3: Iteration: 2000 / 2000 [100%]  (Sampling)
     ## Chain 3: 
-    ## Chain 3:  Elapsed Time: 22.5272 seconds (Warm-up)
-    ## Chain 3:                22.7242 seconds (Sampling)
-    ## Chain 3:                45.2514 seconds (Total)
+    ## Chain 3:  Elapsed Time: 20.6547 seconds (Warm-up)
+    ## Chain 3:                22.5366 seconds (Sampling)
+    ## Chain 3:                43.1913 seconds (Total)
     ## Chain 3: 
     ## 
     ## SAMPLING FOR MODEL '7c5e40608384b118960431a3e2dbbd4d' NOW (CHAIN 4).
     ## Chain 4: 
-    ## Chain 4: Gradient evaluation took 0.000162 seconds
-    ## Chain 4: 1000 transitions using 10 leapfrog steps per transition would take 1.62 seconds.
+    ## Chain 4: Gradient evaluation took 0.000172 seconds
+    ## Chain 4: 1000 transitions using 10 leapfrog steps per transition would take 1.72 seconds.
     ## Chain 4: Adjust your expectations accordingly!
     ## Chain 4: 
     ## Chain 4: 
@@ -35437,9 +35441,9 @@ xling_brm_omnibus_mod_r_revision <- brm(r ~ rough * Trill +
     ## Chain 4: Iteration: 1800 / 2000 [ 90%]  (Sampling)
     ## Chain 4: Iteration: 2000 / 2000 [100%]  (Sampling)
     ## Chain 4: 
-    ## Chain 4:  Elapsed Time: 25.8183 seconds (Warm-up)
-    ## Chain 4:                21.8849 seconds (Sampling)
-    ## Chain 4:                47.7032 seconds (Total)
+    ## Chain 4:  Elapsed Time: 26.2855 seconds (Warm-up)
+    ## Chain 4:                21.6811 seconds (Sampling)
+    ## Chain 4:                47.9666 seconds (Total)
     ## Chain 4:
 
 ``` r
@@ -35584,8 +35588,8 @@ xling_brm_omnibus_no_famtrill_mod_r_revision <- brm(r ~ rough * Trill +
     ## 
     ## SAMPLING FOR MODEL '539589b4452b76fc86c065b4d26678a5' NOW (CHAIN 1).
     ## Chain 1: 
-    ## Chain 1: Gradient evaluation took 0.000132 seconds
-    ## Chain 1: 1000 transitions using 10 leapfrog steps per transition would take 1.32 seconds.
+    ## Chain 1: Gradient evaluation took 0.000131 seconds
+    ## Chain 1: 1000 transitions using 10 leapfrog steps per transition would take 1.31 seconds.
     ## Chain 1: Adjust your expectations accordingly!
     ## Chain 1: 
     ## Chain 1: 
@@ -35602,15 +35606,15 @@ xling_brm_omnibus_no_famtrill_mod_r_revision <- brm(r ~ rough * Trill +
     ## Chain 1: Iteration: 1800 / 2000 [ 90%]  (Sampling)
     ## Chain 1: Iteration: 2000 / 2000 [100%]  (Sampling)
     ## Chain 1: 
-    ## Chain 1:  Elapsed Time: 15.5998 seconds (Warm-up)
-    ## Chain 1:                16.3087 seconds (Sampling)
-    ## Chain 1:                31.9085 seconds (Total)
+    ## Chain 1:  Elapsed Time: 15.2848 seconds (Warm-up)
+    ## Chain 1:                16.0426 seconds (Sampling)
+    ## Chain 1:                31.3273 seconds (Total)
     ## Chain 1: 
     ## 
     ## SAMPLING FOR MODEL '539589b4452b76fc86c065b4d26678a5' NOW (CHAIN 2).
     ## Chain 2: 
-    ## Chain 2: Gradient evaluation took 0.000129 seconds
-    ## Chain 2: 1000 transitions using 10 leapfrog steps per transition would take 1.29 seconds.
+    ## Chain 2: Gradient evaluation took 0.000123 seconds
+    ## Chain 2: 1000 transitions using 10 leapfrog steps per transition would take 1.23 seconds.
     ## Chain 2: Adjust your expectations accordingly!
     ## Chain 2: 
     ## Chain 2: 
@@ -35627,15 +35631,15 @@ xling_brm_omnibus_no_famtrill_mod_r_revision <- brm(r ~ rough * Trill +
     ## Chain 2: Iteration: 1800 / 2000 [ 90%]  (Sampling)
     ## Chain 2: Iteration: 2000 / 2000 [100%]  (Sampling)
     ## Chain 2: 
-    ## Chain 2:  Elapsed Time: 18.0195 seconds (Warm-up)
-    ## Chain 2:                16.4211 seconds (Sampling)
-    ## Chain 2:                34.4406 seconds (Total)
+    ## Chain 2:  Elapsed Time: 17.6728 seconds (Warm-up)
+    ## Chain 2:                16.0701 seconds (Sampling)
+    ## Chain 2:                33.7429 seconds (Total)
     ## Chain 2: 
     ## 
     ## SAMPLING FOR MODEL '539589b4452b76fc86c065b4d26678a5' NOW (CHAIN 3).
     ## Chain 3: 
-    ## Chain 3: Gradient evaluation took 0.000121 seconds
-    ## Chain 3: 1000 transitions using 10 leapfrog steps per transition would take 1.21 seconds.
+    ## Chain 3: Gradient evaluation took 0.000203 seconds
+    ## Chain 3: 1000 transitions using 10 leapfrog steps per transition would take 2.03 seconds.
     ## Chain 3: Adjust your expectations accordingly!
     ## Chain 3: 
     ## Chain 3: 
@@ -35652,15 +35656,15 @@ xling_brm_omnibus_no_famtrill_mod_r_revision <- brm(r ~ rough * Trill +
     ## Chain 3: Iteration: 1800 / 2000 [ 90%]  (Sampling)
     ## Chain 3: Iteration: 2000 / 2000 [100%]  (Sampling)
     ## Chain 3: 
-    ## Chain 3:  Elapsed Time: 14.6408 seconds (Warm-up)
-    ## Chain 3:                13.9105 seconds (Sampling)
-    ## Chain 3:                28.5513 seconds (Total)
+    ## Chain 3:  Elapsed Time: 14.353 seconds (Warm-up)
+    ## Chain 3:                13.5803 seconds (Sampling)
+    ## Chain 3:                27.9333 seconds (Total)
     ## Chain 3: 
     ## 
     ## SAMPLING FOR MODEL '539589b4452b76fc86c065b4d26678a5' NOW (CHAIN 4).
     ## Chain 4: 
-    ## Chain 4: Gradient evaluation took 0.000169 seconds
-    ## Chain 4: 1000 transitions using 10 leapfrog steps per transition would take 1.69 seconds.
+    ## Chain 4: Gradient evaluation took 0.000122 seconds
+    ## Chain 4: 1000 transitions using 10 leapfrog steps per transition would take 1.22 seconds.
     ## Chain 4: Adjust your expectations accordingly!
     ## Chain 4: 
     ## Chain 4: 
@@ -35677,9 +35681,9 @@ xling_brm_omnibus_no_famtrill_mod_r_revision <- brm(r ~ rough * Trill +
     ## Chain 4: Iteration: 1800 / 2000 [ 90%]  (Sampling)
     ## Chain 4: Iteration: 2000 / 2000 [100%]  (Sampling)
     ## Chain 4: 
-    ## Chain 4:  Elapsed Time: 16.9835 seconds (Warm-up)
-    ## Chain 4:                16.4493 seconds (Sampling)
-    ## Chain 4:                33.4328 seconds (Total)
+    ## Chain 4:  Elapsed Time: 16.562 seconds (Warm-up)
+    ## Chain 4:                16.0499 seconds (Sampling)
+    ## Chain 4:                32.6119 seconds (Total)
     ## Chain 4:
 
 ``` r
@@ -35773,3 +35777,197 @@ l <- logistic_intr_summary(xling_brm_omnibus_no_famtrill_mod_r_revision, data_fu
     ## 
     ## CHANGE IN DIFFERENCE BETWEEN ROUGH vs. SMOOTH AS A FUNCTION OF TRILL:
     ##    0.03 [-0.2,0.28], 58.38% over zero
+
+``` r
+#Prédictions Trills
+#saveRDS(xling_brm_rs_logistic_mod_r_revision, "models/xling_brm_rs_logistic_mod_r_revision.rds")
+#Prédictions Sans Trills
+#saveRDS(xling_nt_brm_rs_logistic_mod_o_revision, "models/xling_nt_brm_rs_logistic_mod_o_revision.rds")
+```
+
+prédictions du modèle
+
+``` r
+mod_preds_trill_revision <- logistic_summary(xling_brm_rs_logistic_mod_r_revision, dat=xling_revision, outcome="/r/", roughpred="rough", pp_over_zero=T)
+```
+
+    ## Warning: Method 'posterior_samples' is deprecated. Please see ?as_draws for
+    ## recommended alternatives.
+
+    ## predicted probability of /r/ rating based on roughness:
+    ##    smooth: 0.14 [0.05,0.25]
+    ##    rough: 0.41 [0.16,0.64]
+    ## predicted difference in probability of /r/ (rough - smooth):
+    ##    diff: 0.26 [0.04,0.49], 98.83% over zero
+
+``` r
+mod_dat_trill_revision <- data.frame(Meaning.f=factor(c("‘smooth’", "‘rough’"), levels=c("‘smooth’", "‘rough’")),
+                      pred=c(mean(mod_preds_trill_revision$pred_prob_smooth),mean(mod_preds_trill_revision$pred_prob_rough))*100,
+                      ll=c(quantile(mod_preds_trill_revision$pred_prob_smooth, 0.025),quantile(mod_preds_trill_revision$pred_prob_rough, 0.025))*100,
+                      ul=c(quantile(mod_preds_trill_revision$pred_prob_smooth, 0.975),quantile(mod_preds_trill_revision$pred_prob_rough, 0.975))*100
+)
+
+mod_preds_nt_revision <- logistic_summary(xling_nt_brm_rs_logistic_mod_o_revision, dat=xling_revision, outcome="/r/", roughpred="rough", pp_over_zero=T)
+```
+
+    ## Warning: Method 'posterior_samples' is deprecated. Please see ?as_draws for
+    ## recommended alternatives.
+
+    ## predicted probability of /r/ rating based on roughness:
+    ##    smooth: 0.18 [0.06,0.38]
+    ##    rough: 0.37 [0.13,0.67]
+    ## predicted difference in probability of /r/ (rough - smooth):
+    ##    diff: 0.19 [-0.02,0.41], 96.23% over zero
+
+``` r
+mod_dat_nt_revision <- data.frame(Meaning.f=factor(c("‘smooth’", "‘rough’"), levels=c("‘smooth’", "‘rough’")),
+                      pred=c(mean(mod_preds_nt_revision$pred_prob_smooth),mean(mod_preds_nt_revision$pred_prob_rough))*100,
+                      ll=c(quantile(mod_preds_nt_revision$pred_prob_smooth, 0.025),quantile(mod_preds_nt_revision$pred_prob_rough, 0.025))*100,
+                      ul=c(quantile(mod_preds_nt_revision$pred_prob_smooth, 0.975),quantile(mod_preds_nt_revision$pred_prob_rough, 0.975))*100
+)
+
+mod_dat_revision <- bind_rows(mod_dat_trill_revision, mod_dat_nt_revision) %>%
+  mutate(Trill=factor(c("trilled /r/","trilled /r/","other /r/","other /r/"), 
+                      levels=c("trilled /r/","other /r/"))
+  )
+
+# raw figures / language family
+r_per_family_revision <- xling_revision %>%
+  dplyr::group_by(Family, Trill, Meaning.f) %>%
+  dplyr::summarise(perc_r = mean(r)*100, 
+            n=length(unique(Language))) %>%
+  dplyr::ungroup() %>%
+  dplyr::mutate(Trill=recode(Trill, yes="trilled /r/", no="other /r/"),
+         Trill=factor(Trill, levels=c("trilled /r/","other /r/"))
+  )
+```
+
+    ## `summarise()` has grouped output by 'Family', 'Trill'. You can override using
+    ## the `.groups` argument.
+
+``` r
+xling_brm_rs_logistic_mod_r <- readRDS("models/xling_brm_rs_logistic_mod_r.rds")
+xling_nt_brm_rs_logistic_mod_r <- readRDS("models/xling_nt_brm_rs_logistic_mod_r.rds")
+
+mod_preds_trill <- logistic_summary(xling_brm_rs_logistic_mod_r, dat=xling, outcome="/r/", roughpred="rough", pp_over_zero=T)
+```
+
+    ## Warning: Method 'posterior_samples' is deprecated. Please see ?as_draws for
+    ## recommended alternatives.
+
+    ## predicted probability of /r/ rating based on roughness:
+    ##    smooth: 0.09 [0.03,0.18]
+    ##    rough: 0.37 [0.14,0.61]
+    ## predicted difference in probability of /r/ (rough - smooth):
+    ##    diff: 0.28 [0.06,0.5], 99.58% over zero
+
+``` r
+mod_dat_trill <- data.frame(Meaning.f=factor(c("‘smooth’", "‘rough’"), levels=c("‘smooth’", "‘rough’")),
+                      pred=c(mean(mod_preds_trill$pred_prob_smooth),mean(mod_preds_trill$pred_prob_rough))*100,
+                      ll=c(quantile(mod_preds_trill$pred_prob_smooth, 0.025),quantile(mod_preds_trill$pred_prob_rough, 0.025))*100,
+                      ul=c(quantile(mod_preds_trill$pred_prob_smooth, 0.975),quantile(mod_preds_trill$pred_prob_rough, 0.975))*100
+)
+
+mod_preds_nt <- logistic_summary(xling_nt_brm_rs_logistic_mod_r, dat=xling, outcome="/r/", roughpred="rough", pp_over_zero=T)
+```
+
+    ## Warning: Method 'posterior_samples' is deprecated. Please see ?as_draws for
+    ## recommended alternatives.
+
+    ## predicted probability of /r/ rating based on roughness:
+    ##    smooth: 0.25 [0.11,0.42]
+    ##    rough: 0.27 [0.12,0.46]
+    ## predicted difference in probability of /r/ (rough - smooth):
+    ##    diff: 0.02 [-0.14,0.18], 62.05% over zero
+
+``` r
+mod_dat_nt <- data.frame(Meaning.f=factor(c("‘smooth’", "‘rough’"), levels=c("‘smooth’", "‘rough’")),
+                      pred=c(mean(mod_preds_nt$pred_prob_smooth),mean(mod_preds_nt$pred_prob_rough))*100,
+                      ll=c(quantile(mod_preds_nt$pred_prob_smooth, 0.025),quantile(mod_preds_nt$pred_prob_rough, 0.025))*100,
+                      ul=c(quantile(mod_preds_nt$pred_prob_smooth, 0.975),quantile(mod_preds_nt$pred_prob_rough, 0.975))*100
+)
+
+mod_dat <- bind_rows(mod_dat_trill, mod_dat_nt) %>%
+  mutate(Trill=factor(c("trilled /r/","trilled /r/","other /r/","other /r/"), 
+                      levels=c("trilled /r/","other /r/"))
+  )
+
+r_per_family <- xling %>%
+  group_by(Family, Trill, Meaning.f) %>%
+  summarise(perc_r = mean(r)*100, 
+            n=length(unique(Language))) %>%
+  ungroup() %>%
+  mutate(Trill=recode(Trill, yes="trilled /r/", no="other /r/"),
+         Trill=factor(Trill, levels=c("trilled /r/","other /r/"))
+  )
+```
+
+    ## `summarise()` has grouped output by 'Family', 'Trill'. You can override using
+    ## the `.groups` argument.
+
+Nous présentons les graphiques des prédictions du modèle de l’article
+d’origine et de notre réplication.
+
+``` r
+ggplot2::ggplot(data = r_per_family, ggplot2::aes(x = Meaning.f, y = perc_r)) +
+  ggplot2::facet_grid(. ~ Trill) +
+  ggplot2::geom_point(data=r_per_family, 
+             ggplot2::aes(color = perc_r, size = n), alpha = 0.5,
+             position = ggbeeswarm::position_quasirandom(width = 0.3)) +
+  ggplot2::geom_errorbar(data=mod_dat,
+                ggplot2::aes(ymin = ll, ymax = ul, y=NULL), 
+                width = 0.075) +
+  ggplot2::geom_point(data=mod_dat, 
+             ggplot2::aes(y=pred), fill="grey", 
+             size = 6, shape = 21) +
+  ggplot2::scale_color_gradient(guide = F,
+                       low=other_col, high=r_col) +
+  ggplot2::scale_y_continuous(breaks=seq(0,100,25), labels=paste0(seq(0,100,25), "%")) +
+  ggplot2::scale_size_continuous(guide = FALSE, range = c(2,6)) +
+  ggplot2::labs(title = "Proportions per language family and model predictions (world-wide)\n(Original study)",
+       y = "percentage of forms with /r/", 
+       x = "\n") +
+  theme_rough +
+  ggplot2::theme(plot.margin = unit(c(0.4,0.4,-0.6,0.4),"cm"))
+```
+
+![Prédictions du modèle de l’article d’origine. A gauche : langues avec
+un /r/ trillé dans leur inventaire phonémique ; à droite : langues avec
+un autre type de /r/. Les résultats sont agrégés par famille
+linguistique avec chaque point de couleur représentant une famille. La
+taille des cercles est proportionnelle au nombre de langues par famille.
+Les points gris sont les prédictions des modèles avec les intervalles
+plausibles bayésien à
+95%.](Script_Chapitre_5_files/figure-gfm/unnamed-chunk-1030-1.png)
+
+``` r
+ggplot2::ggplot(data = r_per_family_revision, aes(x = Meaning.f, y = perc_r)) +
+  ggplot2::facet_grid(. ~ Trill) +
+  ggplot2::geom_point(data=r_per_family_revision, 
+             ggplot2::aes(color = perc_r, size = n), alpha = 0.5,
+             position = ggbeeswarm::position_quasirandom(width = 0.3)) +
+  ggplot2::geom_errorbar(data=mod_dat_revision,
+                ggplot2::aes(ymin = ll, ymax = ul, y=NULL), 
+                width = 0.075) +
+  ggplot2::geom_point(data=mod_dat_revision, 
+             ggplot2::aes(y=pred), fill="grey", 
+             size = 6, shape = 21) +
+  ggplot2::scale_color_gradient(guide = F,
+                       low=other_col, high=r_col) +
+  ggplot2::scale_y_continuous(breaks=seq(0,100,25), labels=paste0(seq(0,100,25), "%")) +
+  ggplot2::scale_size_continuous(guide = FALSE, range = c(2,6)) +
+  ggplot2::labs(title = "Proportions per language family and model predictions (world-wide)\n(Replication)",
+       y = "percentage of forms with /r/", 
+       x = "\n") +
+  theme_rough +
+  ggplot2::theme(plot.margin = unit(c(0.4,0.4,-0.6,0.4),"cm"))
+```
+
+![Prédictions du modèle de notre replication. A gauche : langues avec un
+/r/ trillé dans leur inventaire phonémique ; à droite : langues avec un
+autre type de /r/. Les résultats sont agrégés par famille linguistique
+avec chaque point de couleur représentant une famille. La taille des
+cercles est proportionnelle au nombre de langues par famille. Les points
+gris sont les prédictions des modèles avec les intervalles plausibles
+bayésien à
+95%.](Script_Chapitre_5_files/figure-gfm/unnamed-chunk-1031-1.png)
