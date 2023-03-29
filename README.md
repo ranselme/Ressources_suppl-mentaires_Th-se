@@ -51,7 +51,7 @@ Ceci est le dossier GitHub qui contient toutes les ressources pour la thèse de 
     ## │   │   └── scripts
     ## │   │   │   └── Script R avec des fonctions
     ## │   ├── models 
-    ## │   │   └── Données sous forme de RData
+    ## │   │   └── Modèles sous forme de RDS
     ## │   └── Script_Chapitre_5 (Fichiers R Mardown et Markdown)
     ## │       + dossier Script_Chapitre_5_files/figure-gfm pour les images
     ## ├── Chapitre 6
