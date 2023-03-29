@@ -45,8 +45,6 @@ capFig = function(x){
 
 # Chapitre 5
 
-**Les ressources supplémentaires du Chapitre 5 en cours de mise en ligne.**
-
 ```{r include=FALSE}
 
 source("donnees_winter2022/scripts/rough_helper.r")
@@ -21842,7 +21840,7 @@ l <- logistic_intr_summary(xling_brm_omnibus_no_famtrill_mod_r_revision, data_fu
 #saveRDS(xling_nt_brm_rs_logistic_mod_o_revision, "models/xling_nt_brm_rs_logistic_mod_o_revision.rds")
 ```
 
-prédictions du modèle 
+## Prédictions du modèle 
 
 ```{r}
 mod_preds_trill_revision <- logistic_summary(xling_brm_rs_logistic_mod_r_revision, dat=xling_revision, outcome="/r/", roughpred="rough", pp_over_zero=T)
