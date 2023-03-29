@@ -1,7 +1,7 @@
 Ressources complémentaires - Chapitre 5
 ================
 Rémi Anselme
-2023-03-29 09:43:07
+2023-03-29 10:07:30
 
   - [Chapitre 5](#chapitre-5)
       - [Présentation de l’article de Winter et
@@ -336,6 +336,9 @@ Rémi Anselme
           - [Analyse Omnibus : langues avec et sans trills
             ensemble](#analyse-omnibus--langues-avec-et-sans-trills-ensemble)
       - [Prédictions du modèle](#prédictions-du-modèle)
+  - [Références](#références)
+      - [Packages utilisés](#packages-utilisés)
+      - [Version de RStudio](#version-de-rstudio)
 
 # Chapitre 5
 
@@ -35346,8 +35349,8 @@ xling_brm_omnibus_mod_r_revision <- brm(r ~ rough * Trill +
     ## 
     ## SAMPLING FOR MODEL '7c5e40608384b118960431a3e2dbbd4d' NOW (CHAIN 1).
     ## Chain 1: 
-    ## Chain 1: Gradient evaluation took 0.000173 seconds
-    ## Chain 1: 1000 transitions using 10 leapfrog steps per transition would take 1.73 seconds.
+    ## Chain 1: Gradient evaluation took 0.000186 seconds
+    ## Chain 1: 1000 transitions using 10 leapfrog steps per transition would take 1.86 seconds.
     ## Chain 1: Adjust your expectations accordingly!
     ## Chain 1: 
     ## Chain 1: 
@@ -35364,15 +35367,15 @@ xling_brm_omnibus_mod_r_revision <- brm(r ~ rough * Trill +
     ## Chain 1: Iteration: 1800 / 2000 [ 90%]  (Sampling)
     ## Chain 1: Iteration: 2000 / 2000 [100%]  (Sampling)
     ## Chain 1: 
-    ## Chain 1:  Elapsed Time: 23.0892 seconds (Warm-up)
-    ## Chain 1:                21.4241 seconds (Sampling)
-    ## Chain 1:                44.5133 seconds (Total)
+    ## Chain 1:  Elapsed Time: 23.2123 seconds (Warm-up)
+    ## Chain 1:                20.8248 seconds (Sampling)
+    ## Chain 1:                44.0371 seconds (Total)
     ## Chain 1: 
     ## 
     ## SAMPLING FOR MODEL '7c5e40608384b118960431a3e2dbbd4d' NOW (CHAIN 2).
     ## Chain 2: 
-    ## Chain 2: Gradient evaluation took 0.000178 seconds
-    ## Chain 2: 1000 transitions using 10 leapfrog steps per transition would take 1.78 seconds.
+    ## Chain 2: Gradient evaluation took 0.000164 seconds
+    ## Chain 2: 1000 transitions using 10 leapfrog steps per transition would take 1.64 seconds.
     ## Chain 2: Adjust your expectations accordingly!
     ## Chain 2: 
     ## Chain 2: 
@@ -35389,15 +35392,15 @@ xling_brm_omnibus_mod_r_revision <- brm(r ~ rough * Trill +
     ## Chain 2: Iteration: 1800 / 2000 [ 90%]  (Sampling)
     ## Chain 2: Iteration: 2000 / 2000 [100%]  (Sampling)
     ## Chain 2: 
-    ## Chain 2:  Elapsed Time: 30.4605 seconds (Warm-up)
-    ## Chain 2:                38.5883 seconds (Sampling)
-    ## Chain 2:                69.0488 seconds (Total)
+    ## Chain 2:  Elapsed Time: 26.9037 seconds (Warm-up)
+    ## Chain 2:                37.817 seconds (Sampling)
+    ## Chain 2:                64.7206 seconds (Total)
     ## Chain 2: 
     ## 
     ## SAMPLING FOR MODEL '7c5e40608384b118960431a3e2dbbd4d' NOW (CHAIN 3).
     ## Chain 3: 
-    ## Chain 3: Gradient evaluation took 0.000191 seconds
-    ## Chain 3: 1000 transitions using 10 leapfrog steps per transition would take 1.91 seconds.
+    ## Chain 3: Gradient evaluation took 0.000229 seconds
+    ## Chain 3: 1000 transitions using 10 leapfrog steps per transition would take 2.29 seconds.
     ## Chain 3: Adjust your expectations accordingly!
     ## Chain 3: 
     ## Chain 3: 
@@ -35414,15 +35417,15 @@ xling_brm_omnibus_mod_r_revision <- brm(r ~ rough * Trill +
     ## Chain 3: Iteration: 1800 / 2000 [ 90%]  (Sampling)
     ## Chain 3: Iteration: 2000 / 2000 [100%]  (Sampling)
     ## Chain 3: 
-    ## Chain 3:  Elapsed Time: 21.0594 seconds (Warm-up)
-    ## Chain 3:                22.1228 seconds (Sampling)
-    ## Chain 3:                43.1821 seconds (Total)
+    ## Chain 3:  Elapsed Time: 20.3528 seconds (Warm-up)
+    ## Chain 3:                20.349 seconds (Sampling)
+    ## Chain 3:                40.7018 seconds (Total)
     ## Chain 3: 
     ## 
     ## SAMPLING FOR MODEL '7c5e40608384b118960431a3e2dbbd4d' NOW (CHAIN 4).
     ## Chain 4: 
-    ## Chain 4: Gradient evaluation took 0.000237 seconds
-    ## Chain 4: 1000 transitions using 10 leapfrog steps per transition would take 2.37 seconds.
+    ## Chain 4: Gradient evaluation took 0.000165 seconds
+    ## Chain 4: 1000 transitions using 10 leapfrog steps per transition would take 1.65 seconds.
     ## Chain 4: Adjust your expectations accordingly!
     ## Chain 4: 
     ## Chain 4: 
@@ -35439,9 +35442,9 @@ xling_brm_omnibus_mod_r_revision <- brm(r ~ rough * Trill +
     ## Chain 4: Iteration: 1800 / 2000 [ 90%]  (Sampling)
     ## Chain 4: Iteration: 2000 / 2000 [100%]  (Sampling)
     ## Chain 4: 
-    ## Chain 4:  Elapsed Time: 24.9575 seconds (Warm-up)
-    ## Chain 4:                20.9853 seconds (Sampling)
-    ## Chain 4:                45.9428 seconds (Total)
+    ## Chain 4:  Elapsed Time: 23.9283 seconds (Warm-up)
+    ## Chain 4:                20.3709 seconds (Sampling)
+    ## Chain 4:                44.2992 seconds (Total)
     ## Chain 4:
 
 ``` r
@@ -35586,8 +35589,8 @@ xling_brm_omnibus_no_famtrill_mod_r_revision <- brm(r ~ rough * Trill +
     ## 
     ## SAMPLING FOR MODEL '539589b4452b76fc86c065b4d26678a5' NOW (CHAIN 1).
     ## Chain 1: 
-    ## Chain 1: Gradient evaluation took 0.000138 seconds
-    ## Chain 1: 1000 transitions using 10 leapfrog steps per transition would take 1.38 seconds.
+    ## Chain 1: Gradient evaluation took 0.000135 seconds
+    ## Chain 1: 1000 transitions using 10 leapfrog steps per transition would take 1.35 seconds.
     ## Chain 1: Adjust your expectations accordingly!
     ## Chain 1: 
     ## Chain 1: 
@@ -35604,15 +35607,15 @@ xling_brm_omnibus_no_famtrill_mod_r_revision <- brm(r ~ rough * Trill +
     ## Chain 1: Iteration: 1800 / 2000 [ 90%]  (Sampling)
     ## Chain 1: Iteration: 2000 / 2000 [100%]  (Sampling)
     ## Chain 1: 
-    ## Chain 1:  Elapsed Time: 15.3845 seconds (Warm-up)
-    ## Chain 1:                17.4919 seconds (Sampling)
-    ## Chain 1:                32.8764 seconds (Total)
+    ## Chain 1:  Elapsed Time: 15.0297 seconds (Warm-up)
+    ## Chain 1:                15.7301 seconds (Sampling)
+    ## Chain 1:                30.7599 seconds (Total)
     ## Chain 1: 
     ## 
     ## SAMPLING FOR MODEL '539589b4452b76fc86c065b4d26678a5' NOW (CHAIN 2).
     ## Chain 2: 
-    ## Chain 2: Gradient evaluation took 0.000122 seconds
-    ## Chain 2: 1000 transitions using 10 leapfrog steps per transition would take 1.22 seconds.
+    ## Chain 2: Gradient evaluation took 0.00013 seconds
+    ## Chain 2: 1000 transitions using 10 leapfrog steps per transition would take 1.3 seconds.
     ## Chain 2: Adjust your expectations accordingly!
     ## Chain 2: 
     ## Chain 2: 
@@ -35629,15 +35632,15 @@ xling_brm_omnibus_no_famtrill_mod_r_revision <- brm(r ~ rough * Trill +
     ## Chain 2: Iteration: 1800 / 2000 [ 90%]  (Sampling)
     ## Chain 2: Iteration: 2000 / 2000 [100%]  (Sampling)
     ## Chain 2: 
-    ## Chain 2:  Elapsed Time: 17.6732 seconds (Warm-up)
-    ## Chain 2:                16.5988 seconds (Sampling)
-    ## Chain 2:                34.272 seconds (Total)
+    ## Chain 2:  Elapsed Time: 17.3874 seconds (Warm-up)
+    ## Chain 2:                15.4044 seconds (Sampling)
+    ## Chain 2:                32.7918 seconds (Total)
     ## Chain 2: 
     ## 
     ## SAMPLING FOR MODEL '539589b4452b76fc86c065b4d26678a5' NOW (CHAIN 3).
     ## Chain 3: 
-    ## Chain 3: Gradient evaluation took 0.000122 seconds
-    ## Chain 3: 1000 transitions using 10 leapfrog steps per transition would take 1.22 seconds.
+    ## Chain 3: Gradient evaluation took 0.000128 seconds
+    ## Chain 3: 1000 transitions using 10 leapfrog steps per transition would take 1.28 seconds.
     ## Chain 3: Adjust your expectations accordingly!
     ## Chain 3: 
     ## Chain 3: 
@@ -35654,15 +35657,15 @@ xling_brm_omnibus_no_famtrill_mod_r_revision <- brm(r ~ rough * Trill +
     ## Chain 3: Iteration: 1800 / 2000 [ 90%]  (Sampling)
     ## Chain 3: Iteration: 2000 / 2000 [100%]  (Sampling)
     ## Chain 3: 
-    ## Chain 3:  Elapsed Time: 14.7159 seconds (Warm-up)
-    ## Chain 3:                13.6652 seconds (Sampling)
-    ## Chain 3:                28.381 seconds (Total)
+    ## Chain 3:  Elapsed Time: 13.8278 seconds (Warm-up)
+    ## Chain 3:                13.2376 seconds (Sampling)
+    ## Chain 3:                27.0653 seconds (Total)
     ## Chain 3: 
     ## 
     ## SAMPLING FOR MODEL '539589b4452b76fc86c065b4d26678a5' NOW (CHAIN 4).
     ## Chain 4: 
-    ## Chain 4: Gradient evaluation took 0.000122 seconds
-    ## Chain 4: 1000 transitions using 10 leapfrog steps per transition would take 1.22 seconds.
+    ## Chain 4: Gradient evaluation took 0.000128 seconds
+    ## Chain 4: 1000 transitions using 10 leapfrog steps per transition would take 1.28 seconds.
     ## Chain 4: Adjust your expectations accordingly!
     ## Chain 4: 
     ## Chain 4: 
@@ -35679,9 +35682,9 @@ xling_brm_omnibus_no_famtrill_mod_r_revision <- brm(r ~ rough * Trill +
     ## Chain 4: Iteration: 1800 / 2000 [ 90%]  (Sampling)
     ## Chain 4: Iteration: 2000 / 2000 [100%]  (Sampling)
     ## Chain 4: 
-    ## Chain 4:  Elapsed Time: 17.4527 seconds (Warm-up)
-    ## Chain 4:                16.2148 seconds (Sampling)
-    ## Chain 4:                33.6675 seconds (Total)
+    ## Chain 4:  Elapsed Time: 15.8937 seconds (Warm-up)
+    ## Chain 4:                15.0531 seconds (Sampling)
+    ## Chain 4:                30.9469 seconds (Total)
     ## Chain 4:
 
 ``` r
@@ -35969,3 +35972,66 @@ cercles est proportionnelle au nombre de langues par famille. Les points
 gris sont les prédictions des modèles avec les intervalles plausibles
 bayésien à
 95%.](Script_Chapitre_5_files/figure-gfm/unnamed-chunk-1031-1.png)
+
+# Références
+
+## Packages utilisés
+
+``` r
+ins.pack <- installed.packages()[names(sessionInfo()$otherPkgs), "Version"] %>% 
+  as.data.frame() %>% tibble::rownames_to_column()
+names(ins.pack)[1] <- "Packages"
+names(ins.pack)[2] <- "Version"
+
+ins.pack %>% knitr::kable()
+```
+
+| Packages   | Version |
+| :--------- | :------ |
+| forcats    | 0.5.1   |
+| stringr    | 1.4.1   |
+| dplyr      | 1.0.10  |
+| purrr      | 0.3.5   |
+| tidyr      | 1.2.1   |
+| tibble     | 3.1.8   |
+| tidyverse  | 1.3.0   |
+| brms       | 2.17.0  |
+| Rcpp       | 1.0.8.3 |
+| ggalluvial | 0.12.3  |
+| ggplot2    | 3.4.0   |
+| readr      | 2.1.2   |
+| knitr      | 1.41    |
+
+## Version de RStudio
+
+``` r
+rstudioapi::versionInfo()
+```
+
+    ## $citation
+    ## 
+    ## To cite RStudio in publications use:
+    ## 
+    ##   RStudio Team (2020). RStudio: Integrated Development Environment for
+    ##   R. RStudio, PBC, Boston, MA URL http://www.rstudio.com/.
+    ## 
+    ## A BibTeX entry for LaTeX users is
+    ## 
+    ##   @Manual{,
+    ##     title = {RStudio: Integrated Development Environment for R},
+    ##     author = {{RStudio Team}},
+    ##     organization = {RStudio, PBC},
+    ##     address = {Boston, MA},
+    ##     year = {2020},
+    ##     url = {http://www.rstudio.com/},
+    ##   }
+    ## 
+    ## 
+    ## $mode
+    ## [1] "desktop"
+    ## 
+    ## $version
+    ## [1] '1.3.1073'
+    ## 
+    ## $release_name
+    ## [1] "Giant Goldenrod"

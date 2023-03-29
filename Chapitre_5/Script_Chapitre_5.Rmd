@@ -21959,5 +21959,19 @@ ggplot2::ggplot(data = r_per_family_revision, aes(x = Meaning.f, y = perc_r)) +
 
 ```
 
+# Références
 
+## Packages utilisés
+```{r}
+ins.pack <- installed.packages()[names(sessionInfo()$otherPkgs), "Version"] %>% 
+  as.data.frame() %>% tibble::rownames_to_column()
+names(ins.pack)[1] <- "Packages"
+names(ins.pack)[2] <- "Version"
 
+ins.pack %>% knitr::kable()
+```
+
+## Version de RStudio
+```{r}
+rstudioapi::versionInfo()
+```

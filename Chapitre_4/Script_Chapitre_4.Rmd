@@ -1304,6 +1304,53 @@ readr::read_csv("table/productions_trill_mapudungun.csv") %>%
   knitr::kable()
 ```
 
+
+# Bonus : Graphe complet
+
+
+```{r}
+europe_three <- readr::read_csv("Data_graphes/europe_three.csv") %>% 
+  dplyr::mutate(target = ifelse((source!=target & source != "<r>") | (source==target & source != "<r>"),
+                            paste0("[",target,"]"),target)) %>% 
+  dplyr::mutate(nb = ifelse(is.na(nb),1,nb))
+
+romance_rhotics <- readr::read_csv("Data_graphes/romance_rhotics.csv", col_names = FALSE) %>% 
+  dplyr::mutate(X2 = ifelse((X1!=X2 & X1 != "<r>") | (X1==X2 & X1 != "<r>"),
+                            paste0("[",X2,"]"),X2)) %>% 
+  dplyr::rename(source=X1,target=X2)
+
+slavic_rhotics <- readr::read_csv("Data_graphes/slavic_rhotics.csv", col_names = FALSE) %>% 
+  dplyr::mutate(X2 = ifelse((X1!=X2 & X1 != "<r>") | (X1==X2 & X1 != "<r>"),
+                            paste0("[",X2,"]"),X2)) %>% 
+  dplyr::rename(source=X1,target=X2)
+
+germanic_rhotics <- readr::read_csv("Data_graphes/germanic_rhotics.csv", col_names = FALSE) %>% 
+  dplyr::mutate(X2 = ifelse((X1!=X2 & X1 != "<r>") | (X1==X2 & X1 != "<r>"),
+                            paste0("[",X2,"]"),X2)) %>% 
+  dplyr::rename(source=X1,target=X2)
+
+mapu_rhotics <- readr::read_csv("Data_graphes/mapu_rhotics.csv", col_names = FALSE) %>% 
+  dplyr::mutate(X2 = ifelse((X1!=X2 & X1 != "<r>") | (X1==X2 & X1 != "<r>"),
+                            paste0("[",X2,"]"),X2)) %>% 
+  dplyr::rename(source=X1,target=X2)
+
+dplyr::bind_rows(europe_three,romance_rhotics,slavic_rhotics,germanic_rhotics,mapu_rhotics) -> data_rhotics
+
+GRAPH_rhotics <- igraph::graph.data.frame(data_rhotics,directed = FALSE)
+GRAPH_rhotics <- igraph::simplify(GRAPH_rhotics, remove.loops = TRUE)
+```
+
+```{r fig.width=10, fig.height=10}
+plot(GRAPH_rhotics,
+       vertex.shape="none",
+       vertex.label.color="black",
+       vertex.label.cex=2,
+       vertex.size = 2,
+       edge.arrow.size=0.20,
+       edge.curved = 0.2)
+```
+
+
 # Références
 
 ## Packages utilisés
@@ -1320,3 +1367,4 @@ ins.pack %>% knitr::kable()
 ```{r}
 rstudioapi::versionInfo()
 ```
+
