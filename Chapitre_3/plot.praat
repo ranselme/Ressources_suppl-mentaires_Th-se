@@ -1,4 +1,4 @@
-#Ceci est une version modifiée du script de Stefano Coretta s
+#Ceci est une version modifiée du script de Stefano Coretta
 #L'original est trouvable dans le package speakr version 3.2.1
 #Ou sur son GitHub : https://github.com/stefanocoretta/speakr/blob/main/inst/extdata/plot.praat
 #J'en profite pour le remercier lui et les personnes qui ont bossé sur speakr ! 
