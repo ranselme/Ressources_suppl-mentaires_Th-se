@@ -1,14 +1,15 @@
 Ressources supplémentaires pour la thèse de Rémi Anselme
 ================
 
-Ceci est le dossier GitHub qui contient toutes les ressources pour la thèse de Rémi Anselme *Représentation du trill en typologie : de l'acoustique à l'inventaire phonémique* qui est disponible sur **LIEN A RAJOUTER ULTÉRIEUREMENT**.
+Ceci est le dossier GitHub qui contient toutes les ressources pour la thèse de Rémi Anselme *Représentation du trill en typologie : de l'acoustique à l'inventaire phonémique* qui est disponible sur <https://doi.org/10.1017/S0025100322000238>.
 
 
 ## Arboresence
 
     ## .
     ## ├── Chapitre 1
-    ## │   └── Scripts
+    ## │   ├── Script_Chapitre_1 (Fichiers R Mardown et Markdown)
+    ## │   └── Images en format PNG    
     ## ├── Chapitre 2
     ## │   └── Lien vers les Supplementary Materials
     ## ├── Chapitre 3
