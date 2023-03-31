@@ -1,0 +1,333 @@
+	Language	ISO_code	Phoible_code	R_type	revision	Phonology
+1	Azeerbaijani	aze	azj	no trill	trilled	gemination; position; flap; fricative; approximant; elision; vibrant; sonant; trill
+2	Estonian	est	est	NA	trilled	trill; palatalization; devoising; gradation
+3	Basque	eus	eus	mixed with trill	OUT	flap; trill; neutralization; initial; restriction; approximant; fricative; flapping; rhotic; alternation; palatalization
+4	Finnish	fin	fin	trill	trilled	rhotic; trill; tap; position; gemination; fricative; uvular; approximant; restriction
+5	Haitian Creole	hat	hat	NA	OUT	fricative
+6	Indonesian	ind	ind	trill	trilled	flap; trill; position; elision; alternation; approximant; variation; prothetic
+7	Hebrew	heb	heb	no rhotic	trilled	uvular; trill; rarity; flap; approximant; fricative
+8	Georgian	kat	kat	trill	trilled	flap; elision; devoising; sonant; trill
+9	Kazakh	kaz	kaz	NA	trilled	flap; trill; position; tap; prothetic; liquid 
+10	Mongolian	mon	khk	trill	trilled	vibrant; palatalization; flap; fricative; variation; trill; roll; restriction; initial; prothetic
+11	Malay	mly	zsm	trill	trilled	trill; tap; position; variation; emphatic; uvular; fricative; approximant
+12	Maltese	mlt	mlt	trill	trilled	trill; gemination; resonant; alternation; variation; position
+13	Sundanese	sun	sun	no trill	trilled	liquid; flap; trill; contrast
+14	Tagalog (Filipino)	tgl	tgl	no trill	trilled	tap; trill; emphatic; contrast; alternation; rhotic; variation; approximant
+15	Turkish	tur	tur	trill	other	tap; elision; gemination; restriction; initial; roll; devoising
+16	Uzbek	uzb	uzn	no trill	other	sonant; flap; palatalization; gemination; assimilation; epenthetic; liquid
+17	Vietnamese	vie	vie	no rhotic	OUT	flap; trill; fricative; rhotic; lateral; retroflex
+18	Pitta-Pitta	pit	pit	trill	OUT	rhotic; flap; trill; retroflex; approximant; initial
+19	Wangkayutyuru	wnm	wnm	no trill	OUT	rhotic; flap; trill; retroflex; approximant; initial
+20	Gupapuyngu	guf	guf	trill	other	tap; retroflex; approximant; flapping
+21	Ritharrngu	rit	rit	trill	other	rhotic; flap; retroflex; approximant; hardening; alternation
+22	Djinang	dji	dji	NA	OUT	rhotic; trill; retroflex; approximant; contrast; flap; variation; gemination; sonorant
+23	Adnyamathanha	adt	adt	NA	OUT	flap; trill; approximant; retroflex
+24	Woiwurrung	wyi	wyi	trill	NA	NA
+25	Yugambeh	yub	yub	NA	other	resonant; trill; flap; retroflex; continuant; vibrant; contrast; initial; restriction; rhotic
+26	Buwandik	xbg	xbg	NA	other	rhotic; flap; trill; glide; initial; restriction
+27	Wulguru	qgu	qgu	no trill	OUT	rhotic; trill; approximant; initial; restriction
+28	Awabakal	awk	awk	NA	OUT	trill; roll; continuant; initial; restriction
+29	Bidjara-Gungabula	gyy	gyy	NA	other	trill; glide; tap; retroflex; initial; restriction; devoising; variation
+30	Ng'goi Mwoi	NA	NA	trill	NA	NA
+31	Jiwarli	djl	djl	NA	OUT	glide; flap; roll
+32	Yidiny	yii	yii	mixed with trill	OUT	trill; rhotic; retroflex; continuant; tap
+33	Warrnambool	gjm	gjm	no trill	OUT	trill; flap; glide; initial; restriction
+34	Yuwaaliyaay	kld	kld	NA	OUT	tap; rhotic; retroflex; trill; approximant; initial; restriction; variation; lateral; glide; emphatic; elision; alternation
+35	Gamilaraay	kld	kld	NA	OUT	tap; rhotic; retroflex; trill; approximant; initial; restriction; variation; lateral; glide; emphatic; elision; alternation
+36	Yuwaalaraay	kld	kld	NA	OUT	tap; rhotic; retroflex; trill; approximant; initial; restriction; variation; lateral; glide; emphatic; elision; alternation; flap; contrast
+37	Bardi	bcj	bcj	mixed with trill	OUT	rhotic; sonorant; retroflex; trill; glide; contrast; tap; palatalization; variation; initial; restriction
+38	Guugu-Yimidhirr	kky	kky	NA	OUT	rhotic; flap; trill; emphatic; retroflex; contrast; initial; restriction; elision; glide
+39	Burarra	bvr	bvr	no trill	OUT	flap; vocoid; contrast; retroflex; trill; hardening
+40	Djapu	duj	duj	mixed with trill	OUT	liquid; rhotic; flap; tap; trill; retroflex; continuant; initial; restriction
+41	Bandjalang	bdy	bdy	trill	trilled	flap; approximant; trill; resonant; continuant; position
+42	Gbaya	gbp	gbp	no trill	other	flap; continuant; trill; devoising; variation; lateral
+43	Maʼdi	mhi	mhi	trill	trilled	roll; flap; retroflex; gemination; trill; contrast; labialization
+44	Timne	tem	tem	trill	trilled	roll; variation; position; neutralization; trill; liquid
+45	Kabiyè	kbp	kbp	trill	OUT	trill; tap; position; vibrant; devoising; hardening
+46	Mandinka	mnk	mnk	trill	trilled	initial; restriction; vibrant; alternation
+47	Lezgian	lez	NA	trill	trilled	liquid; position; devoising; sonorant; elision; trembling
+48	Abkhaz	abk	NA	trill	trilled	resonant; hardening; trill; roll; tap
+49	Laz	lzz	lzz	no trill	other	semivowel; approximant; elision; alternation; epenthetic; assimilation; dissimilation
+50	Megrelian	xmf	xmf	trill	trilled	tap; trill
+51	Kamayurá	kay	kay	no trill	other	sonorant; vibrant; tap; nasalization; contrast; initial; restriction; alternation; devoising; flap
+52	Chepang	cdm	cdm	trill	other	trill; flap; liquid; devoising; position
+53	Gurung	ggn; gvr	NA	trill	trilled	trill; position
+54	Sunwar	klr	NA	trill	NA	NA
+55	Magar	mgp	NA	no trill	other	rhotic; devoising; approximant; contrast; prothetic; tap; flapping; initial
+56	Sunwar	suz	NA	trill	other	flap; position; trill
+57	Tamang (Sahu)	taj	taj	trill	other	trill; retroflex; continuant; flap
+58	Bambara	bam	bam	no trill	other	tap; contrast; prothetic
+59	Bangime	dba	NA	no trill	other	sonorant; nasalization; tap; approximant; initial; restriction
+60	Bunoge	dgb	NA	no trill	other	liquid; tap; sonorant; nasalization; gemination; assimilation; hardening
+61	Fulfulde	ffm	ffm	trill	trilled	vibrant
+62	Jamsay	djm	djm	trill	OUT	sonorant; nasalization; initial; restriction; trill; contrast; metathesis; rhotic; dissimilation; assimilation; alternation
+63	Tebul_Ure	dtu	NA	trill	NA	trill; sonorant; nasalization; alternation; assimilation
+64	Togo_Kan	dtm	NA	no trill	other	tap; nasalization; rhotic; sonorant
+65	Tommo_So	dto	NA	no trill	other	initial; restriction; contrast; tap; gemination; dissimilation; alternation; epenthetic; sonorant
+66	Songhai_Kiini	khq	khq	trill	other	tap; assimilation
+67	Kamsá	kbh	kbh	no trill	other	vibrant; contrast; position; flap; liquid; fricative; retroflex
+68	Achagua	aca	aca	no trill	other	fricative; vibrant; contrast; lateral; flap; initial
+69	Awa	kwi	kwi	no trill	OUT	position; vibrant; contrast; flap; initial; restriction
+70	Bora	boa	boa	no trill	other	resonant; palatalization; flap; position
+71	Barí	mot	mot	trill	trilled	vibrant; flap; nasalization; trill; restriction
+72	Bará	bao	bao	no trill	other	flap; nasalization; lateral; position
+73	Guahibo	guh	guh	trill	other	fricative; retroflex; trill; flap; variation
+74	Barasana	bsn	bsn	no trill	other	flap; nasalization
+75	Guambiano	gum	gum	no trill	other	vibrant; neutralization; fricative; assimilation; initial; restriction; trill; position
+76	Macuna	myy	myy	no trill	other	vibrant; contrast; nasalization; lateral; flap; position
+77	Chimila	cbg	cbg	no trill	other	flap
+78	Guayabero	guo	guo	no trill	other	liquid; vibrant; contrast; flap; palatalization; trill; devoising
+79	Carapana	cbc	cbc	trill	other	vibrant; nasalization; lateral; position; flap
+80	Curripaco	kpc	kpc	no trill	other	tap; aspiration; trill; retroflex; fricative; sonant; vibrant; flap; lateral; approximant
+81	Ika	arh	arh	no trill	other	flap; hardening; denasalization; vibrant
+82	Catío	cto	cto	trill	OUT	vibrant; prothetic; initial; restriction
+83	Cubeo	cub	cub	no trill	other	flap; nasalization; lateral; position; contrast; hardening; tap; initial; restriction; neutralization; sonorant; alternation; vibrant; variation
+84	Muinane	bmr	bmr	no trill	trilled	trill; palatalization; vibrante; resonant
+85	Inga	inb	inb	no trill	other	vibrant; epenthetic; retroflex; trill; flap; position
+86	Nukak	mbr	mbr	no trill	other	vibrant; contrast; nasalization; lateral; flap; tap
+87	Jitnu	mbn	mbn	no trill	trilled	vibrant; tap; trill; position; contrast
+88	Koreguaje	coe	coe	no trill	other	vibrant; continuant; contrast; labialization; retroflex; position
+89	Páez	pbb	pbb	no trill	OUT	vibrant; lateral; palatalization
+90	Witoto Mi̵ni̵ca	hto	hto	no trill	other	vibrant; contrast
+91	Witoto Ni̵pode	hux	NA	no trill	other	vibrant; contrast
+92	Piratapuyo	pir	pir	no trill	other	vibrant; initial; restriction; contrast; lateral; nasalization; flap; hardening
+93	Playero	gob	NA	trill	other	fricative; retroflex; trill; flap; variation
+94	Witoto Murui	huu	huu	no trill	other	flap; position; contrast
+95	Ocaina	oca	oca	no trill	other	flap; initial; restriction
+96	Siriano	sri	sri	no trill	other	continuant; contrast; nasalization; flap; lateral; position; vibrant
+97	Tatuyo	tav	tav	no trill	other	vibrant; contrast; flap; retroflex; variation; nasalization
+98	Tucano	tuo	tuo	no trill	other	vibrant; contrast; nasalization; lateral; initial; restriction; flap; 
+99	Tanimuca	tnc	tnc	no trill	other	continuant; vibrant; nasalization; contrast
+100	Tunebo Central	tuf	tuf	trill	other	plosive; dissimilation
+101	Tariano	tae	tae	no trill	other	flap; liquid; initial; restriction; hardening; alternation; dissimilation
+102	Totoró	ttk	NA	trill	other	trill; tap; position
+103	Tuyuca	tue	tue	no trill	other	vibrant; contrast; nasalization; lateral; position; initial; restriction
+104	Wanano	gvc	gvc	no trill	other	flap; nasalization; alternation; initial; restriction; position; variation
+105	Yucuna	ycn	ycn	no trill	other	flap; lateral; tap; aspiration; initial; elision; approximant
+106	Yukpa	yup	yup	no trill	other	flap; contrast; sonorant; continuant; position; trill; lateral; uvular; variation; vibrant
+107	Yurutí	yui	yui	no trill	other	vibrant; liquid; contrast; flap
+108	Andi	ani	NA	trill	NA	sonorant; gemination
+109	Akhvakh (Northern dialect)	akv	NA	trill	NA	sonorant; neutralization
+110	Karata	kpt	NA	trill	NA	sonorant
+111	Khwarshi (Khwarshi dialect)	khv	NA	trill	NA	resonant; liquid
+112	Hinuq	gin	NA	trill	NA	liquid; geminate
+113	Chamalal	cji	NA	trill	NA	sonorant; liquid
+114	Hunzib	huz	NA	trill	NA	resonant; contrast; variation; position
+115	Lak	lbe	lbe	trill	NA	dissimilation; alternation; assimilation; liquid; approximant
+116	Dargwa	dar	NA	trill	NA	sonorant; liquid; gemination; assimilation; alternation; position
+117	Aghul	agx	NA	trill	NA	sonorant; dissimilation
+118	Rutul	rut	rut	trill	trilled	sonorant; trembling; elision; trill
+119	Tabasaran (Southern dialect)	tab	NA	trill	NA	sonorant
+120	Khinalug	kjj	NA	trill	trilled	sonorant; trill
+121	Tsakhur	tkr	NA	trill	NA	liquid; initial; restriction
+122	Kumyk	kum	NA	trill	trilled	trembling; sonorant; trill; tap; restriction; initial; elision; metathesis; prothetic
+123	Chechen	che	che	trill	other	resonant; liquid; devoising; assimilation; gemination
+124	Udi	udi	NA	trill	NA	liquid; sonorant; prothetic; initial; restriction; assimilation
+125	Avar	ava	ava	no trill	NA	sonant; liquid; sonorant
+126	Erzya Mordvin	myv	myv	NA	trilled	liquid
+127	Khanty	kca	kca	trill	trilled	trill; sonorant; variation; position; trembling
+128	Komi	kpv	kpv	trill	trilled	trembling; sonorant; trill
+129	Northern Saami	sme	sma	trill	trilled	tremulant; devoising; gradation; gemination
+130	Mari	mhr	mhr	no trill	other	flap; palatalization; tremulant
+131	Nenets	yrk	yrk	trill	trilled	liquid; tremulant; palatalization; initial; restriction; gemination; trill; alternation
+132	Selkup	sel	sel	no trill	trilled	trill
+133	Udmurt	udm	udm	NA	trilled	vibrant; trill; initial; restriction
+134	Bezhta	kap	NA	trill	trilled	sonorant; vibrant; alternation; sonant; 
+135	Panare	pbh	pbh	no trill	other	flap; liquid; retroflex; lateral; position; contrast; alternation; hardening
+136	Macushi	mbc	mbc	no trill	other	sonorant; flap; restriction; lateral; tap
+137	De'kwana	mch	mch	no trill	other	flap; hardening; gemination; palatalization; approximant; variation; initial; alternation
+138	Wai Wai	waw	waw	no trill	other	flap; alternation; lateral; palatalization; contrast; position; 
+139	Jamaican Creole (Limonese Creole dialect)	jam	jam	no trill	OUT	approximant
+140	Polci	plj	plj	NA	NA	tap
+141	Nahuatl (Sierra de Zacapoaxtla variety)	azz	ncj	no rhotic	other	vibrant; tap; trill
+142	Chatino (Zacatepec variety)	ctp	ctp	no trill	other	liquid; tap; trill; variation; flap; position
+143	Karok	kyh	kyh	no trill	other	alternation; nasalization; denasalization; flap
+144	Seri	sei	sei	no trill	OUT	tap
+145	Maori	mri	mri	no trill	other	tap; trill; variation; hardening; lateral; liquid; flap
+146	Rapa Nui	rap	rap	NA	other	flap; contrast; liquid
+147	Tongan	ton	ton	no trill	other	flap; lateral; approximant
+148	Tuamotuan	pmt	pmt	NA	trilled	median; flap; devoicing; roll; fricative; variation; position; trill
+149	Muisca	chb	chb	no trill	OUT	vibrant; tap; alternation; retroflex; fricative
+150	Colorado	cof	cof	no trill	other	approximant
+151	Embera	emp	emp	mixed with trill	OUT	flap; trill; alternation
+152	Epena	sja	sja	mixed with trill	OUT	vibrant; trill; tap
+153	Yuwana	yau	yau	no trill	OUT	NA
+154	Yaruro	yae	yae	no trill	other	vibrant; nasalization; position; contrast; tap; initial; restriction
+155	Ninam (Shirishana variety)	shb	shb	no trill	other	liquid; lateral; nasalization
+156	Yanomámi	wca	wca	no trill	other	flap
+157	Cofán	con	con	no trill	other	flap; vibrant; contrast; tap
+158	Aguaruna	agr	agr	no trill	other	flap; alternation; lenition; lateral; trill; rhotic; liquid
+159	Yagua	yad	yad	no trill	other	flap; contrast; retroflex; fricative; alternation; nasalization
+160	Baure	brg	brg	no trill	other	rhotic; flap; retroflex; vibrant; position; devoising; palatalization; contrast
+161	Goajiro	guc	guc	mixed with trill	OUT	trill; lateral; dissimilation; flap; vibrant; contrast; tap
+162	Ignaciano	ign	ign	no trill	other	vibrant; flap; restriction; initial
+163	Wapishana	wap	wap	no trill	other	flap; fricative; retroflex; contrast
+164	Waurá	wau	wau	no trill	other	flap; alternation; tap; position
+165	Aymara	ayr	ayr	no trill	other	liquid; vibrant; initial
+166	Chipaya	cap	cap	no trill	other	flap; devoising; initial; position; retroflex; contrast
+167	Mosetén	cas	cas	no trill	trilled	trill; position; retroflex; flap
+168	Cavineña	cav	cav	no trill	other	liquid; tap; lateral; retroflex; flap; vibrant; contrast
+169	Tacana	tna	tna	no trill	other	NA
+170	Movima	mzp	mzp	no trill	other	flap; vibrant; retroflex; position; hardening
+171	Pacaas Novos	pav	pav	no trill	other	liquid; flap; position; initial; restriction; contrast; tap; hardening; nasalization
+172	Mundurukú	myu	myu	no trill	other	liquid; approximant; initial; restriction; assimilation; nasalization
+173	Aché	guq	guq	no trill	other	tap; sonant; nasalization; initial; restriction; alternation
+174	Chiriguano	gui	gui	no trill	other	vibrant; contrast; nasalization; neutralization; tap; liquid
+175	Wayampi	oym	oym	no trill	OUT	flap; approximant; lateral; retroflex
+176	Kaingáng	kgp	kgp	no trill	other	alternation; tap; approximant; retroflex; vibrant; variation; position
+177	Karajá	kpj	kpj	no trill	other	approximant; flap; syncope; tap
+178	Trumai	tpy	tpy	trill	other	tap
+179	Ayoreo	ayo	ayo	no trill	other	approximant; variation; alternation
+180	Mocoví	moc	moc	no trill	other	liquid; flap; alternation
+181	Tehuelche	teh	teh	trill	trilled	contrast; vibrant; trill; tap; retroflex; position; alternation; position; sonorant
+182	Selknam	ona	ona	no trill	other	tap; alternation; contrast
+183	Qawasqar	alc	alc	no trill	trilled	contrast; tap; vibrant; fricative; approximant; trill
+184	Toba	tob	tob	no trill	OUT	lenition; tap
+185	Central Thai	tha	tha	no trill	trilled	continuant; flap; position; variation; retroflex; trill; sonorant; roll; tap; lateral
+186	Thai	tha	tha	no trill	OUT	continuant; flap; position; variation; retroflex; trill; sonorant; roll; tap; lateral
+187	Southern Kam	doc; kmc	NA	no trill	OUT	NA
+188	Ingush	inh	inh	no trill	trilled	retroflex; tap; trill; devoising; lateral; fricative
+189	Tsova-Tush	bbl	bbl	trill	other	vibrant; palatalization; resonant; liquid; tap; devoising
+190	Khasi	kha	kha	trill	trilled	trill; position; tap; devoising
+191	Tamil	tam	tam	no trill	OUT	tap; approximant; trill; flap; retroflex
+192	Telugu	tel	tel	no trill	OUT	flap; trill; gemination; contrast; tap; position
+193	Tibetan	bod	bod	trill	other	liquid; retroflex; aspiration; tap; flap; trill; emphatic; variation
+194	Bulang	blr	blr	trill	other	liquid; retroflex; approximant; position
+195	Wa	wbm	wbm	trill	other	trill; position; devoising; approximant; median; aspiration; tap
+196	Mlabri	mra	mra	NA	trilled	tap; devoising; trill; liquid; aspiration
+197	Ahlao Th	thm	thm	no trill	ERROR	flap; contrast
+198	Nyakur	cbn	cbn	no trill	NA	NA
+199	Samre	sxm	sxm	no trill	other	approximant; velar; fricative; position; variation; trill
+200	Chong	cog	cog	trill	trilled	trill; variation; approximant; contrast
+201	Surin Khmer	khm	khm	no trill	trilled	retroflex; trill; contrast
+202	Cayapa	cbi	cbi	no trill	other	vibrant; contrast; tap
+203	Trinitario	trn	trn	no trill	other	vibrant; rhotic; tap; lateral; retroflex
+204	Yavitero	yvt	yvt	no trill	other	lateral; tap; devoising
+205	Ese Ejja	ese	ese	no rhotic	OUT	NA
+206	Itonama	ito	ito	no trill	other	flap; vibrant
+207	Sirionó	srq	srq	no trill	other	flap; stop; hardening; contrast; initial; restriction; alternation; fricative
+208	Kunza	kuz	kuz	no trill	NA	vibrant
+209	Angami Kohima	njm	njm	no trill	trilled	retroflex; approximant; devoising; trill; roll; fricative; position; contrast
+210	Dimasa	dis	NA	trill	trilled	liquid; roll; trill; contrast; position; gemination; elision; epenthetic
+211	Jingpho	kac	kac	no trill	NA	liquid; fricative; alternation
+212	Lotha	njh	njh	trill	trilled	trill; position; aspiration
+213	Lushai	lus	lus	no trill	other	flap; plosive; roll; position; retroflex
+214	Maring	mbw	NA	trill	ERROR	trill; flap
+215	Manipuri	mni	mni	trill	OUT	flap; alternation; trill; retroflex; variation; prothetic
+216	Mikir	mjw	mjw	trill	trilled	rhotic; variation; flap; trill; approximant; position; retroflex
+217	Sangtam	nsa	NA	no trill	other	approximant; rhotic; retroflex; position; 
+218	Tangsa (Yogli)	nst	nst	no trill	trilled	rhotic; approximant; position; variation; retroflex; fricative; trill
+219	Mao	nbi	nbi	trill	trilled	liquid; trill; position; heavy
+220	North Karelian	krl	NA	trill	trilled	trembling; sonorant; gemination; alternation; palatalization; vibrant
+221	Veps	vep	NA	trill	trilled	sonorant; trembling; palatalization; contrast; position
+222	Livonian	liv	NA	trill	trilled	liquid; trill; palatalization; vibrant; gemination
+223	Southern Sami	sma	sma	trill	trilled	trembling; roll; sonant; sonorant; position; palatalization; gemination; fricative; devoising
+224	Lule Sami	smj	NA	trill	trilled	NA
+225	Inari Sami	smn	NA	trill	trilled	roll
+226	Skolt Sami	sms	NA	trill	trilled	gemination; trill; position; fricative
+227	Kildin Sami	sjd	NA	trill	trilled	trembling; palatalization; devoising
+228	Hill Mari	mrj	NA	trill	trilled	NA
+229	Moksha	mdf	NA	trill	trilled	vibrant; palatalization; devoising
+230	Komi-Permyak	koi	NA	trill	NA	rhotic; trembling
+231	Forest Enets	enf	NA	trill	trilled	trill; palatalization; initial; restriction; neutralization; constrast; position
+232	Nganasan	nio	nio	trill	trilled	sonant; median; trembling; position; initial; restriction; trill; alternation
+233	Bashkir	bak	bak	trill	trilled	trill; position; palatalization
+234	Tatar	tat	NA	trill	NA	trill
+235	Chuvash	chv	chv	trill	trilled	sonorant; trill; initial; restriction; gemination; palatalization; contrast
+236	Sakha	sah	sah	trill	trilled	trill; flap; position
+237	Kalmyk	xal	NA	trill	trilled	trembling; trill; initial; restriction; uvular
+238	Buryat	bua	NA	trill	trilled	trill; devoising; position; initial; restriction; palatalization
+239	Evenki	evn	NA	trill	trilled	trill; position; initial; restriction; sonant; trembling; alternation; assimilation; metathesis
+240	Manchu	mnc	mnc	trill	other	flap; variation
+241	Nanai	gld	gld	trill	trilled	trill; position; initial; restriction
+242	Northern Yukaghir	ykg	ykg	trill	trilled	roll; trill; vibrant; alternation; variation; retroflex; epenthetic; dissimilation
+243	Southern Yukaghir	yux	yux	trill	trilled	roll; initial; restriction
+244	Itelmen	itl	itl	trill	trilled	trembling; position; sonant; palatalization
+245	Hokkaido Ainu	ain	ain	no trill	other	liquid; flap; position; tap; trill; assimilation; dissimilation
+246	Japanese	jpn	jpn	no trill	other	flap; initial; restriction
+247	Kannada	kan	kan	no trill	trilled	tap; trill; position; gemination; flap
+248	Burushaski	bsk	bsk	no trill	other	initial; restriction; variation; contrast; continuant; approximant; vibrant; retroflex; liquid; position; rhotic; roll
+249	Adyghe	ady	NA	trill	trilled	NA
+250	Abui	abz	NA	trill	trilled	contrast; trill; roll
+251	Blagar	beu	NA	trill	trilled	trill
+252	Kamang	woi	woi	trill	trilled	trill; flap; tap; alternation; contrast; initial; restriction; prothetic; position; variation
+253	Wersing	kvw	NA	trill	trilled	trill; contrast; position; initial; restriction
+254	Kaera	jka	NA	trill	NA	liquid; contrast
+255	Western Pantar	lev	NA	trill	trilled	liquid; position; initial; prothetic
+256	Adang	adn	adn	trill	trilled	trill; contrast; position; trill; initial
+257	Klon	kyo	NA	trill	trilled	rhotic; trill; contrast
+258	Khumi	cnk	NA	trill	trilled	position; trill; aspiration; approximant
+259	Anong	nun	NA	no trill	other	semivowel; fricative; retroflex; elision
+260	Kaman [Miju]	mxj	mxj	trill	other	flap; approximant; retroflex; rhotic
+261	Tsangla (Motuo)	tsj	tsj	no trill	other	flap
+262	Pumi (Taoba)	pmi	NA	no trill	other	approximant; rhotic; trill; contrast; devoising; liquid; tap; alternation; variation
+263	rGyalrong	jya	jya	no trill	other	sonant; contrast; position
+264	Xumi	sxg	NA	no trill	other	approximant; position; prothetic; syllabic; assimilation
+265	Atsi [Zaiwa]	atb	atb	no trill	other	position; syllabic; retroflex; fricative; alternation; variation
+266	'Are'are (1)	alu	NA	no trill	other	tap; contrast; hardening
+267	Anuta	aud	NA	no trill	NA	NA
+268	Arosi (1)	aia	NA	no trill	other	flap
+269	Blablanga	blp	NA	trill	trilled	trill; contrast; rhotic; tap; position; variation
+270	Hoava	hoa	hoa	trill	trilled	trill; liquid; stress
+271	Kia	kji	NA	trill	NA	NA
+272	Kokota	kkk	kkk	no trill	other	sonorant; rhotic; tap; approximant; devoising; assimilation; labialization
+273	Kwara'ae	kwf	NA	no trill	other	flap; liquid; contrast; apocope; syncope; metathesis
+274	Lau North	llu	NA	trill	NA	trill; rhotic; tap
+275	Lavukaleve	lvk	lvk	trill	trilled	liquid; alternation; trill; position; tap; continuant; contrast; variation
+276	Lengo	lgr	NA	trill	NA	NA
+277	Mbilua	blb	blb	trill	trilled	trill; contrast
+278	Mono	mte	NA	trill	other	alternation; tap; hardening; position; assimilation; initial
+279	Nggela	nlg	NA	trill	NA	NA
+280	Oroha	ora	NA	no trill	other	NA
+281	Poleo	tlr	NA	no trill	other	tap
+282	Santa Ana	stn	NA	trill	other	vibrant; flap
+283	Savosavo	svs	svs	trill	trilled	flap; trill; variation; tap; contrast
+284	Tataba	mrn	NA	trill	trilled	trill; devoising; contrast; tap; position; flap; liquid
+285	To'ambaita	mlu	NA	trill	trilled	trill; metathesis
+286	Swahili	swa	swh	trill	trilled	variation; sonant; trill; tap; flap; contrast; position; alternation; variation; uvular; roll; liquid
+287	Iraqw	irk	irk	no trill	trilled	trill; liquid; initial; restriction; elision; lenition
+288	Tarifiyt Berber	rif	rif	trill	OUT	trill; position; syllabic; tap; gemination; prothetic
+289	Archi	aqc	aqc	no trill	trilled	sonorant; position; dissimilation; assimilation; trill
+290	Manange	nmm	nmm	no trill	other	tap; initial; retroflex; fricative; devoising; approximant; contrast; sonorant
+291	Malagasy	mlg	plt	trill	trilled	retroflex; trill; flap; variation; tap; position; fricative; uvular
+292	Yaqui	yaq	yaq	no trill	other	flap; liquid; prothetic; contrast; elision
+293	Zinacantán Tzotzil	tzo	tzo	trill	other	rhotic; restriction; flap; variation
+294	Otomi	ote	ote	no trill	other	flap; trill; vibrant
+295	Kali'na	car	car	no trill	other	liquid; tap; flap; lateral; palatalization
+296	Bunak, Bobonaro	bfn	NA	trill	trilled	liquid; trill; contrast; position; variation; rhotic; alternation; dissimilation; initial
+297	Dela	row	NA	trill	trilled	variation; vibrant; trembling; position
+298	Dhao	nfa	NA	trill	trilled	trill; contrast
+299	Ende	end	NA	trill	OUT	flap; trill; approximant; contrast; variation; rhotic
+300	Fataluku	ddg	NA	trill	trilled	trill; contrast; tap; liquid; position; vibrant; hardening
+301	Kabola, Monbang	klz	NA	trill	trilled	trill; contrast; position
+302	Kedang, Leubatang	ksx	NA	trill	trilled	vibrant; getar; contrast
+303	Keo, Udiworowatu	xxk	xxk	trill	NA	rhotic; contrast
+304	Kotos Amarasi	aaz	NA	trill	trilled	trill; tap; prothetic; initial; variation
+305	Adonara Lamaholot	slp	NA	trill	trilled	trill; liquid; contrast; alternation; variation; gemination
+306	Central Lembata, Kalikasa	lvu	NA	trill	trilled	trill
+307	Lio	ljl	NA	trill	trilled	trill; contrast; rhotic; variation; tap; continuant; epenthetic
+308	Makasae	mkz	NA	no trill	trilled	vibrant; tap; trill; alternation; flap; position
+309	Ngadha	nxg	nxg	no trill	trilled	tap; trill; emphatic; rhotic
+310	Sawila	tpg; swt	NA	trill	trilled	trill; contrast; initial; restriction; contrast; position
+311	Hawu, Seba	hvn	NA	trill	trilled	trill; flap; liquid; contrast; elision
+312	Tetun, Suai	tdt	NA	trill	trilled	trill; flap; tap; alternation; variation; position; tapped
+313	Wetan	lex	NA	trill	trilled	trill; epenthetic; syllabic; flap; position; contrast; gemination
+314	Kalamang	kgv	NA	trill	trilled	trill; tap; position; alternation; contrast; lenition
+315	Dadu'a	ilu	NA	trill	trilled	trill; position; flap
+316	Kambera	xbr	xbr	trill	NA	rhotic; liquid
+317	Batuley	bay	NA	trill	trilled	trill; liquid; contrast; position
+318	South Mambae, Letefoho	mgm	NA	trill	trilled	vibrant; trill; tap; position; contrast; elision
+319	Muna	mnb	mnb	trill	trilled	trill; contrast; variation
+320	Tukang Besi, Binongko	bhq	NA	trill	trilled	trill; position; neutralization; sonorant; tap; contrast; retroflex; approximant
+321	Hatam	had	NA	no trill	other	liquid; flap; lateral; variation; position; contrast
+322	Meyah	mej	NA	trill	NA	liquid; variation; lateral; approximant; position; contrast
+323	Wolio	wlo	NA	trill	trilled	contrast; trill; uvular
+324	Buru	mhs	NA	trill	trilled	trill; flap; tap; position
+325	Dobel	kvo	NA	trill	trilled	trill; vibrant; roll; position; contrast
+326	Irarutu	irh	irh	no trill	other	flap; vibrant; prothetic; trill; alternation; devoising; tap; approximant; contrast; position; rhotic; emphatic; elision
+327	Moskona	mtj	NA	no trill	other	flap; position; devoising; alternation; contrast
+328	Maybrat	ayz	ayz	trill	trilled	position; trill; tap; variation; contrast; epenthetic; alternation
+329	Biak	bhw	bhw	trill	trilled	trill; flap; hardening; contrast; alternation; variation
+330	Alorese, Baranusa	aol	NA	trill	trilled	trill; gemination
+331	Galolen	gal	NA	trill	trilled	trill; contrast
+332	Lamboya	lmy	NA	trill	trilled	trill; contrast
