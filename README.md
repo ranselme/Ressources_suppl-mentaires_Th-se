@@ -7,7 +7,7 @@ Ceci est le dossier GitHub qui contient toutes les ressources pour la thèse de 
 ## Arboresence
 
     ## .
-    ## ├── Chapitre 1
+    ## ├── **Chapitre 1**
     ## │   ├── Script_Chapitre_1 (Fichiers R Mardown et Markdown)
     ## │   └── Images en format PNG
     ## ├── Chapitre 2
