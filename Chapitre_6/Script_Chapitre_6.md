@@ -1,7 +1,7 @@
 Ressources complémentaires - Chapitre 6
 ================
 Rémi Anselme
-2023-03-31 17:22:24
+2023-04-04 18:26:31
 
   - [Chapitre 6](#chapitre-6)
       - [TRILL vs. OTHER dans les
@@ -12,6 +12,10 @@ Rémi Anselme
             rhotiques](#exemples-de-processus-phonologiques-associés-aux-rhotiques)
               - [Exemple n°1 : Rhotiques et
                 palatalisation](#exemple-n1--rhotiques-et-palatalisation)
+              - [Exemple n°2 : Rhotiques et
+                nasalisation](#exemple-n2--rhotiques-et-nasalisation)
+              - [Exemple n°3 : Rhotiques et contraste de
+                longueur](#exemple-n3--rhotiques-et-contraste-de-longueur)
 
 # Chapitre 6
 
@@ -183,7 +187,7 @@ igraph::V(data2plotgraph_1)$color <- colrs[as.factor(igraph::V(data2plotgraph_1)
 
 igraph::V(data2plotgraph_1)$size <- igraph::V(data2plotgraph_1)$audience.size*4.5
 
-# play with different values of `k` until you get a reasonable looking graph
+# play with different values of k until you get a reasonable looking graph
 k = 15
 ```
 
@@ -589,117 +593,376 @@ dplyr::full_join(phoible_palatalization,gramm_palatalization) %>%
     ## Joining, by = c("Latitude", "Longitude", "revision")
 
 ``` r
+full_data_palatalization$Value <- factor(full_data_palatalization$Value,levels = c("Phoible","Grammars"))
+
 phoible %>% 
   dplyr::filter(stringr::str_detect(Phoneme,"ʲ")|stringr::str_detect(Allophones,"ʲ")) %>% 
   dplyr::filter(stringr::str_detect(Phoneme,"ɽ|ɾ|r|ɻ")) %>% 
   dplyr::mutate(revision = ifelse(stringr::str_detect(Phoneme,"r"),"trilled","other")) %>% 
-  dplyr::filter(stringr::str_detect(Phoneme,"rʲ|r̥ʲ")==TRUE) %>% 
-  dplyr::filter(family_id != "indo1319") -> table_pala_trill
+  dplyr::filter(stringr::str_detect(Phoneme,"ʲ")==TRUE & stringr::str_detect(Phoneme,"r")==TRUE)  %>% 
+  dplyr::filter(family_id != "indo1319")  -> table_pala_trill
 
-length(unique(table_pala_trill$InventoryID))
-```
-
-    ## [1] 25
-
-``` r
 phoible %>% 
   dplyr::filter(stringr::str_detect(Phoneme,"ʲ")|stringr::str_detect(Allophones,"ʲ")) %>% 
   dplyr::filter(stringr::str_detect(Phoneme,"ɽ|ɾ|r|ɻ")) %>% 
   dplyr::mutate(revision = ifelse(stringr::str_detect(Phoneme,"r"),"trilled","other")) %>% 
   dplyr::filter(stringr::str_detect(Phoneme,"ʲ")==TRUE & stringr::str_detect(Phoneme,"r")==FALSE)  %>% 
-  dplyr::filter(family_id != "indo1319") %>% 
-  #dplyr::select(family_id,InventoryID) %>% dplyr::distinct() %>% 
-  #dplyr::select(family_id) %>%  table()
-  dplyr::filter(family_id == "atla1278")
+  dplyr::filter(family_id != "indo1319")  -> table_pala_other
 ```
 
-    ##   InventoryID Glottocode ISO6393 LanguageName SpecificDialect
-    ## 1         143   nucl1417     ibo         Igbo            <NA>
-    ## 2         365   nucl1417     ibo         IGBO            <NA>
-    ## 3         852   fwee1238     fwe          Fwe            <NA>
-    ## 4         853   yeyi1239     yey         Yeyi            <NA>
-    ## 5        1202   subi1246     sbs       Subiya            <NA>
-    ## 6        1203   tote1238     ttl       Totela            <NA>
-    ## 7        1533   eten1239     etx         Iten            <NA>
-    ## 8        1533   eten1239     etx         Iten            <NA>
-    ## 9        1537   irig1241     iri        Rigwe            <NA>
-    ##                         GlyphID Phoneme Allophones Marginal SegmentClass Source
-    ## 1                     027E+02B2      ɾʲ      ɾʲ ɾ̃ʲ     <NA>    consonant    spa
-    ## 2 027E+032A+02B2+007C+027E+02B2   ɾ̪ʲ|ɾʲ       <NA>    FALSE    consonant  upsid
-    ## 3                     027B+02B2      ɻʲ         ɻʲ    FALSE    consonant     ph
-    ## 4                     027B+02B2      ɻʲ         ɻʲ    FALSE    consonant     ph
-    ## 5                     027B+02B2      ɻʲ         ɻʲ    FALSE    consonant     ph
-    ## 6                     027B+02B2      ɻʲ         ɻʲ    FALSE    consonant     ph
-    ## 7                     027E+02B2      ɾʲ         ɾʲ    FALSE    consonant     gm
-    ## 8                027E+02B7+02B2     ɾʷʲ        ɾʷʲ    FALSE    consonant     gm
-    ## 9                     027E+02B2      ɾʲ         ɾʲ    FALSE    consonant     gm
-    ##   tone stress syllabic short long consonantal sonorant continuant
-    ## 1    0      -        -     -    -           +        +          +
-    ## 2    0      -        -     -    -           +        +          +
-    ## 3    0      -        -     -    -           +        +          +
-    ## 4    0      -        -     -    -           +        +          +
-    ## 5    0      -        -     -    -           +        +          +
-    ## 6    0      -        -     -    -           +        +          +
-    ## 7    0      -        -     -    -           +        +          +
-    ## 8    0      -        -     -    -           +        +          +
-    ## 9    0      -        -     -    -           +        +          +
-    ##   delayedRelease approximant tap trill nasal lateral labial round labiodental
-    ## 1              0           +   +     -     -       -      -     0           0
-    ## 2              0           +   +     -     -       -      -     0           0
-    ## 3              0           +   -     -     -       -      -     0           0
-    ## 4              0           +   -     -     -       -      -     0           0
-    ## 5              0           +   -     -     -       -      -     0           0
-    ## 6              0           +   -     -     -       -      -     0           0
-    ## 7              0           +   +     -     -       -      -     0           0
-    ## 8              0           +   +     -     -       -      +     +           -
-    ## 9              0           +   +     -     -       -      -     0           0
-    ##   coronal anterior distributed strident dorsal high low front back tense
-    ## 1       +        +           -        -      +    +   -     +    -     0
-    ## 2       +        +           0        -      +    +   -     +    -     0
-    ## 3       +        -           -        -      +    +   -     +    -     0
-    ## 4       +        -           -        -      +    +   -     +    -     0
-    ## 5       +        -           -        -      +    +   -     +    -     0
-    ## 6       +        -           -        -      +    +   -     +    -     0
-    ## 7       +        +           -        -      +    +   -     +    -     0
-    ## 8       +        +           -        -      +    +   -     +    -     0
-    ## 9       +        +           -        -      +    +   -     +    -     0
-    ##   retractedTongueRoot advancedTongueRoot periodicGlottalSource
-    ## 1                   0                  0                     +
-    ## 2                   0                  0                     +
-    ## 3                   0                  0                     +
-    ## 4                   0                  0                     +
-    ## 5                   0                  0                     +
-    ## 6                   0                  0                     +
-    ## 7                   0                  0                     +
-    ## 8                   0                  0                     +
-    ## 9                   0                  0                     +
-    ##   epilaryngealSource spreadGlottis constrictedGlottis fortis
-    ## 1                  -             -                  -      -
-    ## 2                  -             -                  -      -
-    ## 3                  -             -                  -      -
-    ## 4                  -             -                  -      -
-    ## 5                  -             -                  -      -
-    ## 6                  -             -                  -      -
-    ## 7                  -             -                  -      -
-    ## 8                  -             -                  -      -
-    ## 9                  -             -                  -      -
-    ##   raisedLarynxEjective loweredLarynxImplosive click family_id parent_id   name
-    ## 1                    -                      -     -  atla1278  igbo1259   Igbo
-    ## 2                    -                      -     -  atla1278  igbo1259   Igbo
-    ## 3                    -                      -     -  atla1278  zamb1244    Fwe
-    ## 4                    -                      -     -  atla1278  cent2260   Yeyi
-    ## 5                    -                      -     -  atla1278  mach1269 Subiya
-    ## 6                    -                      -     -  atla1278  mach1269 Totela
-    ## 7                    -                      -     -  atla1278  iten1244   Eten
-    ## 8                    -                      -     -  atla1278  iten1244   Eten
-    ## 9                    -                      -     -  atla1278  sout3163 Irigwe
-    ##      level  latitude longitude iso639P3code revision
-    ## 1 language   4.62705   7.23441          ibo    other
-    ## 2 language   4.62705   7.23441          ibo    other
-    ## 3 language -17.72372  24.43151          fwe    other
-    ## 4 language -18.91780  23.60880          yey    other
-    ## 5 language -17.56960  24.88670          sbs    other
-    ## 6 language -16.95750  24.37510          ttl    other
-    ## 7 language   9.73073   8.61443          etx    other
-    ## 8 language   9.73073   8.61443          etx    other
-    ## 9 language   9.85197   8.65250          iri    other
+En s’interéssant aux données de PHOIBLE, on retrouve dans 25 langues
+non-indo-européennes pour 29 inventaires un segment représenté par /rʲ/
+(et ses dérivés non-voisés ou rétractés). Des 29 inventaires, seulement
+8 ont des allophones reportés et il s’agit systématiquement du \[rʲ\].
+
+Pour les autres segments « simil-r » (ɽ, ɾ, ɻ), PHOIBLE comprend 22
+langues pour 24 inventaires.
+
+Pour les trills palatalisés, on a les familles de langues suivantes :
+
+``` r
+table_pala_trill %>% 
+  dplyr::select(family_id,InventoryID) %>% dplyr::distinct() %>% 
+  dplyr::select(family_id) %>%  table() %>% 
+  as.data.frame() -> compte_trill_fam
+```
+
+1.  1.  La famille linguistique ouralienne (Glotto : `ural1272`) (16
+        inventaires)
+    2.  La famille linguistique austronésienne (Glotto : `aust1305`) (1
+        inventaire)
+    3.  La famille linguistique austroasiatique (Glotto : `aust1305`) (1
+        inventaire)
+    4.  La famille linguistique atlantico-congolaise (Glotto :
+        `atla1278`) (6 inventaires)
+    5.  La famille linguistique mongolique (Glotto : `mong1329`) (3
+        inventaires)
+    6.  La famille linguistique dravidienne (Glotto : `drav1251`) (2
+        inventaires)
+
+Les familles où les autres segments « simil-r » palatalisés se
+retrouvent sont :
+
+``` r
+table_pala_other %>% 
+  dplyr::select(family_id,InventoryID) %>% dplyr::distinct() %>% 
+  dplyr::select(family_id) %>%  table() %>% 
+  as.data.frame() -> compte_other_fam
+```
+
+2.  1.  La famille linguistique atlantico-congolaise (Glotto :
+        `atla1278`) (8 inventaires)
+    2.  La famille linguistique ouralienne (Glotto : `ural1272`) (3
+        inventaires)
+    3.  La famille linguistique oto-mangue (Glotto : `otom1299`) (1
+        inventaire)
+    4.  La famille linguistique soudanique centrale (Glotto :
+        `cent2225`) (1 inventaire)
+    5.  La famille linguistique arawakienne (Glotto : `araw1281`) (7
+        inventaires)
+    6.  La famille linguistique arawane (Glotto : `araw1282`) (1
+        inventaire)
+    7.  La famille linguistique borane (Glotto : `bora1262`) (1
+        inventaire)
+    8.  La famille linguistique zaparoane (Glotto : `zapa1251`) (1
+        inventaire)
+    9.  La famille linguistique turcique (Glotto : `turk1311`) (1
+        inventaire)
+
+<!-- end list -->
+
+``` r
+base_world + 
+  ggplot2::geom_point(data = full_data_palatalization %>% 
+                        dplyr::select(Language,Latitude,Longitude,Value,revision) %>% 
+                        dplyr::mutate(revision = ifelse(revision == "trilled","TRILL","OTHER")) %>% 
+                        dplyr::distinct(), ggplot2::aes(x=Longitude, y=Latitude, fill=Value),
+             pch=21,size=2, alpha=1)+
+  ggplot2::scale_fill_viridis_d(name = "Variétés") +
+  ggplot2::ggtitle(NULL) + 
+  ggplot2::theme(legend.position="bottom") +
+  ggplot2::facet_grid(revision~.)
+```
+
+    ## Warning: Removed 3 rows containing missing values (`geom_point()`).
+
+![Distribution dans les langues du monde des rhotiques palatalisées.
+Dans PHOIBLE seuls les symboles suivants sont pris en compte : ɽ, ɾ et ɻ
+pour les langues classifiées comme OTHER (en haut) et r pour celles
+classifiées comme TRILL (en bas). Nous n’avons pas exclu les langues
+indoeuropéennes de PHOIBLE pour avoir un meilleur aperçu
+typologique.](Script_Chapitre_6_files/figure-gfm/unnamed-chunk-16-1.png)
+
+#### Exemple n°2 : Rhotiques et nasalisation
+
+``` r
+data_word_trill_nasalization <- (dplyr::filter(data_word_trill,stringr::str_detect(V1,"nasal") |
+                                                  stringr::str_detect(V2,"nasal")))$Language %>% unique()
+
+phoible %>% 
+  dplyr::filter(stringr::str_detect(Phoneme,"̃")|stringr::str_detect(Allophones,"̃")) %>% 
+  dplyr::filter(stringr::str_detect(Phoneme,"ɽ|ɾ|r|ɻ")) %>% 
+  dplyr::mutate(revision = ifelse(stringr::str_detect(Phoneme,"r"),"trilled","other"))%>% 
+  dplyr::select(Glottocode,latitude,longitude,revision) %>% 
+  dplyr::rename(Latitude = latitude,
+                Longitude = longitude) %>% 
+  dplyr::distinct() %>% 
+  dplyr::mutate(Value_1 = "phoible_rough") -> phoible_nasalization
+
+rough_r_data %>%
+  dplyr::filter(Language %in% data_word_trill_nasalization) %>% 
+  dplyr::select(Language,Latitude,Longitude,revision) %>% 
+  dplyr::mutate(Value = "gramm_rough") %>% 
+  dplyr::distinct() -> gramm_nasalization
+
+dplyr::full_join(phoible_nasalization,gramm_nasalization) %>% 
+  dplyr::mutate(Value = ifelse(is.na(Value),"Phoible","Grammars"),
+                Language = ifelse(is.na(Language),Glottocode,Language)) %>% 
+  dplyr::select(-Glottocode,-Value_1) -> full_data_nasalization
+```
+
+    ## Joining, by = c("Latitude", "Longitude", "revision")
+
+``` r
+full_data_nasalization$Value <- factor(full_data_nasalization$Value,levels = c("Phoible","Grammars"))
+```
+
+``` r
+base_world + 
+  ggplot2::geom_point(data = full_data_nasalization %>% 
+                        dplyr::select(Language,Latitude,Longitude,Value,revision) %>% 
+                        dplyr::mutate(revision = ifelse(revision == "trilled","TRILL","OTHER")) %>% 
+                        dplyr::distinct(), ggplot2::aes(x=Longitude, y=Latitude, fill=Value),
+             pch=21,size=2, alpha=1)+
+  ggplot2::scale_fill_viridis_d(name = "Variétés") +
+  ggplot2::ggtitle(NULL) + 
+  ggplot2::theme(legend.position="bottom") +
+  ggplot2::facet_grid(revision~.)
+```
+
+    ## Warning: Removed 3 rows containing missing values (`geom_point()`).
+
+![Distribution dans les langues du monde des rhotiques nasalisées. Dans
+PHOIBLE seuls les symboles suivants sont pris en compte : ɽ, ɾ et ɻ pour
+les langues classifiées comme OTHER (en haut) et r pour celles
+classifiées comme TRILL (en bas). Nous n’avons pas exclu les langues
+indoeuropéennes de PHOIBLE pour avoir un meilleur aperçu
+typologique.](Script_Chapitre_6_files/figure-gfm/unnamed-chunk-18-1.png)
+
+#### Exemple n°3 : Rhotiques et contraste de longueur
+
+``` r
+phoible %>% 
+  dplyr::filter(stringr::str_detect(Phoneme,"r|ɾ|ɽ")) %>% 
+  dplyr::group_by(InventoryID,Glottocode) %>% 
+  dplyr::count(LanguageName) %>% 
+  dplyr::filter(n > 1 & n < 10) -> language4contrast
+  
+phoible %>% 
+  dplyr::filter(stringr::str_detect(Phoneme,"r|ɾ|ɽ"))  %>% 
+  dplyr::filter(InventoryID %in% language4contrast$InventoryID) %>% 
+  dplyr::select(1:7,49:55)-> data4contrast
+
+data4contrast %>% 
+  dplyr::group_by(InventoryID,longitude,latitude) %>% 
+  dplyr::mutate(row_id = dplyr::row_number()) %>% 
+  dplyr::summarise(Phoneme = list(Phoneme)) ->  data4contrast
+```
+
+    ## `summarise()` has grouped output by 'InventoryID', 'longitude'. You can
+    ## override using the `.groups` argument.
+
+``` r
+data4contrast$Phoneme[[4]]
+```
+
+    ## [1] "ɽ" "ɾ"
+
+``` r
+# data4contrast %>% 
+#   dplyr::mutate(tap_long = dplyr::case_when(stringr::str_detect(Phoneme,"ɾ(?!ː)") & stringr::str_detect(Phoneme,"ɾː") ~ 1,
+#                                               T ~ 0),
+#                 trill_long = dplyr::case_when(stringr::str_detect(Phoneme,"r(?!ː)") & stringr::str_detect(Phoneme,"rː") ~ 1,
+#                                               T ~ 0),
+#                 flap_long = dplyr::case_when(stringr::str_detect(Phoneme,"ɽ(?!ː)") & stringr::str_detect(Phoneme,"ɽː") ~ 1,
+#                                               T ~ 0),
+#                 tap_flap = dplyr::case_when(stringr::str_detect(Phoneme,"ɾ") & stringr::str_detect(Phoneme,"ɽ") ~ 1,
+#                                               T ~ 0),
+#                 trill_tap = dplyr::case_when(stringr::str_detect(Phoneme,"r") & stringr::str_detect(Phoneme,"ɾ") ~ 1,
+#                                               T ~ 0),
+#                 trill_flap = dplyr::case_when(stringr::str_detect(Phoneme,"r") & stringr::str_detect(Phoneme,"ɽ") ~ 1,
+#                                                T ~ 0)) -> data2contrast
+ 
+# save(data2contrast, file = "data/data2contrast.RData")
+load("data/data2contrast.RData")
+```
+
+``` r
+data2contrast_nonindo <- data2contrast %>% 
+   dplyr::filter(!(InventoryID %in% dplyr::filter(phoible,family_id == "indo1319")$InventoryID %>% unique()))
+ 
+data2contrast_indo <- data2contrast %>% 
+   dplyr::filter(InventoryID %in% dplyr::filter(phoible,family_id == "indo1319")$InventoryID %>% unique())
+
+data2contrast_nonindo %>% 
+  dplyr::mutate(sum_cols = tap_long+trill_long+flap_long+tap_flap+trill_tap+trill_flap) %>% 
+  dplyr::filter(sum_cols > 1) -> more_trills_nonindo
+
+data2contrast_indo %>% 
+  dplyr::mutate(sum_cols = tap_long+trill_long+flap_long+tap_flap+trill_tap+trill_flap) %>% 
+  dplyr::filter(sum_cols > 1) -> more_trills_indo
+```
+
+3.  1.  r contraste avec ɾ → 113 inventaires (auxquels il faudrait
+        ajouter 32 inventaires pour les langues indo-européennes)
+    2.  r contraste avec rː → 40 inventaires (auxquels il faudrait
+        ajouter 7 inventaires pour les langues indo-européennes)
+    3.  r contraste avec ɽ → 81 inventaires (auxquels il faudrait
+        ajouter 29 inventaires pour les langues indo-européennes)
+    4.  ɾ contraste avec ɽ → 41 inventaires (auxquels il faudrait
+        ajouter 21 inventaires pour les langues indo-européennes)
+    5.  ɾ contraste avec ɾː → 1 inventaire
+    6.  ɽ contraste avec ɽː → Non attesté (0)
+
+Dans 18 inventaires (auxquels il faudrait ajouter 5 inventaires pour les
+langues indo-européennes), on a un un contraste de longueur mettant en
+jeu au moins plus de trois rhotiques. Il peut s’agir des triplets /r ɽ
+ɾ/ et /r rː ɽ/.
+
+``` r
+data_word_trill_gemination <- (dplyr::filter(data_word_trill,stringr::str_detect(V1,"gemination") |
+                                                  stringr::str_detect(V2,"gemination")))$Language %>% unique()
+
+phoible %>% 
+  dplyr::select(InventoryID,Glottocode) %>% dplyr::distinct() %>% 
+  dplyr::right_join(data2contrast) %>% 
+  dplyr::mutate(revision = ifelse(stringr::str_detect(Phoneme,"r"),"trilled","other"))%>% 
+  dplyr::select(Glottocode,latitude,longitude,revision) %>% 
+  dplyr::rename(Latitude = latitude,
+                Longitude = longitude) %>% 
+  dplyr::distinct() %>% 
+  dplyr::mutate(Value_1 = "phoible_rough") -> phoible_gemination
+```
+
+    ## Joining, by = "InventoryID"
+
+    ## Warning in stri_detect_regex(string, pattern, negate = negate, opts_regex =
+    ## opts(pattern)): argument is not an atomic vector; coercing
+
+``` r
+rough_r_data %>%
+  dplyr::filter(Language %in% data_word_trill_gemination) %>% 
+  dplyr::select(Language,Latitude,Longitude,revision) %>% 
+  dplyr::mutate(Value = "gramm_rough") %>% 
+  dplyr::distinct() -> gramm_gemination
+
+dplyr::full_join(phoible_gemination,gramm_gemination) %>% 
+  dplyr::mutate(Value = ifelse(is.na(Value),"Phoible","Grammars"),
+                Language = ifelse(is.na(Language),Glottocode,Language)) %>% 
+  dplyr::select(-Glottocode,-Value_1) -> full_data_gemination
+```
+
+    ## Joining, by = c("Latitude", "Longitude", "revision")
+
+``` r
+full_data_gemination$Value <- factor(full_data_gemination$Value,levels = c("Phoible","Grammars"))
+```
+
+``` r
+base_world + 
+  ggplot2::geom_point(data = full_data_gemination %>% 
+                        dplyr::select(Language,Latitude,Longitude,Value,revision) %>% 
+                        dplyr::mutate(revision = ifelse(revision == "trilled","TRILL","OTHER")) %>% 
+                        dplyr::distinct(), ggplot2::aes(x=Longitude, y=Latitude, fill=Value),
+             pch=21,size=2, alpha=1)+
+  ggplot2::scale_fill_viridis_d(name = "Variétés") +
+  ggplot2::ggtitle(NULL) + 
+  ggplot2::theme(legend.position="bottom") +
+  ggplot2::facet_grid(revision~.)
+```
+
+    ## Warning: Removed 23 rows containing missing values (`geom_point()`).
+
+![Distribution dans les langues du monde des contrastes de longueurs
+pour les rhotiques. Dans PHOIBLE seuls les symboles suivants sont pris
+en compte : ɽ et ɾ pour les langues classifiées comme OTHER (en haut) et
+r pour celles classifiées comme TRILL (en bas). Nous n’avons pas exclu
+les langues indo-européennes de PHOIBLE pour avoir un meilleur aperçu
+typologique.](Script_Chapitre_6_files/figure-gfm/unnamed-chunk-22-1.png)
+
+Pour ne pas avoir à travailler sur toutes les données de manière
+exhaustive, nous avons préféré échantillonner nos données. Nous avons
+obtenu un échantillon aléatoire de six langues pour le contraste entre
+/r/ et /rː/.
+
+``` r
+# J'avais oublié de mettre un set.seed()
+# data2contrast_nonindo %>% 
+#   dplyr::mutate(sum_cols = tap_long+trill_long+flap_long+tap_flap+trill_tap+trill_flap) %>% 
+#   dplyr::filter(trill_long > 0) %>% 
+#   dplyr::ungroup() %>%
+#   dplyr::sample_n(6)
+
+echant_long_trill <- c(1442, 879, 1552,1419,2156,1418)
+
+
+phoible %>%
+  dplyr::filter(InventoryID %in% echant_long_trill) %>%
+  dplyr::select(Glottocode,LanguageName) %>% dplyr::distinct()
+```
+
+    ##   Glottocode   LanguageName
+    ## 1   kara1476      Garadjari
+    ## 2   kron1241         Krongo
+    ## 3   kang1288  Kanga (Kanga)
+    ## 4   jams1239  Jamsay, Dogon
+    ## 5   east2652 Oromo, Eastern
+    ## 6   amha1245        Amharic
+
+``` r
+# J'avais oublié de mettre un set.seed()
+# data2contrast_nonindo %>% 
+# dplyr::mutate(sum_cols = tap_long+trill_long+flap_long+tap_flap+trill_tap+trill_flap) %>% 
+# dplyr::filter(tap_flap > 0) %>% 
+# dplyr::ungroup() %>%
+# dplyr::sample_n(8)
+
+echant_tap_flap <- c(1729   , 1777, 1849,1788,11, 2481,1787,1749)
+
+phoible %>%
+  dplyr::filter(InventoryID %in% echant_tap_flap) %>%
+  dplyr::select(Glottocode,LanguageName) %>% dplyr::distinct()
+```
+
+    ##   Glottocode LanguageName
+    ## 1   khar1287       Kharia
+    ## 2   hooo1248           Ho
+    ## 3   kork1243        Korku
+    ## 4   duru1236        Parji
+    ## 5   sora1254        Soːra
+    ## 6   tami1289        Tamil
+    ## 7   paum1247      Paumarí
+    ## 8   kond1303        Konda
+
+Enfin, nous nous intéressons au contraste entre /ɾ/ et /ɽ/. Nous
+échantillonnons pour huit langues.
+
+``` r
+base_world + 
+  ggplot2::geom_point(data = data4contrast, ggplot2::aes(x=longitude, y=latitude),
+             pch=21,size=2, alpha=1,fill="#FDE725FF")+
+  ggplot2::ggtitle(NULL) 
+```
+
+    ## Warning: Removed 23 rows containing missing values (`geom_point()`).
+
+![Distribution de tous les contrastes de longueurs des rhotiques dans
+les langues de PHOIBLE selon les six critères de sélection de présence
+des segments dans les inventaires : /r/ en opposition à /ɾ/, /r/ en
+opposition à /rː/, /r/ en opposition à /ɽ/, /ɾ/ en opposition à /ɽ/, /ɾ/
+en opposition à /ɾː/, /ɽ/ en opposition à /ɽː/. Il s’agit de langues où
+la présence des oppositions dans les rhotiques peut influencer
+positivement la présence des trills phonétiques. Chaque point jaune
+serait donc idéalement une langue avec un trill phonétique (ce qui n’est
+pas le cas dans les
+faits).](Script_Chapitre_6_files/figure-gfm/unnamed-chunk-25-1.png)
