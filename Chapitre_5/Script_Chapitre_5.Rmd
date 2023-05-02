@@ -21409,6 +21409,10 @@ rough_r_data <- rough_r_data %>%
 ## Résultat du recodage
 
 ```{r}
+rough_r_data$revision[rough_r_data$revision == "NA"] <- "NA_"
+```
+
+```{r}
 #save(rough_r_data, file = "data_replication/rough_r_data.RData")
 #write.csv(rough_r_data, "data_replication/rough_r_data.csv", row.names=FALSE)
 ```
@@ -21431,7 +21435,7 @@ table_changes_2 <- table_changes %>%
                                                    revision == "OUT" ~ "Contrast",
                                                    revision == "other" ~ "OTHER",
                                                    revision == "trilled" ~ "TRILL",
-                                                   is.na(revision) ~ "NA"),
+                                                   revision == "NA_" ~ "NA"),
                        revision = ifelse(is.na(revision),"NA",revision),
                        Data = ifelse(revision %in% c("TRILL","OTHER"),"Included","Excluded"))
 
