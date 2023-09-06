@@ -3432,25 +3432,25 @@ rough_r_data <- rough_r_data %>%
   dplyr::mutate(revision = ifelse(Language=="Lower Sorbian",'trilled',revision))
 ```
 
-# Summary
+# Summary (si on ajoute plus de données par langue)
 
 ```{r}
 #On rajoute les informations manquantes mais déjà présentes dans le tablea
-rough_r_data <- rough_r_data %>% 
-  dplyr::group_by(Language) %>% 
-  tidyr::fill(ISO_code,Phoible_code,Trill,Latitude,Longitude,Family,Branch,Area,Continent,R_type,revision,.direction = "downup")
+# rough_r_data <- rough_r_data %>% 
+#   dplyr::group_by(Language) %>% 
+#   tidyr::fill(ISO_code,Phoible_code,Trill,Latitude,Longitude,Family,Branch,Area,Continent,R_type,revision,.direction = "downup")
   
 ```
 
 
 ```{r}
-rough_r_data %>%
-  #dplyr::filter(Language %in% nb_langue$Language) %>% 
-  dplyr::filter(Meaning %in% c("rough", "smooth")) %>% 
-  dplyr::select(Language,Dataset,Meaning,Form) %>% 
-  dplyr::group_by(Language) %>% 
-  dplyr::mutate(nb_row = dplyr::n()) %>% 
-  dplyr::ungroup() %>% dplyr::filter(nb_row<2)
+# rough_r_data %>%
+#   #dplyr::filter(Language %in% nb_langue$Language) %>% 
+#   dplyr::filter(Meaning %in% c("rough", "smooth")) %>% 
+#   dplyr::select(Language,Dataset,Meaning,Form) %>% 
+#   dplyr::group_by(Language) %>% 
+#   dplyr::mutate(nb_row = dplyr::n()) %>% 
+#   dplyr::ungroup() %>% dplyr::filter(nb_row<2)
 ```
 
 
