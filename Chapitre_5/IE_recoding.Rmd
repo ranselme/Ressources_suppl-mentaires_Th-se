@@ -2867,7 +2867,7 @@ https://en.wikipedia.org/wiki/Polish_language
   - Tap/trill 		ɾ  
   
 https://en.wikipedia.org/wiki/Polish_phonology  
-  - Tap/trill 		r^[d]  
+  - Tap/trill 		r ^ [d]  
   - [d] The /r/ phoneme is alternatively transcribed /ɾ/.  
   - /r/ is apical alveolar. It has been traditionally classified as a trill [r̺], with a tap [ɾ̺] supposedly only occurring as an allophone or in fast speech.[77] However, more recent studies show that /r/ is predominantly realized as a tap [ɾ̺], sometimes as an approximant or a fricative, but almost never as a trill.[78][79] One study found that in an intervocalic context a trilled [r] occurs in less than 3% of cases, while a tapped [ɾ] occurred in approximately 95% of cases. Another study by the same researcher showed that in a postconsonantal position, /r/ is realized as a tapped [ɾ] in 80–90% of cases, while trilled [r] occurs in just 1.5% of articulations.[80] A palatalized laminal tap [ɾ̻ʲ] is used before /i, j/ in recent loanwords.[76]  
   [77] Rocławski, Bronisław (1976), Zarys fonologii, fonetyki, fonotaktyki i fonostatystyki współczesnego języka polskiego [Outline of phonology, phonetics, phonotactics and phonostatistics of the contemporary Polish language] (in Polish), Wydawnictwo Uczelniane Uniwersytetu Gdańskiego  
@@ -3477,7 +3477,7 @@ rough_r_data <- rough_r_data %>%
 ```
 
 
-## Résultat du recodage
+# Résultat du recodage
 
 On reprend le même code que dans `Script_Chapitre_5.Rmd`.
 
@@ -3509,12 +3509,28 @@ rough_r_data %>%
   dplyr::group_by(Trill) %>% 
   dplyr::distinct() %>% dplyr::select(revision) %>% 
   table() %>% as.data.frame() -> table_changes
+
+table_changes_ss_IE <- rough_r_data %>% 
+  dplyr::filter(Family != "Indo-European")  %>% 
+  dplyr::select(Language,revision,Trill) %>% 
+  dplyr::filter(!is.na(revision)) %>% 
+  dplyr::group_by(Trill) %>% 
+  dplyr::distinct() %>% dplyr::select(revision) %>% 
+  table() %>% as.data.frame() 
+
+table_changes_IE <- rough_r_data %>% 
+  dplyr::filter(Family == "Indo-European")  %>% 
+  dplyr::select(Language,revision,Trill) %>% 
+  dplyr::filter(!is.na(revision)) %>% 
+  dplyr::group_by(Trill) %>% 
+  dplyr::distinct() %>% dplyr::select(revision) %>% 
+  table() %>% as.data.frame()
 ```
 
-L’analyse originelle comportait `r sum(table_changes$Freq)` langues. De ces langues nous n’en avons gardé que `r sum(table_changes[table_changes$revision=="other",]$Freq) + sum(table_changes[table_changes$revision=="trilled",]$Freq)` pour `r nrow(unique(dplyr::filter(rough_r_data, !is.na(revision) & revision=="trilled" | revision=="other") %>%  dplyr::select(Family)))` familles de langues après notre recodage.
+L’analyse originelle comportait `r sum(table_changes_ss_IE$Freq)` langues. De ces langues nous n’en avons gardé que `r sum(table_changes_ss_IE[table_changes_ss_IE$revision=="other",]$Freq) + sum(table_changes_ss_IE[table_changes_ss_IE$revision=="trilled",]$Freq)` pour `r nrow(unique(dplyr::filter(rough_r_data, !is.na(revision) & revision=="trilled" | revision=="other") %>%  dplyr::select(Family)))` familles de langues après notre recodage, et à ces langues nous avons aussi rajoutés des langues indo-européennes pour arriver à un total de `r sum(table_changes$Freq)` langues. 
 
 ```{r}
-table_changes_2 <- table_changes %>% 
+table_changes_2_ss_IE <- table_changes_ss_IE %>% 
          dplyr::mutate(Trill = ifelse(Trill=="yes","Trill","Other"),
                        revision = dplyr::case_when(revision == "ERROR" ~ "Error",
                                                    revision == "OUT" ~ "Contrast",
@@ -3522,16 +3538,32 @@ table_changes_2 <- table_changes %>%
                                                    revision == "trilled" ~ "TRILL",
                                                    revision == "NA_" ~ "NA"),
                        revision = ifelse(is.na(revision),"NA",revision),
-                       Data = ifelse(revision %in% c("TRILL","OTHER"),"Included","Excluded"))
+                       Data = ifelse(revision %in% c("TRILL","OTHER"),"Included","Excluded"),
+                       family = "Non-IE")
 
-table_changes_2$revision <- factor(table_changes_2$revision,levels = c("OTHER","Contrast","Error","NA","TRILL"))
+table_changes_2_ss_IE$revision <- factor(table_changes_2_ss_IE$revision,levels = c("OTHER","Contrast","Error","NA","TRILL")) 
+
+table_changes_2_IE <- table_changes_IE %>% 
+         dplyr::mutate(Trill = ifelse(Trill=="yes","Trill","Other"),
+                       revision = dplyr::case_when(revision == "ERROR" ~ "Error",
+                                                   revision == "OUT" ~ "Contrast",
+                                                   revision == "other" ~ "OTHER",
+                                                   revision == "trilled" ~ "TRILL",
+                                                   revision == "NA_" ~ "NA"),
+                       revision = ifelse(is.na(revision),"NA",revision),
+                       Data = ifelse(revision %in% c("TRILL","OTHER"),"Included","Excluded"),
+                       family = "IE")
+
+table_changes_2_IE$revision <- factor(table_changes_2_IE$revision,levels = c("OTHER","Contrast","Error","NA","TRILL"))
+
+table_changes_2 <- dplyr::bind_rows(table_changes_2_ss_IE,table_changes_2_IE)
 ```
 
 
 ```{r fig.cap=capFig("Diagramme illustrant le re-codage des langues en fonction des informations collectées. A gauche le compte des langues telles que codées par Winter et al., au milieu les conclusions de notre processus de révision des valeurs de trill/other dans les langues, à droite le compte des langues inclues ou exclues dans notre réplication.")}
 #Adapté de quelque part sur Internet
 ggplot2::ggplot(data = table_changes_2,
-       ggplot2::aes(axis1 = Trill, axis2 = revision, axis3 = Data, y = Freq)) +
+       ggplot2::aes(axis0 = family, axis1 = Trill, axis2 = revision, axis3 = Data, y = Freq)) +
   ggalluvial::geom_alluvium(ggplot2::aes(fill = revision)) +
   ggalluvial::geom_stratum() +
   ggplot2::geom_text(stat = ggalluvial::StatStratum,
@@ -3608,4 +3640,130 @@ base_world +
   ggplot2::theme(legend.position="bottom") +
   ggplot2::guides(fill=ggplot2::guide_legend(override.aes=list(shape = 21)))
 
+```
+
+
+Le code est très largement adapté de celui de Winter et al. (2022).
+
+```{r}
+
+source("donnees_winter2022/scripts/rough_helper.r")
+
+xling <- readr::read_csv("donnees_winter2022/final_data/cross_linguistic.csv") %>%
+  dplyr::filter(Meaning %in% c("rough","smooth"),
+         Family!="Indo-European")
+
+xling$Meaning <- paste0("‘", xling$Meaning, "’")
+xling$Meaning.f <- factor(xling$Meaning)#, levels=c("‘smooth’", "‘rough’"))
+# only Google TRS data for Basque:
+xling <- dplyr::filter(xling, !(Language=="Basque" & Dataset=="CLICS"))
+
+
+# some languages happen to have more than one rough / smooth words (very small minority!)
+# reduce to single data point via majority rule:
+xling_single <- xling %>%
+  dplyr::filter(Trill=="yes") %>%
+  dplyr::group_by(Language,Meaning.f) %>%
+  dplyr::summarise(r = as.logical(round(mean(r))),
+            Longitude=Longitude[1],
+            Latitude=Latitude[1]) %>%
+  dplyr::ungroup()
+
+data_R_revision <- rough_r_data 
+
+xling_revision <- data_R_revision %>%
+  dplyr::filter(Meaning %in% c("rough","smooth")) %>% 
+  dplyr::mutate(Trill = dplyr::case_when(revision == "trilled" ~ "yes",
+                                         revision == "other" ~ "no",
+                                         revision %in% c("OUT","NA") ~ "OUT")) %>% 
+  dplyr::filter(Trill != "OUT")
+
+IE_languages <- dplyr::filter(data_R_revision, Family=="Indo-European")
+
+xling_revision$Meaning <- paste0("‘", xling_revision$Meaning, "’")
+xling_revision$Meaning.f <- factor(xling_revision$Meaning)#, levels=c("‘smooth’", "‘rough’"))
+
+# some languages happen to have more than one rough / smooth words (very small minority!)
+# reduce to single data point via majority rule:
+xling_single_revision <- xling_revision %>%
+  dplyr::filter(Trill=="yes") %>%
+  dplyr::group_by(Language,Meaning.f) %>%
+  dplyr::summarise(r = as.logical(round(mean(r))),
+            Longitude=Longitude[1],
+            Latitude=Latitude[1]) %>%
+  dplyr::ungroup()
+
+
+r_col <- "#440154FF"
+other_col <- "#FDE725FF"
+
+world <- rnaturalearth::ne_countries(scale = "medium", returnclass = "sf")
+
+theme_rough <- 
+ggplot2::theme_classic() + 
+  ggplot2::theme(legend.position = "none",
+        legend.key.height = ggplot2::unit(2,"line"),
+        legend.title = ggplot2::element_blank(),
+        legend.text = ggplot2::element_text(size = 12),
+        legend.background = ggplot2::element_rect(fill = "transparent"),
+        strip.background = ggplot2::element_blank(),
+        strip.text = ggplot2::element_text(size = 12, face = "bold"),
+        panel.spacing = ggplot2::unit(2, "lines"),
+        panel.border = ggplot2::element_blank(),
+        plot.background = ggplot2::element_rect(fill = "transparent", colour = NA),
+        panel.background = ggplot2::element_rect(fill = "transparent"),
+        strip.text.y =ggplot2:: element_text(size = 12, hjust = 0),
+        axis.text.x = ggplot2::element_text(size = 12, colour="black", face="bold"),
+        axis.text.y = ggplot2::element_text(size = 12, colour="black"),
+        axis.line = ggplot2::element_blank(),
+        axis.ticks.x = ggplot2::element_blank(),
+        axis.title = ggplot2::element_text(size = 12, face = "bold"),
+        plot.title = ggplot2::element_text(size = 14, face = "bold"),
+        plot.margin = ggplot2::unit(c(0.4,0.4,0.4,0.4),"cm"))
+```
+
+
+```{r fig.cap=capFig("Distribution des langues incluses dans l’analyse originale de Winter et al. (2022). Deux groupes sont inclus : les langues TRILL et les langues OTHER. Les langues Indo-Européennes n'e sont  pas incluses."), fig.width=9, fig.height=3}
+ggplot2::ggplot(world) +
+  ggplot2::geom_sf(size=0.2, col="white", fill="lightgrey") +
+  ggplot2::coord_sf(xlim = c(-180, 180), ylim = c(-60, 80), datum=NA) +
+  ggplot2::geom_point(data = dplyr::filter(xling_single, !(Language %in% IE_languages$Language)), ggplot2::aes(x = Longitude, y = Latitude, fill = r, group = NA),
+             alpha = 0.8, size = 2.5,
+             col="black", pch=21, stroke=0.1,
+             position = ggplot2::position_jitter(width=2.5,height=2.5,seed=1)) +
+  ggplot2::facet_grid(~Meaning.f) +
+  ggplot2::scale_fill_manual(breaks = c(F,T), values = c(other_col, r_col), labels=c("no /r/", "contains /r/")) +
+  ggplot2::labs(title = "Trilled /r/ in the words ‘rough’ and ‘smooth’ cross-linguistically \n(Original study)") +
+  theme_rough +
+  ggplot2::theme(
+    legend.position = "bottom",
+    axis.title = ggplot2::element_blank(),
+    axis.text = ggplot2::element_blank(),
+    axis.line = ggplot2::element_blank(),
+    axis.ticks = ggplot2::element_blank(),
+    plot.margin = ggplot2::unit(c(0.1,0.4,-0.4,0.4),"cm"),
+    panel.spacing = ggplot2::unit(0, "lines"))
+```
+
+
+```{r fig.cap=capFig("Distribution des langues incluses dans la nouvelle analyse. Deux groupes sont inclus : les langues TRILL et les langues OTHER."), fig.width=9, fig.height=3}
+ggplot2::ggplot(world) +
+  ggplot2::geom_sf(size=0.2, col="white", fill="lightgrey") +
+  ggplot2::coord_sf(xlim = c(-180, 180), ylim = c(-60, 80), datum=NA) +
+  ggplot2::geom_point(data = xling_single_revision, ggplot2::aes(x = Longitude, y = Latitude, fill = r, group = NA),
+             alpha = 0.8, size = 2.5,
+             col="black", pch=21, stroke=0.1,
+             position = ggplot2::position_jitter(width=2.5,height=2.5,seed=1)) +
+  ggplot2::facet_grid(~Meaning.f) +
+  ggplot2::scale_fill_manual(breaks = c(F,T), values = c(other_col, r_col), labels=c("no /r/", "contains /r/")) +
+  ggplot2::labs(title = "Trilled /r/ in the words ‘rough’ and ‘smooth’ cross-linguistically \n(Replication)") +
+  theme_rough +
+  ggplot2::theme(
+    legend.position = "bottom",
+    axis.title = ggplot2::element_blank(),
+    axis.text = ggplot2::element_blank(),
+    axis.line = ggplot2::element_blank(),
+    axis.ticks = ggplot2::element_blank(),
+    plot.margin = ggplot2::unit(c(0.1,0.4,-0.4,0.4),"cm"),
+    panel.spacing = ggplot2::unit(0, "lines"))
 ```
